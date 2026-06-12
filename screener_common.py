@@ -1395,6 +1395,8 @@ def get_universe_screener(token: str) -> List[Dict]:
             })
 
         log.info(f"  Screener page {page}: {page_count} saham baru")
+        if page_count == 0:
+            break  # Semua saham di halaman ini sudah duplikat — halaman berikutnya pasti sama
 
     log.info(f"  Screener Volume Explosion total: {len(result)} saham ({max_pages} page maks)")
     return result
@@ -1508,6 +1510,8 @@ def get_universe_top_value(token: str) -> List[Dict]:
             })
 
         log.debug(f"  Top Value page {page}: {page_count} saham baru")
+        if page_count == 0:
+            break  # Semua saham di halaman ini sudah duplikat — halaman berikutnya pasti sama
 
     log.info(f"  Top Value total: {len(result)} saham ({max_pages} page maks)")
     return result
@@ -1596,6 +1600,8 @@ def get_universe_guru_screener(token: str) -> List[Dict]:
                 })
 
             log.info(f"  Guru {template_id} ({label}) p{page}: {count} saham baru")
+            if count == 0:
+                break  # Semua saham di halaman ini sudah duplikat — halaman berikutnya pasti sama
 
     log.info(f"  Guru Screener total: {len(result)} saham unik ({total_requests} request)")
     return result
