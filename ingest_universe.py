@@ -220,96 +220,87 @@ def _normalize_bulk_df(raw) -> "Optional[pd.DataFrame]":
     return raw.reset_index(drop=True) if not raw.empty else None
 
 
-def _fetch_one_timeframe(
+def _fetch_one_chunk(
     tf_label: str,
     interval: str,
     period: str,
     cache_key: str,
     is_intraday: bool,
-    chunks: list,
+    chunk: list,
+    chunk_idx: int,
+    n_chunks: int,
     yf_to_raw: dict,
-    sleep: float,
 ) -> dict:
     """
-    Worker function untuk 1 timeframe (semua chunk-nya diproses sequential di sini).
+    Worker function: download SATU chunk untuk SATU timeframe.
 
-    Dipanggil dari ThreadPoolExecutor — 4 timeframe jalan bersamaan.
+    Dipanggil dari ThreadPoolExecutor — semua kombinasi (timeframe × chunk)
+    jalan bersamaan, max MAX_WORKERS task serentak.
 
     Thread-safety:
-    - Parquet write: setiap file unik per ticker+tf → TIDAK ADA 2 thread write ke file sama.
-    - _weekly_cache / _monthly_cache: hanya thread "1wk" yang tulis ke _weekly_cache,
-      hanya thread "1mo" yang tulis ke _monthly_cache → TIDAK ADA race condition.
-    - yf.download() adalah HTTP GET saja → thread-safe.
+    - Parquet write: file unik per ticker+tf → tidak ada konflik antar thread.
+    - _weekly_cache[key] = df: hanya task 1wk yang tulis ke _weekly_cache,
+      tiap key (ticker) berbeda antar task → CPython dict assignment atomic (GIL).
+    - _monthly_cache[key] = df: sama.
+    - yf.download() adalah HTTP GET → thread-safe.
 
-    Return: {"ok": int} — jumlah ticker yang berhasil di-cache.
+    Return: {"tf": str, "ok": int}
     """
-    total_tickers = sum(len(c) for c in chunks)
-    n_chunks = len(chunks)
-    tf_ok = 0
-
-    log.info(f"  [{tf_label}] Mulai download ({n_chunks} chunk, {total_tickers} saham)...")
-
-    for ci, chunk in enumerate(chunks, 1):
+    batch = None
+    try:
+        if is_intraday:
+            days_back = 59 if interval == "1h" else 7
+            today = datetime.now(tz=timezone.utc).date()
+            start_dt = today - timedelta(days=days_back)
+            batch = yf.download(
+                tickers=chunk,
+                start=start_dt.strftime("%Y-%m-%d"),
+                end=today.strftime("%Y-%m-%d"),
+                interval=interval,
+                group_by="ticker",
+                auto_adjust=True,
+                progress=False,
+            )
+        else:
+            batch = yf.download(
+                tickers=chunk,
+                period=period,
+                interval=interval,
+                group_by="ticker",
+                auto_adjust=True,
+                progress=False,
+            )
+    except Exception as e:
+        log.warning(f"  [{tf_label}] Chunk {chunk_idx}/{n_chunks} download error: {e}")
         batch = None
+
+    chunk_ok = 0
+    for yf_t in chunk:
+        raw_t = yf_to_raw.get(yf_t, yf_t)
         try:
-            if is_intraday:
-                days_back = 59 if interval == "1h" else 7
-                today = datetime.now(tz=timezone.utc).date()
-                start_dt = today - timedelta(days=days_back)
-                batch = yf.download(
-                    tickers=chunk,
-                    start=start_dt.strftime("%Y-%m-%d"),
-                    end=today.strftime("%Y-%m-%d"),
-                    interval=interval,
-                    group_by="ticker",
-                    auto_adjust=True,
-                    progress=False,
-                )
-            else:
-                batch = yf.download(
-                    tickers=chunk,
-                    period=period,
-                    interval=interval,
-                    group_by="ticker",
-                    auto_adjust=True,
-                    progress=False,
-                )
+            sub = _bulk_extract_ticker(batch, yf_t)
+            df  = _normalize_bulk_df(sub)
+            if df is None or len(df) < 10:
+                continue
+
+            if cache_key in ("1d", "1h"):
+                # Simpan ke parquet — dibaca oleh proses pipeline lain via _load_yf_cache
+                _save_yf_cache(raw_t, cache_key, df)
+            elif cache_key == "1wk":
+                # In-memory cache (untuk proses ini) + parquet (untuk proses pipeline lain)
+                _weekly_cache[raw_t] = df
+                _save_yf_cache(raw_t, "1wk", df)   # ← FIX: persist lintas proses
+            elif cache_key == "1mo":
+                # In-memory cache (untuk proses ini) + parquet (untuk proses pipeline lain)
+                _monthly_cache[raw_t] = df
+                _save_yf_cache(raw_t, "1mo", df)   # ← FIX: persist lintas proses
+
+            chunk_ok += 1
         except Exception as e:
-            log.warning(f"  [{tf_label}] Chunk {ci}/{n_chunks} download error: {e}")
-            batch = None
+            log.debug(f"  [{tf_label}] {raw_t}: {e}")
 
-        chunk_ok = 0
-        for yf_t in chunk:
-            raw_t = yf_to_raw.get(yf_t, yf_t)
-            try:
-                sub = _bulk_extract_ticker(batch, yf_t)
-                df  = _normalize_bulk_df(sub)
-                if df is None or len(df) < 10:
-                    continue
-
-                if cache_key in ("1d", "1h"):
-                    # Parquet: setiap ticker punya file sendiri → aman dari thread lain
-                    _save_yf_cache(raw_t, cache_key, df)
-                elif cache_key == "1wk":
-                    # Hanya thread ini yang tulis ke _weekly_cache → no race condition
-                    _weekly_cache[raw_t] = df
-                elif cache_key == "1mo":
-                    # Hanya thread ini yang tulis ke _monthly_cache → no race condition
-                    _monthly_cache[raw_t] = df
-
-                chunk_ok += 1
-            except Exception as e:
-                log.debug(f"  [{tf_label}] {raw_t}: {e}")
-
-        tf_ok += chunk_ok
-        log.info(f"  [{tf_label}] Chunk {ci:>2}/{n_chunks} → {chunk_ok}/{len(chunk)} OK")
-
-        # Sleep antar chunk di dalam thread masing-masing (tidak memblokir thread lain)
-        if ci < n_chunks:
-            time.sleep(sleep)
-
-    log.info(f"  [{tf_label}] ✓ Selesai: {tf_ok}/{total_tickers} berhasil")
-    return {"tf": tf_label, "cache_key": cache_key, "ok": tf_ok}
+    log.info(f"  [{tf_label}] Chunk {chunk_idx:>2}/{n_chunks} → {chunk_ok}/{len(chunk)} OK")
+    return {"tf": tf_label, "ok": chunk_ok}
 
 
 def prefetch_ohlcv(universe):
@@ -317,17 +308,20 @@ def prefetch_ohlcv(universe):
     Bulk download semua data OHLCV ke local cache menggunakan yf.download()
     multi-ticker (50 ticker/chunk).
 
-    4 timeframe (1d, 1h, 1wk, 1mo) dijalankan PARALEL menggunakan ThreadPoolExecutor.
-    Setiap thread menangani 1 timeframe penuh (semua chunk-nya sequential di dalam thread).
+    Semua kombinasi (timeframe × chunk) dijalankan sebagai task paralel
+    dalam satu ThreadPoolExecutor (max_workers=8).
 
-    Thread-safety:
-    - Parquet (1d, 1h): setiap file unik per ticker+tf, tidak ada konflik tulis.
-    - _weekly_cache: hanya 1 thread ("1wk") yang menulis → no race condition.
-    - _monthly_cache: hanya 1 thread ("1mo") yang menulis → no race condition.
-    - yf.download() adalah HTTP GET → thread-safe.
+    Tidak ada sleep antar chunk — tidak diperlukan karena semua task sudah
+    jalan bersamaan dan Yahoo Finance toleran terhadap concurrent request
+    dalam skala ini.
+
+    Thread-safety (lihat _fetch_one_chunk untuk detail):
+    - Parquet write: unik per ticker+tf → no conflict.
+    - _weekly_cache / _monthly_cache: key berbeda antar thread → aman di CPython.
+    - yf.download(): HTTP GET → thread-safe.
     """
-    CHUNK = 50
-    SLEEP = 2.0
+    CHUNK       = 50
+    MAX_WORKERS = 8  # max concurrent yf.download() calls
 
     tickers_raw = [s.get("ticker", "") for s in universe if s.get("ticker")]
     yf_tickers  = [
@@ -336,48 +330,61 @@ def prefetch_ohlcv(universe):
     ]
     yf_to_raw = dict(zip(yf_tickers, tickers_raw))
 
-    total = len(yf_tickers)
-    log.info(f"\n📥 Bulk OHLCV pre-download — {total} saham (chunk={CHUNK}, 4 timeframe paralel)")
+    total    = len(yf_tickers)
+    chunks   = [yf_tickers[i:i + CHUNK] for i in range(0, total, CHUNK)]
+    n_chunks = len(chunks)
 
-    chunks = [yf_tickers[i:i + CHUNK] for i in range(0, total, CHUNK)]
-
-    # Konfigurasi 4 timeframe yang akan jalan bersamaan
     timeframes = [
         # (tf_label, interval, period, cache_key, is_intraday)
         ("1d",  "1d",  CONFIG.get("YF_PERIOD_DAILY", "2y"), "1d",  False),
         ("1h",  "1h",  CONFIG.get("YF_PERIOD_1H",    "60d"), "1h",  True),
-        ("1wk", "1wk", "max",  "1wk", False),
-        ("1mo", "1mo", "max",  "1mo", False),
+        ("1wk", "1wk", "max", "1wk", False),
+        ("1mo", "1mo", "max", "1mo", False),
     ]
 
-    results_map = {}  # tf_label → ok count
+    total_tasks = len(timeframes) * n_chunks
+    log.info(
+        f"\n📥 Bulk OHLCV — {total} saham | {n_chunks} chunk × {len(timeframes)} timeframe"
+        f" = {total_tasks} task | max_workers={MAX_WORKERS}"
+    )
 
-    # Jalankan 4 timeframe paralel — setiap thread = 1 timeframe penuh
-    with ThreadPoolExecutor(max_workers=4) as executor:
-        futures = {
-            executor.submit(
-                _fetch_one_timeframe,
+    # Buat semua task: setiap (timeframe × chunk) = 1 task independen
+    all_tasks = []
+    for tf_label, interval, period, cache_key, is_intraday in timeframes:
+        for ci, chunk in enumerate(chunks, 1):
+            all_tasks.append((
                 tf_label, interval, period, cache_key, is_intraday,
-                chunks, yf_to_raw, SLEEP,
-            ): tf_label
-            for tf_label, interval, period, cache_key, is_intraday in timeframes
-        }
+                chunk, ci, n_chunks, yf_to_raw,
+            ))
 
+    results_map = {"1d": 0, "1h": 0, "1wk": 0, "1mo": 0}
+
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = {
+            executor.submit(_fetch_one_chunk, *task): task[0]  # task[0] = tf_label
+            for task in all_tasks
+        }
         for future in as_completed(futures):
             tf_label = futures[future]
             try:
                 result = future.result()
-                results_map[tf_label] = result["ok"]
+                results_map[result["tf"]] += result["ok"]
             except Exception as e:
-                log.warning(f"  [{tf_label}] Thread error: {e}")
-                results_map[tf_label] = 0
+                log.warning(f"  Task error [{tf_label}]: {e}")
 
-    ok_1d = results_map.get("1d",  0)
-    ok_1h = results_map.get("1h",  0)
-    ok_wk = results_map.get("1wk", 0)
-    ok_mo = results_map.get("1mo", 0)
+    ok_1d = results_map["1d"]
+    ok_1h = results_map["1h"]
+    ok_wk = results_map["1wk"]
+    ok_mo = results_map["1mo"]
 
-    log.info(f"✅ Bulk OHLCV selesai — 1d:{ok_1d} 1h:{ok_1h} 1wk:{ok_wk} 1mo:{ok_mo} (dari {total} saham)")
+    log.info(
+        f"✅ Bulk OHLCV selesai — "
+        f"1d:{ok_1d} 1h:{ok_1h} 1wk:{ok_wk} 1mo:{ok_mo} (dari {total} saham)"
+    )
+
+
+
+
 
 
 
