@@ -36,7 +36,7 @@ concurrency:
 # SHARED SETUP: dipakai semua job via composite action inline
 # ─────────────────────────────────────────────────────────────────────────────
 env:
-  PYTHON_VERSION: '3.11'
+  PYTHON_VERSION: '3.13'
   PIP_CACHE_DIR: ~/.cache/pip
 
 jobs:
