@@ -1,0 +1,399 @@
+name: "🇮🇩 Screener IDX — Paralel 7 Pipeline"
+
+# =============================================================================
+# JADWAL OTOMATIS:
+#   - Senin s/d Jumat jam 18:00 WIB (= 11:00 UTC)
+#   - Juga bisa dijalankan manual dari tab Actions → "Run workflow"
+#
+# ARSITEKTUR:
+#   Job 1  — ingest    : Login Stockbit, bangun universe, pre-download OHLCV
+#   Job 2-8 — pipelines: 7 pipeline jalan PARALEL (mesin berbeda)
+#   Job 9  — merge     : Gabung semua hasil, commit ke repo
+# =============================================================================
+
+on:
+  schedule:
+    # Setiap hari kerja Senin–Jumat jam 18:00 WIB = 11:00 UTC
+    - cron: '0 11 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      force_mode:
+        description: 'Override mode (kosongkan = AUTO)'
+        required: false
+        default: ''
+        type: choice
+        options:
+          - ''
+          - YAHOO_ONLY
+          - FULL_STOCKBIT
+
+# Satu workflow per branch — batalkan run sebelumnya jika ada yang baru
+concurrency:
+  group: screener-${{ github.ref }}
+  cancel-in-progress: true
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SHARED SETUP: dipakai semua job via composite action inline
+# ─────────────────────────────────────────────────────────────────────────────
+env:
+  PYTHON_VERSION: '3.11'
+  PIP_CACHE_DIR: ~/.cache/pip
+
+jobs:
+
+# =============================================================================
+# JOB 1: INGEST — Jalankan duluan, jadi fondasi untuk semua pipeline
+# =============================================================================
+  ingest:
+    name: "📡 Ingest Universe & OHLCV Cache"
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run ingest_universe.py
+        env:
+          STOCKBIT_USERNAME: ${{ secrets.STOCKBIT_USERNAME }}
+          STOCKBIT_PASSWORD: ${{ secrets.STOCKBIT_PASSWORD }}
+          FORCE_MODE:        ${{ github.event.inputs.force_mode }}
+        run: python ingest_universe.py
+
+      - name: Upload universe_data.json
+        uses: actions/upload-artifact@v4
+        with:
+          name: universe-data
+          path: universe_data.json
+          retention-days: 1
+
+      - name: Upload OHLCV cache
+        uses: actions/upload-artifact@v4
+        with:
+          name: ohlcv-cache
+          path: data_ohlc_cache/
+          retention-days: 1
+          # Tetap upload meskipun folder kosong
+          if-no-files-found: warn
+
+
+# =============================================================================
+# JOB 2–8: PIPELINE (jalan PARALEL setelah ingest selesai)
+# Masing-masing job mendapat mesin Ubuntu sendiri → total waktu = pipeline terlama
+# =============================================================================
+
+  pipeline-intraday:
+    name: "📊 Intraday (SMC + Bandarmology)"
+    needs: ingest
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - name: Download universe data
+        uses: actions/download-artifact@v4
+        with:
+          name: universe-data
+      - name: Download OHLCV cache
+        uses: actions/download-artifact@v4
+        with:
+          name: ohlcv-cache
+          path: data_ohlc_cache/
+      - name: Run pipeline
+        env:
+          STOCKBIT_USERNAME: ${{ secrets.STOCKBIT_USERNAME }}
+          STOCKBIT_PASSWORD: ${{ secrets.STOCKBIT_PASSWORD }}
+        run: python run_intraday.py
+      - name: Upload hasil
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-intraday
+          path: intraday_results.json
+          retention-days: 1
+
+  pipeline-ara:
+    name: "🚀 ARA (Auto Reject Atas v2)"
+    needs: ingest
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: universe-data
+      - uses: actions/download-artifact@v4
+        with:
+          name: ohlcv-cache
+          path: data_ohlc_cache/
+      - name: Run pipeline
+        env:
+          STOCKBIT_USERNAME: ${{ secrets.STOCKBIT_USERNAME }}
+          STOCKBIT_PASSWORD: ${{ secrets.STOCKBIT_PASSWORD }}
+        run: python run_ara.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-ara
+          path: ara_results.json
+          retention-days: 1
+
+  pipeline-bsjp:
+    name: "📈 BSJP (Beli Sore Jual Pagi)"
+    needs: ingest
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: universe-data
+      - uses: actions/download-artifact@v4
+        with:
+          name: ohlcv-cache
+          path: data_ohlc_cache/
+      - run: python run_bsjp.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-bsjp
+          path: bsjp_results.json
+          retention-days: 1
+
+  pipeline-bpjs:
+    name: "📉 BPJS (Beli Pagi Jual Sore)"
+    needs: ingest
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: universe-data
+      - uses: actions/download-artifact@v4
+        with:
+          name: ohlcv-cache
+          path: data_ohlc_cache/
+      - run: python run_bpjs.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-bpjs
+          path: bpjs_results.json
+          retention-days: 1
+
+  pipeline-swing:
+    name: "🌊 Swing (VCP Stage 2)"
+    needs: ingest
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: universe-data
+      - uses: actions/download-artifact@v4
+        with:
+          name: ohlcv-cache
+          path: data_ohlc_cache/
+      - run: python run_swing.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-swing
+          path: swing_results.json
+          retention-days: 1
+
+  pipeline-trend:
+    name: "📊 Trend Following (ADX+RSI+Weekly)"
+    needs: ingest
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: universe-data
+      - uses: actions/download-artifact@v4
+        with:
+          name: ohlcv-cache
+          path: data_ohlc_cache/
+      - run: python run_trend.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-trend
+          path: trend_results.json
+          retention-days: 1
+
+  pipeline-position:
+    name: "🏦 Position Trading (Near 52W High)"
+    needs: ingest
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: universe-data
+      - uses: actions/download-artifact@v4
+        with:
+          name: ohlcv-cache
+          path: data_ohlc_cache/
+      - run: python run_position.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-position
+          path: position_results.json
+          retention-days: 1
+
+
+# =============================================================================
+# JOB 9: MERGE — Gabung semua hasil, simpan file akhir, commit ke repo
+# =============================================================================
+  merge:
+    name: "🔀 Merge & Commit Output"
+    needs:
+      - pipeline-intraday
+      - pipeline-ara
+      - pipeline-bsjp
+      - pipeline-bpjs
+      - pipeline-swing
+      - pipeline-trend
+      - pipeline-position
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Tetap jalan meskipun ada pipeline yang gagal (agar output tidak hilang total)
+    if: always()
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          # Butuh token dengan write permission untuk push hasil
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download universe_data.json
+        uses: actions/download-artifact@v4
+        with:
+          name: universe-data
+        continue-on-error: true
+
+      - name: Download semua hasil pipeline
+        uses: actions/download-artifact@v4
+        with:
+          pattern: result-*
+          merge-multiple: true
+        continue-on-error: true
+
+      - name: Run merge_outputs.py
+        run: python merge_outputs.py
+
+      - name: Upload final artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screening-result-${{ github.run_id }}
+          path: |
+            latest_screening.json
+            combined_screening.json
+            combined_screening_*.json
+          retention-days: 30
+
+      - name: Commit & Push hasil ke repo
+        if: success()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add latest_screening.json combined_screening.json || true
+          # Tambahkan dated file jika ada
+          git add combined_screening_*.json || true
+          git diff --staged --quiet || git commit -m "chore: screening $(date +'%Y-%m-%d %H:%M') WIB [auto]"
+          git push || true
+
+      - name: Ringkasan hasil
+        if: always()
+        run: |
+          echo "=== RINGKASAN SCREENING ==="
+          if [ -f latest_screening.json ]; then
+            python3 -c "
+          import json
+          with open('latest_screening.json') as f:
+              d = json.load(f)
+          results = d.get('data', [])
+          print(f'Intraday: {len(results)} saham')
+          for s in results:
+              print(f'  - {s.get(\"ticker\",\"?\")} | Score: {s.get(\"score\",\"?\")} | {s.get(\"tier\",\"?\")}')
+          "
+          fi
+          if [ -f combined_screening.json ]; then
+            python3 -c "
+          import json
+          with open('combined_screening.json') as f:
+              d = json.load(f)
+          for key in ['logika_baru_calon_ara','bsjp_beli_sore_jual_pagi','bpjs_beli_pagi_jual_sore','swing_trading','trend_following','position_trading']:
+              items = d.get(key, [])
+              label = key.replace('_', ' ').upper()
+              print(f'{label}: {len(items)} kandidat')
+          "
+          fi

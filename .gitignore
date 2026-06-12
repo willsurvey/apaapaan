@@ -1,0 +1,32 @@
+# Cache & output
+data_ohlc_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Hasil screening (akan di-commit oleh workflow, bukan manual)
+# Hapus tanda # di bawah jika ingin track hasil di git:
+# latest_screening.json
+# combined_screening.json
+
+# File runtime sementara (antar job)
+universe_data.json
+intraday_results.json
+ara_results.json
+bsjp_results.json
+bpjs_results.json
+swing_results.json
+trend_results.json
+position_results.json
+
+# Env & secrets
+.env
+.env.local
+stockbit_session.json
+stockbit_token.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
