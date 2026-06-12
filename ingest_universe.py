@@ -298,12 +298,34 @@ def _fetch_one_timeframe(
             batch = None
 
         chunk_ok = 0
+        skip_batch_none = 0
+        skip_sub_none   = 0
+        skip_df_none    = 0
+        skip_short      = 0
+
+        # Log struktur kolom batch sekali di chunk 1 (untuk diagnosa jika bulk extract gagal)
+        if batch is not None and not batch.empty and ci == 1:
+            col_sample = str(list(batch.columns[:3]))
+            col_type   = type(batch.columns).__name__
+            log.info(f"  [{tf_label}] batch.columns type={col_type} sample={col_sample}")
+
+
         for yf_t in chunk:
             raw_t = yf_to_raw.get(yf_t, yf_t)
             try:
+                if batch is None:
+                    skip_batch_none += 1
+                    continue
                 sub = _bulk_extract_ticker(batch, yf_t)
-                df  = _normalize_bulk_df(sub)
-                if df is None or len(df) < 10:
+                if sub is None:
+                    skip_sub_none += 1
+                    continue
+                df = _normalize_bulk_df(sub)
+                if df is None:
+                    skip_df_none += 1
+                    continue
+                if len(df) < 10:
+                    skip_short += 1
                     continue
 
                 if cache_key in ("1d", "1h"):
@@ -318,6 +340,17 @@ def _fetch_one_timeframe(
                 chunk_ok += 1
             except Exception as e:
                 log.debug(f"  [{tf_label}] {raw_t}: {e}")
+
+        # Log skip reasons jika ada banyak yang gagal (>50% gagal)
+        total_chunk = len(chunk)
+        if chunk_ok < total_chunk // 2:
+            log.info(
+                f"  [{tf_label}] Chunk {ci} skip: "
+                f"batch_none={skip_batch_none} sub_none={skip_sub_none} "
+                f"df_none={skip_df_none} short={skip_short}"
+            )
+
+
 
         tf_ok += chunk_ok
         log.info(f"  [{tf_label}] Chunk {ci:>2}/{n_chunks} → {chunk_ok}/{len(chunk)} OK")
