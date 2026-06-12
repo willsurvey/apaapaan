@@ -38,12 +38,12 @@
         "ma50_slope": "POSITIVE"
       },
       "smc": {
-        "internal_structure": "BOS_BULLISH",
-        "swing_trend_bias": "BULLISH",
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BEARISH",
         "ob_zone": null,
-        "fvg_zone": null,
-        "strong_low": 803.2710555558352,
-        "weak_high": 866.3551635742188
+        "fvg_zone": "925 - 935",
+        "strong_low": 990.0,
+        "weak_high": 1115.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -67,26 +67,25 @@
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
         "tp1": 945,
         "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 975,
+        "tp2": 1115,
         "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 1005,
+        "tp3": 1150,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:4.7",
+        "rr_ratio": "1:14.3",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
       "scoring": {
-        "confidence_score": 65,
+        "confidence_score": 60,
         "tier": "MODERATE"
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
         "✅ Net Foreign Buy hari ini: Rp2.1B",
-        "✅ Internal BOS Bullish (1H)",
-        "✅ Swing Structure: BULLISH"
+        "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.06 WIB"
+      "updated_at": "18.02 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -97,7 +96,7 @@
   "position_trading": [],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-12 17:13:40 WIB",
+    "generated_at": "2026-06-12 18:07:36 WIB",
     "date": "2026-06-12",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -125,8 +124,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6007,
-    "ihsg_change_pct": 2.07,
+    "ihsg_close": 5886,
+    "ihsg_change_pct": -0.28,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
