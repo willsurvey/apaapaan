@@ -175,62 +175,75 @@ def prefetch_broker_and_liquidity(universe, token, mode):
 
 
 
-def _bulk_extract_ticker(batch_df, yf_ticker: str):
+def _extract_ticker_from_bulk(batch_df: pd.DataFrame, ticker: str) -> pd.DataFrame:
     """
-    Ekstrak sub-DataFrame 1 ticker dari hasil yf.download() multi-ticker.
-    Kompatibel dengan MultiIndex yfinance >= 0.2.x.
+    Mengekstrak sub-DataFrame satu ticker dari hasil yf.download(group_by='ticker').
+    yfinance >= 0.2.x: MultiIndex (Ticker=level0, Price=level1) ATAU (Price=level0, Ticker=level1).
+    Returns empty DataFrame jika tidak ditemukan (bukan None, agar lebih aman).
     """
     if batch_df is None or batch_df.empty:
-        return None
+        return pd.DataFrame()
+
     cols = batch_df.columns
     if isinstance(cols, pd.MultiIndex):
-        lvl0 = cols.get_level_values(0).unique().tolist()
-        lvl1 = cols.get_level_values(1).unique().tolist()
-        if yf_ticker in lvl0:
-            # MultiIndex: (ticker, field) — level 0 = ticker
-            sub = batch_df[yf_ticker].copy()
-        elif yf_ticker in lvl1:
-            # MultiIndex: (field, ticker) — level 1 = ticker (yfinance >= 0.2.x)
-            sub = batch_df.xs(yf_ticker, axis=1, level=1).copy()
+        lvl0 = cols.get_level_values(0).unique()
+        lvl1 = cols.get_level_values(1).unique()
+        if ticker in lvl0:
+            # (Ticker, Price) structure
+            sub = batch_df[ticker].copy()
+        elif ticker in lvl1:
+            # (Price, Ticker) structure — yfinance >= 0.2.x default
+            sub = batch_df.xs(ticker, axis=1, level=1).copy()
         else:
-            return None
+            return pd.DataFrame()
     else:
-        # Single ticker batch — pakai semua kolom
+        # Single ticker atau sudah flat
         sub = batch_df.copy()
-    return sub.dropna(how="all") if not sub.empty else None
+
+    result = sub.dropna(how="all")
+    return result if not result.empty else pd.DataFrame()
 
 
-def _normalize_bulk_df(raw) -> "Optional[pd.DataFrame]":
-    """Standarisasi DataFrame hasil bulk download: flatten, lowercase, rename date."""
-    if raw is None or (hasattr(raw, "empty") and raw.empty):
+def _clean_and_format_ohlcv(df: pd.DataFrame) -> "Optional[pd.DataFrame]":
+    """
+    Standarisasi DataFrame hasil _extract_ticker_from_bulk:
+    - Flatten MultiIndex jika masih ada
+    - Lowercase semua kolom
+    - Rename kolom tanggal → 'date'
+    - Buang baris NaN close dan volume = 0
+    Returns None jika tidak valid atau terlalu pendek.
+    """
+    if df is None or df.empty:
         return None
-    raw = raw.copy()
-    # Flatten columns — harus cek tipe tiap elemen (bisa tuple atau string)
-    if isinstance(raw.columns, pd.MultiIndex):
-        # Setelah .xs(), columns kadang masih MultiIndex satu level → ambil level 0
-        raw.columns = [
-            (c[0].lower() if isinstance(c, tuple) else str(c).lower())
-            for c in raw.columns
+
+    df = df.copy()
+
+    # Flatten MultiIndex (kadang .xs() meninggalkan sisa level)
+    if isinstance(df.columns, pd.MultiIndex):
+        df.columns = [
+            col[0].lower() if isinstance(col, tuple) else str(col).lower()
+            for col in df.columns
         ]
     else:
-        # Flat columns — c bisa string ('Close') atau tuple ('Close','') dari .xs()
-        raw.columns = [
-            (c[0].lower() if isinstance(c, tuple) else str(c).lower())
-            for c in raw.columns
-        ]
-    raw = raw.reset_index()
-    # Lowercase sekali lagi setelah reset_index (index menjadi kolom baru, bisa ada 'Date')
-    raw.columns = [str(c).lower() for c in raw.columns]
-    date_cols = [c for c in raw.columns if "date" in c or "datetime" in c]
+        df.columns = [str(c).lower() for c in df.columns]
+
+    df = df.reset_index()
+    # Lowercase ulang setelah reset_index (index 'Date' jadi kolom)
+    df.columns = [str(c).lower() for c in df.columns]
+
+    date_cols = [c for c in df.columns if "date" in c or "datetime" in c]
     if not date_cols:
         return None
-    raw.rename(columns={date_cols[0]: "date"}, inplace=True)
-    if "close" not in raw.columns:
+    df.rename(columns={date_cols[0]: "date"}, inplace=True)
+
+    if "close" not in df.columns:
         return None
-    raw = raw.dropna(subset=["close"])
-    if "volume" in raw.columns:
-        raw = raw[raw["volume"] > 0]
-    return raw.reset_index(drop=True) if not raw.empty else None
+
+    df = df.dropna(subset=["close"])
+    if "volume" in df.columns:
+        df = df[df["volume"] > 0]
+
+    return df.reset_index(drop=True) if not df.empty else None
 
 
 def _fetch_one_timeframe(
@@ -297,30 +310,25 @@ def _fetch_one_timeframe(
             log.warning(f"  [{tf_label}] Chunk {ci}/{n_chunks} download error: {e}")
             batch = None
 
-        chunk_ok = 0
-        skip_batch_none = 0
-        skip_sub_none   = 0
-        skip_df_none    = 0
-        skip_short      = 0
+        chunk_ok      = 0
+        skip_empty    = 0
+        skip_df_none  = 0
+        skip_short    = 0
 
-        # Log struktur kolom batch sekali di chunk 1 (untuk diagnosa jika bulk extract gagal)
+        # Log struktur kolom batch di chunk pertama (diagnosa)
         if batch is not None and not batch.empty and ci == 1:
             col_sample = str(list(batch.columns[:3]))
             col_type   = type(batch.columns).__name__
             log.info(f"  [{tf_label}] batch.columns type={col_type} sample={col_sample}")
 
-
         for yf_t in chunk:
             raw_t = yf_to_raw.get(yf_t, yf_t)
             try:
-                if batch is None:
-                    skip_batch_none += 1
+                sub = _extract_ticker_from_bulk(batch if batch is not None else pd.DataFrame(), yf_t)
+                if sub.empty:
+                    skip_empty += 1
                     continue
-                sub = _bulk_extract_ticker(batch, yf_t)
-                if sub is None:
-                    skip_sub_none += 1
-                    continue
-                df = _normalize_bulk_df(sub)
+                df = _clean_and_format_ohlcv(sub)
                 if df is None:
                     skip_df_none += 1
                     continue
@@ -341,13 +349,11 @@ def _fetch_one_timeframe(
             except Exception as e:
                 log.debug(f"  [{tf_label}] {raw_t}: {e}")
 
-        # Log skip reasons jika ada banyak yang gagal (>50% gagal)
-        total_chunk = len(chunk)
-        if chunk_ok < total_chunk // 2:
+        # Log skip reasons jika >50% gagal
+        if chunk_ok < len(chunk) // 2:
             log.info(
                 f"  [{tf_label}] Chunk {ci} skip: "
-                f"batch_none={skip_batch_none} sub_none={skip_sub_none} "
-                f"df_none={skip_df_none} short={skip_short}"
+                f"empty={skip_empty} df_none={skip_df_none} short={skip_short}"
             )
 
 
@@ -376,7 +382,7 @@ def prefetch_ohlcv(universe):
     lain (run_position.py dll) tanpa perlu download ulang.
     """
     CHUNK = 50
-    SLEEP = 2.0
+    SLEEP = 0.5  # 0.5s antar chunk — 4 timeframe jalan paralel, tidak perlu throttle panjang
 
     tickers_raw = [s.get("ticker", "") for s in universe if s.get("ticker")]
     yf_tickers  = [
