@@ -187,12 +187,15 @@ def _bulk_extract_ticker(batch_df, yf_ticker: str):
         lvl0 = cols.get_level_values(0).unique().tolist()
         lvl1 = cols.get_level_values(1).unique().tolist()
         if yf_ticker in lvl0:
+            # MultiIndex: (ticker, field) — level 0 = ticker
             sub = batch_df[yf_ticker].copy()
         elif yf_ticker in lvl1:
+            # MultiIndex: (field, ticker) — level 1 = ticker (yfinance >= 0.2.x)
             sub = batch_df.xs(yf_ticker, axis=1, level=1).copy()
         else:
             return None
     else:
+        # Single ticker batch — pakai semua kolom
         sub = batch_df.copy()
     return sub.dropna(how="all") if not sub.empty else None
 
@@ -201,14 +204,24 @@ def _normalize_bulk_df(raw) -> "Optional[pd.DataFrame]":
     """Standarisasi DataFrame hasil bulk download: flatten, lowercase, rename date."""
     if raw is None or (hasattr(raw, "empty") and raw.empty):
         return None
-    import pandas as pd
     raw = raw.copy()
+    # Flatten columns — harus cek tipe tiap elemen (bisa tuple atau string)
     if isinstance(raw.columns, pd.MultiIndex):
-        raw.columns = [c[0].lower() for c in raw.columns]
+        # Setelah .xs(), columns kadang masih MultiIndex satu level → ambil level 0
+        raw.columns = [
+            (c[0].lower() if isinstance(c, tuple) else str(c).lower())
+            for c in raw.columns
+        ]
     else:
-        raw.columns = [c.lower() for c in raw.columns]
+        # Flat columns — c bisa string ('Close') atau tuple ('Close','') dari .xs()
+        raw.columns = [
+            (c[0].lower() if isinstance(c, tuple) else str(c).lower())
+            for c in raw.columns
+        ]
     raw = raw.reset_index()
-    date_cols = [c for c in raw.columns if "date" in c.lower() or "datetime" in c.lower()]
+    # Lowercase sekali lagi setelah reset_index (index menjadi kolom baru, bisa ada 'Date')
+    raw.columns = [str(c).lower() for c in raw.columns]
+    date_cols = [c for c in raw.columns if "date" in c or "datetime" in c]
     if not date_cols:
         return None
     raw.rename(columns={date_cols[0]: "date"}, inplace=True)

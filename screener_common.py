@@ -32,6 +32,11 @@ import yfinance as yf
 
 warnings.filterwarnings("ignore")
 
+# Suppress yfinance internal logger — ticker delisted/suspend sudah di-handle
+# secara graceful (return None), tidak perlu print ERROR ke log.
+logging.getLogger("yfinance").setLevel(logging.CRITICAL)
+logging.getLogger("peewee").setLevel(logging.CRITICAL)
+
 
 # =============================================================================
 # JSON ENCODER — Handle numpy types (bool_, int64, float64, ndarray)
