@@ -35,10 +35,11 @@ Total waktu: ~20 menit (vs ~60 menit sebelumnya)
 
 Di repo GitHub: **Settings → Secrets and variables → Actions → New repository secret**
 
-| Secret                  | Nilai                          |
-|-------------------------|--------------------------------|
-| `STOCKBIT_USERNAME`     | Email/username akun Stockbit   |
-| `STOCKBIT_PASSWORD`     | Password akun Stockbit         |
+| Secret                  | Nilai                                                     |
+|-------------------------|-----------------------------------------------------------|
+| `STOCKBIT_USERNAME`     | Email/username akun Stockbit                              |
+| `STOCKBIT_PASSWORD`     | Password akun Stockbit                                    |
+| `STOCKBIT_PLAYER_ID`    | Device player ID Stockbit *(opsional, bisa dikosongkan)*  |
 
 ## Output Files
 
@@ -55,7 +56,7 @@ Di repo GitHub: **Settings → Secrets and variables → Actions → New reposit
 pip install -r requirements.txt
 
 # Jalankan ingest dulu
-STOCKBIT_USERNAME=xxx STOCKBIT_PASSWORD=yyy python ingest_universe.py
+STOCKBIT_USERNAME=xxx STOCKBIT_PASSWORD=yyy STOCKBIT_PLAYER_ID=zzz python ingest_universe.py
 
 # Lalu tiap pipeline (atau semua sekaligus)
 python run_intraday.py

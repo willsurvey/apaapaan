@@ -64,9 +64,10 @@ jobs:
 
       - name: Run ingest_universe.py
         env:
-          STOCKBIT_USERNAME: ${{ secrets.STOCKBIT_USERNAME }}
-          STOCKBIT_PASSWORD: ${{ secrets.STOCKBIT_PASSWORD }}
-          FORCE_MODE:        ${{ github.event.inputs.force_mode }}
+          STOCKBIT_USERNAME:   ${{ secrets.STOCKBIT_USERNAME }}
+          STOCKBIT_PASSWORD:   ${{ secrets.STOCKBIT_PASSWORD }}
+          STOCKBIT_PLAYER_ID:  ${{ secrets.STOCKBIT_PLAYER_ID }}
+          FORCE_MODE:          ${{ github.event.inputs.force_mode }}
         run: python ingest_universe.py
 
       - name: Upload universe_data.json
@@ -115,8 +116,9 @@ jobs:
           path: data_ohlc_cache/
       - name: Run pipeline
         env:
-          STOCKBIT_USERNAME: ${{ secrets.STOCKBIT_USERNAME }}
-          STOCKBIT_PASSWORD: ${{ secrets.STOCKBIT_PASSWORD }}
+          STOCKBIT_USERNAME:   ${{ secrets.STOCKBIT_USERNAME }}
+          STOCKBIT_PASSWORD:   ${{ secrets.STOCKBIT_PASSWORD }}
+          STOCKBIT_PLAYER_ID:  ${{ secrets.STOCKBIT_PLAYER_ID }}
         run: python run_intraday.py
       - name: Upload hasil
         uses: actions/upload-artifact@v4
@@ -148,8 +150,9 @@ jobs:
           path: data_ohlc_cache/
       - name: Run pipeline
         env:
-          STOCKBIT_USERNAME: ${{ secrets.STOCKBIT_USERNAME }}
-          STOCKBIT_PASSWORD: ${{ secrets.STOCKBIT_PASSWORD }}
+          STOCKBIT_USERNAME:   ${{ secrets.STOCKBIT_USERNAME }}
+          STOCKBIT_PASSWORD:   ${{ secrets.STOCKBIT_PASSWORD }}
+          STOCKBIT_PLAYER_ID:  ${{ secrets.STOCKBIT_PLAYER_ID }}
         run: python run_ara.py
       - uses: actions/upload-artifact@v4
         if: always()
