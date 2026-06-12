@@ -47,7 +47,6 @@ jobs:
   ingest:
     name: "📡 Ingest Universe & OHLCV Cache"
     runs-on: ubuntu-latest
-    timeout-minutes: 30
 
     steps:
       - name: Checkout repo
@@ -96,7 +95,6 @@ jobs:
     name: "📊 Intraday (SMC + Bandarmology)"
     needs: ingest
     runs-on: ubuntu-latest
-    timeout-minutes: 25
 
     steps:
       - uses: actions/checkout@v4
@@ -132,7 +130,6 @@ jobs:
     name: "🚀 ARA (Auto Reject Atas v2)"
     needs: ingest
     runs-on: ubuntu-latest
-    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -165,7 +162,6 @@ jobs:
     name: "📈 BSJP (Beli Sore Jual Pagi)"
     needs: ingest
     runs-on: ubuntu-latest
-    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -193,7 +189,6 @@ jobs:
     name: "📉 BPJS (Beli Pagi Jual Sore)"
     needs: ingest
     runs-on: ubuntu-latest
-    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -221,7 +216,6 @@ jobs:
     name: "🌊 Swing (VCP Stage 2)"
     needs: ingest
     runs-on: ubuntu-latest
-    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -249,7 +243,6 @@ jobs:
     name: "📊 Trend Following (ADX+RSI+Weekly)"
     needs: ingest
     runs-on: ubuntu-latest
-    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -277,7 +270,6 @@ jobs:
     name: "🏦 Position Trading (Near 52W High)"
     needs: ingest
     runs-on: ubuntu-latest
-    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -316,7 +308,6 @@ jobs:
       - pipeline-trend
       - pipeline-position
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     # Tetap jalan meskipun ada pipeline yang gagal (agar output tidak hilang total)
     if: always()
 

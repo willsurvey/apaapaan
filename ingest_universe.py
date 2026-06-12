@@ -18,7 +18,9 @@ import logging
 import sys
 import time
 import gc
-from datetime import datetime
+import pandas as pd
+import yfinance as yf
+from datetime import datetime, timedelta, timezone
 from typing import Optional
 
 # Import semua fungsi dari modul inti
@@ -33,6 +35,9 @@ from screener_common import (
     check_liquidity_quality,
     get_broker_signal,
     get_daily_data, get_weekly_data, get_monthly_data, get_1h_data,
+    _save_yf_cache, _get_yf_cache_path,
+    _weekly_cache, _monthly_cache,
+    _normalize_yf_df,
     is_market_day, get_session_label,
 )
 
@@ -132,44 +137,153 @@ def prefetch_broker_and_liquidity(universe, token, mode):
     return enriched
 
 
+def _bulk_extract_ticker(batch_df, yf_ticker: str):
+    """
+    Ekstrak sub-DataFrame 1 ticker dari hasil yf.download() multi-ticker.
+    Kompatibel dengan MultiIndex yfinance >= 0.2.x.
+    """
+    if batch_df is None or batch_df.empty:
+        return None
+    cols = batch_df.columns
+    if isinstance(cols, pd.MultiIndex):
+        lvl0 = cols.get_level_values(0).unique().tolist()
+        lvl1 = cols.get_level_values(1).unique().tolist()
+        if yf_ticker in lvl0:
+            sub = batch_df[yf_ticker].copy()
+        elif yf_ticker in lvl1:
+            sub = batch_df.xs(yf_ticker, axis=1, level=1).copy()
+        else:
+            return None
+    else:
+        sub = batch_df.copy()
+    return sub.dropna(how="all") if not sub.empty else None
+
+
+def _normalize_bulk_df(raw) -> "Optional[pd.DataFrame]":
+    """Standarisasi DataFrame hasil bulk download: flatten, lowercase, rename date."""
+    if raw is None or (hasattr(raw, "empty") and raw.empty):
+        return None
+    import pandas as pd
+    raw = raw.copy()
+    if isinstance(raw.columns, pd.MultiIndex):
+        raw.columns = [c[0].lower() for c in raw.columns]
+    else:
+        raw.columns = [c.lower() for c in raw.columns]
+    raw = raw.reset_index()
+    date_cols = [c for c in raw.columns if "date" in c.lower() or "datetime" in c.lower()]
+    if not date_cols:
+        return None
+    raw.rename(columns={date_cols[0]: "date"}, inplace=True)
+    if "close" not in raw.columns:
+        return None
+    raw = raw.dropna(subset=["close"])
+    if "volume" in raw.columns:
+        raw = raw[raw["volume"] > 0]
+    return raw.reset_index(drop=True) if not raw.empty else None
+
+
 def prefetch_ohlcv(universe):
     """
-    Pre-download semua data OHLCV ke local cache (data_ohlc_cache/).
-    Tiap pipeline nanti akan membaca dari cache — 0 download ulang.
+    Bulk download semua data OHLCV ke local cache menggunakan yf.download()
+    multi-ticker (50 ticker/chunk) — jauh lebih cepat dari download satu per satu.
+
+    Hanya 1d dan 1h yang disimpan ke parquet (sesuai _save_yf_cache).
+    Weekly dan monthly di-populate ke in-memory cache (_weekly_cache, _monthly_cache)
+    agar pipeline tidak perlu re-download.
     """
-    log.info(f"\n📥 Pre-download OHLCV untuk {len(universe)} saham...")
-    tickers_ok = 0
-    tickers_fail = 0
+    CHUNK = 50
+    SLEEP = 2.0
 
-    for i, stock_mm in enumerate(universe):
-        ticker = stock_mm.get("ticker", "")
-        try:
-            # Daily (paling penting, dipakai semua pipeline)
-            df_d = get_daily_data(ticker)
+    tickers_raw = [s.get("ticker", "") for s in universe if s.get("ticker")]
+    yf_tickers  = [
+        f"{t}.JK" if not t.endswith(".JK") and not t.startswith("^") else t
+        for t in tickers_raw
+    ]
+    # Map yf_ticker → raw ticker (untuk nama file cache)
+    yf_to_raw = dict(zip(yf_tickers, tickers_raw))
 
-            # Weekly (Swing, Trend, Position)
-            df_w = get_weekly_data(ticker)
+    total = len(yf_tickers)
+    log.info(f"\n📥 Bulk OHLCV pre-download — {total} saham (chunk={CHUNK})")
 
-            # Monthly (Position)
-            df_m = get_monthly_data(ticker)
+    chunks = [yf_tickers[i:i + CHUNK] for i in range(0, total, CHUNK)]
+    n_chunks = len(chunks)
 
-            # 1H (Intraday, SMC)
-            df_1h = get_1h_data(ticker)
+    ok_1d = ok_1h = ok_wk = ok_mo = 0
 
-            if df_d is not None:
-                tickers_ok += 1
-            else:
-                tickers_fail += 1
+    for tf_label, interval, period, cache_key, is_intraday in [
+        ("1d",  "1d",  CONFIG.get("YF_PERIOD_DAILY", "2y"), "1d",  False),
+        ("1h",  "1h",  CONFIG.get("YF_PERIOD_1H",    "60d"), "1h",  True),
+        ("1wk", "1wk", "max",  "1wk", False),
+        ("1mo", "1mo", "max",  "1mo", False),
+    ]:
+        log.info(f"  [{tf_label}] Mulai bulk download ({n_chunks} chunk)...")
+        tf_ok = 0
 
-        except Exception as e:
-            log.debug(f"  OHLCV {ticker}: error — {e}")
-            tickers_fail += 1
+        for ci, chunk in enumerate(chunks, 1):
+            try:
+                if is_intraday:
+                    days_back = 59 if interval == "1h" else 7
+                    today = datetime.now(tz=timezone.utc).date()
+                    start_dt = today - timedelta(days=days_back)
+                    batch = yf.download(
+                        tickers=chunk,
+                        start=start_dt.strftime("%Y-%m-%d"),
+                        end=today.strftime("%Y-%m-%d"),
+                        interval=interval,
+                        group_by="ticker",
+                        auto_adjust=True,
+                        progress=False,
+                    )
+                else:
+                    batch = yf.download(
+                        tickers=chunk,
+                        period=period,
+                        interval=interval,
+                        group_by="ticker",
+                        auto_adjust=True,
+                        progress=False,
+                    )
+            except Exception as e:
+                log.warning(f"  [{tf_label}] Chunk {ci}/{n_chunks} error: {e}")
+                batch = None
 
-        if (i + 1) % 50 == 0:
-            log.info(f"  [{i+1}/{len(universe)}] OHLCV cache selesai (ok={tickers_ok}, fail={tickers_fail})")
-        gc.collect()
+            chunk_ok = 0
+            for yf_t in chunk:
+                raw_t = yf_to_raw.get(yf_t, yf_t)
+                try:
+                    sub = _bulk_extract_ticker(batch, yf_t)
+                    df  = _normalize_bulk_df(sub)
+                    if df is None or len(df) < 10:
+                        continue
 
-    log.info(f"✅ OHLCV pre-fetch selesai: {tickers_ok} ok, {tickers_fail} gagal")
+                    if cache_key in ("1d", "1h"):
+                        # Simpan ke parquet cache
+                        _save_yf_cache(raw_t, cache_key, df)
+                    elif cache_key == "1wk":
+                        # Simpan ke in-memory weekly cache
+                        _weekly_cache[raw_t] = df
+                    elif cache_key == "1mo":
+                        # Simpan ke in-memory monthly cache
+                        _monthly_cache[raw_t] = df
+
+                    chunk_ok += 1
+                except Exception as e:
+                    log.debug(f"  [{tf_label}] {raw_t}: {e}")
+
+            tf_ok += chunk_ok
+            log.info(f"  [{tf_label}] Chunk {ci:>2}/{n_chunks} → {chunk_ok}/{len(chunk)} OK")
+
+            if ci < n_chunks:
+                time.sleep(SLEEP)
+
+        log.info(f"  [{tf_label}] Selesai: {tf_ok}/{total} berhasil")
+        if cache_key == "1d":  ok_1d = tf_ok
+        elif cache_key == "1h":  ok_1h = tf_ok
+        elif cache_key == "1wk": ok_wk = tf_ok
+        elif cache_key == "1mo": ok_mo = tf_ok
+
+    log.info(f"✅ Bulk OHLCV selesai — 1d:{ok_1d} 1h:{ok_1h} 1wk:{ok_wk} 1mo:{ok_mo} (dari {total} saham)")
+
 
 
 def main():
