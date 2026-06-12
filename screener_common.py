@@ -1938,18 +1938,19 @@ def get_daily_data(ticker: str) -> Optional[pd.DataFrame]:
 
         df.reset_index(inplace=True)
 
-        # Flatten MultiIndex columns (yfinance >= 0.2.x mengembalikan (field, ticker))
+        # Flatten MultiIndex columns (yfinance >= 0.2.x)
         if isinstance(df.columns, pd.MultiIndex):
-            # Ambil level 0 saja (field name), buang level ticker
-            df.columns = [c[0].lower() for c in df.columns]
+            df.columns = [
+                col[0].lower() if isinstance(col, tuple) else str(col).lower()
+                for col in df.columns
+            ]
         else:
-            df.columns = [c.lower() for c in df.columns]
+            df.columns = [str(c).lower() for c in df.columns]
 
         # Normalize column name: 'datetime' → 'date'
-        if "datetime" in df.columns and "date" not in df.columns:
-            df.rename(columns={"datetime": "date"}, inplace=True)
-        if "price date" in df.columns:
-            df.rename(columns={"price date": "date"}, inplace=True)
+        date_cols = [c for c in df.columns if "date" in c or "datetime" in c]
+        if date_cols:
+            df.rename(columns={date_cols[0]: "date"}, inplace=True)
 
         # Pastikan kolom yang dibutuhkan ada
         required = ["close", "volume"]
@@ -1982,11 +1983,16 @@ def _normalize_yf_df(df: pd.DataFrame, is_intraday: bool = False) -> Optional[pd
     """Standarisasi DataFrame yfinance: flatten MultiIndex, lowercase kolom, rename date."""
     if df is None or df.empty:
         return None
+    df = df.copy()
     if isinstance(df.columns, pd.MultiIndex):
-        df.columns = [col[0].lower() for col in df.columns]
+        df.columns = [
+            col[0].lower() if isinstance(col, tuple) else str(col).lower()
+            for col in df.columns
+        ]
     else:
-        df.columns = [c.lower() for c in df.columns]
+        df.columns = [str(c).lower() for c in df.columns]
     df = df.reset_index()
+    df.columns = [str(c).lower() for c in df.columns]
     date_candidates = [c for c in df.columns if "date" in c or "datetime" in c]
     if not date_candidates:
         return None
@@ -2490,12 +2496,16 @@ def get_1h_data(ticker: str) -> Optional[pd.DataFrame]:
 
         # Flatten MultiIndex columns (yfinance >= 0.2.x)
         if isinstance(df.columns, pd.MultiIndex):
-            df.columns = [c[0].lower() for c in df.columns]
+            df.columns = [
+                col[0].lower() if isinstance(col, tuple) else str(col).lower()
+                for col in df.columns
+            ]
         else:
-            df.columns = [c.lower() for c in df.columns]
+            df.columns = [str(c).lower() for c in df.columns]
 
-        if "datetime" in df.columns and "date" not in df.columns:
-            df.rename(columns={"datetime": "date"}, inplace=True)
+        date_cols = [c for c in df.columns if "date" in c or "datetime" in c]
+        if date_cols:
+            df.rename(columns={date_cols[0]: "date"}, inplace=True)
 
         # Pastikan kolom yang dibutuhkan ada
         for col in ["open", "high", "low", "close", "volume"]:
