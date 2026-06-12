@@ -8,6 +8,7 @@ from datetime import datetime
 
 from screener_common import (
     CONFIG, NumpyEncoder, log,
+    get_valid_token,
     calculate_accumulation_score,
     check_trend_context,
     check_smc_structure,
@@ -40,6 +41,17 @@ def main():
     mode          = data["mode"]
     market_ctx    = data["market_ctx"]
     session_label = data.get("session_label", "MARKET_DAY")
+
+    # Login fresh — setiap job GA berjalan di mesin terpisah, token tidak bisa
+    # di-pass antar job. Token dibutuhkan oleh calculate_entry_plan() untuk
+    # get_bid_wall() (menentukan Entry 2 level yang akurat di FULL_STOCKBIT).
+    token = None
+    if mode == "FULL_STOCKBIT":
+        token, _ = get_valid_token()
+        if token:
+            log.info("✅ Token Stockbit berhasil diperoleh untuk entry plan")
+        else:
+            log.warning("⚠️  Token tidak tersedia — bid wall tidak akan dipakai di entry plan")
 
     log.info(f"Universe: {len(universe)} saham | Mode: {mode}")
 
@@ -98,7 +110,7 @@ def main():
         summary["after_smc"] += 1
 
         # --- Entry Plan ---
-        entry_plan = calculate_entry_plan(ticker, hist_data, smc_dict, mode, None, stock_mm)
+        entry_plan = calculate_entry_plan(ticker, hist_data, smc_dict, mode, token, stock_mm)
         if entry_plan is None:
             continue
         summary["after_entry"] += 1
