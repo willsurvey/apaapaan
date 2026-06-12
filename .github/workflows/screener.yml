@@ -35,6 +35,10 @@ concurrency:
 # ─────────────────────────────────────────────────────────────────────────────
 # SHARED SETUP: dipakai semua job via composite action inline
 # ─────────────────────────────────────────────────────────────────────────────
+# Izin global: baca repo + tulis hasil ke repo (untuk job merge)
+permissions:
+  contents: write
+
 env:
   PYTHON_VERSION: '3.13'
   PIP_CACHE_DIR: ~/.cache/pip
@@ -359,6 +363,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add latest_screening.json combined_screening.json || true
           # Tambahkan dated file jika ada
           git add combined_screening_*.json || true
