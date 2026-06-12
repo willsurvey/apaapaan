@@ -152,7 +152,7 @@ def prefetch_broker_and_liquidity(universe, token, mode):
     - executor.map() menjaga urutan output = urutan input universe.
     - Setiap exception ditangkap di dalam worker → tidak ada crash.
     """
-    MAX_WORKERS = 3
+    MAX_WORKERS = 4
     total = len(universe)
 
     log.info(f"\n🔍 Pre-fetch liquidity + broker signal...")
@@ -220,87 +220,101 @@ def _normalize_bulk_df(raw) -> "Optional[pd.DataFrame]":
     return raw.reset_index(drop=True) if not raw.empty else None
 
 
-def _fetch_one_chunk(
+def _fetch_one_timeframe(
     tf_label: str,
     interval: str,
     period: str,
     cache_key: str,
     is_intraday: bool,
-    chunk: list,
-    chunk_idx: int,
-    n_chunks: int,
+    chunks: list,
     yf_to_raw: dict,
+    sleep: float,
 ) -> dict:
     """
-    Worker function: download SATU chunk untuk SATU timeframe.
+    Worker: download semua chunk SATU timeframe secara sequential.
 
-    Dipanggil dari ThreadPoolExecutor — semua kombinasi (timeframe × chunk)
-    jalan bersamaan, max MAX_WORKERS task serentak.
+    Dipanggil dari ThreadPoolExecutor(max_workers=4) — 4 timeframe jalan bersamaan,
+    tapi chunk dalam 1 timeframe tetap sequential dengan sleep antar chunk.
+
+    Kenapa tidak paralel per chunk:
+    - yf.download() memodifikasi state internal yfinance (dict session, dll)
+    - Terlalu banyak concurrent yf.download() → 'dictionary changed size during iteration'
+    - 4 thread sudah cukup: setiap thread = 1 yf.download() per chunk secara bergantian
 
     Thread-safety:
     - Parquet write: file unik per ticker+tf → tidak ada konflik antar thread.
-    - _weekly_cache[key] = df: hanya task 1wk yang tulis ke _weekly_cache,
-      tiap key (ticker) berbeda antar task → CPython dict assignment atomic (GIL).
-    - _monthly_cache[key] = df: sama.
-    - yf.download() adalah HTTP GET → thread-safe.
+    - _weekly_cache / _monthly_cache: hanya thread 1wk/1mo yang tulis ke masing-masing dict
+      → tidak ada race condition antar timeframe.
+    - yf.download() dipanggil sequential dalam thread ini → tidak ada konflik internal.
 
     Return: {"tf": str, "ok": int}
     """
-    batch = None
-    try:
-        if is_intraday:
-            days_back = 59 if interval == "1h" else 7
-            today = datetime.now(tz=timezone.utc).date()
-            start_dt = today - timedelta(days=days_back)
-            batch = yf.download(
-                tickers=chunk,
-                start=start_dt.strftime("%Y-%m-%d"),
-                end=today.strftime("%Y-%m-%d"),
-                interval=interval,
-                group_by="ticker",
-                auto_adjust=True,
-                progress=False,
-            )
-        else:
-            batch = yf.download(
-                tickers=chunk,
-                period=period,
-                interval=interval,
-                group_by="ticker",
-                auto_adjust=True,
-                progress=False,
-            )
-    except Exception as e:
-        log.warning(f"  [{tf_label}] Chunk {chunk_idx}/{n_chunks} download error: {e}")
+    total_tickers = sum(len(c) for c in chunks)
+    n_chunks = len(chunks)
+    tf_ok = 0
+
+    log.info(f"  [{tf_label}] Mulai download ({n_chunks} chunk, {total_tickers} saham)...")
+
+    for ci, chunk in enumerate(chunks, 1):
         batch = None
-
-    chunk_ok = 0
-    for yf_t in chunk:
-        raw_t = yf_to_raw.get(yf_t, yf_t)
         try:
-            sub = _bulk_extract_ticker(batch, yf_t)
-            df  = _normalize_bulk_df(sub)
-            if df is None or len(df) < 10:
-                continue
-
-            if cache_key in ("1d", "1h"):
-                # Simpan ke parquet — dibaca oleh proses pipeline lain via _load_yf_cache
-                _save_yf_cache(raw_t, cache_key, df)
-            elif cache_key == "1wk":
-                # In-memory cache (untuk proses ini) + parquet (untuk proses pipeline lain)
-                _weekly_cache[raw_t] = df
-                _save_yf_cache(raw_t, "1wk", df)   # ← FIX: persist lintas proses
-            elif cache_key == "1mo":
-                # In-memory cache (untuk proses ini) + parquet (untuk proses pipeline lain)
-                _monthly_cache[raw_t] = df
-                _save_yf_cache(raw_t, "1mo", df)   # ← FIX: persist lintas proses
-
-            chunk_ok += 1
+            if is_intraday:
+                days_back = 59 if interval == "1h" else 7
+                today = datetime.now(tz=timezone.utc).date()
+                start_dt = today - timedelta(days=days_back)
+                batch = yf.download(
+                    tickers=chunk,
+                    start=start_dt.strftime("%Y-%m-%d"),
+                    end=today.strftime("%Y-%m-%d"),
+                    interval=interval,
+                    group_by="ticker",
+                    auto_adjust=True,
+                    progress=False,
+                )
+            else:
+                batch = yf.download(
+                    tickers=chunk,
+                    period=period,
+                    interval=interval,
+                    group_by="ticker",
+                    auto_adjust=True,
+                    progress=False,
+                )
         except Exception as e:
-            log.debug(f"  [{tf_label}] {raw_t}: {e}")
+            log.warning(f"  [{tf_label}] Chunk {ci}/{n_chunks} download error: {e}")
+            batch = None
 
-    log.info(f"  [{tf_label}] Chunk {chunk_idx:>2}/{n_chunks} → {chunk_ok}/{len(chunk)} OK")
-    return {"tf": tf_label, "ok": chunk_ok}
+        chunk_ok = 0
+        for yf_t in chunk:
+            raw_t = yf_to_raw.get(yf_t, yf_t)
+            try:
+                sub = _bulk_extract_ticker(batch, yf_t)
+                df  = _normalize_bulk_df(sub)
+                if df is None or len(df) < 10:
+                    continue
+
+                if cache_key in ("1d", "1h"):
+                    _save_yf_cache(raw_t, cache_key, df)
+                elif cache_key == "1wk":
+                    _weekly_cache[raw_t] = df
+                    _save_yf_cache(raw_t, "1wk", df)  # persist ke disk → dibaca lintas proses
+                elif cache_key == "1mo":
+                    _monthly_cache[raw_t] = df
+                    _save_yf_cache(raw_t, "1mo", df)  # persist ke disk → dibaca lintas proses
+
+                chunk_ok += 1
+            except Exception as e:
+                log.debug(f"  [{tf_label}] {raw_t}: {e}")
+
+        tf_ok += chunk_ok
+        log.info(f"  [{tf_label}] Chunk {ci:>2}/{n_chunks} → {chunk_ok}/{len(chunk)} OK")
+
+        # Sleep antar chunk: beri jeda agar yfinance tidak overlap state internal
+        if ci < n_chunks:
+            time.sleep(sleep)
+
+    log.info(f"  [{tf_label}] ✓ Selesai: {tf_ok}/{total_tickers} berhasil")
+    return {"tf": tf_label, "ok": tf_ok}
 
 
 def prefetch_ohlcv(universe):
@@ -308,20 +322,15 @@ def prefetch_ohlcv(universe):
     Bulk download semua data OHLCV ke local cache menggunakan yf.download()
     multi-ticker (50 ticker/chunk).
 
-    Semua kombinasi (timeframe × chunk) dijalankan sebagai task paralel
-    dalam satu ThreadPoolExecutor (max_workers=8).
+    4 timeframe (1d, 1h, 1wk, 1mo) dijalankan PARALEL (max_workers=4).
+    Setiap thread menangani 1 timeframe penuh — chunk diproses SEQUENTIAL
+    dengan sleep 2s antar chunk untuk menghindari konflik internal yfinance.
 
-    Tidak ada sleep antar chunk — tidak diperlukan karena semua task sudah
-    jalan bersamaan dan Yahoo Finance toleran terhadap concurrent request
-    dalam skala ini.
-
-    Thread-safety (lihat _fetch_one_chunk untuk detail):
-    - Parquet write: unik per ticker+tf → no conflict.
-    - _weekly_cache / _monthly_cache: key berbeda antar thread → aman di CPython.
-    - yf.download(): HTTP GET → thread-safe.
+    1wk dan 1mo juga disimpan ke parquet disk → dibaca oleh proses pipeline
+    lain (run_position.py dll) tanpa perlu download ulang.
     """
-    CHUNK       = 50
-    MAX_WORKERS = 8  # max concurrent yf.download() calls
+    CHUNK = 50
+    SLEEP = 2.0
 
     tickers_raw = [s.get("ticker", "") for s in universe if s.get("ticker")]
     yf_tickers  = [
@@ -342,27 +351,22 @@ def prefetch_ohlcv(universe):
         ("1mo", "1mo", "max", "1mo", False),
     ]
 
-    total_tasks = len(timeframes) * n_chunks
     log.info(
-        f"\n📥 Bulk OHLCV — {total} saham | {n_chunks} chunk × {len(timeframes)} timeframe"
-        f" = {total_tasks} task | max_workers={MAX_WORKERS}"
+        f"\n📥 Bulk OHLCV — {total} saham | {n_chunks} chunk | "
+        f"4 timeframe paralel | sleep {SLEEP}s antar chunk"
     )
-
-    # Buat semua task: setiap (timeframe × chunk) = 1 task independen
-    all_tasks = []
-    for tf_label, interval, period, cache_key, is_intraday in timeframes:
-        for ci, chunk in enumerate(chunks, 1):
-            all_tasks.append((
-                tf_label, interval, period, cache_key, is_intraday,
-                chunk, ci, n_chunks, yf_to_raw,
-            ))
 
     results_map = {"1d": 0, "1h": 0, "1wk": 0, "1mo": 0}
 
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+    # 4 thread paralel — setiap thread = 1 timeframe penuh (chunk sequential di dalamnya)
+    with ThreadPoolExecutor(max_workers=4) as executor:
         futures = {
-            executor.submit(_fetch_one_chunk, *task): task[0]  # task[0] = tf_label
-            for task in all_tasks
+            executor.submit(
+                _fetch_one_timeframe,
+                tf_label, interval, period, cache_key, is_intraday,
+                chunks, yf_to_raw, SLEEP,
+            ): tf_label
+            for tf_label, interval, period, cache_key, is_intraday in timeframes
         }
         for future in as_completed(futures):
             tf_label = futures[future]
@@ -370,7 +374,7 @@ def prefetch_ohlcv(universe):
                 result = future.result()
                 results_map[result["tf"]] += result["ok"]
             except Exception as e:
-                log.warning(f"  Task error [{tf_label}]: {e}")
+                log.warning(f"  [{tf_label}] Thread error: {e}")
 
     ok_1d = results_map["1d"]
     ok_1h = results_map["1h"]
@@ -381,6 +385,11 @@ def prefetch_ohlcv(universe):
         f"✅ Bulk OHLCV selesai — "
         f"1d:{ok_1d} 1h:{ok_1h} 1wk:{ok_wk} 1mo:{ok_mo} (dari {total} saham)"
     )
+
+
+
+
+
 
 
 
