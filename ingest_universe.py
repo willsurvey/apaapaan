@@ -20,8 +20,9 @@ import time
 import gc
 import pandas as pd
 import yfinance as yf
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
-from typing import Optional
+from typing import Optional, Tuple, Dict, Any
 
 # Import semua fungsi dari modul inti
 from screener_common import (
@@ -56,85 +57,122 @@ def build_full_universe(token: Optional[str], mode: str):
     return universe
 
 
-def prefetch_broker_and_liquidity(universe, token, mode):
+def _enrich_one_stock(args: Tuple) -> Dict:
     """
-    Pre-fetch broker signal + liquidity untuk semua saham.
-    Hasilnya disimpan langsung ke dict tiap saham (in-place).
-    Token di-refresh setiap 50 saham.
+    Worker function untuk ThreadPoolExecutor.
+    Cek liquidity + broker signal untuk 1 saham.
+
+    Thread-safe karena:
+    - Setiap thread dapat stock_mm dict yang berbeda (tidak ada shared state)
+    - token hanya DIBACA, tidak pernah ditulis
+    - sb_get() menggunakan requests.get() yang thread-safe
+    - Semua exception ditangkap internal → tidak pernah crash thread lain
     """
-    enriched = []
-    for i, stock_mm in enumerate(universe):
-        ticker = stock_mm.get("ticker", "")
+    stock_mm, token, mode = args
+    ticker = stock_mm.get("ticker", "")
 
-        # Refresh token setiap 50 saham
-        if i > 0 and i % 50 == 0 and mode == "FULL_STOCKBIT":
-            log.info(f"🔄 TOKEN REFRESH di saham ke-{i+1}...")
-            invalidate_token_cache()
-            new_token, new_mode = get_valid_token()
-            if new_token:
-                token = new_token
-            else:
-                mode = new_mode
-                token = None
-
-        # --- Liquidity ---
+    try:
         if mode == "FULL_STOCKBIT":
+            # --- Liquidity check (1 request ke Stockbit) ---
             liq_ok, hist_data = check_liquidity_quality(ticker, token)
             if not liq_ok or hist_data is None:
                 log.debug(f"  SKIP {ticker}: liquidity gagal")
-                stock_mm["_liq_ok"] = False
-                stock_mm["_hist_data"] = None
-                enriched.append(stock_mm)
-                continue
+                stock_mm["_liq_ok"]        = False
+                stock_mm["_hist_data"]     = None
+                stock_mm["_broker_signal"] = "Neutral"
+                stock_mm["_broker_score"]  = 5
+                return stock_mm
+
+            # --- Broker signal (1 request ke Stockbit, hanya jika lolos liquidity) ---
+            broker_signal, broker_score = get_broker_signal(ticker, token)
+
         else:
+            # YAHOO_ONLY mode — tidak ada request ke Stockbit sama sekali
             df_d = get_daily_data(ticker)
             if df_d is None or len(df_d) < 60:
-                stock_mm["_liq_ok"] = False
-                stock_mm["_hist_data"] = None
-                enriched.append(stock_mm)
-                continue
+                stock_mm["_liq_ok"]        = False
+                stock_mm["_hist_data"]     = None
+                stock_mm["_broker_signal"] = "Neutral"
+                stock_mm["_broker_score"]  = 5
+                return stock_mm
+
             last = df_d.iloc[-1]
             foreign_history = []
             for j in range(2, min(27, len(df_d) + 1)):
                 row = df_d.iloc[-j]
                 foreign_history.append({
-                    "date": str(row.get("date", "")),
-                    "close": float(row["close"]),
-                    "high": float(row["high"]),
-                    "low": float(row["low"]),
-                    "open": float(row["open"]),
-                    "volume": float(row["volume"]),
-                    "value": float(row["close"]) * float(row["volume"]),
+                    "date":        str(row.get("date", "")),
+                    "close":       float(row["close"]),
+                    "high":        float(row["high"]),
+                    "low":         float(row["low"]),
+                    "open":        float(row["open"]),
+                    "volume":      float(row["volume"]),
+                    "value":       float(row["close"]) * float(row["volume"]),
                     "net_foreign": 0,
                 })
             hist_data = {
-                "pdh": float(last["high"]),
-                "pdl": float(last["low"]),
-                "pdc": float(last["close"]),
-                "pd_typical": (float(last["high"]) + float(last["low"]) + float(last["close"])) / 3,
+                "pdh":          float(last["high"]),
+                "pdl":          float(last["low"]),
+                "pdc":          float(last["close"]),
+                "pd_typical":   (float(last["high"]) + float(last["low"]) + float(last["close"])) / 3,
                 "avg_range_pct": 0,
-                "avg_freq": 0,
+                "avg_freq":      0,
                 "foreign_history": foreign_history,
             }
-            liq_ok = True
+            liq_ok        = True
+            broker_signal = "Neutral"
+            broker_score  = 5
 
-        # --- Broker Signal ---
-        if mode == "FULL_STOCKBIT":
-            broker_signal, broker_score = get_broker_signal(ticker, token)
-        else:
-            broker_signal, broker_score = "Neutral", 5
-
-        stock_mm["_liq_ok"] = liq_ok
-        stock_mm["_hist_data"] = hist_data
+        stock_mm["_liq_ok"]        = liq_ok
+        stock_mm["_hist_data"]     = hist_data
         stock_mm["_broker_signal"] = broker_signal
-        stock_mm["_broker_score"] = broker_score
-        enriched.append(stock_mm)
+        stock_mm["_broker_score"]  = broker_score
+        return stock_mm
 
-        if (i + 1) % 25 == 0:
-            log.info(f"  [{i+1}/{len(universe)}] Pre-fetch selesai...")
-        gc.collect()
+    except Exception as e:
+        # Tangkap semua exception agar 1 saham error tidak menghentikan thread lain
+        log.debug(f"  _enrich_one_stock {ticker} exception: {e}")
+        stock_mm["_liq_ok"]        = False
+        stock_mm["_hist_data"]     = None
+        stock_mm["_broker_signal"] = "Neutral"
+        stock_mm["_broker_score"]  = 5
+        return stock_mm
 
-    return enriched
+
+def prefetch_broker_and_liquidity(universe, token, mode):
+    """
+    Pre-fetch broker signal + liquidity untuk semua saham secara paralel.
+
+    Menggunakan 3 thread bersamaan → request ke Stockbit 3x lebih cepat.
+
+    CATATAN PENTING:
+    - Token TIDAK di-refresh di dalam loop.
+      Token Stockbit valid 24 jam. Seluruh proses selesai < 10 menit.
+      Tidak ada risiko token expired di tengah jalan.
+    - executor.map() menjaga urutan output = urutan input universe.
+    - Setiap exception ditangkap di dalam worker → tidak ada crash.
+    """
+    MAX_WORKERS = 3
+    total = len(universe)
+
+    log.info(f"\n🔍 Pre-fetch liquidity + broker signal...")
+    log.info(f"   {total} saham | {MAX_WORKERS} thread paralel | token valid 24 jam")
+
+    # Bungkus argumen sebagai tuple untuk executor.map
+    args_list = [(stock_mm, token, mode) for stock_mm in universe]
+
+    # executor.map: jalan paralel, hasil TETAP urut sesuai input
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        results = list(executor.map(_enrich_one_stock, args_list))
+
+    # Hitung statistik
+    liq_ok_count   = sum(1 for s in results if s.get("_liq_ok"))
+    liq_fail_count = total - liq_ok_count
+
+    log.info(f"✅ Pre-fetch selesai: {liq_ok_count} lolos liquidity, {liq_fail_count} gagal")
+
+    return results
+
 
 
 def _bulk_extract_ticker(batch_df, yf_ticker: str):
