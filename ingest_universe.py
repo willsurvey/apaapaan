@@ -36,7 +36,7 @@ from screener_common import (
     check_liquidity_quality,
     get_broker_signal,
     get_daily_data, get_weekly_data, get_monthly_data, get_1h_data,
-    _save_yf_cache, _get_yf_cache_path,
+    _save_yf_cache, _get_yf_cache_path, _load_yf_cache,
     _weekly_cache, _monthly_cache,
     _normalize_yf_df,
     is_market_day, get_session_label,
@@ -216,10 +216,16 @@ def _normalize_bulk_df(raw, is_intraday: bool = False) -> "Optional[pd.DataFrame
     if raw is None or (hasattr(raw, "empty") and raw.empty):
         return None
     raw = raw.copy()
+    # Flatten MultiIndex dengan benar: setelah _bulk_extract_ticker, kolom bisa
+    # sisa MultiIndex dengan level kosong (misal ('open', '')). Ambil level
+    # pertama yang non-kosong agar tidak menghasilkan string tuple.
     if isinstance(raw.columns, pd.MultiIndex):
-        raw.columns = [c[0].lower() for c in raw.columns]
+        raw.columns = [
+            next((str(lvl).lower() for lvl in c if str(lvl).strip()), str(c[0]).lower())
+            for c in raw.columns
+        ]
     else:
-        raw.columns = [c.lower() for c in raw.columns]
+        raw.columns = [str(c).lower() for c in raw.columns]
     raw = raw.reset_index()
     date_cols = [c for c in raw.columns if "date" in c.lower() or "datetime" in c.lower()]
     if not date_cols:
@@ -269,12 +275,15 @@ def _download_chunk_with_retry(
         repair            = False,
         progress          = False,
         threads           = False,
+        multi_level_index = True,
         timeout           = _OHLCV_TIMEOUT,
     )
     for attempt in range(_OHLCV_MAX_RETRY + 1):
         try:
             if is_intraday:
-                days_back = 59 if interval == "1h" else 7
+                # 1h: Yahoo Finance support hingga ~730 hari ke belakang
+                # interval lain (5m, 15m, dll): max 60 hari
+                days_back = 729 if interval == "1h" else 59
                 start_dt  = today - timedelta(days=days_back)
                 return yf.download(
                     tickers = chunk,
@@ -331,8 +340,7 @@ def _fetch_one_timeframe(
     today = datetime.now(tz=timezone.utc).date()
 
     # ── RESUME: skip ticker yang parquet cache-nya sudah ada dan segar ───────
-    yf_tickers_all = list(yf_to_raw.keys())
-    raw_to_yf      = {v: k for k, v in yf_to_raw.items()}  # inverse map
+    raw_to_yf = {v: k for k, v in yf_to_raw.items()}  # inverse map: raw_ticker → yf_ticker
 
     pending_raw = [t for t in tickers_raw if _load_yf_cache(t, cache_key) is None]
     skipped     = len(tickers_raw) - len(pending_raw)
@@ -443,7 +451,7 @@ def prefetch_ohlcv(universe):
     timeframes = [
         # (tf_label, interval, period, cache_key, is_intraday)
         ("1d",  "1d",  CONFIG.get("YF_PERIOD_DAILY", "2y"), "1d",  False),
-        ("1h",  "1h",  CONFIG.get("YF_PERIOD_1H",    "60d"), "1h",  True),
+        ("1h",  "1h",  None,  "1h",  True),   # period diabaikan, intraday pakai start/end
         ("1wk", "1wk", "max",  "1wk", False),
         ("1mo", "1mo", "max",  "1mo", False),
     ]
