@@ -522,6 +522,123 @@ function SwingCard({ stock }) {
   )
 }
 
+function TrendCard({ stock, rank }) {
+  const s = stock.score ?? 0
+  const targetPct = stock.target_pct ?? 0.10
+  const stopLossPct = stock.stop_loss_pct ?? 0.07
+  const targetPrice = Math.round(stock.close * (1 + targetPct))
+  const slPrice = Math.round(stock.close * (1 - stopLossPct))
+
+  return (
+    <div className={`${styles.card} ${styles.trendCard}`}>
+      <div className={styles.cardHead}>
+        <div className={styles.cardHeadLeft}>
+          {rank != null && <span className={styles.rankBadge}>#{rank}</span>}
+          <div>
+            <span className={styles.tickerText}>{stock.ticker}</span>
+            <span className={styles.companyText}>{stock.company || 'Trend Following Candidate'}</span>
+          </div>
+          <span className={styles.tierBadge} style={{ background: 'var(--c-blue)', color: '#fff', borderColor: 'var(--c-blue)' }}>TREND</span>
+        </div>
+        <ScoreRing score={s} />
+      </div>
+
+      <div className={styles.cardBody}>
+        <div className={styles.statsRow}>
+          <div className={styles.stat}><span className={styles.statLbl}>Close</span><span className={styles.statVal}>Rp{formatNum(stock.close)}</span></div>
+          <div className={styles.stat}><span className={styles.statLbl}>ADX</span><span className={styles.statVal}>{fmt2(stock.adx)}</span></div>
+          <div className={styles.stat}><span className={styles.statLbl}>RSI</span><span className={styles.statVal}>{fmt2(stock.rsi)}</span></div>
+        </div>
+
+        <div className={styles.araMetrics}>
+          <div className={styles.metricItem}><span className={styles.metricLbl}>Weekly ADX</span><span className={styles.metricVal}>{fmt2(stock.wk_adx)}</span></div>
+          <div className={styles.metricItem}><span className={styles.metricLbl}>Weekly OBV</span><span className={styles.metricVal}>{stock.wk_obv_above_ma ? 'Di atas MA20 ✅' : 'Di bawah MA20'}</span></div>
+          <div className={styles.metricItem}><span className={styles.metricLbl}>Hold Max</span><span className={styles.metricVal}>{stock.max_hold_days ?? 20} hari</span></div>
+          <div className={styles.metricItem}><span className={styles.metricLbl}>MACD Hist</span><span className={styles.metricVal}>{fmt2(stock.macd_hist)}</span></div>
+        </div>
+
+        <div className={styles.entrySection}>
+          <span className={styles.blockTitle}>Rencana Trend Following</span>
+          <div className={styles.entryList}>
+            <EntryRow label="Target" price={targetPrice} pct={Math.round(targetPct * 100)} color="var(--c-teal)" />
+            <EntryRow label="Stop Loss" price={slPrice} pct={Math.round(stopLossPct * 100)} color="var(--c-coral)" />
+          </div>
+        </div>
+
+        {stock.signals_positive?.length > 0 && (
+          <div className={styles.signalBox}>
+            {stock.signals_positive.map((sig, i) => <div key={i} className={styles.signalItem}>+ {sig}</div>)}
+          </div>
+        )}
+        {stock.signals_negative?.length > 0 && (
+          <div className={styles.warningBox}>
+            {stock.signals_negative.map((sig, i) => <div key={i} className={styles.warningItem}>- {sig}</div>)}
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+function PositionCard({ stock, rank }) {
+  const s = stock.score ?? 0
+  const targetPct = stock.target_pct ?? 0.20
+  const stopLossPct = stock.stop_loss_pct ?? 0.10
+  const targetPrice = Math.round(stock.close * (1 + targetPct))
+  const slPrice = Math.round(stock.close * (1 - stopLossPct))
+
+  return (
+    <div className={`${styles.card} ${styles.positionCard}`}>
+      <div className={styles.cardHead}>
+        <div className={styles.cardHeadLeft}>
+          {rank != null && <span className={styles.rankBadge}>#{rank}</span>}
+          <div>
+            <span className={styles.tickerText}>{stock.ticker}</span>
+            <span className={styles.companyText}>{stock.company || 'Position Trading Candidate'}</span>
+          </div>
+          <span className={styles.tierBadge} style={{ background: 'var(--c-purple)', color: '#fff', borderColor: 'var(--c-purple)' }}>POSITION</span>
+        </div>
+        <ScoreRing score={s} />
+      </div>
+
+      <div className={styles.cardBody}>
+        <div className={styles.statsRow}>
+          <div className={styles.stat}><span className={styles.statLbl}>Close</span><span className={styles.statVal}>Rp{formatNum(stock.close)}</span></div>
+          <div className={styles.stat}><span className={styles.statLbl}>Near 52W High</span><span className={styles.statVal}>{fmt2(stock.near_52w_pct)}%</span></div>
+          <div className={styles.stat}><span className={styles.statLbl}>Wk RSI</span><span className={styles.statVal}>{fmt2(stock.wk_rsi)}</span></div>
+        </div>
+
+        <div className={styles.araMetrics}>
+          <div className={styles.metricItem}><span className={styles.metricLbl}>Monthly RSI</span><span className={styles.metricVal}>{fmt2(stock.mo_rsi)}</span></div>
+          <div className={styles.metricItem}><span className={styles.metricLbl}>Weekly ADX</span><span className={styles.metricVal}>{fmt2(stock.wk_adx)}</span></div>
+          <div className={styles.metricItem}><span className={styles.metricLbl}>Weekly OBV</span><span className={styles.metricVal}>{stock.wk_obv_above_ma ? 'Di atas MA20 ✅' : 'Di bawah MA20'}</span></div>
+          <div className={styles.metricItem}><span className={styles.metricLbl}>Hold Max</span><span className={styles.metricVal}>{stock.max_hold_days ?? 60} hari</span></div>
+        </div>
+
+        <div className={styles.entrySection}>
+          <span className={styles.blockTitle}>Rencana Position Trading</span>
+          <div className={styles.entryList}>
+            <EntryRow label="Target" price={targetPrice} pct={Math.round(targetPct * 100)} color="var(--c-teal)" />
+            <EntryRow label="Stop Loss" price={slPrice} pct={Math.round(stopLossPct * 100)} color="var(--c-coral)" />
+          </div>
+        </div>
+
+        {stock.signals_positive?.length > 0 && (
+          <div className={styles.signalBox}>
+            {stock.signals_positive.map((sig, i) => <div key={i} className={styles.signalItem}>+ {sig}</div>)}
+          </div>
+        )}
+        {stock.signals_negative?.length > 0 && (
+          <div className={styles.warningBox}>
+            {stock.signals_negative.map((sig, i) => <div key={i} className={styles.warningItem}>- {sig}</div>)}
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+
 function FilterBar({ search, onSearch, sortKey, onSort, filterTier, onFilterTier }) {
   return (
     <div className={styles.filterBar}>
@@ -612,6 +729,12 @@ function TabBar({ active, onChange, counts }) {
       </button>
       <button className={`${styles.tab} ${active === 'swing' ? styles.tabActive : ''}`} onClick={() => onChange('swing')}>
         Swing <span className={styles.tabCount}>{counts.swing || 0}</span>
+      </button>
+      <button className={`${styles.tab} ${active === 'trend' ? styles.tabActive : ''}`} onClick={() => onChange('trend')}>
+        Trend <span className={styles.tabCount}>{counts.trend || 0}</span>
+      </button>
+      <button className={`${styles.tab} ${active === 'position' ? styles.tabActive : ''}`} onClick={() => onChange('position')}>
+        Position <span className={styles.tabCount}>{counts.position || 0}</span>
       </button>
     </div>
   )
@@ -726,6 +849,8 @@ export default function Home({ initialData, loadError }) {
   const bsjpStocks = data?.bsjp_beli_sore_jual_pagi ?? []
   const bpjsStocks = data?.bpjs_beli_pagi_jual_sore ?? []
   const swingStocks = data?.swing_trading ?? []
+  const trendStocks = data?.trend_following ?? []
+  const positionStocks = data?.position_trading ?? []
 
   const meta = data?.meta || {}
   const ctx = data?.market_context || null
@@ -805,7 +930,9 @@ export default function Home({ initialData, loadError }) {
                 ara: data.logika_baru_calon_ara?.length ?? 0,
                 bsjp: data.bsjp_beli_sore_jual_pagi?.length ?? 0,
                 bpjs: data.bpjs_beli_pagi_jual_sore?.length ?? 0,
-                swing: data.swing_trading?.length ?? 0
+                swing: data.swing_trading?.length ?? 0,
+                trend: data.trend_following?.length ?? 0,
+                position: data.position_trading?.length ?? 0
               }}
             />
 
@@ -873,6 +1000,40 @@ export default function Home({ initialData, loadError }) {
               <div className={styles.cardGrid}>
                 {swingStocks.length > 0 ? swingStocks.map((s) => <SwingCard key={s.ticker} stock={s} />) : <div className={styles.stateBox}><p>Tidak ada setup Swing Stage 2 saat ini.</p></div>}
               </div>
+            )}
+
+            {activeTab === 'trend' && (
+              <>
+                {data.meta?.trend_disclaimer && (
+                  <div className={styles.alertBanner} style={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)', color: 'var(--text-muted)', marginBottom: '24px' }}>
+                    {data.meta.trend_disclaimer}
+                  </div>
+                )}
+                <div className={styles.cardGrid}>
+                  {trendStocks.length > 0 ? (
+                    trendStocks.map((s, i) => <TrendCard key={s.ticker} stock={s} rank={i + 1} />)
+                  ) : (
+                    <div className={styles.stateBox}><p>Tidak ada setup Trend Following saat ini.</p></div>
+                  )}
+                </div>
+              </>
+            )}
+
+            {activeTab === 'position' && (
+              <>
+                {data.meta?.position_disclaimer && (
+                  <div className={styles.alertBanner} style={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)', color: 'var(--text-muted)', marginBottom: '24px' }}>
+                    {data.meta.position_disclaimer}
+                  </div>
+                )}
+                <div className={styles.cardGrid}>
+                  {positionStocks.length > 0 ? (
+                    positionStocks.map((s, i) => <PositionCard key={s.ticker} stock={s} rank={i + 1} />)
+                  ) : (
+                    <div className={styles.stateBox}><p>Tidak ada setup Position Trading saat ini.</p></div>
+                  )}
+                </div>
+              </>
             )}
           </>
         )}

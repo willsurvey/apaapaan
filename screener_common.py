@@ -121,7 +121,7 @@ CONFIG = {
 
     # --- Stockbit Screener Top Value (semua saham IHSG diurutkan by Value DESC) ---
     "SB_TOP_VALUE_ENABLED": True,
-    "SB_TOP_VALUE_MAX_PAGES": 20,            # 15 page × 25 = 375 saham teratas by value
+    "SB_TOP_VALUE_MAX_PAGES": 40,            # 40 page × 25 = 1000 saham (melingkupi seluruh IHSG)
 
     # --- Stockbit Guru Screener ---
     # GET /screener/templates/{id}?type=TEMPLATE_TYPE_GURU
