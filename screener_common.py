@@ -1992,10 +1992,21 @@ def _normalize_yf_df(df: pd.DataFrame, is_intraday: bool = False) -> Optional[pd
 
 def get_weekly_data(ticker: str) -> Optional[pd.DataFrame]:
     """
-    Fetch data OHLCV weekly untuk 1 ticker. Cache in-memory per sesi screener.
+    Fetch data OHLCV weekly untuk 1 ticker.
+    Urutan lookup: 1) in-memory cache, 2) parquet disk cache, 3) download dari Yahoo.
+    Parquet cache di-populate oleh ingest_universe.py (lintas proses).
     """
+    # 1. In-memory cache (cepat, hanya valid dalam 1 proses)
     if ticker in _weekly_cache:
         return _weekly_cache[ticker]
+
+    # 2. Parquet disk cache (di-populate oleh ingest_universe.py)
+    cached = _load_yf_cache(ticker, "1wk")
+    if cached is not None:
+        _weekly_cache[ticker] = cached
+        return cached
+
+    # 3. Fallback: download langsung dari Yahoo Finance
     try:
         yf_ticker = f"{ticker}.JK" if not ticker.endswith(".JK") and not ticker.startswith("^") else ticker
         raw = yf.download(
@@ -2014,6 +2025,8 @@ def get_weekly_data(ticker: str) -> Optional[pd.DataFrame]:
             raw = raw[yf_ticker] if yf_ticker in raw.columns.get_level_values(0) else raw
         df = _normalize_yf_df(raw)
         _weekly_cache[ticker] = df
+        if df is not None:
+            _save_yf_cache(ticker, "1wk", df)
         return df
     except Exception as e:
         log.debug(f"get_weekly_data {ticker}: {e}")
@@ -2023,10 +2036,21 @@ def get_weekly_data(ticker: str) -> Optional[pd.DataFrame]:
 
 def get_monthly_data(ticker: str) -> Optional[pd.DataFrame]:
     """
-    Fetch data OHLCV monthly untuk 1 ticker. Cache in-memory per sesi screener.
+    Fetch data OHLCV monthly untuk 1 ticker.
+    Urutan lookup: 1) in-memory cache, 2) parquet disk cache, 3) download dari Yahoo.
+    Parquet cache di-populate oleh ingest_universe.py (lintas proses).
     """
+    # 1. In-memory cache
     if ticker in _monthly_cache:
         return _monthly_cache[ticker]
+
+    # 2. Parquet disk cache (di-populate oleh ingest_universe.py)
+    cached = _load_yf_cache(ticker, "1mo")
+    if cached is not None:
+        _monthly_cache[ticker] = cached
+        return cached
+
+    # 3. Fallback: download langsung dari Yahoo Finance
     try:
         yf_ticker = f"{ticker}.JK" if not ticker.endswith(".JK") and not ticker.startswith("^") else ticker
         raw = yf.download(
@@ -2044,6 +2068,8 @@ def get_monthly_data(ticker: str) -> Optional[pd.DataFrame]:
             raw = raw[yf_ticker] if yf_ticker in raw.columns.get_level_values(0) else raw
         df = _normalize_yf_df(raw)
         _monthly_cache[ticker] = df
+        if df is not None:
+            _save_yf_cache(ticker, "1mo", df)
         return df
     except Exception as e:
         log.debug(f"get_monthly_data {ticker}: {e}")

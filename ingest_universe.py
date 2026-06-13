@@ -152,7 +152,7 @@ def prefetch_broker_and_liquidity(universe, token, mode):
     - executor.map() menjaga urutan output = urutan input universe.
     - Setiap exception ditangkap di dalam worker → tidak ada crash.
     """
-    MAX_WORKERS = 3
+    MAX_WORKERS = 4
     total = len(universe)
 
     log.info(f"\n🔍 Pre-fetch liquidity + broker signal...")
@@ -291,10 +291,14 @@ def _fetch_one_timeframe(
                     # Parquet: setiap ticker punya file sendiri → aman dari thread lain
                     _save_yf_cache(raw_t, cache_key, df)
                 elif cache_key == "1wk":
-                    # Hanya thread ini yang tulis ke _weekly_cache → no race condition
+                    # Simpan ke disk (parquet) agar bisa dibaca pipeline lain di proses berbeda
+                    _save_yf_cache(raw_t, cache_key, df)
+                    # Juga simpan ke in-memory untuk efisiensi dalam proses yang sama
                     _weekly_cache[raw_t] = df
                 elif cache_key == "1mo":
-                    # Hanya thread ini yang tulis ke _monthly_cache → no race condition
+                    # Simpan ke disk (parquet) agar bisa dibaca pipeline lain di proses berbeda
+                    _save_yf_cache(raw_t, cache_key, df)
+                    # Juga simpan ke in-memory untuk efisiensi dalam proses yang sama
                     _monthly_cache[raw_t] = df
 
                 chunk_ok += 1
