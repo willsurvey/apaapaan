@@ -32,11 +32,6 @@ import yfinance as yf
 
 warnings.filterwarnings("ignore")
 
-# Suppress yfinance internal logger — ticker delisted/suspend sudah di-handle
-# secara graceful (return None), tidak perlu print ERROR ke log.
-logging.getLogger("yfinance").setLevel(logging.CRITICAL)
-logging.getLogger("peewee").setLevel(logging.CRITICAL)
-
 
 # =============================================================================
 # JSON ENCODER — Handle numpy types (bool_, int64, float64, ndarray)
@@ -1938,19 +1933,18 @@ def get_daily_data(ticker: str) -> Optional[pd.DataFrame]:
 
         df.reset_index(inplace=True)
 
-        # Flatten MultiIndex columns (yfinance >= 0.2.x)
+        # Flatten MultiIndex columns (yfinance >= 0.2.x mengembalikan (field, ticker))
         if isinstance(df.columns, pd.MultiIndex):
-            df.columns = [
-                col[0].lower() if isinstance(col, tuple) else str(col).lower()
-                for col in df.columns
-            ]
+            # Ambil level 0 saja (field name), buang level ticker
+            df.columns = [c[0].lower() for c in df.columns]
         else:
-            df.columns = [str(c).lower() for c in df.columns]
+            df.columns = [c.lower() for c in df.columns]
 
         # Normalize column name: 'datetime' → 'date'
-        date_cols = [c for c in df.columns if "date" in c or "datetime" in c]
-        if date_cols:
-            df.rename(columns={date_cols[0]: "date"}, inplace=True)
+        if "datetime" in df.columns and "date" not in df.columns:
+            df.rename(columns={"datetime": "date"}, inplace=True)
+        if "price date" in df.columns:
+            df.rename(columns={"price date": "date"}, inplace=True)
 
         # Pastikan kolom yang dibutuhkan ada
         required = ["close", "volume"]
@@ -1983,16 +1977,11 @@ def _normalize_yf_df(df: pd.DataFrame, is_intraday: bool = False) -> Optional[pd
     """Standarisasi DataFrame yfinance: flatten MultiIndex, lowercase kolom, rename date."""
     if df is None or df.empty:
         return None
-    df = df.copy()
     if isinstance(df.columns, pd.MultiIndex):
-        df.columns = [
-            col[0].lower() if isinstance(col, tuple) else str(col).lower()
-            for col in df.columns
-        ]
+        df.columns = [col[0].lower() for col in df.columns]
     else:
-        df.columns = [str(c).lower() for c in df.columns]
+        df.columns = [c.lower() for c in df.columns]
     df = df.reset_index()
-    df.columns = [str(c).lower() for c in df.columns]
     date_candidates = [c for c in df.columns if "date" in c or "datetime" in c]
     if not date_candidates:
         return None
@@ -2003,21 +1992,10 @@ def _normalize_yf_df(df: pd.DataFrame, is_intraday: bool = False) -> Optional[pd
 
 def get_weekly_data(ticker: str) -> Optional[pd.DataFrame]:
     """
-    Fetch data OHLCV weekly untuk 1 ticker.
-    Urutan lookup: 1) in-memory cache, 2) parquet disk cache, 3) download dari Yahoo.
-    Parquet cache di-populate oleh ingest_universe.py (lintas proses).
+    Fetch data OHLCV weekly untuk 1 ticker. Cache in-memory per sesi screener.
     """
-    # 1. In-memory cache (cepat, hanya valid dalam 1 proses)
     if ticker in _weekly_cache:
         return _weekly_cache[ticker]
-
-    # 2. Parquet disk cache (di-populate oleh ingest_universe.py)
-    cached = _load_yf_cache(ticker, "1wk")
-    if cached is not None:
-        _weekly_cache[ticker] = cached
-        return cached
-
-    # 3. Fallback: download langsung dari Yahoo Finance
     try:
         yf_ticker = f"{ticker}.JK" if not ticker.endswith(".JK") and not ticker.startswith("^") else ticker
         raw = yf.download(
@@ -2045,21 +2023,10 @@ def get_weekly_data(ticker: str) -> Optional[pd.DataFrame]:
 
 def get_monthly_data(ticker: str) -> Optional[pd.DataFrame]:
     """
-    Fetch data OHLCV monthly untuk 1 ticker.
-    Urutan lookup: 1) in-memory cache, 2) parquet disk cache, 3) download dari Yahoo.
-    Parquet cache di-populate oleh ingest_universe.py (lintas proses).
+    Fetch data OHLCV monthly untuk 1 ticker. Cache in-memory per sesi screener.
     """
-    # 1. In-memory cache
     if ticker in _monthly_cache:
         return _monthly_cache[ticker]
-
-    # 2. Parquet disk cache (di-populate oleh ingest_universe.py)
-    cached = _load_yf_cache(ticker, "1mo")
-    if cached is not None:
-        _monthly_cache[ticker] = cached
-        return cached
-
-    # 3. Fallback: download langsung dari Yahoo Finance
     try:
         yf_ticker = f"{ticker}.JK" if not ticker.endswith(".JK") and not ticker.startswith("^") else ticker
         raw = yf.download(
@@ -2496,16 +2463,12 @@ def get_1h_data(ticker: str) -> Optional[pd.DataFrame]:
 
         # Flatten MultiIndex columns (yfinance >= 0.2.x)
         if isinstance(df.columns, pd.MultiIndex):
-            df.columns = [
-                col[0].lower() if isinstance(col, tuple) else str(col).lower()
-                for col in df.columns
-            ]
+            df.columns = [c[0].lower() for c in df.columns]
         else:
-            df.columns = [str(c).lower() for c in df.columns]
+            df.columns = [c.lower() for c in df.columns]
 
-        date_cols = [c for c in df.columns if "date" in c or "datetime" in c]
-        if date_cols:
-            df.rename(columns={date_cols[0]: "date"}, inplace=True)
+        if "datetime" in df.columns and "date" not in df.columns:
+            df.rename(columns={"datetime": "date"}, inplace=True)
 
         # Pastikan kolom yang dibutuhkan ada
         for col in ["open", "high", "low", "close", "volume"]:

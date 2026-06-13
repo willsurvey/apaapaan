@@ -152,7 +152,7 @@ def prefetch_broker_and_liquidity(universe, token, mode):
     - executor.map() menjaga urutan output = urutan input universe.
     - Setiap exception ditangkap di dalam worker → tidak ada crash.
     """
-    MAX_WORKERS = 4
+    MAX_WORKERS = 3
     total = len(universe)
 
     log.info(f"\n🔍 Pre-fetch liquidity + broker signal...")
@@ -175,75 +175,49 @@ def prefetch_broker_and_liquidity(universe, token, mode):
 
 
 
-def _extract_ticker_from_bulk(batch_df: pd.DataFrame, ticker: str) -> pd.DataFrame:
+def _bulk_extract_ticker(batch_df, yf_ticker: str):
     """
-    Mengekstrak sub-DataFrame satu ticker dari hasil yf.download(group_by='ticker').
-    yfinance >= 0.2.x: MultiIndex (Ticker=level0, Price=level1) ATAU (Price=level0, Ticker=level1).
-    Returns empty DataFrame jika tidak ditemukan (bukan None, agar lebih aman).
+    Ekstrak sub-DataFrame 1 ticker dari hasil yf.download() multi-ticker.
+    Kompatibel dengan MultiIndex yfinance >= 0.2.x.
     """
     if batch_df is None or batch_df.empty:
-        return pd.DataFrame()
-
+        return None
     cols = batch_df.columns
     if isinstance(cols, pd.MultiIndex):
-        lvl0 = cols.get_level_values(0).unique()
-        lvl1 = cols.get_level_values(1).unique()
-        if ticker in lvl0:
-            # (Ticker, Price) structure
-            sub = batch_df[ticker].copy()
-        elif ticker in lvl1:
-            # (Price, Ticker) structure — yfinance >= 0.2.x default
-            sub = batch_df.xs(ticker, axis=1, level=1).copy()
+        lvl0 = cols.get_level_values(0).unique().tolist()
+        lvl1 = cols.get_level_values(1).unique().tolist()
+        if yf_ticker in lvl0:
+            sub = batch_df[yf_ticker].copy()
+        elif yf_ticker in lvl1:
+            sub = batch_df.xs(yf_ticker, axis=1, level=1).copy()
         else:
-            return pd.DataFrame()
+            return None
     else:
-        # Single ticker atau sudah flat
         sub = batch_df.copy()
-
-    result = sub.dropna(how="all")
-    return result if not result.empty else pd.DataFrame()
+    return sub.dropna(how="all") if not sub.empty else None
 
 
-def _clean_and_format_ohlcv(df: pd.DataFrame) -> "Optional[pd.DataFrame]":
-    """
-    Standarisasi DataFrame hasil _extract_ticker_from_bulk:
-    - Flatten MultiIndex jika masih ada
-    - Lowercase semua kolom
-    - Rename kolom tanggal → 'date'
-    - Buang baris NaN close dan volume = 0
-    Returns None jika tidak valid atau terlalu pendek.
-    """
-    if df is None or df.empty:
+def _normalize_bulk_df(raw) -> "Optional[pd.DataFrame]":
+    """Standarisasi DataFrame hasil bulk download: flatten, lowercase, rename date."""
+    if raw is None or (hasattr(raw, "empty") and raw.empty):
         return None
-
-    df = df.copy()
-
-    # Flatten MultiIndex (kadang .xs() meninggalkan sisa level)
-    if isinstance(df.columns, pd.MultiIndex):
-        df.columns = [
-            col[0].lower() if isinstance(col, tuple) else str(col).lower()
-            for col in df.columns
-        ]
+    import pandas as pd
+    raw = raw.copy()
+    if isinstance(raw.columns, pd.MultiIndex):
+        raw.columns = [c[0].lower() for c in raw.columns]
     else:
-        df.columns = [str(c).lower() for c in df.columns]
-
-    df = df.reset_index()
-    # Lowercase ulang setelah reset_index (index 'Date' jadi kolom)
-    df.columns = [str(c).lower() for c in df.columns]
-
-    date_cols = [c for c in df.columns if "date" in c or "datetime" in c]
+        raw.columns = [c.lower() for c in raw.columns]
+    raw = raw.reset_index()
+    date_cols = [c for c in raw.columns if "date" in c.lower() or "datetime" in c.lower()]
     if not date_cols:
         return None
-    df.rename(columns={date_cols[0]: "date"}, inplace=True)
-
-    if "close" not in df.columns:
+    raw.rename(columns={date_cols[0]: "date"}, inplace=True)
+    if "close" not in raw.columns:
         return None
-
-    df = df.dropna(subset=["close"])
-    if "volume" in df.columns:
-        df = df[df["volume"] > 0]
-
-    return df.reset_index(drop=True) if not df.empty else None
+    raw = raw.dropna(subset=["close"])
+    if "volume" in raw.columns:
+        raw = raw[raw["volume"] > 0]
+    return raw.reset_index(drop=True) if not raw.empty else None
 
 
 def _fetch_one_timeframe(
@@ -257,23 +231,17 @@ def _fetch_one_timeframe(
     sleep: float,
 ) -> dict:
     """
-    Worker: download semua chunk SATU timeframe secara sequential.
+    Worker function untuk 1 timeframe (semua chunk-nya diproses sequential di sini).
 
-    Dipanggil dari ThreadPoolExecutor(max_workers=4) — 4 timeframe jalan bersamaan,
-    tapi chunk dalam 1 timeframe tetap sequential dengan sleep antar chunk.
-
-    Kenapa tidak paralel per chunk:
-    - yf.download() memodifikasi state internal yfinance (dict session, dll)
-    - Terlalu banyak concurrent yf.download() → 'dictionary changed size during iteration'
-    - 4 thread sudah cukup: setiap thread = 1 yf.download() per chunk secara bergantian
+    Dipanggil dari ThreadPoolExecutor — 4 timeframe jalan bersamaan.
 
     Thread-safety:
-    - Parquet write: file unik per ticker+tf → tidak ada konflik antar thread.
-    - _weekly_cache / _monthly_cache: hanya thread 1wk/1mo yang tulis ke masing-masing dict
-      → tidak ada race condition antar timeframe.
-    - yf.download() dipanggil sequential dalam thread ini → tidak ada konflik internal.
+    - Parquet write: setiap file unik per ticker+tf → TIDAK ADA 2 thread write ke file sama.
+    - _weekly_cache / _monthly_cache: hanya thread "1wk" yang tulis ke _weekly_cache,
+      hanya thread "1mo" yang tulis ke _monthly_cache → TIDAK ADA race condition.
+    - yf.download() adalah HTTP GET saja → thread-safe.
 
-    Return: {"tf": str, "ok": int}
+    Return: {"ok": int} — jumlah ticker yang berhasil di-cache.
     """
     total_tickers = sum(len(c) for c in chunks)
     n_chunks = len(chunks)
@@ -310,63 +278,38 @@ def _fetch_one_timeframe(
             log.warning(f"  [{tf_label}] Chunk {ci}/{n_chunks} download error: {e}")
             batch = None
 
-        chunk_ok      = 0
-        skip_empty    = 0
-        skip_df_none  = 0
-        skip_short    = 0
-
-        # Log struktur kolom batch di chunk pertama (diagnosa)
-        if batch is not None and not batch.empty and ci == 1:
-            col_sample = str(list(batch.columns[:3]))
-            col_type   = type(batch.columns).__name__
-            log.info(f"  [{tf_label}] batch.columns type={col_type} sample={col_sample}")
-
+        chunk_ok = 0
         for yf_t in chunk:
             raw_t = yf_to_raw.get(yf_t, yf_t)
             try:
-                sub = _extract_ticker_from_bulk(batch if batch is not None else pd.DataFrame(), yf_t)
-                if sub.empty:
-                    skip_empty += 1
-                    continue
-                df = _clean_and_format_ohlcv(sub)
-                if df is None:
-                    skip_df_none += 1
-                    continue
-                if len(df) < 10:
-                    skip_short += 1
+                sub = _bulk_extract_ticker(batch, yf_t)
+                df  = _normalize_bulk_df(sub)
+                if df is None or len(df) < 10:
                     continue
 
                 if cache_key in ("1d", "1h"):
+                    # Parquet: setiap ticker punya file sendiri → aman dari thread lain
                     _save_yf_cache(raw_t, cache_key, df)
                 elif cache_key == "1wk":
+                    # Hanya thread ini yang tulis ke _weekly_cache → no race condition
                     _weekly_cache[raw_t] = df
-                    _save_yf_cache(raw_t, "1wk", df)  # persist ke disk → dibaca lintas proses
                 elif cache_key == "1mo":
+                    # Hanya thread ini yang tulis ke _monthly_cache → no race condition
                     _monthly_cache[raw_t] = df
-                    _save_yf_cache(raw_t, "1mo", df)  # persist ke disk → dibaca lintas proses
 
                 chunk_ok += 1
             except Exception as e:
                 log.debug(f"  [{tf_label}] {raw_t}: {e}")
 
-        # Log skip reasons jika >50% gagal
-        if chunk_ok < len(chunk) // 2:
-            log.info(
-                f"  [{tf_label}] Chunk {ci} skip: "
-                f"empty={skip_empty} df_none={skip_df_none} short={skip_short}"
-            )
-
-
-
         tf_ok += chunk_ok
         log.info(f"  [{tf_label}] Chunk {ci:>2}/{n_chunks} → {chunk_ok}/{len(chunk)} OK")
 
-        # Sleep antar chunk: beri jeda agar yfinance tidak overlap state internal
+        # Sleep antar chunk di dalam thread masing-masing (tidak memblokir thread lain)
         if ci < n_chunks:
             time.sleep(sleep)
 
     log.info(f"  [{tf_label}] ✓ Selesai: {tf_ok}/{total_tickers} berhasil")
-    return {"tf": tf_label, "ok": tf_ok}
+    return {"tf": tf_label, "cache_key": cache_key, "ok": tf_ok}
 
 
 def prefetch_ohlcv(universe):
@@ -374,15 +317,17 @@ def prefetch_ohlcv(universe):
     Bulk download semua data OHLCV ke local cache menggunakan yf.download()
     multi-ticker (50 ticker/chunk).
 
-    4 timeframe (1d, 1h, 1wk, 1mo) dijalankan PARALEL (max_workers=4).
-    Setiap thread menangani 1 timeframe penuh — chunk diproses SEQUENTIAL
-    dengan sleep 2s antar chunk untuk menghindari konflik internal yfinance.
+    4 timeframe (1d, 1h, 1wk, 1mo) dijalankan PARALEL menggunakan ThreadPoolExecutor.
+    Setiap thread menangani 1 timeframe penuh (semua chunk-nya sequential di dalam thread).
 
-    1wk dan 1mo juga disimpan ke parquet disk → dibaca oleh proses pipeline
-    lain (run_position.py dll) tanpa perlu download ulang.
+    Thread-safety:
+    - Parquet (1d, 1h): setiap file unik per ticker+tf, tidak ada konflik tulis.
+    - _weekly_cache: hanya 1 thread ("1wk") yang menulis → no race condition.
+    - _monthly_cache: hanya 1 thread ("1mo") yang menulis → no race condition.
+    - yf.download() adalah HTTP GET → thread-safe.
     """
     CHUNK = 50
-    SLEEP = 0.5  # 0.5s antar chunk — 4 timeframe jalan paralel, tidak perlu throttle panjang
+    SLEEP = 2.0
 
     tickers_raw = [s.get("ticker", "") for s in universe if s.get("ticker")]
     yf_tickers  = [
@@ -391,26 +336,23 @@ def prefetch_ohlcv(universe):
     ]
     yf_to_raw = dict(zip(yf_tickers, tickers_raw))
 
-    total    = len(yf_tickers)
-    chunks   = [yf_tickers[i:i + CHUNK] for i in range(0, total, CHUNK)]
-    n_chunks = len(chunks)
+    total = len(yf_tickers)
+    log.info(f"\n📥 Bulk OHLCV pre-download — {total} saham (chunk={CHUNK}, 4 timeframe paralel)")
 
+    chunks = [yf_tickers[i:i + CHUNK] for i in range(0, total, CHUNK)]
+
+    # Konfigurasi 4 timeframe yang akan jalan bersamaan
     timeframes = [
         # (tf_label, interval, period, cache_key, is_intraday)
         ("1d",  "1d",  CONFIG.get("YF_PERIOD_DAILY", "2y"), "1d",  False),
         ("1h",  "1h",  CONFIG.get("YF_PERIOD_1H",    "60d"), "1h",  True),
-        ("1wk", "1wk", "max", "1wk", False),
-        ("1mo", "1mo", "max", "1mo", False),
+        ("1wk", "1wk", "max",  "1wk", False),
+        ("1mo", "1mo", "max",  "1mo", False),
     ]
 
-    log.info(
-        f"\n📥 Bulk OHLCV — {total} saham | {n_chunks} chunk | "
-        f"4 timeframe paralel | sleep {SLEEP}s antar chunk"
-    )
+    results_map = {}  # tf_label → ok count
 
-    results_map = {"1d": 0, "1h": 0, "1wk": 0, "1mo": 0}
-
-    # 4 thread paralel — setiap thread = 1 timeframe penuh (chunk sequential di dalamnya)
+    # Jalankan 4 timeframe paralel — setiap thread = 1 timeframe penuh
     with ThreadPoolExecutor(max_workers=4) as executor:
         futures = {
             executor.submit(
@@ -420,32 +362,22 @@ def prefetch_ohlcv(universe):
             ): tf_label
             for tf_label, interval, period, cache_key, is_intraday in timeframes
         }
+
         for future in as_completed(futures):
             tf_label = futures[future]
             try:
                 result = future.result()
-                results_map[result["tf"]] += result["ok"]
+                results_map[tf_label] = result["ok"]
             except Exception as e:
                 log.warning(f"  [{tf_label}] Thread error: {e}")
+                results_map[tf_label] = 0
 
-    ok_1d = results_map["1d"]
-    ok_1h = results_map["1h"]
-    ok_wk = results_map["1wk"]
-    ok_mo = results_map["1mo"]
+    ok_1d = results_map.get("1d",  0)
+    ok_1h = results_map.get("1h",  0)
+    ok_wk = results_map.get("1wk", 0)
+    ok_mo = results_map.get("1mo", 0)
 
-    log.info(
-        f"✅ Bulk OHLCV selesai — "
-        f"1d:{ok_1d} 1h:{ok_1h} 1wk:{ok_wk} 1mo:{ok_mo} (dari {total} saham)"
-    )
-
-
-
-
-
-
-
-
-
+    log.info(f"✅ Bulk OHLCV selesai — 1d:{ok_1d} 1h:{ok_1h} 1wk:{ok_wk} 1mo:{ok_mo} (dari {total} saham)")
 
 
 
