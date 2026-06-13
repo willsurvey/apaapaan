@@ -281,9 +281,11 @@ def _download_chunk_with_retry(
     for attempt in range(_OHLCV_MAX_RETRY + 1):
         try:
             if is_intraday:
-                # 1h: Yahoo Finance support hingga ~730 hari ke belakang
-                # interval lain (5m, 15m, dll): max 60 hari
-                days_back = 729 if interval == "1h" else 59
+                # Yahoo Finance IDX: data 1h hanya tersedia max ~60 hari ke belakang.
+                # Batas 730 hari dari bug report tidak berlaku untuk IDX — end dikirim
+                # sebagai timestamp saat ini (bukan midnight), sehingga 729 hari ke
+                # belakang + jam berjalan = >730 hari → ditolak Yahoo.
+                days_back = 59 if interval == "1h" else 59
                 start_dt  = today - timedelta(days=days_back)
                 return yf.download(
                     tickers = chunk,
