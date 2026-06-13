@@ -175,6 +175,17 @@ def prefetch_broker_and_liquidity(universe, token, mode):
 
 
 
+# ---------------------------------------------------------------------------
+# KONSTANTA OHLCV DOWNLOADER — diadopsi dari IDX Batch v2 (Fast + Reliable)
+# ---------------------------------------------------------------------------
+_OHLCV_CHUNK_SIZE    = 100      # ↑ dari 50 → lebih sedikit request ke Yahoo
+_OHLCV_SLEEP_MIN     = 0.8      # ↓ dari 2.0 → lebih agresif di kondisi normal
+_OHLCV_SLEEP_MAX     = 8.0      # batas atas adaptive sleep (sinyal rate-limit)
+_OHLCV_MAX_RETRY     = 2        # retry per chunk jika download gagal
+_OHLCV_RETRY_BACKOFF = [5, 10]  # detik tunggu sebelum retry ke-1 dan ke-2
+_OHLCV_TIMEOUT       = 45       # timeout per yf.download() request (detik)
+
+
 def _bulk_extract_ticker(batch_df, yf_ticker: str):
     """
     Ekstrak sub-DataFrame 1 ticker dari hasil yf.download() multi-ticker.
@@ -197,11 +208,13 @@ def _bulk_extract_ticker(batch_df, yf_ticker: str):
     return sub.dropna(how="all") if not sub.empty else None
 
 
-def _normalize_bulk_df(raw) -> "Optional[pd.DataFrame]":
-    """Standarisasi DataFrame hasil bulk download: flatten, lowercase, rename date."""
+def _normalize_bulk_df(raw, is_intraday: bool = False) -> "Optional[pd.DataFrame]":
+    """
+    Standarisasi DataFrame hasil bulk download: flatten, lowercase, rename date.
+    Untuk data intraday: konversi timezone ke WIB jika ada.
+    """
     if raw is None or (hasattr(raw, "empty") and raw.empty):
         return None
-    import pandas as pd
     raw = raw.copy()
     if isinstance(raw.columns, pd.MultiIndex):
         raw.columns = [c[0].lower() for c in raw.columns]
@@ -217,7 +230,78 @@ def _normalize_bulk_df(raw) -> "Optional[pd.DataFrame]":
     raw = raw.dropna(subset=["close"])
     if "volume" in raw.columns:
         raw = raw[raw["volume"] > 0]
-    return raw.reset_index(drop=True) if not raw.empty else None
+    if raw.empty:
+        return None
+    # Format tanggal
+    if is_intraday:
+        dt_col = pd.to_datetime(raw["date"])
+        if dt_col.dt.tz is not None:
+            dt_col = dt_col.dt.tz_convert("Asia/Jakarta").dt.tz_localize(None)
+        else:
+            dt_col = dt_col + pd.Timedelta(hours=7)
+        raw["date"] = dt_col.dt.strftime("%Y-%m-%d %H:%M:%S")
+    return raw.reset_index(drop=True)
+
+
+def _download_chunk_with_retry(
+    chunk: list,
+    interval: str,
+    is_intraday: bool,
+    period,
+    today,
+    tf_label: str,
+    chunk_idx: int,
+    total_chunks: int,
+) -> "Optional[pd.DataFrame]":
+    """
+    Download 1 chunk dengan retry otomatis hingga _OHLCV_MAX_RETRY kali.
+    Jika semua attempt gagal, return None (chunk dilewati, tidak crash).
+
+    Perbedaan kunci vs versi lama:
+    - threads=False  : cegah yfinance buat sub-thread sendiri (clash ThreadPoolExecutor)
+    - timeout=45     : koneksi lambat tidak langsung mati
+    - repair=False   : skip proses repair yang memperlambat download
+    """
+    common_kwargs = dict(
+        interval          = interval,
+        group_by          = "ticker",
+        auto_adjust       = True,
+        repair            = False,
+        progress          = False,
+        threads           = False,
+        timeout           = _OHLCV_TIMEOUT,
+    )
+    for attempt in range(_OHLCV_MAX_RETRY + 1):
+        try:
+            if is_intraday:
+                days_back = 59 if interval == "1h" else 7
+                start_dt  = today - timedelta(days=days_back)
+                return yf.download(
+                    tickers = chunk,
+                    start   = start_dt.strftime("%Y-%m-%d"),
+                    end     = today.strftime("%Y-%m-%d"),
+                    **common_kwargs,
+                )
+            else:
+                return yf.download(
+                    tickers = chunk,
+                    period  = period,
+                    **common_kwargs,
+                )
+        except Exception as exc:
+            if attempt < _OHLCV_MAX_RETRY:
+                wait = _OHLCV_RETRY_BACKOFF[min(attempt, len(_OHLCV_RETRY_BACKOFF) - 1)]
+                log.warning(
+                    f"  [{tf_label}] Chunk {chunk_idx}/{total_chunks} "
+                    f"gagal (attempt {attempt + 1}), retry {wait}s... ({exc})"
+                )
+                time.sleep(wait)
+            else:
+                log.warning(
+                    f"  [{tf_label}] Chunk {chunk_idx}/{total_chunks} "
+                    f"GAGAL permanen setelah {_OHLCV_MAX_RETRY + 1} attempt: {exc}"
+                )
+    return None
 
 
 def _fetch_one_timeframe(
@@ -226,79 +310,72 @@ def _fetch_one_timeframe(
     period: str,
     cache_key: str,
     is_intraday: bool,
-    chunks: list,
+    tickers_raw: list,
     yf_to_raw: dict,
-    sleep: float,
 ) -> dict:
     """
-    Worker function untuk 1 timeframe (semua chunk-nya diproses sequential di sini).
+    Worker function untuk 1 timeframe — menangani semua saham secara chunk-by-chunk.
+
+    Adopsi IDX Batch v2:
+    - RESUME    : skip ticker yang parquet cache-nya sudah segar
+    - RETRY     : tiap chunk dicoba ulang jika gagal (_OHLCV_MAX_RETRY kali)
+    - ADAPTIVE SLEEP : naik jika banyak yang gagal (rate-limit), turun jika semua OK
 
     Dipanggil dari ThreadPoolExecutor — 4 timeframe jalan bersamaan.
 
     Thread-safety:
     - Parquet write: setiap file unik per ticker+tf → TIDAK ADA 2 thread write ke file sama.
-    - _weekly_cache / _monthly_cache: hanya thread "1wk" yang tulis ke _weekly_cache,
-      hanya thread "1mo" yang tulis ke _monthly_cache → TIDAK ADA race condition.
-    - yf.download() adalah HTTP GET saja → thread-safe.
-
-    Return: {"ok": int} — jumlah ticker yang berhasil di-cache.
+    - _weekly_cache / _monthly_cache: hanya 1 thread per key yang menulis → no race condition.
+    - yf.download(threads=False) → thread-safe.
     """
-    total_tickers = sum(len(c) for c in chunks)
-    n_chunks = len(chunks)
-    tf_ok = 0
+    today = datetime.now(tz=timezone.utc).date()
 
-    log.info(f"  [{tf_label}] Mulai download ({n_chunks} chunk, {total_tickers} saham)...")
+    # ── RESUME: skip ticker yang parquet cache-nya sudah ada dan segar ───────
+    yf_tickers_all = list(yf_to_raw.keys())
+    raw_to_yf      = {v: k for k, v in yf_to_raw.items()}  # inverse map
+
+    pending_raw = [t for t in tickers_raw if _load_yf_cache(t, cache_key) is None]
+    skipped     = len(tickers_raw) - len(pending_raw)
+    if skipped:
+        log.info(f"  [{tf_label}] Resume: {skipped} sudah di-cache, {len(pending_raw)} perlu download")
+
+    # Konversi pending ke format yf ticker
+    pending_yf = [raw_to_yf.get(t, f"{t}.JK") for t in pending_raw]
+
+    total_pending = len(pending_yf)
+    if total_pending == 0:
+        log.info(f"  [{tf_label}] Semua sudah di-cache, skip download")
+        return {"tf": tf_label, "cache_key": cache_key, "ok": skipped, "skipped": skipped}
+
+    chunks    = [pending_yf[i:i + _OHLCV_CHUNK_SIZE] for i in range(0, total_pending, _OHLCV_CHUNK_SIZE)]
+    n_chunks  = len(chunks)
+    tf_ok     = 0
+    sleep_cur = _OHLCV_SLEEP_MIN  # adaptive sleep state
+
+    log.info(f"  [{tf_label}] Download {total_pending} saham ({n_chunks} chunk, chunk_size={_OHLCV_CHUNK_SIZE})...")
 
     for ci, chunk in enumerate(chunks, 1):
-        batch = None
-        try:
-            if is_intraday:
-                days_back = 59 if interval == "1h" else 7
-                today = datetime.now(tz=timezone.utc).date()
-                start_dt = today - timedelta(days=days_back)
-                batch = yf.download(
-                    tickers=chunk,
-                    start=start_dt.strftime("%Y-%m-%d"),
-                    end=today.strftime("%Y-%m-%d"),
-                    interval=interval,
-                    group_by="ticker",
-                    auto_adjust=True,
-                    progress=False,
-                )
-            else:
-                batch = yf.download(
-                    tickers=chunk,
-                    period=period,
-                    interval=interval,
-                    group_by="ticker",
-                    auto_adjust=True,
-                    progress=False,
-                )
-        except Exception as e:
-            log.warning(f"  [{tf_label}] Chunk {ci}/{n_chunks} download error: {e}")
-            batch = None
+        batch = _download_chunk_with_retry(
+            chunk, interval, is_intraday, period, today,
+            tf_label, ci, n_chunks,
+        )
 
         chunk_ok = 0
         for yf_t in chunk:
             raw_t = yf_to_raw.get(yf_t, yf_t)
             try:
                 sub = _bulk_extract_ticker(batch, yf_t)
-                df  = _normalize_bulk_df(sub)
+                df  = _normalize_bulk_df(sub, is_intraday=is_intraday)
                 if df is None or len(df) < 10:
                     continue
 
                 if cache_key in ("1d", "1h"):
-                    # Parquet: setiap ticker punya file sendiri → aman dari thread lain
                     _save_yf_cache(raw_t, cache_key, df)
                 elif cache_key == "1wk":
-                    # Simpan ke disk (parquet) agar bisa dibaca pipeline lain di proses berbeda
                     _save_yf_cache(raw_t, cache_key, df)
-                    # Juga simpan ke in-memory untuk efisiensi dalam proses yang sama
                     _weekly_cache[raw_t] = df
                 elif cache_key == "1mo":
-                    # Simpan ke disk (parquet) agar bisa dibaca pipeline lain di proses berbeda
                     _save_yf_cache(raw_t, cache_key, df)
-                    # Juga simpan ke in-memory untuk efisiensi dalam proses yang sama
                     _monthly_cache[raw_t] = df
 
                 chunk_ok += 1
@@ -306,33 +383,48 @@ def _fetch_one_timeframe(
                 log.debug(f"  [{tf_label}] {raw_t}: {e}")
 
         tf_ok += chunk_ok
-        log.info(f"  [{tf_label}] Chunk {ci:>2}/{n_chunks} → {chunk_ok}/{len(chunk)} OK")
 
-        # Sleep antar chunk di dalam thread masing-masing (tidak memblokir thread lain)
+        # ── Adaptive sleep ──────────────────────────────────────────────
+        fail_rate = 1 - (chunk_ok / max(len(chunk), 1))
+        if fail_rate > 0.3:
+            sleep_cur = min(sleep_cur * 1.5, _OHLCV_SLEEP_MAX)
+        elif fail_rate == 0:
+            sleep_cur = max(sleep_cur * 0.9, _OHLCV_SLEEP_MIN)
+
+        # ETA
+        log.info(
+            f"  [{tf_label}] Chunk {ci:>2}/{n_chunks} "
+            f"→ {chunk_ok}/{len(chunk)} OK  sleep={sleep_cur:.1f}s"
+        )
+
         if ci < n_chunks:
-            time.sleep(sleep)
+            time.sleep(sleep_cur)
 
-    log.info(f"  [{tf_label}] ✓ Selesai: {tf_ok}/{total_tickers} berhasil")
-    return {"tf": tf_label, "cache_key": cache_key, "ok": tf_ok}
+    total_ok = tf_ok + skipped
+    log.info(f"  [{tf_label}] ✓ Selesai: {tf_ok} baru + {skipped} di-cache = {total_ok}/{len(tickers_raw)}")
+    return {"tf": tf_label, "cache_key": cache_key, "ok": total_ok, "skipped": skipped}
 
 
 def prefetch_ohlcv(universe):
     """
-    Bulk download semua data OHLCV ke local cache menggunakan yf.download()
-    multi-ticker (50 ticker/chunk).
+    Bulk download semua data OHLCV ke local parquet cache — IDX Batch v2 logic.
 
     4 timeframe (1d, 1h, 1wk, 1mo) dijalankan PARALEL menggunakan ThreadPoolExecutor.
-    Setiap thread menangani 1 timeframe penuh (semua chunk-nya sequential di dalam thread).
+    Setiap thread menangani 1 timeframe penuh (chunk-by-chunk sequential di dalamnya).
+
+    Optimasi vs versi lama:
+    - CHUNK 50→100     : lebih sedikit request ke Yahoo Finance
+    - Adaptive sleep   : 0.8s–8.0s (naik jika rate-limit, turun jika OK)
+    - Retry x2         : chunk gagal diulang otomatis (backoff 5s, 10s)
+    - threads=False    : cegah yfinance buat sub-thread (clash ThreadPoolExecutor)
+    - timeout=45       : koneksi lambat tidak langsung mati
+    - Resume           : skip ticker yang parquet cache-nya sudah segar
 
     Thread-safety:
-    - Parquet (1d, 1h): setiap file unik per ticker+tf, tidak ada konflik tulis.
-    - _weekly_cache: hanya 1 thread ("1wk") yang menulis → no race condition.
-    - _monthly_cache: hanya 1 thread ("1mo") yang menulis → no race condition.
-    - yf.download() adalah HTTP GET → thread-safe.
+    - Parquet (1d, 1h): file unik per ticker+tf → tidak ada konflik tulis.
+    - _weekly_cache: hanya thread "1wk" yang menulis → no race condition.
+    - _monthly_cache: hanya thread "1mo" yang menulis → no race condition.
     """
-    CHUNK = 50
-    SLEEP = 2.0
-
     tickers_raw = [s.get("ticker", "") for s in universe if s.get("ticker")]
     yf_tickers  = [
         f"{t}.JK" if not t.endswith(".JK") and not t.startswith("^") else t
@@ -340,10 +432,12 @@ def prefetch_ohlcv(universe):
     ]
     yf_to_raw = dict(zip(yf_tickers, tickers_raw))
 
-    total = len(yf_tickers)
-    log.info(f"\n📥 Bulk OHLCV pre-download — {total} saham (chunk={CHUNK}, 4 timeframe paralel)")
-
-    chunks = [yf_tickers[i:i + CHUNK] for i in range(0, total, CHUNK)]
+    total = len(tickers_raw)
+    log.info(
+        f"\n📥 Bulk OHLCV pre-download — {total} saham"
+        f" (chunk={_OHLCV_CHUNK_SIZE}, sleep={_OHLCV_SLEEP_MIN}-{_OHLCV_SLEEP_MAX}s"
+        f", retry={_OHLCV_MAX_RETRY}x, 4 timeframe paralel)"
+    )
 
     # Konfigurasi 4 timeframe yang akan jalan bersamaan
     timeframes = [
@@ -362,7 +456,7 @@ def prefetch_ohlcv(universe):
             executor.submit(
                 _fetch_one_timeframe,
                 tf_label, interval, period, cache_key, is_intraday,
-                chunks, yf_to_raw, SLEEP,
+                tickers_raw, yf_to_raw,
             ): tf_label
             for tf_label, interval, period, cache_key, is_intraday in timeframes
         }
