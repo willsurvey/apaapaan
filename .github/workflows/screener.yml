@@ -42,6 +42,7 @@ permissions:
 env:
   PYTHON_VERSION: '3.13'
   PIP_CACHE_DIR: ~/.cache/pip
+  TZ: 'Asia/Jakarta'
 
 jobs:
 
