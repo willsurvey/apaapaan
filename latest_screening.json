@@ -1,10 +1,10 @@
 {
   "status": "success",
-  "generated_at": "2026-06-15 00:00:41 WIB",
+  "generated_at": "2026-06-15 00:20:01 WIB",
   "date": "2026-06-15",
   "mode": "FULL_STOCKBIT",
-  "session_label": "PRE_MARKET_WEEKEND (Sunday)",
-  "session_warning": "⚠️ Screening dijalankan di akhir pekan — gunakan sebagai referensi persiapan, bukan sinyal eksekusi langsung.",
+  "session_label": "MARKET_DAY",
+  "session_warning": null,
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
@@ -128,7 +128,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "23.59 WIB"
+      "updated_at": "00.19 WIB"
     }
   ]
 }
