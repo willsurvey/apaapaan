@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-06-15 09:19:57 WIB",
+  "generated_at": "2026-06-15 09:39:25 WIB",
   "date": "2026-06-15",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,17 +8,17 @@
   "mode_warning": null,
   "total_saham": 0,
   "market_context": {
-    "ihsg_close": 6007,
-    "ihsg_change_pct": 2.07,
+    "ihsg_close": 6209,
+    "ihsg_change_pct": 3.36,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
     "warning": null
   },
   "screening_summary": {
-    "universe": 964,
-    "after_liquidity": 19,
-    "after_accumulation": 3,
+    "universe": 973,
+    "after_liquidity": 37,
+    "after_accumulation": 7,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
