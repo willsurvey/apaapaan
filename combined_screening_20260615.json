@@ -12,13 +12,13 @@
       "market_data": {
         "close": 173.0,
         "change_pct": 10.19,
-        "value_today": 2354024565100,
+        "value_today": 2354867386500,
         "net_foreign": 54216422900
       },
       "d1_features": {
         "body_pct": 4.85,
         "close_pos_pct": 35.7,
-        "vol_ratio": 0.09,
+        "vol_ratio": 0.1,
         "change_pct": 10.19,
         "range_pct": 16.18,
         "upper_wick": 64.3,
@@ -59,7 +59,7 @@
         "from_screener": true
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+4.9%), volume mati (0.09x MA20), close tengah (36%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+4.9%), volume mati (0.10x MA20), close tengah (36%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Asing beli bersih hari ini (Rp 54.2B)",
         "Masuk screener volume Stockbit — ada perhatian pasar"
@@ -88,7 +88,7 @@
       "market_data": {
         "close": 4250.0,
         "change_pct": 4.17,
-        "value_today": 237889835000,
+        "value_today": 237961660000,
         "net_foreign": -2981874000
       },
       "d1_features": {
@@ -273,7 +273,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-15 16:20:44 WIB",
+    "generated_at": "2026-06-15 16:41:07 WIB",
     "date": "2026-06-15",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -301,8 +301,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6232,
-    "ihsg_change_pct": 3.74,
+    "ihsg_close": 6254,
+    "ihsg_change_pct": 4.12,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
