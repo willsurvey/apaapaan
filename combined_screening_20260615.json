@@ -10,7 +10,7 @@
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_77_Foreign Flow",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -90,7 +90,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.39 WIB"
+      "updated_at": "18.59 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -144,7 +144,7 @@
           "MOVER_TYPE_TOP_VALUE",
           "MOVER_TYPE_TOP_GAINER",
           "SCREENER_VOLUME_EXPLOSION",
-          "GURU_92_Big Accumula",
+          "GURU_87_Reversal on ",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": true,
@@ -367,7 +367,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-15 18:41:06 WIB",
+    "generated_at": "2026-06-15 19:00:54 WIB",
     "date": "2026-06-15",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
