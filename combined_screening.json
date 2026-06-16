@@ -87,7 +87,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "19.20 WIB"
+      "updated_at": "19.40 WIB"
     },
     {
       "rank": 2,
@@ -177,7 +177,7 @@
         "✅ Pullback ke MA50 (3.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "19.20 WIB"
+      "updated_at": "19.40 WIB"
     },
     {
       "rank": 3,
@@ -267,10 +267,97 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "19.20 WIB"
+      "updated_at": "19.40 WIB"
     }
   ],
-  "logika_baru_calon_ara": [],
+  "logika_baru_calon_ara": [
+    {
+      "ticker": "GHON",
+      "company": "Gihon Telekomunikasi Indonesia Tbk.",
+      "type": "CALON_ARA",
+      "score": 67,
+      "score_tier": "MODERATE",
+      "pattern_type": "CONTINUATION",
+      "confluence_count": 9,
+      "entry_range": "2,310 – 2,910",
+      "entry_lower": 2310,
+      "entry_upper": 2910,
+      "entry_note": "Pasang Limit Order pukul 19:00 di 2,330–2,910 (PDC hingga harga ARA). Tipe Quiet Accumulation gap lebih kecil — peluang fill order lebih tinggi dibanding Tipe Continuation.",
+      "entry_range_pct": 25.8,
+      "ara_price_ref": 2910,
+      "ara_limit_pct": 25.0,
+      "gap_risk_note": "Backtest: 64% saham ARA Gap Up >2% di pagi hari. Median gap: +3.70% dari harga ARA. Limit Order berisiko tidak fill.",
+      "estimated_target_pct": "+7% hingga +15% dari harga beli",
+      "target_morning_exit": 3150,
+      "target_base": 3410,
+      "target_optimistic": 3540,
+      "target_morning_exit_pct": 7.0,
+      "target_base_pct": 15.0,
+      "target_optimistic_pct": 20.0,
+      "target_note": "Pagi: 3,150 (~+7%) | Moderat: 3,410 (~+15%) | Full: 3,540 (~+20%) | JUAL PAGI, bukan hold sampai close.",
+      "assumed_entry": 2950,
+      "exit_timing_guide": "JUAL DI PAGI HARI (09:00-09:30 WIB). Backtest menunjukkan High D+1 median +16.77% dari harga ARA. Setelah 09:30, momentum sering berbalik. Jika masih ARA lagi (23.5% peluang), hold dengan trailing stop.",
+      "reason_beginner_friendly": "GHON sudah naik 21% kemarin dengan volume 27x lebih besar dari biasanya. Ada pembeli besar yang masuk agresif. Jika momentum berlanjut, saham ini bisa naik lebih jauh besok. ✅ Broker signal: Big Acc. Skor kepercayaan: SEDANG.",
+      "risk_warning": "⚠️ FALSE SIGNAL RATE ~85-90%. Konfirmasi dengan broker flow, berita, dan analisis manual sebelum beli. | 📌 Batasi posisi: max 1% dari portofolio.",
+      "d1p_backtest_stats": {
+        "high_d1_median": "+16.77% dari harga ARA (n=2213)",
+        "profit_morning": "84.5% sempat naik >5% di D+1",
+        "close_d1_profit": "hanya 48.9% (hampir coin flip — JANGAN hold)",
+        "continued_ara_pct": "23.5% lanjut ARA hari berikutnya",
+        "sample_size": "n=2.213 kunci ARA pertama pada saham liquid"
+      },
+      "broker_signal": "Big Acc",
+      "d1_date": "2026-06-15",
+      "d1_close": 2330.0,
+      "d1_open": 1930.0,
+      "d1_high": 2400.0,
+      "d1_low": 1930.0,
+      "d1_change_pct": 21.04,
+      "d1_vol_ratio_ma20": 26.55,
+      "d1_vol_ratio_ma5": 10.34,
+      "d1_body_pct": 0.851,
+      "d1_upper_wick": 0.149,
+      "d1_lower_wick": 0.0,
+      "d1_close_pos": 0.851,
+      "d1_bullish": true,
+      "d1_range_expansion": 5.58,
+      "d1_value_rp": 372054400000,
+      "d2_change_pct": 1.85,
+      "d2_body_pct": 0.125,
+      "d2_vol_ratio_ma20": 4.26,
+      "m1_last15_green": 10,
+      "m1_close_vs_vwap": 4.24,
+      "m1_close_pos_intra": 0.851,
+      "m1_high_timing": 0.85,
+      "m1_n_bars": 246,
+      "m1_data_available": true,
+      "above_ma20": true,
+      "above_ma50": true,
+      "ma20": 1812.0,
+      "ma50": 1800.0,
+      "up_streak_days": 1,
+      "trend_5d_pct": 37.87,
+      "signals_positive": [
+        "Volume D-1 ekstrem: 26.6x MA20 (tier-2 ≥6x)",
+        "Volume D-2 elevated: 4.3x MA20 (akumulasi dini)",
+        "Continuation D-1: +21.0% vol 26.6x MA20",
+        "Range expansion: 5.6x avg-5d",
+        "Harga di atas MA20",
+        "Close intraday kuat: 0.85 (mendekati high harian)",
+        "Close di atas VWAP: +4.2%",
+        "High intraday di akhir sesi (85%)",
+        "Broker signal: Big Accumulation (+10 poin)"
+      ],
+      "signals_negative": [
+        "Closing flat bias: 7/14 bar flat — indikasi tidak aktif"
+      ],
+      "universe_sources": [
+        "GURU_92"
+      ],
+      "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
+      "generated_at": "19:40 WIB"
+    }
+  ],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
@@ -355,14 +442,14 @@
       "close": 4290.0,
       "near_52w_pct": 99.8,
       "wk_rsi": 70.4,
-      "wk_adx": 22.1,
+      "wk_adx": 20.5,
       "mo_rsi": 63.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (70) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (100%) + Wk RSI (70) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (100%) — breakout potential",
         "Monthly RSI kuat (64)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -469,7 +556,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-16 19:20:57 WIB",
+    "generated_at": "2026-06-16 19:42:09 WIB",
     "date": "2026-06-16",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -477,7 +564,7 @@
     "session_warning": null,
     "mode_warning": null,
     "intraday_count": 3,
-    "ara_count": 0,
+    "ara_count": 1,
     "bsjp_count": 0,
     "bpjs_count": 1,
     "swing_count": 0,
