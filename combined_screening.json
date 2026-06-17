@@ -34,8 +34,8 @@
         }
       },
       "trend": {
-        "ma50": 15308.0,
-        "gap_from_ma50_pct": 5.82,
+        "ma50": 15262.0,
+        "gap_from_ma50_pct": 3.36,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -84,10 +84,11 @@
         "✅ Broker Signal: Big Acc",
         "✅ Net Foreign Buy hari ini: Rp4.9B",
         "✅ Net Foreign Buy 3 hari berturut",
-        "✅ Harga di zona FVG aktif"
+        "✅ Harga di zona FVG aktif",
+        "✅ Pullback ke MA50 (3.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "00.00 WIB"
+      "updated_at": "00.23 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -97,22 +98,22 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "BSSR",
-      "company": "Baramulti Suksessarana Tbk.",
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
       "score": 65,
-      "close": 4300.0,
-      "near_52w_pct": 98.2,
-      "wk_rsi": 70.7,
-      "wk_adx": 21.0,
-      "mo_rsi": 63.8,
+      "close": 600.0,
+      "near_52w_pct": 99.2,
+      "wk_rsi": 74.7,
+      "wk_adx": 43.2,
+      "mo_rsi": 69.6,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (71) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (64)",
+        "Near 52W High (99%) + Wk RSI (75) + Wk ADX (43) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -120,22 +121,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MGLV",
-      "company": "Panca Anugrah Wisesa Tbk",
+      "ticker": "BSSR",
+      "company": "Baramulti Suksessarana Tbk.",
       "score": 65,
-      "close": 8725.0,
-      "near_52w_pct": 95.1,
-      "wk_rsi": 72.8,
-      "wk_adx": 64.8,
-      "mo_rsi": 82.7,
+      "close": 4290.0,
+      "near_52w_pct": 99.8,
+      "wk_rsi": 70.7,
+      "wk_adx": 22.5,
+      "mo_rsi": 63.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (73) + Wk ADX (65) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (83)",
+        "Near 52W High (100%) + Wk RSI (71) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
+        "Monthly RSI kuat (64)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -191,8 +192,8 @@
       "ticker": "TOTL",
       "company": "Total Bangun Persada Tbk.",
       "score": 60,
-      "close": 1085.0,
-      "near_52w_pct": 92.7,
+      "close": 1080.0,
+      "near_52w_pct": 92.3,
       "wk_rsi": 62.8,
       "wk_adx": 32.4,
       "mo_rsi": 77.1,
@@ -201,7 +202,7 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (93%) + Wk RSI (63) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (92%) + Wk RSI (63) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (77)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -213,7 +214,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-18 00:01:39 WIB",
+    "generated_at": "2026-06-18 00:24:47 WIB",
     "date": "2026-06-18",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -241,8 +242,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6220,
-    "ihsg_change_pct": -0.55,
+    "ihsg_close": 6254,
+    "ihsg_change_pct": 4.12,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -252,8 +253,8 @@
     "universe": 973,
     "after_liquidity": 59,
     "after_accumulation": 18,
-    "after_trend": 5,
-    "after_smc": 3,
+    "after_trend": 4,
+    "after_smc": 2,
     "after_entry": 1,
     "final": 1
   },
