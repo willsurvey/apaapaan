@@ -87,130 +87,14 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "18.59 WIB"
+      "updated_at": "19.20 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
-  "trend_following": [
-    {
-      "ticker": "NEST",
-      "company": "Esta Indonesia Tbk",
-      "score": 70,
-      "close": 570.0,
-      "adx": 35.0,
-      "rsi": 64.7,
-      "macd_hist": 3.7411,
-      "wk_adx": 43.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (35) + RSI sehat (65) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+14.9%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (43)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "VISI",
-      "company": "Satu Visi Putra Tbk.",
-      "score": 70,
-      "close": 1170.0,
-      "adx": 47.7,
-      "rsi": 74.4,
-      "macd_hist": 25.895,
-      "wk_adx": 51.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (48) + RSI sehat (74) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+6.8%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (52)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "MLBI",
-      "company": "Multi Bintang Indonesia Tbk.",
-      "score": 70,
-      "close": 6250.0,
-      "adx": 32.2,
-      "rsi": 57.1,
-      "macd_hist": 12.2051,
-      "wk_adx": 27.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (32) + RSI sehat (57) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+5.0%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (28)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "NZIA",
-      "company": "Nusantara Almazia Tbk",
-      "score": 65,
-      "close": 186.0,
-      "adx": 30.9,
-      "rsi": 60.6,
-      "macd_hist": 2.4308,
-      "wk_adx": 44.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (31) + RSI sehat (61) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (44)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 50,
-      "close": 955.0,
-      "adx": 30.4,
-      "rsi": 74.9,
-      "macd_hist": 3.2758,
-      "wk_adx": 16.2,
-      "wk_obv_above_ma": false,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (30) + RSI sehat (75) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+4.4%)",
-        "Di atas MA200 — tren primer bullish"
-      ],
-      "signals_negative": [
-        "Weekly ADX lemah (16)",
-        "Weekly OBV di bawah MA20"
-      ],
-      "pipeline": "trend_following"
-    }
-  ],
+  "trend_following": [],
   "position_trading": [
     {
       "ticker": "BSSR",
@@ -219,14 +103,14 @@
       "close": 4300.0,
       "near_52w_pct": 98.2,
       "wk_rsi": 70.7,
-      "wk_adx": 21.0,
+      "wk_adx": 22.5,
       "mo_rsi": 63.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (71) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (98%) + Wk RSI (71) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (64)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -329,7 +213,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-17 19:01:08 WIB",
+    "generated_at": "2026-06-17 19:21:02 WIB",
     "date": "2026-06-17",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -341,7 +225,7 @@
     "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
-    "trend_count": 5,
+    "trend_count": 0,
     "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
