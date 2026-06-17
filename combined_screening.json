@@ -11,14 +11,14 @@
       "score": 50,
       "market_data": {
         "close": 2980.0,
-        "change_pct": 2.05,
-        "value_today": 314112416000,
+        "change_pct": 1.71,
+        "value_today": 324845113000,
         "net_foreign": 25997350000
       },
       "d1_features": {
         "body_pct": 1.02,
         "close_pos_pct": 37.5,
-        "vol_ratio": 0.48,
+        "vol_ratio": 0.49,
         "change_pct": 1.71,
         "range_pct": 2.68,
         "upper_wick": 62.5,
@@ -57,7 +57,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.0%), volume mati (0.48x MA20), close tengah (38%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.0%), volume mati (0.49x MA20), close tengah (38%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Range D-1 kecil (2.7%) — noise rendah besok",
@@ -87,13 +87,13 @@
       "market_data": {
         "close": 6750.0,
         "change_pct": 1.5,
-        "value_today": 23144585000,
+        "value_today": 25191377500,
         "net_foreign": 5845267500
       },
       "d1_features": {
         "body_pct": 1.12,
         "close_pos_pct": 42.9,
-        "vol_ratio": 0.3,
+        "vol_ratio": 0.33,
         "change_pct": 1.5,
         "range_pct": 2.59,
         "upper_wick": 57.1,
@@ -130,7 +130,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.1%), volume mati (0.30x MA20), close tengah (43%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.1%), volume mati (0.33x MA20), close tengah (43%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Range D-1 kecil (2.6%) — noise rendah besok",
@@ -226,35 +226,12 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "NEST",
-      "company": "Esta Indonesia Tbk",
-      "score": 65,
-      "close": 575.0,
-      "near_52w_pct": 95.0,
-      "wk_rsi": 74.9,
-      "wk_adx": 43.2,
-      "mo_rsi": 69.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (75) + Wk ADX (43) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (70)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "BSML",
       "company": "Bintang Samudera Mandiri Lines Tbk.",
       "score": 65,
-      "close": 452.0,
-      "near_52w_pct": 98.7,
-      "wk_rsi": 79.8,
+      "close": 454.0,
+      "near_52w_pct": 99.1,
+      "wk_rsi": 80.0,
       "wk_adx": 48.2,
       "mo_rsi": 98.2,
       "wk_obv_above_ma": true,
@@ -270,11 +247,33 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "TOTL",
+      "company": "Total Bangun Persada Tbk.",
+      "score": 55,
+      "close": 1085.0,
+      "near_52w_pct": 92.7,
+      "wk_rsi": 62.8,
+      "wk_adx": 32.4,
+      "mo_rsi": 77.1,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (93%) + Wk RSI (63) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (77)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-17 12:00:15 WIB",
+    "generated_at": "2026-06-17 12:20:21 WIB",
     "date": "2026-06-17",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -302,8 +301,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6220,
-    "ihsg_change_pct": -0.55,
+    "ihsg_close": 6206,
+    "ihsg_change_pct": -0.77,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
