@@ -1,7 +1,7 @@
 {
   "status": "success",
-  "generated_at": "2026-06-17 23:41:09 WIB",
-  "date": "2026-06-17",
+  "generated_at": "2026-06-18 00:01:39 WIB",
+  "date": "2026-06-18",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
@@ -130,7 +130,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "23.40 WIB"
+      "updated_at": "00.00 WIB"
     }
   ]
 }
