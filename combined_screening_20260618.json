@@ -2,7 +2,80 @@
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
-  "bpjs_beli_pagi_jual_sore": [],
+  "bpjs_beli_pagi_jual_sore": [
+    {
+      "ticker": "TINS",
+      "company": "Timah Tbk.",
+      "type": "WATCHLIST_BPJS",
+      "formula": "QUIET_CONTINUATION",
+      "score": 60,
+      "market_data": {
+        "close": 3600.0,
+        "change_pct": 1.69,
+        "value_today": 128597103000,
+        "net_foreign": 33559125000
+      },
+      "d1_features": {
+        "body_pct": 1.41,
+        "close_pos_pct": 65.4,
+        "vol_ratio": 0.44,
+        "change_pct": 1.69,
+        "range_pct": 7.22,
+        "upper_wick": 34.6,
+        "above_ma20": true,
+        "above_ma50": true,
+        "above_ma200": true,
+        "atr_pct": 8.12
+      },
+      "trading_plan": {
+        "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
+        "entry_range": "3,450 – 3,670",
+        "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
+        "stop_loss": 3160,
+        "stop_note": "Cut loss jika turun di bawah 3,160 (1 ATR dari entry)",
+        "target_modest": 3670,
+        "target_moderate": 3740,
+        "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
+      },
+      "morning_confirmation_criteria": [
+        "⚠️ WAJIB: Utamakan jika terjadi Gap Down > 3% saat open untuk risk/reward terbaik",
+        "✅ Skenario Gap Down >3% memiliki Profit Factor 6.78x & Win Rate 44.5%",
+        "✅ Volume 15 menit pertama normal/stabil di atas rata-rata",
+        "❌ JANGAN BELI jika Gap Up > 3% (euforia rawan bull trap, PF hanya 0.3x)",
+        "❌ JANGAN BELI jika langsung longsor drastis tanpa rebound dari low"
+      ],
+      "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
+      "universe_context": {
+        "in_mover_types": [
+          "MOVER_TYPE_TOP_VALUE",
+          "MOVER_TYPE_NET_FOREIGN_BUY",
+          "GURU_92_Big Accumula",
+          "SCREENER_TOP_VALUE"
+        ],
+        "from_gainer": false,
+        "from_screener": false
+      },
+      "signals_positive": [
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.4%), volume mati (0.44x MA20), close tengah (65%). WR historis: 49.8% (n=1.371)",
+        "Di atas MA20 — support jangka pendek",
+        "Di atas MA50 — tren menengah masih ok",
+        "Di atas MA200 — tren utama masih bullish",
+        "Asing beli bersih hari ini (Rp 33.6B)"
+      ],
+      "signals_negative": [],
+      "backtest_stats": {
+        "formula": "QUIET_CONTINUATION",
+        "win_rate": "49.8%",
+        "sample_size": "n=1.371",
+        "profit_factor": "1.04x",
+        "total_backtest": "789.792 hari trading IHSG (956 saham)",
+        "gap_down_sweet_spot": "Gap Down >2%: WR 30.2%, upside +3.75%, DD -0.88%",
+        "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
+      },
+      "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
+      "rank": 1
+    }
+  ],
   "swing_trading": [],
   "trend_following": [],
   "position_trading": [
@@ -10,9 +83,9 @@
       "ticker": "BSML",
       "company": "Bintang Samudera Mandiri Lines Tbk.",
       "score": 65,
-      "close": 442.0,
-      "near_52w_pct": 96.5,
-      "wk_rsi": 78.8,
+      "close": 444.0,
+      "near_52w_pct": 96.9,
+      "wk_rsi": 79.0,
       "wk_adx": 48.2,
       "mo_rsi": 98.2,
       "wk_obv_above_ma": true,
@@ -76,21 +149,21 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "DMAS",
-      "company": "Puradelta Lestari Tbk",
-      "score": 60,
-      "close": 155.0,
-      "near_52w_pct": 95.7,
-      "wk_rsi": 74.5,
-      "wk_adx": 24.6,
-      "mo_rsi": 54.7,
+      "ticker": "MGLV",
+      "company": "Panca Anugrah Wisesa Tbk",
+      "score": 55,
+      "close": 8450.0,
+      "near_52w_pct": 92.1,
+      "wk_rsi": 71.7,
+      "wk_adx": 64.8,
+      "mo_rsi": 82.3,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
+        "Near 52W High (92%) + Wk RSI (72) + Wk ADX (65) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (82)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -98,21 +171,21 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "EPAC",
-      "company": "Megalestari Epack Sentosaraya Tbk.",
+      "ticker": "TOTL",
+      "company": "Total Bangun Persada Tbk.",
       "score": 55,
-      "close": 73.0,
-      "near_52w_pct": 88.0,
-      "wk_rsi": 68.0,
-      "wk_adx": 25.6,
-      "mo_rsi": 76.0,
+      "close": 1085.0,
+      "near_52w_pct": 92.7,
+      "wk_rsi": 62.8,
+      "wk_adx": 32.4,
+      "mo_rsi": 77.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (88%) + Wk RSI (68) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (76)",
+        "Near 52W High (93%) + Wk RSI (63) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (77)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -122,7 +195,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-18 14:19:21 WIB",
+    "generated_at": "2026-06-18 14:40:03 WIB",
     "date": "2026-06-18",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -132,7 +205,7 @@
     "intraday_count": 0,
     "ara_count": 0,
     "bsjp_count": 0,
-    "bpjs_count": 0,
+    "bpjs_count": 1,
     "swing_count": 0,
     "trend_count": 0,
     "position_count": 5,
@@ -150,8 +223,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6147,
-    "ihsg_change_pct": -1.17,
+    "ihsg_close": 6129,
+    "ihsg_change_pct": -1.47,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -159,7 +232,7 @@
   },
   "screening_summary": {
     "universe": 974,
-    "after_liquidity": 54,
+    "after_liquidity": 56,
     "after_accumulation": 7,
     "after_trend": 2,
     "after_smc": 1,
