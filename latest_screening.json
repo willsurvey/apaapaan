@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-06-19 00:00:51 WIB",
+  "generated_at": "2026-06-19 00:24:02 WIB",
   "date": "2026-06-19",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6172,
-    "ihsg_change_pct": -0.78,
+    "ihsg_close": 6220,
+    "ihsg_change_pct": -0.55,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -19,7 +19,7 @@
     "universe": 974,
     "after_liquidity": 52,
     "after_accumulation": 16,
-    "after_trend": 5,
+    "after_trend": 6,
     "after_smc": 1,
     "after_entry": 1,
     "final": 1
@@ -76,8 +76,8 @@
         }
       },
       "trend": {
-        "ma50": 6708.0,
-        "gap_from_ma50_pct": 1.36,
+        "ma50": 6692.0,
+        "gap_from_ma50_pct": 0.87,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -128,10 +128,10 @@
         "✅ Net Foreign Buy 3 hari berturut",
         "✅ Harga di zona FVG aktif",
         "✅ Swing Structure: BULLISH",
-        "✅ Pullback ke MA50 (1.4% di atas MA50)"
+        "✅ Pullback ke MA50 (0.9% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "23.59 WIB"
+      "updated_at": "00.22 WIB"
     }
   ]
 }
