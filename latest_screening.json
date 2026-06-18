@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-06-18 07:03:52 WIB",
+  "generated_at": "2026-06-18 07:20:37 WIB",
   "date": "2026-06-18",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -85,8 +85,8 @@
         "internal_structure": "NONE",
         "swing_trend_bias": "BEARISH",
         "ob_zone": null,
-        "fvg_zone": "15000 - 15500",
-        "strong_low": 14150.0,
+        "fvg_zone": "15775 - 16025",
+        "strong_low": 14800.0,
         "weak_high": 17075.0
       },
       "entry_plan": {
@@ -130,7 +130,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "07.03 WIB"
+      "updated_at": "07.19 WIB"
     }
   ]
 }
