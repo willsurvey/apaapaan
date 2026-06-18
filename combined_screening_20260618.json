@@ -51,7 +51,7 @@
       "d1_close_pos": 0.044,
       "d1_bullish": false,
       "d1_range_expansion": 2.0,
-      "d1_value_rp": 765315250000,
+      "d1_value_rp": 765268700000,
       "d2_change_pct": 35.0,
       "d2_body_pct": 0.75,
       "d2_vol_ratio_ma20": 6.63,
@@ -91,7 +91,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "12:19 WIB"
+      "generated_at": "12:38 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -201,14 +201,14 @@
       "close": 4320.0,
       "near_52w_pct": 98.6,
       "wk_rsi": 71.4,
-      "wk_adx": 22.5,
+      "wk_adx": 21.0,
       "mo_rsi": 64.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (71) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (99%) + Wk RSI (71) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (64)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -287,7 +287,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-18 12:20:32 WIB",
+    "generated_at": "2026-06-18 12:39:41 WIB",
     "date": "2026-06-18",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -315,8 +315,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6146,
-    "ihsg_change_pct": -1.19,
+    "ihsg_close": 6154,
+    "ihsg_change_pct": -1.06,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
