@@ -88,7 +88,7 @@
         "✅ Pullback ke MA50 (1.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "19.39 WIB"
+      "updated_at": "19.59 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -247,14 +247,14 @@
       "close": 4350.0,
       "near_52w_pct": 99.3,
       "wk_rsi": 72.4,
-      "wk_adx": 21.0,
+      "wk_adx": 22.5,
       "mo_rsi": 64.6,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (72) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (99%) + Wk RSI (72) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (65)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -358,7 +358,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-18 19:40:39 WIB",
+    "generated_at": "2026-06-18 19:59:59 WIB",
     "date": "2026-06-18",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
