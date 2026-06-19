@@ -2,319 +2,13 @@
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
-  "bpjs_beli_pagi_jual_sore": [
-    {
-      "ticker": "BBCA",
-      "company": "Bank Central Asia Tbk.",
-      "type": "WATCHLIST_BPJS",
-      "formula": "QUIET_CONTINUATION",
-      "score": 35,
-      "market_data": {
-        "close": 6175.0,
-        "change_pct": 1.65,
-        "value_today": 586092420000,
-        "net_foreign": -51937547500
-      },
-      "d1_features": {
-        "body_pct": 2.07,
-        "close_pos_pct": 55.6,
-        "vol_ratio": 0.22,
-        "change_pct": 1.65,
-        "range_pct": 3.64,
-        "upper_wick": 44.4,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": false,
-        "atr_pct": 4.98
-      },
-      "trading_plan": {
-        "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "6,025 – 6,300",
-        "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 5725,
-        "stop_note": "Cut loss jika turun di bawah 5,725 (1 ATR dari entry)",
-        "target_modest": 6300,
-        "target_moderate": 6425,
-        "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
-      },
-      "morning_confirmation_criteria": [
-        "⚠️ WAJIB: Utamakan jika terjadi Gap Down > 3% saat open untuk risk/reward terbaik",
-        "✅ Skenario Gap Down >3% memiliki Profit Factor 6.78x & Win Rate 44.5%",
-        "✅ Volume 15 menit pertama normal/stabil di atas rata-rata",
-        "❌ JANGAN BELI jika Gap Up > 3% (euforia rawan bull trap, PF hanya 0.3x)",
-        "❌ JANGAN BELI jika langsung longsor drastis tanpa rebound dari low"
-      ],
-      "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
-          "MOVER_TYPE_TOP_VALUE",
-          "GURU_78_Daily Net Fo",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": false,
-        "from_screener": false
-      },
-      "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+2.1%), volume mati (0.22x MA20), close tengah (56%). WR historis: 49.8% (n=1.371)",
-        "Di atas MA20 — support jangka pendek",
-        "Di atas MA50 — tren menengah masih ok"
-      ],
-      "signals_negative": [
-        "Upper wick besar (44%) — tekanan jual D-1",
-        "Asing jual bersih besar — hati-hati gap down"
-      ],
-      "backtest_stats": {
-        "formula": "QUIET_CONTINUATION",
-        "win_rate": "49.8%",
-        "sample_size": "n=1.371",
-        "profit_factor": "1.04x",
-        "total_backtest": "789.792 hari trading IHSG (956 saham)",
-        "gap_down_sweet_spot": "Gap Down >2%: WR 30.2%, upside +3.75%, DD -0.88%",
-        "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
-      },
-      "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
-      "rank": 1
-    }
-  ],
+  "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
-  "trend_following": [
-    {
-      "ticker": "GULA",
-      "company": "Aman Agrindo Tbk.",
-      "score": 75,
-      "close": 590.0,
-      "adx": 37.9,
-      "rsi": 61.1,
-      "macd_hist": 6.4659,
-      "wk_adx": 31.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (38) + RSI sehat (61) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+6.3%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (31)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif",
-        "Asing beli bersih (Rp 1.3B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "NEST",
-      "company": "Esta Indonesia Tbk",
-      "score": 70,
-      "close": 570.0,
-      "adx": 37.1,
-      "rsi": 62.9,
-      "macd_hist": 3.4255,
-      "wk_adx": 43.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (37) + RSI sehat (63) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+9.6%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (43)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "MLBI",
-      "company": "Multi Bintang Indonesia Tbk.",
-      "score": 70,
-      "close": 6275.0,
-      "adx": 35.1,
-      "rsi": 66.7,
-      "macd_hist": 25.098,
-      "wk_adx": 28.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (35) + RSI sehat (67) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+4.6%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (28)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "BOGA",
-      "company": "Apollo Global Interactive Tbk.",
-      "score": 70,
-      "close": 1345.0,
-      "adx": 38.2,
-      "rsi": 53.3,
-      "macd_hist": 40.1931,
-      "wk_adx": 64.3,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (38) + RSI sehat (53) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+27.5%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (64)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "VISI",
-      "company": "Satu Visi Putra Tbk.",
-      "score": 65,
-      "close": 1100.0,
-      "adx": 47.7,
-      "rsi": 72.7,
-      "macd_hist": 10.6716,
-      "wk_adx": 51.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (48) + RSI sehat (73) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (52)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    }
-  ],
-  "position_trading": [
-    {
-      "ticker": "BSSR",
-      "company": "Baramulti Suksessarana Tbk.",
-      "score": 70,
-      "close": 4470.0,
-      "near_52w_pct": 99.8,
-      "wk_rsi": 75.8,
-      "wk_adx": 23.0,
-      "mo_rsi": 66.3,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (76) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (66)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 2.1B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BSML",
-      "company": "Bintang Samudera Mandiri Lines Tbk.",
-      "score": 65,
-      "close": 454.0,
-      "near_52w_pct": 99.1,
-      "wk_rsi": 80.0,
-      "wk_adx": 48.2,
-      "mo_rsi": 98.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (80) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (98)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "FORU",
-      "company": "Fortune Indonesia Tbk",
-      "score": 65,
-      "close": 3770.0,
-      "near_52w_pct": 98.4,
-      "wk_rsi": 79.7,
-      "wk_adx": 21.8,
-      "mo_rsi": 74.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (80) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (74)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MGLV",
-      "company": "Panca Anugrah Wisesa Tbk",
-      "score": 65,
-      "close": 8750.0,
-      "near_52w_pct": 95.4,
-      "wk_rsi": 72.8,
-      "wk_adx": 64.8,
-      "mo_rsi": 82.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (73) + Wk ADX (65) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (83)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "DMAS",
-      "company": "Puradelta Lestari Tbk",
-      "score": 60,
-      "close": 154.0,
-      "near_52w_pct": 95.1,
-      "wk_rsi": 73.9,
-      "wk_adx": 24.6,
-      "mo_rsi": 54.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    }
-  ],
+  "trend_following": [],
+  "position_trading": [],
   "meta": {
-    "status": "success",
-    "generated_at": "2026-06-19 13:59:11 WIB",
+    "status": "no_signal",
+    "generated_at": "2026-06-19 14:07:29 WIB",
     "date": "2026-06-19",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -324,10 +18,10 @@
     "intraday_count": 0,
     "ara_count": 0,
     "bsjp_count": 0,
-    "bpjs_count": 1,
+    "bpjs_count": 0,
     "swing_count": 0,
-    "trend_count": 5,
-    "position_count": 5,
+    "trend_count": 0,
+    "position_count": 0,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
     "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
@@ -343,21 +37,13 @@
   },
   "market_context": {
     "ihsg_close": 6127,
-    "ihsg_change_pct": -1.5,
+    "ihsg_change_pct": -0.73,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
-    "market_safe": true,
-    "warning": "⚠️ IHSG turun -1.5% kemarin. Trading dengan sangat hati-hati."
+    "market_safe": false,
+    "warning": "IHSG turun 3 hari berturut-turut. Tidak ada output hari ini."
   },
-  "screening_summary": {
-    "universe": 974,
-    "after_liquidity": 47,
-    "after_accumulation": 7,
-    "after_trend": 1,
-    "after_smc": 1,
-    "after_entry": 0,
-    "final": 0
-  },
+  "screening_summary": {},
   "config_ara": {
     "vol_ma20_tier1": 3.0,
     "vol_ma20_tier2": 6.0,
