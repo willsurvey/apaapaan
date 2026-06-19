@@ -78,7 +78,123 @@
     }
   ],
   "swing_trading": [],
-  "trend_following": [],
+  "trend_following": [
+    {
+      "ticker": "GULA",
+      "company": "Aman Agrindo Tbk.",
+      "score": 75,
+      "close": 590.0,
+      "adx": 37.9,
+      "rsi": 61.1,
+      "macd_hist": 6.4659,
+      "wk_adx": 31.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (38) + RSI sehat (61) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+6.3%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (31)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif",
+        "Asing beli bersih (Rp 1.3B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
+      "score": 70,
+      "close": 570.0,
+      "adx": 37.1,
+      "rsi": 62.9,
+      "macd_hist": 3.4255,
+      "wk_adx": 43.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (37) + RSI sehat (63) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+9.6%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (43)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "MLBI",
+      "company": "Multi Bintang Indonesia Tbk.",
+      "score": 70,
+      "close": 6275.0,
+      "adx": 35.1,
+      "rsi": 66.7,
+      "macd_hist": 25.098,
+      "wk_adx": 28.1,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (35) + RSI sehat (67) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+4.6%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (28)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "BOGA",
+      "company": "Apollo Global Interactive Tbk.",
+      "score": 70,
+      "close": 1345.0,
+      "adx": 38.2,
+      "rsi": 53.3,
+      "macd_hist": 40.1931,
+      "wk_adx": 64.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (38) + RSI sehat (53) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+27.5%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (64)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "VISI",
+      "company": "Satu Visi Putra Tbk.",
+      "score": 65,
+      "close": 1100.0,
+      "adx": 47.7,
+      "rsi": 72.7,
+      "macd_hist": 10.6716,
+      "wk_adx": 51.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (48) + RSI sehat (73) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (52)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    }
+  ],
   "position_trading": [
     {
       "ticker": "BSSR",
@@ -198,7 +314,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-19 13:40:06 WIB",
+    "generated_at": "2026-06-19 13:59:11 WIB",
     "date": "2026-06-19",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -210,7 +326,7 @@
     "bsjp_count": 0,
     "bpjs_count": 1,
     "swing_count": 0,
-    "trend_count": 0,
+    "trend_count": 5,
     "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
