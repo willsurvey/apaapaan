@@ -8,7 +8,7 @@
   "position_trading": [],
   "meta": {
     "status": "no_signal",
-    "generated_at": "2026-06-19 10:47:15 WIB",
+    "generated_at": "2026-06-19 11:07:17 WIB",
     "date": "2026-06-19",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -36,8 +36,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6135,
-    "ihsg_change_pct": -0.59,
+    "ihsg_close": 6137,
+    "ihsg_change_pct": -0.56,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": false,
