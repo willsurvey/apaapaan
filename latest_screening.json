@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-06-19 07:00:24 WIB",
+  "generated_at": "2026-06-19 07:21:18 WIB",
   "date": "2026-06-19",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -85,7 +85,7 @@
         "swing_trend_bias": "BULLISH",
         "ob_zone": null,
         "fvg_zone": "6650 - 6725",
-        "strong_low": 5875.0,
+        "strong_low": 6200.0,
         "weak_high": 7050.0
       },
       "entry_plan": {
@@ -131,7 +131,7 @@
         "✅ Pullback ke MA50 (1.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "06.59 WIB"
+      "updated_at": "07.19 WIB"
     }
   ]
 }
