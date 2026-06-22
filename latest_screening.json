@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-06-23 00:03:06 WIB",
+  "generated_at": "2026-06-23 00:24:15 WIB",
   "date": "2026-06-23",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6116,
-    "ihsg_change_pct": -0.98,
+    "ihsg_close": 6177,
+    "ihsg_change_pct": 0.08,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -19,7 +19,7 @@
     "universe": 977,
     "after_liquidity": 61,
     "after_accumulation": 17,
-    "after_trend": 4,
+    "after_trend": 3,
     "after_smc": 1,
     "after_entry": 1,
     "final": 1
@@ -77,8 +77,8 @@
         }
       },
       "trend": {
-        "ma50": 15460.0,
-        "gap_from_ma50_pct": 10.61,
+        "ma50": 15400.0,
+        "gap_from_ma50_pct": 7.96,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -130,7 +130,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "00.01 WIB"
+      "updated_at": "00.22 WIB"
     }
   ]
 }
