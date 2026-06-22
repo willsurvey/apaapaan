@@ -10,31 +10,31 @@
       "formula": "QUIET_CONTINUATION",
       "score": 40,
       "market_data": {
-        "close": 3610.0,
-        "change_pct": 3.44,
-        "value_today": 100951483000,
+        "close": 3630.0,
+        "change_pct": 4.01,
+        "value_today": 106409626000,
         "net_foreign": -26810257000
       },
       "d1_features": {
-        "body_pct": 3.14,
-        "close_pos_pct": 47.8,
-        "vol_ratio": 0.39,
-        "change_pct": 3.44,
-        "range_pct": 6.37,
-        "upper_wick": 52.2,
+        "body_pct": 3.71,
+        "close_pos_pct": 56.5,
+        "vol_ratio": 0.41,
+        "change_pct": 4.01,
+        "range_pct": 6.34,
+        "upper_wick": 43.5,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": true,
-        "atr_pct": 7.76
+        "atr_pct": 7.71
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "3,470 – 3,680",
+        "entry_range": "3,490 – 3,700",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 3190,
-        "stop_note": "Cut loss jika turun di bawah 3,190 (1 ATR dari entry)",
-        "target_modest": 3680,
-        "target_moderate": 3750,
+        "stop_loss": 3210,
+        "stop_note": "Cut loss jika turun di bawah 3,210 (1 ATR dari entry)",
+        "target_modest": 3700,
+        "target_moderate": 3780,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -55,13 +55,13 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+3.1%), volume mati (0.39x MA20), close tengah (48%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+3.7%), volume mati (0.41x MA20), close tengah (57%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Di atas MA200 — tren utama masih bullish"
       ],
       "signals_negative": [
-        "Upper wick besar (52%) — tekanan jual D-1",
+        "Upper wick besar (43%) — tekanan jual D-1",
         "Asing jual bersih besar — hati-hati gap down"
       ],
       "backtest_stats": {
@@ -81,17 +81,17 @@
       "company": "Aneka Tambang Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 30,
+      "score": 35,
       "market_data": {
         "close": 2930.0,
-        "change_pct": -5.19,
-        "value_today": 246916989000,
+        "change_pct": -4.87,
+        "value_today": 265428499000,
         "net_foreign": -76621714000
       },
       "d1_features": {
         "body_pct": 1.38,
         "close_pos_pct": 50.0,
-        "vol_ratio": 0.34,
+        "vol_ratio": 0.37,
         "change_pct": 2.09,
         "range_pct": 3.41,
         "upper_wick": 50.0,
@@ -122,16 +122,17 @@
         "in_mover_types": [
           "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
-          "MOVER_TYPE_TOP_LOSER",
+          "SCREENER_VOLUME_EXPLOSION",
           "GURU_78_Daily Net Fo",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
-        "from_screener": false
+        "from_screener": true
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.4%), volume mati (0.34x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
-        "Di atas MA20 — support jangka pendek"
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.4%), volume mati (0.37x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
+        "Di atas MA20 — support jangka pendek",
+        "Masuk screener volume Stockbit — ada perhatian pasar"
       ],
       "signals_negative": [
         "Upper wick besar (50%) — tekanan jual D-1",
@@ -157,17 +158,17 @@
       "ticker": "BSSR",
       "company": "Baramulti Suksessarana Tbk.",
       "score": 70,
-      "close": 4500.0,
-      "near_52w_pct": 99.1,
+      "close": 4510.0,
+      "near_52w_pct": 99.3,
       "wk_rsi": 75.3,
-      "wk_adx": 23.0,
-      "mo_rsi": 66.7,
+      "wk_adx": 21.5,
+      "mo_rsi": 66.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (75) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (99%) + Wk RSI (75) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -201,33 +202,11 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "SRSN",
-      "company": "Indo Acidatama Tbk",
-      "score": 55,
-      "close": 71.0,
-      "near_52w_pct": 85.5,
-      "wk_rsi": 67.3,
-      "wk_adx": 38.9,
-      "mo_rsi": 72.0,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (86%) + Wk RSI (67) + Wk ADX (39) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (72)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "MGLV",
       "company": "Panca Anugrah Wisesa Tbk",
       "score": 55,
-      "close": 8625.0,
-      "near_52w_pct": 94.0,
+      "close": 8600.0,
+      "near_52w_pct": 93.7,
       "wk_rsi": 73.0,
       "wk_adx": 64.8,
       "mo_rsi": 82.5,
@@ -265,11 +244,33 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "TOTL",
+      "company": "Total Bangun Persada Tbk.",
+      "score": 55,
+      "close": 1080.0,
+      "near_52w_pct": 92.3,
+      "wk_rsi": 63.1,
+      "wk_adx": 32.4,
+      "mo_rsi": 77.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (92%) + Wk RSI (63) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (77)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-22 10:40:02 WIB",
+    "generated_at": "2026-06-22 10:59:53 WIB",
     "date": "2026-06-22",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -297,8 +298,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6123,
-    "ihsg_change_pct": -0.87,
+    "ihsg_close": 6093,
+    "ihsg_change_pct": -1.36,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -306,8 +307,8 @@
   },
   "screening_summary": {
     "universe": 976,
-    "after_liquidity": 40,
-    "after_accumulation": 4,
+    "after_liquidity": 39,
+    "after_accumulation": 3,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
