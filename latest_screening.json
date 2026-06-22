@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-06-22 18:40:30 WIB",
+  "generated_at": "2026-06-22 19:00:11 WIB",
   "date": "2026-06-22",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -16,7 +16,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 946,
+    "universe": 972,
     "after_liquidity": 61,
     "after_accumulation": 17,
     "after_trend": 4,
@@ -51,7 +51,7 @@
       "universe_sources": [
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_77_Foreign Flow",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -130,7 +130,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "18.39 WIB"
+      "updated_at": "18.59 WIB"
     }
   ]
 }
