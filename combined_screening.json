@@ -87,7 +87,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "05.19 WIB"
+      "updated_at": "05.39 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -176,7 +176,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "05:20 WIB"
+      "generated_at": "05:39 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -450,7 +450,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-23 05:20:55 WIB",
+    "generated_at": "2026-06-23 05:40:31 WIB",
     "date": "2026-06-23",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
