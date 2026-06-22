@@ -7,25 +7,24 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "BSSR",
-      "company": "Baramulti Suksessarana Tbk.",
-      "score": 70,
-      "close": 4450.0,
-      "near_52w_pct": 99.3,
-      "wk_rsi": 75.3,
-      "wk_adx": 23.0,
-      "mo_rsi": 66.1,
+      "ticker": "FORU",
+      "company": "Fortune Indonesia Tbk",
+      "score": 65,
+      "close": 3770.0,
+      "near_52w_pct": 98.4,
+      "wk_rsi": 79.7,
+      "wk_adx": 21.8,
+      "mo_rsi": 74.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (75) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (66)",
+        "Near 52W High (98%) + Wk RSI (80) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.6B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -47,29 +46,6 @@
         "Near 52W High (96%) + Wk RSI (73) + Wk ADX (65) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (83)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "FORU",
-      "company": "Fortune Indonesia Tbk",
-      "score": 65,
-      "close": 3770.0,
-      "near_52w_pct": 98.4,
-      "wk_rsi": 79.7,
-      "wk_adx": 21.8,
-      "mo_rsi": 74.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (80) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -100,24 +76,46 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "SRSN",
-      "company": "Indo Acidatama Tbk",
-      "score": 60,
-      "close": 71.0,
-      "near_52w_pct": 85.5,
-      "wk_rsi": 67.3,
-      "wk_adx": 38.9,
-      "mo_rsi": 72.0,
+      "ticker": "BSSR",
+      "company": "Baramulti Suksessarana Tbk.",
+      "score": 65,
+      "close": 4450.0,
+      "near_52w_pct": 99.3,
+      "wk_rsi": 75.3,
+      "wk_adx": 21.5,
+      "mo_rsi": 66.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (86%) + Wk RSI (67) + Wk ADX (39) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (72)",
+        "Near 52W High (99%) + Wk RSI (75) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (66)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.7B)"
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "TOTL",
+      "company": "Total Bangun Persada Tbk.",
+      "score": 55,
+      "close": 1090.0,
+      "near_52w_pct": 93.1,
+      "wk_rsi": 63.1,
+      "wk_adx": 32.4,
+      "mo_rsi": 77.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (93%) + Wk RSI (63) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (77)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -125,7 +123,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-22 08:00:22 WIB",
+    "generated_at": "2026-06-22 08:18:43 WIB",
     "date": "2026-06-22",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -162,11 +160,11 @@
   },
   "screening_summary": {
     "universe": 974,
-    "after_liquidity": 49,
-    "after_accumulation": 21,
-    "after_trend": 3,
-    "after_smc": 1,
-    "after_entry": 1,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
+    "after_smc": 0,
+    "after_entry": 0,
     "final": 0
   },
   "config_ara": {
