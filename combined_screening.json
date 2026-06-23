@@ -10,31 +10,31 @@
       "formula": "QUIET_CONTINUATION",
       "score": 30,
       "market_data": {
-        "close": 1955.0,
-        "change_pct": 0.78,
-        "value_today": 481823195500,
+        "close": 1965.0,
+        "change_pct": 1.81,
+        "value_today": 512978107000,
         "net_foreign": -174650470500
       },
       "d1_features": {
-        "body_pct": 1.3,
-        "close_pos_pct": 40.9,
-        "vol_ratio": 0.18,
-        "change_pct": 1.3,
-        "range_pct": 5.63,
-        "upper_wick": 59.1,
+        "body_pct": 1.81,
+        "close_pos_pct": 50.0,
+        "vol_ratio": 0.2,
+        "change_pct": 1.81,
+        "range_pct": 5.6,
+        "upper_wick": 50.0,
         "above_ma20": true,
         "above_ma50": false,
         "above_ma200": false,
-        "atr_pct": 13.45
+        "atr_pct": 13.38
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "1,890 – 1,995",
+        "entry_range": "1,890 – 2,000",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
         "stop_loss": 1625,
         "stop_note": "Cut loss jika turun di bawah 1,625 (1 ATR dari entry)",
-        "target_modest": 1995,
-        "target_moderate": 2030,
+        "target_modest": 2000,
+        "target_moderate": 2040,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -56,11 +56,11 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.3%), volume mati (0.18x MA20), close tengah (41%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.8%), volume mati (0.20x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek"
       ],
       "signals_negative": [
-        "Upper wick besar (59%) — tekanan jual D-1",
+        "Upper wick besar (50%) — tekanan jual D-1",
         "Asing jual bersih besar — hati-hati gap down"
       ],
       "backtest_stats": {
@@ -84,13 +84,13 @@
       "market_data": {
         "close": 4160.0,
         "change_pct": 2.97,
-        "value_today": 95373403000,
+        "value_today": 97597311000,
         "net_foreign": -4034888000
       },
       "d1_features": {
         "body_pct": 3.48,
         "close_pos_pct": 59.3,
-        "vol_ratio": 0.26,
+        "vol_ratio": 0.27,
         "change_pct": 2.97,
         "range_pct": 6.49,
         "upper_wick": 40.7,
@@ -127,7 +127,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+3.5%), volume mati (0.26x MA20), close tengah (59%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+3.5%), volume mati (0.27x MA20), close tengah (59%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek"
       ],
       "signals_negative": [
@@ -154,18 +154,18 @@
       "ticker": "NEST",
       "company": "Esta Indonesia Tbk",
       "score": 65,
-      "close": 585.0,
-      "near_52w_pct": 96.7,
-      "wk_rsi": 75.5,
+      "close": 580.0,
+      "near_52w_pct": 95.9,
+      "wk_rsi": 75.2,
       "wk_adx": 45.2,
-      "mo_rsi": 70.3,
+      "mo_rsi": 70.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (75) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
+        "Near 52W High (96%) + Wk RSI (75) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -180,14 +180,14 @@
       "close": 4550.0,
       "near_52w_pct": 99.8,
       "wk_rsi": 77.1,
-      "wk_adx": 23.4,
+      "wk_adx": 24.8,
       "mo_rsi": 67.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (77) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (100%) + Wk RSI (77) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (100%) — breakout potential",
         "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -223,17 +223,17 @@
       "ticker": "SRSN",
       "company": "Indo Acidatama Tbk",
       "score": 60,
-      "close": 72.0,
-      "near_52w_pct": 86.7,
-      "wk_rsi": 68.0,
+      "close": 73.0,
+      "near_52w_pct": 88.0,
+      "wk_rsi": 68.6,
       "wk_adx": 38.6,
-      "mo_rsi": 72.5,
+      "mo_rsi": 73.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (68) + Wk ADX (39) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (88%) + Wk RSI (69) + Wk ADX (39) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (73)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -269,7 +269,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-23 12:00:22 WIB",
+    "generated_at": "2026-06-23 12:20:02 WIB",
     "date": "2026-06-23",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -297,8 +297,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6053,
-    "ihsg_change_pct": -1.03,
+    "ihsg_close": 6038,
+    "ihsg_change_pct": -1.27,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
