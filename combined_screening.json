@@ -86,7 +86,7 @@
         "✅ Pullback ke MA50 (0.1% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "22.40 WIB"
+      "updated_at": "23.00 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -178,7 +178,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "22:41 WIB"
+      "generated_at": "23:00 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -239,14 +239,14 @@
       "close": 4550.0,
       "near_52w_pct": 99.8,
       "wk_rsi": 77.1,
-      "wk_adx": 24.8,
+      "wk_adx": 23.4,
       "mo_rsi": 67.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (77) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (100%) + Wk RSI (77) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (100%) — breakout potential",
         "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -304,7 +304,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-23 22:42:07 WIB",
+    "generated_at": "2026-06-23 23:01:40 WIB",
     "date": "2026-06-23",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
