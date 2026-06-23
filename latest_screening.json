@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-06-23 18:41:11 WIB",
+  "generated_at": "2026-06-23 19:00:10 WIB",
   "date": "2026-06-23",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -49,7 +49,7 @@
       "company": "Cisarua Mountain Dairy Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
-        "GURU_78",
+        "GURU_92",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -129,7 +129,7 @@
         "✅ Pullback ke MA50 (0.1% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "18.39 WIB"
+      "updated_at": "18.59 WIB"
     }
   ]
 }
