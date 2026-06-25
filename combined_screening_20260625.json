@@ -89,7 +89,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.19 WIB"
+      "updated_at": "23.40 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -314,28 +314,6 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MGLV",
-      "company": "Panca Anugrah Wisesa Tbk",
-      "score": 55,
-      "close": 8600.0,
-      "near_52w_pct": 93.7,
-      "wk_rsi": 77.8,
-      "wk_adx": 64.4,
-      "mo_rsi": 82.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (94%) + Wk RSI (78) + Wk ADX (64) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (83)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "NEST",
       "company": "Esta Indonesia Tbk",
       "score": 55,
@@ -356,11 +334,33 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MGLV",
+      "company": "Panca Anugrah Wisesa Tbk",
+      "score": 55,
+      "close": 8600.0,
+      "near_52w_pct": 93.7,
+      "wk_rsi": 77.8,
+      "wk_adx": 64.4,
+      "mo_rsi": 82.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (94%) + Wk RSI (78) + Wk ADX (64) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (83)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-25 23:21:05 WIB",
+    "generated_at": "2026-06-25 23:41:31 WIB",
     "date": "2026-06-25",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
