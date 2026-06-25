@@ -1,29 +1,21 @@
 {
-  "status": "success",
-  "generated_at": "2026-06-26 00:00:34 WIB",
+  "status": "no_signal",
+  "generated_at": "2026-06-26 00:07:28 WIB",
   "date": "2026-06-26",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
   "mode_warning": null,
-  "total_saham": 1,
+  "total_saham": 0,
   "market_context": {
-    "ihsg_close": 5999,
-    "ihsg_change_pct": 1.96,
+    "ihsg_close": 5883,
+    "ihsg_change_pct": -3.56,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
-    "market_safe": true,
-    "warning": null
+    "market_safe": false,
+    "warning": "IHSG turun 3 hari berturut-turut. Tidak ada output hari ini."
   },
-  "screening_summary": {
-    "universe": 978,
-    "after_liquidity": 73,
-    "after_accumulation": 34,
-    "after_trend": 7,
-    "after_smc": 4,
-    "after_entry": 4,
-    "final": 1
-  },
+  "screening_summary": {},
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
     "data_sources": [
@@ -42,97 +34,5 @@
     "max_output": 5,
     "min_rr": 2.0
   },
-  "data": [
-    {
-      "rank": 1,
-      "ticker": "DMAS",
-      "company": "Puradelta Lestari Tbk",
-      "mode": "FULL_STOCKBIT",
-      "universe_sources": [
-        "MOVER_TYPE_TOP_VOLUME",
-        "MOVER_TYPE_NET_FOREIGN_BUY",
-        "MOVER_TYPE_TOP_LOSER",
-        "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula",
-        "SCREENER_TOP_VALUE"
-      ],
-      "market_data": {
-        "close": 141,
-        "change_pct": -6.62,
-        "value_today": 33997006300,
-        "frequency_today": 12698,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "accumulation": {
-        "broker_signal": "Big Acc",
-        "net_foreign_today": 10216469500,
-        "net_foreign_3d": 0,
-        "acc_score": 60,
-        "score_breakdown": {
-          "broker": 35,
-          "foreign_1d": 15,
-          "foreign_3d": 0,
-          "candle": 10,
-          "volume": 0,
-          "total": 60
-        }
-      },
-      "trend": {
-        "ma50": 131.0,
-        "gap_from_ma50_pct": 7.72,
-        "ma50_slope": "POSITIVE"
-      },
-      "smc": {
-        "internal_structure": "NONE",
-        "swing_trend_bias": "BULLISH",
-        "ob_zone": "144 - 160",
-        "fvg_zone": null,
-        "strong_low": 144.0,
-        "weak_high": 162.0
-      },
-      "entry_plan": {
-        "whipsaw_risk": "HIGH",
-        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction": "PULLBACK",
-        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction_reason": "",
-        "entry_1": 140,
-        "entry_1_pct": 20,
-        "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 138,
-        "entry_2_pct": 50,
-        "entry_2_note": "Area OB / FVG / Support",
-        "entry_3": 136,
-        "entry_3_pct": 30,
-        "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 138,
-        "entry_zone": "136 - 140",
-        "sl": 134,
-        "sl_pct_risk": 2.9,
-        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 142,
-        "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 162,
-        "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 167,
-        "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:7.2",
-        "risk_pct": 2,
-        "risk_note": "Max 2% dari total portofolio"
-      },
-      "scoring": {
-        "confidence_score": 65,
-        "tier": "MODERATE"
-      },
-      "signals": [
-        "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp10.2B",
-        "✅ Harga di zona Order Block aktif",
-        "✅ Swing Structure: BULLISH"
-      ],
-      "warnings": [],
-      "updated_at": "23.59 WIB"
-    }
-  ]
+  "data": []
 }
