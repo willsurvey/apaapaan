@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-06-25 18:41:19 WIB",
+  "generated_at": "2026-06-25 19:01:24 WIB",
   "date": "2026-06-25",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -53,7 +53,7 @@
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "MOVER_TYPE_TOP_LOSER",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_72_IHSG Short-t",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -132,7 +132,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.39 WIB"
+      "updated_at": "18.59 WIB"
     }
   ]
 }
