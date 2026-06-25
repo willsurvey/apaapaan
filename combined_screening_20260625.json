@@ -123,7 +123,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-25 12:19:44 WIB",
+    "generated_at": "2026-06-25 12:39:38 WIB",
     "date": "2026-06-25",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -151,8 +151,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6049,
-    "ihsg_change_pct": 2.82,
+    "ihsg_close": 6041,
+    "ihsg_change_pct": 2.69,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
