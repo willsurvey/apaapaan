@@ -1,93 +1,11 @@
 {
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
-  "bsjp_beli_sore_jual_pagi": [
-    {
-      "ticker": "MKAP",
-      "company": "Multikarya Asia Pasifik Raya Tbk.",
-      "tier": "S",
-      "score": 100,
-      "market_data": {
-        "close": 1185.0,
-        "change_pct": 7.73,
-        "value_today": 12457646500,
-        "net_foreign": -55765500,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "bsjp_features": {
-        "vol_ratio20": 8.99,
-        "body_pct": 7.73,
-        "close_pos_pct": 100.0,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": true,
-        "atr_pct": 1.45
-      },
-      "entry_plan": {
-        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
-        "entry_range": "1,180 – 1,185",
-        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
-        "stop_loss": 1090,
-        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
-        "target_pct": "+2% s/d +10% di pagi hari",
-        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
-      },
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_GAINER",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_63_High Volume ",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": true,
-        "from_screener": true,
-        "from_top_value": true
-      },
-      "signals_positive": [
-        "Volume ledakan ekstrem 9.0x MA20",
-        "Candle hijau sangat kuat (7.7%)",
-        "Tutup di puncak absolut — tidak ada upper wick",
-        "Uptrend penuh: di atas MA20, MA50, MA200",
-        "Masuk screener volume explosion Stockbit",
-        "Saham naik signifikan hari ini (momentum)"
-      ],
-      "signals_negative": [
-        "Asing jual bersih hari ini — hati-hati"
-      ],
-      "win_probability": "~70% berdasarkan backtest 1.796 kejadian historis",
-      "disclaimer": "Tier S BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
-      "rank": 1
-    }
-  ],
+  "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
   "position_trading": [
-    {
-      "ticker": "BSSR",
-      "company": "Baramulti Suksessarana Tbk.",
-      "score": 70,
-      "close": 4013.8701171875,
-      "near_52w_pct": 98.5,
-      "wk_rsi": 76.0,
-      "wk_adx": 23.4,
-      "mo_rsi": 66.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (76) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (67)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.7B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
     {
       "ticker": "NEST",
       "company": "Esta Indonesia Tbk",
@@ -112,21 +30,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "TOTL",
-      "company": "Total Bangun Persada Tbk.",
-      "score": 55,
-      "close": 1050.0,
-      "near_52w_pct": 89.7,
-      "wk_rsi": 62.2,
-      "wk_adx": 30.1,
-      "mo_rsi": 76.3,
+      "ticker": "BSSR",
+      "company": "Baramulti Suksessarana Tbk.",
+      "score": 65,
+      "close": 4013.8701171875,
+      "near_52w_pct": 98.5,
+      "wk_rsi": 76.0,
+      "wk_adx": 24.9,
+      "mo_rsi": 66.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (90%) + Wk RSI (62) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (76)",
+        "Near 52W High (98%) + Wk RSI (76) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -149,6 +68,28 @@
       "signals_positive": [
         "Near 52W High (93%) + Wk RSI (77) + Wk ADX (64) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (82)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "TOTL",
+      "company": "Total Bangun Persada Tbk.",
+      "score": 55,
+      "close": 1050.0,
+      "near_52w_pct": 89.7,
+      "wk_rsi": 62.2,
+      "wk_adx": 30.1,
+      "mo_rsi": 76.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (90%) + Wk RSI (62) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (76)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -181,7 +122,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-25 08:02:53 WIB",
+    "generated_at": "2026-06-25 08:18:05 WIB",
     "date": "2026-06-25",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -190,7 +131,7 @@
     "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
-    "bsjp_count": 1,
+    "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
@@ -218,8 +159,8 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 64,
-    "after_accumulation": 8,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
