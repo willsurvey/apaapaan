@@ -98,33 +98,31 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "POWR",
-      "company": "Cikarang Listrindo Tbk.",
+      "ticker": "TOTL",
+      "company": "Total Bangun Persada Tbk.",
       "score": 55,
-      "close": 705.0,
-      "near_52w_pct": 95.5,
-      "wk_rsi": 57.5,
-      "wk_adx": 27.5,
-      "mo_rsi": 71.3,
-      "wk_obv_above_ma": false,
+      "close": 1060.0,
+      "near_52w_pct": 90.6,
+      "wk_rsi": 63.3,
+      "wk_adx": 30.1,
+      "mo_rsi": 76.5,
+      "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (58) + Wk ADX (28) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (71)",
+        "Near 52W High (91%) + Wk RSI (63) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (77)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
-      "signals_negative": [
-        "Weekly OBV di bawah MA20"
-      ],
+      "signals_negative": [],
       "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-26 18:41:09 WIB",
+    "generated_at": "2026-06-26 19:01:12 WIB",
     "date": "2026-06-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
