@@ -33,17 +33,17 @@
       "ticker": "BSSR",
       "company": "Baramulti Suksessarana Tbk.",
       "score": 65,
-      "close": 4010.0,
-      "near_52w_pct": 98.4,
-      "wk_rsi": 75.9,
-      "wk_adx": 24.7,
-      "mo_rsi": 66.7,
+      "close": 4000.0,
+      "near_52w_pct": 98.1,
+      "wk_rsi": 75.6,
+      "wk_adx": 26.2,
+      "mo_rsi": 66.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (76) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (98%) + Wk RSI (76) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -97,33 +97,31 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "POWR",
-      "company": "Cikarang Listrindo Tbk.",
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
       "score": 55,
-      "close": 705.0,
-      "near_52w_pct": 95.5,
-      "wk_rsi": 57.5,
-      "wk_adx": 27.3,
-      "mo_rsi": 71.3,
-      "wk_obv_above_ma": false,
+      "close": 545.0,
+      "near_52w_pct": 90.1,
+      "wk_rsi": 70.6,
+      "wk_adx": 44.7,
+      "mo_rsi": 68.4,
+      "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (58) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (71)",
+        "Near 52W High (90%) + Wk RSI (71) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (68)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
-      "signals_negative": [
-        "Weekly OBV di bawah MA20"
-      ],
+      "signals_negative": [],
       "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-26 10:39:25 WIB",
+    "generated_at": "2026-06-26 10:59:58 WIB",
     "date": "2026-06-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -151,16 +149,16 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5890,
-    "ihsg_change_pct": -1.82,
+    "ihsg_close": 5862,
+    "ihsg_change_pct": -2.28,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -1.8% kemarin. Trading dengan sangat hati-hati."
+    "warning": "⚠️ IHSG turun -2.3% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 61,
+    "after_liquidity": 63,
     "after_accumulation": 19,
     "after_trend": 1,
     "after_smc": 0,
