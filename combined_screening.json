@@ -10,9 +10,9 @@
       "ticker": "MKAP",
       "company": "Multikarya Asia Pasifik Raya Tbk.",
       "score": 65,
-      "close": 1230.0,
-      "near_52w_pct": 96.5,
-      "wk_rsi": 77.8,
+      "close": 1225.0,
+      "near_52w_pct": 96.1,
+      "wk_rsi": 77.4,
       "wk_adx": 76.0,
       "mo_rsi": 91.1,
       "wk_obv_above_ma": true,
@@ -20,7 +20,7 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (78) + Wk ADX (76) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (96%) + Wk RSI (77) + Wk ADX (76) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (91)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -33,11 +33,11 @@
       "ticker": "BSSR",
       "company": "Baramulti Suksessarana Tbk.",
       "score": 65,
-      "close": 4010.0,
-      "near_52w_pct": 98.4,
-      "wk_rsi": 75.9,
+      "close": 4000.0,
+      "near_52w_pct": 98.1,
+      "wk_rsi": 75.6,
       "wk_adx": 26.2,
-      "mo_rsi": 66.7,
+      "mo_rsi": 66.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -97,31 +97,33 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MGLV",
-      "company": "Panca Anugrah Wisesa Tbk",
+      "ticker": "POWR",
+      "company": "Cikarang Listrindo Tbk.",
       "score": 55,
-      "close": 8325.0,
-      "near_52w_pct": 90.7,
-      "wk_rsi": 75.4,
-      "wk_adx": 64.4,
-      "mo_rsi": 82.1,
-      "wk_obv_above_ma": true,
+      "close": 705.0,
+      "near_52w_pct": 95.5,
+      "wk_rsi": 57.5,
+      "wk_adx": 26.4,
+      "mo_rsi": 71.3,
+      "wk_obv_above_ma": false,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (91%) + Wk RSI (75) + Wk ADX (64) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (82)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Near 52W High (95%) + Wk RSI (58) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (71)",
         "Di atas MA200 Daily — tren primer bullish"
       ],
-      "signals_negative": [],
+      "signals_negative": [
+        "Weekly OBV di bawah MA20"
+      ],
       "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-26 11:39:59 WIB",
+    "generated_at": "2026-06-26 12:02:28 WIB",
     "date": "2026-06-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -149,12 +151,12 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5846,
-    "ihsg_change_pct": -2.54,
+    "ihsg_close": 5835,
+    "ihsg_change_pct": -2.73,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -2.5% kemarin. Trading dengan sangat hati-hati."
+    "warning": "⚠️ IHSG turun -2.7% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
     "universe": 978,
