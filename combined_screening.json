@@ -2,81 +2,7 @@
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
-  "bpjs_beli_pagi_jual_sore": [
-    {
-      "ticker": "BBCA",
-      "company": "Bank Central Asia Tbk.",
-      "type": "WATCHLIST_BPJS",
-      "formula": "QUIET_CONTINUATION",
-      "score": 60,
-      "market_data": {
-        "close": 6125.0,
-        "change_pct": 1.24,
-        "value_today": 850145975000,
-        "net_foreign": 10067810000
-      },
-      "d1_features": {
-        "body_pct": 1.24,
-        "close_pos_pct": 66.7,
-        "vol_ratio": 0.32,
-        "change_pct": 1.66,
-        "range_pct": 2.45,
-        "upper_wick": 33.3,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": false,
-        "atr_pct": 4.73
-      },
-      "trading_plan": {
-        "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "5,975 – 6,250",
-        "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 5675,
-        "stop_note": "Cut loss jika turun di bawah 5,675 (1 ATR dari entry)",
-        "target_modest": 6250,
-        "target_moderate": 6375,
-        "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
-      },
-      "morning_confirmation_criteria": [
-        "⚠️ WAJIB: Utamakan jika terjadi Gap Down > 3% saat open untuk risk/reward terbaik",
-        "✅ Skenario Gap Down >3% memiliki Profit Factor 6.78x & Win Rate 44.5%",
-        "✅ Volume 15 menit pertama normal/stabil di atas rata-rata",
-        "❌ JANGAN BELI jika Gap Up > 3% (euforia rawan bull trap, PF hanya 0.3x)",
-        "❌ JANGAN BELI jika langsung longsor drastis tanpa rebound dari low"
-      ],
-      "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
-          "MOVER_TYPE_TOP_VALUE",
-          "MOVER_TYPE_NET_FOREIGN_BUY",
-          "GURU_78_Daily Net Fo",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": false,
-        "from_screener": false
-      },
-      "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.2%), volume mati (0.32x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
-        "Di atas MA20 — support jangka pendek",
-        "Di atas MA50 — tren menengah masih ok",
-        "Range D-1 kecil (2.5%) — noise rendah besok",
-        "Asing beli bersih hari ini (Rp 10.1B)"
-      ],
-      "signals_negative": [],
-      "backtest_stats": {
-        "formula": "QUIET_CONTINUATION",
-        "win_rate": "49.8%",
-        "sample_size": "n=1.371",
-        "profit_factor": "1.04x",
-        "total_backtest": "789.792 hari trading IHSG (956 saham)",
-        "gap_down_sweet_spot": "Gap Down >2%: WR 30.2%, upside +3.75%, DD -0.88%",
-        "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
-      },
-      "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
-      "rank": 1
-    }
-  ],
+  "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
   "position_trading": [
@@ -84,11 +10,11 @@
       "ticker": "MKAP",
       "company": "Multikarya Asia Pasifik Raya Tbk.",
       "score": 65,
-      "close": 1245.0,
-      "near_52w_pct": 97.6,
-      "wk_rsi": 78.8,
+      "close": 1250.0,
+      "near_52w_pct": 98.0,
+      "wk_rsi": 79.1,
       "wk_adx": 76.0,
-      "mo_rsi": 91.2,
+      "mo_rsi": 91.3,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -130,17 +56,17 @@
       "ticker": "EPAC",
       "company": "Megalestari Epack Sentosaraya Tbk.",
       "score": 60,
-      "close": 71.0,
-      "near_52w_pct": 85.5,
-      "wk_rsi": 65.3,
+      "close": 73.0,
+      "near_52w_pct": 88.0,
+      "wk_rsi": 66.0,
       "wk_adx": 25.4,
-      "mo_rsi": 75.6,
+      "mo_rsi": 76.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (86%) + Wk RSI (65) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (88%) + Wk RSI (66) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (76)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -172,31 +98,33 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MGLV",
-      "company": "Panca Anugrah Wisesa Tbk",
+      "ticker": "POWR",
+      "company": "Cikarang Listrindo Tbk.",
       "score": 55,
-      "close": 8475.0,
-      "near_52w_pct": 92.4,
-      "wk_rsi": 76.7,
-      "wk_adx": 64.4,
-      "mo_rsi": 82.3,
-      "wk_obv_above_ma": true,
+      "close": 705.0,
+      "near_52w_pct": 95.5,
+      "wk_rsi": 57.5,
+      "wk_adx": 26.4,
+      "mo_rsi": 71.3,
+      "wk_obv_above_ma": false,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (92%) + Wk RSI (77) + Wk ADX (64) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (82)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Near 52W High (95%) + Wk RSI (58) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (71)",
         "Di atas MA200 Daily — tren primer bullish"
       ],
-      "signals_negative": [],
+      "signals_negative": [
+        "Weekly OBV di bawah MA20"
+      ],
       "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-26 16:00:54 WIB",
+    "generated_at": "2026-06-26 16:20:26 WIB",
     "date": "2026-06-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -206,7 +134,7 @@
     "intraday_count": 0,
     "ara_count": 0,
     "bsjp_count": 0,
-    "bpjs_count": 1,
+    "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
     "position_count": 5,
@@ -224,16 +152,16 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5863,
-    "ihsg_change_pct": -2.25,
+    "ihsg_close": 5887,
+    "ihsg_change_pct": -1.86,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -2.3% kemarin. Trading dengan sangat hati-hati."
+    "warning": "⚠️ IHSG turun -1.9% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 76,
+    "after_liquidity": 77,
     "after_accumulation": 21,
     "after_trend": 4,
     "after_smc": 1,
