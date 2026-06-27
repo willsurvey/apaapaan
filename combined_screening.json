@@ -36,14 +36,14 @@
       "close": 4000.0,
       "near_52w_pct": 98.1,
       "wk_rsi": 75.6,
-      "wk_adx": 24.7,
+      "wk_adx": 26.2,
       "mo_rsi": 66.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (76) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (98%) + Wk RSI (76) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -122,7 +122,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-27 15:20:26 WIB",
+    "generated_at": "2026-06-27 15:42:33 WIB",
     "date": "2026-06-27",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -150,12 +150,12 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5999,
-    "ihsg_change_pct": 1.96,
+    "ihsg_close": 5896,
+    "ihsg_change_pct": -1.72,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": null
+    "warning": "⚠️ IHSG turun -1.7% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
     "universe": 978,
