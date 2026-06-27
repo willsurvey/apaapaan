@@ -122,10 +122,10 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-28 00:00:33 WIB",
+    "generated_at": "2026-06-28 00:22:19 WIB",
     "date": "2026-06-28",
     "mode": "FULL_STOCKBIT",
-    "session_label": "PRE_MARKET_WEEKEND (Saturday)",
+    "session_label": "PRE_MARKET_WEEKEND (Sunday)",
     "pipeline_version": "v7.0",
     "session_warning": "⚠️ Screening akhir pekan — referensi persiapan saja, bukan sinyal eksekusi.",
     "mode_warning": null,
