@@ -103,14 +103,14 @@
       "close": 705.0,
       "near_52w_pct": 95.5,
       "wk_rsi": 57.5,
-      "wk_adx": 26.4,
+      "wk_adx": 27.5,
       "mo_rsi": 71.3,
       "wk_obv_above_ma": false,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (58) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (95%) + Wk RSI (58) + Wk ADX (28) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (71)",
         "Di atas MA200 Daily — tren primer bullish"
@@ -123,7 +123,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-29 01:42:40 WIB",
+    "generated_at": "2026-06-29 02:00:58 WIB",
     "date": "2026-06-29",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
