@@ -53,6 +53,29 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "BSSR",
+      "company": "Baramulti Suksessarana Tbk.",
+      "score": 65,
+      "close": 3980.0,
+      "near_52w_pct": 97.6,
+      "wk_rsi": 75.6,
+      "wk_adx": 33.2,
+      "mo_rsi": 66.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (98%) + Wk RSI (76) + Wk ADX (33) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (66)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "NEST",
       "company": "Esta Indonesia Tbk",
       "score": 55,
@@ -95,33 +118,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MGLV",
-      "company": "Panca Anugrah Wisesa Tbk",
-      "score": 55,
-      "close": 8000.0,
-      "near_52w_pct": 87.2,
-      "wk_rsi": 71.0,
-      "wk_adx": 64.1,
-      "mo_rsi": 81.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (71) + Wk ADX (64) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (82)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-29 23:40:51 WIB",
+    "generated_at": "2026-06-29 23:59:50 WIB",
     "date": "2026-06-29",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
