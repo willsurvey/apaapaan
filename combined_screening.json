@@ -36,7 +36,7 @@
       "close": 1220.0,
       "near_52w_pct": 95.7,
       "wk_rsi": 71.0,
-      "wk_adx": 76.1,
+      "wk_adx": 76.2,
       "mo_rsi": 91.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -46,29 +46,6 @@
         "Near 52W High (96%) + Wk RSI (71) + Wk ADX (76) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (91)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 65,
-      "close": 960.0,
-      "near_52w_pct": 98.0,
-      "wk_rsi": 67.5,
-      "wk_adx": 29.4,
-      "mo_rsi": 77.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (68) + Wk ADX (29) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (77)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -118,11 +95,33 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MGLV",
+      "company": "Panca Anugrah Wisesa Tbk",
+      "score": 55,
+      "close": 8000.0,
+      "near_52w_pct": 87.2,
+      "wk_rsi": 70.6,
+      "wk_adx": 63.0,
+      "mo_rsi": 81.7,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (87%) + Wk RSI (71) + Wk ADX (63) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (82)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-30 05:20:32 WIB",
+    "generated_at": "2026-06-30 05:40:29 WIB",
     "date": "2026-06-30",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
