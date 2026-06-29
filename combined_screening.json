@@ -30,24 +30,23 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "EPAC",
-      "company": "Megalestari Epack Sentosaraya Tbk.",
-      "score": 60,
-      "close": 73.0,
-      "near_52w_pct": 88.0,
-      "wk_rsi": 66.0,
-      "wk_adx": 25.4,
-      "mo_rsi": 76.0,
+      "ticker": "TOTL",
+      "company": "Total Bangun Persada Tbk.",
+      "score": 55,
+      "close": 1060.0,
+      "near_52w_pct": 90.6,
+      "wk_rsi": 63.3,
+      "wk_adx": 30.1,
+      "mo_rsi": 76.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (88%) + Wk RSI (66) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (76)",
+        "Near 52W High (91%) + Wk RSI (63) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (77)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.5B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -68,28 +67,6 @@
       "signals_positive": [
         "Near 52W High (92%) + Wk RSI (72) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (69)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "TOTL",
-      "company": "Total Bangun Persada Tbk.",
-      "score": 55,
-      "close": 1060.0,
-      "near_52w_pct": 90.6,
-      "wk_rsi": 63.3,
-      "wk_adx": 30.1,
-      "mo_rsi": 76.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (91%) + Wk RSI (63) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (77)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -119,11 +96,33 @@
         "Weekly OBV di bawah MA20"
       ],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "EPAC",
+      "company": "Megalestari Epack Sentosaraya Tbk.",
+      "score": 55,
+      "close": 73.0,
+      "near_52w_pct": 88.0,
+      "wk_rsi": 66.0,
+      "wk_adx": 25.4,
+      "mo_rsi": 76.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (88%) + Wk RSI (66) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (76)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-29 08:02:42 WIB",
+    "generated_at": "2026-06-29 08:18:42 WIB",
     "date": "2026-06-29",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -160,9 +159,9 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 63,
-    "after_accumulation": 13,
-    "after_trend": 2,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
     "final": 0
