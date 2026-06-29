@@ -9,7 +9,7 @@
     {
       "ticker": "EPAC",
       "company": "Megalestari Epack Sentosaraya Tbk.",
-      "score": 70,
+      "score": 65,
       "close": 81.0,
       "near_52w_pct": 95.3,
       "wk_rsi": 66.0,
@@ -24,8 +24,7 @@
         "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (78)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.5B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -122,7 +121,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-29 17:20:28 WIB",
+    "generated_at": "2026-06-29 17:40:12 WIB",
     "date": "2026-06-29",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -159,9 +158,9 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 70,
-    "after_accumulation": 11,
-    "after_trend": 1,
+    "after_liquidity": 67,
+    "after_accumulation": 15,
+    "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
     "final": 0
