@@ -5,122 +5,10 @@
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
-  "position_trading": [
-    {
-      "ticker": "MKAP",
-      "company": "Multikarya Asia Pasifik Raya Tbk.",
-      "score": 65,
-      "close": 1225.0,
-      "near_52w_pct": 96.1,
-      "wk_rsi": 72.1,
-      "wk_adx": 76.2,
-      "mo_rsi": 91.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (72) + Wk ADX (76) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (91)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "EPAC",
-      "company": "Megalestari Epack Sentosaraya Tbk.",
-      "score": 55,
-      "close": 79.0,
-      "near_52w_pct": 92.9,
-      "wk_rsi": 70.0,
-      "wk_adx": 25.8,
-      "mo_rsi": 77.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (93%) + Wk RSI (70) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (77)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "TOTL",
-      "company": "Total Bangun Persada Tbk.",
-      "score": 55,
-      "close": 1050.0,
-      "near_52w_pct": 89.7,
-      "wk_rsi": 61.3,
-      "wk_adx": 28.0,
-      "mo_rsi": 76.3,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (90%) + Wk RSI (61) + Wk ADX (28) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (76)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "NEST",
-      "company": "Esta Indonesia Tbk",
-      "score": 55,
-      "close": 565.0,
-      "near_52w_pct": 93.4,
-      "wk_rsi": 75.2,
-      "wk_adx": 45.7,
-      "mo_rsi": 69.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (93%) + Wk RSI (75) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (69)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MGLV",
-      "company": "Panca Anugrah Wisesa Tbk",
-      "score": 55,
-      "close": 7800.0,
-      "near_52w_pct": 85.0,
-      "wk_rsi": 70.0,
-      "wk_adx": 63.0,
-      "mo_rsi": 81.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (85%) + Wk RSI (70) + Wk ADX (63) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (81)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    }
-  ],
+  "position_trading": [],
   "meta": {
-    "status": "success",
-    "generated_at": "2026-06-30 09:20:41 WIB",
+    "status": "no_signal",
+    "generated_at": "2026-06-30 09:27:18 WIB",
     "date": "2026-06-30",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -133,7 +21,7 @@
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
-    "position_count": 5,
+    "position_count": 0,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
     "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
@@ -148,22 +36,14 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5820,
-    "ihsg_change_pct": -1.28,
+    "ihsg_close": 5720,
+    "ihsg_change_pct": -1.72,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
-    "market_safe": true,
-    "warning": null
+    "market_safe": false,
+    "warning": "IHSG turun 3 hari berturut-turut. Tidak ada output hari ini."
   },
-  "screening_summary": {
-    "universe": 978,
-    "after_liquidity": 23,
-    "after_accumulation": 2,
-    "after_trend": 0,
-    "after_smc": 0,
-    "after_entry": 0,
-    "final": 0
-  },
+  "screening_summary": {},
   "config_ara": {
     "vol_ma20_tier1": 3.0,
     "vol_ma20_tier2": 6.0,
