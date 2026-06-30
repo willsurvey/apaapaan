@@ -7,29 +7,6 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "EPAC",
-      "company": "Megalestari Epack Sentosaraya Tbk.",
-      "score": 65,
-      "close": 81.0,
-      "near_52w_pct": 95.3,
-      "wk_rsi": 70.6,
-      "wk_adx": 25.8,
-      "mo_rsi": 77.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (71) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (78)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "MKAP",
       "company": "Multikarya Asia Pasifik Raya Tbk.",
       "score": 65,
@@ -53,21 +30,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "NEST",
-      "company": "Esta Indonesia Tbk",
-      "score": 55,
-      "close": 570.0,
-      "near_52w_pct": 94.2,
-      "wk_rsi": 75.4,
-      "wk_adx": 45.7,
-      "mo_rsi": 69.6,
+      "ticker": "EPAC",
+      "company": "Megalestari Epack Sentosaraya Tbk.",
+      "score": 65,
+      "close": 81.0,
+      "near_52w_pct": 95.3,
+      "wk_rsi": 70.6,
+      "wk_adx": 25.8,
+      "mo_rsi": 77.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (94%) + Wk RSI (75) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (70)",
+        "Near 52W High (95%) + Wk RSI (71) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (78)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -90,6 +68,28 @@
       "signals_positive": [
         "Near 52W High (90%) + Wk RSI (62) + Wk ADX (28) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (76)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
+      "score": 55,
+      "close": 570.0,
+      "near_52w_pct": 94.2,
+      "wk_rsi": 75.4,
+      "wk_adx": 45.7,
+      "mo_rsi": 69.6,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (94%) + Wk RSI (75) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -121,7 +121,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-06-30 08:00:56 WIB",
+    "generated_at": "2026-06-30 08:18:32 WIB",
     "date": "2026-06-30",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -158,8 +158,8 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 67,
-    "after_accumulation": 15,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
