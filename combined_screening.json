@@ -13,12 +13,12 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 1020,
-        "change_pct": 2.51,
-        "value_today": 34190213500,
-        "frequency_today": 3882,
-        "iep": 1000,
-        "iep_change_pct": -1.96
+        "close": 1025,
+        "change_pct": 3.02,
+        "value_today": 34458847500,
+        "frequency_today": 3962,
+        "iep": 1025,
+        "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
@@ -36,7 +36,7 @@
       },
       "trend": {
         "ma50": 840.0,
-        "gap_from_ma50_pct": 21.41,
+        "gap_from_ma50_pct": 21.99,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -53,19 +53,19 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 1010,
+        "entry_1": 1015,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 995,
+        "entry_2": 1000,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
         "entry_3": 990,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 995,
-        "entry_zone": "990 - 1010",
+        "average_entry": 1000,
+        "entry_zone": "990 - 1015",
         "sl": 980,
-        "sl_pct_risk": 1.51,
+        "sl_pct_risk": 2.0,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
         "tp1": 1040,
         "tp1_note": "PDH / Target psikologis intraday",
@@ -73,7 +73,7 @@
         "tp2_note": "Weak High / Supply Zone 1H",
         "tp3": 1100,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:7.0",
+        "rr_ratio": "1:5.0",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
@@ -87,7 +87,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "15.54 WIB"
+      "updated_at": "16.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -100,18 +100,18 @@
       "ticker": "NEST",
       "company": "Esta Indonesia Tbk",
       "score": 65,
-      "close": 650.0,
-      "near_52w_pct": 99.2,
-      "wk_rsi": 78.4,
+      "close": 660.0,
+      "near_52w_pct": 100.0,
+      "wk_rsi": 78.8,
       "wk_adx": 47.4,
-      "mo_rsi": 75.8,
+      "mo_rsi": 76.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (78) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
+        "Near 52W High (100%) + Wk RSI (79) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
         "Monthly RSI kuat (76)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -123,17 +123,17 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 975.0,
-      "near_52w_pct": 99.5,
-      "wk_rsi": 73.7,
+      "close": 970.0,
+      "near_52w_pct": 99.0,
+      "wk_rsi": 73.2,
       "wk_adx": 32.1,
-      "mo_rsi": 73.3,
+      "mo_rsi": 72.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (74) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (99%) + Wk RSI (73) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (73)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -169,17 +169,17 @@
       "ticker": "EPAC",
       "company": "Megalestari Epack Sentosaraya Tbk.",
       "score": 55,
-      "close": 75.0,
-      "near_52w_pct": 88.2,
-      "wk_rsi": 64.7,
+      "close": 74.0,
+      "near_52w_pct": 87.1,
+      "wk_rsi": 64.3,
       "wk_adx": 26.1,
-      "mo_rsi": 75.2,
+      "mo_rsi": 75.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (88%) + Wk RSI (65) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (87%) + Wk RSI (64) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (75)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -188,21 +188,21 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MGLV",
-      "company": "Panca Anugrah Wisesa Tbk",
+      "ticker": "PKPK",
+      "company": "Paragon Karya Perkasa Tbk",
       "score": 55,
-      "close": 8375.0,
-      "near_52w_pct": 91.3,
-      "wk_rsi": 68.7,
-      "wk_adx": 60.8,
-      "mo_rsi": 82.2,
+      "close": 3160.0,
+      "near_52w_pct": 85.4,
+      "wk_rsi": 67.7,
+      "wk_adx": 41.1,
+      "mo_rsi": 82.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (91%) + Wk RSI (69) + Wk ADX (61) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (82)",
+        "Near 52W High (85%) + Wk RSI (68) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (83)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -212,7 +212,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-08 15:55:07 WIB",
+    "generated_at": "2026-07-08 16:15:45 WIB",
     "date": "2026-07-08",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -240,12 +240,12 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5916,
-    "ihsg_change_pct": -1.17,
+    "ihsg_close": 5879,
+    "ihsg_change_pct": -1.79,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": null
+    "warning": "⚠️ IHSG turun -1.8% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
     "universe": 978,
