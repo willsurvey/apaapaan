@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-07-08 16:15:45 WIB",
+  "generated_at": "2026-07-08 16:36:38 WIB",
   "date": "2026-07-08",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,12 +8,12 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 5879,
-    "ihsg_change_pct": -1.79,
+    "ihsg_close": 5873,
+    "ihsg_change_pct": -1.89,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -1.8% kemarin. Trading dengan sangat hati-hati."
+    "warning": "⚠️ IHSG turun -1.9% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
     "universe": 978,
@@ -58,8 +58,8 @@
       "market_data": {
         "close": 1025,
         "change_pct": 3.02,
-        "value_today": 34458847500,
-        "frequency_today": 3962,
+        "value_today": 34473710000,
+        "frequency_today": 3967,
         "iep": 1025,
         "iep_change_pct": 0
       },
@@ -130,7 +130,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "16.14 WIB"
+      "updated_at": "16.35 WIB"
     }
   ]
 }
