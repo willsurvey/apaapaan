@@ -87,7 +87,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "16.35 WIB"
+      "updated_at": "16.54 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -141,7 +141,7 @@
       "d1_close_pos": 0.455,
       "d1_bullish": true,
       "d1_range_expansion": 2.68,
-      "d1_value_rp": 541137780000,
+      "d1_value_rp": 541123230000,
       "d2_change_pct": 4.44,
       "d2_body_pct": 0.667,
       "d2_vol_ratio_ma20": 2.58,
@@ -178,7 +178,7 @@
         "GURU_92"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:35 WIB"
+      "generated_at": "16:55 WIB"
     },
     {
       "ticker": "HALO",
@@ -230,7 +230,7 @@
       "d1_close_pos": 0.467,
       "d1_bullish": true,
       "d1_range_expansion": 2.9,
-      "d1_value_rp": 1164858690000,
+      "d1_value_rp": 1164856620000,
       "d2_change_pct": 4.92,
       "d2_body_pct": 0.75,
       "d2_vol_ratio_ma20": 1.47,
@@ -265,7 +265,7 @@
         "SCREENER_VOL_EXPLOSION"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:35 WIB"
+      "generated_at": "16:55 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -389,7 +389,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-08 16:36:38 WIB",
+    "generated_at": "2026-07-08 16:56:23 WIB",
     "date": "2026-07-08",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
