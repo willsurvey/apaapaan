@@ -7,29 +7,6 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "NEST",
-      "company": "Esta Indonesia Tbk",
-      "score": 65,
-      "close": 635.0,
-      "near_52w_pct": 100.0,
-      "wk_rsi": 77.8,
-      "wk_adx": 47.2,
-      "mo_rsi": 75.3,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (78) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (75)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "MARK",
       "company": "Mark Dynamics Indonesia Tbk.",
       "score": 65,
@@ -46,6 +23,29 @@
         "Near 52W High (99%) + Wk RSI (79) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (71)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
+      "score": 65,
+      "close": 635.0,
+      "near_52w_pct": 100.0,
+      "wk_rsi": 77.8,
+      "wk_adx": 47.2,
+      "mo_rsi": 75.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (100%) + Wk RSI (78) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
+        "Monthly RSI kuat (75)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -99,31 +99,33 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "EPAC",
-      "company": "Megalestari Epack Sentosaraya Tbk.",
+      "ticker": "POWR",
+      "company": "Cikarang Listrindo Tbk.",
       "score": 55,
-      "close": 74.0,
-      "near_52w_pct": 87.1,
-      "wk_rsi": 64.3,
-      "wk_adx": 26.1,
-      "mo_rsi": 75.0,
-      "wk_obv_above_ma": true,
+      "close": 705.0,
+      "near_52w_pct": 95.5,
+      "wk_rsi": 60.1,
+      "wk_adx": 54.2,
+      "mo_rsi": 65.7,
+      "wk_obv_above_ma": false,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (64) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (75)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Near 52W High (95%) + Wk RSI (60) + Wk ADX (54) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (66)",
         "Di atas MA200 Daily — tren primer bullish"
       ],
-      "signals_negative": [],
+      "signals_negative": [
+        "Weekly OBV di bawah MA20"
+      ],
       "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-08 08:13:38 WIB",
+    "generated_at": "2026-07-08 08:33:51 WIB",
     "date": "2026-07-08",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -159,7 +161,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 976,
+    "universe": 978,
     "after_liquidity": 0,
     "after_accumulation": 0,
     "after_trend": 0,
