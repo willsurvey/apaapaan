@@ -84,11 +84,10 @@
         "High intraday di awal sesi (5%) — profit taking sore"
       ],
       "universe_sources": [
-        "SCREENER_VOL_EXPLOSION",
-        "GURU_92"
+        "SCREENER_VOL_EXPLOSION"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "18:15 WIB"
+      "generated_at": "18:35 WIB"
     },
     {
       "ticker": "DKHH",
@@ -172,10 +171,12 @@
       ],
       "universe_sources": [
         "SCREENER_VOL_EXPLOSION",
+        "GURU_92",
+        "GURU_94",
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "18:15 WIB"
+      "generated_at": "18:35 WIB"
     },
     {
       "ticker": "KJEN",
@@ -261,10 +262,10 @@
       ],
       "universe_sources": [
         "SCREENER_VOL_EXPLOSION",
-        "GURU_94"
+        "GURU_92"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "18:15 WIB"
+      "generated_at": "18:35 WIB"
     },
     {
       "ticker": "ISEA",
@@ -348,10 +349,11 @@
         "Close di bawah VWAP: -4.5%"
       ],
       "universe_sources": [
-        "SCREENER_VOL_EXPLOSION"
+        "SCREENER_VOL_EXPLOSION",
+        "GURU_92"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "18:15 WIB"
+      "generated_at": "18:35 WIB"
     },
     {
       "ticker": "DSFI",
@@ -435,10 +437,12 @@
         "Close di bawah VWAP: -9.3%"
       ],
       "universe_sources": [
-        "SCREENER_VOL_EXPLOSION"
+        "SCREENER_VOL_EXPLOSION",
+        "GURU_92",
+        "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "18:15 WIB"
+      "generated_at": "18:35 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -562,7 +566,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-08 18:16:13 WIB",
+    "generated_at": "2026-07-08 18:36:27 WIB",
     "date": "2026-07-08",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -590,12 +594,12 @@
     }
   },
   "market_context": {
+    "ihsg_close": 5873,
+    "ihsg_change_pct": -1.89,
+    "ihsg_trend": "BEARISH",
+    "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": null,
-    "ihsg_trend": "UNKNOWN",
-    "ihsg_close": 0,
-    "ihsg_change_pct": 0,
-    "ihsg_above_ma50": true
+    "warning": "⚠️ IHSG turun -1.9% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
     "universe": 978,
