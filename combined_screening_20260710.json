@@ -12,13 +12,13 @@
       "market_data": {
         "close": 2900.0,
         "change_pct": 1.75,
-        "value_today": 171197464000,
+        "value_today": 174380794000,
         "net_foreign": 27731721000
       },
       "d1_features": {
         "body_pct": 1.05,
         "close_pos_pct": 57.1,
-        "vol_ratio": 0.49,
+        "vol_ratio": 0.5,
         "change_pct": 1.75,
         "range_pct": 2.41,
         "upper_wick": 42.9,
@@ -57,7 +57,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.1%), volume mati (0.49x MA20), close tengah (57%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.1%), volume mati (0.50x MA20), close tengah (57%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Range D-1 kecil (2.4%) — noise rendah besok",
         "Asing beli bersih hari ini (Rp 27.7B)"
@@ -86,7 +86,7 @@
       "market_data": {
         "close": 7325.0,
         "change_pct": 0.69,
-        "value_today": 12041247500,
+        "value_today": 12084465000,
         "net_foreign": 1665550000
       },
       "d1_features": {
@@ -158,13 +158,13 @@
       "market_data": {
         "close": 1175.0,
         "change_pct": 0.86,
-        "value_today": 28589092500,
+        "value_today": 29374110000,
         "net_foreign": -3649419500
       },
       "d1_features": {
         "body_pct": 1.73,
         "close_pos_pct": 57.1,
-        "vol_ratio": 0.46,
+        "vol_ratio": 0.47,
         "change_pct": 0.86,
         "range_pct": 2.98,
         "upper_wick": 42.9,
@@ -202,7 +202,7 @@
         "from_screener": true
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.7%), volume mati (0.46x MA20), close tengah (57%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.7%), volume mati (0.47x MA20), close tengah (57%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Range D-1 kecil (3.0%) — noise rendah besok",
         "Masuk screener volume Stockbit — ada perhatian pasar"
@@ -345,7 +345,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-10 16:15:49 WIB",
+    "generated_at": "2026-07-10 16:35:55 WIB",
     "date": "2026-07-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -373,8 +373,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5908,
-    "ihsg_change_pct": -0.07,
+    "ihsg_close": 5924,
+    "ihsg_change_pct": 0.2,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
