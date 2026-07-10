@@ -4,7 +4,98 @@
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
-  "trend_following": [],
+  "trend_following": [
+    {
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
+      "score": 70,
+      "close": 620.0,
+      "adx": 39.4,
+      "rsi": 61.5,
+      "macd_hist": 3.4848,
+      "wk_adx": 47.4,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (39) + RSI sehat (62) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+6.9%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (47)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "RGAS",
+      "company": "Kian Santang Muliatama Tbk.",
+      "score": 70,
+      "close": 204.0,
+      "adx": 56.8,
+      "rsi": 59.1,
+      "macd_hist": 0.2928,
+      "wk_adx": 39.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (57) + RSI sehat (59) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+20.7%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (40)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "MKAP",
+      "company": "Multikarya Asia Pasifik Raya Tbk.",
+      "score": 65,
+      "close": 1180.0,
+      "adx": 40.6,
+      "rsi": 70.3,
+      "macd_hist": 1.3516,
+      "wk_adx": 76.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (41) + RSI sehat (70) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (76)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "BAPA",
+      "company": "Bekasi Asri Pemula Tbk.",
+      "score": 65,
+      "close": 330.0,
+      "adx": 59.7,
+      "rsi": 64.9,
+      "macd_hist": 11.6291,
+      "wk_adx": 55.7,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (60) + RSI sehat (65) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (56)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    }
+  ],
   "position_trading": [
     {
       "ticker": "ASGR",
@@ -122,7 +213,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-10 08:34:09 WIB",
+    "generated_at": "2026-07-10 08:53:11 WIB",
     "date": "2026-07-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -134,7 +225,7 @@
     "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
-    "trend_count": 0,
+    "trend_count": 4,
     "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
