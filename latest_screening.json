@@ -1,10 +1,10 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-07-12 23:55:35 WIB",
-  "date": "2026-07-12",
+  "generated_at": "2026-07-13 00:16:18 WIB",
+  "date": "2026-07-13",
   "mode": "FULL_STOCKBIT",
-  "session_label": "PRE_MARKET_WEEKEND (Sunday)",
-  "session_warning": "⚠️ Screening dijalankan di akhir pekan — gunakan sebagai referensi persiapan, bukan sinyal eksekusi langsung.",
+  "session_label": "MARKET_DAY",
+  "session_warning": null,
   "mode_warning": null,
   "total_saham": 0,
   "market_context": {
