@@ -59,7 +59,7 @@
       "close": 1800.0,
       "near_52w_pct": 97.3,
       "wk_rsi": 66.1,
-      "wk_adx": 45.3,
+      "wk_adx": 45.4,
       "mo_rsi": 77.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -122,7 +122,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-13 17:55:08 WIB",
+    "generated_at": "2026-07-13 18:16:54 WIB",
     "date": "2026-07-13",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
