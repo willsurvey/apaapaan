@@ -4,37 +4,37 @@
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "BRPT",
-      "company": "Barito Pacific Tbk.",
+      "ticker": "ESSA",
+      "company": "ESSA Industries Indonesia Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
       "score": 40,
       "market_data": {
-        "close": 1665.0,
-        "change_pct": 2.78,
-        "value_today": 111223647500,
-        "net_foreign": 50386500
+        "close": 590.0,
+        "change_pct": 2.61,
+        "value_today": 20902613000,
+        "net_foreign": 1595531000
       },
       "d1_features": {
-        "body_pct": 2.46,
-        "close_pos_pct": 60.0,
-        "vol_ratio": 0.31,
-        "change_pct": 2.78,
-        "range_pct": 4.5,
-        "upper_wick": 40.0,
+        "body_pct": 1.72,
+        "close_pos_pct": 50.0,
+        "vol_ratio": 0.36,
+        "change_pct": 2.61,
+        "range_pct": 3.39,
+        "upper_wick": 50.0,
         "above_ma20": true,
         "above_ma50": false,
         "above_ma200": false,
-        "atr_pct": 7.14
+        "atr_pct": 5.03
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "1,605 – 1,700",
+        "entry_range": "575 – 600",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 1485,
-        "stop_note": "Cut loss jika turun di bawah 1,485 (1 ATR dari entry)",
-        "target_modest": 1700,
-        "target_moderate": 1730,
+        "stop_loss": 545,
+        "stop_note": "Cut loss jika turun di bawah 545 (1 ATR dari entry)",
+        "target_modest": 600,
+        "target_moderate": 615,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -49,6 +49,7 @@
         "in_mover_types": [
           "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
+          "MOVER_TYPE_NET_FOREIGN_BUY",
           "GURU_78_Daily Net Fo",
           "SCREENER_TOP_VALUE"
         ],
@@ -56,12 +57,12 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+2.5%), volume mati (0.31x MA20), close tengah (60%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.7%), volume mati (0.36x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
-        "Asing beli bersih hari ini (Rp 0.1B)"
+        "Asing beli bersih hari ini (Rp 1.6B)"
       ],
       "signals_negative": [
-        "Upper wick besar (40%) — tekanan jual D-1"
+        "Upper wick besar (50%) — tekanan jual D-1"
       ],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
@@ -106,11 +107,11 @@
       "ticker": "BSSR",
       "company": "Baramulti Suksessarana Tbk.",
       "score": 65,
-      "close": 4210.0,
-      "near_52w_pct": 99.8,
+      "close": 4220.0,
+      "near_52w_pct": 100.0,
       "wk_rsi": 77.8,
       "wk_adx": 38.1,
-      "mo_rsi": 71.1,
+      "mo_rsi": 71.3,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -152,17 +153,17 @@
       "ticker": "NEST",
       "company": "Esta Indonesia Tbk",
       "score": 55,
-      "close": 625.0,
-      "near_52w_pct": 94.7,
+      "close": 620.0,
+      "near_52w_pct": 93.9,
       "wk_rsi": 78.0,
       "wk_adx": 47.4,
-      "mo_rsi": 74.9,
+      "mo_rsi": 74.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (78) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (94%) + Wk RSI (78) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (75)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -174,8 +175,8 @@
       "ticker": "PKPK",
       "company": "Paragon Karya Perkasa Tbk",
       "score": 55,
-      "close": 3160.0,
-      "near_52w_pct": 85.4,
+      "close": 3170.0,
+      "near_52w_pct": 85.7,
       "wk_rsi": 68.1,
       "wk_adx": 41.1,
       "mo_rsi": 82.7,
@@ -184,7 +185,7 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (85%) + Wk RSI (68) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (86%) + Wk RSI (68) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (83)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -195,7 +196,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-13 09:40:46 WIB",
+    "generated_at": "2026-07-13 10:14:20 WIB",
     "date": "2026-07-13",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -223,8 +224,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5932,
-    "ihsg_change_pct": 0.13,
+    "ihsg_close": 5963,
+    "ihsg_change_pct": 0.66,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -232,8 +233,8 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 37,
-    "after_accumulation": 14,
+    "after_liquidity": 59,
+    "after_accumulation": 18,
     "after_trend": 1,
     "after_smc": 0,
     "after_entry": 0,
