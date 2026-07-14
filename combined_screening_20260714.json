@@ -9,7 +9,7 @@
     {
       "ticker": "MARK",
       "company": "Mark Dynamics Indonesia Tbk.",
-      "score": 70,
+      "score": 65,
       "close": 1085.0,
       "near_52w_pct": 96.4,
       "wk_rsi": 79.5,
@@ -24,8 +24,7 @@
         "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.6B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -60,7 +59,7 @@
       "close": 1800.0,
       "near_52w_pct": 97.3,
       "wk_rsi": 64.1,
-      "wk_adx": 45.6,
+      "wk_adx": 45.7,
       "mo_rsi": 77.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -123,7 +122,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-14 07:56:04 WIB",
+    "generated_at": "2026-07-14 08:16:08 WIB",
     "date": "2026-07-14",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -160,9 +159,9 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 81,
-    "after_accumulation": 43,
-    "after_trend": 1,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
     "final": 0
