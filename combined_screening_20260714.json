@@ -43,23 +43,23 @@
       "d1_high": 97.0,
       "d1_low": 87.0,
       "d1_change_pct": 4.71,
-      "d1_vol_ratio_ma20": 11.45,
-      "d1_vol_ratio_ma5": 6.93,
+      "d1_vol_ratio_ma20": 11.48,
+      "d1_vol_ratio_ma5": 6.95,
       "d1_body_pct": 0.2,
       "d1_upper_wick": 0.8,
       "d1_lower_wick": 0.0,
       "d1_close_pos": 0.2,
       "d1_bullish": true,
       "d1_range_expansion": 2.35,
-      "d1_value_rp": 237468020000,
+      "d1_value_rp": 238211170000,
       "d2_change_pct": 2.41,
       "d2_body_pct": 0.286,
       "d2_vol_ratio_ma20": 4.48,
-      "m1_last15_green": 12,
-      "m1_close_vs_vwap": -2.9,
+      "m1_last15_green": 13,
+      "m1_close_vs_vwap": -2.89,
       "m1_close_pos_intra": 0.2,
       "m1_high_timing": 0.0,
-      "m1_n_bars": 243,
+      "m1_n_bars": 245,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -68,7 +68,7 @@
       "up_streak_days": 1,
       "trend_5d_pct": 4.71,
       "signals_positive": [
-        "Volume D-1 ekstrem: 11.4x MA20 (tier-2 ≥6x)",
+        "Volume D-1 ekstrem: 11.5x MA20 (tier-2 ≥6x)",
         "Volume D-2 elevated: 4.5x MA20 (akumulasi dini)",
         "Upper wick rejection: 0.80 (smart money absorption)",
         "Body kecil D-1: 0.20 (candle akumulasi)",
@@ -79,7 +79,7 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 10/14 bar flat — indikasi tidak aktif",
+        "Closing flat bias: 11/14 bar flat — indikasi tidak aktif",
         "Close di bawah VWAP: -2.9%",
         "High intraday di awal sesi (0%) — profit taking sore"
       ],
@@ -87,7 +87,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:15 WIB"
+      "generated_at": "16:36 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -101,7 +101,7 @@
       "market_data": {
         "close": 100.0,
         "change_pct": 2.04,
-        "value_today": 12999800500,
+        "value_today": 13083450500,
         "net_foreign": -575654300
       },
       "d1_features": {
@@ -220,7 +220,7 @@
       "close": 1885.0,
       "near_52w_pct": 99.5,
       "wk_rsi": 66.8,
-      "wk_adx": 45.9,
+      "wk_adx": 45.7,
       "mo_rsi": 78.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -285,7 +285,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-14 16:16:30 WIB",
+    "generated_at": "2026-07-14 16:36:51 WIB",
     "date": "2026-07-14",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
