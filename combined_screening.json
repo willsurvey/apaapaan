@@ -86,7 +86,7 @@
         "SCREENER_VOL_EXPLOSION"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "20:18 WIB"
+      "generated_at": "20:35 WIB"
     },
     {
       "ticker": "TOBA",
@@ -175,7 +175,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "20:18 WIB"
+      "generated_at": "20:35 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -263,7 +263,7 @@
       "close": 1885.0,
       "near_52w_pct": 99.5,
       "wk_rsi": 66.8,
-      "wk_adx": 45.9,
+      "wk_adx": 45.8,
       "mo_rsi": 78.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -377,7 +377,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-14 20:19:25 WIB",
+    "generated_at": "2026-07-14 20:36:58 WIB",
     "date": "2026-07-14",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
