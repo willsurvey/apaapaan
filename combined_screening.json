@@ -27,7 +27,7 @@
       "target_note": "Pagi: 132 (~+7%) | Moderat: 143 (~+15%) | Full: 149 (~+20%) | JUAL PAGI, bukan hold sampai close.",
       "assumed_entry": 124,
       "exit_timing_guide": "JUAL DI PAGI HARI (09:00-09:30 WIB). Backtest menunjukkan High D+1 median +16.77% dari harga ARA. Setelah 09:30, momentum sering berbalik. Jika masih ARA lagi (23.5% peluang), hold dengan trailing stop.",
-      "reason_beginner_friendly": "NAIK diam-diam banyak ditransaksikan kemarin (volume 8x dari biasanya) meski harga tidak bergerak banyak. Ini pola sebelum harga melonjak tajam — tapi bisa juga tidak terjadi apa-apa jika tidak ada berita pendukung. ✅ Broker signal: Big Acc. Skor kepercayaan: TINGGI.",
+      "reason_beginner_friendly": "NAIK diam-diam banyak ditransaksikan kemarin (volume 9x dari biasanya) meski harga tidak bergerak banyak. Ini pola sebelum harga melonjak tajam — tapi bisa juga tidak terjadi apa-apa jika tidak ada berita pendukung. ✅ Broker signal: Big Acc. Skor kepercayaan: TINGGI.",
       "risk_warning": "⚠️ FALSE SIGNAL RATE ~85-90%. Konfirmasi dengan broker flow, berita, dan analisis manual sebelum beli. | 📌 Batasi posisi: max 2% dari portofolio.",
       "d1p_backtest_stats": {
         "high_d1_median": "+16.77% dari harga ARA (n=2213)",
@@ -43,23 +43,23 @@
       "d1_high": 97.0,
       "d1_low": 87.0,
       "d1_change_pct": 7.06,
-      "d1_vol_ratio_ma20": 8.44,
-      "d1_vol_ratio_ma5": 5.11,
+      "d1_vol_ratio_ma20": 8.82,
+      "d1_vol_ratio_ma5": 5.34,
       "d1_body_pct": 0.4,
       "d1_upper_wick": 0.6,
       "d1_lower_wick": 0.0,
       "d1_close_pos": 0.4,
       "d1_bullish": true,
       "d1_range_expansion": 2.3,
-      "d1_value_rp": 178910550000,
+      "d1_value_rp": 187103280000,
       "d2_change_pct": 2.41,
       "d2_body_pct": 0.286,
       "d2_vol_ratio_ma20": 4.48,
-      "m1_last15_green": 10,
-      "m1_close_vs_vwap": -2.5,
-      "m1_close_pos_intra": 0.125,
+      "m1_last15_green": 11,
+      "m1_close_vs_vwap": -1.34,
+      "m1_close_pos_intra": 0.25,
       "m1_high_timing": 0.0,
-      "m1_n_bars": 79,
+      "m1_n_bars": 93,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -68,7 +68,7 @@
       "up_streak_days": 1,
       "trend_5d_pct": 7.06,
       "signals_positive": [
-        "Volume D-1 ekstrem: 8.4x MA20 (tier-2 ≥6x)",
+        "Volume D-1 ekstrem: 8.8x MA20 (tier-2 ≥6x)",
         "Volume D-2 elevated: 4.5x MA20 (akumulasi dini)",
         "Upper wick rejection: 0.60 (smart money absorption)",
         "Body kecil D-1: 0.40 (candle akumulasi)",
@@ -79,15 +79,14 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -2.5%",
+        "Closing flat bias: 7/14 bar flat — indikasi tidak aktif",
         "High intraday di awal sesi (0%) — profit taking sore"
       ],
       "universe_sources": [
         "SCREENER_VOL_EXPLOSION"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "10:36 WIB"
+      "generated_at": "10:53 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -96,59 +95,12 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "HATM",
-      "company": "Habco Trans Maritima Tbk.",
-      "score": 70,
-      "close": 448.0,
-      "near_52w_pct": 97.0,
-      "wk_rsi": 72.1,
-      "wk_adx": 20.8,
-      "mo_rsi": 67.0,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (72) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (67)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.4B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BSML",
-      "company": "Bintang Samudera Mandiri Lines Tbk.",
-      "score": 65,
-      "close": 515.0,
-      "near_52w_pct": 97.2,
-      "wk_rsi": 79.6,
-      "wk_adx": 48.6,
-      "mo_rsi": 98.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (80) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (99)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "ASGR",
       "company": "Astra Graphia Tbk.",
       "score": 65,
-      "close": 1845.0,
-      "near_52w_pct": 98.9,
-      "wk_rsi": 65.6,
+      "close": 1850.0,
+      "near_52w_pct": 99.2,
+      "wk_rsi": 65.8,
       "wk_adx": 45.8,
       "mo_rsi": 78.5,
       "wk_obv_above_ma": true,
@@ -158,7 +110,7 @@
       "signals_positive": [
         "Near 52W High (99%) + Wk RSI (66) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (78)",
+        "Monthly RSI kuat (79)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -189,6 +141,28 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "HATM",
+      "company": "Habco Trans Maritima Tbk.",
+      "score": 55,
+      "close": 424.0,
+      "near_52w_pct": 91.8,
+      "wk_rsi": 69.9,
+      "wk_adx": 20.8,
+      "mo_rsi": 65.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (92%) + Wk RSI (70) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (65)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "GJTL",
       "company": "Gajah Tunggal Tbk.",
       "score": 55,
@@ -209,11 +183,33 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
+      "score": 55,
+      "close": 605.0,
+      "near_52w_pct": 91.7,
+      "wk_rsi": 73.4,
+      "wk_adx": 48.9,
+      "mo_rsi": 74.1,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (92%) + Wk RSI (73) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (74)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-14 10:37:05 WIB",
+    "generated_at": "2026-07-14 10:54:46 WIB",
     "date": "2026-07-14",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -241,8 +237,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6060,
-    "ihsg_change_pct": 0.38,
+    "ihsg_close": 6071,
+    "ihsg_change_pct": 0.55,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -250,8 +246,8 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 76,
-    "after_accumulation": 18,
+    "after_liquidity": 80,
+    "after_accumulation": 19,
     "after_trend": 1,
     "after_smc": 0,
     "after_entry": 0,
