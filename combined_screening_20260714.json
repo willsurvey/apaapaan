@@ -55,11 +55,11 @@
       "d2_change_pct": 6.6,
       "d2_body_pct": 0.889,
       "d2_vol_ratio_ma20": 1.24,
-      "m1_last15_green": 12,
-      "m1_close_vs_vwap": -2.6,
-      "m1_close_pos_intra": 0.458,
-      "m1_high_timing": 0.159,
-      "m1_n_bars": 164,
+      "m1_last15_green": 11,
+      "m1_close_vs_vwap": -3.38,
+      "m1_close_pos_intra": 0.417,
+      "m1_high_timing": 0.158,
+      "m1_n_bars": 165,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -79,8 +79,8 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -2.6%",
+        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif",
+        "Close di bawah VWAP: -3.4%",
         "High intraday di awal sesi (16%) — profit taking sore"
       ],
       "universe_sources": [
@@ -89,7 +89,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "12:34 WIB"
+      "generated_at": "12:54 WIB"
     },
     {
       "ticker": "NAIK",
@@ -177,7 +177,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "12:34 WIB"
+      "generated_at": "12:54 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -192,7 +192,7 @@
       "close": 1850.0,
       "near_52w_pct": 99.2,
       "wk_rsi": 65.8,
-      "wk_adx": 45.7,
+      "wk_adx": 45.8,
       "mo_rsi": 78.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -300,7 +300,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-14 12:35:32 WIB",
+    "generated_at": "2026-07-14 12:55:12 WIB",
     "date": "2026-07-14",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
