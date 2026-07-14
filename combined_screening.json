@@ -51,7 +51,7 @@
       "d1_close_pos": 0.44,
       "d1_bullish": true,
       "d1_range_expansion": 2.45,
-      "d1_value_rp": 678555280000,
+      "d1_value_rp": 678529240000,
       "d2_change_pct": 6.6,
       "d2_body_pct": 0.889,
       "d2_vol_ratio_ma20": 1.24,
@@ -89,7 +89,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "12:14 WIB"
+      "generated_at": "12:34 WIB"
     },
     {
       "ticker": "NAIK",
@@ -177,7 +177,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "12:14 WIB"
+      "generated_at": "12:34 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -192,7 +192,7 @@
       "close": 1850.0,
       "near_52w_pct": 99.2,
       "wk_rsi": 65.8,
-      "wk_adx": 45.8,
+      "wk_adx": 45.7,
       "mo_rsi": 78.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -300,7 +300,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-14 12:15:20 WIB",
+    "generated_at": "2026-07-14 12:35:32 WIB",
     "date": "2026-07-14",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -328,8 +328,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6071,
-    "ihsg_change_pct": 0.56,
+    "ihsg_close": 6074,
+    "ihsg_change_pct": 0.61,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
