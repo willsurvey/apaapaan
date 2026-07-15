@@ -171,7 +171,7 @@
       "close": 1885.0,
       "near_52w_pct": 99.5,
       "wk_rsi": 67.4,
-      "wk_adx": 45.8,
+      "wk_adx": 45.9,
       "mo_rsi": 79.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -190,12 +190,12 @@
     {
       "ticker": "HATM",
       "company": "Habco Trans Maritima Tbk.",
-      "score": 65,
+      "score": 60,
       "close": 452.0,
       "near_52w_pct": 97.8,
       "wk_rsi": 72.5,
       "wk_adx": 20.8,
-      "mo_rsi": 67.2,
+      "mo_rsi": 50.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -203,7 +203,6 @@
       "signals_positive": [
         "Near 52W High (98%) + Wk RSI (72) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -259,7 +258,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-16 03:39:28 WIB",
+    "generated_at": "2026-07-16 03:55:26 WIB",
     "date": "2026-07-16",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
