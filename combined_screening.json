@@ -5,10 +5,10 @@
       "ticker": "VERN",
       "company": "Verona Indah Pictures Tbk.",
       "type": "CALON_ARA",
-      "score": 76,
+      "score": 78,
       "score_tier": "STRONG",
       "pattern_type": "SILENT_ACCUMULATION",
-      "confluence_count": 9,
+      "confluence_count": 10,
       "entry_range": "204 – 256",
       "entry_lower": 204,
       "entry_upper": 256,
@@ -43,23 +43,23 @@
       "d1_high": 222.0,
       "d1_low": 190.0,
       "d1_change_pct": 6.74,
-      "d1_vol_ratio_ma20": 9.3,
-      "d1_vol_ratio_ma5": 5.8,
+      "d1_vol_ratio_ma20": 9.48,
+      "d1_vol_ratio_ma5": 5.92,
       "d1_body_pct": 0.375,
       "d1_upper_wick": 0.5,
       "d1_lower_wick": 0.125,
       "d1_close_pos": 0.5,
       "d1_bullish": true,
       "d1_range_expansion": 2.02,
-      "d1_value_rp": 1896283560000,
+      "d1_value_rp": 1934288500000,
       "d2_change_pct": 20.62,
       "d2_body_pct": 0.941,
       "d2_vol_ratio_ma20": 4.93,
-      "m1_last15_green": 10,
-      "m1_close_vs_vwap": -0.32,
-      "m1_close_pos_intra": 0.5,
-      "m1_high_timing": 0.705,
-      "m1_n_bars": 244,
+      "m1_last15_green": 12,
+      "m1_close_vs_vwap": 0.65,
+      "m1_close_pos_intra": 0.562,
+      "m1_high_timing": 0.652,
+      "m1_n_bars": 264,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -68,7 +68,7 @@
       "up_streak_days": 2,
       "trend_5d_pct": 37.33,
       "signals_positive": [
-        "Volume D-1 ekstrem: 9.3x MA20 (tier-2 ≥6x)",
+        "Volume D-1 ekstrem: 9.5x MA20 (tier-2 ≥6x)",
         "Volume D-2 elevated: 4.9x MA20 (akumulasi dini)",
         "Upper wick rejection: 0.50 (smart money absorption)",
         "Body kecil D-1: 0.38 (candle akumulasi)",
@@ -76,17 +76,18 @@
         "D-2 early signal: +20.6% vol 4.9x",
         "Range expansion: 2.0x avg-5d",
         "Harga di atas MA20",
+        "Close sedikit di atas VWAP: +0.7%",
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif"
+        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif"
       ],
       "universe_sources": [
         "SCREENER_VOL_EXPLOSION",
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "14:54 WIB"
+      "generated_at": "15:15 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -94,29 +95,6 @@
   "swing_trading": [],
   "trend_following": [],
   "position_trading": [
-    {
-      "ticker": "MARK",
-      "company": "Mark Dynamics Indonesia Tbk.",
-      "score": 65,
-      "close": 1085.0,
-      "near_52w_pct": 96.4,
-      "wk_rsi": 79.5,
-      "wk_adx": 26.4,
-      "mo_rsi": 74.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (79) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (74)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
     {
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
@@ -134,29 +112,6 @@
         "Near 52W High (99%) + Wk RSI (76) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (74)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "HATM",
-      "company": "Habco Trans Maritima Tbk.",
-      "score": 65,
-      "close": 446.0,
-      "near_52w_pct": 96.5,
-      "wk_rsi": 71.9,
-      "wk_adx": 20.8,
-      "mo_rsi": 66.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (72) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -208,11 +163,58 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "ADRO",
+      "company": "Alamtri Resources Indonesia Tbk.",
+      "score": 60,
+      "close": 2470.0,
+      "near_52w_pct": 95.0,
+      "wk_rsi": 57.4,
+      "wk_adx": 26.6,
+      "mo_rsi": 67.4,
+      "wk_obv_above_ma": false,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (57) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (67)",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 10.4B)"
+      ],
+      "signals_negative": [
+        "Weekly OBV di bawah MA20"
+      ],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "HATM",
+      "company": "Habco Trans Maritima Tbk.",
+      "score": 55,
+      "close": 438.0,
+      "near_52w_pct": 94.8,
+      "wk_rsi": 71.2,
+      "wk_adx": 20.8,
+      "mo_rsi": 66.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (71) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (66)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-15 14:55:32 WIB",
+    "generated_at": "2026-07-15 15:16:25 WIB",
     "date": "2026-07-15",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -240,8 +242,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6055,
-    "ihsg_change_pct": 0.3,
+    "ihsg_close": 6049,
+    "ihsg_change_pct": 0.19,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -250,7 +252,7 @@
   "screening_summary": {
     "universe": 978,
     "after_liquidity": 88,
-    "after_accumulation": 19,
+    "after_accumulation": 18,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
