@@ -124,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-16 16:57:14 WIB",
+    "generated_at": "2026-07-16 17:18:16 WIB",
     "date": "2026-07-16",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -161,11 +161,11 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 82,
-    "after_accumulation": 21,
-    "after_trend": 3,
-    "after_smc": 0,
-    "after_entry": 0,
+    "after_liquidity": 83,
+    "after_accumulation": 43,
+    "after_trend": 8,
+    "after_smc": 3,
+    "after_entry": 1,
     "final": 0
   },
   "config_ara": {
