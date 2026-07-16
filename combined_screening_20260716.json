@@ -7,52 +7,6 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 65,
-      "close": 990.0,
-      "near_52w_pct": 99.5,
-      "wk_rsi": 75.9,
-      "wk_adx": 34.7,
-      "mo_rsi": 74.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (76) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (74)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "ASGR",
-      "company": "Astra Graphia Tbk.",
-      "score": 65,
-      "close": 1905.0,
-      "near_52w_pct": 99.5,
-      "wk_rsi": 67.4,
-      "wk_adx": 45.9,
-      "mo_rsi": 79.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (67) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (79)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "HATM",
       "company": "Habco Trans Maritima Tbk.",
       "score": 65,
@@ -76,9 +30,55 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "ASGR",
+      "company": "Astra Graphia Tbk.",
+      "score": 65,
+      "close": 1905.0,
+      "near_52w_pct": 99.5,
+      "wk_rsi": 67.4,
+      "wk_adx": 45.8,
+      "mo_rsi": 79.1,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (99%) + Wk RSI (67) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (79)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 990.0,
+      "near_52w_pct": 99.5,
+      "wk_rsi": 75.9,
+      "wk_adx": 34.7,
+      "mo_rsi": 74.4,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (99%) + Wk RSI (76) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (74)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "VERN",
       "company": "Verona Indah Pictures Tbk.",
-      "score": 60,
+      "score": 55,
       "close": 204.0,
       "near_52w_pct": 91.9,
       "wk_rsi": 73.8,
@@ -92,40 +92,37 @@
         "Near 52W High (92%) + Wk RSI (74) + Wk ADX (20) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (66)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.8B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
     },
     {
-      "ticker": "ADRO",
-      "company": "Alamtri Resources Indonesia Tbk.",
+      "ticker": "GJTL",
+      "company": "Gajah Tunggal Tbk.",
       "score": 55,
-      "close": 2480.0,
-      "near_52w_pct": 95.4,
-      "wk_rsi": 57.8,
-      "wk_adx": 26.6,
-      "mo_rsi": 67.5,
-      "wk_obv_above_ma": false,
+      "close": 1120.0,
+      "near_52w_pct": 91.8,
+      "wk_rsi": 55.6,
+      "wk_adx": 27.0,
+      "mo_rsi": 67.0,
+      "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (58) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (68)",
+        "Near 52W High (92%) + Wk RSI (56) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (67)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
-      "signals_negative": [
-        "Weekly OBV di bawah MA20"
-      ],
+      "signals_negative": [],
       "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-16 07:55:37 WIB",
+    "generated_at": "2026-07-16 08:17:04 WIB",
     "date": "2026-07-16",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -162,10 +159,10 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 83,
-    "after_accumulation": 21,
-    "after_trend": 4,
-    "after_smc": 1,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
+    "after_smc": 0,
     "after_entry": 0,
     "final": 0
   },
