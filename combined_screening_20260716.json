@@ -11,14 +11,14 @@
       "score": 40,
       "market_data": {
         "close": 570.0,
-        "change_pct": 1.8,
-        "value_today": 115384296500,
+        "change_pct": 2.7,
+        "value_today": 117909410000,
         "net_foreign": -93221037500
       },
       "d1_features": {
         "body_pct": 1.79,
         "close_pos_pct": 66.7,
-        "vol_ratio": 0.45,
+        "vol_ratio": 0.46,
         "change_pct": 2.7,
         "range_pct": 5.26,
         "upper_wick": 33.3,
@@ -56,7 +56,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.8%), volume mati (0.45x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.8%), volume mati (0.46x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek"
       ],
       "signals_negative": [
@@ -75,37 +75,37 @@
       "rank": 1
     },
     {
-      "ticker": "BUMI",
-      "company": "Bumi Resources Tbk",
+      "ticker": "INCO",
+      "company": "Vale Indonesia Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 30,
+      "score": 40,
       "market_data": {
-        "close": 150.0,
-        "change_pct": 0.68,
-        "value_today": 119117238300,
-        "net_foreign": -43190258700
+        "close": 5025.0,
+        "change_pct": 1.93,
+        "value_today": 25226565000,
+        "net_foreign": -26030743000
       },
       "d1_features": {
-        "body_pct": 1.35,
-        "close_pos_pct": 60.0,
-        "vol_ratio": 0.37,
-        "change_pct": 1.35,
-        "range_pct": 3.33,
-        "upper_wick": 40.0,
+        "body_pct": 1.93,
+        "close_pos_pct": 59.2,
+        "vol_ratio": 0.43,
+        "change_pct": 1.93,
+        "range_pct": 4.88,
+        "upper_wick": 40.8,
         "above_ma20": true,
-        "above_ma50": false,
+        "above_ma50": true,
         "above_ma200": false,
-        "atr_pct": 4.76
+        "atr_pct": 4.09
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "146 – 153",
+        "entry_range": "4,920 – 5,125",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 139,
-        "stop_note": "Cut loss jika turun di bawah 139 (1 ATR dari entry)",
-        "target_modest": 153,
-        "target_moderate": 156,
+        "stop_loss": 4710,
+        "stop_note": "Cut loss jika turun di bawah 4,710 (1 ATR dari entry)",
+        "target_modest": 5125,
+        "target_moderate": 5225,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -118,20 +118,22 @@
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
         "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
+          "SCREENER_VOLUME_EXPLOSION",
           "GURU_78_Daily Net Fo",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
-        "from_screener": false
+        "from_screener": true
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.4%), volume mati (0.37x MA20), close tengah (60%). WR historis: 49.8% (n=1.371)",
-        "Di atas MA20 — support jangka pendek"
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.9%), volume mati (0.43x MA20), close tengah (59%). WR historis: 49.8% (n=1.371)",
+        "Di atas MA20 — support jangka pendek",
+        "Di atas MA50 — tren menengah masih ok",
+        "Masuk screener volume Stockbit — ada perhatian pasar"
       ],
       "signals_negative": [
-        "Upper wick besar (40%) — tekanan jual D-1",
+        "Upper wick besar (41%) — tekanan jual D-1",
         "Asing jual bersih besar — hati-hati gap down"
       ],
       "backtest_stats": {
@@ -154,18 +156,18 @@
       "ticker": "HATM",
       "company": "Habco Trans Maritima Tbk.",
       "score": 65,
-      "close": 454.0,
-      "near_52w_pct": 98.3,
-      "wk_rsi": 72.6,
+      "close": 456.0,
+      "near_52w_pct": 98.7,
+      "wk_rsi": 72.8,
       "wk_adx": 20.8,
-      "mo_rsi": 67.4,
+      "mo_rsi": 67.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (73) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
+        "Near 52W High (99%) + Wk RSI (73) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -177,11 +179,11 @@
       "ticker": "ASGR",
       "company": "Astra Graphia Tbk.",
       "score": 65,
-      "close": 1930.0,
-      "near_52w_pct": 99.5,
-      "wk_rsi": 68.1,
+      "close": 1920.0,
+      "near_52w_pct": 99.0,
+      "wk_rsi": 67.9,
       "wk_adx": 45.9,
-      "mo_rsi": 79.4,
+      "mo_rsi": 79.3,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -200,19 +202,42 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 985.0,
-      "near_52w_pct": 99.0,
-      "wk_rsi": 75.5,
+      "close": 990.0,
+      "near_52w_pct": 99.5,
+      "wk_rsi": 75.9,
       "wk_adx": 34.7,
-      "mo_rsi": 74.1,
+      "mo_rsi": 74.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (75) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (99%) + Wk RSI (76) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (74)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "BSML",
+      "company": "Bintang Samudera Mandiri Lines Tbk.",
+      "score": 65,
+      "close": 515.0,
+      "near_52w_pct": 97.2,
+      "wk_rsi": 79.6,
+      "wk_adx": 48.6,
+      "mo_rsi": 98.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (80) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (99)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -223,9 +248,9 @@
       "ticker": "PKPK",
       "company": "Paragon Karya Perkasa Tbk",
       "score": 60,
-      "close": 3390.0,
-      "near_52w_pct": 91.6,
-      "wk_rsi": 71.7,
+      "close": 3380.0,
+      "near_52w_pct": 91.4,
+      "wk_rsi": 71.6,
       "wk_adx": 40.8,
       "mo_rsi": 83.7,
       "wk_obv_above_ma": true,
@@ -233,7 +258,7 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (92%) + Wk RSI (72) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (91%) + Wk RSI (72) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (84)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -241,34 +266,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "VERN",
-      "company": "Verona Indah Pictures Tbk.",
-      "score": 60,
-      "close": 191.0,
-      "near_52w_pct": 86.0,
-      "wk_rsi": 71.2,
-      "wk_adx": 20.5,
-      "mo_rsi": 64.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (86%) + Wk RSI (71) + Wk ADX (20) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (64)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.8B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-16 11:18:43 WIB",
+    "generated_at": "2026-07-16 11:37:51 WIB",
     "date": "2026-07-16",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -296,8 +298,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6070,
-    "ihsg_change_pct": 0.48,
+    "ihsg_close": 6067,
+    "ihsg_change_pct": 0.43,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -305,8 +307,8 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 68,
-    "after_accumulation": 13,
+    "after_liquidity": 72,
+    "after_accumulation": 14,
     "after_trend": 3,
     "after_smc": 0,
     "after_entry": 0,
