@@ -13,7 +13,7 @@
       "close": 1940.0,
       "near_52w_pct": 99.7,
       "wk_rsi": 68.4,
-      "wk_adx": 45.9,
+      "wk_adx": 46.0,
       "mo_rsi": 79.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -124,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-16 16:18:46 WIB",
+    "generated_at": "2026-07-16 16:35:51 WIB",
     "date": "2026-07-16",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -152,8 +152,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6096,
-    "ihsg_change_pct": 0.91,
+    "ihsg_close": 6108,
+    "ihsg_change_pct": 1.1,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
