@@ -76,30 +76,6 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "DMAS",
-      "company": "Puradelta Lestari Tbk",
-      "score": 55,
-      "close": 140.0,
-      "near_52w_pct": 97.0,
-      "wk_rsi": 74.8,
-      "wk_adx": 30.0,
-      "mo_rsi": 62.1,
-      "wk_obv_above_ma": false,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (75) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (62)",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [
-        "Weekly OBV di bawah MA20"
-      ],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "BKDP",
       "company": "Bukit Darmo Property Tbk",
       "score": 55,
@@ -120,11 +96,33 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "PKPK",
+      "company": "Paragon Karya Perkasa Tbk",
+      "score": 55,
+      "close": 3500.0,
+      "near_52w_pct": 94.6,
+      "wk_rsi": 72.6,
+      "wk_adx": 41.0,
+      "mo_rsi": 84.1,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (73) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (84)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-17 08:17:13 WIB",
+    "generated_at": "2026-07-17 08:32:19 WIB",
     "date": "2026-07-17",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
