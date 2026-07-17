@@ -89,7 +89,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "11:54 WIB"
+      "generated_at": "12:14 WIB"
     },
     {
       "ticker": "INPC",
@@ -176,7 +176,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "11:53 WIB"
+      "generated_at": "12:14 WIB"
     },
     {
       "ticker": "KBLV",
@@ -232,11 +232,11 @@
       "d2_change_pct": 27.06,
       "d2_body_pct": 0.759,
       "d2_vol_ratio_ma20": 13.09,
-      "m1_last15_green": 11,
+      "m1_last15_green": 12,
       "m1_close_vs_vwap": 2.72,
       "m1_close_pos_intra": 0.794,
-      "m1_high_timing": 0.108,
-      "m1_n_bars": 148,
+      "m1_high_timing": 0.107,
+      "m1_n_bars": 149,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -256,7 +256,7 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif",
+        "Closing flat bias: 10/14 bar flat — indikasi tidak aktif",
         "High intraday di awal sesi (11%) — profit taking sore",
         "5d trend terlalu cepat: +67.9%"
       ],
@@ -267,7 +267,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "11:53 WIB"
+      "generated_at": "12:13 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -282,7 +282,7 @@
       "close": 1930.0,
       "near_52w_pct": 99.2,
       "wk_rsi": 68.1,
-      "wk_adx": 46.0,
+      "wk_adx": 45.9,
       "mo_rsi": 79.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -394,7 +394,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-17 11:55:04 WIB",
+    "generated_at": "2026-07-17 12:15:47 WIB",
     "date": "2026-07-17",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
