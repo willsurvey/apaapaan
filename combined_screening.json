@@ -18,12 +18,12 @@
         "change_pct": 3.94,
         "value_today": 1166985568000,
         "frequency_today": 41806,
-        "iep": 4480,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": 180180391000,
+        "net_foreign_today": 374836508000,
         "net_foreign_3d": 10,
         "acc_score": 75,
         "score_breakdown": {
@@ -84,12 +84,12 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp180.2B",
+        "✅ Net Foreign Buy hari ini: Rp374.8B",
         "✅ Net Foreign Buy 3 hari berturut",
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.35 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -178,7 +178,7 @@
         "SCREENER_VOL_EXPLOSION"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "17:14 WIB"
+      "generated_at": "17:35 WIB"
     },
     {
       "ticker": "BPTR",
@@ -265,7 +265,7 @@
         "SCREENER_VOL_EXPLOSION"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "17:14 WIB"
+      "generated_at": "17:36 WIB"
     },
     {
       "ticker": "BVIC",
@@ -352,7 +352,7 @@
         "SCREENER_VOL_EXPLOSION"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "17:14 WIB"
+      "generated_at": "17:36 WIB"
     },
     {
       "ticker": "RBMS",
@@ -443,7 +443,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "17:14 WIB"
+      "generated_at": "17:35 WIB"
     },
     {
       "ticker": "BACA",
@@ -530,7 +530,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "17:14 WIB"
+      "generated_at": "17:36 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -538,6 +538,30 @@
   "swing_trading": [],
   "trend_following": [],
   "position_trading": [
+    {
+      "ticker": "HATM",
+      "company": "Habco Trans Maritima Tbk.",
+      "score": 70,
+      "close": 446.0,
+      "near_52w_pct": 96.5,
+      "wk_rsi": 71.9,
+      "wk_adx": 20.8,
+      "mo_rsi": 66.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (72) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (67)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 0.4B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
     {
       "ticker": "BSML",
       "company": "Bintang Samudera Mandiri Lines Tbk.",
@@ -629,34 +653,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "HATM",
-      "company": "Habco Trans Maritima Tbk.",
-      "score": 65,
-      "close": 446.0,
-      "near_52w_pct": 96.5,
-      "wk_rsi": 71.9,
-      "wk_adx": 20.8,
-      "mo_rsi": 66.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (72) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (67)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-17 17:16:02 WIB",
+    "generated_at": "2026-07-17 17:37:28 WIB",
     "date": "2026-07-17",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -693,9 +694,9 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 91,
-    "after_accumulation": 24,
-    "after_trend": 5,
+    "after_liquidity": 82,
+    "after_accumulation": 20,
+    "after_trend": 6,
     "after_smc": 2,
     "after_entry": 2,
     "final": 1
