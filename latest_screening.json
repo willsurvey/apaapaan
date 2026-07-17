@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-07-18 04:38:03 WIB",
+  "generated_at": "2026-07-18 04:58:05 WIB",
   "date": "2026-07-18",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -19,9 +19,9 @@
     "universe": 978,
     "after_liquidity": 82,
     "after_accumulation": 20,
-    "after_trend": 4,
-    "after_smc": 1,
-    "after_entry": 1,
+    "after_trend": 6,
+    "after_smc": 2,
+    "after_entry": 2,
     "final": 1
   },
   "config": {
@@ -79,8 +79,8 @@
         }
       },
       "trend": {
-        "ma50": 4121.0,
-        "gap_from_ma50_pct": 4.57,
+        "ma50": 4130.0,
+        "gap_from_ma50_pct": 8.48,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -129,11 +129,10 @@
         "✅ Broker Signal: Big Acc",
         "✅ Net Foreign Buy hari ini: Rp374.8B",
         "✅ Net Foreign Buy 3 hari berturut",
-        "✅ Harga di zona FVG aktif",
-        "✅ Pullback ke MA50 (4.6% di atas MA50)"
+        "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "04.37 WIB"
+      "updated_at": "04.56 WIB"
     }
   ]
 }

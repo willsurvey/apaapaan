@@ -36,8 +36,8 @@
         }
       },
       "trend": {
-        "ma50": 4121.0,
-        "gap_from_ma50_pct": 4.57,
+        "ma50": 4130.0,
+        "gap_from_ma50_pct": 8.48,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -86,11 +86,10 @@
         "✅ Broker Signal: Big Acc",
         "✅ Net Foreign Buy hari ini: Rp374.8B",
         "✅ Net Foreign Buy 3 hari berturut",
-        "✅ Harga di zona FVG aktif",
-        "✅ Pullback ke MA50 (4.6% di atas MA50)"
+        "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "04.37 WIB"
+      "updated_at": "04.56 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -103,8 +102,8 @@
       "ticker": "HATM",
       "company": "Habco Trans Maritima Tbk.",
       "score": 70,
-      "close": 448.0,
-      "near_52w_pct": 97.0,
+      "close": 446.0,
+      "near_52w_pct": 96.5,
       "wk_rsi": 71.9,
       "wk_adx": 20.8,
       "mo_rsi": 66.8,
@@ -124,34 +123,11 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MARK",
-      "company": "Mark Dynamics Indonesia Tbk.",
-      "score": 65,
-      "close": 1125.0,
-      "near_52w_pct": 98.7,
-      "wk_rsi": 75.5,
-      "wk_adx": 26.5,
-      "mo_rsi": 73.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (76) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (73)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "BSML",
       "company": "Bintang Samudera Mandiri Lines Tbk.",
       "score": 65,
-      "close": 520.0,
-      "near_52w_pct": 98.1,
+      "close": 515.0,
+      "near_52w_pct": 96.3,
       "wk_rsi": 79.6,
       "wk_adx": 48.7,
       "mo_rsi": 98.9,
@@ -160,8 +136,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (80) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
+        "Near 52W High (96%) + Wk RSI (80) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (99)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -173,8 +149,8 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 985.0,
-      "near_52w_pct": 99.0,
+      "close": 1000.0,
+      "near_52w_pct": 100.0,
       "wk_rsi": 76.6,
       "wk_adx": 34.8,
       "mo_rsi": 75.1,
@@ -183,9 +159,32 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (77) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
+        "Near 52W High (100%) + Wk RSI (77) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
         "Monthly RSI kuat (75)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "PKPK",
+      "company": "Paragon Karya Perkasa Tbk",
+      "score": 65,
+      "close": 3550.0,
+      "near_52w_pct": 95.9,
+      "wk_rsi": 73.0,
+      "wk_adx": 41.0,
+      "mo_rsi": 84.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (73) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (84)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -196,18 +195,18 @@
       "ticker": "ASGR",
       "company": "Astra Graphia Tbk.",
       "score": 65,
-      "close": 1940.0,
-      "near_52w_pct": 99.7,
+      "close": 1935.0,
+      "near_52w_pct": 99.5,
       "wk_rsi": 68.3,
-      "wk_adx": 46.0,
+      "wk_adx": 45.9,
       "mo_rsi": 79.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (68) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
+        "Near 52W High (99%) + Wk RSI (68) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (79)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -218,7 +217,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-18 04:38:03 WIB",
+    "generated_at": "2026-07-18 04:58:05 WIB",
     "date": "2026-07-18",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -257,9 +256,9 @@
     "universe": 978,
     "after_liquidity": 82,
     "after_accumulation": 20,
-    "after_trend": 4,
-    "after_smc": 1,
-    "after_entry": 1,
+    "after_trend": 6,
+    "after_smc": 2,
+    "after_entry": 2,
     "final": 1
   },
   "config_ara": {
