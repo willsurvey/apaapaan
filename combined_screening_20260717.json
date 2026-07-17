@@ -89,7 +89,7 @@
         "✅ Pullback ke MA50 (4.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "07.15 WIB"
+      "updated_at": "07.35 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -105,7 +105,7 @@
       "close": 1940.0,
       "near_52w_pct": 99.7,
       "wk_rsi": 68.4,
-      "wk_adx": 46.0,
+      "wk_adx": 45.9,
       "mo_rsi": 79.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -220,7 +220,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-17 07:16:34 WIB",
+    "generated_at": "2026-07-17 07:36:28 WIB",
     "date": "2026-07-17",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
