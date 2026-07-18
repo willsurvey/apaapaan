@@ -89,7 +89,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "01.16 WIB"
+      "updated_at": "01.35 WIB"
     },
     {
       "rank": 2,
@@ -177,7 +177,7 @@
         "✅ Pullback ke MA50 (3.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "01.16 WIB"
+      "updated_at": "01.35 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -305,7 +305,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-19 01:17:17 WIB",
+    "generated_at": "2026-07-19 01:36:50 WIB",
     "date": "2026-07-19",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Sunday)",
