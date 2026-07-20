@@ -43,23 +43,23 @@
       "d1_high": 123.0,
       "d1_low": 101.0,
       "d1_change_pct": 3.96,
-      "d1_vol_ratio_ma20": 6.42,
-      "d1_vol_ratio_ma5": 6.54,
+      "d1_vol_ratio_ma20": 6.45,
+      "d1_vol_ratio_ma5": 6.57,
       "d1_body_pct": 0.136,
       "d1_upper_wick": 0.818,
       "d1_lower_wick": 0.045,
       "d1_close_pos": 0.182,
       "d1_bullish": true,
       "d1_range_expansion": 3.21,
-      "d1_value_rp": 777634200000,
+      "d1_value_rp": 781463550000,
       "d2_change_pct": 2.02,
       "d2_body_pct": 0.182,
       "d2_vol_ratio_ma20": 2.43,
-      "m1_last15_green": 10,
-      "m1_close_vs_vwap": -7.04,
+      "m1_last15_green": 11,
+      "m1_close_vs_vwap": -7.02,
       "m1_close_pos_intra": 0.182,
-      "m1_high_timing": 0.771,
-      "m1_n_bars": 175,
+      "m1_high_timing": 0.758,
+      "m1_n_bars": 178,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -68,7 +68,7 @@
       "up_streak_days": 1,
       "trend_5d_pct": 6.06,
       "signals_positive": [
-        "Volume D-1 ekstrem: 6.4x MA20 (tier-2 ≥6x)",
+        "Volume D-1 ekstrem: 6.5x MA20 (tier-2 ≥6x)",
         "Volume D-2 elevated: 2.4x MA20 (akumulasi dini)",
         "Upper wick rejection: 0.82 (smart money absorption)",
         "Body kecil D-1: 0.14 (candle akumulasi)",
@@ -76,11 +76,11 @@
         "Range expansion: 3.2x avg-5d",
         "Harga di atas MA20",
         "5d trend sehat: +6.1%",
-        "High intraday di akhir sesi (77%)",
+        "High intraday di akhir sesi (76%)",
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 7/14 bar flat — indikasi tidak aktif",
+        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif",
         "Close di bawah VWAP: -7.0%"
       ],
       "universe_sources": [
@@ -89,7 +89,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:15 WIB"
+      "generated_at": "16:37 WIB"
     },
     {
       "ticker": "SQMI",
@@ -133,23 +133,23 @@
       "d1_high": 83.0,
       "d1_low": 70.0,
       "d1_change_pct": 14.93,
-      "d1_vol_ratio_ma20": 9.11,
-      "d1_vol_ratio_ma5": 5.45,
+      "d1_vol_ratio_ma20": 9.19,
+      "d1_vol_ratio_ma5": 5.5,
       "d1_body_pct": 0.462,
       "d1_upper_wick": 0.462,
       "d1_lower_wick": 0.077,
       "d1_close_pos": 0.538,
       "d1_bullish": true,
       "d1_range_expansion": 1.17,
-      "d1_value_rp": 2125770570000,
+      "d1_value_rp": 2144463090000,
       "d2_change_pct": 13.56,
       "d2_body_pct": 0.429,
       "d2_vol_ratio_ma20": 5.06,
-      "m1_last15_green": 11,
-      "m1_close_vs_vwap": 1.4,
+      "m1_last15_green": 14,
+      "m1_close_vs_vwap": 1.39,
       "m1_close_pos_intra": 0.538,
-      "m1_high_timing": 0.48,
-      "m1_n_bars": 296,
+      "m1_high_timing": 0.466,
+      "m1_n_bars": 305,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -158,9 +158,9 @@
       "up_streak_days": 2,
       "trend_5d_pct": 26.23,
       "signals_positive": [
-        "Volume D-1 ekstrem: 9.1x MA20 (tier-2 ≥6x)",
+        "Volume D-1 ekstrem: 9.2x MA20 (tier-2 ≥6x)",
         "Volume D-2 elevated: 5.1x MA20 (akumulasi dini)",
-        "Continuation D-1: +14.9% vol 9.1x MA20",
+        "Continuation D-1: +14.9% vol 9.2x MA20",
         "Upper wick rejection: 0.46 (smart money absorption)",
         "Close pos rendah: 0.54 (buyers absorbed selling)",
         "D-2 early signal: +13.6% vol 5.1x",
@@ -169,7 +169,7 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif"
+        "Closing flat bias: 13/14 bar flat — indikasi tidak aktif"
       ],
       "universe_sources": [
         "SCREENER_VOL_EXPLOSION",
@@ -178,7 +178,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:14 WIB"
+      "generated_at": "16:37 WIB"
     },
     {
       "ticker": "CTTH",
@@ -222,23 +222,23 @@
       "d1_high": 153.0,
       "d1_low": 128.0,
       "d1_change_pct": 7.2,
-      "d1_vol_ratio_ma20": 6.53,
-      "d1_vol_ratio_ma5": 3.96,
+      "d1_vol_ratio_ma20": 6.56,
+      "d1_vol_ratio_ma5": 3.98,
       "d1_body_pct": 0.24,
       "d1_upper_wick": 0.76,
       "d1_lower_wick": 0.0,
       "d1_close_pos": 0.24,
       "d1_bullish": true,
       "d1_range_expansion": 1.8,
-      "d1_value_rp": 2347495080000,
+      "d1_value_rp": 2358887760000,
       "d2_change_pct": -8.76,
       "d2_body_pct": 0.267,
       "d2_vol_ratio_ma20": 1.9,
-      "m1_last15_green": 12,
-      "m1_close_vs_vwap": -7.11,
+      "m1_last15_green": 13,
+      "m1_close_vs_vwap": -7.09,
       "m1_close_pos_intra": 0.208,
       "m1_high_timing": 0.016,
-      "m1_n_bars": 316,
+      "m1_n_bars": 320,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -247,7 +247,7 @@
       "up_streak_days": 0,
       "trend_5d_pct": 19.64,
       "signals_positive": [
-        "Volume D-1 ekstrem: 6.5x MA20 (tier-2 ≥6x)",
+        "Volume D-1 ekstrem: 6.6x MA20 (tier-2 ≥6x)",
         "Volume D-2 elevated: 1.9x MA20 (akumulasi dini)",
         "Upper wick rejection: 0.76 (smart money absorption)",
         "Body kecil D-1: 0.24 (candle akumulasi)",
@@ -258,7 +258,7 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif",
+        "Closing flat bias: 10/14 bar flat — indikasi tidak aktif",
         "Close di bawah VWAP: -7.1%",
         "High intraday di awal sesi (2%) — profit taking sore"
       ],
@@ -269,7 +269,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:14 WIB"
+      "generated_at": "16:37 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -396,7 +396,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-20 16:15:58 WIB",
+    "generated_at": "2026-07-20 16:38:44 WIB",
     "date": "2026-07-20",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -424,8 +424,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6228,
-    "ihsg_change_pct": 0.87,
+    "ihsg_close": 6231,
+    "ihsg_change_pct": 0.91,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -434,7 +434,7 @@
   "screening_summary": {
     "universe": 978,
     "after_liquidity": 83,
-    "after_accumulation": 16,
+    "after_accumulation": 17,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
