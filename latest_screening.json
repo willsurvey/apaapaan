@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-07-20 09:14:55 WIB",
+  "generated_at": "2026-07-20 09:33:52 WIB",
   "date": "2026-07-20",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,20 +8,20 @@
   "mode_warning": null,
   "total_saham": 0,
   "market_context": {
-    "ihsg_close": 6175,
-    "ihsg_change_pct": 1.1,
-    "ihsg_trend": "BEARISH",
-    "ihsg_above_ma50": false,
+    "ihsg_close": 6235,
+    "ihsg_change_pct": 0.97,
+    "ihsg_trend": "NEUTRAL",
+    "ihsg_above_ma50": true,
     "market_safe": true,
     "warning": null
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 27,
-    "after_accumulation": 6,
-    "after_trend": 0,
-    "after_smc": 0,
-    "after_entry": 0,
+    "after_liquidity": 47,
+    "after_accumulation": 7,
+    "after_trend": 1,
+    "after_smc": 1,
+    "after_entry": 1,
     "final": 0
   },
   "config": {
