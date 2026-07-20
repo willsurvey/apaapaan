@@ -25,7 +25,7 @@
         "Monthly RSI kuat (66)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.9B)"
+        "Asing beli bersih (Rp 0.6B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -125,7 +125,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-20 17:35:27 WIB",
+    "generated_at": "2026-07-20 17:55:08 WIB",
     "date": "2026-07-20",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -162,9 +162,9 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 84,
-    "after_accumulation": 38,
-    "after_trend": 3,
+    "after_liquidity": 90,
+    "after_accumulation": 45,
+    "after_trend": 4,
     "after_smc": 1,
     "after_entry": 0,
     "final": 0
