@@ -4,37 +4,37 @@
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "BBTN",
-      "company": "Bank Tabungan Negara (Persero) Tbk.",
+      "ticker": "BIPI",
+      "company": "Astrindo Nusantara Infrastruktur Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 55,
+      "score": 35,
       "market_data": {
-        "close": 1275.0,
-        "change_pct": 1.59,
-        "value_today": 12863398000,
-        "net_foreign": 7278564500
+        "close": 145.0,
+        "change_pct": 1.41,
+        "value_today": 27060746100,
+        "net_foreign": -7590436800
       },
       "d1_features": {
-        "body_pct": 1.19,
-        "close_pos_pct": 60.0,
-        "vol_ratio": 0.45,
-        "change_pct": 1.19,
-        "range_pct": 1.96,
-        "upper_wick": 40.0,
+        "body_pct": 1.4,
+        "close_pos_pct": 50.0,
+        "vol_ratio": 0.33,
+        "change_pct": 2.11,
+        "range_pct": 2.76,
+        "upper_wick": 50.0,
         "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": true,
-        "atr_pct": 3.22
+        "above_ma50": false,
+        "above_ma200": false,
+        "atr_pct": 6.6
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "1,255 – 1,300",
+        "entry_range": "142 – 148",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 1215,
-        "stop_note": "Cut loss jika turun di bawah 1,215 (1 ATR dari entry)",
-        "target_modest": 1300,
-        "target_moderate": 1325,
+        "stop_loss": 132,
+        "stop_note": "Cut loss jika turun di bawah 132 (1 ATR dari entry)",
+        "target_modest": 148,
+        "target_moderate": 151,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -47,23 +47,22 @@
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
         "in_mover_types": [
-          "MOVER_TYPE_NET_FOREIGN_BUY",
-          "GURU_77_Foreign Flow",
+          "MOVER_TYPE_TOP_VOLUME",
+          "MOVER_TYPE_TOP_VALUE",
+          "GURU_78_Daily Net Fo",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.2%), volume mati (0.45x MA20), close tengah (60%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.4%), volume mati (0.33x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
-        "Di atas MA50 — tren menengah masih ok",
-        "Di atas MA200 — tren utama masih bullish",
-        "Range D-1 kecil (2.0%) — noise rendah besok",
-        "Asing beli bersih hari ini (Rp 7.3B)"
+        "Range D-1 kecil (2.8%) — noise rendah besok"
       ],
       "signals_negative": [
-        "Upper wick besar (40%) — tekanan jual D-1"
+        "Upper wick besar (50%) — tekanan jual D-1",
+        "Asing jual bersih besar — hati-hati gap down"
       ],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
@@ -81,6 +80,29 @@
   "swing_trading": [],
   "trend_following": [],
   "position_trading": [
+    {
+      "ticker": "ASGR",
+      "company": "Astra Graphia Tbk.",
+      "score": 65,
+      "close": 1890.0,
+      "near_52w_pct": 97.2,
+      "wk_rsi": 68.3,
+      "wk_adx": 46.0,
+      "mo_rsi": 79.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (68) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (79)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
     {
       "ticker": "PKPK",
       "company": "Paragon Karya Perkasa Tbk",
@@ -128,37 +150,14 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "ASGR",
-      "company": "Astra Graphia Tbk.",
-      "score": 65,
-      "close": 1900.0,
-      "near_52w_pct": 97.7,
-      "wk_rsi": 68.3,
-      "wk_adx": 46.0,
-      "mo_rsi": 79.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (68) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (79)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1000.0,
-      "near_52w_pct": 100.0,
+      "close": 995.0,
+      "near_52w_pct": 99.5,
       "wk_rsi": 76.6,
       "wk_adx": 34.8,
-      "mo_rsi": 75.1,
+      "mo_rsi": 74.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -199,7 +198,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-20 10:54:49 WIB",
+    "generated_at": "2026-07-20 11:17:35 WIB",
     "date": "2026-07-20",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -227,8 +226,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6230,
-    "ihsg_change_pct": 0.89,
+    "ihsg_close": 6227,
+    "ihsg_change_pct": 0.84,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -236,7 +235,7 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 73,
+    "after_liquidity": 77,
     "after_accumulation": 12,
     "after_trend": 2,
     "after_smc": 1,
