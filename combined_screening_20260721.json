@@ -59,14 +59,14 @@
       "close": 1880.0,
       "near_52w_pct": 96.7,
       "wk_rsi": 62.7,
-      "wk_adx": 46.5,
+      "wk_adx": 46.4,
       "mo_rsi": 78.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (63) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (97%) + Wk RSI (63) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (79)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -124,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-21 08:33:42 WIB",
+    "generated_at": "2026-07-21 08:54:16 WIB",
     "date": "2026-07-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -152,10 +152,10 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6175,
-    "ihsg_change_pct": 1.1,
-    "ihsg_trend": "BEARISH",
-    "ihsg_above_ma50": false,
+    "ihsg_close": 6231,
+    "ihsg_change_pct": 0.91,
+    "ihsg_trend": "NEUTRAL",
+    "ihsg_above_ma50": true,
     "market_safe": true,
     "warning": null
   },
