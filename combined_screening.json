@@ -43,23 +43,23 @@
       "d1_high": 114.0,
       "d1_low": 94.0,
       "d1_change_pct": -4.0,
-      "d1_vol_ratio_ma20": 3.74,
-      "d1_vol_ratio_ma5": 1.83,
+      "d1_vol_ratio_ma20": 3.76,
+      "d1_vol_ratio_ma5": 1.84,
       "d1_body_pct": 0.35,
       "d1_upper_wick": 0.55,
       "d1_lower_wick": 0.1,
       "d1_close_pos": 0.1,
       "d1_bullish": false,
       "d1_range_expansion": 2.2,
-      "d1_value_rp": 766575360000,
+      "d1_value_rp": 771406080000,
       "d2_change_pct": 20.48,
       "d2_body_pct": 0.789,
       "d2_vol_ratio_ma20": 8.14,
       "m1_last15_green": 11,
-      "m1_close_vs_vwap": -7.4,
-      "m1_close_pos_intra": 0.053,
+      "m1_close_vs_vwap": -6.39,
+      "m1_close_pos_intra": 0.105,
       "m1_high_timing": 0.0,
-      "m1_n_bars": 147,
+      "m1_n_bars": 158,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -68,7 +68,7 @@
       "up_streak_days": 1,
       "trend_5d_pct": 10.34,
       "signals_positive": [
-        "Volume D-1 spike: 3.7x MA20 (tier-1 ≥3x)",
+        "Volume D-1 spike: 3.8x MA20 (tier-1 ≥3x)",
         "Volume D-2 elevated: 8.1x MA20 (akumulasi dini)",
         "Upper wick rejection: 0.55 (smart money absorption)",
         "Body kecil D-1: 0.35 (candle akumulasi)",
@@ -80,8 +80,8 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -7.4%",
+        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif",
+        "Close di bawah VWAP: -6.4%",
         "High intraday di awal sesi (0%) — profit taking sore"
       ],
       "universe_sources": [
@@ -89,86 +89,11 @@
         "GURU_92"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "11:56 WIB"
+      "generated_at": "12:14 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
-  "bpjs_beli_pagi_jual_sore": [
-    {
-      "ticker": "BNBR",
-      "company": "Bakrie & Brothers Tbk",
-      "type": "WATCHLIST_BPJS",
-      "formula": "QUIET_CONTINUATION",
-      "score": 60,
-      "market_data": {
-        "close": 108.0,
-        "change_pct": 1.9,
-        "value_today": 455477041300,
-        "net_foreign": 83372591700
-      },
-      "d1_features": {
-        "body_pct": 3.85,
-        "close_pos_pct": 69.2,
-        "vol_ratio": 0.01,
-        "change_pct": 2.86,
-        "range_pct": 12.04,
-        "upper_wick": 30.8,
-        "above_ma20": true,
-        "above_ma50": false,
-        "above_ma200": true,
-        "atr_pct": 8.37
-      },
-      "trading_plan": {
-        "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "103 – 110",
-        "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 94,
-        "stop_note": "Cut loss jika turun di bawah 94 (1 ATR dari entry)",
-        "target_modest": 110,
-        "target_moderate": 112,
-        "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
-      },
-      "morning_confirmation_criteria": [
-        "⚠️ WAJIB: Utamakan jika terjadi Gap Down > 3% saat open untuk risk/reward terbaik",
-        "✅ Skenario Gap Down >3% memiliki Profit Factor 6.78x & Win Rate 44.5%",
-        "✅ Volume 15 menit pertama normal/stabil di atas rata-rata",
-        "❌ JANGAN BELI jika Gap Up > 3% (euforia rawan bull trap, PF hanya 0.3x)",
-        "❌ JANGAN BELI jika langsung longsor drastis tanpa rebound dari low"
-      ],
-      "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
-          "MOVER_TYPE_TOP_VALUE",
-          "MOVER_TYPE_NET_FOREIGN_BUY",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_77_Foreign Flow",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": false,
-        "from_screener": true
-      },
-      "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+3.9%), volume mati (0.01x MA20), close tengah (69%). WR historis: 49.8% (n=1.371)",
-        "Di atas MA20 — support jangka pendek",
-        "Di atas MA200 — tren utama masih bullish",
-        "Asing beli bersih hari ini (Rp 83.4B)",
-        "Masuk screener volume Stockbit — ada perhatian pasar"
-      ],
-      "signals_negative": [],
-      "backtest_stats": {
-        "formula": "QUIET_CONTINUATION",
-        "win_rate": "49.8%",
-        "sample_size": "n=1.371",
-        "profit_factor": "1.04x",
-        "total_backtest": "789.792 hari trading IHSG (956 saham)",
-        "gap_down_sweet_spot": "Gap Down >2%: WR 30.2%, upside +3.75%, DD -0.88%",
-        "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
-      },
-      "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
-      "rank": 1
-    }
-  ],
+  "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
   "position_trading": [
@@ -268,11 +193,11 @@
       "ticker": "ADRO",
       "company": "Alamtri Resources Indonesia Tbk.",
       "score": 60,
-      "close": 2560.0,
-      "near_52w_pct": 98.5,
-      "wk_rsi": 56.3,
+      "close": 2550.0,
+      "near_52w_pct": 98.1,
+      "wk_rsi": 55.8,
       "wk_adx": 26.0,
-      "mo_rsi": 68.8,
+      "mo_rsi": 68.7,
       "wk_obv_above_ma": false,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -292,7 +217,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-21 11:57:39 WIB",
+    "generated_at": "2026-07-21 12:16:12 WIB",
     "date": "2026-07-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -302,7 +227,7 @@
     "intraday_count": 0,
     "ara_count": 1,
     "bsjp_count": 0,
-    "bpjs_count": 1,
+    "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
     "position_count": 5,
@@ -320,18 +245,18 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6296,
-    "ihsg_change_pct": 1.04,
-    "ihsg_trend": "NEUTRAL",
-    "ihsg_above_ma50": true,
     "market_safe": true,
-    "warning": null
+    "warning": null,
+    "ihsg_trend": "UNKNOWN",
+    "ihsg_close": 0,
+    "ihsg_change_pct": 0,
+    "ihsg_above_ma50": true
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 84,
+    "after_liquidity": 85,
     "after_accumulation": 18,
-    "after_trend": 1,
+    "after_trend": 2,
     "after_smc": 0,
     "after_entry": 0,
     "final": 0
