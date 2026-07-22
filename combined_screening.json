@@ -33,9 +33,9 @@
       "ticker": "PKPK",
       "company": "Paragon Karya Perkasa Tbk",
       "score": 65,
-      "close": 3880.0,
-      "near_52w_pct": 99.2,
-      "wk_rsi": 72.3,
+      "close": 3870.0,
+      "near_52w_pct": 99.0,
+      "wk_rsi": 72.2,
       "wk_adx": 41.4,
       "mo_rsi": 85.5,
       "wk_obv_above_ma": true,
@@ -45,7 +45,7 @@
       "signals_positive": [
         "Near 52W High (99%) + Wk RSI (72) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (86)",
+        "Monthly RSI kuat (85)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -82,14 +82,14 @@
       "close": 1920.0,
       "near_52w_pct": 98.7,
       "wk_rsi": 65.0,
-      "wk_adx": 46.5,
+      "wk_adx": 46.4,
       "mo_rsi": 79.3,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (65) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (99%) + Wk RSI (65) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (79)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -125,7 +125,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-22 14:36:04 WIB",
+    "generated_at": "2026-07-22 14:59:02 WIB",
     "date": "2026-07-22",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -153,8 +153,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6310,
-    "ihsg_change_pct": -0.47,
+    "ihsg_close": 6313,
+    "ihsg_change_pct": -0.42,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
