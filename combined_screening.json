@@ -88,7 +88,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "22:18 WIB"
+      "generated_at": "22:37 WIB"
     },
     {
       "ticker": "HDIT",
@@ -175,7 +175,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "22:19 WIB"
+      "generated_at": "22:37 WIB"
     },
     {
       "ticker": "LUCK",
@@ -263,7 +263,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "22:19 WIB"
+      "generated_at": "22:38 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -391,7 +391,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-22 22:20:15 WIB",
+    "generated_at": "2026-07-22 22:39:00 WIB",
     "date": "2026-07-22",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
