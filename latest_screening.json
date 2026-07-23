@@ -1,29 +1,16 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-07-23 07:57:56 WIB",
+  "generated_at": "2026-07-23 08:25:46 WIB",
   "date": "2026-07-23",
-  "mode": "FULL_STOCKBIT",
+  "mode": "YAHOO_ONLY",
   "session_label": "MARKET_DAY",
   "session_warning": null,
-  "mode_warning": null,
+  "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — Data terbatas (Yahoo Finance only)",
   "total_saham": 0,
   "market_context": {
-    "ihsg_close": 6340,
-    "ihsg_change_pct": 1.74,
-    "ihsg_trend": "NEUTRAL",
-    "ihsg_above_ma50": true,
-    "market_safe": true,
-    "warning": null
+    "market_safe": false
   },
-  "screening_summary": {
-    "universe": 978,
-    "after_liquidity": 90,
-    "after_accumulation": 22,
-    "after_trend": 5,
-    "after_smc": 2,
-    "after_entry": 1,
-    "final": 0
-  },
+  "screening_summary": {},
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
     "data_sources": [
