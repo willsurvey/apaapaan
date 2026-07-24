@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-07-25 00:17:24 WIB",
+  "generated_at": "2026-07-25 00:38:57 WIB",
   "date": "2026-07-25",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -132,7 +132,7 @@
         "✅ Pullback ke MA50 (1.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "00.15 WIB"
+      "updated_at": "00.38 WIB"
     }
   ]
 }
