@@ -36,7 +36,7 @@
       "close": 735.0,
       "near_52w_pct": 99.3,
       "wk_rsi": 67.4,
-      "wk_adx": 53.6,
+      "wk_adx": 54.4,
       "mo_rsi": 69.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -124,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-25 11:55:41 WIB",
+    "generated_at": "2026-07-25 12:15:35 WIB",
     "date": "2026-07-25",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
