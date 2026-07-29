@@ -8,7 +8,7 @@
   "position_trading": [],
   "meta": {
     "status": "no_signal",
-    "generated_at": "2026-07-29 15:22:02 WIB",
+    "generated_at": "2026-07-29 15:42:04 WIB",
     "date": "2026-07-29",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -36,8 +36,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6074,
-    "ihsg_change_pct": -0.91,
+    "ihsg_close": 6087,
+    "ihsg_change_pct": -0.7,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": false,
