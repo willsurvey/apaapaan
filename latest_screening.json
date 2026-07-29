@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-07-29 10:21:56 WIB",
+  "generated_at": "2026-07-29 10:42:03 WIB",
   "date": "2026-07-29",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,10 +8,10 @@
   "mode_warning": null,
   "total_saham": 0,
   "market_context": {
-    "ihsg_close": 6045,
-    "ihsg_change_pct": -2.27,
-    "ihsg_trend": "BEARISH",
-    "ihsg_above_ma50": false,
+    "ihsg_close": 6062,
+    "ihsg_change_pct": -1.11,
+    "ihsg_trend": "NEUTRAL",
+    "ihsg_above_ma50": true,
     "market_safe": false,
     "warning": "IHSG turun 3 hari berturut-turut. Tidak ada output hari ini."
   },
