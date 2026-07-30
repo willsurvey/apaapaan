@@ -9,8 +9,7 @@
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula",
-        "SCREENER_TOP_VALUE"
+        "GURU_92_Big Accumula"
       ],
       "market_data": {
         "close": 19075,
@@ -88,7 +87,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "21.54 WIB"
+      "updated_at": "22.09 WIB"
     },
     {
       "rank": 2,
@@ -98,8 +97,7 @@
       "universe_sources": [
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula",
-        "SCREENER_TOP_VALUE"
+        "GURU_92_Big Accumula"
       ],
       "market_data": {
         "close": 1715,
@@ -179,7 +177,7 @@
         "✅ Pullback ke MA50 (3.1% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "21.54 WIB"
+      "updated_at": "22.09 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -219,12 +217,11 @@
         "in_mover_types": [
           "MOVER_TYPE_TOP_VOLUME",
           "SCREENER_VOLUME_EXPLOSION",
-          "GURU_92_Big Accumula",
-          "SCREENER_TOP_VALUE"
+          "GURU_92_Big Accumula"
         ],
         "from_gainer": false,
         "from_screener": true,
-        "from_top_value": true
+        "from_top_value": false
       },
       "signals_positive": [
         "Volume ledakan ekstrem 8.4x MA20",
@@ -289,8 +286,7 @@
           "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
           "SCREENER_VOLUME_EXPLOSION",
-          "GURU_92_Big Accumula",
-          "SCREENER_TOP_VALUE"
+          "GURU_92_Big Accumula"
         ],
         "from_gainer": false,
         "from_screener": true
@@ -441,7 +437,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-30 21:55:11 WIB",
+    "generated_at": "2026-07-30 22:11:19 WIB",
     "date": "2026-07-30",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -477,9 +473,9 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 978,
-    "after_liquidity": 103,
-    "after_accumulation": 61,
+    "universe": 466,
+    "after_liquidity": 98,
+    "after_accumulation": 57,
     "after_trend": 12,
     "after_smc": 5,
     "after_entry": 4,
