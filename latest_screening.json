@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-07-30 16:56:02 WIB",
+  "generated_at": "2026-07-30 17:15:48 WIB",
   "date": "2026-07-30",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -16,12 +16,12 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 978,
-    "after_liquidity": 98,
-    "after_accumulation": 14,
-    "after_trend": 3,
-    "after_smc": 1,
-    "after_entry": 1,
+    "universe": 974,
+    "after_liquidity": 97,
+    "after_accumulation": 50,
+    "after_trend": 9,
+    "after_smc": 4,
+    "after_entry": 3,
     "final": 1
   },
   "config": {
@@ -64,15 +64,15 @@
       "accumulation": {
         "broker_signal": "Big Acc",
         "net_foreign_today": 0,
-        "net_foreign_3d": 0,
-        "acc_score": 45,
+        "net_foreign_3d": 10,
+        "acc_score": 70,
         "score_breakdown": {
           "broker": 35,
-          "foreign_1d": 0,
-          "foreign_3d": 0,
+          "foreign_1d": 15,
+          "foreign_3d": 10,
           "candle": 10,
           "volume": 0,
-          "total": 45
+          "total": 70
         }
       },
       "trend": {
@@ -119,16 +119,18 @@
         "risk_note": "Max 2% dari total portofolio"
       },
       "scoring": {
-        "confidence_score": 50,
-        "tier": "MODERATE"
+        "confidence_score": 75,
+        "tier": "HIGH"
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy kemarin",
+        "✅ Net Foreign Buy 3 hari berturut",
         "✅ Harga di zona Order Block aktif",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.54 WIB"
+      "updated_at": "17.14 WIB"
     }
   ]
 }
