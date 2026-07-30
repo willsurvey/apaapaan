@@ -1,40 +1,98 @@
 {
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
-  "bsjp_beli_sore_jual_pagi": [],
+  "bsjp_beli_sore_jual_pagi": [
+    {
+      "ticker": "ESTI",
+      "company": "Ever Shine Tex Tbk.",
+      "tier": "A",
+      "score": 85,
+      "market_data": {
+        "close": 168.0,
+        "change_pct": 33.07,
+        "value_today": 16338482400,
+        "net_foreign": -11003700,
+        "iep": 129,
+        "iep_change_pct": -23.668639053254438
+      },
+      "bsjp_features": {
+        "vol_ratio20": 7.44,
+        "body_pct": 30.23,
+        "close_pos_pct": 92.9,
+        "above_ma20": true,
+        "above_ma50": true,
+        "above_ma200": true,
+        "atr_pct": 6.34
+      },
+      "entry_plan": {
+        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
+        "entry_range": "166 – 168",
+        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
+        "stop_loss": 128,
+        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
+        "target_pct": "+2% s/d +8% di pagi hari",
+        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
+      },
+      "universe_context": {
+        "in_mover_types": [
+          "MOVER_TYPE_TOP_VOLUME",
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_92_Big Accumula",
+          "SCREENER_TOP_VALUE"
+        ],
+        "from_gainer": false,
+        "from_screener": true,
+        "from_top_value": true
+      },
+      "signals_positive": [
+        "Volume spike kuat 7.4x MA20",
+        "Candle hijau sangat kuat (30.2%)",
+        "Tutup dekat puncak (93%)",
+        "Uptrend penuh: di atas MA20, MA50, MA200",
+        "MA20 sedang naik — tren menguat",
+        "Masuk screener volume explosion Stockbit"
+      ],
+      "signals_negative": [
+        "Asing jual bersih hari ini — hati-hati"
+      ],
+      "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
+      "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
+      "rank": 1
+    }
+  ],
   "bpjs_beli_pagi_jual_sore": [
     {
       "ticker": "DSSA",
       "company": "Dian Swastatika Sentosa Tbk",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 55,
+      "score": 50,
       "market_data": {
-        "close": 845.0,
-        "change_pct": 3.03,
-        "value_today": 127139116000,
+        "close": 840.0,
+        "change_pct": 2.42,
+        "value_today": 136869974000,
         "net_foreign": 34315615000
       },
       "d1_features": {
-        "body_pct": 1.81,
-        "close_pos_pct": 66.7,
-        "vol_ratio": 0.33,
-        "change_pct": 2.42,
-        "range_pct": 3.55,
-        "upper_wick": 33.3,
+        "body_pct": 1.2,
+        "close_pos_pct": 50.0,
+        "vol_ratio": 0.36,
+        "change_pct": 1.82,
+        "range_pct": 3.57,
+        "upper_wick": 50.0,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": false,
-        "atr_pct": 6.13
+        "atr_pct": 6.16
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "820 – 860",
+        "entry_range": "815 – 855",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 770,
-        "stop_note": "Cut loss jika turun di bawah 770 (1 ATR dari entry)",
-        "target_modest": 860,
-        "target_moderate": 880,
+        "stop_loss": 765,
+        "stop_note": "Cut loss jika turun di bawah 765 (1 ATR dari entry)",
+        "target_modest": 855,
+        "target_moderate": 875,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -50,19 +108,23 @@
           "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
           "MOVER_TYPE_NET_FOREIGN_BUY",
+          "SCREENER_VOLUME_EXPLOSION",
           "GURU_78_Daily Net Fo",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
-        "from_screener": false
+        "from_screener": true
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.8%), volume mati (0.33x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.2%), volume mati (0.36x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
-        "Asing beli bersih hari ini (Rp 34.3B)"
+        "Asing beli bersih hari ini (Rp 34.3B)",
+        "Masuk screener volume Stockbit — ada perhatian pasar"
       ],
-      "signals_negative": [],
+      "signals_negative": [
+        "Upper wick besar (50%) — tekanan jual D-1"
+      ],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
         "win_rate": "49.8%",
@@ -82,31 +144,31 @@
       "formula": "QUIET_CONTINUATION",
       "score": 45,
       "market_data": {
-        "close": 218.0,
-        "change_pct": 1.87,
-        "value_today": 16660901800,
+        "close": 220.0,
+        "change_pct": 2.8,
+        "value_today": 16993408400,
         "net_foreign": -159008200
       },
       "d1_features": {
-        "body_pct": 1.87,
-        "close_pos_pct": 33.3,
-        "vol_ratio": 0.48,
-        "change_pct": 1.87,
-        "range_pct": 5.5,
-        "upper_wick": 66.7,
+        "body_pct": 2.8,
+        "close_pos_pct": 50.0,
+        "vol_ratio": 0.49,
+        "change_pct": 2.8,
+        "range_pct": 5.45,
+        "upper_wick": 50.0,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": false,
-        "atr_pct": 7.14
+        "atr_pct": 7.08
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "212 – 222",
+        "entry_range": "212 – 224",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
         "stop_loss": 196,
         "stop_note": "Cut loss jika turun di bawah 196 (1 ATR dari entry)",
-        "target_modest": 222,
-        "target_moderate": 226,
+        "target_modest": 224,
+        "target_moderate": 228,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -128,13 +190,13 @@
         "from_screener": true
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.9%), volume mati (0.48x MA20), close tengah (33%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+2.8%), volume mati (0.49x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Masuk screener volume Stockbit — ada perhatian pasar"
       ],
       "signals_negative": [
-        "Upper wick besar (67%) — tekanan jual D-1"
+        "Upper wick besar (50%) — tekanan jual D-1"
       ],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
@@ -156,17 +218,17 @@
       "ticker": "MDIA",
       "company": "Intermedia Capital Tbk",
       "score": 70,
-      "close": 158.0,
-      "near_52w_pct": 95.8,
-      "wk_rsi": 57.5,
+      "close": 159.0,
+      "near_52w_pct": 96.4,
+      "wk_rsi": 57.7,
       "wk_adx": 29.5,
-      "mo_rsi": 64.9,
+      "mo_rsi": 65.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (57) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (96%) + Wk RSI (58) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (65)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -180,11 +242,11 @@
       "ticker": "MARK",
       "company": "Mark Dynamics Indonesia Tbk.",
       "score": 70,
-      "close": 1100.0,
-      "near_52w_pct": 96.5,
-      "wk_rsi": 77.3,
+      "close": 1095.0,
+      "near_52w_pct": 96.1,
+      "wk_rsi": 77.1,
       "wk_adx": 27.5,
-      "mo_rsi": 74.7,
+      "mo_rsi": 74.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -227,17 +289,17 @@
       "ticker": "NEST",
       "company": "Esta Indonesia Tbk",
       "score": 65,
-      "close": 695.0,
-      "near_52w_pct": 99.3,
-      "wk_rsi": 72.7,
+      "close": 690.0,
+      "near_52w_pct": 98.6,
+      "wk_rsi": 72.5,
       "wk_adx": 50.9,
-      "mo_rsi": 77.3,
+      "mo_rsi": 77.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (73) + Wk ADX (51) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (99%) + Wk RSI (72) + Wk ADX (51) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (77)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -272,7 +334,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-30 15:15:02 WIB",
+    "generated_at": "2026-07-30 15:38:26 WIB",
     "date": "2026-07-30",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -281,7 +343,7 @@
     "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
-    "bsjp_count": 0,
+    "bsjp_count": 1,
     "bpjs_count": 2,
     "swing_count": 0,
     "trend_count": 0,
@@ -300,8 +362,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6149,
-    "ihsg_change_pct": 0.96,
+    "ihsg_close": 6163,
+    "ihsg_change_pct": 1.18,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
