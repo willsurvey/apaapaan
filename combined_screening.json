@@ -9,7 +9,7 @@
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_72_IHSG Short-t",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -88,7 +88,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.36 WIB"
+      "updated_at": "18.54 WIB"
     },
     {
       "rank": 2,
@@ -98,7 +98,7 @@
       "universe_sources": [
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_72_IHSG Short-t",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -179,7 +179,7 @@
         "✅ Pullback ke MA50 (3.1% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "18.36 WIB"
+      "updated_at": "18.54 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -289,7 +289,7 @@
           "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
           "SCREENER_VOLUME_EXPLOSION",
-          "GURU_78_Daily Net Fo",
+          "GURU_92_Big Accumula",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
@@ -441,7 +441,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-30 18:38:20 WIB",
+    "generated_at": "2026-07-30 18:55:58 WIB",
     "date": "2026-07-30",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
