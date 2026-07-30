@@ -36,7 +36,8 @@
       "universe_context": {
         "in_mover_types": [
           "MOVER_TYPE_TOP_VOLUME",
-          "SCREENER_VOLUME_EXPLOSION"
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_92_Big Accumula"
         ],
         "from_gainer": false,
         "from_screener": true,
@@ -104,7 +105,8 @@
         "in_mover_types": [
           "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
-          "SCREENER_VOLUME_EXPLOSION"
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_92_Big Accumula"
         ],
         "from_gainer": false,
         "from_screener": true
@@ -230,24 +232,24 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "KOTA",
-      "company": "DMS Propertindo Tbk.",
-      "score": 60,
-      "close": 151.0,
-      "near_52w_pct": 86.8,
-      "wk_rsi": 56.4,
-      "wk_adx": 44.7,
-      "mo_rsi": 72.4,
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 990.0,
+      "near_52w_pct": 99.0,
+      "wk_rsi": 74.2,
+      "wk_adx": 39.3,
+      "mo_rsi": 74.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (56) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (72)",
+        "Near 52W High (99%) + Wk RSI (74) + Wk ADX (39) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 28.7B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -255,7 +257,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-30 19:33:14 WIB",
+    "generated_at": "2026-07-30 19:47:55 WIB",
     "date": "2026-07-30",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -291,7 +293,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 269,
+    "universe": 455,
     "after_liquidity": 0,
     "after_accumulation": 0,
     "after_trend": 0,
