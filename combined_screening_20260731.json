@@ -78,47 +78,49 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "NEST",
-      "company": "Esta Indonesia Tbk",
-      "score": 65,
-      "close": 690.0,
-      "near_52w_pct": 98.6,
-      "wk_rsi": 72.5,
-      "wk_adx": 50.9,
-      "mo_rsi": 77.1,
-      "wk_obv_above_ma": true,
+      "ticker": "DMAS",
+      "company": "Puradelta Lestari Tbk",
+      "score": 60,
+      "close": 148.0,
+      "near_52w_pct": 98.7,
+      "wk_rsi": 75.0,
+      "wk_adx": 32.3,
+      "mo_rsi": 66.5,
+      "wk_obv_above_ma": false,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (72) + Wk ADX (51) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (99%) + Wk RSI (75) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (77)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
+        "Monthly RSI kuat (67)",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 10.6B)"
       ],
-      "signals_negative": [],
+      "signals_negative": [
+        "Weekly OBV di bawah MA20"
+      ],
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 65,
-      "close": 1010.0,
-      "near_52w_pct": 100.0,
-      "wk_rsi": 75.7,
-      "wk_adx": 39.6,
-      "mo_rsi": 75.8,
+      "ticker": "BAIK",
+      "company": "Bersama Mencapai Puncak Tbk.",
+      "score": 60,
+      "close": 775.0,
+      "near_52w_pct": 92.3,
+      "wk_rsi": 68.7,
+      "wk_adx": 56.1,
+      "mo_rsi": 83.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (76) + Wk ADX (40) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (76)",
+        "Near 52W High (92%) + Wk RSI (69) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (83)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 2.0B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -126,7 +128,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-31 20:09:34 WIB",
+    "generated_at": "2026-07-31 20:25:15 WIB",
     "date": "2026-07-31",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -162,7 +164,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 419,
+    "universe": 202,
     "after_liquidity": 0,
     "after_accumulation": 0,
     "after_trend": 0,
