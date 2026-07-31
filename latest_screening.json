@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-01 04:16:35 WIB",
+  "generated_at": "2026-08-01 04:36:08 WIB",
   "date": "2026-08-01",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -19,8 +19,8 @@
     "universe": 978,
     "after_liquidity": 113,
     "after_accumulation": 40,
-    "after_trend": 8,
-    "after_smc": 4,
+    "after_trend": 7,
+    "after_smc": 3,
     "after_entry": 2,
     "final": 2
   },
@@ -77,8 +77,8 @@
         }
       },
       "trend": {
-        "ma50": 1663.0,
-        "gap_from_ma50_pct": 3.12,
+        "ma50": 1665.0,
+        "gap_from_ma50_pct": 5.39,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -128,11 +128,10 @@
         "✅ Net Foreign Buy hari ini: Rp6.1B",
         "✅ Net Foreign Buy 3 hari berturut",
         "✅ Harga di zona Order Block aktif",
-        "✅ Swing Structure: BULLISH",
-        "✅ Pullback ke MA50 (3.1% di atas MA50)"
+        "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "04.15 WIB"
+      "updated_at": "04.35 WIB"
     },
     {
       "rank": 2,
@@ -168,8 +167,8 @@
         }
       },
       "trend": {
-        "ma50": 732.0,
-        "gap_from_ma50_pct": 25.76,
+        "ma50": 734.0,
+        "gap_from_ma50_pct": 24.58,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -220,7 +219,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "04.15 WIB"
+      "updated_at": "04.35 WIB"
     }
   ]
 }
