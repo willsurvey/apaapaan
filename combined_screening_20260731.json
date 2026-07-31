@@ -8,7 +8,8 @@
       "universe_sources": [
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula"
+        "GURU_92_Big Accumula",
+        "SCREENER_TOP_VALUE"
       ],
       "market_data": {
         "close": 1755,
@@ -87,7 +88,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "22.09 WIB"
+      "updated_at": "22.34 WIB"
     },
     {
       "rank": 2,
@@ -97,7 +98,8 @@
       "universe_sources": [
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula"
+        "GURU_92_Big Accumula",
+        "SCREENER_TOP_VALUE"
       ],
       "market_data": {
         "close": 915,
@@ -174,7 +176,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "22.09 WIB"
+      "updated_at": "22.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -303,7 +305,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-07-31 22:10:48 WIB",
+    "generated_at": "2026-07-31 22:36:48 WIB",
     "date": "2026-07-31",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -339,9 +341,9 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 563,
-    "after_liquidity": 109,
-    "after_accumulation": 38,
+    "universe": 978,
+    "after_liquidity": 113,
+    "after_accumulation": 40,
     "after_trend": 7,
     "after_smc": 3,
     "after_entry": 2,
