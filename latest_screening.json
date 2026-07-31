@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-07-31 16:15:35 WIB",
+  "generated_at": "2026-07-31 16:35:33 WIB",
   "date": "2026-07-31",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 2,
   "market_context": {
-    "ihsg_close": 6233,
-    "ihsg_change_pct": 0.76,
+    "ihsg_close": 6236,
+    "ihsg_change_pct": 0.8,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -57,8 +57,8 @@
       "market_data": {
         "close": 19000,
         "change_pct": -0.39,
-        "value_today": 41372190000,
-        "frequency_today": 3340,
+        "value_today": 42774390000,
+        "frequency_today": 3438,
         "iep": 19000,
         "iep_change_pct": 0
       },
@@ -78,7 +78,7 @@
       },
       "trend": {
         "ma50": 16042.0,
-        "gap_from_ma50_pct": 18.29,
+        "gap_from_ma50_pct": 18.44,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -130,7 +130,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.34 WIB"
     },
     {
       "rank": 2,
@@ -138,7 +138,6 @@
       "company": "Unilever Indonesia Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
-        "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_92_Big Accumula",
@@ -147,8 +146,8 @@
       "market_data": {
         "close": 1755,
         "change_pct": 2.33,
-        "value_today": 44350224500,
-        "frequency_today": 5991,
+        "value_today": 44421828500,
+        "frequency_today": 6015,
         "iep": 1755,
         "iep_change_pct": 0
       },
@@ -168,7 +167,7 @@
       },
       "trend": {
         "ma50": 1665.0,
-        "gap_from_ma50_pct": 5.1,
+        "gap_from_ma50_pct": 5.39,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -220,7 +219,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.34 WIB"
     }
   ]
 }
