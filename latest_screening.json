@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-07-31 17:15:58 WIB",
+  "generated_at": "2026-07-31 17:36:45 WIB",
   "date": "2026-07-31",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -17,9 +17,9 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 100,
-    "after_accumulation": 38,
-    "after_trend": 8,
+    "after_liquidity": 113,
+    "after_accumulation": 40,
+    "after_trend": 7,
     "after_smc": 3,
     "after_entry": 2,
     "final": 2
@@ -59,12 +59,12 @@
         "change_pct": 2.33,
         "value_today": 44421828500,
         "frequency_today": 6015,
-        "iep": 1755,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": 7404088000,
+        "net_foreign_today": 6107961500,
         "net_foreign_3d": 10,
         "acc_score": 80,
         "score_breakdown": {
@@ -125,59 +125,59 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp7.4B",
+        "✅ Net Foreign Buy hari ini: Rp6.1B",
         "✅ Net Foreign Buy 3 hari berturut",
         "✅ Harga di zona Order Block aktif",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.35 WIB"
     },
     {
       "rank": 2,
-      "ticker": "GGRM",
-      "company": "Gudang Garam Tbk.",
+      "ticker": "BFIN",
+      "company": "BFI Finance Indonesia Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula",
+        "GURU_72_IHSG Short-t",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 19000,
-        "change_pct": -0.39,
-        "value_today": 42774390000,
-        "frequency_today": 3438,
-        "iep": 19000,
+        "close": 915,
+        "change_pct": -0.54,
+        "value_today": 24923885500,
+        "frequency_today": 2790,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": 15246250000,
+        "net_foreign_today": 4115727000,
         "net_foreign_3d": 0,
-        "acc_score": 40,
+        "acc_score": 50,
         "score_breakdown": {
           "broker": 35,
-          "foreign_1d": -10,
+          "foreign_1d": 15,
           "foreign_3d": 0,
-          "candle": 10,
-          "volume": 5,
-          "total": 40
+          "candle": 0,
+          "volume": 0,
+          "total": 50
         }
       },
       "trend": {
-        "ma50": 16042.0,
-        "gap_from_ma50_pct": 18.44,
+        "ma50": 734.0,
+        "gap_from_ma50_pct": 24.58,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
-        "internal_structure": "BOS_BULLISH",
-        "swing_trend_bias": "BULLISH",
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BEARISH",
         "ob_zone": null,
-        "fvg_zone": null,
-        "strong_low": 17250.0,
-        "weak_high": 16975.0
+        "fvg_zone": "895 - 905",
+        "strong_low": 755.0,
+        "weak_high": 805.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -185,27 +185,27 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 18850,
+        "entry_1": 920,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 18525,
+        "entry_2": 910,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
-        "entry_3": 18125,
+        "entry_3": 900,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 18475,
-        "entry_zone": "18125 - 18850",
-        "sl": 18075,
-        "sl_pct_risk": 2.17,
+        "average_entry": 910,
+        "entry_zone": "900 - 920",
+        "sl": 890,
+        "sl_pct_risk": 2.2,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 19175,
+        "tp1": 930,
         "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 19750,
+        "tp2": 960,
         "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 20350,
+        "tp3": 990,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:4.7",
+        "rr_ratio": "1:4.0",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
@@ -215,12 +215,11 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp15.2B",
-        "✅ Internal BOS Bullish (1H)",
-        "✅ Swing Structure: BULLISH"
+        "✅ Net Foreign Buy hari ini: Rp4.1B",
+        "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.35 WIB"
     }
   ]
 }
