@@ -88,7 +88,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "09.34 WIB"
+      "updated_at": "09.57 WIB"
     },
     {
       "rank": 2,
@@ -179,7 +179,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "09.34 WIB"
+      "updated_at": "09.57 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -196,7 +196,7 @@
       "near_52w_pct": 99.0,
       "wk_rsi": 63.5,
       "wk_adx": 29.9,
-      "mo_rsi": 66.2,
+      "mo_rsi": 67.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -204,7 +204,7 @@
       "signals_positive": [
         "Near 52W High (99%) + Wk RSI (64) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (66)",
+        "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 14.6B)"
@@ -267,7 +267,7 @@
       "near_52w_pct": 98.6,
       "wk_rsi": 72.5,
       "wk_adx": 50.9,
-      "mo_rsi": 77.3,
+      "mo_rsi": 77.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -290,7 +290,7 @@
       "near_52w_pct": 100.0,
       "wk_rsi": 75.7,
       "wk_adx": 39.6,
-      "mo_rsi": 74.4,
+      "mo_rsi": 75.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -298,7 +298,7 @@
       "signals_positive": [
         "Near 52W High (100%) + Wk RSI (76) + Wk ADX (40) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (74)",
+        "Monthly RSI kuat (76)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -308,7 +308,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-01 09:35:43 WIB",
+    "generated_at": "2026-08-01 09:59:13 WIB",
     "date": "2026-08-01",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
