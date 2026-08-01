@@ -1,16 +1,29 @@
 {
-  "status": "no_signal",
-  "generated_at": "2026-08-02 00:25:06 WIB",
+  "status": "success",
+  "generated_at": "2026-08-02 00:55:24 WIB",
   "date": "2026-08-02",
-  "mode": "YAHOO_ONLY",
-  "session_label": "MARKET_DAY",
-  "session_warning": null,
-  "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — Data terbatas (Yahoo Finance only)",
-  "total_saham": 0,
+  "mode": "FULL_STOCKBIT",
+  "session_label": "PRE_MARKET_WEEKEND (Sunday)",
+  "session_warning": "⚠️ Screening dijalankan di akhir pekan — gunakan sebagai referensi persiapan, bukan sinyal eksekusi langsung.",
+  "mode_warning": null,
+  "total_saham": 2,
   "market_context": {
-    "market_safe": false
+    "ihsg_close": 6236,
+    "ihsg_change_pct": 0.8,
+    "ihsg_trend": "NEUTRAL",
+    "ihsg_above_ma50": true,
+    "market_safe": true,
+    "warning": null
   },
-  "screening_summary": {},
+  "screening_summary": {
+    "universe": 978,
+    "after_liquidity": 113,
+    "after_accumulation": 40,
+    "after_trend": 7,
+    "after_smc": 4,
+    "after_entry": 2,
+    "final": 2
+  },
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
     "data_sources": [
@@ -29,5 +42,187 @@
     "max_output": 5,
     "min_rr": 2.0
   },
-  "data": []
+  "data": [
+    {
+      "rank": 1,
+      "ticker": "UNVR",
+      "company": "Unilever Indonesia Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "MOVER_TYPE_NET_FOREIGN_BUY",
+        "SCREENER_VOLUME_EXPLOSION",
+        "GURU_92_Big Accumula",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 1755,
+        "change_pct": 2.33,
+        "value_today": 44421828500,
+        "frequency_today": 6015,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 6107961500,
+        "net_foreign_3d": 10,
+        "acc_score": 80,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 15,
+          "foreign_3d": 10,
+          "candle": 10,
+          "volume": 10,
+          "total": 80
+        }
+      },
+      "trend": {
+        "ma50": 1665.0,
+        "gap_from_ma50_pct": 5.39,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": null,
+        "fvg_zone": "1720 - 1740",
+        "strong_low": 1670.0,
+        "weak_high": 1770.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 1745,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 1730,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 1720,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 1730,
+        "entry_zone": "1720 - 1745",
+        "sl": 1695,
+        "sl_pct_risk": 2.02,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 1755,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 1770,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 1825,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:2.7",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 75,
+        "tier": "HIGH"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy hari ini: Rp6.1B",
+        "✅ Net Foreign Buy 3 hari berturut",
+        "✅ Harga di zona FVG aktif",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [],
+      "updated_at": "00.53 WIB"
+    },
+    {
+      "rank": 2,
+      "ticker": "TINS",
+      "company": "Timah Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "MOVER_TYPE_TOP_VOLUME",
+        "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
+        "SCREENER_VOLUME_EXPLOSION",
+        "GURU_92_Big Accumula",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 3800,
+        "change_pct": 6.74,
+        "value_today": 514186877000,
+        "frequency_today": 34581,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 160604601000,
+        "net_foreign_3d": 0,
+        "acc_score": 60,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 15,
+          "foreign_3d": 0,
+          "candle": 0,
+          "volume": 10,
+          "total": 60
+        }
+      },
+      "trend": {
+        "ma50": 3366.0,
+        "gap_from_ma50_pct": 12.9,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": null,
+        "fvg_zone": "3560 - 3760",
+        "strong_low": 3380.0,
+        "weak_high": 3780.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 3750,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 3640,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 3600,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 3650,
+        "entry_zone": "3600 - 3750",
+        "sl": 3580,
+        "sl_pct_risk": 1.92,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 3940,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 4060,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 4180,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:7.6",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 65,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy hari ini: Rp160.6B",
+        "✅ Harga di zona FVG aktif",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [],
+      "updated_at": "00.53 WIB"
+    }
+  ]
 }
