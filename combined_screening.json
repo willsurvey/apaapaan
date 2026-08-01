@@ -88,7 +88,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.56 WIB"
     },
     {
       "rank": 2,
@@ -179,7 +179,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.56 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -308,7 +308,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-01 08:36:00 WIB",
+    "generated_at": "2026-08-01 08:57:52 WIB",
     "date": "2026-08-01",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -336,8 +336,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6186,
-    "ihsg_change_pct": 1.56,
+    "ihsg_close": 6236,
+    "ihsg_change_pct": 0.8,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
