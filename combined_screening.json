@@ -14,7 +14,7 @@
       "near_52w_pct": 99.0,
       "wk_rsi": 63.5,
       "wk_adx": 29.9,
-      "mo_rsi": 67.4,
+      "mo_rsi": 68.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -22,7 +22,7 @@
       "signals_positive": [
         "Near 52W High (99%) + Wk RSI (64) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (67)",
+        "Monthly RSI kuat (68)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -37,7 +37,7 @@
       "near_52w_pct": 98.6,
       "wk_rsi": 72.5,
       "wk_adx": 50.9,
-      "mo_rsi": 77.1,
+      "mo_rsi": 76.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -60,7 +60,7 @@
       "near_52w_pct": 97.8,
       "wk_rsi": 61.5,
       "wk_adx": 41.7,
-      "mo_rsi": 85.7,
+      "mo_rsi": 86.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -68,30 +68,7 @@
       "signals_positive": [
         "Near 52W High (98%) + Wk RSI (62) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (86)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 65,
-      "close": 1010.0,
-      "near_52w_pct": 100.0,
-      "wk_rsi": 75.7,
-      "wk_adx": 39.6,
-      "mo_rsi": 75.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (76) + Wk ADX (40) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (76)",
+        "Monthly RSI kuat (87)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -106,7 +83,7 @@
       "near_52w_pct": 98.4,
       "wk_rsi": 59.8,
       "wk_adx": 30.0,
-      "mo_rsi": 74.5,
+      "mo_rsi": 77.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -114,7 +91,30 @@
       "signals_positive": [
         "Near 52W High (98%) + Wk RSI (60) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (75)",
+        "Monthly RSI kuat (77)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1010.0,
+      "near_52w_pct": 100.0,
+      "wk_rsi": 75.7,
+      "wk_adx": 39.6,
+      "mo_rsi": 77.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (100%) + Wk RSI (76) + Wk ADX (40) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
+        "Monthly RSI kuat (77)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -124,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-03 08:52:25 WIB",
+    "generated_at": "2026-08-03 09:13:40 WIB",
     "date": "2026-08-03",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -161,9 +161,9 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 0,
-    "after_accumulation": 0,
-    "after_trend": 0,
+    "after_liquidity": 47,
+    "after_accumulation": 10,
+    "after_trend": 1,
     "after_smc": 0,
     "after_entry": 0,
     "final": 0
