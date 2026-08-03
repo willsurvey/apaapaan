@@ -30,29 +30,6 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "BSML",
-      "company": "Bintang Samudera Mandiri Lines Tbk.",
-      "score": 65,
-      "close": 525.0,
-      "near_52w_pct": 98.1,
-      "wk_rsi": 76.8,
-      "wk_adx": 48.0,
-      "mo_rsi": 98.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (77) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (99)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "NEST",
       "company": "Esta Indonesia Tbk",
       "score": 65,
@@ -69,6 +46,29 @@
         "Near 52W High (99%) + Wk RSI (72) + Wk ADX (51) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (77)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "PKPK",
+      "company": "Paragon Karya Perkasa Tbk",
+      "score": 65,
+      "close": 3930.0,
+      "near_52w_pct": 97.8,
+      "wk_rsi": 61.5,
+      "wk_adx": 41.7,
+      "mo_rsi": 85.7,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (98%) + Wk RSI (62) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -99,22 +99,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "PKPK",
-      "company": "Paragon Karya Perkasa Tbk",
+      "ticker": "GJTL",
+      "company": "Gajah Tunggal Tbk.",
       "score": 65,
-      "close": 3930.0,
-      "near_52w_pct": 97.8,
-      "wk_rsi": 61.5,
-      "wk_adx": 41.7,
-      "mo_rsi": 85.7,
+      "close": 1225.0,
+      "near_52w_pct": 98.4,
+      "wk_rsi": 59.8,
+      "wk_adx": 30.0,
+      "mo_rsi": 74.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (62) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (98%) + Wk RSI (60) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (86)",
+        "Monthly RSI kuat (75)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -124,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-03 08:14:12 WIB",
+    "generated_at": "2026-08-03 08:32:38 WIB",
     "date": "2026-08-03",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
