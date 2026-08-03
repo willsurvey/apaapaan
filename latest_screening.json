@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "generated_at": "2026-08-03 23:56:40 WIB",
-  "date": "2026-08-03",
+  "generated_at": "2026-08-04 00:16:47 WIB",
+  "date": "2026-08-04",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
   "mode_warning": null,
   "total_saham": 2,
   "market_context": {
-    "ihsg_close": 6234,
-    "ihsg_change_pct": -0.03,
+    "ihsg_close": 6236,
+    "ihsg_change_pct": 0.8,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -78,8 +78,8 @@
         }
       },
       "trend": {
-        "ma50": 16113.0,
-        "gap_from_ma50_pct": 21.02,
+        "ma50": 16042.0,
+        "gap_from_ma50_pct": 18.44,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -132,7 +132,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.55 WIB"
+      "updated_at": "00.15 WIB"
     },
     {
       "rank": 2,
@@ -168,8 +168,8 @@
         }
       },
       "trend": {
-        "ma50": 6578.0,
-        "gap_from_ma50_pct": 9.45,
+        "ma50": 6564.0,
+        "gap_from_ma50_pct": 6.26,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -221,7 +221,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "23.55 WIB"
+      "updated_at": "00.15 WIB"
     }
   ]
 }
