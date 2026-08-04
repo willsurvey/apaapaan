@@ -2,26 +2,337 @@
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
-  "bpjs_beli_pagi_jual_sore": [],
+  "bpjs_beli_pagi_jual_sore": [
+    {
+      "ticker": "INET",
+      "company": "Sinergi Inti Andalan Prima Tbk.",
+      "type": "WATCHLIST_BPJS",
+      "formula": "QUIET_CONTINUATION",
+      "score": 40,
+      "market_data": {
+        "close": 234.0,
+        "change_pct": 2.63,
+        "value_today": 19009061200,
+        "net_foreign": -6133032000
+      },
+      "d1_features": {
+        "body_pct": 1.74,
+        "close_pos_pct": 50.0,
+        "vol_ratio": 0.46,
+        "change_pct": 2.63,
+        "range_pct": 5.13,
+        "upper_wick": 50.0,
+        "above_ma20": true,
+        "above_ma50": true,
+        "above_ma200": false,
+        "atr_pct": 6.72
+      },
+      "trading_plan": {
+        "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
+        "entry_range": "226 – 238",
+        "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
+        "stop_loss": 210,
+        "stop_note": "Cut loss jika turun di bawah 210 (1 ATR dari entry)",
+        "target_modest": 238,
+        "target_moderate": 244,
+        "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
+      },
+      "morning_confirmation_criteria": [
+        "⚠️ WAJIB: Utamakan jika terjadi Gap Down > 3% saat open untuk risk/reward terbaik",
+        "✅ Skenario Gap Down >3% memiliki Profit Factor 6.78x & Win Rate 44.5%",
+        "✅ Volume 15 menit pertama normal/stabil di atas rata-rata",
+        "❌ JANGAN BELI jika Gap Up > 3% (euforia rawan bull trap, PF hanya 0.3x)",
+        "❌ JANGAN BELI jika langsung longsor drastis tanpa rebound dari low"
+      ],
+      "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
+      "universe_context": {
+        "in_mover_types": [
+          "MOVER_TYPE_TOP_VOLUME",
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_78_Daily Net Fo",
+          "SCREENER_TOP_VALUE"
+        ],
+        "from_gainer": false,
+        "from_screener": true
+      },
+      "signals_positive": [
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.7%), volume mati (0.46x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
+        "Di atas MA20 — support jangka pendek",
+        "Di atas MA50 — tren menengah masih ok",
+        "Masuk screener volume Stockbit — ada perhatian pasar"
+      ],
+      "signals_negative": [
+        "Upper wick besar (50%) — tekanan jual D-1",
+        "Asing jual bersih besar — hati-hati gap down"
+      ],
+      "backtest_stats": {
+        "formula": "QUIET_CONTINUATION",
+        "win_rate": "49.8%",
+        "sample_size": "n=1.371",
+        "profit_factor": "1.04x",
+        "total_backtest": "789.792 hari trading IHSG (956 saham)",
+        "gap_down_sweet_spot": "Gap Down >2%: WR 30.2%, upside +3.75%, DD -0.88%",
+        "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
+      },
+      "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
+      "rank": 1
+    }
+  ],
   "swing_trading": [],
-  "trend_following": [],
-  "position_trading": [],
+  "trend_following": [
+    {
+      "ticker": "GULA",
+      "company": "Aman Agrindo Tbk.",
+      "score": 75,
+      "close": 805.0,
+      "adx": 44.0,
+      "rsi": 67.0,
+      "macd_hist": 2.5302,
+      "wk_adx": 47.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (44) + RSI sehat (67) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+4.5%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (47)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif",
+        "Asing beli bersih (Rp 2.1B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "HATM",
+      "company": "Habco Trans Maritima Tbk.",
+      "score": 70,
+      "close": 545.0,
+      "adx": 38.3,
+      "rsi": 68.2,
+      "macd_hist": 6.0073,
+      "wk_adx": 28.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (38) + RSI sehat (68) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+12.6%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (28)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "ELSA",
+      "company": "Elnusa Tbk.",
+      "score": 70,
+      "close": 690.0,
+      "adx": 31.4,
+      "rsi": 60.0,
+      "macd_hist": 1.554,
+      "wk_adx": 25.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (31) + RSI sehat (60) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+0.7%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (26)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "BKDP",
+      "company": "Bukit Darmo Property Tbk",
+      "score": 70,
+      "close": 169.0,
+      "adx": 37.3,
+      "rsi": 74.8,
+      "macd_hist": 1.7071,
+      "wk_adx": 38.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (37) + RSI sehat (75) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+9.0%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (39)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
+      "score": 70,
+      "close": 745.0,
+      "adx": 41.9,
+      "rsi": 71.7,
+      "macd_hist": 12.5011,
+      "wk_adx": 52.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (42) + RSI sehat (72) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+20.2%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (53)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    }
+  ],
+  "position_trading": [
+    {
+      "ticker": "GGRM",
+      "company": "Gudang Garam Tbk.",
+      "score": 70,
+      "close": 19950.0,
+      "near_52w_pct": 99.8,
+      "wk_rsi": 69.5,
+      "wk_adx": 20.6,
+      "mo_rsi": 72.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (100%) + Wk RSI (70) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
+        "Monthly RSI kuat (72)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 38.2B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "BFIN",
+      "company": "BFI Finance Indonesia Tbk.",
+      "score": 70,
+      "close": 920.0,
+      "near_52w_pct": 97.4,
+      "wk_rsi": 64.5,
+      "wk_adx": 21.2,
+      "mo_rsi": 61.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (65) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (62)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 4.1B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "GJTL",
+      "company": "Gajah Tunggal Tbk.",
+      "score": 70,
+      "close": 1305.0,
+      "near_52w_pct": 97.0,
+      "wk_rsi": 63.2,
+      "wk_adx": 32.3,
+      "mo_rsi": 79.6,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (63) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (80)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 2.9B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MDIA",
+      "company": "Intermedia Capital Tbk",
+      "score": 65,
+      "close": 222.0,
+      "near_52w_pct": 96.5,
+      "wk_rsi": 67.3,
+      "wk_adx": 32.0,
+      "mo_rsi": 69.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (67) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (70)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "TOTL",
+      "company": "Total Bangun Persada Tbk.",
+      "score": 65,
+      "close": 1160.0,
+      "near_52w_pct": 99.1,
+      "wk_rsi": 59.6,
+      "wk_adx": 42.3,
+      "mo_rsi": 82.6,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (99%) + Wk RSI (60) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (83)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    }
+  ],
   "meta": {
-    "status": "no_signal",
-    "generated_at": "2026-08-04 13:43:27 WIB",
+    "status": "success",
+    "generated_at": "2026-08-04 14:14:11 WIB",
     "date": "2026-08-04",
-    "mode": "YAHOO_ONLY",
+    "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
     "session_warning": null,
-    "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — ARA pipeline tidak berjalan",
+    "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
     "bsjp_count": 0,
-    "bpjs_count": 0,
+    "bpjs_count": 1,
     "swing_count": 0,
-    "trend_count": 0,
-    "position_count": 0,
+    "trend_count": 5,
+    "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
     "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
@@ -36,9 +347,22 @@
     }
   },
   "market_context": {
-    "market_safe": false
+    "ihsg_close": 6262,
+    "ihsg_change_pct": 0.42,
+    "ihsg_trend": "NEUTRAL",
+    "ihsg_above_ma50": true,
+    "market_safe": true,
+    "warning": null
   },
-  "screening_summary": {},
+  "screening_summary": {
+    "universe": 978,
+    "after_liquidity": 87,
+    "after_accumulation": 15,
+    "after_trend": 6,
+    "after_smc": 4,
+    "after_entry": 1,
+    "final": 0
+  },
   "config_ara": {
     "vol_ma20_tier1": 3.0,
     "vol_ma20_tier2": 6.0,
