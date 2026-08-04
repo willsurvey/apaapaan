@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-04 09:53:52 WIB",
+  "generated_at": "2026-08-04 10:14:19 WIB",
   "date": "2026-08-04",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6258,
-    "ihsg_change_pct": 0.35,
+    "ihsg_close": 6251,
+    "ihsg_change_pct": 0.25,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,10 +17,10 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 58,
-    "after_accumulation": 12,
-    "after_trend": 3,
-    "after_smc": 2,
+    "after_liquidity": 67,
+    "after_accumulation": 14,
+    "after_trend": 4,
+    "after_smc": 4,
     "after_entry": 2,
     "final": 1
   },
@@ -49,20 +49,22 @@
       "company": "Gudang Garam Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
-        "GURU_92",
+        "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
         "close": 19775,
-        "change_pct": 0,
-        "value_today": 11717872500.0,
-        "frequency_today": 0,
-        "iep": 0,
-        "iep_change_pct": 0
+        "change_pct": 1.28,
+        "value_today": 14012567500,
+        "frequency_today": 1166,
+        "iep": 19625,
+        "iep_change_pct": -0.63
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": 0,
+        "net_foreign_today": 38216382500,
         "net_foreign_3d": 0,
         "acc_score": 40,
         "score_breakdown": {
@@ -75,8 +77,8 @@
         }
       },
       "trend": {
-        "ma50": 16194.0,
-        "gap_from_ma50_pct": 21.03,
+        "ma50": 16197.0,
+        "gap_from_ma50_pct": 21.93,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -123,11 +125,12 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy hari ini: Rp38.2B",
         "✅ Internal BOS Bullish (1H)",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "09.52 WIB"
+      "updated_at": "10.12 WIB"
     }
   ]
 }
