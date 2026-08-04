@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-08-04 12:14:21 WIB",
+  "generated_at": "2026-08-04 12:35:16 WIB",
   "date": "2026-08-04",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 0,
   "market_context": {
-    "ihsg_close": 6276,
-    "ihsg_change_pct": 0.65,
+    "ihsg_close": 6270,
+    "ihsg_change_pct": 0.55,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
