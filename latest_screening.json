@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-04 18:36:32 WIB",
+  "generated_at": "2026-08-04 18:55:28 WIB",
   "date": "2026-08-04",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -131,7 +131,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "18.35 WIB"
+      "updated_at": "18.54 WIB"
     },
     {
       "rank": 2,
@@ -142,7 +142,7 @@
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_78_Daily Net Fo",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -221,7 +221,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.35 WIB"
+      "updated_at": "18.54 WIB"
     }
   ]
 }
