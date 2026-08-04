@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "generated_at": "2026-08-04 23:55:33 WIB",
-  "date": "2026-08-04",
+  "generated_at": "2026-08-05 00:15:12 WIB",
+  "date": "2026-08-05",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
   "mode_warning": null,
   "total_saham": 2,
   "market_context": {
-    "ihsg_close": 6319,
-    "ihsg_change_pct": 1.37,
+    "ihsg_close": 6234,
+    "ihsg_change_pct": -0.03,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -19,9 +19,9 @@
     "universe": 978,
     "after_liquidity": 103,
     "after_accumulation": 49,
-    "after_trend": 8,
-    "after_smc": 4,
-    "after_entry": 4,
+    "after_trend": 6,
+    "after_smc": 3,
+    "after_entry": 3,
     "final": 2
   },
   "config": {
@@ -79,8 +79,8 @@
         }
       },
       "trend": {
-        "ma50": 6036.0,
-        "gap_from_ma50_pct": 7.7,
+        "ma50": 6025.0,
+        "gap_from_ma50_pct": 4.56,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -128,10 +128,11 @@
       "signals": [
         "✅ Broker Signal: Big Acc",
         "✅ Net Foreign Buy hari ini: Rp404.4B",
-        "✅ Harga di zona Order Block aktif"
+        "✅ Harga di zona Order Block aktif",
+        "✅ Pullback ke MA50 (4.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "23.54 WIB"
+      "updated_at": "00.13 WIB"
     },
     {
       "rank": 2,
@@ -168,8 +169,8 @@
         }
       },
       "trend": {
-        "ma50": 8250.0,
-        "gap_from_ma50_pct": 11.22,
+        "ma50": 8219.0,
+        "gap_from_ma50_pct": 10.72,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -221,7 +222,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.54 WIB"
+      "updated_at": "00.13 WIB"
     }
   ]
 }
