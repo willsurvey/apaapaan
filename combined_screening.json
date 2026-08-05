@@ -14,8 +14,8 @@
       "market_data": {
         "close": 1845,
         "change_pct": 1.37,
-        "value_today": 46989424500,
-        "frequency_today": 8011,
+        "value_today": 47303074500,
+        "frequency_today": 8092,
         "iep": 1845,
         "iep_change_pct": 0
       },
@@ -87,7 +87,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.14 WIB"
+      "updated_at": "16.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -133,23 +133,23 @@
       "d1_high": 94.0,
       "d1_low": 74.0,
       "d1_change_pct": 15.28,
-      "d1_vol_ratio_ma20": 26.57,
-      "d1_vol_ratio_ma5": 24.35,
+      "d1_vol_ratio_ma20": 26.6,
+      "d1_vol_ratio_ma5": 24.38,
       "d1_body_pct": 0.4,
       "d1_upper_wick": 0.55,
       "d1_lower_wick": 0.05,
       "d1_close_pos": 0.45,
       "d1_bullish": true,
       "d1_range_expansion": 3.87,
-      "d1_value_rp": 2601838350000,
+      "d1_value_rp": 2604867850000,
       "d2_change_pct": 1.41,
       "d2_body_pct": 0.0,
       "d2_vol_ratio_ma20": 0.92,
-      "m1_last15_green": 11,
-      "m1_close_vs_vwap": -5.49,
+      "m1_last15_green": 13,
+      "m1_close_vs_vwap": -5.48,
       "m1_close_pos_intra": 0.353,
-      "m1_high_timing": 0.548,
-      "m1_n_bars": 314,
+      "m1_high_timing": 0.536,
+      "m1_n_bars": 321,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -168,7 +168,7 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif",
+        "Closing flat bias: 11/14 bar flat — indikasi tidak aktif",
         "Close di bawah VWAP: -5.5%"
       ],
       "universe_sources": [
@@ -177,7 +177,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:14 WIB"
+      "generated_at": "16:34 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -304,7 +304,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-05 16:15:48 WIB",
+    "generated_at": "2026-08-05 16:36:10 WIB",
     "date": "2026-08-05",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -332,8 +332,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6355,
-    "ihsg_change_pct": 0.58,
+    "ihsg_close": 6351,
+    "ihsg_change_pct": 0.5,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
