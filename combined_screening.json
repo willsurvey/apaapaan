@@ -9,7 +9,7 @@
         "MOVER_TYPE_TOP_VOLUME",
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
-        "GURU_78_Daily Net Fo",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -87,7 +87,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "18.37 WIB"
+      "updated_at": "18.54 WIB"
     },
     {
       "rank": 2,
@@ -97,7 +97,7 @@
       "universe_sources": [
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
-        "GURU_78_Daily Net Fo",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -176,7 +176,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.37 WIB"
+      "updated_at": "18.54 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -304,7 +304,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-05 18:38:26 WIB",
+    "generated_at": "2026-08-05 18:55:06 WIB",
     "date": "2026-08-05",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
