@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-05 15:15:37 WIB",
+  "generated_at": "2026-08-05 15:35:07 WIB",
   "date": "2026-08-05",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6349,
-    "ihsg_change_pct": 0.47,
+    "ihsg_close": 6357,
+    "ihsg_change_pct": 0.59,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,10 +17,10 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 103,
+    "after_liquidity": 104,
     "after_accumulation": 22,
-    "after_trend": 5,
-    "after_smc": 3,
+    "after_trend": 6,
+    "after_smc": 4,
     "after_entry": 3,
     "final": 1
   },
@@ -56,29 +56,29 @@
       ],
       "market_data": {
         "close": 1820,
-        "change_pct": -0.27,
-        "value_today": 32456008000,
-        "frequency_today": 6124,
+        "change_pct": 0,
+        "value_today": 38988975500,
+        "frequency_today": 6711,
         "iep": 1820,
-        "iep_change_pct": 0.28
+        "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
         "net_foreign_today": 14630823000,
         "net_foreign_3d": 0,
-        "acc_score": 45,
+        "acc_score": 50,
         "score_breakdown": {
           "broker": 35,
           "foreign_1d": 0,
           "foreign_3d": 0,
           "candle": 10,
-          "volume": 0,
-          "total": 45
+          "volume": 5,
+          "total": 50
         }
       },
       "trend": {
         "ma50": 1674.0,
-        "gap_from_ma50_pct": 8.42,
+        "gap_from_ma50_pct": 8.71,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -130,7 +130,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.14 WIB"
+      "updated_at": "15.34 WIB"
     }
   ]
 }
