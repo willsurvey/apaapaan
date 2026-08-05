@@ -84,31 +84,31 @@
       "formula": "QUIET_CONTINUATION",
       "score": 40,
       "market_data": {
-        "close": 860.0,
+        "close": 855.0,
         "change_pct": 2.4,
         "value_today": 124094550000,
         "net_foreign": -9465365500
       },
       "d1_features": {
-        "body_pct": 1.78,
-        "close_pos_pct": 60.0,
+        "body_pct": 1.18,
+        "close_pos_pct": 40.0,
         "vol_ratio": 0.34,
-        "change_pct": 2.99,
-        "range_pct": 2.91,
-        "upper_wick": 40.0,
+        "change_pct": 2.4,
+        "range_pct": 2.92,
+        "upper_wick": 60.0,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": false,
-        "atr_pct": 6.06
+        "atr_pct": 6.1
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "835 – 875",
+        "entry_range": "835 – 870",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
         "stop_loss": 785,
         "stop_note": "Cut loss jika turun di bawah 785 (1 ATR dari entry)",
-        "target_modest": 875,
-        "target_moderate": 895,
+        "target_modest": 870,
+        "target_moderate": 890,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -130,13 +130,13 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.8%), volume mati (0.34x MA20), close tengah (60%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.2%), volume mati (0.34x MA20), close tengah (40%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Range D-1 kecil (2.9%) — noise rendah besok"
       ],
       "signals_negative": [
-        "Upper wick besar (40%) — tekanan jual D-1",
+        "Upper wick besar (60%) — tekanan jual D-1",
         "Asing jual bersih besar — hati-hati gap down"
       ],
       "backtest_stats": {
@@ -275,7 +275,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-05 12:15:38 WIB",
+    "generated_at": "2026-08-05 12:34:45 WIB",
     "date": "2026-08-05",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -303,8 +303,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6361,
-    "ihsg_change_pct": 0.66,
+    "ihsg_close": 6363,
+    "ihsg_change_pct": 0.69,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
