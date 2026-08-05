@@ -4,37 +4,37 @@
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "CDIA",
-      "company": "Chandra Daya Investasi Tbk.",
+      "ticker": "DEWA",
+      "company": "Darma Henwa Tbk",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 50,
+      "score": 70,
       "market_data": {
-        "close": 670.0,
-        "change_pct": 2.29,
-        "value_today": 15556410500,
-        "net_foreign": 3212890500
+        "close": 472.0,
+        "change_pct": 1.73,
+        "value_today": 197875994200,
+        "net_foreign": 6219989200
       },
       "d1_features": {
-        "body_pct": 1.52,
-        "close_pos_pct": 50.0,
+        "body_pct": 1.29,
+        "close_pos_pct": 66.7,
         "vol_ratio": 0.46,
-        "change_pct": 2.29,
-        "range_pct": 2.99,
-        "upper_wick": 50.0,
+        "change_pct": 2.16,
+        "range_pct": 2.54,
+        "upper_wick": 33.3,
         "above_ma20": true,
         "above_ma50": true,
-        "above_ma200": false,
-        "atr_pct": 5.76
+        "above_ma200": true,
+        "atr_pct": 5.72
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "655 – 685",
+        "entry_range": "460 – 482",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 615,
-        "stop_note": "Cut loss jika turun di bawah 615 (1 ATR dari entry)",
-        "target_modest": 685,
-        "target_moderate": 695,
+        "stop_loss": 434,
+        "stop_note": "Cut loss jika turun di bawah 434 (1 ATR dari entry)",
+        "target_modest": 482,
+        "target_moderate": 490,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -47,23 +47,26 @@
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
         "in_mover_types": [
+          "MOVER_TYPE_TOP_VOLUME",
+          "MOVER_TYPE_TOP_VALUE",
           "MOVER_TYPE_NET_FOREIGN_BUY",
+          "SCREENER_VOLUME_EXPLOSION",
           "GURU_78_Daily Net Fo",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
-        "from_screener": false
+        "from_screener": true
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.5%), volume mati (0.46x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.3%), volume mati (0.46x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
-        "Range D-1 kecil (3.0%) — noise rendah besok",
-        "Asing beli bersih hari ini (Rp 3.2B)"
+        "Di atas MA200 — tren utama masih bullish",
+        "Range D-1 kecil (2.5%) — noise rendah besok",
+        "Asing beli bersih hari ini (Rp 6.2B)",
+        "Masuk screener volume Stockbit — ada perhatian pasar"
       ],
-      "signals_negative": [
-        "Upper wick besar (50%) — tekanan jual D-1"
-      ],
+      "signals_negative": [],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
         "win_rate": "49.8%",
@@ -84,11 +87,11 @@
       "ticker": "GGRM",
       "company": "Gudang Garam Tbk.",
       "score": 70,
-      "close": 20475.0,
-      "near_52w_pct": 98.0,
-      "wk_rsi": 70.8,
+      "close": 20550.0,
+      "near_52w_pct": 98.3,
+      "wk_rsi": 71.0,
       "wk_adx": 20.9,
-      "mo_rsi": 73.0,
+      "mo_rsi": 73.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -105,45 +108,21 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "VERN",
-      "company": "Verona Indah Pictures Tbk.",
-      "score": 70,
-      "close": 224.0,
-      "near_52w_pct": 96.6,
-      "wk_rsi": 76.2,
-      "wk_adx": 27.6,
-      "mo_rsi": 65.6,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (76) + Wk ADX (28) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (66)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.3B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "KOTA",
       "company": "DMS Propertindo Tbk.",
       "score": 65,
-      "close": 177.0,
-      "near_52w_pct": 95.7,
-      "wk_rsi": 57.5,
+      "close": 179.0,
+      "near_52w_pct": 96.8,
+      "wk_rsi": 58.0,
       "wk_adx": 45.7,
-      "mo_rsi": 73.9,
+      "mo_rsi": 74.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (58) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
+        "Near 52W High (97%) + Wk RSI (58) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -155,18 +134,18 @@
       "ticker": "BFIN",
       "company": "BFI Finance Indonesia Tbk.",
       "score": 65,
-      "close": 950.0,
-      "near_52w_pct": 99.0,
-      "wk_rsi": 66.3,
+      "close": 940.0,
+      "near_52w_pct": 97.9,
+      "wk_rsi": 65.8,
       "wk_adx": 21.3,
-      "mo_rsi": 63.4,
+      "mo_rsi": 62.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (66) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
+        "Near 52W High (98%) + Wk RSI (66) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (63)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -196,11 +175,34 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1005.0,
+      "near_52w_pct": 99.5,
+      "wk_rsi": 75.5,
+      "wk_adx": 41.8,
+      "mo_rsi": 76.4,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (100%) + Wk RSI (76) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
+        "Monthly RSI kuat (76)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-05 14:36:21 WIB",
+    "generated_at": "2026-08-05 14:54:55 WIB",
     "date": "2026-08-05",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -228,8 +230,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6355,
-    "ihsg_change_pct": 0.57,
+    "ihsg_close": 6348,
+    "ihsg_change_pct": 0.46,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -237,11 +239,11 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 102,
+    "after_liquidity": 103,
     "after_accumulation": 22,
-    "after_trend": 6,
-    "after_smc": 4,
-    "after_entry": 2,
+    "after_trend": 5,
+    "after_smc": 3,
+    "after_entry": 3,
     "final": 0
   },
   "config_ara": {
