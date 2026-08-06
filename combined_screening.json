@@ -16,13 +16,13 @@
         "iep_change_pct": -13.043478260869565
       },
       "bsjp_features": {
-        "vol_ratio20": 5.94,
+        "vol_ratio20": 6.94,
         "body_pct": 15.0,
         "close_pos_pct": 96.3,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": true,
-        "atr_pct": 7.36
+        "atr_pct": 5.81
       },
       "entry_plan": {
         "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
@@ -45,7 +45,7 @@
         "from_top_value": true
       },
       "signals_positive": [
-        "Volume spike kuat 5.9x MA20",
+        "Volume spike kuat 6.9x MA20",
         "Candle hijau sangat kuat (15.0%)",
         "Tutup sangat dekat puncak (96%)",
         "Uptrend penuh: di atas MA20, MA50, MA200",
@@ -183,7 +183,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-06 12:14:56 WIB",
+    "generated_at": "2026-08-06 12:37:07 WIB",
     "date": "2026-08-06",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -211,8 +211,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6353,
-    "ihsg_change_pct": 0.03,
+    "ihsg_close": 6351,
+    "ihsg_change_pct": 0.0,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -222,7 +222,7 @@
     "universe": 978,
     "after_liquidity": 92,
     "after_accumulation": 25,
-    "after_trend": 8,
+    "after_trend": 7,
     "after_smc": 2,
     "after_entry": 0,
     "final": 0
