@@ -8,13 +8,13 @@
   "position_trading": [],
   "meta": {
     "status": "no_signal",
-    "generated_at": "2026-08-07 03:41:03 WIB",
+    "generated_at": "2026-08-07 05:01:17 WIB",
     "date": "2026-08-07",
-    "mode": "FULL_STOCKBIT",
+    "mode": "YAHOO_ONLY",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
     "session_warning": null,
-    "mode_warning": null,
+    "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — ARA pipeline tidak berjalan",
     "intraday_count": 0,
     "ara_count": 0,
     "bsjp_count": 0,
@@ -36,12 +36,7 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6351,
-    "ihsg_change_pct": 0.5,
-    "ihsg_trend": "NEUTRAL",
-    "ihsg_above_ma50": true,
-    "market_safe": true,
-    "warning": null
+    "market_safe": false
   },
   "screening_summary": {},
   "config_ara": {
