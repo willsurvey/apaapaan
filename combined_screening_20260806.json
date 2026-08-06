@@ -124,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-06 08:32:22 WIB",
+    "generated_at": "2026-08-06 08:53:56 WIB",
     "date": "2026-08-06",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -152,8 +152,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6319,
-    "ihsg_change_pct": 1.37,
+    "ihsg_close": 6351,
+    "ihsg_change_pct": 0.5,
     "ihsg_trend": "NEUTRAL",
     "ihsg_above_ma50": true,
     "market_safe": true,
