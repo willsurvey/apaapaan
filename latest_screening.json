@@ -1,14 +1,19 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-08-07 03:01:09 WIB",
+  "generated_at": "2026-08-07 03:41:03 WIB",
   "date": "2026-08-07",
-  "mode": "YAHOO_ONLY",
+  "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
-  "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — Data terbatas (Yahoo Finance only)",
+  "mode_warning": null,
   "total_saham": 0,
   "market_context": {
-    "market_safe": false
+    "ihsg_close": 6351,
+    "ihsg_change_pct": 0.5,
+    "ihsg_trend": "NEUTRAL",
+    "ihsg_above_ma50": true,
+    "market_safe": true,
+    "warning": null
   },
   "screening_summary": {},
   "config": {
