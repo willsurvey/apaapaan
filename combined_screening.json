@@ -11,8 +11,8 @@
       "score": 55,
       "market_data": {
         "close": 5125.0,
-        "change_pct": 0.49,
-        "value_today": 105308497500,
+        "change_pct": 0.98,
+        "value_today": 106588960000,
         "net_foreign": -24779267500
       },
       "d1_features": {
@@ -85,8 +85,8 @@
       "score": 40,
       "market_data": {
         "close": 157.0,
-        "change_pct": 1.95,
-        "value_today": 65198261700,
+        "change_pct": 2.6,
+        "value_today": 66090441000,
         "net_foreign": -4991639700
       },
       "d1_features": {
@@ -159,8 +159,8 @@
       "score": 40,
       "market_data": {
         "close": 4370.0,
-        "change_pct": 1.16,
-        "value_today": 113615336000,
+        "change_pct": 2.55,
+        "value_today": 136775348000,
         "net_foreign": -68144306000
       },
       "d1_features": {
@@ -300,22 +300,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
+      "ticker": "POWR",
+      "company": "Cikarang Listrindo Tbk.",
       "score": 65,
-      "close": 1000.0,
-      "near_52w_pct": 99.0,
-      "wk_rsi": 74.4,
-      "wk_adx": 41.8,
-      "mo_rsi": 75.4,
+      "close": 735.0,
+      "near_52w_pct": 99.3,
+      "wk_rsi": 65.2,
+      "wk_adx": 54.1,
+      "mo_rsi": 73.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (74) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (99%) + Wk RSI (65) + Wk ADX (54) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (75)",
+        "Monthly RSI kuat (73)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -323,22 +323,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MARK",
-      "company": "Mark Dynamics Indonesia Tbk.",
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1095.0,
-      "near_52w_pct": 96.1,
-      "wk_rsi": 76.0,
-      "wk_adx": 28.4,
-      "mo_rsi": 85.1,
+      "close": 1005.0,
+      "near_52w_pct": 99.5,
+      "wk_rsi": 75.5,
+      "wk_adx": 41.8,
+      "mo_rsi": 76.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (76) + Wk ADX (28) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (85)",
+        "Near 52W High (100%) + Wk RSI (76) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
+        "Monthly RSI kuat (76)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -348,7 +348,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-07 13:54:06 WIB",
+    "generated_at": "2026-08-07 14:15:02 WIB",
     "date": "2026-08-07",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -385,11 +385,11 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 85,
-    "after_accumulation": 16,
+    "after_liquidity": 87,
+    "after_accumulation": 17,
     "after_trend": 5,
     "after_smc": 2,
-    "after_entry": 2,
+    "after_entry": 1,
     "final": 0
   },
   "config_ara": {
