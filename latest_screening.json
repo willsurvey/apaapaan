@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-08 04:18:52 WIB",
+  "generated_at": "2026-08-08 04:35:05 WIB",
   "date": "2026-08-08",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -19,7 +19,7 @@
     "universe": 978,
     "after_liquidity": 103,
     "after_accumulation": 49,
-    "after_trend": 23,
+    "after_trend": 24,
     "after_smc": 6,
     "after_entry": 4,
     "final": 4
@@ -79,8 +79,8 @@
         }
       },
       "trend": {
-        "ma50": 16432.0,
-        "gap_from_ma50_pct": 25.36,
+        "ma50": 16570.0,
+        "gap_from_ma50_pct": 31.11,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -133,7 +133,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "04.17 WIB"
+      "updated_at": "04.33 WIB"
     },
     {
       "rank": 2,
@@ -171,8 +171,8 @@
         }
       },
       "trend": {
-        "ma50": 2223.0,
-        "gap_from_ma50_pct": 14.72,
+        "ma50": 2228.0,
+        "gap_from_ma50_pct": 21.19,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -224,7 +224,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "04.17 WIB"
+      "updated_at": "04.33 WIB"
     },
     {
       "rank": 3,
@@ -260,8 +260,8 @@
         }
       },
       "trend": {
-        "ma50": 421.0,
-        "gap_from_ma50_pct": 7.41,
+        "ma50": 423.0,
+        "gap_from_ma50_pct": 9.26,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -313,7 +313,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "04.17 WIB"
+      "updated_at": "04.33 WIB"
     },
     {
       "rank": 4,
@@ -349,8 +349,8 @@
         }
       },
       "trend": {
-        "ma50": 1678.0,
-        "gap_from_ma50_pct": 7.58,
+        "ma50": 1681.0,
+        "gap_from_ma50_pct": 8.25,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -402,7 +402,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "04.17 WIB"
+      "updated_at": "04.33 WIB"
     }
   ]
 }
