@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-08 08:35:35 WIB",
+  "generated_at": "2026-08-08 08:55:46 WIB",
   "date": "2026-08-08",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -8,9 +8,9 @@
   "mode_warning": null,
   "total_saham": 5,
   "market_context": {
-    "ihsg_close": 6343,
-    "ihsg_change_pct": -0.12,
-    "ihsg_trend": "NEUTRAL",
+    "ihsg_close": 6409,
+    "ihsg_change_pct": 1.04,
+    "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
     "warning": null
@@ -134,7 +134,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.54 WIB"
     },
     {
       "rank": 2,
@@ -224,7 +224,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.54 WIB"
     },
     {
       "rank": 3,
@@ -315,7 +315,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.54 WIB"
     },
     {
       "rank": 4,
@@ -403,7 +403,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.54 WIB"
     },
     {
       "rank": 5,
@@ -492,7 +492,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.54 WIB"
     }
   ]
 }
