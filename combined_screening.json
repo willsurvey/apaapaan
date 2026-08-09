@@ -91,7 +91,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "19.33 WIB"
+      "updated_at": "19.53 WIB"
     },
     {
       "rank": 2,
@@ -181,7 +181,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "19.33 WIB"
+      "updated_at": "19.53 WIB"
     },
     {
       "rank": 3,
@@ -272,7 +272,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "19.33 WIB"
+      "updated_at": "19.53 WIB"
     },
     {
       "rank": 4,
@@ -360,7 +360,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "19.33 WIB"
+      "updated_at": "19.53 WIB"
     },
     {
       "rank": 5,
@@ -449,7 +449,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "19.33 WIB"
+      "updated_at": "19.53 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -540,7 +540,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "19:34 WIB"
+      "generated_at": "19:54 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -668,7 +668,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-09 19:35:03 WIB",
+    "generated_at": "2026-08-09 19:54:59 WIB",
     "date": "2026-08-09",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Sunday)",
