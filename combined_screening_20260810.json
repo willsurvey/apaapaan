@@ -7,9 +7,33 @@
   "trend_following": [],
   "position_trading": [
     {
+      "ticker": "MARK",
+      "company": "Mark Dynamics Indonesia Tbk.",
+      "score": 70,
+      "close": 1095.0,
+      "near_52w_pct": 96.1,
+      "wk_rsi": 76.1,
+      "wk_adx": 28.4,
+      "mo_rsi": 85.1,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (76) + Wk ADX (28) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (85)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 1.7B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "GGRM",
       "company": "Gudang Garam Tbk.",
-      "score": 70,
+      "score": 65,
       "close": 20750.0,
       "near_52w_pct": 95.1,
       "wk_rsi": 73.4,
@@ -24,32 +48,7 @@
         "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (73)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 24.7B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "TOTL",
-      "company": "Total Bangun Persada Tbk.",
-      "score": 70,
-      "close": 1330.0,
-      "near_52w_pct": 97.8,
-      "wk_rsi": 70.2,
-      "wk_adx": 43.5,
-      "mo_rsi": 85.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (70) + Wk ADX (43) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (86)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.1B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -101,22 +100,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MARK",
-      "company": "Mark Dynamics Indonesia Tbk.",
+      "ticker": "POWR",
+      "company": "Cikarang Listrindo Tbk.",
       "score": 65,
-      "close": 1095.0,
-      "near_52w_pct": 96.1,
-      "wk_rsi": 76.1,
-      "wk_adx": 28.4,
-      "mo_rsi": 85.1,
+      "close": 765.0,
+      "near_52w_pct": 97.5,
+      "wk_rsi": 65.2,
+      "wk_adx": 53.5,
+      "mo_rsi": 76.3,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (76) + Wk ADX (28) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (85)",
+        "Near 52W High (97%) + Wk RSI (65) + Wk ADX (54) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (76)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -126,7 +125,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-10 17:37:39 WIB",
+    "generated_at": "2026-08-10 17:55:03 WIB",
     "date": "2026-08-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -163,9 +162,9 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 104,
-    "after_accumulation": 30,
-    "after_trend": 5,
+    "after_liquidity": 102,
+    "after_accumulation": 28,
+    "after_trend": 7,
     "after_smc": 1,
     "after_entry": 0,
     "final": 0
