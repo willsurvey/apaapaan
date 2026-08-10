@@ -4,124 +4,7 @@
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
-  "trend_following": [
-    {
-      "ticker": "RODA",
-      "company": "Pikko Land Development tbk.",
-      "score": 75,
-      "close": 70.0,
-      "adx": 41.5,
-      "rsi": 60.0,
-      "macd_hist": 1.0699,
-      "wk_adx": 31.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (42) + RSI sehat (60) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+18.6%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (31)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif",
-        "Asing beli bersih (Rp 0.2B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "JGLE",
-      "company": "Graha Andrasentra Propertindo Tbk.",
-      "score": 70,
-      "close": 95.0,
-      "adx": 39.2,
-      "rsi": 71.9,
-      "macd_hist": 3.838,
-      "wk_adx": 32.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (39) + RSI sehat (72) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+46.2%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (32)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "ICON",
-      "company": "Island Concepts Indonesia Tbk.",
-      "score": 70,
-      "close": 114.0,
-      "adx": 34.5,
-      "rsi": 57.7,
-      "macd_hist": 1.1307,
-      "wk_adx": 45.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (35) + RSI sehat (58) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+7.5%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (45)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "LAND",
-      "company": "Trimitra Propertindo Tbk.",
-      "score": 70,
-      "close": 84.0,
-      "adx": 43.6,
-      "rsi": 58.8,
-      "macd_hist": 0.2222,
-      "wk_adx": 37.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (44) + RSI sehat (59) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+9.1%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (37)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "POWR",
-      "company": "Cikarang Listrindo Tbk.",
-      "score": 70,
-      "close": 765.0,
-      "adx": 46.2,
-      "rsi": 70.6,
-      "macd_hist": 2.1125,
-      "wk_adx": 53.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (46) + RSI sehat (71) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+5.5%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (54)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    }
-  ],
+  "trend_following": [],
   "position_trading": [
     {
       "ticker": "GGRM",
@@ -243,7 +126,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-10 16:58:06 WIB",
+    "generated_at": "2026-08-10 17:16:23 WIB",
     "date": "2026-08-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -255,7 +138,7 @@
     "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
-    "trend_count": 5,
+    "trend_count": 0,
     "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
