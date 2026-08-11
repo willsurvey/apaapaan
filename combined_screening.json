@@ -55,11 +55,11 @@
       "d2_change_pct": 33.33,
       "d2_body_pct": 0.947,
       "d2_vol_ratio_ma20": 14.52,
-      "m1_last15_green": 11,
-      "m1_close_vs_vwap": -6.02,
-      "m1_close_pos_intra": 0.1,
+      "m1_last15_green": 12,
+      "m1_close_vs_vwap": -4.77,
+      "m1_close_pos_intra": 0.2,
       "m1_high_timing": 0.028,
-      "m1_n_bars": 176,
+      "m1_n_bars": 177,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -80,7 +80,7 @@
       ],
       "signals_negative": [
         "Closing flat bias: 9/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -6.0%",
+        "Close di bawah VWAP: -4.8%",
         "High intraday di awal sesi (3%) — profit taking sore",
         "5d trend terlalu cepat: +40.7%"
       ],
@@ -91,7 +91,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "12:33 WIB"
+      "generated_at": "12:53 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -129,7 +129,7 @@
       "close": 775.0,
       "near_52w_pct": 98.7,
       "wk_rsi": 70.9,
-      "wk_adx": 55.3,
+      "wk_adx": 55.1,
       "mo_rsi": 77.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -217,7 +217,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-11 12:35:04 WIB",
+    "generated_at": "2026-08-11 12:55:03 WIB",
     "date": "2026-08-11",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
