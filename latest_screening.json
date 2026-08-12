@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-08-12 07:38:05 WIB",
+  "generated_at": "2026-08-12 07:56:21 WIB",
   "date": "2026-08-12",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,12 +8,12 @@
   "mode_warning": null,
   "total_saham": 0,
   "market_context": {
-    "ihsg_close": 6365,
-    "ihsg_change_pct": -0.69,
+    "ihsg_close": 6267,
+    "ihsg_change_pct": -1.53,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
-    "warning": null
+    "warning": "⚠️ IHSG turun -1.5% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
     "universe": 978,
