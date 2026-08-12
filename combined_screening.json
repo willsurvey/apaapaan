@@ -90,7 +90,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "06.34 WIB"
+      "updated_at": "06.54 WIB"
     },
     {
       "rank": 2,
@@ -182,7 +182,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "06.34 WIB"
+      "updated_at": "06.54 WIB"
     },
     {
       "rank": 3,
@@ -274,7 +274,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "06.34 WIB"
+      "updated_at": "06.54 WIB"
     },
     {
       "rank": 4,
@@ -365,7 +365,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "06.34 WIB"
+      "updated_at": "06.54 WIB"
     },
     {
       "rank": 5,
@@ -456,101 +456,10 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "06.34 WIB"
+      "updated_at": "06.54 WIB"
     }
   ],
-  "logika_baru_calon_ara": [
-    {
-      "ticker": "SWID",
-      "company": "Saraswanti Indoland Development Tbk.",
-      "type": "CALON_ARA",
-      "score": 72,
-      "score_tier": "STRONG",
-      "pattern_type": "SILENT_ACCUMULATION",
-      "confluence_count": 9,
-      "entry_range": "106 – 144",
-      "entry_lower": 106,
-      "entry_upper": 144,
-      "entry_note": "Pasang Limit Order pukul 19:00 di 107–144 (PDC hingga harga ARA). Tipe Quiet Accumulation gap lebih kecil — peluang fill order lebih tinggi dibanding Tipe Continuation.",
-      "entry_range_pct": 35.5,
-      "ara_price_ref": 144,
-      "ara_limit_pct": 35.0,
-      "gap_risk_note": "Backtest: 64% saham ARA Gap Up >2% di pagi hari. Median gap: +3.70% dari harga ARA. Limit Order berisiko tidak fill.",
-      "estimated_target_pct": "+7% hingga +16% dari harga beli",
-      "target_morning_exit": 156,
-      "target_base": 169,
-      "target_optimistic": 175,
-      "target_morning_exit_pct": 7.0,
-      "target_base_pct": 16.0,
-      "target_optimistic_pct": 20.0,
-      "target_note": "Pagi: 156 (~+7%) | Moderat: 169 (~+16%) | Full: 175 (~+20%) | JUAL PAGI, bukan hold sampai close.",
-      "assumed_entry": 146,
-      "exit_timing_guide": "JUAL DI PAGI HARI (09:00-09:30 WIB). Backtest menunjukkan High D+1 median +16.77% dari harga ARA. Setelah 09:30, momentum sering berbalik. Jika masih ARA lagi (23.5% peluang), hold dengan trailing stop.",
-      "reason_beginner_friendly": "SWID diam-diam banyak ditransaksikan kemarin (volume 14x dari biasanya) meski harga tidak bergerak banyak. Ini pola sebelum harga melonjak tajam — tapi bisa juga tidak terjadi apa-apa jika tidak ada berita pendukung. ✅ Broker signal: Big Acc. Skor kepercayaan: TINGGI.",
-      "risk_warning": "⚠️ FALSE SIGNAL RATE ~85-90%. Konfirmasi dengan broker flow, berita, dan analisis manual sebelum beli. | 📌 Batasi posisi: max 2% dari portofolio.",
-      "d1p_backtest_stats": {
-        "high_d1_median": "+16.77% dari harga ARA (n=2213)",
-        "profit_morning": "84.5% sempat naik >5% di D+1",
-        "close_d1_profit": "hanya 48.9% (hampir coin flip — JANGAN hold)",
-        "continued_ara_pct": "23.5% lanjut ARA hari berikutnya",
-        "sample_size": "n=2.213 kunci ARA pertama pada saham liquid"
-      },
-      "broker_signal": "Big Acc",
-      "d1_date": "2026-08-12",
-      "d1_close": 107.0,
-      "d1_open": 101.0,
-      "d1_high": 121.0,
-      "d1_low": 101.0,
-      "d1_change_pct": 5.94,
-      "d1_vol_ratio_ma20": 13.83,
-      "d1_vol_ratio_ma5": 11.08,
-      "d1_body_pct": 0.3,
-      "d1_upper_wick": 0.7,
-      "d1_lower_wick": 0.0,
-      "d1_close_pos": 0.3,
-      "d1_bullish": true,
-      "d1_range_expansion": 3.04,
-      "d1_value_rp": 1237059100000,
-      "d2_change_pct": -2.88,
-      "d2_body_pct": 0.4,
-      "d2_vol_ratio_ma20": 1.85,
-      "m1_last15_green": 12,
-      "m1_close_vs_vwap": -4.92,
-      "m1_close_pos_intra": 0.222,
-      "m1_high_timing": 0.193,
-      "m1_n_bars": 285,
-      "m1_data_available": true,
-      "above_ma20": true,
-      "above_ma50": true,
-      "ma20": 100.0,
-      "ma50": 93.0,
-      "up_streak_days": 0,
-      "trend_5d_pct": 3.88,
-      "signals_positive": [
-        "Volume D-1 ekstrem: 13.8x MA20 (tier-2 ≥6x)",
-        "Volume D-2 elevated: 1.9x MA20 (akumulasi dini)",
-        "Upper wick rejection: 0.70 (smart money absorption)",
-        "Body kecil D-1: 0.30 (candle akumulasi)",
-        "Close pos rendah: 0.30 (buyers absorbed selling)",
-        "Range expansion: 3.0x avg-5d",
-        "Harga di atas MA20",
-        "5d trend sehat: +3.9%",
-        "Broker signal: Big Accumulation (+10 poin)"
-      ],
-      "signals_negative": [
-        "Closing flat bias: 10/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -4.9%",
-        "High intraday di awal sesi (19%) — profit taking sore"
-      ],
-      "universe_sources": [
-        "SCREENER_VOL_EXPLOSION",
-        "GURU_92",
-        "GURU_94"
-      ],
-      "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "06:34 WIB"
-    }
-  ],
+  "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
@@ -610,14 +519,14 @@
       "close": 825.0,
       "near_52w_pct": 98.8,
       "wk_rsi": 77.0,
-      "wk_adx": 55.0,
+      "wk_adx": 55.7,
       "mo_rsi": 80.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (77) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (99%) + Wk RSI (77) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (81)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -675,7 +584,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-13 06:36:00 WIB",
+    "generated_at": "2026-08-13 06:55:28 WIB",
     "date": "2026-08-13",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -683,7 +592,7 @@
     "session_warning": null,
     "mode_warning": null,
     "intraday_count": 5,
-    "ara_count": 1,
+    "ara_count": 0,
     "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
