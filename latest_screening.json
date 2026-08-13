@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-13 16:54:56 WIB",
+  "generated_at": "2026-08-13 17:14:53 WIB",
   "date": "2026-08-13",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -18,10 +18,10 @@
   "screening_summary": {
     "universe": 978,
     "after_liquidity": 110,
-    "after_accumulation": 27,
-    "after_trend": 3,
-    "after_smc": 2,
-    "after_entry": 2,
+    "after_accumulation": 16,
+    "after_trend": 7,
+    "after_smc": 4,
+    "after_entry": 3,
     "final": 1
   },
   "config": {
@@ -68,14 +68,14 @@
         "broker_signal": "Big Acc",
         "net_foreign_today": 135315681500,
         "net_foreign_3d": 0,
-        "acc_score": 45,
+        "acc_score": 35,
         "score_breakdown": {
           "broker": 35,
-          "foreign_1d": 0,
+          "foreign_1d": -10,
           "foreign_3d": 0,
           "candle": 0,
           "volume": 10,
-          "total": 45
+          "total": 35
         }
       },
       "trend": {
@@ -132,7 +132,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.53 WIB"
+      "updated_at": "17.13 WIB"
     }
   ]
 }
