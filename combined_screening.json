@@ -88,7 +88,7 @@
         "✅ Pullback ke MA50 (4.3% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "04.14 WIB"
+      "updated_at": "04.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -180,7 +180,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "04:15 WIB"
+      "generated_at": "04:34 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -308,7 +308,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-14 04:16:20 WIB",
+    "generated_at": "2026-08-14 04:35:59 WIB",
     "date": "2026-08-14",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
