@@ -7,6 +7,29 @@
   "trend_following": [],
   "position_trading": [
     {
+      "ticker": "AUTO",
+      "company": "Astra Otoparts Tbk.",
+      "score": 65,
+      "close": 2820.0,
+      "near_52w_pct": 98.9,
+      "wk_rsi": 59.6,
+      "wk_adx": 23.2,
+      "mo_rsi": 69.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (99%) + Wk RSI (60) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (69)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "MARK",
       "company": "Mark Dynamics Indonesia Tbk.",
       "score": 65,
@@ -23,75 +46,6 @@
         "Near 52W High (98%) + Wk RSI (76) + Wk ADX (29) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (86)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "POWR",
-      "company": "Cikarang Listrindo Tbk.",
-      "score": 65,
-      "close": 825.0,
-      "near_52w_pct": 98.8,
-      "wk_rsi": 77.0,
-      "wk_adx": 55.0,
-      "mo_rsi": 80.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (77) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (81)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BSML",
-      "company": "Bintang Samudera Mandiri Lines Tbk.",
-      "score": 65,
-      "close": 525.0,
-      "near_52w_pct": 96.3,
-      "wk_rsi": 78.5,
-      "wk_adx": 47.8,
-      "mo_rsi": 98.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (79) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (99)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "WGSH",
-      "company": "Wira Global Solusi Tbk",
-      "score": 65,
-      "close": 187.0,
-      "near_52w_pct": 98.4,
-      "wk_rsi": 72.4,
-      "wk_adx": 22.2,
-      "mo_rsi": 71.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (72) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (71)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -120,11 +74,57 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "GJTL",
+      "company": "Gajah Tunggal Tbk.",
+      "score": 65,
+      "close": 1310.0,
+      "near_52w_pct": 97.0,
+      "wk_rsi": 64.2,
+      "wk_adx": 34.5,
+      "mo_rsi": 79.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (64) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (80)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "POWR",
+      "company": "Cikarang Listrindo Tbk.",
+      "score": 65,
+      "close": 825.0,
+      "near_52w_pct": 98.8,
+      "wk_rsi": 77.0,
+      "wk_adx": 55.7,
+      "mo_rsi": 80.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (99%) + Wk RSI (77) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (81)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-13 08:13:29 WIB",
+    "generated_at": "2026-08-13 08:33:17 WIB",
     "date": "2026-08-13",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
