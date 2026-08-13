@@ -1,15 +1,15 @@
 {
-  "status": "success",
-  "generated_at": "2026-08-13 15:15:03 WIB",
+  "status": "no_signal",
+  "generated_at": "2026-08-13 15:35:55 WIB",
   "date": "2026-08-13",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
   "mode_warning": null,
-  "total_saham": 1,
+  "total_saham": 0,
   "market_context": {
-    "ihsg_close": 6306,
-    "ihsg_change_pct": -1.06,
+    "ihsg_close": 6297,
+    "ihsg_change_pct": -1.2,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,12 +17,12 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 108,
+    "after_liquidity": 109,
     "after_accumulation": 27,
-    "after_trend": 4,
-    "after_smc": 2,
-    "after_entry": 1,
-    "final": 1
+    "after_trend": 1,
+    "after_smc": 1,
+    "after_entry": 0,
+    "final": 0
   },
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
@@ -42,100 +42,5 @@
     "max_output": 5,
     "min_rr": 2.0
   },
-  "data": [
-    {
-      "rank": 1,
-      "ticker": "CUAN",
-      "company": "Petrindo Jaya Kreasi Tbk.",
-      "mode": "FULL_STOCKBIT",
-      "universe_sources": [
-        "MOVER_TYPE_TOP_VOLUME",
-        "MOVER_TYPE_TOP_VALUE",
-        "MOVER_TYPE_NET_FOREIGN_BUY",
-        "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula",
-        "SCREENER_TOP_VALUE"
-      ],
-      "market_data": {
-        "close": 840,
-        "change_pct": -4.02,
-        "value_today": 1206081226000,
-        "frequency_today": 114377,
-        "iep": 860,
-        "iep_change_pct": 2.99
-      },
-      "accumulation": {
-        "broker_signal": "Big Acc",
-        "net_foreign_today": 135315681500,
-        "net_foreign_3d": 0,
-        "acc_score": 45,
-        "score_breakdown": {
-          "broker": 35,
-          "foreign_1d": 0,
-          "foreign_3d": 0,
-          "candle": 0,
-          "volume": 10,
-          "total": 45
-        }
-      },
-      "trend": {
-        "ma50": 672.0,
-        "gap_from_ma50_pct": 24.26,
-        "ma50_slope": "POSITIVE"
-      },
-      "smc": {
-        "internal_structure": "NONE",
-        "swing_trend_bias": "BULLISH",
-        "ob_zone": null,
-        "fvg_zone": "830 - 870",
-        "strong_low": 650.0,
-        "weak_high": 825.0
-      },
-      "entry_plan": {
-        "whipsaw_risk": "HIGH",
-        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction": "GAP_UP",
-        "entry_direction_label": "⚡ Gap Up entry — entry di atas PDC jika gap terkonfirmasi (pantau volume)",
-        "entry_direction_reason": "IEP gap up 3.0%",
-        "entry_1": 860,
-        "entry_1_pct": 20,
-        "entry_1_note": "Gap up entry (IEP +3.0%)",
-        "entry_2": 840,
-        "entry_2_pct": 50,
-        "entry_2_note": "PDC / Bid Wall — antisipasi flat open",
-        "entry_3": 830,
-        "entry_3_pct": 30,
-        "entry_3_note": "Pullback fallback / OB zone",
-        "average_entry": 840,
-        "entry_zone": "830 - 860",
-        "sl": 815,
-        "sl_pct_risk": 2.98,
-        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 885,
-        "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 910,
-        "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 935,
-        "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:3.8",
-        "risk_pct": 2,
-        "risk_note": "Max 2% dari total portofolio"
-      },
-      "scoring": {
-        "confidence_score": 50,
-        "tier": "MODERATE"
-      },
-      "signals": [
-        "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp135.3B",
-        "✅ Harga di zona FVG aktif",
-        "✅ Swing Structure: BULLISH"
-      ],
-      "warnings": [
-        "⚠️ Potensi GAP UP 3.0% — entry_1 disesuaikan ke IEP",
-        "⚠️ Entry 1 DI ATAS close — prediksi gap up. Jika tidak gap, skip entry_1."
-      ],
-      "updated_at": "15.14 WIB"
-    }
-  ]
+  "data": []
 }
