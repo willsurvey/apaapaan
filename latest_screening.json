@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-14 04:35:59 WIB",
+  "generated_at": "2026-08-14 04:55:33 WIB",
   "date": "2026-08-14",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -78,8 +78,8 @@
         }
       },
       "trend": {
-        "ma50": 6090.0,
-        "gap_from_ma50_pct": 4.26,
+        "ma50": 6108.0,
+        "gap_from_ma50_pct": 4.38,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -128,10 +128,10 @@
         "✅ Broker Signal: Big Acc",
         "✅ Net Foreign Buy hari ini: Rp129.4B",
         "✅ Harga di zona Order Block aktif",
-        "✅ Pullback ke MA50 (4.3% di atas MA50)"
+        "✅ Pullback ke MA50 (4.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "04.34 WIB"
+      "updated_at": "04.54 WIB"
     }
   ]
 }
