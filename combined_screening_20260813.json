@@ -16,8 +16,8 @@
       "market_data": {
         "close": 840,
         "change_pct": -3.45,
-        "value_today": 1296685627500,
-        "frequency_today": 123978,
+        "value_today": 1300957279500,
+        "frequency_today": 124612,
         "iep": 840,
         "iep_change_pct": 0
       },
@@ -89,7 +89,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.15 WIB"
+      "updated_at": "16.35 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -135,23 +135,23 @@
       "d1_high": 126.0,
       "d1_low": 105.0,
       "d1_change_pct": 5.61,
-      "d1_vol_ratio_ma20": 11.88,
-      "d1_vol_ratio_ma5": 5.73,
+      "d1_vol_ratio_ma20": 11.92,
+      "d1_vol_ratio_ma5": 5.75,
       "d1_body_pct": 0.238,
       "d1_upper_wick": 0.619,
       "d1_lower_wick": 0.143,
       "d1_close_pos": 0.381,
       "d1_bullish": true,
       "d1_range_expansion": 2.29,
-      "d1_value_rp": 1855968500000,
+      "d1_value_rp": 1861950720000,
       "d2_change_pct": 5.94,
       "d2_body_pct": 0.3,
       "d2_vol_ratio_ma20": 8.36,
       "m1_last15_green": 12,
-      "m1_close_vs_vwap": -3.41,
+      "m1_close_vs_vwap": -1.77,
       "m1_close_pos_intra": 0.381,
-      "m1_high_timing": 0.13,
-      "m1_n_bars": 300,
+      "m1_high_timing": 0.128,
+      "m1_n_bars": 304,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -172,8 +172,7 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -3.4%",
+        "Closing flat bias: 10/14 bar flat — indikasi tidak aktif",
         "High intraday di awal sesi (13%) — profit taking sore"
       ],
       "universe_sources": [
@@ -183,7 +182,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:16 WIB"
+      "generated_at": "16:36 WIB"
     },
     {
       "ticker": "EKAD",
@@ -211,7 +210,7 @@
       "target_note": "Pagi: 400 (~+5%) | Moderat: 430 (~+13%) | Full: 456 (~+20%) | JUAL PAGI, bukan hold sampai close.",
       "assumed_entry": 380,
       "exit_timing_guide": "JUAL DI PAGI HARI (09:00-09:30 WIB). Backtest menunjukkan High D+1 median +16.77% dari harga ARA. Setelah 09:30, momentum sering berbalik. Jika masih ARA lagi (23.5% peluang), hold dengan trailing stop.",
-      "reason_beginner_friendly": "EKAD sudah naik 25% kemarin dengan volume 58x lebih besar dari biasanya. Ada pembeli besar yang masuk agresif. Jika momentum berlanjut, saham ini bisa naik lebih jauh besok. ✅ Broker signal: Big Acc. Skor kepercayaan: SEDANG.",
+      "reason_beginner_friendly": "EKAD sudah naik 25% kemarin dengan volume 57x lebih besar dari biasanya. Ada pembeli besar yang masuk agresif. Jika momentum berlanjut, saham ini bisa naik lebih jauh besok. ✅ Broker signal: Big Acc. Skor kepercayaan: SEDANG.",
       "risk_warning": "⚠️ FALSE SIGNAL RATE ~85-90%. Konfirmasi dengan broker flow, berita, dan analisis manual sebelum beli. | 📌 Batasi posisi: max 1% dari portofolio.",
       "d1p_backtest_stats": {
         "high_d1_median": "+16.77% dari harga ARA (n=2213)",
@@ -227,23 +226,23 @@
       "d1_high": 300.0,
       "d1_low": 280.0,
       "d1_change_pct": 25.0,
-      "d1_vol_ratio_ma20": 57.5,
-      "d1_vol_ratio_ma5": 19.59,
+      "d1_vol_ratio_ma20": 57.19,
+      "d1_vol_ratio_ma5": 19.49,
       "d1_body_pct": 0.0,
       "d1_upper_wick": 0.0,
       "d1_lower_wick": 1.0,
       "d1_close_pos": 1.0,
       "d1_bullish": false,
       "d1_range_expansion": 0.99,
-      "d1_value_rp": 1304739000000,
+      "d1_value_rp": 1297761000000,
       "d2_change_pct": 34.83,
       "d2_body_pct": 0.955,
       "d2_vol_ratio_ma20": 15.99,
       "m1_last15_green": 14,
-      "m1_close_vs_vwap": 0.9,
+      "m1_close_vs_vwap": 0.73,
       "m1_close_pos_intra": 1.0,
       "m1_high_timing": 0.0,
-      "m1_n_bars": 143,
+      "m1_n_bars": 142,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -252,14 +251,14 @@
       "up_streak_days": 1,
       "trend_5d_pct": 72.41,
       "signals_positive": [
-        "Volume D-1 ekstrem: 57.5x MA20 (tier-2 ≥6x)",
+        "Volume D-1 ekstrem: 57.2x MA20 (tier-2 ≥6x)",
         "Volume D-2 elevated: 16.0x MA20 (akumulasi dini)",
-        "Continuation D-1: +25.0% vol 57.5x MA20",
+        "Continuation D-1: +25.0% vol 57.2x MA20",
         "Body kecil D-1: 0.00 (candle akumulasi)",
         "D-2 early signal: +34.8% vol 16.0x",
         "Harga di atas MA20",
         "Close intraday kuat: 1.00 (mendekati high harian)",
-        "Close sedikit di atas VWAP: +0.9%",
+        "Close sedikit di atas VWAP: +0.7%",
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
@@ -272,7 +271,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:16 WIB"
+      "generated_at": "16:36 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -284,13 +283,13 @@
       "market_data": {
         "close": 272.0,
         "change_pct": 24.77,
-        "value_today": 18680203200,
+        "value_today": 21586713600,
         "net_foreign": 84058900,
         "iep": 272,
         "iep_change_pct": 0
       },
       "bsjp_features": {
-        "vol_ratio20": 6.94,
+        "vol_ratio20": 7.56,
         "body_pct": 20.35,
         "close_pos_pct": 100.0,
         "above_ma20": true,
@@ -309,6 +308,7 @@
       },
       "universe_context": {
         "in_mover_types": [
+          "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_GAINER",
           "SCREENER_VOLUME_EXPLOSION",
           "GURU_63_High Volume ",
@@ -319,7 +319,7 @@
         "from_top_value": true
       },
       "signals_positive": [
-        "Volume spike kuat 6.9x MA20",
+        "Volume spike kuat 7.6x MA20",
         "Candle hijau sangat kuat (20.3%)",
         "Tutup di puncak absolut — tidak ada upper wick",
         "Uptrend penuh: di atas MA20, MA50, MA200",
@@ -458,7 +458,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-13 16:17:51 WIB",
+    "generated_at": "2026-08-13 16:37:31 WIB",
     "date": "2026-08-13",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -486,8 +486,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6295,
-    "ihsg_change_pct": -1.23,
+    "ihsg_close": 6301,
+    "ihsg_change_pct": -1.13,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
