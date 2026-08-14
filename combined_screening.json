@@ -88,7 +88,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "03.14 WIB"
+      "updated_at": "03.34 WIB"
     },
     {
       "rank": 2,
@@ -178,7 +178,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "03.14 WIB"
+      "updated_at": "03.34 WIB"
     },
     {
       "rank": 3,
@@ -268,7 +268,7 @@
         "✅ Pullback ke MA50 (3.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "03.14 WIB"
+      "updated_at": "03.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -327,10 +327,10 @@
       "d2_body_pct": 0.955,
       "d2_vol_ratio_ma20": 15.99,
       "m1_last15_green": 14,
-      "m1_close_vs_vwap": 0.9,
+      "m1_close_vs_vwap": 0.73,
       "m1_close_pos_intra": 1.0,
       "m1_high_timing": 0.0,
-      "m1_n_bars": 143,
+      "m1_n_bars": 142,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -346,7 +346,7 @@
         "D-2 early signal: +34.8% vol 16.0x",
         "Harga di atas MA20",
         "Close intraday kuat: 1.00 (mendekati high harian)",
-        "Close sedikit di atas VWAP: +0.9%",
+        "Close sedikit di atas VWAP: +0.7%",
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
@@ -359,7 +359,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "03:14 WIB"
+      "generated_at": "03:34 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -489,7 +489,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-15 03:15:54 WIB",
+    "generated_at": "2026-08-15 03:35:50 WIB",
     "date": "2026-08-15",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
