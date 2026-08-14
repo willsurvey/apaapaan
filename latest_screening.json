@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-08-14 14:14:40 WIB",
+  "generated_at": "2026-08-14 14:34:38 WIB",
   "date": "2026-08-14",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 0,
   "market_context": {
-    "ihsg_close": 6337,
-    "ihsg_change_pct": 0.56,
+    "ihsg_close": 6352,
+    "ihsg_change_pct": 0.8,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,7 +17,7 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 85,
+    "after_liquidity": 90,
     "after_accumulation": 6,
     "after_trend": 3,
     "after_smc": 2,
