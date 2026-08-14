@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-15 04:35:36 WIB",
+  "generated_at": "2026-08-15 04:55:37 WIB",
   "date": "2026-08-15",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -19,7 +19,7 @@
     "universe": 978,
     "after_liquidity": 113,
     "after_accumulation": 51,
-    "after_trend": 22,
+    "after_trend": 23,
     "after_smc": 11,
     "after_entry": 8,
     "final": 3
@@ -78,8 +78,8 @@
         }
       },
       "trend": {
-        "ma50": 8450.0,
-        "gap_from_ma50_pct": 7.1,
+        "ma50": 8488.0,
+        "gap_from_ma50_pct": 11.05,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -131,100 +131,10 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "04.34 WIB"
+      "updated_at": "04.54 WIB"
     },
     {
       "rank": 2,
-      "ticker": "GGRM",
-      "company": "Gudang Garam Tbk.",
-      "mode": "FULL_STOCKBIT",
-      "universe_sources": [
-        "MOVER_TYPE_NET_FOREIGN_BUY",
-        "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula",
-        "SCREENER_TOP_VALUE"
-      ],
-      "market_data": {
-        "close": 20200,
-        "change_pct": 0.87,
-        "value_today": 20951852500,
-        "frequency_today": 1865,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "accumulation": {
-        "broker_signal": "Big Acc",
-        "net_foreign_today": 1399070000,
-        "net_foreign_3d": 0,
-        "acc_score": 45,
-        "score_breakdown": {
-          "broker": 35,
-          "foreign_1d": 15,
-          "foreign_3d": 0,
-          "candle": 0,
-          "volume": -5,
-          "total": 45
-        }
-      },
-      "trend": {
-        "ma50": 16934.0,
-        "gap_from_ma50_pct": 18.25,
-        "ma50_slope": "POSITIVE"
-      },
-      "smc": {
-        "internal_structure": "BOS_BULLISH",
-        "swing_trend_bias": "BULLISH",
-        "ob_zone": "19400 - 19700",
-        "fvg_zone": null,
-        "strong_low": 19400.0,
-        "weak_high": 21800.0
-      },
-      "entry_plan": {
-        "whipsaw_risk": "HIGH",
-        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction": "MOMENTUM",
-        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu konfirmasi pantulan di area OB, hindari entry langsung pagi hari karena volatilitas tinggi!",
-        "entry_direction_reason": "Internal BOS/CHoCH bullish 1H + OB confirmed",
-        "entry_1": 20200,
-        "entry_1_pct": 20,
-        "entry_1_note": "PDC entry — momentum kuat (Internal BOS/CHoCH bullish 1H + OB confirmed)",
-        "entry_2": 20100,
-        "entry_2_pct": 50,
-        "entry_2_note": "Pullback ringan / OB zone",
-        "entry_3": 20050,
-        "entry_3_pct": 30,
-        "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 20100,
-        "entry_zone": "20050 - 20200",
-        "sl": 20000,
-        "sl_pct_risk": 0.5,
-        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 20400,
-        "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 21800,
-        "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 22450,
-        "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:23.5",
-        "risk_pct": 2,
-        "risk_note": "Max 2% dari total portofolio"
-      },
-      "scoring": {
-        "confidence_score": 65,
-        "tier": "MODERATE"
-      },
-      "signals": [
-        "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp1.4B",
-        "✅ Internal BOS Bullish (1H)",
-        "✅ Harga di zona Order Block aktif",
-        "✅ Swing Structure: BULLISH"
-      ],
-      "warnings": [],
-      "updated_at": "04.34 WIB"
-    },
-    {
-      "rank": 3,
       "ticker": "ADRO",
       "company": "Alamtri Resources Indonesia Tbk.",
       "mode": "FULL_STOCKBIT",
@@ -311,7 +221,96 @@
         "✅ Pullback ke MA50 (3.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "04.34 WIB"
+      "updated_at": "04.54 WIB"
+    },
+    {
+      "rank": 3,
+      "ticker": "GGRM",
+      "company": "Gudang Garam Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "MOVER_TYPE_NET_FOREIGN_BUY",
+        "SCREENER_VOLUME_EXPLOSION",
+        "GURU_92_Big Accumula",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 20200,
+        "change_pct": 0.87,
+        "value_today": 20951852500,
+        "frequency_today": 1865,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 1399070000,
+        "net_foreign_3d": 0,
+        "acc_score": 45,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 15,
+          "foreign_3d": 0,
+          "candle": 0,
+          "volume": -5,
+          "total": 45
+        }
+      },
+      "trend": {
+        "ma50": 17043.0,
+        "gap_from_ma50_pct": 18.53,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "BOS_BULLISH",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": null,
+        "fvg_zone": null,
+        "strong_low": 20425.0,
+        "weak_high": 21800.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 20150,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 20100,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 20050,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 20100,
+        "entry_zone": "20050 - 20150",
+        "sl": 20000,
+        "sl_pct_risk": 0.5,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 20400,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 21800,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 22450,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:23.5",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 60,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy hari ini: Rp1.4B",
+        "✅ Internal BOS Bullish (1H)",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [],
+      "updated_at": "04.54 WIB"
     }
   ]
 }
