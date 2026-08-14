@@ -55,11 +55,11 @@
       "d2_change_pct": 4.17,
       "d2_body_pct": 0.3,
       "d2_vol_ratio_ma20": 6.61,
-      "m1_last15_green": 12,
-      "m1_close_vs_vwap": -1.57,
-      "m1_close_pos_intra": 0.444,
-      "m1_high_timing": 0.077,
-      "m1_n_bars": 143,
+      "m1_last15_green": 13,
+      "m1_close_vs_vwap": -0.02,
+      "m1_close_pos_intra": 0.556,
+      "m1_high_timing": 0.075,
+      "m1_n_bars": 146,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -80,7 +80,7 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif",
+        "Closing flat bias: 10/14 bar flat — indikasi tidak aktif",
         "High intraday di awal sesi (8%) — profit taking sore"
       ],
       "universe_sources": [
@@ -89,7 +89,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "13:56 WIB"
+      "generated_at": "14:13 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -192,22 +192,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
+      "ticker": "TAMA",
+      "company": "Lancartama Sejati Tbk",
       "score": 65,
-      "close": 1005.0,
-      "near_52w_pct": 99.0,
-      "wk_rsi": 73.6,
-      "wk_adx": 43.9,
-      "mo_rsi": 76.4,
+      "close": 270.0,
+      "near_52w_pct": 95.1,
+      "wk_rsi": 58.0,
+      "wk_adx": 30.7,
+      "mo_rsi": 80.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (74) + Wk ADX (44) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (76)",
+        "Near 52W High (95%) + Wk RSI (58) + Wk ADX (31) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (81)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -217,7 +217,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-14 13:57:25 WIB",
+    "generated_at": "2026-08-14 14:14:40 WIB",
     "date": "2026-08-14",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -254,7 +254,7 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 84,
+    "after_liquidity": 85,
     "after_accumulation": 6,
     "after_trend": 3,
     "after_smc": 2,
