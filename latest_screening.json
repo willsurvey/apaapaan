@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-15 05:54:05 WIB",
+  "generated_at": "2026-08-15 06:15:22 WIB",
   "date": "2026-08-15",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -20,8 +20,8 @@
     "after_liquidity": 113,
     "after_accumulation": 51,
     "after_trend": 21,
-    "after_smc": 10,
-    "after_entry": 7,
+    "after_smc": 11,
+    "after_entry": 8,
     "final": 3
   },
   "config": {
@@ -78,8 +78,8 @@
         }
       },
       "trend": {
-        "ma50": 8488.0,
-        "gap_from_ma50_pct": 11.05,
+        "ma50": 8450.0,
+        "gap_from_ma50_pct": 7.1,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -131,7 +131,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "05.53 WIB"
+      "updated_at": "06.14 WIB"
     },
     {
       "rank": 2,
@@ -167,8 +167,8 @@
         }
       },
       "trend": {
-        "ma50": 17043.0,
-        "gap_from_ma50_pct": 18.53,
+        "ma50": 16934.0,
+        "gap_from_ma50_pct": 18.25,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -221,7 +221,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "05.53 WIB"
+      "updated_at": "06.14 WIB"
     },
     {
       "rank": 3,
@@ -258,8 +258,8 @@
         }
       },
       "trend": {
-        "ma50": 2395.0,
-        "gap_from_ma50_pct": 5.65,
+        "ma50": 2390.0,
+        "gap_from_ma50_pct": 3.36,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -307,10 +307,11 @@
       "signals": [
         "✅ Broker Signal: Big Acc",
         "✅ Net Foreign Buy hari ini: Rp3.0B",
-        "✅ Harga di zona Order Block aktif"
+        "✅ Harga di zona Order Block aktif",
+        "✅ Pullback ke MA50 (3.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "05.53 WIB"
+      "updated_at": "06.14 WIB"
     }
   ]
 }
