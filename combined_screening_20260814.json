@@ -1,186 +1,6 @@
 {
-  "logika_lama_intraday": [
-    {
-      "rank": 1,
-      "ticker": "ITMG",
-      "company": "Indo Tambangraya Megah Tbk.",
-      "mode": "FULL_STOCKBIT",
-      "universe_sources": [
-        "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula",
-        "SCREENER_TOP_VALUE"
-      ],
-      "market_data": {
-        "close": 25000,
-        "change_pct": 0,
-        "value_today": 38232747500.0,
-        "frequency_today": 0,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "accumulation": {
-        "broker_signal": "Big Acc",
-        "net_foreign_today": 0,
-        "net_foreign_3d": 0,
-        "acc_score": 45,
-        "score_breakdown": {
-          "broker": 35,
-          "foreign_1d": 0,
-          "foreign_3d": 0,
-          "candle": 10,
-          "volume": 0,
-          "total": 45
-        }
-      },
-      "trend": {
-        "ma50": 23442.0,
-        "gap_from_ma50_pct": 6.65,
-        "ma50_slope": "POSITIVE"
-      },
-      "smc": {
-        "internal_structure": "NONE",
-        "swing_trend_bias": "BULLISH",
-        "ob_zone": "24175 - 24400",
-        "fvg_zone": null,
-        "strong_low": 24500.0,
-        "weak_high": 25150.0
-      },
-      "entry_plan": {
-        "whipsaw_risk": "HIGH",
-        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction": "PULLBACK",
-        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction_reason": "",
-        "entry_1": 24875,
-        "entry_1_pct": 20,
-        "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 24600,
-        "entry_2_pct": 50,
-        "entry_2_note": "Area OB / FVG / Support",
-        "entry_3": 24225,
-        "entry_3_pct": 30,
-        "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 24550,
-        "entry_zone": "24225 - 24875",
-        "sl": 24175,
-        "sl_pct_risk": 1.53,
-        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 25075,
-        "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 25150,
-        "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 25900,
-        "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:3.6",
-        "risk_pct": 2,
-        "risk_note": "Max 2% dari total portofolio"
-      },
-      "scoring": {
-        "confidence_score": 50,
-        "tier": "MODERATE"
-      },
-      "signals": [
-        "✅ Broker Signal: Big Acc",
-        "✅ Harga di zona Order Block aktif",
-        "✅ Swing Structure: BULLISH"
-      ],
-      "warnings": [],
-      "updated_at": "16.53 WIB"
-    }
-  ],
-  "logika_baru_calon_ara": [
-    {
-      "ticker": "SURI",
-      "company": "Maja Agung Latexindo Tbk.",
-      "type": "CALON_ARA",
-      "score": 77,
-      "score_tier": "STRONG",
-      "pattern_type": "SILENT_ACCUMULATION",
-      "confluence_count": 10,
-      "entry_range": "77 – 105",
-      "entry_lower": 77,
-      "entry_upper": 105,
-      "entry_note": "Pasang Limit Order pukul 19:00 di 78–105 (PDC hingga harga ARA). Tipe Quiet Accumulation gap lebih kecil — peluang fill order lebih tinggi dibanding Tipe Continuation.",
-      "entry_range_pct": 35.9,
-      "ara_price_ref": 105,
-      "ara_limit_pct": 35.0,
-      "gap_risk_note": "Backtest: 64% saham ARA Gap Up >2% di pagi hari. Median gap: +3.70% dari harga ARA. Limit Order berisiko tidak fill.",
-      "estimated_target_pct": "+7% hingga +15% dari harga beli",
-      "target_morning_exit": 114,
-      "target_base": 123,
-      "target_optimistic": 128,
-      "target_morning_exit_pct": 7.0,
-      "target_base_pct": 15.0,
-      "target_optimistic_pct": 20.0,
-      "target_note": "Pagi: 114 (~+7%) | Moderat: 123 (~+15%) | Full: 128 (~+20%) | JUAL PAGI, bukan hold sampai close.",
-      "assumed_entry": 107,
-      "exit_timing_guide": "JUAL DI PAGI HARI (09:00-09:30 WIB). Backtest menunjukkan High D+1 median +16.77% dari harga ARA. Setelah 09:30, momentum sering berbalik. Jika masih ARA lagi (23.5% peluang), hold dengan trailing stop.",
-      "reason_beginner_friendly": "SURI diam-diam banyak ditransaksikan kemarin (volume 11x dari biasanya) meski harga tidak bergerak banyak. Ini pola sebelum harga melonjak tajam — tapi bisa juga tidak terjadi apa-apa jika tidak ada berita pendukung. ✅ Broker signal: Big Acc. Skor kepercayaan: TINGGI.",
-      "risk_warning": "⚠️ FALSE SIGNAL RATE ~85-90%. Konfirmasi dengan broker flow, berita, dan analisis manual sebelum beli. | 📌 Batasi posisi: max 2% dari portofolio.",
-      "d1p_backtest_stats": {
-        "high_d1_median": "+16.77% dari harga ARA (n=2213)",
-        "profit_morning": "84.5% sempat naik >5% di D+1",
-        "close_d1_profit": "hanya 48.9% (hampir coin flip — JANGAN hold)",
-        "continued_ara_pct": "23.5% lanjut ARA hari berikutnya",
-        "sample_size": "n=2.213 kunci ARA pertama pada saham liquid"
-      },
-      "broker_signal": "Big Acc",
-      "d1_date": "2026-08-14",
-      "d1_close": 78.0,
-      "d1_open": 78.0,
-      "d1_high": 88.0,
-      "d1_low": 77.0,
-      "d1_change_pct": 4.0,
-      "d1_vol_ratio_ma20": 10.77,
-      "d1_vol_ratio_ma5": 6.08,
-      "d1_body_pct": 0.0,
-      "d1_upper_wick": 0.909,
-      "d1_lower_wick": 0.091,
-      "d1_close_pos": 0.091,
-      "d1_bullish": false,
-      "d1_range_expansion": 2.7,
-      "d1_value_rp": 698289540000,
-      "d2_change_pct": 4.17,
-      "d2_body_pct": 0.3,
-      "d2_vol_ratio_ma20": 6.61,
-      "m1_last15_green": 13,
-      "m1_close_vs_vwap": -6.82,
-      "m1_close_pos_intra": 0.091,
-      "m1_high_timing": 0.044,
-      "m1_n_bars": 248,
-      "m1_data_available": true,
-      "above_ma20": true,
-      "above_ma50": true,
-      "ma20": 71.0,
-      "ma50": 65.0,
-      "up_streak_days": 1,
-      "trend_5d_pct": 8.33,
-      "signals_positive": [
-        "Volume D-1 ekstrem: 10.8x MA20 (tier-2 ≥6x)",
-        "Volume D-2 elevated: 6.6x MA20 (akumulasi dini)",
-        "Upper wick rejection: 0.91 (smart money absorption)",
-        "Body kecil D-1: 0.00 (candle akumulasi)",
-        "Close pos rendah: 0.09 (buyers absorbed selling)",
-        "D-2 moderate: +4.2% vol 6.6x",
-        "Range expansion: 2.7x avg-5d",
-        "Harga di atas MA20",
-        "5d trend sehat: +8.3%",
-        "Broker signal: Big Accumulation (+10 poin)"
-      ],
-      "signals_negative": [
-        "Closing flat bias: 12/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -6.8%",
-        "High intraday di awal sesi (4%) — profit taking sore"
-      ],
-      "universe_sources": [
-        "SCREENER_VOL_EXPLOSION",
-        "GURU_92",
-        "GURU_94"
-      ],
-      "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:53 WIB"
-    }
-  ],
+  "logika_lama_intraday": [],
+  "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [
     {
       "ticker": "BYAN",
@@ -364,15 +184,15 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-14 16:54:32 WIB",
+    "generated_at": "2026-08-14 17:14:57 WIB",
     "date": "2026-08-14",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
     "session_warning": null,
     "mode_warning": null,
-    "intraday_count": 1,
-    "ara_count": 1,
+    "intraday_count": 0,
+    "ara_count": 0,
     "bsjp_count": 1,
     "bpjs_count": 0,
     "swing_count": 0,
@@ -402,11 +222,11 @@
   "screening_summary": {
     "universe": 978,
     "after_liquidity": 94,
-    "after_accumulation": 7,
-    "after_trend": 3,
-    "after_smc": 2,
+    "after_accumulation": 35,
+    "after_trend": 7,
+    "after_smc": 4,
     "after_entry": 1,
-    "final": 1
+    "final": 0
   },
   "config_ara": {
     "vol_ma20_tier1": 3.0,
