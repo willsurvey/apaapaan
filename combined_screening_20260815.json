@@ -89,7 +89,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.14 WIB"
+      "updated_at": "14.34 WIB"
     },
     {
       "rank": 2,
@@ -177,7 +177,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.14 WIB"
+      "updated_at": "14.34 WIB"
     },
     {
       "rank": 3,
@@ -222,7 +222,7 @@
         "swing_trend_bias": "BULLISH",
         "ob_zone": null,
         "fvg_zone": null,
-        "strong_low": 19400.0,
+        "strong_low": 20425.0,
         "weak_high": 21800.0
       },
       "entry_plan": {
@@ -266,7 +266,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.14 WIB"
+      "updated_at": "14.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -325,10 +325,10 @@
       "d2_body_pct": 0.0,
       "d2_vol_ratio_ma20": 15.38,
       "m1_last15_green": 12,
-      "m1_close_vs_vwap": -6.01,
+      "m1_close_vs_vwap": -6.04,
       "m1_close_pos_intra": 0.077,
       "m1_high_timing": 0.004,
-      "m1_n_bars": 260,
+      "m1_n_bars": 261,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -358,7 +358,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "14:14 WIB"
+      "generated_at": "14:35 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -545,7 +545,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-15 14:15:26 WIB",
+    "generated_at": "2026-08-15 14:36:41 WIB",
     "date": "2026-08-15",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
