@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-15 08:35:36 WIB",
+  "generated_at": "2026-08-15 08:54:57 WIB",
   "date": "2026-08-15",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 3,
   "market_context": {
-    "ihsg_close": 6301,
-    "ihsg_change_pct": -1.13,
+    "ihsg_close": 6401,
+    "ihsg_change_pct": 1.59,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -132,7 +132,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.53 WIB"
     },
     {
       "rank": 2,
@@ -220,7 +220,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.53 WIB"
     },
     {
       "rank": 3,
@@ -309,7 +309,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.53 WIB"
     }
   ]
 }
