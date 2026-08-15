@@ -89,7 +89,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "19.33 WIB"
+      "updated_at": "19.53 WIB"
     },
     {
       "rank": 2,
@@ -177,7 +177,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "19.33 WIB"
+      "updated_at": "19.53 WIB"
     },
     {
       "rank": 3,
@@ -266,7 +266,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "19.33 WIB"
+      "updated_at": "19.53 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -358,7 +358,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "19:34 WIB"
+      "generated_at": "19:54 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -421,290 +421,7 @@
     }
   ],
   "bpjs_beli_pagi_jual_sore": [],
-  "swing_trading": [
-    {
-      "ticker": "BFIN",
-      "company": "BFI Finance Indonesia Tbk.",
-      "type": "WATCHLIST_SWING",
-      "score": 85,
-      "market_data": {
-        "close": 910.0,
-        "value_today": 9547342000,
-        "net_foreign": 1777050500
-      },
-      "technical": {
-        "stage2": true,
-        "ma50_slope": "+6.2%/10d",
-        "dist_ma20": "+5.4%",
-        "squeeze": "26%",
-        "vol_ratio": "66%",
-        "rsi": 71.7,
-        "atr_pct": "4.8%",
-        "dist_52w_high": "-5.2%",
-        "ma20": 863.5,
-        "ma50": 780.0,
-        "ma200": 718.57
-      },
-      "trading_plan": {
-        "strategy": "Beli sekarang, hold max 20 hari",
-        "entry": 910,
-        "target": 1000,
-        "target_pct": "+10%",
-        "stop_loss": 855,
-        "stop_loss_pct": "-6%",
-        "max_hold_days": 20,
-        "exit_rule": "Jual jika sentuh 1,000 (+10%), ATAU cut loss di 855 (-6%), ATAU jual di hari ke-20.",
-        "trailing_stop": "Aktifkan trailing stop setelah profit +5%"
-      },
-      "signals_positive": [
-        "Stage 2 Uptrend: Harga > MA50 > MA200, MA50 slope +6.2%/10d",
-        "Posisi ideal: +5.4% di atas MA20",
-        "Ultra Tight Squeeze: 26%",
-        "Di atas MA200 — tren primer bullish",
-        "Dekat 52w high (-5.2%)",
-        "Asing beli bersih (Rp 1.8B)"
-      ],
-      "signals_negative": [
-        "RSI overbought (72)"
-      ],
-      "backtest_stats": {
-        "golden_setup_pf": "1.60x",
-        "golden_setup_ev": "+2.14%",
-        "golden_setup_wr": "48.8%",
-        "golden_setup_dd": "-5.5%",
-        "total_backtest": "467.390 hari (956 saham IHSG)",
-        "bear_market_warning": "GAGAL di 2019, 2024, 2026"
-      },
-      "disclaimer": "⚠️ SWING WATCHLIST. PF=1.60x, EV=+2.14%. SL -6% KERAS. GAGAL di bear market — kill switch IHSG<MA200 aktif.",
-      "rank": 1
-    },
-    {
-      "ticker": "INDF",
-      "company": "Indofood Sukses Makmur Tbk.",
-      "type": "WATCHLIST_SWING",
-      "score": 85,
-      "market_data": {
-        "close": 7425.0,
-        "value_today": 27594677500,
-        "net_foreign": 1389207500
-      },
-      "technical": {
-        "stage2": true,
-        "ma50_slope": "+2.9%/10d",
-        "dist_ma20": "+4.7%",
-        "squeeze": "34%",
-        "vol_ratio": "70%",
-        "rsi": 77.5,
-        "atr_pct": "2.0%",
-        "dist_52w_high": "-12.2%",
-        "ma20": 7092.5,
-        "ma50": 6691.37,
-        "ma200": 6571.07
-      },
-      "trading_plan": {
-        "strategy": "Beli sekarang, hold max 20 hari",
-        "entry": 7425,
-        "target": 8175,
-        "target_pct": "+10%",
-        "stop_loss": 6975,
-        "stop_loss_pct": "-6%",
-        "max_hold_days": 20,
-        "exit_rule": "Jual jika sentuh 8,175 (+10%), ATAU cut loss di 6,975 (-6%), ATAU jual di hari ke-20.",
-        "trailing_stop": "Aktifkan trailing stop setelah profit +5%"
-      },
-      "signals_positive": [
-        "Stage 2 Uptrend: Harga > MA50 > MA200, MA50 slope +2.9%/10d",
-        "Posisi ideal: +4.7% di atas MA20",
-        "Ultra Tight Squeeze: 34%",
-        "Di atas MA200 — tren primer bullish",
-        "ATR rendah (2.0%)",
-        "Asing beli bersih (Rp 1.4B)"
-      ],
-      "signals_negative": [
-        "RSI overbought (78)"
-      ],
-      "backtest_stats": {
-        "golden_setup_pf": "1.60x",
-        "golden_setup_ev": "+2.14%",
-        "golden_setup_wr": "48.8%",
-        "golden_setup_dd": "-5.5%",
-        "total_backtest": "467.390 hari (956 saham IHSG)",
-        "bear_market_warning": "GAGAL di 2019, 2024, 2026"
-      },
-      "disclaimer": "⚠️ SWING WATCHLIST. PF=1.60x, EV=+2.14%. SL -6% KERAS. GAGAL di bear market — kill switch IHSG<MA200 aktif.",
-      "rank": 2
-    },
-    {
-      "ticker": "AADI",
-      "company": "Adaro Andalan Indonesia Tbk.",
-      "type": "WATCHLIST_SWING",
-      "score": 80,
-      "market_data": {
-        "close": 9425.0,
-        "value_today": 99571015000,
-        "net_foreign": 21066210000
-      },
-      "technical": {
-        "stage2": true,
-        "ma50_slope": "+3.6%/10d",
-        "dist_ma20": "+3.7%",
-        "squeeze": "57%",
-        "vol_ratio": "90%",
-        "rsi": 59.8,
-        "atr_pct": "2.8%",
-        "dist_52w_high": "-15.2%",
-        "ma20": 9091.25,
-        "ma50": 8487.5,
-        "ma200": 8236.44
-      },
-      "trading_plan": {
-        "strategy": "Beli sekarang, hold max 20 hari",
-        "entry": 9425,
-        "target": 10375,
-        "target_pct": "+10%",
-        "stop_loss": 8850,
-        "stop_loss_pct": "-6%",
-        "max_hold_days": 20,
-        "exit_rule": "Jual jika sentuh 10,375 (+10%), ATAU cut loss di 8,850 (-6%), ATAU jual di hari ke-20.",
-        "trailing_stop": "Aktifkan trailing stop setelah profit +5%"
-      },
-      "signals_positive": [
-        "Stage 2 Uptrend: Harga > MA50 > MA200, MA50 slope +3.6%/10d",
-        "Posisi ideal: +3.7% di atas MA20",
-        "Squeeze moderat (57%)",
-        "RSI sweet spot (60) — momentum awal uptrend, WR 52.0%",
-        "Di atas MA200 — tren primer bullish",
-        "ATR rendah (2.8%)",
-        "Asing beli bersih (Rp 21.1B)"
-      ],
-      "signals_negative": [],
-      "backtest_stats": {
-        "golden_setup_pf": "1.60x",
-        "golden_setup_ev": "+2.14%",
-        "golden_setup_wr": "48.8%",
-        "golden_setup_dd": "-5.5%",
-        "total_backtest": "467.390 hari (956 saham IHSG)",
-        "bear_market_warning": "GAGAL di 2019, 2024, 2026"
-      },
-      "disclaimer": "⚠️ SWING WATCHLIST. PF=1.60x, EV=+2.14%. SL -6% KERAS. GAGAL di bear market — kill switch IHSG<MA200 aktif.",
-      "rank": 3
-    },
-    {
-      "ticker": "DMAS",
-      "company": "Puradelta Lestari Tbk",
-      "type": "WATCHLIST_SWING",
-      "score": 80,
-      "market_data": {
-        "close": 149.0,
-        "value_today": 5496885000,
-        "net_foreign": 1478341600
-      },
-      "technical": {
-        "stage2": true,
-        "ma50_slope": "+1.5%/10d",
-        "dist_ma20": "+3.7%",
-        "squeeze": "36%",
-        "vol_ratio": "60%",
-        "rsi": 76.2,
-        "atr_pct": "2.2%",
-        "dist_52w_high": "-0.7%",
-        "ma20": 143.65,
-        "ma50": 139.42,
-        "ma200": 125.82
-      },
-      "trading_plan": {
-        "strategy": "Beli sekarang, hold max 20 hari",
-        "entry": 149,
-        "target": 164,
-        "target_pct": "+10%",
-        "stop_loss": 140,
-        "stop_loss_pct": "-6%",
-        "max_hold_days": 20,
-        "exit_rule": "Jual jika sentuh 164 (+10%), ATAU cut loss di 140 (-6%), ATAU jual di hari ke-20.",
-        "trailing_stop": "Aktifkan trailing stop setelah profit +5%"
-      },
-      "signals_positive": [
-        "Stage 2 Uptrend: Harga > MA50 > MA200, MA50 slope +1.5%/10d",
-        "Posisi ideal: +3.7% di atas MA20",
-        "Squeeze moderat (36%)",
-        "Di atas MA200 — tren primer bullish",
-        "ATR rendah (2.2%)",
-        "Dekat 52w high (-0.7%)",
-        "Asing beli bersih (Rp 1.5B)"
-      ],
-      "signals_negative": [
-        "RSI overbought (76)"
-      ],
-      "backtest_stats": {
-        "golden_setup_pf": "1.60x",
-        "golden_setup_ev": "+2.14%",
-        "golden_setup_wr": "48.8%",
-        "golden_setup_dd": "-5.5%",
-        "total_backtest": "467.390 hari (956 saham IHSG)",
-        "bear_market_warning": "GAGAL di 2019, 2024, 2026"
-      },
-      "disclaimer": "⚠️ SWING WATCHLIST. PF=1.60x, EV=+2.14%. SL -6% KERAS. GAGAL di bear market — kill switch IHSG<MA200 aktif.",
-      "rank": 4
-    },
-    {
-      "ticker": "AUTO",
-      "company": "Astra Otoparts Tbk.",
-      "type": "WATCHLIST_SWING",
-      "score": 75,
-      "market_data": {
-        "close": 2900.0,
-        "value_today": 16076928000,
-        "net_foreign": 3837915000
-      },
-      "technical": {
-        "stage2": true,
-        "ma50_slope": "+2.2%/10d",
-        "dist_ma20": "+6.0%",
-        "squeeze": "40%",
-        "vol_ratio": "144%",
-        "rsi": 91.2,
-        "atr_pct": "2.0%",
-        "dist_52w_high": "-1.4%",
-        "ma20": 2736.0,
-        "ma50": 2555.8,
-        "ma200": 2506.81
-      },
-      "trading_plan": {
-        "strategy": "Beli sekarang, hold max 20 hari",
-        "entry": 2900,
-        "target": 3190,
-        "target_pct": "+10%",
-        "stop_loss": 2730,
-        "stop_loss_pct": "-6%",
-        "max_hold_days": 20,
-        "exit_rule": "Jual jika sentuh 3,190 (+10%), ATAU cut loss di 2,730 (-6%), ATAU jual di hari ke-20.",
-        "trailing_stop": "Aktifkan trailing stop setelah profit +5%"
-      },
-      "signals_positive": [
-        "Stage 2 Uptrend: Harga > MA50 > MA200, MA50 slope +2.2%/10d",
-        "Posisi ideal: +6.0% di atas MA20",
-        "Squeeze moderat (40%)",
-        "Di atas MA200 — tren primer bullish",
-        "ATR rendah (2.0%)",
-        "Dekat 52w high (-1.4%)",
-        "Asing beli bersih (Rp 3.8B)"
-      ],
-      "signals_negative": [
-        "Volume belum kering (144%)",
-        "RSI overbought (91)"
-      ],
-      "backtest_stats": {
-        "golden_setup_pf": "1.60x",
-        "golden_setup_ev": "+2.14%",
-        "golden_setup_wr": "48.8%",
-        "golden_setup_dd": "-5.5%",
-        "total_backtest": "467.390 hari (956 saham IHSG)",
-        "bear_market_warning": "GAGAL di 2019, 2024, 2026"
-      },
-      "disclaimer": "⚠️ SWING WATCHLIST. PF=1.60x, EV=+2.14%. SL -6% KERAS. GAGAL di bear market — kill switch IHSG<MA200 aktif.",
-      "rank": 5
-    }
-  ],
+  "swing_trading": [],
   "trend_following": [],
   "position_trading": [
     {
@@ -828,7 +545,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-15 19:35:11 WIB",
+    "generated_at": "2026-08-15 19:55:23 WIB",
     "date": "2026-08-15",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -839,7 +556,7 @@
     "ara_count": 1,
     "bsjp_count": 1,
     "bpjs_count": 0,
-    "swing_count": 5,
+    "swing_count": 0,
     "trend_count": 0,
     "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
