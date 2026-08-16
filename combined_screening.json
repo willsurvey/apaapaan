@@ -89,7 +89,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "06.34 WIB"
+      "updated_at": "06.54 WIB"
     },
     {
       "rank": 2,
@@ -177,7 +177,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "06.34 WIB"
+      "updated_at": "06.54 WIB"
     },
     {
       "rank": 3,
@@ -266,7 +266,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "06.34 WIB"
+      "updated_at": "06.54 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -325,10 +325,10 @@
       "d2_body_pct": 0.0,
       "d2_vol_ratio_ma20": 15.38,
       "m1_last15_green": 12,
-      "m1_close_vs_vwap": -2.93,
+      "m1_close_vs_vwap": -6.01,
       "m1_close_pos_intra": 0.077,
       "m1_high_timing": 0.004,
-      "m1_n_bars": 262,
+      "m1_n_bars": 260,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -348,8 +348,8 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 11/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -2.9%",
+        "Closing flat bias: 10/14 bar flat — indikasi tidak aktif",
+        "Close di bawah VWAP: -6.0%",
         "High intraday di awal sesi (0%) — profit taking sore",
         "5d trend terlalu cepat: +76.5%"
       ],
@@ -358,7 +358,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "06:34 WIB"
+      "generated_at": "06:54 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -546,7 +546,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-17 06:35:38 WIB",
+    "generated_at": "2026-08-17 06:55:38 WIB",
     "date": "2026-08-17",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
