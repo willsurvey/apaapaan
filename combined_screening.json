@@ -87,7 +87,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "03.55 WIB"
+      "updated_at": "04.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -178,7 +178,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "03:55 WIB"
+      "generated_at": "04:14 WIB"
     },
     {
       "ticker": "YPAS",
@@ -266,7 +266,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "03:56 WIB"
+      "generated_at": "04:15 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -507,7 +507,7 @@
       "close": 810.0,
       "near_52w_pct": 97.0,
       "wk_rsi": 76.1,
-      "wk_adx": 56.5,
+      "wk_adx": 57.2,
       "mo_rsi": 81.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -526,7 +526,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-19 03:57:02 WIB",
+    "generated_at": "2026-08-19 04:15:57 WIB",
     "date": "2026-08-19",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
