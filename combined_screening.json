@@ -87,7 +87,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "03.14 WIB"
+      "updated_at": "03.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -348,7 +348,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-19 03:15:31 WIB",
+    "generated_at": "2026-08-19 03:35:37 WIB",
     "date": "2026-08-19",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
