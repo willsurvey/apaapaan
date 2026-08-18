@@ -87,7 +87,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "00.55 WIB"
+      "updated_at": "01.15 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -146,10 +146,10 @@
       "d2_body_pct": 0.533,
       "d2_vol_ratio_ma20": 7.1,
       "m1_last15_green": 13,
-      "m1_close_vs_vwap": -5.75,
+      "m1_close_vs_vwap": -3.79,
       "m1_close_pos_intra": 0.368,
-      "m1_high_timing": 0.336,
-      "m1_n_bars": 271,
+      "m1_high_timing": 0.335,
+      "m1_n_bars": 272,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -170,15 +170,15 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 12/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -5.8%"
+        "Closing flat bias: 13/14 bar flat — indikasi tidak aktif",
+        "Close di bawah VWAP: -3.8%"
       ],
       "universe_sources": [
         "SCREENER_VOL_EXPLOSION",
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "00:55 WIB"
+      "generated_at": "01:15 WIB"
     },
     {
       "ticker": "YPAS",
@@ -266,7 +266,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "00:56 WIB"
+      "generated_at": "01:16 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -414,7 +414,7 @@
       "close": 1075.0,
       "near_52w_pct": 96.0,
       "wk_rsi": 74.7,
-      "wk_adx": 32.4,
+      "wk_adx": 32.3,
       "mo_rsi": 85.6,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -507,7 +507,7 @@
       "close": 810.0,
       "near_52w_pct": 97.0,
       "wk_rsi": 76.1,
-      "wk_adx": 57.3,
+      "wk_adx": 57.2,
       "mo_rsi": 81.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -526,7 +526,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-19 00:57:02 WIB",
+    "generated_at": "2026-08-19 01:16:53 WIB",
     "date": "2026-08-19",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
