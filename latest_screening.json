@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-18 13:35:14 WIB",
+  "generated_at": "2026-08-18 13:56:11 WIB",
   "date": "2026-08-18",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6482,
-    "ihsg_change_pct": 1.26,
+    "ihsg_close": 6475,
+    "ihsg_change_pct": 1.15,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,9 +17,9 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 111,
-    "after_accumulation": 31,
-    "after_trend": 14,
+    "after_liquidity": 114,
+    "after_accumulation": 35,
+    "after_trend": 16,
     "after_smc": 4,
     "after_entry": 3,
     "final": 1
@@ -57,8 +57,8 @@
       "market_data": {
         "close": 25000,
         "change_pct": 0,
-        "value_today": 37576412500,
-        "frequency_today": 1683,
+        "value_today": 38496217500,
+        "frequency_today": 1756,
         "iep": 25000,
         "iep_change_pct": 0
       },
@@ -129,7 +129,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "13.34 WIB"
+      "updated_at": "13.54 WIB"
     }
   ]
 }
