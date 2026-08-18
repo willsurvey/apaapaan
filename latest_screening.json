@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-18 14:34:56 WIB",
+  "generated_at": "2026-08-18 14:57:15 WIB",
   "date": "2026-08-18",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,18 +8,18 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6470,
-    "ihsg_change_pct": 1.08,
-    "ihsg_trend": "BULLISH",
-    "ihsg_above_ma50": true,
     "market_safe": true,
-    "warning": null
+    "warning": null,
+    "ihsg_trend": "UNKNOWN",
+    "ihsg_close": 0,
+    "ihsg_change_pct": 0,
+    "ihsg_above_ma50": true
   },
   "screening_summary": {
     "universe": 978,
     "after_liquidity": 115,
-    "after_accumulation": 36,
-    "after_trend": 15,
+    "after_accumulation": 37,
+    "after_trend": 17,
     "after_smc": 4,
     "after_entry": 3,
     "final": 1
@@ -49,22 +49,21 @@
       "company": "Indo Tambangraya Megah Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
-        "MOVER_TYPE_TOP_VALUE",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
         "close": 25000,
-        "change_pct": 0.1,
-        "value_today": 42886205000,
-        "frequency_today": 1961,
-        "iep": 25000,
-        "iep_change_pct": -0.1
+        "change_pct": 0,
+        "value_today": 45696275000.0,
+        "frequency_today": 0,
+        "iep": 0,
+        "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": -10331995000,
+        "net_foreign_today": 0,
         "net_foreign_3d": 0,
         "acc_score": 45,
         "score_breakdown": {
@@ -129,7 +128,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.34 WIB"
+      "updated_at": "14.55 WIB"
     }
   ]
 }
