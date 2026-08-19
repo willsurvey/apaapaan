@@ -37,11 +37,13 @@
         "in_mover_types": [
           "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_GAINER",
-          "SCREENER_VOLUME_EXPLOSION"
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_92_Big Accumula",
+          "SCREENER_TOP_VALUE"
         ],
         "from_gainer": true,
         "from_screener": true,
-        "from_top_value": false
+        "from_top_value": true
       },
       "signals_positive": [
         "Volume ledakan ekstrem 8.5x MA20",
@@ -141,7 +143,7 @@
       "close": 1090.0,
       "near_52w_pct": 97.4,
       "wk_rsi": 74.3,
-      "wk_adx": 32.4,
+      "wk_adx": 32.3,
       "mo_rsi": 85.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -183,7 +185,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-19 18:46:24 WIB",
+    "generated_at": "2026-08-19 19:16:31 WIB",
     "date": "2026-08-19",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -219,12 +221,12 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 288,
-    "after_liquidity": 0,
-    "after_accumulation": 0,
-    "after_trend": 0,
-    "after_smc": 0,
-    "after_entry": 0,
+    "universe": 978,
+    "after_liquidity": 102,
+    "after_accumulation": 32,
+    "after_trend": 11,
+    "after_smc": 2,
+    "after_entry": 1,
     "final": 0
   },
   "config_ara": {
