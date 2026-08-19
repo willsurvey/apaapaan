@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-19 11:57:02 WIB",
+  "generated_at": "2026-08-19 12:16:55 WIB",
   "date": "2026-08-19",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 2,
   "market_context": {
-    "ihsg_close": 6421,
-    "ihsg_change_pct": 0.31,
+    "ihsg_close": 6420,
+    "ihsg_change_pct": 0.29,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,10 +17,10 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 102,
+    "after_liquidity": 104,
     "after_accumulation": 23,
-    "after_trend": 12,
-    "after_smc": 6,
+    "after_trend": 11,
+    "after_smc": 5,
     "after_entry": 5,
     "final": 2
   },
@@ -55,7 +55,7 @@
       "market_data": {
         "close": 725,
         "change_pct": 0,
-        "value_today": 13806691500.0,
+        "value_today": 22010103500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -76,7 +76,7 @@
       },
       "trend": {
         "ma50": 627.0,
-        "gap_from_ma50_pct": 14.87,
+        "gap_from_ma50_pct": 15.65,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -127,7 +127,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "11.56 WIB"
+      "updated_at": "12.15 WIB"
     },
     {
       "rank": 2,
@@ -139,9 +139,9 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 24950,
+        "close": 25000,
         "change_pct": 0,
-        "value_today": 10450005000.0,
+        "value_today": 11969710000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -161,8 +161,8 @@
         }
       },
       "trend": {
-        "ma50": 23560.0,
-        "gap_from_ma50_pct": 6.0,
+        "ma50": 23561.0,
+        "gap_from_ma50_pct": 6.11,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -179,27 +179,27 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 24900,
+        "entry_1": 24950,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 24825,
+        "entry_2": 24850,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
         "entry_3": 24725,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 24800,
-        "entry_zone": "24725 - 24900",
+        "average_entry": 24825,
+        "entry_zone": "24725 - 24950",
         "sl": 24675,
-        "sl_pct_risk": 0.5,
+        "sl_pct_risk": 0.6,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 25000,
+        "tp1": 25050,
         "tp1_note": "PDH / Target psikologis intraday",
         "tp2": 25150,
         "tp2_note": "Weak High / Supply Zone 1H",
         "tp3": 25900,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:8.8",
+        "rr_ratio": "1:7.2",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
@@ -214,7 +214,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "11.56 WIB"
+      "updated_at": "12.15 WIB"
     }
   ]
 }
