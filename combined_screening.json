@@ -88,7 +88,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "22:55 WIB"
+      "generated_at": "23:15 WIB"
     },
     {
       "ticker": "TOWR",
@@ -177,7 +177,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "22:56 WIB"
+      "generated_at": "23:15 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -322,7 +322,7 @@
       "close": 1090.0,
       "near_52w_pct": 97.4,
       "wk_rsi": 74.3,
-      "wk_adx": 32.3,
+      "wk_adx": 32.4,
       "mo_rsi": 85.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -364,7 +364,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-19 22:57:07 WIB",
+    "generated_at": "2026-08-19 23:16:28 WIB",
     "date": "2026-08-19",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
