@@ -1,15 +1,15 @@
 {
-  "status": "no_signal",
-  "generated_at": "2026-08-19 14:35:08 WIB",
+  "status": "success",
+  "generated_at": "2026-08-19 14:54:42 WIB",
   "date": "2026-08-19",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
   "mode_warning": null,
-  "total_saham": 0,
+  "total_saham": 2,
   "market_context": {
-    "ihsg_close": 6412,
-    "ihsg_change_pct": -0.58,
+    "ihsg_close": 6411,
+    "ihsg_change_pct": -0.6,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -18,11 +18,11 @@
   "screening_summary": {
     "universe": 978,
     "after_liquidity": 110,
-    "after_accumulation": 24,
-    "after_trend": 13,
+    "after_accumulation": 23,
+    "after_trend": 15,
     "after_smc": 6,
     "after_entry": 5,
-    "final": 0
+    "final": 2
   },
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
@@ -42,5 +42,179 @@
     "max_output": 5,
     "min_rr": 2.0
   },
-  "data": []
+  "data": [
+    {
+      "rank": 1,
+      "ticker": "ELSA",
+      "company": "Elnusa Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "GURU_92",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 725,
+        "change_pct": 0,
+        "value_today": 28954694500.0,
+        "frequency_today": 0,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 0,
+        "net_foreign_3d": 0,
+        "acc_score": 45,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 0,
+          "foreign_3d": 0,
+          "candle": 10,
+          "volume": 0,
+          "total": 45
+        }
+      },
+      "trend": {
+        "ma50": 627.0,
+        "gap_from_ma50_pct": 14.87,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": null,
+        "fvg_zone": "685 - 695",
+        "strong_low": 675.0,
+        "weak_high": 715.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 720,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 700,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 695,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 700,
+        "entry_zone": "695 - 720",
+        "sl": 685,
+        "sl_pct_risk": 2.14,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 740,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 760,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 785,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:5.7",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 50,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Harga di zona FVG aktif",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [],
+      "updated_at": "14.53 WIB"
+    },
+    {
+      "rank": 2,
+      "ticker": "ITMG",
+      "company": "Indo Tambangraya Megah Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "GURU_92",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 24925,
+        "change_pct": 0,
+        "value_today": 17310965000.0,
+        "frequency_today": 0,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 0,
+        "net_foreign_3d": 0,
+        "acc_score": 40,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 0,
+          "foreign_3d": 0,
+          "candle": 10,
+          "volume": -5,
+          "total": 40
+        }
+      },
+      "trend": {
+        "ma50": 23559.0,
+        "gap_from_ma50_pct": 5.69,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": "24175 - 24400",
+        "fvg_zone": "24425 - 24625",
+        "strong_low": 24500.0,
+        "weak_high": 25150.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 24875,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 24775,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 24725,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 24775,
+        "entry_zone": "24725 - 24875",
+        "sl": 24675,
+        "sl_pct_risk": 0.4,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 25050,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 25150,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 25900,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:11.2",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 50,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Harga di zona Order Block aktif",
+        "✅ Harga di zona FVG aktif",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [],
+      "updated_at": "14.53 WIB"
+    }
+  ]
 }
