@@ -10,9 +10,9 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 25225,
+        "close": 25300,
         "change_pct": 0,
-        "value_today": 14370797500.0,
+        "value_today": 17319067500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -32,8 +32,8 @@
         }
       },
       "trend": {
-        "ma50": 23630.0,
-        "gap_from_ma50_pct": 6.75,
+        "ma50": 23628.0,
+        "gap_from_ma50_pct": 6.55,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -50,7 +50,7 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 25175,
+        "entry_1": 25225,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
         "entry_2": 25100,
@@ -60,17 +60,17 @@
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
         "average_entry": 25075,
-        "entry_zone": "24950 - 25175",
+        "entry_zone": "24950 - 25225",
         "sl": 24900,
         "sl_pct_risk": 0.7,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 25225,
+        "tp1": 25350,
         "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 25975,
+        "tp2": 26100,
         "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 26750,
+        "tp3": 26875,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:9.6",
+        "rr_ratio": "1:10.3",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
@@ -85,44 +85,44 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "13.33 WIB"
+      "updated_at": "13.53 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "CUAN",
-      "company": "Petrindo Jaya Kreasi Tbk.",
+      "ticker": "BIPI",
+      "company": "Astrindo Nusantara Infrastruktur Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 40,
+      "score": 35,
       "market_data": {
-        "close": 835.0,
-        "change_pct": 2.45,
-        "value_today": 151378983000,
-        "net_foreign": -22953392000
+        "close": 154.0,
+        "change_pct": 2,
+        "value_today": 42249868400,
+        "net_foreign": -1687173800
       },
       "d1_features": {
-        "body_pct": 1.21,
+        "body_pct": 1.99,
         "close_pos_pct": 60.0,
-        "vol_ratio": 0.37,
-        "change_pct": 2.45,
-        "range_pct": 2.99,
+        "vol_ratio": 0.4,
+        "change_pct": 2.67,
+        "range_pct": 3.25,
         "upper_wick": 40.0,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": false,
-        "atr_pct": 6.2
+        "atr_pct": 5.75
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "810 – 850",
+        "entry_range": "150 – 157",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 760,
-        "stop_note": "Cut loss jika turun di bawah 760 (1 ATR dari entry)",
-        "target_modest": 850,
-        "target_moderate": 870,
+        "stop_loss": 141,
+        "stop_note": "Cut loss jika turun di bawah 141 (1 ATR dari entry)",
+        "target_modest": 157,
+        "target_moderate": 160,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -137,17 +137,16 @@
         "in_mover_types": [
           "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
-          "GURU_72_IHSG Short-t",
+          "GURU_78_Daily Net Fo",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.2%), volume mati (0.37x MA20), close tengah (60%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+2.0%), volume mati (0.40x MA20), close tengah (60%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
-        "Di atas MA50 — tren menengah masih ok",
-        "Range D-1 kecil (3.0%) — noise rendah besok"
+        "Di atas MA50 — tren menengah masih ok"
       ],
       "signals_negative": [
         "Upper wick besar (40%) — tekanan jual D-1",
@@ -197,11 +196,11 @@
       "ticker": "MGLV",
       "company": "NexAI Digital Infrastruktur Tbk.",
       "score": 70,
-      "close": 11400.0,
-      "near_52w_pct": 95.4,
+      "close": 11375.0,
+      "near_52w_pct": 95.2,
       "wk_rsi": 68.9,
       "wk_adx": 56.8,
-      "mo_rsi": 85.5,
+      "mo_rsi": 85.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -241,6 +240,29 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "TAMA",
+      "company": "Lancartama Sejati Tbk",
+      "score": 65,
+      "close": 276.0,
+      "near_52w_pct": 97.2,
+      "wk_rsi": 56.5,
+      "wk_adx": 31.8,
+      "mo_rsi": 81.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (56) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (81)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
@@ -262,34 +284,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MARK",
-      "company": "Mark Dynamics Indonesia Tbk.",
-      "score": 65,
-      "close": 1095.0,
-      "near_52w_pct": 97.8,
-      "wk_rsi": 74.5,
-      "wk_adx": 32.3,
-      "mo_rsi": 85.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (74) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (86)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-20 13:34:54 WIB",
+    "generated_at": "2026-08-20 13:54:44 WIB",
     "date": "2026-08-20",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -317,8 +316,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6487,
-    "ihsg_change_pct": 1.47,
+    "ihsg_close": 6490,
+    "ihsg_change_pct": 1.51,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -326,11 +325,11 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 94,
-    "after_accumulation": 14,
+    "after_liquidity": 98,
+    "after_accumulation": 15,
     "after_trend": 9,
     "after_smc": 4,
-    "after_entry": 2,
+    "after_entry": 1,
     "final": 1
   },
   "config_ara": {
