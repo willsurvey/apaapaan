@@ -10,9 +10,9 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 25150,
+        "close": 25225,
         "change_pct": 0,
-        "value_today": 12997855000.0,
+        "value_today": 14370797500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -32,8 +32,8 @@
         }
       },
       "trend": {
-        "ma50": 23628.0,
-        "gap_from_ma50_pct": 6.44,
+        "ma50": 23630.0,
+        "gap_from_ma50_pct": 6.75,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -50,19 +50,19 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 25100,
+        "entry_1": 25175,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 25025,
+        "entry_2": 25100,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
         "entry_3": 24950,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 25025,
-        "entry_zone": "24950 - 25100",
+        "average_entry": 25075,
+        "entry_zone": "24950 - 25175",
         "sl": 24900,
-        "sl_pct_risk": 0.5,
+        "sl_pct_risk": 0.7,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
         "tp1": 25225,
         "tp1_note": "PDH / Target psikologis intraday",
@@ -70,7 +70,7 @@
         "tp2_note": "Weak High / Supply Zone 1H",
         "tp3": 26750,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:13.8",
+        "rr_ratio": "1:9.6",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
@@ -85,7 +85,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "11.53 WIB"
+      "updated_at": "12.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -99,14 +99,14 @@
       "score": 40,
       "market_data": {
         "close": 835.0,
-        "change_pct": 1.84,
-        "value_today": 141986599000,
+        "change_pct": 2.45,
+        "value_today": 151378983000,
         "net_foreign": -22953392000
       },
       "d1_features": {
         "body_pct": 1.21,
         "close_pos_pct": 60.0,
-        "vol_ratio": 0.35,
+        "vol_ratio": 0.37,
         "change_pct": 2.45,
         "range_pct": 2.99,
         "upper_wick": 40.0,
@@ -144,7 +144,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.2%), volume mati (0.35x MA20), close tengah (60%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.2%), volume mati (0.37x MA20), close tengah (60%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Range D-1 kecil (3.0%) — noise rendah besok"
@@ -173,22 +173,46 @@
       "ticker": "DMAS",
       "company": "Puradelta Lestari Tbk",
       "score": 70,
-      "close": 167.0,
-      "near_52w_pct": 98.8,
-      "wk_rsi": 79.3,
+      "close": 168.0,
+      "near_52w_pct": 99.4,
+      "wk_rsi": 79.7,
       "wk_adx": 37.4,
-      "mo_rsi": 76.2,
+      "mo_rsi": 76.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (79) + Wk ADX (37) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (99%) + Wk RSI (80) + Wk ADX (37) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (76)",
+        "Monthly RSI kuat (77)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 9.6B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MGLV",
+      "company": "NexAI Digital Infrastruktur Tbk.",
+      "score": 70,
+      "close": 11400.0,
+      "near_52w_pct": 95.4,
+      "wk_rsi": 68.9,
+      "wk_adx": 56.8,
+      "mo_rsi": 85.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (69) + Wk ADX (57) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (85)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 2.0B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -217,22 +241,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MGLV",
-      "company": "NexAI Digital Infrastruktur Tbk.",
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 11375.0,
-      "near_52w_pct": 95.2,
-      "wk_rsi": 68.9,
-      "wk_adx": 56.8,
-      "mo_rsi": 85.4,
+      "close": 1010.0,
+      "near_52w_pct": 99.0,
+      "wk_rsi": 75.0,
+      "wk_adx": 45.9,
+      "mo_rsi": 77.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (69) + Wk ADX (57) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (85)",
+        "Near 52W High (99%) + Wk RSI (75) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (77)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -243,42 +267,19 @@
       "ticker": "MARK",
       "company": "Mark Dynamics Indonesia Tbk.",
       "score": 65,
-      "close": 1090.0,
-      "near_52w_pct": 97.4,
-      "wk_rsi": 74.3,
+      "close": 1095.0,
+      "near_52w_pct": 97.8,
+      "wk_rsi": 74.5,
       "wk_adx": 32.3,
-      "mo_rsi": 85.4,
+      "mo_rsi": 85.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (74) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (85)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AUTO",
-      "company": "Astra Otoparts Tbk.",
-      "score": 65,
-      "close": 2950.0,
-      "near_52w_pct": 99.3,
-      "wk_rsi": 67.6,
-      "wk_adx": 24.8,
-      "mo_rsi": 70.6,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (68) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (71)",
+        "Near 52W High (98%) + Wk RSI (74) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -288,7 +289,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-20 11:54:45 WIB",
+    "generated_at": "2026-08-20 12:16:23 WIB",
     "date": "2026-08-20",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -316,8 +317,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6474,
-    "ihsg_change_pct": 1.26,
+    "ihsg_close": 6485,
+    "ihsg_change_pct": 1.43,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -325,10 +326,10 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 92,
-    "after_accumulation": 13,
-    "after_trend": 7,
-    "after_smc": 3,
+    "after_liquidity": 94,
+    "after_accumulation": 14,
+    "after_trend": 9,
+    "after_smc": 4,
     "after_entry": 2,
     "final": 1
   },
