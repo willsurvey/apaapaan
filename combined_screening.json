@@ -85,7 +85,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "12.14 WIB"
+      "updated_at": "12.32 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -289,7 +289,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-20 12:16:23 WIB",
+    "generated_at": "2026-08-20 12:34:29 WIB",
     "date": "2026-08-20",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -317,8 +317,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6485,
-    "ihsg_change_pct": 1.43,
+    "ihsg_close": 6487,
+    "ihsg_change_pct": 1.47,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
