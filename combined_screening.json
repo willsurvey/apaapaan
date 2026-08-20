@@ -13,7 +13,7 @@
       "market_data": {
         "close": 25400,
         "change_pct": 0,
-        "value_today": 38893635000.0,
+        "value_today": 38952055000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -86,7 +86,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.33 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -99,11 +99,11 @@
       "ticker": "ISAT",
       "company": "Indosat Tbk",
       "score": 65,
-      "close": 2750.0,
-      "near_52w_pct": 96.5,
-      "wk_rsi": 61.2,
+      "close": 2730.0,
+      "near_52w_pct": 95.8,
+      "wk_rsi": 60.9,
       "wk_adx": 22.3,
-      "mo_rsi": 61.2,
+      "mo_rsi": 61.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -213,7 +213,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-20 16:15:29 WIB",
+    "generated_at": "2026-08-20 16:35:10 WIB",
     "date": "2026-08-20",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -241,8 +241,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6498,
-    "ihsg_change_pct": 1.63,
+    "ihsg_close": 6501,
+    "ihsg_change_pct": 1.68,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
