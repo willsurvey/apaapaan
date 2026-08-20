@@ -90,7 +90,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "21.15 WIB"
+      "updated_at": "21.36 WIB"
     },
     {
       "rank": 2,
@@ -182,7 +182,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "21.15 WIB"
+      "updated_at": "21.36 WIB"
     },
     {
       "rank": 3,
@@ -270,7 +270,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "21.15 WIB"
+      "updated_at": "21.36 WIB"
     },
     {
       "rank": 4,
@@ -358,7 +358,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "21.15 WIB"
+      "updated_at": "21.36 WIB"
     },
     {
       "rank": 5,
@@ -448,7 +448,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "21.15 WIB"
+      "updated_at": "21.36 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -487,7 +487,7 @@
       "close": 1105.0,
       "near_52w_pct": 98.7,
       "wk_rsi": 74.9,
-      "wk_adx": 32.3,
+      "wk_adx": 32.4,
       "mo_rsi": 85.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -575,7 +575,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-20 21:16:10 WIB",
+    "generated_at": "2026-08-20 21:37:18 WIB",
     "date": "2026-08-20",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
