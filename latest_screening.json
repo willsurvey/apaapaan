@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-20 13:54:44 WIB",
+  "generated_at": "2026-08-20 14:14:47 WIB",
   "date": "2026-08-20",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6490,
-    "ihsg_change_pct": 1.51,
+    "ihsg_close": 6498,
+    "ihsg_change_pct": 1.63,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,11 +17,11 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 98,
+    "after_liquidity": 100,
     "after_accumulation": 15,
     "after_trend": 9,
     "after_smc": 4,
-    "after_entry": 1,
+    "after_entry": 2,
     "final": 1
   },
   "config": {
@@ -49,13 +49,14 @@
       "company": "Indo Tambangraya Megah Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
-        "GURU_92",
+        "SCREENER_VOLUME_EXPLOSION",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 25300,
+        "close": 25400,
         "change_pct": 0,
-        "value_today": 17319067500.0,
+        "value_today": 22789052500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -75,8 +76,8 @@
         }
       },
       "trend": {
-        "ma50": 23628.0,
-        "gap_from_ma50_pct": 6.55,
+        "ma50": 23632.0,
+        "gap_from_ma50_pct": 7.37,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -93,27 +94,27 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 25225,
+        "entry_1": 25325,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 25100,
+        "entry_2": 25175,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
         "entry_3": 24950,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 25075,
-        "entry_zone": "24950 - 25225",
+        "average_entry": 25150,
+        "entry_zone": "24950 - 25325",
         "sl": 24900,
-        "sl_pct_risk": 0.7,
+        "sl_pct_risk": 0.99,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 25350,
+        "tp1": 25400,
         "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 26100,
+        "tp2": 26150,
         "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 26875,
+        "tp3": 26925,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:10.3",
+        "rr_ratio": "1:7.1",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
@@ -128,7 +129,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "13.53 WIB"
+      "updated_at": "14.13 WIB"
     }
   ]
 }
