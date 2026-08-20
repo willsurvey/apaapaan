@@ -90,7 +90,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "00.16 WIB"
+      "updated_at": "00.35 WIB"
     },
     {
       "rank": 2,
@@ -178,7 +178,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "00.16 WIB"
+      "updated_at": "00.35 WIB"
     },
     {
       "rank": 3,
@@ -266,7 +266,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "00.16 WIB"
+      "updated_at": "00.35 WIB"
     },
     {
       "rank": 4,
@@ -356,7 +356,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "00.16 WIB"
+      "updated_at": "00.35 WIB"
     },
     {
       "rank": 5,
@@ -443,7 +443,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "00.16 WIB"
+      "updated_at": "00.35 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -570,7 +570,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-21 00:17:08 WIB",
+    "generated_at": "2026-08-21 00:35:42 WIB",
     "date": "2026-08-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -610,8 +610,8 @@
     "after_liquidity": 113,
     "after_accumulation": 58,
     "after_trend": 28,
-    "after_smc": 14,
-    "after_entry": 12,
+    "after_smc": 15,
+    "after_entry": 13,
     "final": 5
   },
   "config_ara": {
