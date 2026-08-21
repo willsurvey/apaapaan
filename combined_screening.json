@@ -89,7 +89,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "16.54 WIB"
+      "updated_at": "17.15 WIB"
     },
     {
       "rank": 2,
@@ -178,7 +178,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.54 WIB"
+      "updated_at": "17.15 WIB"
     },
     {
       "rank": 3,
@@ -266,7 +266,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.54 WIB"
+      "updated_at": "17.15 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -325,7 +325,7 @@
       "d2_body_pct": 0.952,
       "d2_vol_ratio_ma20": 8.36,
       "m1_last15_green": 13,
-      "m1_close_vs_vwap": -10.39,
+      "m1_close_vs_vwap": -6.13,
       "m1_close_pos_intra": 0.0,
       "m1_high_timing": 0.067,
       "m1_n_bars": 268,
@@ -350,7 +350,7 @@
       ],
       "signals_negative": [
         "Closing flat bias: 12/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -10.4%",
+        "Close di bawah VWAP: -6.1%",
         "High intraday di awal sesi (7%) — profit taking sore"
       ],
       "universe_sources": [
@@ -360,7 +360,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:54 WIB"
+      "generated_at": "17:15 WIB"
     },
     {
       "ticker": "PIPA",
@@ -451,7 +451,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:54 WIB"
+      "generated_at": "17:15 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -537,7 +537,7 @@
       "close": 1095.0,
       "near_52w_pct": 97.8,
       "wk_rsi": 74.5,
-      "wk_adx": 32.3,
+      "wk_adx": 32.4,
       "mo_rsi": 85.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -579,7 +579,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-21 16:55:52 WIB",
+    "generated_at": "2026-08-21 17:16:18 WIB",
     "date": "2026-08-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -616,9 +616,9 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 111,
-    "after_accumulation": 33,
-    "after_trend": 15,
+    "after_liquidity": 113,
+    "after_accumulation": 35,
+    "after_trend": 16,
     "after_smc": 7,
     "after_entry": 5,
     "final": 3
