@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-21 17:35:17 WIB",
+  "generated_at": "2026-08-21 17:58:06 WIB",
   "date": "2026-08-21",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -61,12 +61,12 @@
         "change_pct": 2.87,
         "value_today": 1125537214000,
         "frequency_today": 43141,
-        "iep": 3230,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": 292168792000,
+        "net_foreign_today": 628492719000,
         "net_foreign_3d": 0,
         "acc_score": 65,
         "score_breakdown": {
@@ -127,12 +127,12 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp292.2B",
+        "✅ Net Foreign Buy hari ini: Rp628.5B",
         "✅ Harga di zona Order Block aktif",
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.34 WIB"
+      "updated_at": "17.56 WIB"
     },
     {
       "rank": 2,
@@ -142,6 +142,7 @@
       "universe_sources": [
         "MOVER_TYPE_TOP_VOLUME",
         "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_87_Reversal on ",
         "SCREENER_TOP_VALUE"
@@ -151,12 +152,12 @@
         "change_pct": 1.69,
         "value_today": 601792069000,
         "frequency_today": 24372,
-        "iep": 4220,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": -102797759000,
+        "net_foreign_today": 140012043000,
         "net_foreign_3d": 0,
         "acc_score": 60,
         "score_breakdown": {
@@ -217,12 +218,12 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy kemarin",
+        "✅ Net Foreign Buy hari ini: Rp140.0B",
         "✅ Harga di zona Order Block aktif",
         "✅ Pullback ke MA50 (1.1% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "17.34 WIB"
+      "updated_at": "17.56 WIB"
     },
     {
       "rank": 3,
@@ -231,6 +232,7 @@
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
         "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_63_High Volume ",
         "SCREENER_TOP_VALUE"
@@ -240,12 +242,12 @@
         "change_pct": 3.9,
         "value_today": 341456486000,
         "frequency_today": 17290,
-        "iep": 3730,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": -48149265000,
+        "net_foreign_today": 113135892000,
         "net_foreign_3d": 0,
         "acc_score": 70,
         "score_breakdown": {
@@ -306,11 +308,11 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy kemarin",
+        "✅ Net Foreign Buy hari ini: Rp113.1B",
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "17.34 WIB"
+      "updated_at": "17.56 WIB"
     },
     {
       "rank": 4,
@@ -397,7 +399,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "17.34 WIB"
+      "updated_at": "17.56 WIB"
     }
   ]
 }
