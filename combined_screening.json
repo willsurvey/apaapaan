@@ -89,7 +89,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "12.33 WIB"
+      "updated_at": "12.52 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -227,7 +227,7 @@
       "close": 1370.0,
       "near_52w_pct": 99.6,
       "wk_rsi": 64.9,
-      "wk_adx": 36.8,
+      "wk_adx": 36.7,
       "mo_rsi": 81.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -292,7 +292,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-21 12:34:30 WIB",
+    "generated_at": "2026-08-21 12:53:53 WIB",
     "date": "2026-08-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
