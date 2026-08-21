@@ -16,8 +16,8 @@
       "market_data": {
         "close": 3230,
         "change_pct": 2.87,
-        "value_today": 1122175107000,
-        "frequency_today": 43010,
+        "value_today": 1125537214000,
+        "frequency_today": 43141,
         "iep": 3230,
         "iep_change_pct": 0
       },
@@ -36,8 +36,8 @@
         }
       },
       "trend": {
-        "ma50": 2943.0,
-        "gap_from_ma50_pct": 9.4,
+        "ma50": 2944.0,
+        "gap_from_ma50_pct": 9.73,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -89,7 +89,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "16.14 WIB"
+      "updated_at": "16.33 WIB"
     },
     {
       "rank": 2,
@@ -105,8 +105,8 @@
       "market_data": {
         "close": 2340,
         "change_pct": 0,
-        "value_today": 38675520000,
-        "frequency_today": 6625,
+        "value_today": 38845638000,
+        "frequency_today": 6668,
         "iep": 2340,
         "iep_change_pct": 0
       },
@@ -178,7 +178,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.14 WIB"
+      "updated_at": "16.33 WIB"
     },
     {
       "rank": 3,
@@ -193,8 +193,8 @@
       "market_data": {
         "close": 20675,
         "change_pct": 2.22,
-        "value_today": 31312435000,
-        "frequency_today": 2265,
+        "value_today": 31426147500,
+        "frequency_today": 2270,
         "iep": 20675,
         "iep_change_pct": 0
       },
@@ -266,7 +266,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.14 WIB"
+      "updated_at": "16.33 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -279,11 +279,11 @@
       "ticker": "DMAS",
       "company": "Puradelta Lestari Tbk",
       "score": 70,
-      "close": 166.0,
-      "near_52w_pct": 97.6,
-      "wk_rsi": 78.9,
+      "close": 167.0,
+      "near_52w_pct": 98.2,
+      "wk_rsi": 79.3,
       "wk_adx": 37.5,
-      "mo_rsi": 75.9,
+      "mo_rsi": 76.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -353,7 +353,7 @@
       "close": 1095.0,
       "near_52w_pct": 97.8,
       "wk_rsi": 74.5,
-      "wk_adx": 32.4,
+      "wk_adx": 32.3,
       "mo_rsi": 85.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -395,7 +395,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-21 16:15:21 WIB",
+    "generated_at": "2026-08-21 16:34:23 WIB",
     "date": "2026-08-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -424,7 +424,7 @@
   },
   "market_context": {
     "ihsg_close": 6525,
-    "ihsg_change_pct": 0.36,
+    "ihsg_change_pct": 0.37,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
