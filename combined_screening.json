@@ -43,7 +43,7 @@
         "swing_trend_bias": "BEARISH",
         "ob_zone": null,
         "fvg_zone": null,
-        "strong_low": 460.0,
+        "strong_low": 466.0,
         "weak_high": 480.0
       },
       "entry_plan": {
@@ -86,7 +86,7 @@
         "✅ Internal CHoCH Bullish (1H)"
       ],
       "warnings": [],
-      "updated_at": "07.34 WIB"
+      "updated_at": "07.54 WIB"
     },
     {
       "rank": 2,
@@ -177,7 +177,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "07.34 WIB"
+      "updated_at": "07.54 WIB"
     },
     {
       "rank": 3,
@@ -268,7 +268,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "07.34 WIB"
+      "updated_at": "07.54 WIB"
     },
     {
       "rank": 4,
@@ -359,7 +359,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "07.34 WIB"
+      "updated_at": "07.54 WIB"
     },
     {
       "rank": 5,
@@ -447,7 +447,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "07.34 WIB"
+      "updated_at": "07.54 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -532,7 +532,7 @@
       "close": 2950.0,
       "near_52w_pct": 99.3,
       "wk_rsi": 67.6,
-      "wk_adx": 24.8,
+      "wk_adx": 24.7,
       "mo_rsi": 70.6,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -574,7 +574,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-21 07:35:19 WIB",
+    "generated_at": "2026-08-21 07:54:48 WIB",
     "date": "2026-08-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -602,8 +602,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6394,
-    "ihsg_change_pct": -0.86,
+    "ihsg_close": 6501,
+    "ihsg_change_pct": 1.68,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
