@@ -89,7 +89,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.56 WIB"
+      "updated_at": "18.16 WIB"
     },
     {
       "rank": 2,
@@ -180,7 +180,7 @@
         "✅ Pullback ke MA50 (1.1% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "17.56 WIB"
+      "updated_at": "18.16 WIB"
     },
     {
       "rank": 3,
@@ -269,7 +269,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "17.56 WIB"
+      "updated_at": "18.16 WIB"
     },
     {
       "rank": 4,
@@ -356,7 +356,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "17.56 WIB"
+      "updated_at": "18.16 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -449,7 +449,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "17:56 WIB"
+      "generated_at": "18:17 WIB"
     },
     {
       "ticker": "FIRE",
@@ -506,10 +506,10 @@
       "d2_body_pct": 0.0,
       "d2_vol_ratio_ma20": 1.97,
       "m1_last15_green": 12,
-      "m1_close_vs_vwap": -3.5,
+      "m1_close_vs_vwap": -4.96,
       "m1_close_pos_intra": 0.4,
-      "m1_high_timing": 0.535,
-      "m1_n_bars": 185,
+      "m1_high_timing": 0.533,
+      "m1_n_bars": 184,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -530,13 +530,13 @@
       ],
       "signals_negative": [
         "Closing flat bias: 10/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -3.5%"
+        "Close di bawah VWAP: -5.0%"
       ],
       "universe_sources": [
         "SCREENER_VOL_EXPLOSION"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "17:56 WIB"
+      "generated_at": "18:17 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -645,7 +645,7 @@
       "close": 1095.0,
       "near_52w_pct": 97.8,
       "wk_rsi": 74.5,
-      "wk_adx": 32.4,
+      "wk_adx": 32.3,
       "mo_rsi": 85.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -664,7 +664,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-21 17:58:06 WIB",
+    "generated_at": "2026-08-21 18:18:14 WIB",
     "date": "2026-08-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
