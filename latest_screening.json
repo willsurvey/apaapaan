@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-21 14:34:00 WIB",
+  "generated_at": "2026-08-21 14:57:00 WIB",
   "date": "2026-08-21",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6542,
-    "ihsg_change_pct": 0.62,
+    "ihsg_close": 6544,
+    "ihsg_change_pct": 0.66,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,11 +17,11 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 101,
+    "after_liquidity": 104,
     "after_accumulation": 31,
     "after_trend": 14,
-    "after_smc": 5,
-    "after_entry": 4,
+    "after_smc": 6,
+    "after_entry": 5,
     "final": 1
   },
   "config": {
@@ -56,7 +56,7 @@
       "market_data": {
         "close": 525,
         "change_pct": 0,
-        "value_today": 24394048400.0,
+        "value_today": 27256813900.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -77,7 +77,7 @@
       },
       "trend": {
         "ma50": 434.0,
-        "gap_from_ma50_pct": 22.2,
+        "gap_from_ma50_pct": 19.95,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -127,7 +127,7 @@
         "✅ Internal CHoCH Bullish (1H)"
       ],
       "warnings": [],
-      "updated_at": "14.33 WIB"
+      "updated_at": "14.55 WIB"
     }
   ]
 }
