@@ -89,7 +89,7 @@
         "✅ Pullback ke MA50 (1.1% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "11.13 WIB"
+      "updated_at": "11.33 WIB"
     },
     {
       "rank": 2,
@@ -178,7 +178,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "11.13 WIB"
+      "updated_at": "11.33 WIB"
     },
     {
       "rank": 3,
@@ -268,7 +268,7 @@
         "✅ Pullback ke MA50 (4.3% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "11.13 WIB"
+      "updated_at": "11.33 WIB"
     },
     {
       "rank": 4,
@@ -355,7 +355,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "11.13 WIB"
+      "updated_at": "11.33 WIB"
     },
     {
       "rank": 5,
@@ -443,7 +443,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "11.13 WIB"
+      "updated_at": "11.33 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -534,7 +534,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "11:14 WIB"
+      "generated_at": "11:34 WIB"
     },
     {
       "ticker": "FIRE",
@@ -621,7 +621,7 @@
         "SCREENER_VOL_EXPLOSION"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "11:14 WIB"
+      "generated_at": "11:34 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -749,7 +749,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-22 11:15:26 WIB",
+    "generated_at": "2026-08-22 11:35:36 WIB",
     "date": "2026-08-22",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
