@@ -89,7 +89,7 @@
         "✅ Pullback ke MA50 (1.1% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "03.54 WIB"
+      "updated_at": "04.14 WIB"
     },
     {
       "rank": 2,
@@ -178,7 +178,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "03.54 WIB"
+      "updated_at": "04.14 WIB"
     },
     {
       "rank": 3,
@@ -268,7 +268,7 @@
         "✅ Pullback ke MA50 (4.3% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "03.54 WIB"
+      "updated_at": "04.14 WIB"
     },
     {
       "rank": 4,
@@ -355,7 +355,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "03.54 WIB"
+      "updated_at": "04.14 WIB"
     },
     {
       "rank": 5,
@@ -443,7 +443,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "03.54 WIB"
+      "updated_at": "04.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -572,7 +572,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-24 03:55:51 WIB",
+    "generated_at": "2026-08-24 04:14:52 WIB",
     "date": "2026-08-24",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
