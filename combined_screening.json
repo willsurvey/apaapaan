@@ -85,7 +85,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "13.13 WIB"
+      "updated_at": "13.35 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -146,8 +146,8 @@
       "m1_last15_green": 11,
       "m1_close_vs_vwap": -1.14,
       "m1_close_pos_intra": 0.333,
-      "m1_high_timing": 0.046,
-      "m1_n_bars": 173,
+      "m1_high_timing": 0.047,
+      "m1_n_bars": 172,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -177,7 +177,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "13:14 WIB"
+      "generated_at": "13:36 WIB"
     },
     {
       "ticker": "MUTU",
@@ -234,7 +234,7 @@
       "d2_body_pct": 1.0,
       "d2_vol_ratio_ma20": 2.13,
       "m1_last15_green": 10,
-      "m1_close_vs_vwap": -1.91,
+      "m1_close_vs_vwap": -1.51,
       "m1_close_pos_intra": 0.231,
       "m1_high_timing": 0.03,
       "m1_n_bars": 168,
@@ -267,7 +267,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "13:14 WIB"
+      "generated_at": "13:36 WIB"
     },
     {
       "ticker": "PJHB",
@@ -324,10 +324,10 @@
       "d2_body_pct": 0.333,
       "d2_vol_ratio_ma20": 0.94,
       "m1_last15_green": 13,
-      "m1_close_vs_vwap": -3.21,
+      "m1_close_vs_vwap": -1.56,
       "m1_close_pos_intra": 0.207,
       "m1_high_timing": 0.0,
-      "m1_n_bars": 170,
+      "m1_n_bars": 169,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -348,16 +348,14 @@
       ],
       "signals_negative": [
         "Closing flat bias: 11/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -3.2%",
         "High intraday di awal sesi (0%) — profit taking sore"
       ],
       "universe_sources": [
         "SCREENER_VOL_EXPLOSION",
-        "GURU_92",
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "13:14 WIB"
+      "generated_at": "13:36 WIB"
     },
     {
       "ticker": "NAIK",
@@ -414,10 +412,10 @@
       "d2_body_pct": 0.667,
       "d2_vol_ratio_ma20": 2.75,
       "m1_last15_green": 11,
-      "m1_close_vs_vwap": -1.61,
+      "m1_close_vs_vwap": -1.62,
       "m1_close_pos_intra": 0.333,
-      "m1_high_timing": 0.094,
-      "m1_n_bars": 149,
+      "m1_high_timing": 0.093,
+      "m1_n_bars": 150,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -446,7 +444,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "13:14 WIB"
+      "generated_at": "13:36 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -546,7 +544,7 @@
       "close": 920.0,
       "near_52w_pct": 97.4,
       "wk_rsi": 75.6,
-      "wk_adx": 57.3,
+      "wk_adx": 57.2,
       "mo_rsi": 84.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -636,7 +634,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-24 13:15:10 WIB",
+    "generated_at": "2026-08-24 13:37:31 WIB",
     "date": "2026-08-24",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
