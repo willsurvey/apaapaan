@@ -90,7 +90,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "22.36 WIB"
+      "updated_at": "23.14 WIB"
     },
     {
       "rank": 2,
@@ -179,7 +179,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "22.36 WIB"
+      "updated_at": "23.14 WIB"
     },
     {
       "rank": 3,
@@ -267,7 +267,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "22.36 WIB"
+      "updated_at": "23.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -326,10 +326,10 @@
       "d2_body_pct": 0.106,
       "d2_vol_ratio_ma20": 12.62,
       "m1_last15_green": 14,
-      "m1_close_vs_vwap": 9.39,
+      "m1_close_vs_vwap": 10.9,
       "m1_close_pos_intra": 1.0,
-      "m1_high_timing": 0.958,
-      "m1_n_bars": 306,
+      "m1_high_timing": 0.957,
+      "m1_n_bars": 305,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -345,7 +345,7 @@
         "Range expansion: 3.2x avg-5d",
         "Harga di atas MA20",
         "Close intraday kuat: 1.00 (mendekati high harian)",
-        "Close di atas VWAP: +9.4%",
+        "Close di atas VWAP: +10.9%",
         "High intraday di akhir sesi (96%)",
         "Broker signal: Big Accumulation (+10 poin)"
       ],
@@ -360,10 +360,128 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "22:36 WIB"
+      "generated_at": "23:14 WIB"
     }
   ],
-  "bsjp_beli_sore_jual_pagi": [],
+  "bsjp_beli_sore_jual_pagi": [
+    {
+      "ticker": "ELIT",
+      "company": "Data Sinergitama Jaya Tbk.",
+      "tier": "S",
+      "score": 103,
+      "market_data": {
+        "close": 256.0,
+        "change_pct": 34.03,
+        "value_today": 38144372900,
+        "net_foreign": -347029300,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "bsjp_features": {
+        "vol_ratio20": 9.92,
+        "body_pct": 31.28,
+        "close_pos_pct": 100.0,
+        "above_ma20": true,
+        "above_ma50": true,
+        "above_ma200": true,
+        "atr_pct": 5.08
+      },
+      "entry_plan": {
+        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
+        "entry_range": "254 – 256",
+        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
+        "stop_loss": 192,
+        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
+        "target_pct": "+2% s/d +10% di pagi hari",
+        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
+      },
+      "universe_context": {
+        "in_mover_types": [
+          "MOVER_TYPE_TOP_VOLUME",
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_92_Big Accumula",
+          "SCREENER_TOP_VALUE"
+        ],
+        "from_gainer": false,
+        "from_screener": true,
+        "from_top_value": true
+      },
+      "signals_positive": [
+        "Volume ledakan ekstrem 9.9x MA20",
+        "Candle hijau sangat kuat (31.3%)",
+        "Tutup di puncak absolut — tidak ada upper wick",
+        "Uptrend penuh: di atas MA20, MA50, MA200",
+        "MA20 sedang naik — tren menguat",
+        "Masuk screener volume explosion Stockbit",
+        "Hari Senin — win rate BSJP historis tertinggi"
+      ],
+      "signals_negative": [
+        "Asing jual bersih hari ini — hati-hati"
+      ],
+      "win_probability": "~70% berdasarkan backtest 1.796 kejadian historis",
+      "disclaimer": "Tier S BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
+      "rank": 1
+    },
+    {
+      "ticker": "EKAD",
+      "company": "Ekadharma International Tbk.",
+      "tier": "A",
+      "score": 94,
+      "market_data": {
+        "close": 386.0,
+        "change_pct": 24.52,
+        "value_today": 23076397600,
+        "net_foreign": -16976200,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "bsjp_features": {
+        "vol_ratio20": 4.78,
+        "body_pct": 24.52,
+        "close_pos_pct": 100.0,
+        "above_ma20": true,
+        "above_ma50": true,
+        "above_ma200": true,
+        "atr_pct": 7.12
+      },
+      "entry_plan": {
+        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
+        "entry_range": "382 – 386",
+        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
+        "stop_loss": 302,
+        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
+        "target_pct": "+2% s/d +8% di pagi hari",
+        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
+      },
+      "universe_context": {
+        "in_mover_types": [
+          "MOVER_TYPE_TOP_GAINER",
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_92_Big Accumula",
+          "SCREENER_TOP_VALUE"
+        ],
+        "from_gainer": true,
+        "from_screener": true,
+        "from_top_value": true
+      },
+      "signals_positive": [
+        "Volume spike 4.8x MA20",
+        "Candle hijau sangat kuat (24.5%)",
+        "Tutup di puncak absolut — tidak ada upper wick",
+        "Uptrend penuh: di atas MA20, MA50, MA200",
+        "MA20 sedang naik — tren menguat",
+        "Masuk screener volume explosion Stockbit",
+        "Saham naik signifikan hari ini (momentum)",
+        "Hari Senin — win rate BSJP historis tertinggi"
+      ],
+      "signals_negative": [
+        "Asing jual bersih hari ini — hati-hati"
+      ],
+      "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
+      "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
+      "rank": 2
+    }
+  ],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
@@ -471,7 +589,7 @@
       "close": 910.0,
       "near_52w_pct": 96.3,
       "wk_rsi": 75.6,
-      "wk_adx": 57.2,
+      "wk_adx": 56.5,
       "mo_rsi": 84.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -490,7 +608,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-24 22:40:42 WIB",
+    "generated_at": "2026-08-24 23:15:53 WIB",
     "date": "2026-08-24",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -499,7 +617,7 @@
     "mode_warning": null,
     "intraday_count": 3,
     "ara_count": 1,
-    "bsjp_count": 0,
+    "bsjp_count": 2,
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
