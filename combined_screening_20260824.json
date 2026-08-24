@@ -90,7 +90,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.14 WIB"
+      "updated_at": "23.34 WIB"
     },
     {
       "rank": 2,
@@ -179,7 +179,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "23.14 WIB"
+      "updated_at": "23.34 WIB"
     },
     {
       "rank": 3,
@@ -267,7 +267,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "23.14 WIB"
+      "updated_at": "23.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -326,10 +326,10 @@
       "d2_body_pct": 0.106,
       "d2_vol_ratio_ma20": 12.62,
       "m1_last15_green": 14,
-      "m1_close_vs_vwap": 10.9,
+      "m1_close_vs_vwap": 9.39,
       "m1_close_pos_intra": 1.0,
-      "m1_high_timing": 0.957,
-      "m1_n_bars": 305,
+      "m1_high_timing": 0.958,
+      "m1_n_bars": 306,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -345,7 +345,7 @@
         "Range expansion: 3.2x avg-5d",
         "Harga di atas MA20",
         "Close intraday kuat: 1.00 (mendekati high harian)",
-        "Close di atas VWAP: +10.9%",
+        "Close di atas VWAP: +9.4%",
         "High intraday di akhir sesi (96%)",
         "Broker signal: Big Accumulation (+10 poin)"
       ],
@@ -360,7 +360,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "23:14 WIB"
+      "generated_at": "23:34 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -608,7 +608,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-24 23:15:53 WIB",
+    "generated_at": "2026-08-24 23:36:08 WIB",
     "date": "2026-08-24",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
