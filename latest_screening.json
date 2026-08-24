@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-25 04:36:00 WIB",
+  "generated_at": "2026-08-25 04:57:29 WIB",
   "date": "2026-08-25",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -19,9 +19,9 @@
     "universe": 979,
     "after_liquidity": 111,
     "after_accumulation": 34,
-    "after_trend": 21,
-    "after_smc": 7,
-    "after_entry": 3,
+    "after_trend": 20,
+    "after_smc": 8,
+    "after_entry": 4,
     "final": 3
   },
   "config": {
@@ -79,8 +79,8 @@
         }
       },
       "trend": {
-        "ma50": 142.0,
-        "gap_from_ma50_pct": 17.53,
+        "ma50": 143.0,
+        "gap_from_ma50_pct": 23.83,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -133,7 +133,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "04.34 WIB"
+      "updated_at": "04.55 WIB"
     },
     {
       "rank": 2,
@@ -169,8 +169,8 @@
         }
       },
       "trend": {
-        "ma50": 6882.0,
-        "gap_from_ma50_pct": 10.8,
+        "ma50": 6917.0,
+        "gap_from_ma50_pct": 12.05,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -222,7 +222,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "04.34 WIB"
+      "updated_at": "04.55 WIB"
     },
     {
       "rank": 3,
@@ -257,8 +257,8 @@
         }
       },
       "trend": {
-        "ma50": 4641.0,
-        "gap_from_ma50_pct": 18.51,
+        "ma50": 4671.0,
+        "gap_from_ma50_pct": 21.49,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -310,7 +310,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "04.34 WIB"
+      "updated_at": "04.55 WIB"
     }
   ]
 }
