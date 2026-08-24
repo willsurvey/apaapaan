@@ -13,7 +13,7 @@
       "market_data": {
         "close": 1965,
         "change_pct": 0,
-        "value_today": 21693694500.0,
+        "value_today": 22397186000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -34,7 +34,7 @@
       },
       "trend": {
         "ma50": 1610.0,
-        "gap_from_ma50_pct": 22.02,
+        "gap_from_ma50_pct": 21.72,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -85,11 +85,70 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.33 WIB"
+      "updated_at": "14.53 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
-  "bsjp_beli_sore_jual_pagi": [],
+  "bsjp_beli_sore_jual_pagi": [
+    {
+      "ticker": "EKAD",
+      "company": "Ekadharma International Tbk.",
+      "tier": "A",
+      "score": 97,
+      "market_data": {
+        "close": 376.0,
+        "change_pct": 21.94,
+        "value_today": 19934658800,
+        "net_foreign": 999017000,
+        "iep": 310,
+        "iep_change_pct": -17.989417989417987
+      },
+      "bsjp_features": {
+        "vol_ratio20": 4.3,
+        "body_pct": 21.29,
+        "close_pos_pct": 94.6,
+        "above_ma20": true,
+        "above_ma50": true,
+        "above_ma200": true,
+        "atr_pct": 7.2
+      },
+      "entry_plan": {
+        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
+        "entry_range": "372 – 376",
+        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
+        "stop_loss": 302,
+        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
+        "target_pct": "+2% s/d +8% di pagi hari",
+        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
+      },
+      "universe_context": {
+        "in_mover_types": [
+          "MOVER_TYPE_TOP_GAINER",
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_92_Big Accumula",
+          "SCREENER_TOP_VALUE"
+        ],
+        "from_gainer": true,
+        "from_screener": true,
+        "from_top_value": true
+      },
+      "signals_positive": [
+        "Volume spike 4.3x MA20",
+        "Candle hijau sangat kuat (21.3%)",
+        "Tutup dekat puncak (95%)",
+        "Uptrend penuh: di atas MA20, MA50, MA200",
+        "MA20 sedang naik — tren menguat",
+        "Asing beli bersih hari ini (Rp 1.0B)",
+        "Masuk screener volume explosion Stockbit",
+        "Saham naik signifikan hari ini (momentum)",
+        "Hari Senin — win rate BSJP historis tertinggi"
+      ],
+      "signals_negative": [],
+      "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
+      "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
+      "rank": 1
+    }
+  ],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
@@ -146,18 +205,18 @@
       "ticker": "POWR",
       "company": "Cikarang Listrindo Tbk.",
       "score": 70,
-      "close": 935.0,
-      "near_52w_pct": 98.9,
+      "close": 925.0,
+      "near_52w_pct": 97.9,
       "wk_rsi": 75.6,
-      "wk_adx": 57.2,
-      "mo_rsi": 85.3,
+      "wk_adx": 56.5,
+      "mo_rsi": 85.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (76) + Wk ADX (57) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
+        "Near 52W High (98%) + Wk RSI (76) + Wk ADX (57) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (85)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -170,11 +229,11 @@
       "ticker": "TOTL",
       "company": "Total Bangun Persada Tbk.",
       "score": 70,
-      "close": 1500.0,
-      "near_52w_pct": 98.7,
+      "close": 1510.0,
+      "near_52w_pct": 99.3,
       "wk_rsi": 69.1,
       "wk_adx": 47.1,
-      "mo_rsi": 87.8,
+      "mo_rsi": 87.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -216,7 +275,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-24 14:34:53 WIB",
+    "generated_at": "2026-08-24 14:54:34 WIB",
     "date": "2026-08-24",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -225,7 +284,7 @@
     "mode_warning": null,
     "intraday_count": 1,
     "ara_count": 0,
-    "bsjp_count": 0,
+    "bsjp_count": 1,
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
@@ -244,8 +303,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6500,
-    "ihsg_change_pct": -0.39,
+    "ihsg_close": 6499,
+    "ihsg_change_pct": -0.4,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -255,8 +314,8 @@
     "universe": 979,
     "after_liquidity": 110,
     "after_accumulation": 24,
-    "after_trend": 15,
-    "after_smc": 7,
+    "after_trend": 12,
+    "after_smc": 5,
     "after_entry": 3,
     "final": 1
   },
