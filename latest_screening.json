@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-24 15:18:16 WIB",
+  "generated_at": "2026-08-24 15:34:44 WIB",
   "date": "2026-08-24",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6500,
-    "ihsg_change_pct": -0.39,
+    "ihsg_close": 6487,
+    "ihsg_change_pct": -0.59,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -18,7 +18,7 @@
   "screening_summary": {
     "universe": 979,
     "after_liquidity": 110,
-    "after_accumulation": 23,
+    "after_accumulation": 22,
     "after_trend": 11,
     "after_smc": 6,
     "after_entry": 3,
@@ -54,9 +54,9 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 1965,
+        "close": 1955,
         "change_pct": 0,
-        "value_today": 22947166000.0,
+        "value_today": 25834736000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -94,19 +94,19 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 1955,
+        "entry_1": 1945,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 1940,
+        "entry_2": 1930,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
         "entry_3": 1925,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 1940,
-        "entry_zone": "1925 - 1955",
+        "average_entry": 1930,
+        "entry_zone": "1925 - 1945",
         "sl": 1915,
-        "sl_pct_risk": 1.29,
+        "sl_pct_risk": 0.78,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
         "tp1": 1975,
         "tp1_note": "PDH / Target psikologis intraday",
@@ -114,7 +114,7 @@
         "tp2_note": "Weak High / Supply Zone 1H",
         "tp3": 2090,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:6.0",
+        "rr_ratio": "1:10.7",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
@@ -128,7 +128,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.16 WIB"
+      "updated_at": "15.33 WIB"
     }
   ]
 }
