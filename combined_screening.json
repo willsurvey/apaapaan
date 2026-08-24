@@ -90,7 +90,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "21.14 WIB"
+      "updated_at": "21.34 WIB"
     },
     {
       "rank": 2,
@@ -179,7 +179,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "21.14 WIB"
+      "updated_at": "21.34 WIB"
     },
     {
       "rank": 3,
@@ -267,7 +267,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "21.14 WIB"
+      "updated_at": "21.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -497,7 +497,7 @@
       "close": 910.0,
       "near_52w_pct": 96.3,
       "wk_rsi": 75.6,
-      "wk_adx": 57.2,
+      "wk_adx": 57.3,
       "mo_rsi": 84.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -516,7 +516,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-24 21:15:51 WIB",
+    "generated_at": "2026-08-24 21:35:35 WIB",
     "date": "2026-08-24",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
