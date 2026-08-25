@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-25 17:55:28 WIB",
+  "generated_at": "2026-08-25 18:15:31 WIB",
   "date": "2026-08-25",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,12 +8,12 @@
   "mode_warning": null,
   "total_saham": 4,
   "market_context": {
-    "ihsg_close": 6501,
-    "ihsg_change_pct": -0.37,
-    "ihsg_trend": "BULLISH",
-    "ihsg_above_ma50": true,
     "market_safe": true,
-    "warning": null
+    "warning": null,
+    "ihsg_trend": "UNKNOWN",
+    "ihsg_close": 0,
+    "ihsg_change_pct": 0,
+    "ihsg_above_ma50": true
   },
   "screening_summary": {
     "universe": 979,
@@ -129,7 +129,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.54 WIB"
+      "updated_at": "18.14 WIB"
     },
     {
       "rank": 2,
@@ -220,7 +220,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.54 WIB"
+      "updated_at": "18.14 WIB"
     },
     {
       "rank": 3,
@@ -310,7 +310,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.54 WIB"
+      "updated_at": "18.14 WIB"
     },
     {
       "rank": 4,
@@ -398,7 +398,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.54 WIB"
+      "updated_at": "18.14 WIB"
     }
   ]
 }
