@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-25 11:37:50 WIB",
+  "generated_at": "2026-08-25 11:56:44 WIB",
   "date": "2026-08-25",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -129,7 +129,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "11.36 WIB"
+      "updated_at": "11.54 WIB"
     },
     {
       "rank": 2,
@@ -220,7 +220,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "11.36 WIB"
+      "updated_at": "11.54 WIB"
     },
     {
       "rank": 3,
@@ -310,7 +310,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "11.36 WIB"
+      "updated_at": "11.54 WIB"
     },
     {
       "rank": 4,
@@ -398,7 +398,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "11.36 WIB"
+      "updated_at": "11.54 WIB"
     }
   ]
 }
