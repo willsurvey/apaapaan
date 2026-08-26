@@ -8,25 +8,25 @@
       "tier": "S",
       "score": 100,
       "market_data": {
-        "close": 260.0,
-        "change_pct": 12.07,
-        "value_today": 304656793300,
+        "close": 264.0,
+        "change_pct": 13.79,
+        "value_today": 350858697700,
         "net_foreign": -2626341600,
         "iep": 236,
-        "iep_change_pct": -9.230769230769232
+        "iep_change_pct": -11.278195488721805
       },
       "bsjp_features": {
-        "vol_ratio20": 10.66,
-        "body_pct": 10.17,
-        "close_pos_pct": 96.9,
+        "vol_ratio20": 11.3,
+        "body_pct": 11.86,
+        "close_pos_pct": 97.1,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": true,
-        "atr_pct": 6.84
+        "atr_pct": 6.85
       },
       "entry_plan": {
         "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
-        "entry_range": "258 – 260",
+        "entry_range": "262 – 264",
         "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
         "stop_loss": 196,
         "stop_note": "Jika gap down besok, cut di bawah low hari ini",
@@ -47,8 +47,8 @@
         "from_top_value": true
       },
       "signals_positive": [
-        "Volume ledakan ekstrem 10.7x MA20",
-        "Candle hijau sangat kuat (10.2%)",
+        "Volume ledakan ekstrem 11.3x MA20",
+        "Candle hijau sangat kuat (11.9%)",
         "Tutup sangat dekat puncak (97%)",
         "Uptrend penuh: di atas MA20, MA50, MA200",
         "MA20 sedang naik — tren menguat",
@@ -143,11 +143,11 @@
       "ticker": "RGAS",
       "company": "Kian Santang Muliatama Tbk.",
       "score": 65,
-      "close": 260.0,
+      "close": 264.0,
       "near_52w_pct": 99.2,
-      "wk_rsi": 75.6,
-      "wk_adx": 43.9,
-      "mo_rsi": 86.0,
+      "wk_rsi": 75.9,
+      "wk_adx": 44.0,
+      "mo_rsi": 86.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -163,22 +163,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "ASGR",
-      "company": "Astra Graphia Tbk.",
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1925.0,
-      "near_52w_pct": 97.7,
-      "wk_rsi": 70.0,
-      "wk_adx": 44.5,
-      "mo_rsi": 79.3,
+      "close": 1015.0,
+      "near_52w_pct": 99.5,
+      "wk_rsi": 78.4,
+      "wk_adx": 47.8,
+      "mo_rsi": 77.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (70) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (79)",
+        "Near 52W High (100%) + Wk RSI (78) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
+        "Monthly RSI kuat (78)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -188,7 +188,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-26 14:36:48 WIB",
+    "generated_at": "2026-08-26 14:54:44 WIB",
     "date": "2026-08-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -216,8 +216,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6472,
-    "ihsg_change_pct": -0.44,
+    "ihsg_close": 6432,
+    "ihsg_change_pct": -1.06,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -226,8 +226,8 @@
   "screening_summary": {
     "universe": 979,
     "after_liquidity": 110,
-    "after_accumulation": 18,
-    "after_trend": 5,
+    "after_accumulation": 17,
+    "after_trend": 4,
     "after_smc": 2,
     "after_entry": 0,
     "final": 0
