@@ -188,7 +188,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-26 12:16:17 WIB",
+    "generated_at": "2026-08-26 12:37:48 WIB",
     "date": "2026-08-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -216,8 +216,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6495,
-    "ihsg_change_pct": -0.09,
+    "ihsg_close": 6496,
+    "ihsg_change_pct": -0.07,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
