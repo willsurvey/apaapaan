@@ -3,94 +3,34 @@
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [
     {
-      "ticker": "EKAD",
-      "company": "Ekadharma International Tbk.",
-      "tier": "A",
-      "score": 89,
-      "market_data": {
-        "close": 462.0,
-        "change_pct": 19.69,
-        "value_today": 31174186200,
-        "net_foreign": -16976200,
-        "iep": 404,
-        "iep_change_pct": -12.554112554112553
-      },
-      "bsjp_features": {
-        "vol_ratio20": 4.14,
-        "body_pct": 14.36,
-        "close_pos_pct": 100.0,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": true,
-        "atr_pct": 7.07
-      },
-      "entry_plan": {
-        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
-        "entry_range": "458 – 462",
-        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
-        "stop_loss": 384,
-        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
-        "target_pct": "+2% s/d +8% di pagi hari",
-        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
-      },
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
-          "MOVER_TYPE_TOP_VALUE",
-          "MOVER_TYPE_TOP_GAINER",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_92_Big Accumula",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": true,
-        "from_screener": true,
-        "from_top_value": true
-      },
-      "signals_positive": [
-        "Volume spike 4.1x MA20",
-        "Candle hijau sangat kuat (14.4%)",
-        "Tutup di puncak absolut — tidak ada upper wick",
-        "Uptrend penuh: di atas MA20, MA50, MA200",
-        "MA20 sedang naik — tren menguat",
-        "Masuk screener volume explosion Stockbit",
-        "Saham naik signifikan hari ini (momentum)"
-      ],
-      "signals_negative": [
-        "Asing jual bersih hari ini — hati-hati"
-      ],
-      "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
-      "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
-      "rank": 1
-    },
-    {
       "ticker": "RGAS",
       "company": "Kian Santang Muliatama Tbk.",
-      "tier": "A",
-      "score": 85,
+      "tier": "S",
+      "score": 95,
       "market_data": {
-        "close": 246.0,
+        "close": 250.0,
         "change_pct": 7.76,
-        "value_today": 182558629900,
+        "value_today": 217084125900,
         "net_foreign": -2626341600,
         "iep": 236,
         "iep_change_pct": -5.6000000000000005
       },
       "bsjp_features": {
-        "vol_ratio20": 7.72,
-        "body_pct": 4.24,
-        "close_pos_pct": 96.0,
+        "vol_ratio20": 9.02,
+        "body_pct": 5.93,
+        "close_pos_pct": 96.3,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": true,
-        "atr_pct": 6.82
+        "atr_pct": 6.83
       },
       "entry_plan": {
         "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
-        "entry_range": "244 – 246",
+        "entry_range": "248 – 250",
         "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
         "stop_loss": 196,
         "stop_note": "Jika gap down besok, cut di bawah low hari ini",
-        "target_pct": "+2% s/d +8% di pagi hari",
+        "target_pct": "+2% s/d +10% di pagi hari",
         "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
       },
       "universe_context": {
@@ -107,8 +47,8 @@
         "from_top_value": true
       },
       "signals_positive": [
-        "Volume spike kuat 7.7x MA20",
-        "Candle hijau solid (4.2%)",
+        "Volume ledakan ekstrem 9.0x MA20",
+        "Candle hijau kuat (5.9%)",
         "Tutup sangat dekat puncak (96%)",
         "Uptrend penuh: di atas MA20, MA50, MA200",
         "MA20 sedang naik — tren menguat",
@@ -118,44 +58,44 @@
       "signals_negative": [
         "Asing jual bersih hari ini — hati-hati"
       ],
-      "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
-      "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
-      "rank": 2
+      "win_probability": "~70% berdasarkan backtest 1.796 kejadian historis",
+      "disclaimer": "Tier S BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
+      "rank": 1
     }
   ],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "MEDC",
-      "company": "Medco Energi Internasional Tbk",
+      "ticker": "BNBR",
+      "company": "Bakrie & Brothers Tbk",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
       "score": 50,
       "market_data": {
-        "close": 1355.0,
-        "change_pct": -3.21,
-        "value_today": 31489680000,
-        "net_foreign": -3351248500
+        "close": 101.0,
+        "change_pct": 0,
+        "value_today": 65935088000,
+        "net_foreign": -5815709000
       },
       "d1_features": {
-        "body_pct": 1.5,
+        "body_pct": 1.0,
         "close_pos_pct": 66.7,
-        "vol_ratio": 0.47,
-        "change_pct": -3.21,
-        "range_pct": 2.21,
+        "vol_ratio": 0.31,
+        "change_pct": 0.0,
+        "range_pct": 2.97,
         "upper_wick": 33.3,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": false,
-        "atr_pct": 3.9
+        "atr_pct": 6.01
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "1,330 – 1,380",
+        "entry_range": "98 – 103",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 1275,
-        "stop_note": "Cut loss jika turun di bawah 1,275 (1 ATR dari entry)",
-        "target_modest": 1380,
-        "target_moderate": 1410,
+        "stop_loss": 92,
+        "stop_note": "Cut loss jika turun di bawah 92 (1 ATR dari entry)",
+        "target_modest": 103,
+        "target_moderate": 105,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -168,8 +108,8 @@
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
         "in_mover_types": [
+          "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
-          "MOVER_TYPE_TOP_LOSER",
           "GURU_78_Daily Net Fo",
           "SCREENER_TOP_VALUE"
         ],
@@ -177,10 +117,10 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.5%), volume mati (0.47x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.0%), volume mati (0.31x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
-        "Range D-1 kecil (2.2%) — noise rendah besok"
+        "Range D-1 kecil (3.0%) — noise rendah besok"
       ],
       "signals_negative": [
         "Asing jual bersih besar — hati-hati gap down"
@@ -229,18 +169,18 @@
       "ticker": "AUTO",
       "company": "Astra Otoparts Tbk.",
       "score": 70,
-      "close": 3210.0,
-      "near_52w_pct": 100.0,
-      "wk_rsi": 76.0,
-      "wk_adx": 26.9,
-      "mo_rsi": 73.3,
+      "close": 3180.0,
+      "near_52w_pct": 98.8,
+      "wk_rsi": 75.4,
+      "wk_adx": 27.0,
+      "mo_rsi": 73.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (76) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
+        "Near 52W High (99%) + Wk RSI (75) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (73)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -250,32 +190,9 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "RGAS",
-      "company": "Kian Santang Muliatama Tbk.",
-      "score": 65,
-      "close": 246.0,
-      "near_52w_pct": 96.1,
-      "wk_rsi": 74.4,
-      "wk_adx": 43.7,
-      "mo_rsi": 84.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (44) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (85)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "GJTL",
       "company": "Gajah Tunggal Tbk.",
-      "score": 65,
+      "score": 70,
       "close": 1400.0,
       "near_52w_pct": 98.9,
       "wk_rsi": 69.9,
@@ -290,6 +207,30 @@
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (83)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 0.7B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "RGAS",
+      "company": "Kian Santang Muliatama Tbk.",
+      "score": 65,
+      "close": 250.0,
+      "near_52w_pct": 97.7,
+      "wk_rsi": 74.8,
+      "wk_adx": 43.8,
+      "mo_rsi": 85.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (98%) + Wk RSI (75) + Wk ADX (44) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (85)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
@@ -302,7 +243,7 @@
       "close": 1935.0,
       "near_52w_pct": 98.2,
       "wk_rsi": 70.2,
-      "wk_adx": 44.4,
+      "wk_adx": 44.5,
       "mo_rsi": 79.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -321,7 +262,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-26 11:15:03 WIB",
+    "generated_at": "2026-08-26 11:39:59 WIB",
     "date": "2026-08-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -330,7 +271,7 @@
     "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
-    "bsjp_count": 2,
+    "bsjp_count": 1,
     "bpjs_count": 1,
     "swing_count": 0,
     "trend_count": 0,
@@ -349,8 +290,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6517,
-    "ihsg_change_pct": 0.24,
+    "ihsg_close": 6507,
+    "ihsg_change_pct": 0.09,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -358,10 +299,10 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 96,
-    "after_accumulation": 15,
-    "after_trend": 11,
-    "after_smc": 5,
+    "after_liquidity": 98,
+    "after_accumulation": 16,
+    "after_trend": 9,
+    "after_smc": 4,
     "after_entry": 2,
     "final": 0
   },
