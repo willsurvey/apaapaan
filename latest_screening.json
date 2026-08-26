@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-27 04:16:33 WIB",
+  "generated_at": "2026-08-27 04:40:27 WIB",
   "date": "2026-08-27",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -77,8 +77,8 @@
         }
       },
       "trend": {
-        "ma50": 336.0,
-        "gap_from_ma50_pct": 16.1,
+        "ma50": 339.0,
+        "gap_from_ma50_pct": 19.69,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -130,7 +130,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "04.14 WIB"
+      "updated_at": "04.38 WIB"
     },
     {
       "rank": 2,
@@ -166,8 +166,8 @@
         }
       },
       "trend": {
-        "ma50": 6601.0,
-        "gap_from_ma50_pct": 32.18,
+        "ma50": 6644.0,
+        "gap_from_ma50_pct": 37.34,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -218,7 +218,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "04.14 WIB"
+      "updated_at": "04.38 WIB"
     }
   ]
 }
