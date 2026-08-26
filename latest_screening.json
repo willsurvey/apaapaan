@@ -1,15 +1,15 @@
 {
-  "status": "no_signal",
-  "generated_at": "2026-08-26 15:57:02 WIB",
+  "status": "success",
+  "generated_at": "2026-08-26 16:15:13 WIB",
   "date": "2026-08-26",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
   "mode_warning": null,
-  "total_saham": 0,
+  "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6433,
-    "ihsg_change_pct": -1.05,
+    "ihsg_close": 6414,
+    "ihsg_change_pct": -1.35,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -19,10 +19,10 @@
     "universe": 979,
     "after_liquidity": 109,
     "after_accumulation": 17,
-    "after_trend": 4,
-    "after_smc": 2,
-    "after_entry": 0,
-    "final": 0
+    "after_trend": 2,
+    "after_smc": 1,
+    "after_entry": 1,
+    "final": 1
   },
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
@@ -42,5 +42,94 @@
     "max_output": 5,
     "min_rr": 2.0
   },
-  "data": []
+  "data": [
+    {
+      "rank": 1,
+      "ticker": "TOWR",
+      "company": "Sarana Menara Nusantara Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "MOVER_TYPE_TOP_VOLUME",
+        "MOVER_TYPE_TOP_VALUE",
+        "SCREENER_VOLUME_EXPLOSION",
+        "GURU_92_Big Accumula",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 474,
+        "change_pct": 3.95,
+        "value_today": 138793547200,
+        "frequency_today": 22983,
+        "iep": 474,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": -3383945200,
+        "net_foreign_3d": 0,
+        "acc_score": 45,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 0,
+          "foreign_3d": 0,
+          "candle": 0,
+          "volume": 10,
+          "total": 45
+        }
+      },
+      "trend": {
+        "ma50": 394.0,
+        "gap_from_ma50_pct": 20.23,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BEARISH",
+        "ob_zone": null,
+        "fvg_zone": "434 - 448",
+        "strong_low": 384.0,
+        "weak_high": 416.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 466,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 452,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 450,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 454,
+        "entry_zone": "450 - 466",
+        "sl": 446,
+        "sl_pct_risk": 1.76,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 498,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 515,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 530,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:9.5",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 50,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Harga di zona FVG aktif"
+      ],
+      "warnings": [],
+      "updated_at": "16.14 WIB"
+    }
+  ]
 }
