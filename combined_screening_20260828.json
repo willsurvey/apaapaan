@@ -90,7 +90,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "02.56 WIB"
+      "updated_at": "03.16 WIB"
     },
     {
       "rank": 2,
@@ -179,7 +179,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "02.56 WIB"
+      "updated_at": "03.16 WIB"
     },
     {
       "rank": 3,
@@ -267,7 +267,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "02.56 WIB"
+      "updated_at": "03.16 WIB"
     },
     {
       "rank": 4,
@@ -357,7 +357,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "02.56 WIB"
+      "updated_at": "03.16 WIB"
     },
     {
       "rank": 5,
@@ -445,7 +445,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "02.56 WIB"
+      "updated_at": "03.16 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -568,7 +568,7 @@
       "close": 1885.0,
       "near_52w_pct": 95.7,
       "wk_rsi": 74.0,
-      "wk_adx": 45.3,
+      "wk_adx": 45.4,
       "mo_rsi": 80.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -634,7 +634,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-28 02:58:06 WIB",
+    "generated_at": "2026-08-28 03:17:27 WIB",
     "date": "2026-08-28",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
