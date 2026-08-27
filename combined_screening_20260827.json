@@ -87,7 +87,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.33 WIB"
+      "updated_at": "16.56 WIB"
     },
     {
       "rank": 2,
@@ -176,7 +176,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.33 WIB"
+      "updated_at": "16.56 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -237,8 +237,8 @@
       "m1_last15_green": 10,
       "m1_close_vs_vwap": -2.81,
       "m1_close_pos_intra": 0.273,
-      "m1_high_timing": 0.595,
-      "m1_n_bars": 299,
+      "m1_high_timing": 0.593,
+      "m1_n_bars": 300,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -259,7 +259,7 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif",
+        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif",
         "Close di bawah VWAP: -2.8%",
         "5d trend terlalu cepat: +49.2%"
       ],
@@ -270,7 +270,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:34 WIB"
+      "generated_at": "16:57 WIB"
     },
     {
       "ticker": "MPOW",
@@ -322,7 +322,7 @@
       "d1_close_pos": 0.273,
       "d1_bullish": false,
       "d1_range_expansion": 1.85,
-      "d1_value_rp": 241723950000,
+      "d1_value_rp": 241671970000,
       "d2_change_pct": 5.45,
       "d2_body_pct": 0.417,
       "d2_vol_ratio_ma20": 7.7,
@@ -357,7 +357,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:34 WIB"
+      "generated_at": "16:57 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -485,7 +485,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-27 16:35:21 WIB",
+    "generated_at": "2026-08-27 16:58:34 WIB",
     "date": "2026-08-27",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
