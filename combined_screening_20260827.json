@@ -86,7 +86,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "12.14 WIB"
+      "updated_at": "12.33 WIB"
     },
     {
       "rank": 2,
@@ -175,7 +175,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "12.14 WIB"
+      "updated_at": "12.33 WIB"
     },
     {
       "rank": 3,
@@ -263,10 +263,101 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "12.14 WIB"
+      "updated_at": "12.33 WIB"
     }
   ],
-  "logika_baru_calon_ara": [],
+  "logika_baru_calon_ara": [
+    {
+      "ticker": "NICE",
+      "company": "Adhi Kartiko Pratama Tbk.",
+      "type": "CALON_ARA",
+      "score": 68,
+      "score_tier": "MODERATE",
+      "pattern_type": "CONTINUATION",
+      "confluence_count": 8,
+      "entry_range": "392 – 494",
+      "entry_lower": 392,
+      "entry_upper": 494,
+      "entry_note": "Pasang Limit Order pukul 19:00 di 396–494 (PDC hingga harga ARA). Tipe Quiet Accumulation gap lebih kecil — peluang fill order lebih tinggi dibanding Tipe Continuation.",
+      "entry_range_pct": 25.8,
+      "ara_price_ref": 494,
+      "ara_limit_pct": 25.0,
+      "gap_risk_note": "Backtest: 64% saham ARA Gap Up >2% di pagi hari. Median gap: +3.70% dari harga ARA. Limit Order berisiko tidak fill.",
+      "estimated_target_pct": "+7% hingga +16% dari harga beli",
+      "target_morning_exit": 535,
+      "target_base": 580,
+      "target_optimistic": 600,
+      "target_morning_exit_pct": 7.0,
+      "target_base_pct": 16.0,
+      "target_optimistic_pct": 20.0,
+      "target_note": "Pagi: 535 (~+7%) | Moderat: 580 (~+16%) | Full: 600 (~+20%) | JUAL PAGI, bukan hold sampai close.",
+      "assumed_entry": 500,
+      "exit_timing_guide": "JUAL DI PAGI HARI (09:00-09:30 WIB). Backtest menunjukkan High D+1 median +16.77% dari harga ARA. Setelah 09:30, momentum sering berbalik. Jika masih ARA lagi (23.5% peluang), hold dengan trailing stop.",
+      "reason_beginner_friendly": "NICE sudah naik 16% kemarin dengan volume 22x lebih besar dari biasanya. Ada pembeli besar yang masuk agresif. Jika momentum berlanjut, saham ini bisa naik lebih jauh besok. ✅ Broker signal: Big Acc. Skor kepercayaan: SEDANG.",
+      "risk_warning": "⚠️ FALSE SIGNAL RATE ~85-90%. Konfirmasi dengan broker flow, berita, dan analisis manual sebelum beli. | 📌 Batasi posisi: max 1% dari portofolio.",
+      "d1p_backtest_stats": {
+        "high_d1_median": "+16.77% dari harga ARA (n=2213)",
+        "profit_morning": "84.5% sempat naik >5% di D+1",
+        "close_d1_profit": "hanya 48.9% (hampir coin flip — JANGAN hold)",
+        "continued_ara_pct": "23.5% lanjut ARA hari berikutnya",
+        "sample_size": "n=2.213 kunci ARA pertama pada saham liquid"
+      },
+      "broker_signal": "Big Acc",
+      "d1_date": "2026-08-27",
+      "d1_close": 396.0,
+      "d1_open": 390.0,
+      "d1_high": 408.0,
+      "d1_low": 376.0,
+      "d1_change_pct": 16.47,
+      "d1_vol_ratio_ma20": 22.43,
+      "d1_vol_ratio_ma5": 10.79,
+      "d1_body_pct": 0.187,
+      "d1_upper_wick": 0.375,
+      "d1_lower_wick": 0.437,
+      "d1_close_pos": 0.625,
+      "d1_bullish": true,
+      "d1_range_expansion": 1.43,
+      "d1_value_rp": 1698721200000,
+      "d2_change_pct": 25.0,
+      "d2_body_pct": 1.0,
+      "d2_vol_ratio_ma20": 8.72,
+      "m1_last15_green": 10,
+      "m1_close_vs_vwap": -0.5,
+      "m1_close_pos_intra": 0.625,
+      "m1_high_timing": 0.006,
+      "m1_n_bars": 162,
+      "m1_data_available": true,
+      "above_ma20": true,
+      "above_ma50": true,
+      "ma20": 262.0,
+      "ma50": 260.0,
+      "up_streak_days": 2,
+      "trend_5d_pct": 52.31,
+      "signals_positive": [
+        "Volume D-1 ekstrem: 22.4x MA20 (tier-2 ≥6x)",
+        "Volume D-2 elevated: 8.7x MA20 (akumulasi dini)",
+        "Continuation D-1: +16.5% vol 22.4x MA20",
+        "Upper wick rejection: 0.38 (smart money absorption)",
+        "Body kecil D-1: 0.19 (candle akumulasi)",
+        "D-2 early signal: +25.0% vol 8.7x",
+        "Harga di atas MA20",
+        "Broker signal: Big Accumulation (+10 poin)"
+      ],
+      "signals_negative": [
+        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif",
+        "High intraday di awal sesi (1%) — profit taking sore",
+        "5d trend terlalu cepat: +52.3%"
+      ],
+      "universe_sources": [
+        "SCREENER_VOL_EXPLOSION",
+        "GURU_92",
+        "GURU_94",
+        "SCREENER_TOP_VALUE"
+      ],
+      "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
+      "generated_at": "12:34 WIB"
+    }
+  ],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
@@ -276,31 +367,31 @@
       "formula": "QUIET_CONTINUATION",
       "score": 40,
       "market_data": {
-        "close": 2530.0,
+        "close": 2520.0,
         "change_pct": 1.61,
         "value_today": 49631132000,
         "net_foreign": -58538506000
       },
       "d1_features": {
-        "body_pct": 2.02,
-        "close_pos_pct": 60.0,
+        "body_pct": 1.61,
+        "close_pos_pct": 50.0,
         "vol_ratio": 0.27,
-        "change_pct": 2.02,
-        "range_pct": 3.95,
-        "upper_wick": 40.0,
+        "change_pct": 1.61,
+        "range_pct": 3.97,
+        "upper_wick": 50.0,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": true,
-        "atr_pct": 6.89
+        "atr_pct": 6.92
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "2,450 – 2,580",
+        "entry_range": "2,450 – 2,570",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
         "stop_loss": 2280,
         "stop_note": "Cut loss jika turun di bawah 2,280 (1 ATR dari entry)",
-        "target_modest": 2580,
-        "target_moderate": 2630,
+        "target_modest": 2570,
+        "target_moderate": 2620,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -321,13 +412,13 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+2.0%), volume mati (0.27x MA20), close tengah (60%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.6%), volume mati (0.27x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Di atas MA200 — tren utama masih bullish"
       ],
       "signals_negative": [
-        "Upper wick besar (40%) — tekanan jual D-1",
+        "Upper wick besar (50%) — tekanan jual D-1",
         "Asing jual bersih besar — hati-hati gap down"
       ],
       "backtest_stats": {
@@ -350,11 +441,11 @@
       "ticker": "ADRO",
       "company": "Alamtri Resources Indonesia Tbk.",
       "score": 70,
-      "close": 2670.0,
-      "near_52w_pct": 97.4,
-      "wk_rsi": 69.0,
+      "close": 2660.0,
+      "near_52w_pct": 97.1,
+      "wk_rsi": 68.7,
       "wk_adx": 21.3,
-      "mo_rsi": 76.5,
+      "mo_rsi": 76.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -362,7 +453,7 @@
       "signals_positive": [
         "Near 52W High (97%) + Wk RSI (69) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (77)",
+        "Monthly RSI kuat (76)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 17.9B)"
@@ -374,18 +465,18 @@
       "ticker": "AUTO",
       "company": "Astra Otoparts Tbk.",
       "score": 70,
-      "close": 3290.0,
-      "near_52w_pct": 99.4,
-      "wk_rsi": 77.4,
+      "close": 3300.0,
+      "near_52w_pct": 99.7,
+      "wk_rsi": 77.6,
       "wk_adx": 27.2,
-      "mo_rsi": 74.0,
+      "mo_rsi": 74.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (77) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
+        "Near 52W High (100%) + Wk RSI (78) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
         "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -466,7 +557,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-27 12:15:12 WIB",
+    "generated_at": "2026-08-27 12:35:10 WIB",
     "date": "2026-08-27",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -474,7 +565,7 @@
     "session_warning": null,
     "mode_warning": null,
     "intraday_count": 3,
-    "ara_count": 0,
+    "ara_count": 1,
     "bsjp_count": 0,
     "bpjs_count": 1,
     "swing_count": 0,
@@ -494,8 +585,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6449,
-    "ihsg_change_pct": 0.68,
+    "ihsg_close": 6450,
+    "ihsg_change_pct": 0.7,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
