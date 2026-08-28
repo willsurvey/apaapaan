@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-29 06:36:40 WIB",
+  "generated_at": "2026-08-29 06:56:30 WIB",
   "date": "2026-08-29",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -8,12 +8,12 @@
   "mode_warning": null,
   "total_saham": 2,
   "market_context": {
-    "ihsg_close": 6521,
-    "ihsg_change_pct": 1.81,
-    "ihsg_trend": "BULLISH",
-    "ihsg_above_ma50": true,
     "market_safe": true,
-    "warning": null
+    "warning": null,
+    "ihsg_trend": "UNKNOWN",
+    "ihsg_close": 0,
+    "ihsg_change_pct": 0,
+    "ihsg_above_ma50": true
   },
   "screening_summary": {
     "universe": 979,
@@ -134,7 +134,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "06.35 WIB"
+      "updated_at": "06.55 WIB"
     },
     {
       "rank": 2,
@@ -221,7 +221,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "06.35 WIB"
+      "updated_at": "06.55 WIB"
     }
   ]
 }
