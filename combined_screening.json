@@ -10,13 +10,13 @@
       "market_data": {
         "close": 199.0,
         "change_pct": 11.17,
-        "value_today": 224107839000,
+        "value_today": 230318987200,
         "net_foreign": 20581252000,
         "iep": 199,
         "iep_change_pct": 0
       },
       "bsjp_features": {
-        "vol_ratio20": 4.32,
+        "vol_ratio20": 4.41,
         "body_pct": 10.56,
         "close_pos_pct": 100.0,
         "above_ma20": true,
@@ -48,7 +48,7 @@
         "from_top_value": true
       },
       "signals_positive": [
-        "Volume spike 4.3x MA20",
+        "Volume spike 4.4x MA20",
         "Candle hijau sangat kuat (10.6%)",
         "Tutup di puncak absolut — tidak ada upper wick",
         "Uptrend penuh: di atas MA20, MA50, MA200",
@@ -187,7 +187,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-28 16:17:26 WIB",
+    "generated_at": "2026-08-28 16:38:18 WIB",
     "date": "2026-08-28",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -215,8 +215,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6528,
-    "ihsg_change_pct": 0.1,
+    "ihsg_close": 6518,
+    "ihsg_change_pct": -0.06,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
