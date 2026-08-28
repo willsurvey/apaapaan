@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-08-29 04:20:56 WIB",
+  "generated_at": "2026-08-29 04:48:17 WIB",
   "date": "2026-08-29",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -15,7 +15,15 @@
     "market_safe": true,
     "warning": null
   },
-  "screening_summary": {},
+  "screening_summary": {
+    "universe": 464,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
+    "after_smc": 0,
+    "after_entry": 0,
+    "final": 0
+  },
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
     "data_sources": [
