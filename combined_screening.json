@@ -7,52 +7,6 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "GJTL",
-      "company": "Gajah Tunggal Tbk.",
-      "score": 65,
-      "close": 1445.0,
-      "near_52w_pct": 99.3,
-      "wk_rsi": 71.6,
-      "wk_adx": 39.2,
-      "mo_rsi": 83.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (72) + Wk ADX (39) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (84)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 65,
-      "close": 1015.0,
-      "near_52w_pct": 99.5,
-      "wk_rsi": 78.4,
-      "wk_adx": 47.8,
-      "mo_rsi": 77.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (78) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (78)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "AUTO",
       "company": "Astra Otoparts Tbk.",
       "score": 65,
@@ -99,6 +53,29 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "GJTL",
+      "company": "Gajah Tunggal Tbk.",
+      "score": 65,
+      "close": 1445.0,
+      "near_52w_pct": 99.3,
+      "wk_rsi": 71.6,
+      "wk_adx": 39.2,
+      "mo_rsi": 83.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (99%) + Wk RSI (72) + Wk ADX (39) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (84)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "ADRO",
       "company": "Alamtri Resources Indonesia Tbk.",
       "score": 65,
@@ -120,11 +97,34 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1015.0,
+      "near_52w_pct": 99.5,
+      "wk_rsi": 78.4,
+      "wk_adx": 47.8,
+      "mo_rsi": 77.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (100%) + Wk RSI (78) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
+        "Monthly RSI kuat (78)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-28 08:15:38 WIB",
+    "generated_at": "2026-08-28 08:33:48 WIB",
     "date": "2026-08-28",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
