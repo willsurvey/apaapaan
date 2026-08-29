@@ -92,7 +92,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.14 WIB"
+      "updated_at": "23.32 WIB"
     },
     {
       "rank": 2,
@@ -179,7 +179,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "23.14 WIB"
+      "updated_at": "23.32 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -367,7 +367,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-29 23:14:55 WIB",
+    "generated_at": "2026-08-29 23:33:56 WIB",
     "date": "2026-08-29",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -395,8 +395,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6521,
-    "ihsg_change_pct": 1.81,
+    "ihsg_close": 6518,
+    "ihsg_change_pct": -0.06,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
