@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-08-30 06:35:27 WIB",
+  "generated_at": "2026-08-30 06:55:02 WIB",
   "date": "2026-08-30",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Sunday)",
@@ -135,7 +135,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "06.34 WIB"
+      "updated_at": "06.54 WIB"
     },
     {
       "rank": 2,
@@ -222,7 +222,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "06.34 WIB"
+      "updated_at": "06.54 WIB"
     }
   ]
 }
