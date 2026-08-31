@@ -88,7 +88,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.14 WIB"
+      "updated_at": "18.34 WIB"
     },
     {
       "rank": 2,
@@ -178,7 +178,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "18.14 WIB"
+      "updated_at": "18.34 WIB"
     },
     {
       "rank": 3,
@@ -268,7 +268,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.14 WIB"
+      "updated_at": "18.34 WIB"
     },
     {
       "rank": 4,
@@ -357,10 +357,96 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "18.14 WIB"
+      "updated_at": "18.34 WIB"
     }
   ],
-  "logika_baru_calon_ara": [],
+  "logika_baru_calon_ara": [
+    {
+      "ticker": "BINA",
+      "company": "Bank Ina Perdana Tbk",
+      "type": "CALON_ARA",
+      "score": 65,
+      "score_tier": "MODERATE",
+      "pattern_type": "VOLUME_SPIKE",
+      "confluence_count": 9,
+      "entry_range": "4,340 – 5,475",
+      "entry_lower": 4340,
+      "entry_upper": 5475,
+      "entry_note": "Pasang Limit Order pukul 19:00 di 4,380–5,475 (PDC hingga harga ARA). Tipe Quiet Accumulation gap lebih kecil — peluang fill order lebih tinggi dibanding Tipe Continuation.",
+      "entry_range_pct": 25.9,
+      "ara_price_ref": 5470,
+      "ara_limit_pct": 25.0,
+      "gap_risk_note": "Backtest: 64% saham ARA Gap Up >2% di pagi hari. Median gap: +3.70% dari harga ARA. Limit Order berisiko tidak fill.",
+      "estimated_target_pct": "+5% hingga +12% dari harga beli",
+      "target_morning_exit": 5825,
+      "target_base": 6200,
+      "target_optimistic": 6650,
+      "target_morning_exit_pct": 5.0,
+      "target_base_pct": 12.0,
+      "target_optimistic_pct": 20.0,
+      "target_note": "Pagi: 5,825 (~+5%) | Moderat: 6,200 (~+12%) | Full: 6,650 (~+20%) | JUAL PAGI, bukan hold sampai close.",
+      "assumed_entry": 5550,
+      "exit_timing_guide": "JUAL DI PAGI HARI (09:00-09:30 WIB). Backtest menunjukkan High D+1 median +16.77% dari harga ARA. Setelah 09:30, momentum sering berbalik. Jika masih ARA lagi (23.5% peluang), hold dengan trailing stop.",
+      "reason_beginner_friendly": "BINA mengalami lonjakan volume kemarin (7x dari biasanya) tanpa pola candle yang jelas. Konfirmasi dengan berita atau sinyal broker sebelum masuk. ✅ Broker signal: Big Acc. Skor kepercayaan: SEDANG.",
+      "risk_warning": "⚠️ FALSE SIGNAL RATE ~85-90%. Konfirmasi dengan broker flow, berita, dan analisis manual sebelum beli. | 📌 Batasi posisi: max 1% dari portofolio.",
+      "d1p_backtest_stats": {
+        "high_d1_median": "+16.77% dari harga ARA (n=2213)",
+        "profit_morning": "84.5% sempat naik >5% di D+1",
+        "close_d1_profit": "hanya 48.9% (hampir coin flip — JANGAN hold)",
+        "continued_ara_pct": "23.5% lanjut ARA hari berikutnya",
+        "sample_size": "n=2.213 kunci ARA pertama pada saham liquid"
+      },
+      "broker_signal": "Big Acc",
+      "d1_date": "2026-08-31",
+      "d1_close": 4380.0,
+      "d1_open": 4130.0,
+      "d1_high": 4380.0,
+      "d1_low": 4120.0,
+      "d1_change_pct": 6.83,
+      "d1_vol_ratio_ma20": 7.12,
+      "d1_vol_ratio_ma5": 8.41,
+      "d1_body_pct": 0.962,
+      "d1_upper_wick": 0.0,
+      "d1_lower_wick": 0.038,
+      "d1_close_pos": 1.0,
+      "d1_bullish": true,
+      "d1_range_expansion": 2.34,
+      "d1_value_rp": 1398490200000,
+      "d2_change_pct": -1.2,
+      "d2_body_pct": 0.75,
+      "d2_vol_ratio_ma20": 1.26,
+      "m1_last15_green": 10,
+      "m1_close_vs_vwap": 1.54,
+      "m1_close_pos_intra": 1.0,
+      "m1_high_timing": 0.985,
+      "m1_n_bars": 68,
+      "m1_data_available": true,
+      "above_ma20": true,
+      "above_ma50": true,
+      "ma20": 4126.0,
+      "ma50": 3968.0,
+      "up_streak_days": 0,
+      "trend_5d_pct": 5.04,
+      "signals_positive": [
+        "Volume D-1 ekstrem: 7.1x MA20 (tier-2 ≥6x)",
+        "Range expansion: 2.3x avg-5d",
+        "Harga di atas MA20",
+        "5d trend sehat: +5.0%",
+        "Closing momentum OK: 10/14 bar hijau",
+        "Close intraday kuat: 1.00 (mendekati high harian)",
+        "Close sedikit di atas VWAP: +1.5%",
+        "High intraday di akhir sesi (98%)",
+        "Broker signal: Big Accumulation (+10 poin)"
+      ],
+      "signals_negative": [],
+      "universe_sources": [
+        "GURU_92",
+        "GURU_94"
+      ],
+      "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
+      "generated_at": "18:34 WIB"
+    }
+  ],
   "bsjp_beli_sore_jual_pagi": [
     {
       "ticker": "KICI",
@@ -548,7 +634,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-31 18:15:59 WIB",
+    "generated_at": "2026-08-31 18:35:35 WIB",
     "date": "2026-08-31",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -556,7 +642,7 @@
     "session_warning": null,
     "mode_warning": null,
     "intraday_count": 4,
-    "ara_count": 0,
+    "ara_count": 1,
     "bsjp_count": 1,
     "bpjs_count": 0,
     "swing_count": 0,
