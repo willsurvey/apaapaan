@@ -90,7 +90,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "12.53 WIB"
+      "updated_at": "13.13 WIB"
     },
     {
       "rank": 2,
@@ -178,7 +178,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "12.53 WIB"
+      "updated_at": "13.13 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -269,7 +269,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "12:54 WIB"
+      "generated_at": "13:14 WIB"
     },
     {
       "ticker": "LABA",
@@ -359,7 +359,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "12:53 WIB"
+      "generated_at": "13:14 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -560,124 +560,7 @@
     }
   ],
   "swing_trading": [],
-  "trend_following": [
-    {
-      "ticker": "FORE",
-      "company": "Fore Kopi Indonesia Tbk.",
-      "score": 75,
-      "close": 855.0,
-      "adx": 33.3,
-      "rsi": 59.4,
-      "macd_hist": 1.4083,
-      "wk_adx": 27.6,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (33) + RSI sehat (59) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+3.0%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (28)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif",
-        "Asing beli bersih (Rp 2.1B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "POWR",
-      "company": "Cikarang Listrindo Tbk.",
-      "score": 70,
-      "close": 925.0,
-      "adx": 75.1,
-      "rsi": 73.7,
-      "macd_hist": 10.8345,
-      "wk_adx": 59.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (75) + RSI sehat (74) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+10.8%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (59)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "GJTL",
-      "company": "Gajah Tunggal Tbk.",
-      "score": 70,
-      "close": 1400.0,
-      "adx": 47.2,
-      "rsi": 69.4,
-      "macd_hist": 3.9903,
-      "wk_adx": 39.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (47) + RSI sehat (69) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+1.8%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (39)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "TOTL",
-      "company": "Total Bangun Persada Tbk.",
-      "score": 70,
-      "close": 1510.0,
-      "adx": 52.8,
-      "rsi": 70.2,
-      "macd_hist": 6.8519,
-      "wk_adx": 49.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (53) + RSI sehat (70) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+8.2%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (49)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "KUAS",
-      "company": "Ace Oldfields Tbk.",
-      "score": 70,
-      "close": 94.0,
-      "adx": 38.5,
-      "rsi": 52.4,
-      "macd_hist": 0.3663,
-      "wk_adx": 51.3,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (39) + RSI sehat (52) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+1.1%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (51)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    }
-  ],
+  "trend_following": [],
   "position_trading": [
     {
       "ticker": "SRSN",
@@ -798,7 +681,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-31 12:54:45 WIB",
+    "generated_at": "2026-08-31 13:15:10 WIB",
     "date": "2026-08-31",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -810,7 +693,7 @@
     "bsjp_count": 2,
     "bpjs_count": 1,
     "swing_count": 0,
-    "trend_count": 5,
+    "trend_count": 0,
     "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
