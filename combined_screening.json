@@ -13,7 +13,7 @@
       "market_data": {
         "close": 3450,
         "change_pct": 0,
-        "value_today": 39438894000.0,
+        "value_today": 42261347000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -34,7 +34,7 @@
       },
       "trend": {
         "ma50": 2687.0,
-        "gap_from_ma50_pct": 28.76,
+        "gap_from_ma50_pct": 28.03,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -86,7 +86,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.33 WIB"
+      "updated_at": "15.56 WIB"
     },
     {
       "rank": 2,
@@ -101,7 +101,7 @@
       "market_data": {
         "close": 26025,
         "change_pct": 0,
-        "value_today": 51462790000.0,
+        "value_today": 57003897500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -110,19 +110,19 @@
         "broker_signal": "Big Acc",
         "net_foreign_today": 0,
         "net_foreign_3d": 0,
-        "acc_score": 45,
+        "acc_score": 50,
         "score_breakdown": {
           "broker": 35,
           "foreign_1d": 0,
           "foreign_3d": 0,
           "candle": 10,
-          "volume": 0,
-          "total": 45
+          "volume": 5,
+          "total": 50
         }
       },
       "trend": {
-        "ma50": 23971.0,
-        "gap_from_ma50_pct": 8.46,
+        "ma50": 23972.0,
+        "gap_from_ma50_pct": 8.57,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -173,7 +173,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.33 WIB"
+      "updated_at": "15.56 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -186,7 +186,7 @@
       "market_data": {
         "close": 296.0,
         "change_pct": 24.37,
-        "value_today": 22412219000,
+        "value_today": 22413787800,
         "net_foreign": -14355200,
         "iep": 240,
         "iep_change_pct": -18.91891891891892
@@ -247,14 +247,14 @@
       "score": 50,
       "market_data": {
         "close": 192.0,
-        "change_pct": 1.05,
-        "value_today": 260265618200,
+        "change_pct": 0.53,
+        "value_today": 270864899400,
         "net_foreign": -81526192000
       },
       "d1_features": {
         "body_pct": 1.05,
         "close_pos_pct": 66.7,
-        "vol_ratio": 0.44,
+        "vol_ratio": 0.46,
         "change_pct": 1.05,
         "range_pct": 3.12,
         "upper_wick": 33.3,
@@ -293,7 +293,7 @@
         "from_screener": true
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.1%), volume mati (0.44x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.1%), volume mati (0.46x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Masuk screener volume Stockbit — ada perhatian pasar"
@@ -312,81 +312,6 @@
       },
       "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
       "rank": 1
-    },
-    {
-      "ticker": "ISAT",
-      "company": "Indosat Tbk",
-      "type": "WATCHLIST_BPJS",
-      "formula": "QUIET_CONTINUATION",
-      "score": 45,
-      "market_data": {
-        "close": 2520.0,
-        "change_pct": -0.4,
-        "value_today": 88128225000,
-        "net_foreign": -66668650000
-      },
-      "d1_features": {
-        "body_pct": 1.2,
-        "close_pos_pct": 40.0,
-        "vol_ratio": 0.45,
-        "change_pct": -0.4,
-        "range_pct": 3.97,
-        "upper_wick": 60.0,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": true,
-        "atr_pct": 6.52
-      },
-      "trading_plan": {
-        "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "2,460 – 2,570",
-        "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 2300,
-        "stop_note": "Cut loss jika turun di bawah 2,300 (1 ATR dari entry)",
-        "target_modest": 2570,
-        "target_moderate": 2620,
-        "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
-      },
-      "morning_confirmation_criteria": [
-        "⚠️ WAJIB: Utamakan jika terjadi Gap Down > 3% saat open untuk risk/reward terbaik",
-        "✅ Skenario Gap Down >3% memiliki Profit Factor 6.78x & Win Rate 44.5%",
-        "✅ Volume 15 menit pertama normal/stabil di atas rata-rata",
-        "❌ JANGAN BELI jika Gap Up > 3% (euforia rawan bull trap, PF hanya 0.3x)",
-        "❌ JANGAN BELI jika langsung longsor drastis tanpa rebound dari low"
-      ],
-      "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_VALUE",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_72_IHSG Short-t",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": false,
-        "from_screener": true
-      },
-      "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.2%), volume mati (0.45x MA20), close tengah (40%). WR historis: 49.8% (n=1.371)",
-        "Di atas MA20 — support jangka pendek",
-        "Di atas MA50 — tren menengah masih ok",
-        "Di atas MA200 — tren utama masih bullish",
-        "Masuk screener volume Stockbit — ada perhatian pasar"
-      ],
-      "signals_negative": [
-        "Upper wick besar (60%) — tekanan jual D-1",
-        "Asing jual bersih besar — hati-hati gap down"
-      ],
-      "backtest_stats": {
-        "formula": "QUIET_CONTINUATION",
-        "win_rate": "49.8%",
-        "sample_size": "n=1.371",
-        "profit_factor": "1.04x",
-        "total_backtest": "789.792 hari trading IHSG (956 saham)",
-        "gap_down_sweet_spot": "Gap Down >2%: WR 30.2%, upside +3.75%, DD -0.88%",
-        "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
-      },
-      "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
-      "rank": 2
     }
   ],
   "swing_trading": [],
@@ -443,11 +368,11 @@
       "ticker": "ADRO",
       "company": "Alamtri Resources Indonesia Tbk.",
       "score": 65,
-      "close": 2800.0,
-      "near_52w_pct": 98.6,
+      "close": 2810.0,
+      "near_52w_pct": 98.9,
       "wk_rsi": 69.0,
       "wk_adx": 21.3,
-      "mo_rsi": 78.0,
+      "mo_rsi": 78.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -489,11 +414,11 @@
       "ticker": "AUTO",
       "company": "Astra Otoparts Tbk.",
       "score": 65,
-      "close": 3460.0,
-      "near_52w_pct": 98.3,
+      "close": 3440.0,
+      "near_52w_pct": 97.7,
       "wk_rsi": 79.2,
       "wk_adx": 27.5,
-      "mo_rsi": 75.4,
+      "mo_rsi": 75.3,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -511,7 +436,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-31 15:34:45 WIB",
+    "generated_at": "2026-08-31 15:57:06 WIB",
     "date": "2026-08-31",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -521,7 +446,7 @@
     "intraday_count": 2,
     "ara_count": 0,
     "bsjp_count": 1,
-    "bpjs_count": 2,
+    "bpjs_count": 1,
     "swing_count": 0,
     "trend_count": 0,
     "position_count": 5,
@@ -539,8 +464,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6506,
-    "ihsg_change_pct": -0.18,
+    "ihsg_close": 6509,
+    "ihsg_change_pct": -0.13,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
