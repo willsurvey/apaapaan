@@ -2,6 +2,183 @@
   "logika_lama_intraday": [
     {
       "rank": 1,
+      "ticker": "AUTO",
+      "company": "Astra Otoparts Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "SCREENER_VOLUME_EXPLOSION",
+        "GURU_92_Big Accumula",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 3430,
+        "change_pct": 0,
+        "value_today": 42982823000.0,
+        "frequency_today": 0,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 0,
+        "net_foreign_3d": 0,
+        "acc_score": 60,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 15,
+          "foreign_3d": 0,
+          "candle": 0,
+          "volume": 10,
+          "total": 60
+        }
+      },
+      "trend": {
+        "ma50": 2687.0,
+        "gap_from_ma50_pct": 27.67,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "BOS_BULLISH",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": null,
+        "fvg_zone": "3330 - 3360",
+        "strong_low": 2930.0,
+        "weak_high": 2690.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 3400,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 3380,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 3360,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 3380,
+        "entry_zone": "3360 - 3400",
+        "sl": 3340,
+        "sl_pct_risk": 1.18,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 3520,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 3630,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 3740,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:9.0",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 75,
+        "tier": "HIGH"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy kemarin",
+        "✅ Internal BOS Bullish (1H)",
+        "✅ Harga di zona FVG aktif",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [],
+      "updated_at": "17.14 WIB"
+    },
+    {
+      "rank": 2,
+      "ticker": "EXCL",
+      "company": "XLSMART Telecom Sejahtera Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "SCREENER_VOLUME_EXPLOSION",
+        "GURU_92_Big Accumula",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 2820,
+        "change_pct": 0,
+        "value_today": 26049742000.0,
+        "frequency_today": 0,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 0,
+        "net_foreign_3d": 0,
+        "acc_score": 60,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 15,
+          "foreign_3d": 0,
+          "candle": 10,
+          "volume": 0,
+          "total": 60
+        }
+      },
+      "trend": {
+        "ma50": 2560.0,
+        "gap_from_ma50_pct": 10.17,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": null,
+        "fvg_zone": "2720 - 2750",
+        "strong_low": 2410.0,
+        "weak_high": 2930.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 2800,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 2750,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 2720,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 2750,
+        "entry_zone": "2720 - 2800",
+        "sl": 2700,
+        "sl_pct_risk": 1.82,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 2860,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 2930,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 3020,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:5.4",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 65,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy kemarin",
+        "✅ Harga di zona FVG aktif",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [],
+      "updated_at": "17.14 WIB"
+    },
+    {
+      "rank": 3,
       "ticker": "DMAS",
       "company": "Puradelta Lestari Tbk",
       "mode": "FULL_STOCKBIT",
@@ -25,14 +202,14 @@
         "broker_signal": "Big Acc",
         "net_foreign_today": 34694811600,
         "net_foreign_3d": 0,
-        "acc_score": 55,
+        "acc_score": 45,
         "score_breakdown": {
           "broker": 35,
-          "foreign_1d": 0,
+          "foreign_1d": -10,
           "foreign_3d": 0,
           "candle": 10,
           "volume": 10,
-          "total": 55
+          "total": 45
         }
       },
       "trend": {
@@ -90,12 +267,12 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.54 WIB"
+      "updated_at": "17.14 WIB"
     },
     {
-      "rank": 2,
-      "ticker": "AUTO",
-      "company": "Astra Otoparts Tbk.",
+      "rank": 4,
+      "ticker": "BFIN",
+      "company": "BFI Finance Indonesia Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
         "SCREENER_VOLUME_EXPLOSION",
@@ -103,9 +280,9 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 3430,
+        "close": 930,
         "change_pct": 0,
-        "value_today": 42982823000.0,
+        "value_today": 24848215500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -114,28 +291,28 @@
         "broker_signal": "Big Acc",
         "net_foreign_today": 0,
         "net_foreign_3d": 0,
-        "acc_score": 45,
+        "acc_score": 55,
         "score_breakdown": {
           "broker": 35,
-          "foreign_1d": 0,
+          "foreign_1d": 15,
           "foreign_3d": 0,
-          "candle": 0,
-          "volume": 10,
-          "total": 45
+          "candle": 10,
+          "volume": -5,
+          "total": 55
         }
       },
       "trend": {
-        "ma50": 2687.0,
-        "gap_from_ma50_pct": 27.67,
+        "ma50": 823.0,
+        "gap_from_ma50_pct": 13.04,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
-        "internal_structure": "BOS_BULLISH",
-        "swing_trend_bias": "BULLISH",
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BEARISH",
         "ob_zone": null,
-        "fvg_zone": null,
-        "strong_low": 2930.0,
-        "weak_high": 2690.0
+        "fvg_zone": "880 - 905",
+        "strong_low": 870.0,
+        "weak_high": 935.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -143,46 +320,46 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 3400,
+        "entry_1": 925,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 3380,
+        "entry_2": 915,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
-        "entry_3": 3360,
+        "entry_3": 905,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 3380,
-        "entry_zone": "3360 - 3400",
-        "sl": 3340,
-        "sl_pct_risk": 1.18,
+        "average_entry": 915,
+        "entry_zone": "905 - 925",
+        "sl": 895,
+        "sl_pct_risk": 2.19,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 3520,
+        "tp1": 935,
         "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 3630,
+        "tp2": 965,
         "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 3740,
+        "tp3": 995,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:9.0",
+        "rr_ratio": "1:4.0",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
       "scoring": {
-        "confidence_score": 55,
+        "confidence_score": 60,
         "tier": "MODERATE"
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Internal BOS Bullish (1H)",
-        "✅ Swing Structure: BULLISH"
+        "✅ Net Foreign Buy kemarin",
+        "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "16.54 WIB"
+      "updated_at": "17.14 WIB"
     },
     {
-      "rank": 3,
-      "ticker": "EXCL",
-      "company": "XLSMART Telecom Sejahtera Tbk.",
+      "rank": 5,
+      "ticker": "ITMG",
+      "company": "Indo Tambangraya Megah Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
         "SCREENER_VOLUME_EXPLOSION",
@@ -190,9 +367,9 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 2820,
+        "close": 26050,
         "change_pct": 0,
-        "value_today": 26049742000.0,
+        "value_today": 65530972500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -200,29 +377,29 @@
       "accumulation": {
         "broker_signal": "Big Acc",
         "net_foreign_today": 0,
-        "net_foreign_3d": 0,
-        "acc_score": 45,
+        "net_foreign_3d": -15,
+        "acc_score": 25,
         "score_breakdown": {
           "broker": 35,
-          "foreign_1d": 0,
-          "foreign_3d": 0,
+          "foreign_1d": -10,
+          "foreign_3d": -15,
           "candle": 10,
-          "volume": 0,
-          "total": 45
+          "volume": 5,
+          "total": 25
         }
       },
       "trend": {
-        "ma50": 2560.0,
-        "gap_from_ma50_pct": 10.17,
+        "ma50": 23972.0,
+        "gap_from_ma50_pct": 8.67,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
         "internal_structure": "NONE",
         "swing_trend_bias": "BULLISH",
-        "ob_zone": "2670 - 2720",
-        "fvg_zone": "2720 - 2750",
-        "strong_low": 2670.0,
-        "weak_high": 2930.0
+        "ob_zone": "24875 - 25275",
+        "fvg_zone": null,
+        "strong_low": 24875.0,
+        "weak_high": 25150.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -230,137 +407,44 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 2800,
+        "entry_1": 26000,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 2750,
+        "entry_2": 25875,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
-        "entry_3": 2720,
+        "entry_3": 25675,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 2750,
-        "entry_zone": "2720 - 2800",
-        "sl": 2700,
-        "sl_pct_risk": 1.82,
+        "average_entry": 25850,
+        "entry_zone": "25675 - 26000",
+        "sl": 25625,
+        "sl_pct_risk": 0.87,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 2860,
+        "tp1": 26050,
         "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 2930,
+        "tp2": 26825,
         "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 3020,
+        "tp3": 27625,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:5.4",
+        "rr_ratio": "1:7.9",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
       "scoring": {
-        "confidence_score": 55,
+        "confidence_score": 50,
         "tier": "MODERATE"
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
         "✅ Harga di zona Order Block aktif",
-        "✅ Harga di zona FVG aktif",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.54 WIB"
+      "updated_at": "17.14 WIB"
     }
   ],
-  "logika_baru_calon_ara": [
-    {
-      "ticker": "LABA",
-      "company": "Green Power Group Tbk.",
-      "type": "CALON_ARA",
-      "score": 76,
-      "score_tier": "STRONG",
-      "pattern_type": "SILENT_ACCUMULATION",
-      "confluence_count": 9,
-      "entry_range": "131 – 178",
-      "entry_lower": 131,
-      "entry_upper": 178,
-      "entry_note": "Pasang Limit Order pukul 19:00 di 132–178 (PDC hingga harga ARA). Tipe Quiet Accumulation gap lebih kecil — peluang fill order lebih tinggi dibanding Tipe Continuation.",
-      "entry_range_pct": 35.6,
-      "ara_price_ref": 178,
-      "ara_limit_pct": 35.0,
-      "gap_risk_note": "Backtest: 64% saham ARA Gap Up >2% di pagi hari. Median gap: +3.70% dari harga ARA. Limit Order berisiko tidak fill.",
-      "estimated_target_pct": "+6% hingga +15% dari harga beli",
-      "target_morning_exit": 192,
-      "target_base": 208,
-      "target_optimistic": 216,
-      "target_morning_exit_pct": 6.0,
-      "target_base_pct": 15.0,
-      "target_optimistic_pct": 20.0,
-      "target_note": "Pagi: 192 (~+6%) | Moderat: 208 (~+15%) | Full: 216 (~+20%) | JUAL PAGI, bukan hold sampai close.",
-      "assumed_entry": 181,
-      "exit_timing_guide": "JUAL DI PAGI HARI (09:00-09:30 WIB). Backtest menunjukkan High D+1 median +16.77% dari harga ARA. Setelah 09:30, momentum sering berbalik. Jika masih ARA lagi (23.5% peluang), hold dengan trailing stop.",
-      "reason_beginner_friendly": "LABA diam-diam banyak ditransaksikan kemarin (volume 14x dari biasanya) meski harga tidak bergerak banyak. Ini pola sebelum harga melonjak tajam — tapi bisa juga tidak terjadi apa-apa jika tidak ada berita pendukung. ✅ Broker signal: Big Acc. Skor kepercayaan: TINGGI.",
-      "risk_warning": "⚠️ FALSE SIGNAL RATE ~85-90%. Konfirmasi dengan broker flow, berita, dan analisis manual sebelum beli. | 📌 Batasi posisi: max 2% dari portofolio.",
-      "d1p_backtest_stats": {
-        "high_d1_median": "+16.77% dari harga ARA (n=2213)",
-        "profit_morning": "84.5% sempat naik >5% di D+1",
-        "close_d1_profit": "hanya 48.9% (hampir coin flip — JANGAN hold)",
-        "continued_ara_pct": "23.5% lanjut ARA hari berikutnya",
-        "sample_size": "n=2.213 kunci ARA pertama pada saham liquid"
-      },
-      "broker_signal": "Big Acc",
-      "d1_date": "2026-08-31",
-      "d1_close": 132.0,
-      "d1_open": 127.0,
-      "d1_high": 148.0,
-      "d1_low": 122.0,
-      "d1_change_pct": 2.33,
-      "d1_vol_ratio_ma20": 13.77,
-      "d1_vol_ratio_ma5": 5.35,
-      "d1_body_pct": 0.192,
-      "d1_upper_wick": 0.615,
-      "d1_lower_wick": 0.192,
-      "d1_close_pos": 0.385,
-      "d1_bullish": true,
-      "d1_range_expansion": 2.22,
-      "d1_value_rp": 5289836640000,
-      "d2_change_pct": 34.37,
-      "d2_body_pct": 1.0,
-      "d2_vol_ratio_ma20": 13.57,
-      "m1_last15_green": 13,
-      "m1_close_vs_vwap": -2.78,
-      "m1_close_pos_intra": 0.385,
-      "m1_high_timing": 0.202,
-      "m1_n_bars": 317,
-      "m1_data_available": true,
-      "above_ma20": true,
-      "above_ma50": true,
-      "ma20": 97.0,
-      "ma50": 94.0,
-      "up_streak_days": 2,
-      "trend_5d_pct": 32.0,
-      "signals_positive": [
-        "Volume D-1 ekstrem: 13.8x MA20 (tier-2 ≥6x)",
-        "Volume D-2 elevated: 13.6x MA20 (akumulasi dini)",
-        "Upper wick rejection: 0.61 (smart money absorption)",
-        "Body kecil D-1: 0.19 (candle akumulasi)",
-        "Close pos rendah: 0.39 (buyers absorbed selling)",
-        "D-2 early signal: +34.4% vol 13.6x",
-        "Range expansion: 2.2x avg-5d",
-        "Harga di atas MA20",
-        "Broker signal: Big Accumulation (+10 poin)"
-      ],
-      "signals_negative": [
-        "Closing flat bias: 12/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -2.8%",
-        "High intraday di awal sesi (20%) — profit taking sore"
-      ],
-      "universe_sources": [
-        "SCREENER_VOL_EXPLOSION",
-        "GURU_92",
-        "GURU_94",
-        "SCREENER_TOP_VALUE"
-      ],
-      "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:54 WIB"
-    }
-  ],
+  "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [
     {
       "ticker": "KICI",
@@ -526,7 +610,7 @@
       "close": 1455.0,
       "near_52w_pct": 96.9,
       "wk_rsi": 56.1,
-      "wk_adx": 20.9,
+      "wk_adx": 20.8,
       "mo_rsi": 67.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -545,15 +629,15 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-08-31 16:55:40 WIB",
+    "generated_at": "2026-08-31 17:15:39 WIB",
     "date": "2026-08-31",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
     "session_warning": null,
     "mode_warning": null,
-    "intraday_count": 3,
-    "ara_count": 1,
+    "intraday_count": 5,
+    "ara_count": 0,
     "bsjp_count": 1,
     "bpjs_count": 0,
     "swing_count": 0,
@@ -583,11 +667,11 @@
   "screening_summary": {
     "universe": 979,
     "after_liquidity": 97,
-    "after_accumulation": 30,
-    "after_trend": 15,
-    "after_smc": 6,
-    "after_entry": 6,
-    "final": 3
+    "after_accumulation": 52,
+    "after_trend": 28,
+    "after_smc": 10,
+    "after_entry": 10,
+    "final": 5
   },
   "config_ara": {
     "vol_ma20_tier1": 3.0,
