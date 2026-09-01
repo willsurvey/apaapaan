@@ -90,7 +90,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "05.16 WIB"
+      "updated_at": "05.34 WIB"
     },
     {
       "rank": 2,
@@ -181,7 +181,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "05.16 WIB"
+      "updated_at": "05.34 WIB"
     },
     {
       "rank": 3,
@@ -272,7 +272,7 @@
         "✅ Pullback ke MA50 (3.9% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "05.16 WIB"
+      "updated_at": "05.34 WIB"
     },
     {
       "rank": 4,
@@ -363,7 +363,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "05.16 WIB"
+      "updated_at": "05.34 WIB"
     },
     {
       "rank": 5,
@@ -453,10 +453,100 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "05.16 WIB"
+      "updated_at": "05.34 WIB"
     }
   ],
-  "logika_baru_calon_ara": [],
+  "logika_baru_calon_ara": [
+    {
+      "ticker": "PTBA",
+      "company": "Bukit Asam Tbk.",
+      "type": "CALON_ARA",
+      "score": 67,
+      "score_tier": "MODERATE",
+      "pattern_type": "SILENT_ACCUMULATION",
+      "confluence_count": 8,
+      "entry_range": "2,640 – 3,330",
+      "entry_lower": 2640,
+      "entry_upper": 3330,
+      "entry_note": "Pasang Limit Order pukul 19:00 di 2,670–3,330 (PDC hingga harga ARA). Tipe Quiet Accumulation gap lebih kecil — peluang fill order lebih tinggi dibanding Tipe Continuation.",
+      "entry_range_pct": 25.8,
+      "ara_price_ref": 3330,
+      "ara_limit_pct": 25.0,
+      "gap_risk_note": "Backtest: 64% saham ARA Gap Up >2% di pagi hari. Median gap: +3.70% dari harga ARA. Limit Order berisiko tidak fill.",
+      "estimated_target_pct": "+4% hingga +10% dari harga beli",
+      "target_morning_exit": 3520,
+      "target_base": 3710,
+      "target_optimistic": 4060,
+      "target_morning_exit_pct": 4.0,
+      "target_base_pct": 10.0,
+      "target_optimistic_pct": 20.0,
+      "target_note": "Pagi: 3,520 (~+4%) | Moderat: 3,710 (~+10%) | Full: 4,060 (~+20%) | JUAL PAGI, bukan hold sampai close.",
+      "assumed_entry": 3380,
+      "exit_timing_guide": "JUAL DI PAGI HARI (09:00-09:30 WIB). Backtest menunjukkan High D+1 median +16.77% dari harga ARA. Setelah 09:30, momentum sering berbalik. Jika masih ARA lagi (23.5% peluang), hold dengan trailing stop.",
+      "reason_beginner_friendly": "PTBA diam-diam banyak ditransaksikan kemarin (volume 8x dari biasanya) meski harga tidak bergerak banyak. Ini pola sebelum harga melonjak tajam — tapi bisa juga tidak terjadi apa-apa jika tidak ada berita pendukung. ✅ Broker signal: Big Acc. Skor kepercayaan: SEDANG.",
+      "risk_warning": "⚠️ FALSE SIGNAL RATE ~85-90%. Konfirmasi dengan broker flow, berita, dan analisis manual sebelum beli. | 📌 Batasi posisi: max 1% dari portofolio.",
+      "d1p_backtest_stats": {
+        "high_d1_median": "+16.77% dari harga ARA (n=2213)",
+        "profit_morning": "84.5% sempat naik >5% di D+1",
+        "close_d1_profit": "hanya 48.9% (hampir coin flip — JANGAN hold)",
+        "continued_ara_pct": "23.5% lanjut ARA hari berikutnya",
+        "sample_size": "n=2.213 kunci ARA pertama pada saham liquid"
+      },
+      "broker_signal": "Big Acc",
+      "d1_date": "2026-09-01",
+      "d1_close": 2670.0,
+      "d1_open": 2660.0,
+      "d1_high": 2790.0,
+      "d1_low": 2660.0,
+      "d1_change_pct": 4.3,
+      "d1_vol_ratio_ma20": 7.56,
+      "d1_vol_ratio_ma5": 4.51,
+      "d1_body_pct": 0.077,
+      "d1_upper_wick": 0.923,
+      "d1_lower_wick": 0.0,
+      "d1_close_pos": 0.077,
+      "d1_bullish": true,
+      "d1_range_expansion": 1.43,
+      "d1_value_rp": 30838259700000,
+      "d2_change_pct": 1.19,
+      "d2_body_pct": 0.2,
+      "d2_vol_ratio_ma20": 1.98,
+      "m1_last15_green": 11,
+      "m1_close_vs_vwap": -2.18,
+      "m1_close_pos_intra": 0.0,
+      "m1_high_timing": 0.589,
+      "m1_n_bars": 326,
+      "m1_data_available": true,
+      "above_ma20": true,
+      "above_ma50": true,
+      "ma20": 2393.0,
+      "ma50": 2386.0,
+      "up_streak_days": 3,
+      "trend_5d_pct": 7.66,
+      "signals_positive": [
+        "Volume D-1 ekstrem: 7.6x MA20 (tier-2 ≥6x)",
+        "Volume D-2 elevated: 2.0x MA20 (akumulasi dini)",
+        "Upper wick rejection: 0.92 (smart money absorption)",
+        "Body kecil D-1: 0.08 (candle akumulasi)",
+        "Close pos rendah: 0.08 (buyers absorbed selling)",
+        "Harga di atas MA20",
+        "5d trend sehat: +7.7%",
+        "Broker signal: Big Accumulation (+10 poin)"
+      ],
+      "signals_negative": [
+        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif",
+        "Close di bawah VWAP: -2.2%"
+      ],
+      "universe_sources": [
+        "SCREENER_VOL_EXPLOSION",
+        "GURU_92",
+        "GURU_77",
+        "SCREENER_TOP_VALUE"
+      ],
+      "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
+      "generated_at": "05:34 WIB"
+    }
+  ],
   "bsjp_beli_sore_jual_pagi": [
     {
       "ticker": "SGER",
@@ -644,7 +734,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-02 05:17:15 WIB",
+    "generated_at": "2026-09-02 05:35:29 WIB",
     "date": "2026-09-02",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -652,7 +742,7 @@
     "session_warning": null,
     "mode_warning": null,
     "intraday_count": 5,
-    "ara_count": 0,
+    "ara_count": 1,
     "bsjp_count": 1,
     "bpjs_count": 0,
     "swing_count": 0,
