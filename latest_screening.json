@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-01 11:18:12 WIB",
+  "generated_at": "2026-09-01 11:35:42 WIB",
   "date": "2026-09-01",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 2,
   "market_context": {
-    "ihsg_close": 6580,
-    "ihsg_change_pct": 0.84,
+    "ihsg_close": 6577,
+    "ihsg_change_pct": 0.8,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,11 +17,11 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 101,
-    "after_accumulation": 22,
-    "after_trend": 9,
+    "after_liquidity": 103,
+    "after_accumulation": 25,
+    "after_trend": 10,
     "after_smc": 6,
-    "after_entry": 4,
+    "after_entry": 2,
     "final": 2
   },
   "config": {
@@ -55,12 +55,12 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 1690,
-        "change_pct": 5.31,
-        "value_today": 10466733500,
-        "frequency_today": 2084,
+        "close": 1685,
+        "change_pct": 5,
+        "value_today": 10924406000,
+        "frequency_today": 2280,
         "iep": 1690,
-        "iep_change_pct": 0.3
+        "iep_change_pct": 0.6
       },
       "accumulation": {
         "broker_signal": "Big Acc",
@@ -78,7 +78,7 @@
       },
       "trend": {
         "ma50": 1287.0,
-        "gap_from_ma50_pct": 30.92,
+        "gap_from_ma50_pct": 30.55,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -95,17 +95,17 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 1680,
+        "entry_1": 1675,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 1655,
+        "entry_2": 1650,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
         "entry_3": 1625,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
         "average_entry": 1650,
-        "entry_zone": "1625 - 1680",
+        "entry_zone": "1625 - 1675",
         "sl": 1615,
         "sl_pct_risk": 2.12,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
@@ -129,7 +129,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "11.16 WIB"
+      "updated_at": "11.33 WIB"
     },
     {
       "rank": 2,
@@ -141,9 +141,9 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 2170,
+        "close": 2180,
         "change_pct": 0,
-        "value_today": 15128784000.0,
+        "value_today": 17149706000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -184,16 +184,16 @@
         "entry_1": 2160,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 2120,
+        "entry_2": 2140,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
         "entry_3": 2110,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 2120,
+        "average_entry": 2140,
         "entry_zone": "2110 - 2160",
         "sl": 2090,
-        "sl_pct_risk": 1.42,
+        "sl_pct_risk": 2.34,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
         "tp1": 2200,
         "tp1_note": "PDH / Target psikologis intraday",
@@ -201,7 +201,7 @@
         "tp2_note": "Weak High / Supply Zone 1H",
         "tp3": 2340,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:7.3",
+        "rr_ratio": "1:4.0",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
@@ -215,7 +215,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "11.16 WIB"
+      "updated_at": "11.33 WIB"
     }
   ]
 }
