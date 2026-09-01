@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-01 16:18:11 WIB",
+  "generated_at": "2026-09-01 16:39:43 WIB",
   "date": "2026-09-01",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 5,
   "market_context": {
-    "ihsg_close": 6603,
-    "ihsg_change_pct": 1.2,
+    "ihsg_close": 6599,
+    "ihsg_change_pct": 1.14,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -58,8 +58,8 @@
       "market_data": {
         "close": 2330,
         "change_pct": 11.48,
-        "value_today": 116756488000,
-        "frequency_today": 7587,
+        "value_today": 117337357000,
+        "frequency_today": 7628,
         "iep": 2330,
         "iep_change_pct": 0
       },
@@ -131,7 +131,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.17 WIB"
+      "updated_at": "16.38 WIB"
     },
     {
       "rank": 2,
@@ -149,8 +149,8 @@
       "market_data": {
         "close": 3380,
         "change_pct": 4,
-        "value_today": 1310320760000,
-        "frequency_today": 59670,
+        "value_today": 1312934514000,
+        "frequency_today": 59891,
         "iep": 3380,
         "iep_change_pct": 0
       },
@@ -221,7 +221,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "16.17 WIB"
+      "updated_at": "16.38 WIB"
     },
     {
       "rank": 3,
@@ -237,8 +237,8 @@
       "market_data": {
         "close": 1460,
         "change_pct": 3.91,
-        "value_today": 87011076000,
-        "frequency_today": 11616,
+        "value_today": 87534048000,
+        "frequency_today": 11670,
         "iep": 1460,
         "iep_change_pct": 0
       },
@@ -309,7 +309,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.17 WIB"
+      "updated_at": "16.38 WIB"
     },
     {
       "rank": 4,
@@ -325,8 +325,8 @@
       "market_data": {
         "close": 1710,
         "change_pct": 6.88,
-        "value_today": 21673099500,
-        "frequency_today": 4343,
+        "value_today": 22565548500,
+        "frequency_today": 4362,
         "iep": 1710,
         "iep_change_pct": 0
       },
@@ -397,7 +397,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.17 WIB"
+      "updated_at": "16.38 WIB"
     },
     {
       "rank": 5,
@@ -412,7 +412,7 @@
       "market_data": {
         "close": 26000,
         "change_pct": 0,
-        "value_today": 53364725000.0,
+        "value_today": 53382925000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -485,7 +485,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.17 WIB"
+      "updated_at": "16.38 WIB"
     }
   ]
 }
