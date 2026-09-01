@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "generated_at": "2026-09-01 10:34:40 WIB",
+  "generated_at": "2026-09-01 10:56:33 WIB",
   "date": "2026-09-01",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
   "mode_warning": null,
-  "total_saham": 1,
+  "total_saham": 2,
   "market_context": {
     "ihsg_close": 6581,
-    "ihsg_change_pct": 0.85,
+    "ihsg_change_pct": 0.86,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,12 +17,12 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 95,
+    "after_liquidity": 99,
     "after_accumulation": 20,
-    "after_trend": 11,
-    "after_smc": 8,
-    "after_entry": 4,
-    "final": 1
+    "after_trend": 9,
+    "after_smc": 6,
+    "after_entry": 3,
+    "final": 2
   },
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
@@ -45,6 +45,94 @@
   "data": [
     {
       "rank": 1,
+      "ticker": "DSNG",
+      "company": "Dharma Satya Nusantara Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "MOVER_TYPE_TOP_GAINER",
+        "SCREENER_VOLUME_EXPLOSION",
+        "GURU_92_Big Accumula",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 1685,
+        "change_pct": 5.31,
+        "value_today": 9683253000,
+        "frequency_today": 1864,
+        "iep": 1690,
+        "iep_change_pct": 0.3
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": -1490701500,
+        "net_foreign_3d": 0,
+        "acc_score": 45,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 0,
+          "foreign_3d": 0,
+          "candle": 10,
+          "volume": 0,
+          "total": 45
+        }
+      },
+      "trend": {
+        "ma50": 1287.0,
+        "gap_from_ma50_pct": 30.92,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": null,
+        "fvg_zone": "1570 - 1600",
+        "strong_low": 1410.0,
+        "weak_high": 1380.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 1675,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 1650,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 1625,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 1650,
+        "entry_zone": "1625 - 1675",
+        "sl": 1615,
+        "sl_pct_risk": 2.12,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 1700,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 1750,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 1800,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:4.3",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 50,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Harga di zona FVG aktif",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [],
+      "updated_at": "10.55 WIB"
+    },
+    {
+      "rank": 2,
       "ticker": "TAPG",
       "company": "Triputra Agro Persada Tbk",
       "mode": "FULL_STOCKBIT",
@@ -53,9 +141,9 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 2190,
+        "close": 2180,
         "change_pct": 0,
-        "value_today": 12246114000.0,
+        "value_today": 12946944000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -93,7 +181,7 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 2180,
+        "entry_1": 2160,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
         "entry_2": 2140,
@@ -103,7 +191,7 @@
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
         "average_entry": 2140,
-        "entry_zone": "2110 - 2180",
+        "entry_zone": "2110 - 2160",
         "sl": 2090,
         "sl_pct_risk": 2.34,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
@@ -127,7 +215,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "10.32 WIB"
+      "updated_at": "10.55 WIB"
     }
   ]
 }
