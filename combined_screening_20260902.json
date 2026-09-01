@@ -90,7 +90,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "00.35 WIB"
+      "updated_at": "00.56 WIB"
     },
     {
       "rank": 2,
@@ -181,7 +181,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "00.35 WIB"
+      "updated_at": "00.56 WIB"
     },
     {
       "rank": 3,
@@ -272,7 +272,7 @@
         "✅ Pullback ke MA50 (0.2% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "00.35 WIB"
+      "updated_at": "00.56 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -382,7 +382,7 @@
       "close": 1455.0,
       "near_52w_pct": 96.9,
       "wk_rsi": 74.5,
-      "wk_adx": 21.3,
+      "wk_adx": 21.4,
       "mo_rsi": 63.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -401,7 +401,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-02 00:36:33 WIB",
+    "generated_at": "2026-09-02 00:57:26 WIB",
     "date": "2026-09-02",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -430,7 +430,7 @@
   },
   "market_context": {
     "ihsg_close": 6525,
-    "ihsg_change_pct": 0.11,
+    "ihsg_change_pct": 0.06,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
