@@ -90,7 +90,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.33 WIB"
+      "updated_at": "18.54 WIB"
     },
     {
       "rank": 2,
@@ -181,7 +181,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "18.33 WIB"
+      "updated_at": "18.54 WIB"
     },
     {
       "rank": 3,
@@ -193,7 +193,7 @@
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "MOVER_TYPE_TOP_GAINER",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_88_Potential Re",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -272,7 +272,7 @@
         "✅ Pullback ke MA50 (3.9% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "18.33 WIB"
+      "updated_at": "18.54 WIB"
     },
     {
       "rank": 4,
@@ -285,7 +285,7 @@
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "MOVER_TYPE_TOP_GAINER",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_87_Reversal on ",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -363,7 +363,7 @@
         "✅ Harga di zona Order Block aktif"
       ],
       "warnings": [],
-      "updated_at": "18.33 WIB"
+      "updated_at": "18.54 WIB"
     },
     {
       "rank": 5,
@@ -374,7 +374,7 @@
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_78_Daily Net Fo",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -453,7 +453,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.33 WIB"
+      "updated_at": "18.54 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -645,7 +645,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-01 18:34:23 WIB",
+    "generated_at": "2026-09-01 18:54:55 WIB",
     "date": "2026-09-01",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -673,8 +673,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6525,
-    "ihsg_change_pct": 0.11,
+    "ihsg_close": 6599,
+    "ihsg_change_pct": 1.14,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
