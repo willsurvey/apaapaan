@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-02 15:14:41 WIB",
+  "generated_at": "2026-09-02 15:35:41 WIB",
   "date": "2026-09-02",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 3,
   "market_context": {
-    "ihsg_close": 6579,
-    "ihsg_change_pct": -0.3,
+    "ihsg_close": 6577,
+    "ihsg_change_pct": -0.34,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,7 +17,7 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 117,
+    "after_liquidity": 118,
     "after_accumulation": 24,
     "after_trend": 8,
     "after_smc": 5,
@@ -57,11 +57,11 @@
       ],
       "market_data": {
         "close": 10725,
-        "change_pct": -1.15,
-        "value_today": 181387190000,
-        "frequency_today": 15458,
+        "change_pct": -1.38,
+        "value_today": 188174112500,
+        "frequency_today": 16363,
         "iep": 10750,
-        "iep_change_pct": 0
+        "iep_change_pct": 0.23
       },
       "accumulation": {
         "broker_signal": "Big Acc",
@@ -78,8 +78,8 @@
         }
       },
       "trend": {
-        "ma50": 8972.0,
-        "gap_from_ma50_pct": 19.82,
+        "ma50": 8971.0,
+        "gap_from_ma50_pct": 19.55,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -131,7 +131,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.13 WIB"
+      "updated_at": "15.33 WIB"
     },
     {
       "rank": 2,
@@ -147,8 +147,8 @@
       "market_data": {
         "close": 2300,
         "change_pct": -1.29,
-        "value_today": 65781063000,
-        "frequency_today": 8331,
+        "value_today": 70138050000,
+        "frequency_today": 8878,
         "iep": 2310,
         "iep_change_pct": 0.43
       },
@@ -221,7 +221,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.13 WIB"
+      "updated_at": "15.33 WIB"
     },
     {
       "rank": 3,
@@ -236,7 +236,7 @@
       "market_data": {
         "close": 158,
         "change_pct": 0,
-        "value_today": 10896212900.0,
+        "value_today": 10964361200.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -257,7 +257,7 @@
       },
       "trend": {
         "ma50": 128.0,
-        "gap_from_ma50_pct": 22.81,
+        "gap_from_ma50_pct": 23.57,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -308,7 +308,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.13 WIB"
+      "updated_at": "15.33 WIB"
     }
   ]
 }
