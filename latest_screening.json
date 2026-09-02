@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-02 15:35:41 WIB",
+  "generated_at": "2026-09-02 15:58:51 WIB",
   "date": "2026-09-02",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 3,
   "market_context": {
-    "ihsg_close": 6577,
-    "ihsg_change_pct": -0.34,
+    "ihsg_close": 6587,
+    "ihsg_change_pct": -0.19,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,11 +17,11 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 118,
+    "after_liquidity": 119,
     "after_accumulation": 24,
-    "after_trend": 8,
-    "after_smc": 5,
-    "after_entry": 4,
+    "after_trend": 10,
+    "after_smc": 7,
+    "after_entry": 5,
     "final": 3
   },
   "config": {
@@ -58,8 +58,8 @@
       "market_data": {
         "close": 10725,
         "change_pct": -1.38,
-        "value_today": 188174112500,
-        "frequency_today": 16363,
+        "value_today": 199214695000,
+        "frequency_today": 17816,
         "iep": 10750,
         "iep_change_pct": 0.23
       },
@@ -78,8 +78,8 @@
         }
       },
       "trend": {
-        "ma50": 8971.0,
-        "gap_from_ma50_pct": 19.55,
+        "ma50": 8970.0,
+        "gap_from_ma50_pct": 19.28,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -131,7 +131,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.33 WIB"
+      "updated_at": "15.53 WIB"
     },
     {
       "rank": 2,
@@ -139,6 +139,7 @@
       "company": "Triputra Agro Persada Tbk",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
+        "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_92_Big Accumula",
@@ -147,8 +148,8 @@
       "market_data": {
         "close": 2300,
         "change_pct": -1.29,
-        "value_today": 70138050000,
-        "frequency_today": 8878,
+        "value_today": 78232638000,
+        "frequency_today": 9763,
         "iep": 2310,
         "iep_change_pct": 0.43
       },
@@ -156,19 +157,19 @@
         "broker_signal": "Big Acc",
         "net_foreign_today": 36252295000,
         "net_foreign_3d": 0,
-        "acc_score": 35,
+        "acc_score": 40,
         "score_breakdown": {
           "broker": 35,
           "foreign_1d": 0,
           "foreign_3d": 0,
           "candle": 0,
-          "volume": 0,
-          "total": 35
+          "volume": 5,
+          "total": 40
         }
       },
       "trend": {
         "ma50": 1690.0,
-        "gap_from_ma50_pct": 35.51,
+        "gap_from_ma50_pct": 36.09,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -210,7 +211,7 @@
         "risk_note": "Max 2% dari total portofolio"
       },
       "scoring": {
-        "confidence_score": 50,
+        "confidence_score": 55,
         "tier": "MODERATE"
       },
       "signals": [
@@ -221,7 +222,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.33 WIB"
+      "updated_at": "15.53 WIB"
     },
     {
       "rank": 3,
@@ -236,7 +237,7 @@
       "market_data": {
         "close": 158,
         "change_pct": 0,
-        "value_today": 10964361200.0,
+        "value_today": 11041118600.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -308,7 +309,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.33 WIB"
+      "updated_at": "15.53 WIB"
     }
   ]
 }
