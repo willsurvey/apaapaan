@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "generated_at": "2026-09-02 14:15:30 WIB",
+  "generated_at": "2026-09-02 14:35:32 WIB",
   "date": "2026-09-02",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
   "mode_warning": null,
-  "total_saham": 2,
+  "total_saham": 3,
   "market_context": {
-    "ihsg_close": 6584,
-    "ihsg_change_pct": -0.23,
+    "ihsg_close": 6579,
+    "ihsg_change_pct": -0.31,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,12 +17,12 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 115,
+    "after_liquidity": 116,
     "after_accumulation": 23,
     "after_trend": 8,
-    "after_smc": 4,
-    "after_entry": 4,
-    "final": 2
+    "after_smc": 5,
+    "after_entry": 5,
+    "final": 3
   },
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
@@ -45,6 +45,96 @@
   "data": [
     {
       "rank": 1,
+      "ticker": "AADI",
+      "company": "Adaro Andalan Indonesia Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
+        "SCREENER_VOLUME_EXPLOSION",
+        "GURU_92_Big Accumula",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 10675,
+        "change_pct": -2.07,
+        "value_today": 164308877500,
+        "frequency_today": 13138,
+        "iep": 10750,
+        "iep_change_pct": 0.94
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 27651990000,
+        "net_foreign_3d": 0,
+        "acc_score": 40,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 0,
+          "foreign_3d": 0,
+          "candle": 0,
+          "volume": 5,
+          "total": 40
+        }
+      },
+      "trend": {
+        "ma50": 8969.0,
+        "gap_from_ma50_pct": 18.46,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "BOS_BULLISH",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": null,
+        "fvg_zone": null,
+        "strong_low": 9750.0,
+        "weak_high": 9325.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 10600,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 10525,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 10475,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 10525,
+        "entry_zone": "10475 - 10600",
+        "sl": 10425,
+        "sl_pct_risk": 0.95,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 10900,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 11225,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 11550,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:10.2",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 50,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy hari ini: Rp27.7B",
+        "✅ Internal BOS Bullish (1H)",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [],
+      "updated_at": "14.33 WIB"
+    },
+    {
+      "rank": 2,
       "ticker": "TAPG",
       "company": "Triputra Agro Persada Tbk",
       "mode": "FULL_STOCKBIT",
@@ -55,10 +145,10 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 2320,
+        "close": 2310,
         "change_pct": -0.43,
-        "value_today": 53056896000,
-        "frequency_today": 6729,
+        "value_today": 56694935000,
+        "frequency_today": 7195,
         "iep": 2310,
         "iep_change_pct": -0.43
       },
@@ -66,14 +156,14 @@
         "broker_signal": "Big Acc",
         "net_foreign_today": 36252295000,
         "net_foreign_3d": 0,
-        "acc_score": 45,
+        "acc_score": 35,
         "score_breakdown": {
           "broker": 35,
           "foreign_1d": 0,
           "foreign_3d": 0,
-          "candle": 10,
+          "candle": 0,
           "volume": 0,
-          "total": 45
+          "total": 35
         }
       },
       "trend": {
@@ -120,7 +210,7 @@
         "risk_note": "Max 2% dari total portofolio"
       },
       "scoring": {
-        "confidence_score": 60,
+        "confidence_score": 50,
         "tier": "MODERATE"
       },
       "signals": [
@@ -131,10 +221,10 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.13 WIB"
+      "updated_at": "14.33 WIB"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "ticker": "DEWI",
       "company": "Dewi Shri Farmindo Tbk.",
       "mode": "FULL_STOCKBIT",
@@ -146,7 +236,7 @@
       "market_data": {
         "close": 157,
         "change_pct": 0,
-        "value_today": 10322928800.0,
+        "value_today": 10464883500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -218,7 +308,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.13 WIB"
+      "updated_at": "14.33 WIB"
     }
   ]
 }
