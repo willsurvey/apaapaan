@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-02 16:14:35 WIB",
+  "generated_at": "2026-09-02 16:35:14 WIB",
   "date": "2026-09-02",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 5,
   "market_context": {
-    "ihsg_close": 6590,
-    "ihsg_change_pct": -0.14,
+    "ihsg_close": 6595,
+    "ihsg_change_pct": -0.06,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -58,8 +58,8 @@
       "market_data": {
         "close": 2350,
         "change_pct": 0.86,
-        "value_today": 137892664000,
-        "frequency_today": 10500,
+        "value_today": 138229184000,
+        "frequency_today": 10539,
         "iep": 2350,
         "iep_change_pct": 0
       },
@@ -132,7 +132,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.34 WIB"
     },
     {
       "rank": 2,
@@ -149,8 +149,8 @@
       "market_data": {
         "close": 10650,
         "change_pct": -2.07,
-        "value_today": 208647300000,
-        "frequency_today": 18507,
+        "value_today": 209040285000,
+        "frequency_today": 18523,
         "iep": 10650,
         "iep_change_pct": 0
       },
@@ -170,7 +170,7 @@
       },
       "trend": {
         "ma50": 8970.0,
-        "gap_from_ma50_pct": 19.28,
+        "gap_from_ma50_pct": 18.74,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -222,7 +222,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.34 WIB"
     },
     {
       "rank": 3,
@@ -238,8 +238,8 @@
       "market_data": {
         "close": 8375,
         "change_pct": -0.3,
-        "value_today": 30716325000,
-        "frequency_today": 2662,
+        "value_today": 30723025000,
+        "frequency_today": 2667,
         "iep": 8375,
         "iep_change_pct": 0
       },
@@ -311,7 +311,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.34 WIB"
     },
     {
       "rank": 4,
@@ -326,7 +326,7 @@
       "market_data": {
         "close": 157,
         "change_pct": 0,
-        "value_today": 11276571300.0,
+        "value_today": 11283918900.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -398,7 +398,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.34 WIB"
     },
     {
       "rank": 5,
@@ -413,7 +413,7 @@
       "market_data": {
         "close": 2240,
         "change_pct": 0,
-        "value_today": 28374437000.0,
+        "value_today": 28436709000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -485,7 +485,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.34 WIB"
     }
   ]
 }
