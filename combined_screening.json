@@ -15,8 +15,8 @@
       "market_data": {
         "close": 10700,
         "change_pct": -1.61,
-        "value_today": 87638692500,
-        "frequency_today": 6948,
+        "value_today": 97320605000,
+        "frequency_today": 7653,
         "iep": 10750,
         "iep_change_pct": 0.47
       },
@@ -36,7 +36,7 @@
       },
       "trend": {
         "ma50": 8970.0,
-        "gap_from_ma50_pct": 19.01,
+        "gap_from_ma50_pct": 19.28,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -88,7 +88,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "10.35 WIB"
+      "updated_at": "10.53 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -101,31 +101,31 @@
       "formula": "QUIET_CONTINUATION",
       "score": 50,
       "market_data": {
-        "close": 845.0,
-        "change_pct": 2.41,
-        "value_today": 13741896000,
+        "close": 855.0,
+        "change_pct": 3.01,
+        "value_today": 14333988000,
         "net_foreign": 2492420500
       },
       "d1_features": {
-        "body_pct": 1.81,
-        "close_pos_pct": 40.0,
-        "vol_ratio": 0.28,
-        "change_pct": 1.81,
-        "range_pct": 5.92,
-        "upper_wick": 60.0,
+        "body_pct": 3.01,
+        "close_pos_pct": 60.0,
+        "vol_ratio": 0.31,
+        "change_pct": 3.01,
+        "range_pct": 5.85,
+        "upper_wick": 40.0,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": true,
-        "atr_pct": 7.99
+        "atr_pct": 7.89
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "815 – 860",
+        "entry_range": "820 – 870",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 745,
-        "stop_note": "Cut loss jika turun di bawah 745 (1 ATR dari entry)",
-        "target_modest": 860,
-        "target_moderate": 880,
+        "stop_loss": 755,
+        "stop_note": "Cut loss jika turun di bawah 755 (1 ATR dari entry)",
+        "target_modest": 870,
+        "target_moderate": 890,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -146,14 +146,14 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.8%), volume mati (0.28x MA20), close tengah (40%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+3.0%), volume mati (0.31x MA20), close tengah (60%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Di atas MA200 — tren utama masih bullish",
         "Asing beli bersih hari ini (Rp 2.5B)"
       ],
       "signals_negative": [
-        "Upper wick besar (60%) — tekanan jual D-1"
+        "Upper wick besar (40%) — tekanan jual D-1"
       ],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
@@ -175,18 +175,18 @@
       "ticker": "KKES",
       "company": "Kusuma Kemindo Sentosa Tbk.",
       "score": 70,
-      "close": 99.0,
-      "near_52w_pct": 96.1,
-      "wk_rsi": 77.3,
+      "close": 101.0,
+      "near_52w_pct": 97.1,
+      "wk_rsi": 77.8,
       "wk_adx": 44.5,
-      "mo_rsi": 83.0,
+      "mo_rsi": 83.3,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (77) + Wk ADX (44) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
+        "Near 52W High (97%) + Wk RSI (78) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (83)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -199,11 +199,11 @@
       "ticker": "AADI",
       "company": "Adaro Andalan Indonesia Tbk.",
       "score": 70,
-      "close": 10675.0,
-      "near_52w_pct": 95.5,
-      "wk_rsi": 76.3,
+      "close": 10700.0,
+      "near_52w_pct": 95.7,
+      "wk_rsi": 76.4,
       "wk_adx": 31.6,
-      "mo_rsi": 67.6,
+      "mo_rsi": 67.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -215,6 +215,29 @@
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 27.7B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "SQMI",
+      "company": "Wilton Makmur Indonesia Tbk.",
+      "score": 65,
+      "close": 105.0,
+      "near_52w_pct": 96.3,
+      "wk_rsi": 79.0,
+      "wk_adx": 30.5,
+      "mo_rsi": 71.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (79) + Wk ADX (31) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (72)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -246,42 +269,19 @@
       "ticker": "GJTL",
       "company": "Gajah Tunggal Tbk.",
       "score": 65,
-      "close": 1390.0,
-      "near_52w_pct": 95.5,
-      "wk_rsi": 67.6,
-      "wk_adx": 41.5,
-      "mo_rsi": 83.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (68) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (84)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 65,
-      "close": 1025.0,
-      "near_52w_pct": 99.5,
+      "close": 1385.0,
+      "near_52w_pct": 95.2,
       "wk_rsi": 67.1,
-      "wk_adx": 49.6,
-      "mo_rsi": 80.2,
+      "wk_adx": 41.5,
+      "mo_rsi": 83.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (67) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (80)",
+        "Near 52W High (95%) + Wk RSI (67) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (83)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -291,7 +291,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-02 10:36:03 WIB",
+    "generated_at": "2026-09-02 10:54:40 WIB",
     "date": "2026-09-02",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -319,8 +319,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6599,
-    "ihsg_change_pct": -0.01,
+    "ihsg_close": 6592,
+    "ihsg_change_pct": -0.11,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -328,9 +328,9 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 102,
+    "after_liquidity": 104,
     "after_accumulation": 22,
-    "after_trend": 13,
+    "after_trend": 9,
     "after_smc": 6,
     "after_entry": 3,
     "final": 1
