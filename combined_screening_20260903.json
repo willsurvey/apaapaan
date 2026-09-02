@@ -1,124 +1,7 @@
 {
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
-  "bsjp_beli_sore_jual_pagi": [
-    {
-      "ticker": "SQMI",
-      "company": "Wilton Makmur Indonesia Tbk.",
-      "tier": "S",
-      "score": 103,
-      "market_data": {
-        "close": 85.0,
-        "change_pct": 18.82,
-        "value_today": 253758016500,
-        "net_foreign": -19914802700,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "bsjp_features": {
-        "vol_ratio20": 10.18,
-        "body_pct": 30.77,
-        "close_pos_pct": 100.0,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": true,
-        "atr_pct": 7.82
-      },
-      "entry_plan": {
-        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
-        "entry_range": "84 – 85",
-        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
-        "stop_loss": 62,
-        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
-        "target_pct": "+2% s/d +10% di pagi hari",
-        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
-      },
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
-          "MOVER_TYPE_TOP_VALUE",
-          "MOVER_TYPE_TOP_GAINER",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_63_High Volume ",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": true,
-        "from_screener": true,
-        "from_top_value": true
-      },
-      "signals_positive": [
-        "Volume ledakan ekstrem 10.2x MA20",
-        "Candle hijau sangat kuat (30.8%)",
-        "Tutup di puncak absolut — tidak ada upper wick",
-        "Uptrend penuh: di atas MA20, MA50, MA200",
-        "MA20 sedang naik — tren menguat",
-        "Masuk screener volume explosion Stockbit",
-        "Saham naik signifikan hari ini (momentum)"
-      ],
-      "signals_negative": [
-        "Asing jual bersih hari ini — hati-hati"
-      ],
-      "win_probability": "~70% berdasarkan backtest 1.796 kejadian historis",
-      "disclaimer": "Tier S BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
-      "rank": 1
-    },
-    {
-      "ticker": "SGER",
-      "company": "Sumber Global Energy Tbk",
-      "tier": "A",
-      "score": 94,
-      "market_data": {
-        "close": 655.0,
-        "change_pct": 0.76,
-        "value_today": 43215458500,
-        "net_foreign": 12061084500,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "bsjp_features": {
-        "vol_ratio20": 4.27,
-        "body_pct": 9.17,
-        "close_pos_pct": 100.0,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": true,
-        "atr_pct": 4.97
-      },
-      "entry_plan": {
-        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
-        "entry_range": "650 – 655",
-        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
-        "stop_loss": 585,
-        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
-        "target_pct": "+2% s/d +8% di pagi hari",
-        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
-      },
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_NET_FOREIGN_BUY",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_92_Big Accumula",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": false,
-        "from_screener": true,
-        "from_top_value": true
-      },
-      "signals_positive": [
-        "Volume spike 4.3x MA20",
-        "Candle hijau sangat kuat (9.2%)",
-        "Tutup di puncak absolut — tidak ada upper wick",
-        "Uptrend penuh: di atas MA20, MA50, MA200",
-        "MA20 sedang naik — tren menguat",
-        "Asing beli bersih hari ini (Rp 12.1B)",
-        "Masuk screener volume explosion Stockbit"
-      ],
-      "signals_negative": [],
-      "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
-      "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
-      "rank": 2
-    }
-  ],
+  "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
@@ -148,44 +31,21 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "SQMI",
-      "company": "Wilton Makmur Indonesia Tbk.",
+      "ticker": "SRSN",
+      "company": "Indo Acidatama Tbk",
       "score": 65,
-      "close": 85.0,
-      "near_52w_pct": 100.0,
-      "wk_rsi": 78.2,
-      "wk_adx": 30.7,
-      "mo_rsi": 71.2,
+      "close": 99.0,
+      "near_52w_pct": 95.2,
+      "wk_rsi": 78.3,
+      "wk_adx": 35.2,
+      "mo_rsi": 81.6,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (78) + Wk ADX (31) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (71)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "KKES",
-      "company": "Kusuma Kemindo Sentosa Tbk.",
-      "score": 65,
-      "close": 90.0,
-      "near_52w_pct": 100.0,
-      "wk_rsi": 76.1,
-      "wk_adx": 44.8,
-      "mo_rsi": 82.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (76) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
+        "Near 52W High (95%) + Wk RSI (78) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (82)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -197,8 +57,8 @@
       "ticker": "ERAA",
       "company": "Erajaya Swasembada Tbk.",
       "score": 65,
-      "close": 498.0,
-      "near_52w_pct": 98.6,
+      "close": 520.0,
+      "near_52w_pct": 98.1,
       "wk_rsi": 78.8,
       "wk_adx": 27.6,
       "mo_rsi": 57.3,
@@ -207,8 +67,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (79) + Wk ADX (28) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
+        "Near 52W High (98%) + Wk RSI (79) + Wk ADX (28) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 30.9B)"
@@ -217,22 +77,45 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "ADRO",
-      "company": "Alamtri Resources Indonesia Tbk.",
+      "ticker": "AADI",
+      "company": "Adaro Andalan Indonesia Tbk.",
       "score": 65,
-      "close": 2780.0,
-      "near_52w_pct": 97.2,
-      "wk_rsi": 71.6,
-      "wk_adx": 22.2,
-      "mo_rsi": 71.8,
+      "close": 10650.0,
+      "near_52w_pct": 95.3,
+      "wk_rsi": 76.2,
+      "wk_adx": 31.6,
+      "mo_rsi": 67.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (72) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (72)",
+        "Near 52W High (95%) + Wk RSI (76) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (67)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "BFIN",
+      "company": "BFI Finance Indonesia Tbk.",
+      "score": 65,
+      "close": 950.0,
+      "near_52w_pct": 96.0,
+      "wk_rsi": 76.5,
+      "wk_adx": 27.2,
+      "mo_rsi": 67.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (76) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -242,7 +125,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-03 04:14:28 WIB",
+    "generated_at": "2026-09-03 04:37:29 WIB",
     "date": "2026-09-03",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -251,7 +134,7 @@
     "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
-    "bsjp_count": 2,
+    "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
@@ -279,10 +162,10 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 139,
+    "after_liquidity": 143,
     "after_accumulation": 36,
-    "after_trend": 10,
-    "after_smc": 4,
+    "after_trend": 7,
+    "after_smc": 3,
     "after_entry": 2,
     "final": 0
   },
