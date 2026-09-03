@@ -7,30 +7,6 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "MARK",
-      "company": "Mark Dynamics Indonesia Tbk.",
-      "score": 70,
-      "close": 1075.0,
-      "near_52w_pct": 96.0,
-      "wk_rsi": 74.1,
-      "wk_adx": 33.4,
-      "mo_rsi": 87.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (33) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (88)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.7B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "SRSN",
       "company": "Indo Acidatama Tbk",
       "score": 65,
@@ -49,29 +25,6 @@
         "Monthly RSI kuat (82)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "ERAA",
-      "company": "Erajaya Swasembada Tbk.",
-      "score": 65,
-      "close": 520.0,
-      "near_52w_pct": 98.1,
-      "wk_rsi": 78.8,
-      "wk_adx": 27.6,
-      "mo_rsi": 57.3,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (79) + Wk ADX (28) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 30.9B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -121,11 +74,57 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1025.0,
+      "near_52w_pct": 99.5,
+      "wk_rsi": 67.1,
+      "wk_adx": 49.6,
+      "mo_rsi": 80.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (100%) + Wk RSI (67) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
+        "Monthly RSI kuat (80)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MARK",
+      "company": "Mark Dynamics Indonesia Tbk.",
+      "score": 65,
+      "close": 1075.0,
+      "near_52w_pct": 96.0,
+      "wk_rsi": 74.1,
+      "wk_adx": 33.4,
+      "mo_rsi": 87.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (33) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (88)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-03 07:55:52 WIB",
+    "generated_at": "2026-09-03 08:13:11 WIB",
     "date": "2026-09-03",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -162,11 +161,11 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 136,
-    "after_accumulation": 36,
-    "after_trend": 7,
-    "after_smc": 2,
-    "after_entry": 2,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
+    "after_smc": 0,
+    "after_entry": 0,
     "final": 0
   },
   "config_ara": {
