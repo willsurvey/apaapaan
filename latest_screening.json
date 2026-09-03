@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-03 15:14:59 WIB",
+  "generated_at": "2026-09-03 15:35:18 WIB",
   "date": "2026-09-03",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 2,
   "market_context": {
-    "ihsg_close": 6657,
-    "ihsg_change_pct": 0.93,
+    "ihsg_close": 6660,
+    "ihsg_change_pct": 0.98,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -19,8 +19,8 @@
     "universe": 979,
     "after_liquidity": 111,
     "after_accumulation": 24,
-    "after_trend": 13,
-    "after_smc": 7,
+    "after_trend": 18,
+    "after_smc": 8,
     "after_entry": 4,
     "final": 2
   },
@@ -55,11 +55,11 @@
       ],
       "market_data": {
         "close": 660,
-        "change_pct": -0.76,
-        "value_today": 23245582500,
-        "frequency_today": 2845,
+        "change_pct": 0,
+        "value_today": 26004177000,
+        "frequency_today": 3132,
         "iep": 660,
-        "iep_change_pct": 0.76
+        "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
@@ -128,7 +128,7 @@
         "✅ Internal BOS Bullish (1H)"
       ],
       "warnings": [],
-      "updated_at": "15.13 WIB"
+      "updated_at": "15.33 WIB"
     },
     {
       "rank": 2,
@@ -144,8 +144,8 @@
       "market_data": {
         "close": 188,
         "change_pct": 1.62,
-        "value_today": 6278037000,
-        "frequency_today": 1594,
+        "value_today": 6329276000,
+        "frequency_today": 1619,
         "iep": 185,
         "iep_change_pct": -1.6
       },
@@ -217,7 +217,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.13 WIB"
+      "updated_at": "15.33 WIB"
     }
   ]
 }
