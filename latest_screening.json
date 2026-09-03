@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "generated_at": "2026-09-03 15:54:47 WIB",
+  "generated_at": "2026-09-03 16:14:47 WIB",
   "date": "2026-09-03",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
   "mode_warning": null,
-  "total_saham": 1,
+  "total_saham": 2,
   "market_context": {
-    "ihsg_close": 6678,
-    "ihsg_change_pct": 1.26,
+    "ihsg_close": 6673,
+    "ihsg_change_pct": 1.18,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -18,11 +18,11 @@
   "screening_summary": {
     "universe": 979,
     "after_liquidity": 111,
-    "after_accumulation": 26,
-    "after_trend": 16,
+    "after_accumulation": 28,
+    "after_trend": 17,
     "after_smc": 7,
-    "after_entry": 1,
-    "final": 1
+    "after_entry": 6,
+    "final": 2
   },
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
@@ -56,12 +56,12 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 3980,
-        "change_pct": 2.05,
-        "value_today": 152613523000,
-        "frequency_today": 12653,
-        "iep": 3920,
-        "iep_change_pct": -1.51
+        "close": 3960,
+        "change_pct": 1.54,
+        "value_today": 176214899000,
+        "frequency_today": 13917,
+        "iep": 3960,
+        "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
@@ -79,7 +79,7 @@
       },
       "trend": {
         "ma50": 3539.0,
-        "gap_from_ma50_pct": 12.47,
+        "gap_from_ma50_pct": 12.75,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -96,19 +96,19 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 3960,
+        "entry_1": 3940,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 3930,
+        "entry_2": 3910,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
         "entry_3": 3900,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 3930,
-        "entry_zone": "3900 - 3960",
+        "average_entry": 3910,
+        "entry_zone": "3900 - 3940",
         "sl": 3880,
-        "sl_pct_risk": 1.27,
+        "sl_pct_risk": 0.77,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
         "tp1": 4000,
         "tp1_note": "PDH / Target psikologis intraday",
@@ -116,7 +116,7 @@
         "tp2_note": "Weak High / Supply Zone 1H",
         "tp3": 4240,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:6.2",
+        "rr_ratio": "1:11.0",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
@@ -130,7 +130,96 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "15.53 WIB"
+      "updated_at": "16.13 WIB"
+    },
+    {
+      "rank": 2,
+      "ticker": "INDO",
+      "company": "Royalindo Investa Wijaya Tbk",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "MOVER_TYPE_NET_FOREIGN_BUY",
+        "SCREENER_VOLUME_EXPLOSION",
+        "GURU_92_Big Accumula",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 188,
+        "change_pct": 1.62,
+        "value_today": 6458892700,
+        "frequency_today": 1662,
+        "iep": 188,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 1291826900,
+        "net_foreign_3d": 0,
+        "acc_score": 45,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 0,
+          "foreign_3d": 0,
+          "candle": 10,
+          "volume": 0,
+          "total": 45
+        }
+      },
+      "trend": {
+        "ma50": 173.0,
+        "gap_from_ma50_pct": 8.88,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": null,
+        "fvg_zone": "181 - 184",
+        "strong_low": 178.0,
+        "weak_high": 187.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 187,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 185,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 184,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 185,
+        "entry_zone": "184 - 187",
+        "sl": 182,
+        "sl_pct_risk": 1.62,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 189,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 195,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 200,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:5.0",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 50,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy hari ini: Rp1.3B",
+        "✅ Harga di zona FVG aktif",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [],
+      "updated_at": "16.13 WIB"
     }
   ]
 }
