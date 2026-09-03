@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-03 18:36:05 WIB",
+  "generated_at": "2026-09-03 18:57:34 WIB",
   "date": "2026-09-03",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -132,7 +132,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.34 WIB"
+      "updated_at": "18.56 WIB"
     },
     {
       "rank": 2,
@@ -223,7 +223,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "18.34 WIB"
+      "updated_at": "18.56 WIB"
     },
     {
       "rank": 3,
@@ -313,7 +313,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "18.34 WIB"
+      "updated_at": "18.56 WIB"
     },
     {
       "rank": 4,
@@ -325,7 +325,7 @@
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_78_Daily Net Fo",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -404,7 +404,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.34 WIB"
+      "updated_at": "18.56 WIB"
     },
     {
       "rank": 5,
@@ -415,7 +415,7 @@
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_78_Daily Net Fo",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -494,7 +494,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.34 WIB"
+      "updated_at": "18.56 WIB"
     }
   ]
 }
