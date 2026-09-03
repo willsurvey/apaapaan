@@ -15,8 +15,8 @@
       "market_data": {
         "close": 3960,
         "change_pct": 1.54,
-        "value_today": 176214899000,
-        "frequency_today": 13917,
+        "value_today": 176422403000,
+        "frequency_today": 13944,
         "iep": 3960,
         "iep_change_pct": 0
       },
@@ -35,8 +35,8 @@
         }
       },
       "trend": {
-        "ma50": 3539.0,
-        "gap_from_ma50_pct": 12.75,
+        "ma50": 3538.0,
+        "gap_from_ma50_pct": 11.92,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -87,7 +87,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.37 WIB"
     },
     {
       "rank": 2,
@@ -103,8 +103,8 @@
       "market_data": {
         "close": 188,
         "change_pct": 1.62,
-        "value_today": 6458892700,
-        "frequency_today": 1662,
+        "value_today": 6465096700,
+        "frequency_today": 1667,
         "iep": 188,
         "iep_change_pct": 0
       },
@@ -176,7 +176,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.37 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -222,23 +222,23 @@
       "d1_high": 336.0,
       "d1_low": 280.0,
       "d1_change_pct": 5.93,
-      "d1_vol_ratio_ma20": 46.88,
-      "d1_vol_ratio_ma5": 17.49,
+      "d1_vol_ratio_ma20": 47.02,
+      "d1_vol_ratio_ma5": 17.55,
       "d1_body_pct": 0.429,
       "d1_upper_wick": 0.464,
       "d1_lower_wick": 0.107,
       "d1_close_pos": 0.107,
       "d1_bullish": false,
       "d1_range_expansion": 2.72,
-      "d1_value_rp": 569071360000,
+      "d1_value_rp": 570867440000,
       "d2_change_pct": 25.0,
       "d2_body_pct": 0.963,
       "d2_vol_ratio_ma20": 13.67,
-      "m1_last15_green": 10,
-      "m1_close_vs_vwap": -9.23,
+      "m1_last15_green": 11,
+      "m1_close_vs_vwap": -9.19,
       "m1_close_pos_intra": 0.107,
       "m1_high_timing": 0.015,
-      "m1_n_bars": 263,
+      "m1_n_bars": 265,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -247,7 +247,7 @@
       "up_streak_days": 1,
       "trend_5d_pct": 34.91,
       "signals_positive": [
-        "Volume D-1 ekstrem: 46.9x MA20 (tier-2 ≥6x)",
+        "Volume D-1 ekstrem: 47.0x MA20 (tier-2 ≥6x)",
         "Volume D-2 elevated: 13.7x MA20 (akumulasi dini)",
         "Upper wick rejection: 0.46 (smart money absorption)",
         "Body kecil D-1: 0.43 (candle akumulasi)",
@@ -258,7 +258,7 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 5/14 bar flat — indikasi tidak aktif",
+        "Closing flat bias: 6/14 bar flat — indikasi tidak aktif",
         "Close di bawah VWAP: -9.2%",
         "High intraday di awal sesi (2%) — profit taking sore"
       ],
@@ -267,7 +267,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:14 WIB"
+      "generated_at": "16:38 WIB"
     },
     {
       "ticker": "ERAA",
@@ -311,23 +311,23 @@
       "d1_high": 610.0,
       "d1_low": 515.0,
       "d1_change_pct": 14.42,
-      "d1_vol_ratio_ma20": 6.15,
-      "d1_vol_ratio_ma5": 5.11,
+      "d1_vol_ratio_ma20": 6.3,
+      "d1_vol_ratio_ma5": 5.23,
       "d1_body_pct": 0.842,
       "d1_upper_wick": 0.158,
       "d1_lower_wick": 0.0,
       "d1_close_pos": 0.842,
       "d1_bullish": true,
       "d1_range_expansion": 3.47,
-      "d1_value_rp": 38751409900000,
+      "d1_value_rp": 39718677600000,
       "d2_change_pct": 4.42,
       "d2_body_pct": 0.333,
       "d2_vol_ratio_ma20": 1.91,
-      "m1_last15_green": 12,
-      "m1_close_vs_vwap": 3.1,
+      "m1_last15_green": 13,
+      "m1_close_vs_vwap": 3.09,
       "m1_close_pos_intra": 0.842,
-      "m1_high_timing": 0.535,
-      "m1_n_bars": 316,
+      "m1_high_timing": 0.518,
+      "m1_n_bars": 326,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -336,9 +336,9 @@
       "up_streak_days": 3,
       "trend_5d_pct": 19.96,
       "signals_positive": [
-        "Volume D-1 ekstrem: 6.2x MA20 (tier-2 ≥6x)",
+        "Volume D-1 ekstrem: 6.3x MA20 (tier-2 ≥6x)",
         "Volume D-2 elevated: 1.9x MA20 (akumulasi dini)",
-        "Continuation D-1: +14.4% vol 6.2x MA20",
+        "Continuation D-1: +14.4% vol 6.3x MA20",
         "Range expansion: 3.5x avg-5d",
         "Harga di atas MA20",
         "5d trend sehat: +20.0%",
@@ -347,7 +347,7 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 10/14 bar flat — indikasi tidak aktif"
+        "Closing flat bias: 12/14 bar flat — indikasi tidak aktif"
       ],
       "universe_sources": [
         "SCREENER_VOL_EXPLOSION",
@@ -357,7 +357,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:13 WIB"
+      "generated_at": "16:38 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -393,19 +393,19 @@
       "ticker": "ADRO",
       "company": "Alamtri Resources Indonesia Tbk.",
       "score": 65,
-      "close": 2730.0,
-      "near_52w_pct": 95.5,
-      "wk_rsi": 75.3,
+      "close": 2740.0,
+      "near_52w_pct": 95.8,
+      "wk_rsi": 75.6,
       "wk_adx": 22.2,
-      "mo_rsi": 74.4,
+      "mo_rsi": 74.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (75) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (74)",
+        "Near 52W High (96%) + Wk RSI (76) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (75)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -416,18 +416,18 @@
       "ticker": "AADI",
       "company": "Adaro Andalan Indonesia Tbk.",
       "score": 65,
-      "close": 11150.0,
-      "near_52w_pct": 98.5,
-      "wk_rsi": 78.3,
+      "close": 11175.0,
+      "near_52w_pct": 98.7,
+      "wk_rsi": 78.4,
       "wk_adx": 31.7,
-      "mo_rsi": 69.1,
+      "mo_rsi": 69.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (78) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
+        "Near 52W High (99%) + Wk RSI (78) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (69)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -484,7 +484,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-03 16:14:47 WIB",
+    "generated_at": "2026-09-03 16:39:24 WIB",
     "date": "2026-09-03",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -512,8 +512,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6673,
-    "ihsg_change_pct": 1.18,
+    "ihsg_close": 6667,
+    "ihsg_change_pct": 1.09,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
