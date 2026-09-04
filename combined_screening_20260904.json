@@ -1,235 +1,27 @@
 {
-  "logika_lama_intraday": [
-    {
-      "rank": 1,
-      "ticker": "AALI",
-      "company": "Astra Agro Lestari Tbk.",
-      "mode": "FULL_STOCKBIT",
-      "universe_sources": [
-        "MOVER_TYPE_NET_FOREIGN_BUY",
-        "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula",
-        "SCREENER_TOP_VALUE"
-      ],
-      "market_data": {
-        "close": 8550,
-        "change_pct": -0.29,
-        "value_today": 20784645000,
-        "frequency_today": 1756,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "accumulation": {
-        "broker_signal": "Big Acc",
-        "net_foreign_today": 8044887500,
-        "net_foreign_3d": 0,
-        "acc_score": 50,
-        "score_breakdown": {
-          "broker": 35,
-          "foreign_1d": 15,
-          "foreign_3d": 0,
-          "candle": 0,
-          "volume": 0,
-          "total": 50
-        }
-      },
-      "trend": {
-        "ma50": 6951.0,
-        "gap_from_ma50_pct": 23.0,
-        "ma50_slope": "POSITIVE"
-      },
-      "smc": {
-        "internal_structure": "NONE",
-        "swing_trend_bias": "BULLISH",
-        "ob_zone": null,
-        "fvg_zone": "8425 - 8575",
-        "strong_low": 7775.0,
-        "weak_high": 7375.0
-      },
-      "entry_plan": {
-        "whipsaw_risk": "HIGH",
-        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction": "PULLBACK",
-        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction_reason": "",
-        "entry_1": 8500,
-        "entry_1_pct": 20,
-        "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 8425,
-        "entry_2_pct": 50,
-        "entry_2_note": "Area OB / FVG / Support",
-        "entry_3": 8400,
-        "entry_3_pct": 30,
-        "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 8425,
-        "entry_zone": "8400 - 8500",
-        "sl": 8350,
-        "sl_pct_risk": 0.89,
-        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 8700,
-        "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 8950,
-        "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 9225,
-        "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:10.7",
-        "risk_pct": 2,
-        "risk_note": "Max 2% dari total portofolio"
-      },
-      "scoring": {
-        "confidence_score": 55,
-        "tier": "MODERATE"
-      },
-      "signals": [
-        "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp8.0B",
-        "✅ Harga di zona FVG aktif",
-        "✅ Swing Structure: BULLISH"
-      ],
-      "warnings": [],
-      "updated_at": "21.34 WIB"
-    }
-  ],
+  "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
-  "position_trading": [
-    {
-      "ticker": "AADI",
-      "company": "Adaro Andalan Indonesia Tbk.",
-      "score": 70,
-      "close": 11250.0,
-      "near_52w_pct": 98.9,
-      "wk_rsi": 78.7,
-      "wk_adx": 31.7,
-      "mo_rsi": 69.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (79) + Wk ADX (32) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (69)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 46.5B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "PKPK",
-      "company": "Paragon Karya Perkasa Tbk",
-      "score": 70,
-      "close": 4380.0,
-      "near_52w_pct": 98.4,
-      "wk_rsi": 75.1,
-      "wk_adx": 40.7,
-      "mo_rsi": 85.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (75) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (86)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 2.7B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "ADRO",
-      "company": "Alamtri Resources Indonesia Tbk.",
-      "score": 65,
-      "close": 2720.0,
-      "near_52w_pct": 95.1,
-      "wk_rsi": 75.0,
-      "wk_adx": 22.2,
-      "mo_rsi": 74.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (75) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (74)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MARK",
-      "company": "Mark Dynamics Indonesia Tbk.",
-      "score": 65,
-      "close": 1075.0,
-      "near_52w_pct": 96.0,
-      "wk_rsi": 74.1,
-      "wk_adx": 33.4,
-      "mo_rsi": 87.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (33) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (88)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "NEST",
-      "company": "Esta Indonesia Tbk",
-      "score": 65,
-      "close": 740.0,
-      "near_52w_pct": 95.5,
-      "wk_rsi": 75.5,
-      "wk_adx": 56.1,
-      "mo_rsi": 79.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (75) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (79)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    }
-  ],
+  "position_trading": [],
   "meta": {
-    "status": "success",
-    "generated_at": "2026-09-04 21:34:58 WIB",
+    "status": "no_signal",
+    "generated_at": "2026-09-04 21:44:49 WIB",
     "date": "2026-09-04",
-    "mode": "FULL_STOCKBIT",
+    "mode": "YAHOO_ONLY",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
     "session_warning": null,
-    "mode_warning": null,
-    "intraday_count": 1,
+    "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — ARA pipeline tidak berjalan",
+    "intraday_count": 0,
     "ara_count": 0,
     "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
-    "position_count": 5,
+    "position_count": 0,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
     "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
@@ -244,22 +36,9 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6636,
-    "ihsg_change_pct": -0.47,
-    "ihsg_trend": "BULLISH",
-    "ihsg_above_ma50": true,
-    "market_safe": true,
-    "warning": null
+    "market_safe": false
   },
-  "screening_summary": {
-    "universe": 979,
-    "after_liquidity": 109,
-    "after_accumulation": 26,
-    "after_trend": 8,
-    "after_smc": 4,
-    "after_entry": 2,
-    "final": 1
-  },
+  "screening_summary": {},
   "config_ara": {
     "vol_ma20_tier1": 3.0,
     "vol_ma20_tier2": 6.0,
