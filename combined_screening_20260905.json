@@ -34,8 +34,8 @@
         }
       },
       "trend": {
-        "ma50": 6902.0,
-        "gap_from_ma50_pct": 24.24,
+        "ma50": 6951.0,
+        "gap_from_ma50_pct": 23.0,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -87,69 +87,11 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "02.14 WIB"
+      "updated_at": "02.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
-  "bsjp_beli_sore_jual_pagi": [
-    {
-      "ticker": "VRNA",
-      "company": "Mizuho Leasing Indonesia Tbk.",
-      "tier": "S",
-      "score": 98,
-      "market_data": {
-        "close": 99.0,
-        "change_pct": 3.03,
-        "value_today": 10659830000,
-        "net_foreign": -4072700,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "bsjp_features": {
-        "vol_ratio20": 16.99,
-        "body_pct": 33.78,
-        "close_pos_pct": 100.0,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": true,
-        "atr_pct": 5.12
-      },
-      "entry_plan": {
-        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
-        "entry_range": "98 – 99",
-        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
-        "stop_loss": 73,
-        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
-        "target_pct": "+2% s/d +10% di pagi hari",
-        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
-      },
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_92_Big Accumula",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": false,
-        "from_screener": true,
-        "from_top_value": true
-      },
-      "signals_positive": [
-        "Volume ledakan ekstrem 17.0x MA20",
-        "Candle hijau sangat kuat (33.8%)",
-        "Tutup di puncak absolut — tidak ada upper wick",
-        "Uptrend penuh: di atas MA20, MA50, MA200",
-        "MA20 sedang naik — tren menguat",
-        "Masuk screener volume explosion Stockbit"
-      ],
-      "signals_negative": [
-        "Asing jual bersih hari ini — hati-hati"
-      ],
-      "win_probability": "~70% berdasarkan backtest 1.796 kejadian historis",
-      "disclaimer": "Tier S BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
-      "rank": 1
-    }
-  ],
+  "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
@@ -158,8 +100,8 @@
       "ticker": "AADI",
       "company": "Adaro Andalan Indonesia Tbk.",
       "score": 70,
-      "close": 11175.0,
-      "near_52w_pct": 98.7,
+      "close": 11250.0,
+      "near_52w_pct": 98.9,
       "wk_rsi": 78.7,
       "wk_adx": 31.7,
       "mo_rsi": 69.4,
@@ -179,25 +121,25 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "AUTO",
-      "company": "Astra Otoparts Tbk.",
+      "ticker": "PKPK",
+      "company": "Paragon Karya Perkasa Tbk",
       "score": 70,
-      "close": 3390.0,
-      "near_52w_pct": 96.3,
-      "wk_rsi": 77.0,
-      "wk_adx": 30.0,
-      "mo_rsi": 72.1,
+      "close": 4380.0,
+      "near_52w_pct": 98.4,
+      "wk_rsi": 75.1,
+      "wk_adx": 40.7,
+      "mo_rsi": 85.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (77) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (72)",
+        "Near 52W High (98%) + Wk RSI (75) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 4.5B)"
+        "Asing beli bersih (Rp 2.7B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -206,8 +148,8 @@
       "ticker": "ADRO",
       "company": "Alamtri Resources Indonesia Tbk.",
       "score": 65,
-      "close": 2740.0,
-      "near_52w_pct": 95.8,
+      "close": 2720.0,
+      "near_52w_pct": 95.1,
       "wk_rsi": 75.0,
       "wk_adx": 22.2,
       "mo_rsi": 74.1,
@@ -216,8 +158,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (75) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
+        "Near 52W High (95%) + Wk RSI (75) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -229,8 +171,8 @@
       "ticker": "MARK",
       "company": "Mark Dynamics Indonesia Tbk.",
       "score": 65,
-      "close": 1085.0,
-      "near_52w_pct": 96.9,
+      "close": 1075.0,
+      "near_52w_pct": 96.0,
       "wk_rsi": 74.1,
       "wk_adx": 33.4,
       "mo_rsi": 87.8,
@@ -239,8 +181,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (74) + Wk ADX (33) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
+        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (33) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (88)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -249,22 +191,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "GJTL",
-      "company": "Gajah Tunggal Tbk.",
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
       "score": 65,
-      "close": 1405.0,
-      "near_52w_pct": 96.6,
-      "wk_rsi": 67.6,
-      "wk_adx": 41.5,
-      "mo_rsi": 83.8,
+      "close": 740.0,
+      "near_52w_pct": 95.5,
+      "wk_rsi": 75.5,
+      "wk_adx": 56.1,
+      "mo_rsi": 79.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (68) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (84)",
+        "Near 52W High (95%) + Wk RSI (75) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (79)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -274,7 +216,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-05 02:15:24 WIB",
+    "generated_at": "2026-09-05 02:35:26 WIB",
     "date": "2026-09-05",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -283,7 +225,7 @@
     "mode_warning": null,
     "intraday_count": 1,
     "ara_count": 0,
-    "bsjp_count": 1,
+    "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
@@ -313,9 +255,9 @@
     "universe": 979,
     "after_liquidity": 109,
     "after_accumulation": 26,
-    "after_trend": 10,
-    "after_smc": 5,
-    "after_entry": 3,
+    "after_trend": 8,
+    "after_smc": 4,
+    "after_entry": 2,
     "final": 1
   },
   "config_ara": {

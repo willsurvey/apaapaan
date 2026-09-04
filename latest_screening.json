@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-05 02:15:24 WIB",
+  "generated_at": "2026-09-05 02:35:26 WIB",
   "date": "2026-09-05",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -19,9 +19,9 @@
     "universe": 979,
     "after_liquidity": 109,
     "after_accumulation": 26,
-    "after_trend": 10,
-    "after_smc": 5,
-    "after_entry": 3,
+    "after_trend": 8,
+    "after_smc": 4,
+    "after_entry": 2,
     "final": 1
   },
   "config": {
@@ -77,8 +77,8 @@
         }
       },
       "trend": {
-        "ma50": 6902.0,
-        "gap_from_ma50_pct": 24.24,
+        "ma50": 6951.0,
+        "gap_from_ma50_pct": 23.0,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -130,7 +130,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "02.14 WIB"
+      "updated_at": "02.34 WIB"
     }
   ]
 }
