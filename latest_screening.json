@@ -1,12 +1,12 @@
 {
-  "status": "no_signal",
-  "generated_at": "2026-09-04 13:55:17 WIB",
+  "status": "success",
+  "generated_at": "2026-09-04 14:15:04 WIB",
   "date": "2026-09-04",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
   "mode_warning": null,
-  "total_saham": 0,
+  "total_saham": 1,
   "market_context": {
     "ihsg_close": 6660,
     "ihsg_change_pct": 0.99,
@@ -17,12 +17,12 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 119,
-    "after_accumulation": 37,
-    "after_trend": 12,
+    "after_liquidity": 123,
+    "after_accumulation": 36,
+    "after_trend": 17,
     "after_smc": 6,
-    "after_entry": 4,
-    "final": 0
+    "after_entry": 5,
+    "final": 1
   },
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
@@ -42,5 +42,95 @@
     "max_output": 5,
     "min_rr": 2.0
   },
-  "data": []
+  "data": [
+    {
+      "rank": 1,
+      "ticker": "AADI",
+      "company": "Adaro Andalan Indonesia Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
+        "GURU_92_Big Accumula",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 11300,
+        "change_pct": 1.12,
+        "value_today": 63365950000,
+        "frequency_today": 3468,
+        "iep": 11175,
+        "iep_change_pct": -1.11
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 51425592500,
+        "net_foreign_3d": 0,
+        "acc_score": 40,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 0,
+          "foreign_3d": 0,
+          "candle": 10,
+          "volume": -5,
+          "total": 40
+        }
+      },
+      "trend": {
+        "ma50": 9100.0,
+        "gap_from_ma50_pct": 23.91,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "BOS_BULLISH",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": null,
+        "fvg_zone": null,
+        "strong_low": 10050.0,
+        "weak_high": 9325.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 11275,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 11250,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 11200,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 11250,
+        "entry_zone": "11200 - 11275",
+        "sl": 11150,
+        "sl_pct_risk": 0.89,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 11375,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 11725,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 12075,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:8.2",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 50,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy hari ini: Rp51.4B",
+        "✅ Internal BOS Bullish (1H)",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [],
+      "updated_at": "14.13 WIB"
+    }
+  ]
 }
