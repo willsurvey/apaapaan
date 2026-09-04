@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-04 22:39:12 WIB",
+  "generated_at": "2026-09-04 22:54:54 WIB",
   "date": "2026-09-04",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -50,6 +50,7 @@
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
         "MOVER_TYPE_NET_FOREIGN_BUY",
+        "SCREENER_VOLUME_EXPLOSION",
         "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
@@ -129,7 +130,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "22.37 WIB"
+      "updated_at": "22.53 WIB"
     }
   ]
 }
