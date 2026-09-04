@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-04 17:18:36 WIB",
+  "generated_at": "2026-09-04 17:34:45 WIB",
   "date": "2026-09-04",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -17,9 +17,9 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 124,
-    "after_accumulation": 27,
-    "after_trend": 11,
+    "after_liquidity": 109,
+    "after_accumulation": 26,
+    "after_trend": 8,
     "after_smc": 4,
     "after_entry": 2,
     "final": 1
@@ -49,21 +49,22 @@
       "company": "Astra Agro Lestari Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
+        "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
         "close": 8550,
-        "change_pct": 0,
-        "value_today": 20784645000.0,
-        "frequency_today": 0,
+        "change_pct": -0.29,
+        "value_today": 20784645000,
+        "frequency_today": 1756,
         "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": 0,
+        "net_foreign_today": 8044887500,
         "net_foreign_3d": 0,
         "acc_score": 50,
         "score_breakdown": {
@@ -124,12 +125,12 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy kemarin",
+        "✅ Net Foreign Buy hari ini: Rp8.0B",
         "✅ Harga di zona FVG aktif",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.16 WIB"
+      "updated_at": "17.33 WIB"
     }
   ]
 }
