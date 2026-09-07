@@ -50,8 +50,7 @@
           "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
           "MOVER_TYPE_NET_FOREIGN_BUY",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_92_Big Accumula"
+          "SCREENER_VOLUME_EXPLOSION"
         ],
         "from_gainer": false,
         "from_screener": true
@@ -274,7 +273,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-07 23:29:42 WIB",
+    "generated_at": "2026-09-07 23:47:32 WIB",
     "date": "2026-09-07",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -310,7 +309,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 497,
+    "universe": 477,
     "after_liquidity": 0,
     "after_accumulation": 0,
     "after_trend": 0,
