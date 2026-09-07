@@ -88,7 +88,7 @@
         "✅ Internal BOS Bullish (1H)"
       ],
       "warnings": [],
-      "updated_at": "04.56 WIB"
+      "updated_at": "05.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -293,7 +293,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-08 04:57:28 WIB",
+    "generated_at": "2026-09-08 05:15:29 WIB",
     "date": "2026-09-08",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -330,7 +330,7 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 147,
+    "after_liquidity": 146,
     "after_accumulation": 27,
     "after_trend": 11,
     "after_smc": 7,
