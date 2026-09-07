@@ -1,96 +1,6 @@
 {
   "logika_lama_intraday": [],
-  "logika_baru_calon_ara": [
-    {
-      "ticker": "JAYA",
-      "company": "Armada Berjaya Trans Tbk.",
-      "type": "CALON_ARA",
-      "score": 73,
-      "score_tier": "STRONG",
-      "pattern_type": "SILENT_ACCUMULATION",
-      "confluence_count": 9,
-      "entry_range": "178 – 244",
-      "entry_lower": 178,
-      "entry_upper": 244,
-      "entry_note": "Pasang Limit Order pukul 19:00 di 180–244 (PDC hingga harga ARA). Tipe Quiet Accumulation gap lebih kecil — peluang fill order lebih tinggi dibanding Tipe Continuation.",
-      "entry_range_pct": 36.7,
-      "ara_price_ref": 243,
-      "ara_limit_pct": 35.0,
-      "gap_risk_note": "Backtest: 64% saham ARA Gap Up >2% di pagi hari. Median gap: +3.70% dari harga ARA. Limit Order berisiko tidak fill.",
-      "estimated_target_pct": "+6% hingga +16% dari harga beli",
-      "target_morning_exit": 262,
-      "target_base": 286,
-      "target_optimistic": 296,
-      "target_morning_exit_pct": 6.0,
-      "target_base_pct": 16.0,
-      "target_optimistic_pct": 20.0,
-      "target_note": "Pagi: 262 (~+6%) | Moderat: 286 (~+16%) | Full: 296 (~+20%) | JUAL PAGI, bukan hold sampai close.",
-      "assumed_entry": 246,
-      "exit_timing_guide": "JUAL DI PAGI HARI (09:00-09:30 WIB). Backtest menunjukkan High D+1 median +16.77% dari harga ARA. Setelah 09:30, momentum sering berbalik. Jika masih ARA lagi (23.5% peluang), hold dengan trailing stop.",
-      "reason_beginner_friendly": "JAYA diam-diam banyak ditransaksikan kemarin (volume 16x dari biasanya) meski harga tidak bergerak banyak. Ini pola sebelum harga melonjak tajam — tapi bisa juga tidak terjadi apa-apa jika tidak ada berita pendukung. ✅ Broker signal: Big Acc. Skor kepercayaan: TINGGI.",
-      "risk_warning": "⚠️ FALSE SIGNAL RATE ~85-90%. Konfirmasi dengan broker flow, berita, dan analisis manual sebelum beli. | 📌 Batasi posisi: max 2% dari portofolio.",
-      "d1p_backtest_stats": {
-        "high_d1_median": "+16.77% dari harga ARA (n=2213)",
-        "profit_morning": "84.5% sempat naik >5% di D+1",
-        "close_d1_profit": "hanya 48.9% (hampir coin flip — JANGAN hold)",
-        "continued_ara_pct": "23.5% lanjut ARA hari berikutnya",
-        "sample_size": "n=2.213 kunci ARA pertama pada saham liquid"
-      },
-      "broker_signal": "Big Acc",
-      "d1_date": "2026-09-07",
-      "d1_close": 180.0,
-      "d1_open": 176.0,
-      "d1_high": 196.0,
-      "d1_low": 160.0,
-      "d1_change_pct": 5.88,
-      "d1_vol_ratio_ma20": 16.11,
-      "d1_vol_ratio_ma5": 6.18,
-      "d1_body_pct": 0.111,
-      "d1_upper_wick": 0.444,
-      "d1_lower_wick": 0.444,
-      "d1_close_pos": 0.556,
-      "d1_bullish": true,
-      "d1_range_expansion": 2.09,
-      "d1_value_rp": 2421181800000,
-      "d2_change_pct": 18.06,
-      "d2_body_pct": 0.812,
-      "d2_vol_ratio_ma20": 4.42,
-      "m1_last15_green": 10,
-      "m1_close_vs_vwap": 3.35,
-      "m1_close_pos_intra": 0.639,
-      "m1_high_timing": 0.426,
-      "m1_n_bars": 183,
-      "m1_data_available": true,
-      "above_ma20": true,
-      "above_ma50": true,
-      "ma20": 137.0,
-      "ma50": 129.0,
-      "up_streak_days": 1,
-      "trend_5d_pct": 33.33,
-      "signals_positive": [
-        "Volume D-1 ekstrem: 16.1x MA20 (tier-2 ≥6x)",
-        "Volume D-2 elevated: 4.4x MA20 (akumulasi dini)",
-        "Upper wick rejection: 0.44 (smart money absorption)",
-        "Body kecil D-1: 0.11 (candle akumulasi)",
-        "D-2 early signal: +18.1% vol 4.4x",
-        "Range expansion: 2.1x avg-5d",
-        "Harga di atas MA20",
-        "Close di atas VWAP: +3.4%",
-        "Broker signal: Big Accumulation (+10 poin)"
-      ],
-      "signals_negative": [
-        "Closing flat bias: 5/14 bar flat — indikasi tidak aktif"
-      ],
-      "universe_sources": [
-        "SCREENER_VOL_EXPLOSION",
-        "GURU_92",
-        "GURU_94",
-        "SCREENER_TOP_VALUE"
-      ],
-      "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "13:55 WIB"
-    }
-  ],
+  "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
@@ -102,13 +12,13 @@
       "market_data": {
         "close": 101.0,
         "change_pct": 0,
-        "value_today": 50761215000,
+        "value_today": 52310447100,
         "net_foreign": 4002124400
       },
       "d1_features": {
         "body_pct": 1.0,
         "close_pos_pct": 66.7,
-        "vol_ratio": 0.35,
+        "vol_ratio": 0.37,
         "change_pct": 1.0,
         "range_pct": 2.97,
         "upper_wick": 33.3,
@@ -147,7 +57,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.0%), volume mati (0.35x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.0%), volume mati (0.37x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Range D-1 kecil (3.0%) — noise rendah besok",
@@ -173,18 +83,18 @@
       "formula": "QUIET_CONTINUATION",
       "score": 50,
       "market_data": {
-        "close": 25500.0,
-        "change_pct": 2.2,
-        "value_today": 45293817500,
+        "close": 25475.0,
+        "change_pct": 2.1,
+        "value_today": 46931702500,
         "net_foreign": 10424295000
       },
       "d1_features": {
-        "body_pct": 1.29,
-        "close_pos_pct": 53.3,
-        "vol_ratio": 0.41,
-        "change_pct": 2.2,
+        "body_pct": 1.19,
+        "close_pos_pct": 50.0,
+        "vol_ratio": 0.43,
+        "change_pct": 2.1,
         "range_pct": 2.94,
-        "upper_wick": 46.7,
+        "upper_wick": 50.0,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": false,
@@ -192,12 +102,12 @@
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "25,150 – 26,000",
+        "entry_range": "25,125 – 25,975",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 24475,
-        "stop_note": "Cut loss jika turun di bawah 24,475 (1 ATR dari entry)",
-        "target_modest": 26000,
-        "target_moderate": 26525,
+        "stop_loss": 24450,
+        "stop_note": "Cut loss jika turun di bawah 24,450 (1 ATR dari entry)",
+        "target_modest": 25975,
+        "target_moderate": 26500,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -219,14 +129,14 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.3%), volume mati (0.41x MA20), close tengah (53%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.2%), volume mati (0.43x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Range D-1 kecil (2.9%) — noise rendah besok",
         "Asing beli bersih hari ini (Rp 10.4B)"
       ],
       "signals_negative": [
-        "Upper wick besar (47%) — tekanan jual D-1"
+        "Upper wick besar (50%) — tekanan jual D-1"
       ],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
@@ -247,31 +157,31 @@
       "formula": "QUIET_CONTINUATION",
       "score": 35,
       "market_data": {
-        "close": 1360.0,
-        "change_pct": 1.49,
-        "value_today": 51444135000,
+        "close": 1365.0,
+        "change_pct": 1.87,
+        "value_today": 52446305500,
         "net_foreign": -18847823000
       },
       "d1_features": {
-        "body_pct": 1.12,
-        "close_pos_pct": 33.3,
-        "vol_ratio": 0.38,
-        "change_pct": 1.49,
-        "range_pct": 3.31,
-        "upper_wick": 66.7,
+        "body_pct": 1.49,
+        "close_pos_pct": 44.4,
+        "vol_ratio": 0.39,
+        "change_pct": 1.87,
+        "range_pct": 3.3,
+        "upper_wick": 55.6,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": false,
-        "atr_pct": 4.2
+        "atr_pct": 4.19
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "1,330 – 1,385",
+        "entry_range": "1,335 – 1,390",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 1275,
-        "stop_note": "Cut loss jika turun di bawah 1,275 (1 ATR dari entry)",
-        "target_modest": 1385,
-        "target_moderate": 1415,
+        "stop_loss": 1280,
+        "stop_note": "Cut loss jika turun di bawah 1,280 (1 ATR dari entry)",
+        "target_modest": 1390,
+        "target_moderate": 1420,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -292,12 +202,12 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.1%), volume mati (0.38x MA20), close tengah (33%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.5%), volume mati (0.39x MA20), close tengah (44%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok"
       ],
       "signals_negative": [
-        "Upper wick besar (67%) — tekanan jual D-1",
+        "Upper wick besar (56%) — tekanan jual D-1",
         "Asing jual bersih besar — hati-hati gap down"
       ],
       "backtest_stats": {
@@ -320,11 +230,11 @@
       "ticker": "PTBA",
       "company": "Bukit Asam Tbk.",
       "score": 70,
-      "close": 3010.0,
-      "near_52w_pct": 97.8,
+      "close": 3020.0,
+      "near_52w_pct": 98.2,
       "wk_rsi": 59.5,
       "wk_adx": 22.8,
-      "mo_rsi": 64.0,
+      "mo_rsi": 64.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -344,11 +254,11 @@
       "ticker": "AADI",
       "company": "Adaro Andalan Indonesia Tbk.",
       "score": 70,
-      "close": 11700.0,
-      "near_52w_pct": 98.7,
+      "close": 11725.0,
+      "near_52w_pct": 98.9,
       "wk_rsi": 78.7,
       "wk_adx": 31.7,
-      "mo_rsi": 70.3,
+      "mo_rsi": 70.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -365,14 +275,37 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "AKRA",
+      "company": "AKR Corporindo Tbk.",
+      "score": 65,
+      "close": 1430.0,
+      "near_52w_pct": 95.2,
+      "wk_rsi": 73.5,
+      "wk_adx": 21.3,
+      "mo_rsi": 60.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (61)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "BFIN",
       "company": "BFI Finance Indonesia Tbk.",
       "score": 65,
-      "close": 1010.0,
-      "near_52w_pct": 97.6,
+      "close": 1015.0,
+      "near_52w_pct": 98.1,
       "wk_rsi": 76.5,
       "wk_adx": 27.2,
-      "mo_rsi": 69.6,
+      "mo_rsi": 69.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -388,45 +321,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "BSML",
-      "company": "Bintang Samudera Mandiri Lines Tbk.",
-      "score": 65,
-      "close": 520.0,
-      "near_52w_pct": 95.4,
-      "wk_rsi": 77.8,
-      "wk_adx": 47.3,
-      "mo_rsi": 96.6,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (78) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (97)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "MARK",
       "company": "Mark Dynamics Indonesia Tbk.",
       "score": 65,
-      "close": 1075.0,
-      "near_52w_pct": 96.0,
+      "close": 1065.0,
+      "near_52w_pct": 95.1,
       "wk_rsi": 74.1,
       "wk_adx": 33.4,
-      "mo_rsi": 87.8,
+      "mo_rsi": 87.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (33) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (88)",
+        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (33) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (87)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -436,7 +346,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-07 13:56:31 WIB",
+    "generated_at": "2026-09-07 14:17:18 WIB",
     "date": "2026-09-07",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -444,7 +354,7 @@
     "session_warning": null,
     "mode_warning": null,
     "intraday_count": 0,
-    "ara_count": 1,
+    "ara_count": 0,
     "bsjp_count": 0,
     "bpjs_count": 3,
     "swing_count": 0,
@@ -464,8 +374,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6627,
-    "ihsg_change_pct": -0.14,
+    "ihsg_close": 6615,
+    "ihsg_change_pct": -0.32,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
