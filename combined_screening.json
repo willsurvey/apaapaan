@@ -15,8 +15,8 @@
       "market_data": {
         "close": 3010,
         "change_pct": 4.51,
-        "value_today": 276032891000,
-        "frequency_today": 25615,
+        "value_today": 277895780000,
+        "frequency_today": 25758,
         "iep": 3010,
         "iep_change_pct": 0
       },
@@ -35,8 +35,8 @@
         }
       },
       "trend": {
-        "ma50": 2426.0,
-        "gap_from_ma50_pct": 24.51,
+        "ma50": 2425.0,
+        "gap_from_ma50_pct": 24.1,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -88,44 +88,44 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.33 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "BNBR",
-      "company": "Bakrie & Brothers Tbk",
+      "ticker": "BUMI",
+      "company": "Bumi Resources Tbk",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 65,
+      "score": 60,
       "market_data": {
-        "close": 101.0,
-        "change_pct": 0,
-        "value_today": 61261066300,
-        "net_foreign": 4002124400
+        "close": 220.0,
+        "change_pct": 4.76,
+        "value_today": 1260017569800,
+        "net_foreign": 37796484400
       },
       "d1_features": {
-        "body_pct": 1.0,
-        "close_pos_pct": 66.7,
-        "vol_ratio": 0.41,
-        "change_pct": 1.0,
-        "range_pct": 2.97,
-        "upper_wick": 33.3,
+        "body_pct": 4.76,
+        "close_pos_pct": 62.5,
+        "vol_ratio": 0.46,
+        "change_pct": 4.76,
+        "range_pct": 7.27,
+        "upper_wick": 37.5,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": false,
-        "atr_pct": 4.88
+        "atr_pct": 4.29
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "99 – 103",
+        "entry_range": "216 – 224",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 94,
-        "stop_note": "Cut loss jika turun di bawah 94 (1 ATR dari entry)",
-        "target_modest": 103,
-        "target_moderate": 105,
+        "stop_loss": 206,
+        "stop_note": "Cut loss jika turun di bawah 206 (1 ATR dari entry)",
+        "target_modest": 224,
+        "target_moderate": 228,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -142,18 +142,17 @@
           "MOVER_TYPE_TOP_VALUE",
           "MOVER_TYPE_NET_FOREIGN_BUY",
           "SCREENER_VOLUME_EXPLOSION",
-          "GURU_78_Daily Net Fo",
+          "GURU_92_Big Accumula",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": true
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.0%), volume mati (0.41x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+4.8%), volume mati (0.46x MA20), close tengah (62%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
-        "Range D-1 kecil (3.0%) — noise rendah besok",
-        "Asing beli bersih hari ini (Rp 4.0B)",
+        "Asing beli bersih hari ini (Rp 37.8B)",
         "Masuk screener volume Stockbit — ada perhatian pasar"
       ],
       "signals_negative": [],
@@ -178,13 +177,13 @@
       "market_data": {
         "close": 204.0,
         "change_pct": 4.08,
-        "value_today": 77059143500,
+        "value_today": 78498424700,
         "net_foreign": 1017291600
       },
       "d1_features": {
         "body_pct": 2.0,
         "close_pos_pct": 50.0,
-        "vol_ratio": 0.43,
+        "vol_ratio": 0.46,
         "change_pct": 4.08,
         "range_pct": 5.88,
         "upper_wick": 50.0,
@@ -223,7 +222,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+2.0%), volume mati (0.43x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+2.0%), volume mati (0.46x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Di atas MA200 — tren utama masih bullish",
@@ -252,11 +251,11 @@
       "ticker": "PTBA",
       "company": "Bukit Asam Tbk.",
       "score": 70,
-      "close": 3020.0,
-      "near_52w_pct": 98.2,
+      "close": 3010.0,
+      "near_52w_pct": 97.8,
       "wk_rsi": 59.5,
       "wk_adx": 22.8,
-      "mo_rsi": 64.1,
+      "mo_rsi": 64.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -323,11 +322,11 @@
       "ticker": "BFIN",
       "company": "BFI Finance Indonesia Tbk.",
       "score": 65,
-      "close": 1010.0,
-      "near_52w_pct": 97.6,
+      "close": 1015.0,
+      "near_52w_pct": 98.1,
       "wk_rsi": 76.5,
       "wk_adx": 27.2,
-      "mo_rsi": 69.6,
+      "mo_rsi": 69.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -368,7 +367,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-07 16:14:38 WIB",
+    "generated_at": "2026-09-07 16:34:59 WIB",
     "date": "2026-09-07",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -396,8 +395,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6623,
-    "ihsg_change_pct": -0.19,
+    "ihsg_close": 6619,
+    "ihsg_change_pct": -0.25,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
