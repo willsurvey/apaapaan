@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-08 15:34:09 WIB",
+  "generated_at": "2026-09-08 15:54:33 WIB",
   "date": "2026-09-08",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6687,
-    "ihsg_change_pct": 1.02,
+    "ihsg_close": 6686,
+    "ihsg_change_pct": 1.01,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -53,9 +53,9 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 4890,
+        "close": 4900,
         "change_pct": 0,
-        "value_today": 4024140000.0,
+        "value_today": 4219961000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -76,7 +76,7 @@
       },
       "trend": {
         "ma50": 4345.0,
-        "gap_from_ma50_pct": 12.55,
+        "gap_from_ma50_pct": 12.78,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -93,17 +93,17 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 4880,
+        "entry_1": 4890,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 4850,
+        "entry_2": 4860,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
         "entry_3": 4820,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
         "average_entry": 4850,
-        "entry_zone": "4820 - 4880",
+        "entry_zone": "4820 - 4890",
         "sl": 4800,
         "sl_pct_risk": 1.03,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
@@ -128,7 +128,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.33 WIB"
+      "updated_at": "15.52 WIB"
     }
   ]
 }
