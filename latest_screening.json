@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-09 15:34:35 WIB",
+  "generated_at": "2026-09-09 15:54:37 WIB",
   "date": "2026-09-09",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6667,
-    "ihsg_change_pct": -0.28,
+    "ihsg_close": 6670,
+    "ihsg_change_pct": -0.24,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -18,10 +18,10 @@
   "screening_summary": {
     "universe": 979,
     "after_liquidity": 119,
-    "after_accumulation": 28,
-    "after_trend": 14,
-    "after_smc": 8,
-    "after_entry": 6,
+    "after_accumulation": 29,
+    "after_trend": 16,
+    "after_smc": 10,
+    "after_entry": 5,
     "final": 1
   },
   "config": {
@@ -55,12 +55,12 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 1545,
-        "change_pct": 0.98,
-        "value_today": 32270749500,
-        "frequency_today": 5934,
+        "close": 1540,
+        "change_pct": 0.66,
+        "value_today": 36649604500,
+        "frequency_today": 6336,
         "iep": 1525,
-        "iep_change_pct": -0.97
+        "iep_change_pct": -0.65
       },
       "accumulation": {
         "broker_signal": "Big Acc",
@@ -78,7 +78,7 @@
       },
       "trend": {
         "ma50": 1368.0,
-        "gap_from_ma50_pct": 12.58,
+        "gap_from_ma50_pct": 12.23,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -95,7 +95,7 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 1540,
+        "entry_1": 1530,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
         "entry_2": 1520,
@@ -105,7 +105,7 @@
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
         "average_entry": 1520,
-        "entry_zone": "1505 - 1540",
+        "entry_zone": "1505 - 1530",
         "sl": 1495,
         "sl_pct_risk": 1.64,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
@@ -129,7 +129,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "15.33 WIB"
+      "updated_at": "15.53 WIB"
     }
   ]
 }
