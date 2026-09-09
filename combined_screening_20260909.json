@@ -90,7 +90,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.34 WIB"
+      "updated_at": "23.54 WIB"
     },
     {
       "rank": 2,
@@ -182,7 +182,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.34 WIB"
+      "updated_at": "23.54 WIB"
     },
     {
       "rank": 3,
@@ -273,7 +273,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.34 WIB"
+      "updated_at": "23.54 WIB"
     },
     {
       "rank": 4,
@@ -365,7 +365,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.34 WIB"
+      "updated_at": "23.54 WIB"
     },
     {
       "rank": 5,
@@ -456,10 +456,98 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.34 WIB"
+      "updated_at": "23.54 WIB"
     }
   ],
-  "logika_baru_calon_ara": [],
+  "logika_baru_calon_ara": [
+    {
+      "ticker": "MBTO",
+      "company": "Martina Berto Tbk.",
+      "type": "CALON_ARA",
+      "score": 67,
+      "score_tier": "MODERATE",
+      "pattern_type": "SILENT_ACCUMULATION",
+      "confluence_count": 10,
+      "entry_range": "140 – 143",
+      "entry_lower": 140,
+      "entry_upper": 143,
+      "entry_note": "Pasang Limit Order pukul 19:00 di 141–190 (PDC hingga harga ARA). Tipe Quiet Accumulation gap lebih kecil — peluang fill order lebih tinggi dibanding Tipe Continuation. (batas atas: OB 1H aktif)",
+      "entry_range_pct": 2.1,
+      "ara_price_ref": 190,
+      "ara_limit_pct": 35.0,
+      "gap_risk_note": "Backtest: 64% saham ARA Gap Up >2% di pagi hari. Median gap: +3.70% dari harga ARA. Limit Order berisiko tidak fill.",
+      "estimated_target_pct": "+7% hingga +15% dari harga beli",
+      "target_morning_exit": 206,
+      "target_base": 222,
+      "target_optimistic": 232,
+      "target_morning_exit_pct": 7.0,
+      "target_base_pct": 15.0,
+      "target_optimistic_pct": 20.0,
+      "target_note": "Pagi: 206 (~+7%) | Moderat: 222 (~+15%) | Full: 232 (~+20%) | JUAL PAGI, bukan hold sampai close.",
+      "assumed_entry": 193,
+      "exit_timing_guide": "JUAL DI PAGI HARI (09:00-09:30 WIB). Backtest menunjukkan High D+1 median +16.77% dari harga ARA. Setelah 09:30, momentum sering berbalik. Jika masih ARA lagi (23.5% peluang), hold dengan trailing stop.",
+      "reason_beginner_friendly": "MBTO diam-diam banyak ditransaksikan kemarin (volume 5x dari biasanya) meski harga tidak bergerak banyak. Ini pola sebelum harga melonjak tajam — tapi bisa juga tidak terjadi apa-apa jika tidak ada berita pendukung. ✅ Broker signal: Big Acc. Skor kepercayaan: SEDANG.",
+      "risk_warning": "⚠️ FALSE SIGNAL RATE ~85-90%. Konfirmasi dengan broker flow, berita, dan analisis manual sebelum beli. | 📌 Batasi posisi: max 1% dari portofolio.",
+      "d1p_backtest_stats": {
+        "high_d1_median": "+16.77% dari harga ARA (n=2213)",
+        "profit_morning": "84.5% sempat naik >5% di D+1",
+        "close_d1_profit": "hanya 48.9% (hampir coin flip — JANGAN hold)",
+        "continued_ara_pct": "23.5% lanjut ARA hari berikutnya",
+        "sample_size": "n=2.213 kunci ARA pertama pada saham liquid"
+      },
+      "broker_signal": "Big Acc",
+      "d1_date": "2026-09-09",
+      "d1_close": 141.0,
+      "d1_open": 139.0,
+      "d1_high": 148.0,
+      "d1_low": 136.0,
+      "d1_change_pct": 0.71,
+      "d1_vol_ratio_ma20": 4.73,
+      "d1_vol_ratio_ma5": 4.36,
+      "d1_body_pct": 0.167,
+      "d1_upper_wick": 0.583,
+      "d1_lower_wick": 0.25,
+      "d1_close_pos": 0.417,
+      "d1_bullish": true,
+      "d1_range_expansion": 2.43,
+      "d1_value_rp": 358221780000,
+      "d2_change_pct": 11.11,
+      "d2_body_pct": 0.867,
+      "d2_vol_ratio_ma20": 4.64,
+      "m1_last15_green": 12,
+      "m1_close_vs_vwap": -0.94,
+      "m1_close_pos_intra": 0.417,
+      "m1_high_timing": 0.35,
+      "m1_n_bars": 220,
+      "m1_data_available": true,
+      "above_ma20": true,
+      "above_ma50": true,
+      "ma20": 128.0,
+      "ma50": 121.0,
+      "up_streak_days": 1,
+      "trend_5d_pct": 10.16,
+      "signals_positive": [
+        "Volume D-1 spike: 4.7x MA20 (tier-1 ≥3x)",
+        "Volume D-2 elevated: 4.6x MA20 (akumulasi dini)",
+        "Upper wick rejection: 0.58 (smart money absorption)",
+        "Body kecil D-1: 0.17 (candle akumulasi)",
+        "Close pos rendah: 0.42 (buyers absorbed selling)",
+        "D-2 early signal: +11.1% vol 4.6x",
+        "Range expansion: 2.4x avg-5d",
+        "Harga di atas MA20",
+        "5d trend sehat: +10.2%",
+        "Broker signal: Big Accumulation (+10 poin)"
+      ],
+      "signals_negative": [
+        "Closing flat bias: 12/14 bar flat — indikasi tidak aktif"
+      ],
+      "universe_sources": [
+        "GURU_92"
+      ],
+      "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
+      "generated_at": "23:55 WIB"
+    }
+  ],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
@@ -584,7 +672,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-09 23:35:43 WIB",
+    "generated_at": "2026-09-09 23:56:18 WIB",
     "date": "2026-09-09",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -592,7 +680,7 @@
     "session_warning": null,
     "mode_warning": null,
     "intraday_count": 5,
-    "ara_count": 0,
+    "ara_count": 1,
     "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
