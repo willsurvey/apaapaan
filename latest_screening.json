@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-09 16:17:50 WIB",
+  "generated_at": "2026-09-09 16:37:54 WIB",
   "date": "2026-09-09",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 3,
   "market_context": {
-    "ihsg_close": 6668,
-    "ihsg_change_pct": -0.26,
+    "ihsg_close": 6678,
+    "ihsg_change_pct": -0.12,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -18,10 +18,10 @@
   "screening_summary": {
     "universe": 979,
     "after_liquidity": 121,
-    "after_accumulation": 29,
-    "after_trend": 14,
-    "after_smc": 7,
-    "after_entry": 6,
+    "after_accumulation": 30,
+    "after_trend": 15,
+    "after_smc": 8,
+    "after_entry": 7,
     "final": 3
   },
   "config": {
@@ -58,8 +58,8 @@
       "market_data": {
         "close": 12450,
         "change_pct": 5.96,
-        "value_today": 265862942500,
-        "frequency_today": 13496,
+        "value_today": 266486687500,
+        "frequency_today": 13518,
         "iep": 12450,
         "iep_change_pct": 0
       },
@@ -132,7 +132,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.36 WIB"
     },
     {
       "rank": 2,
@@ -148,8 +148,8 @@
       "market_data": {
         "close": 1550,
         "change_pct": 1.64,
-        "value_today": 44519797000,
-        "frequency_today": 7051,
+        "value_today": 45446852000,
+        "frequency_today": 7163,
         "iep": 1550,
         "iep_change_pct": 0
       },
@@ -220,7 +220,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.36 WIB"
     },
     {
       "rank": 3,
@@ -235,7 +235,7 @@
       "market_data": {
         "close": 8600,
         "change_pct": 0,
-        "value_today": 13783462500.0,
+        "value_today": 13787762500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -308,7 +308,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.13 WIB"
+      "updated_at": "16.36 WIB"
     }
   ]
 }
