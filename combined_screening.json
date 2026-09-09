@@ -7,30 +7,6 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "PTBA",
-      "company": "Bukit Asam Tbk.",
-      "score": 70,
-      "close": 3100.0,
-      "near_52w_pct": 100.0,
-      "wk_rsi": 75.8,
-      "wk_adx": 24.6,
-      "mo_rsi": 65.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (76) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (65)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 85.2B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "SQMI",
       "company": "Wilton Makmur Indonesia Tbk.",
       "score": 55,
@@ -51,33 +27,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "ADRO",
-      "company": "Alamtri Resources Indonesia Tbk.",
-      "score": 55,
-      "close": 2690.0,
-      "near_52w_pct": 94.1,
-      "wk_rsi": 77.8,
-      "wk_adx": 23.1,
-      "mo_rsi": 73.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (94%) + Wk RSI (78) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (73)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-10 06:03:34 WIB",
+    "generated_at": "2026-09-10 06:23:32 WIB",
     "date": "2026-09-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -90,7 +44,7 @@
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
-    "position_count": 3,
+    "position_count": 1,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
     "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
@@ -113,7 +67,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 75,
+    "universe": 49,
     "after_liquidity": 0,
     "after_accumulation": 0,
     "after_trend": 0,
