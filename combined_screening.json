@@ -30,29 +30,6 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MARK",
-      "company": "Mark Dynamics Indonesia Tbk.",
-      "score": 65,
-      "close": 1080.0,
-      "near_52w_pct": 96.5,
-      "wk_rsi": 74.9,
-      "wk_adx": 33.8,
-      "mo_rsi": 87.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (75) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (88)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "NEST",
       "company": "Esta Indonesia Tbk",
       "score": 65,
@@ -99,21 +76,44 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "BKDP",
-      "company": "Bukit Darmo Property Tbk",
-      "score": 55,
-      "close": 200.0,
-      "near_52w_pct": 89.3,
-      "wk_rsi": 76.7,
-      "wk_adx": 40.8,
-      "mo_rsi": 76.2,
+      "ticker": "MARK",
+      "company": "Mark Dynamics Indonesia Tbk.",
+      "score": 65,
+      "close": 1080.0,
+      "near_52w_pct": 96.5,
+      "wk_rsi": 74.9,
+      "wk_adx": 33.8,
+      "mo_rsi": 87.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (89%) + Wk RSI (77) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (76)",
+        "Near 52W High (96%) + Wk RSI (75) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (88)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "DOOH",
+      "company": "Era Media Sejahtera Tbk.",
+      "score": 55,
+      "close": 326.0,
+      "near_52w_pct": 90.6,
+      "wk_rsi": 75.1,
+      "wk_adx": 23.9,
+      "mo_rsi": 64.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (91%) + Wk RSI (75) + Wk ADX (24) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (65)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -123,7 +123,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-09 08:13:27 WIB",
+    "generated_at": "2026-09-09 08:32:09 WIB",
     "date": "2026-09-09",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
