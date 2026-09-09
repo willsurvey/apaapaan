@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-09 18:37:02 WIB",
+  "generated_at": "2026-09-09 18:55:19 WIB",
   "date": "2026-09-09",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -133,7 +133,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.35 WIB"
+      "updated_at": "18.54 WIB"
     },
     {
       "rank": 2,
@@ -145,7 +145,7 @@
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_77_Foreign Flow",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -225,7 +225,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.35 WIB"
+      "updated_at": "18.54 WIB"
     },
     {
       "rank": 3,
@@ -236,7 +236,7 @@
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_77_Foreign Flow",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -316,7 +316,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.35 WIB"
+      "updated_at": "18.54 WIB"
     },
     {
       "rank": 4,
@@ -328,7 +328,7 @@
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_77_Foreign Flow",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -408,7 +408,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.35 WIB"
+      "updated_at": "18.54 WIB"
     },
     {
       "rank": 5,
@@ -419,7 +419,7 @@
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_77_Foreign Flow",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -499,7 +499,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.35 WIB"
+      "updated_at": "18.54 WIB"
     }
   ]
 }
