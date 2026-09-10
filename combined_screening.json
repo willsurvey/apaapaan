@@ -10,7 +10,7 @@
       "market_data": {
         "close": 406.0,
         "change_pct": 24.54,
-        "value_today": 21576634200,
+        "value_today": 21577852200,
         "net_foreign": -97586800,
         "iep": 406,
         "iep_change_pct": 0
@@ -68,7 +68,7 @@
       "market_data": {
         "close": 124.0,
         "change_pct": 34.78,
-        "value_today": 33301730400,
+        "value_today": 33306182000,
         "net_foreign": -3089900,
         "iep": 124,
         "iep_change_pct": 0
@@ -241,7 +241,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-10 16:15:33 WIB",
+    "generated_at": "2026-09-10 16:38:48 WIB",
     "date": "2026-09-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -269,8 +269,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6597,
-    "ihsg_change_pct": -1.21,
+    "ihsg_close": 6589,
+    "ihsg_change_pct": -1.33,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
