@@ -37,7 +37,7 @@
         "in_mover_types": [
           "MOVER_TYPE_TOP_GAINER",
           "SCREENER_VOLUME_EXPLOSION",
-          "GURU_63_High Volume ",
+          "GURU_92_Big Accumula",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": true,
@@ -95,7 +95,7 @@
         "in_mover_types": [
           "MOVER_TYPE_TOP_VOLUME",
           "SCREENER_VOLUME_EXPLOSION",
-          "GURU_63_High Volume ",
+          "GURU_92_Big Accumula",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
@@ -241,7 +241,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-10 18:34:51 WIB",
+    "generated_at": "2026-09-10 18:57:13 WIB",
     "date": "2026-09-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -269,8 +269,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6678,
-    "ihsg_change_pct": -0.12,
+    "ihsg_close": 6589,
+    "ihsg_change_pct": -1.33,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
