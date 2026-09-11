@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-12 02:37:38 WIB",
+  "generated_at": "2026-09-12 02:55:31 WIB",
   "date": "2026-09-12",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -19,9 +19,9 @@
     "universe": 979,
     "after_liquidity": 121,
     "after_accumulation": 48,
-    "after_trend": 20,
-    "after_smc": 10,
-    "after_entry": 8,
+    "after_trend": 22,
+    "after_smc": 11,
+    "after_entry": 9,
     "final": 3
   },
   "config": {
@@ -78,8 +78,8 @@
         }
       },
       "trend": {
-        "ma50": 9426.0,
-        "gap_from_ma50_pct": 30.23,
+        "ma50": 9512.0,
+        "gap_from_ma50_pct": 28.52,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -132,7 +132,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "02.36 WIB"
+      "updated_at": "02.54 WIB"
     },
     {
       "rank": 2,
@@ -168,8 +168,8 @@
         }
       },
       "trend": {
-        "ma50": 7152.0,
-        "gap_from_ma50_pct": 17.79,
+        "ma50": 7205.0,
+        "gap_from_ma50_pct": 19.36,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -222,7 +222,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "02.36 WIB"
+      "updated_at": "02.54 WIB"
     },
     {
       "rank": 3,
@@ -257,8 +257,8 @@
         }
       },
       "trend": {
-        "ma50": 175.0,
-        "gap_from_ma50_pct": 4.36,
+        "ma50": 176.0,
+        "gap_from_ma50_pct": 4.6,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -309,10 +309,10 @@
         "✅ Net Foreign Buy 3 hari berturut",
         "✅ Harga di zona Order Block aktif",
         "✅ Swing Structure: BULLISH",
-        "✅ Pullback ke MA50 (4.4% di atas MA50)"
+        "✅ Pullback ke MA50 (4.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "02.36 WIB"
+      "updated_at": "02.54 WIB"
     }
   ]
 }
