@@ -1,14 +1,19 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-09-13 12:00:51 WIB",
+  "generated_at": "2026-09-13 12:21:42 WIB",
   "date": "2026-09-13",
-  "mode": "YAHOO_ONLY",
-  "session_label": "MARKET_DAY",
-  "session_warning": null,
-  "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — Data terbatas (Yahoo Finance only)",
+  "mode": "FULL_STOCKBIT",
+  "session_label": "PRE_MARKET_WEEKEND (Sunday)",
+  "session_warning": "⚠️ Screening dijalankan di akhir pekan — gunakan sebagai referensi persiapan, bukan sinyal eksekusi langsung.",
+  "mode_warning": null,
   "total_saham": 0,
   "market_context": {
-    "market_safe": false
+    "ihsg_close": 6541,
+    "ihsg_change_pct": -0.73,
+    "ihsg_trend": "BULLISH",
+    "ihsg_above_ma50": true,
+    "market_safe": false,
+    "warning": "IHSG turun 3 hari berturut-turut. Tidak ada output hari ini."
   },
   "screening_summary": {},
   "config": {
