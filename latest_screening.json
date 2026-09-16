@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-16 09:54:25 WIB",
+  "generated_at": "2026-09-16 10:13:53 WIB",
   "date": "2026-09-16",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 2,
   "market_context": {
-    "ihsg_close": 6519,
-    "ihsg_change_pct": 0.9,
+    "ihsg_close": 6510,
+    "ihsg_change_pct": 0.76,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -17,11 +17,11 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 69,
-    "after_accumulation": 12,
+    "after_liquidity": 74,
+    "after_accumulation": 13,
     "after_trend": 8,
-    "after_smc": 2,
-    "after_entry": 2,
+    "after_smc": 3,
+    "after_entry": 3,
     "final": 2
   },
   "config": {
@@ -56,11 +56,11 @@
       ],
       "market_data": {
         "close": 12400,
-        "change_pct": 1.22,
-        "value_today": 13646097500,
-        "frequency_today": 1093,
+        "change_pct": 1.02,
+        "value_today": 17667537500,
+        "frequency_today": 1414,
         "iep": 12275,
-        "iep_change_pct": -1.21
+        "iep_change_pct": -1.01
       },
       "accumulation": {
         "broker_signal": "Big Acc",
@@ -77,8 +77,8 @@
         }
       },
       "trend": {
-        "ma50": 9774.0,
-        "gap_from_ma50_pct": 27.13,
+        "ma50": 9773.0,
+        "gap_from_ma50_pct": 26.88,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -130,7 +130,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "09.52 WIB"
+      "updated_at": "10.13 WIB"
     },
     {
       "rank": 2,
@@ -144,7 +144,7 @@
       "market_data": {
         "close": 26300,
         "change_pct": 0,
-        "value_today": 4214220000.0,
+        "value_today": 5031930000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -164,8 +164,8 @@
         }
       },
       "trend": {
-        "ma50": 24928.0,
-        "gap_from_ma50_pct": 5.4,
+        "ma50": 24929.0,
+        "gap_from_ma50_pct": 5.5,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -217,7 +217,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "09.52 WIB"
+      "updated_at": "10.13 WIB"
     }
   ]
 }
