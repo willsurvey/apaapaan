@@ -11,14 +11,14 @@
       "score": 50,
       "market_data": {
         "close": 2250.0,
-        "change_pct": 2.26,
-        "value_today": 18434336000,
+        "change_pct": 1.81,
+        "value_today": 19510216000,
         "net_foreign": 7236668000
       },
       "d1_features": {
         "body_pct": 2.27,
         "close_pos_pct": 55.6,
-        "vol_ratio": 0.29,
+        "vol_ratio": 0.31,
         "change_pct": 1.81,
         "range_pct": 4.0,
         "upper_wick": 44.4,
@@ -55,7 +55,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+2.3%), volume mati (0.29x MA20), close tengah (56%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+2.3%), volume mati (0.31x MA20), close tengah (56%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Di atas MA200 — tren utama masih bullish",
@@ -85,7 +85,7 @@
       "market_data": {
         "close": 695.0,
         "change_pct": 1.46,
-        "value_today": 22311068500,
+        "value_today": 22434590500,
         "net_foreign": 1260979000
       },
       "d1_features": {
@@ -158,13 +158,13 @@
       "market_data": {
         "close": 123.0,
         "change_pct": 2.5,
-        "value_today": 15402487100,
+        "value_today": 15837979100,
         "net_foreign": -304010300
       },
       "d1_features": {
         "body_pct": 3.36,
         "close_pos_pct": 55.6,
-        "vol_ratio": 0.2,
+        "vol_ratio": 0.21,
         "change_pct": 2.5,
         "range_pct": 7.32,
         "upper_wick": 44.4,
@@ -201,7 +201,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+3.4%), volume mati (0.20x MA20), close tengah (56%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+3.4%), volume mati (0.21x MA20), close tengah (56%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Di atas MA200 — tren utama masih bullish"
@@ -226,21 +226,45 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "PTBA",
-      "company": "Bukit Asam Tbk.",
-      "score": 65,
-      "close": 3080.0,
-      "near_52w_pct": 96.2,
-      "wk_rsi": 74.0,
-      "wk_adx": 26.8,
-      "mo_rsi": 64.9,
+      "ticker": "ICON",
+      "company": "Island Concepts Indonesia Tbk.",
+      "score": 70,
+      "close": 181.0,
+      "near_52w_pct": 95.3,
+      "wk_rsi": 79.7,
+      "wk_adx": 47.7,
+      "mo_rsi": 76.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
+        "Near 52W High (95%) + Wk RSI (80) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (76)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 0.4B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "PTBA",
+      "company": "Bukit Asam Tbk.",
+      "score": 65,
+      "close": 3110.0,
+      "near_52w_pct": 97.2,
+      "wk_rsi": 75.4,
+      "wk_adx": 26.8,
+      "mo_rsi": 65.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (75) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (65)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -252,17 +276,17 @@
       "ticker": "MARK",
       "company": "Mark Dynamics Indonesia Tbk.",
       "score": 65,
-      "close": 1210.0,
+      "close": 1240.0,
       "near_52w_pct": 100.0,
-      "wk_rsi": 77.6,
-      "wk_adx": 35.5,
-      "mo_rsi": 89.8,
+      "wk_rsi": 78.5,
+      "wk_adx": 35.7,
+      "mo_rsi": 90.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (78) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (100%) + Wk RSI (79) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (100%) — breakout potential",
         "Monthly RSI kuat (90)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -316,33 +340,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "SRSN",
-      "company": "Indo Acidatama Tbk",
-      "score": 55,
-      "close": 107.0,
-      "near_52w_pct": 87.7,
-      "wk_rsi": 76.6,
-      "wk_adx": 40.4,
-      "mo_rsi": 83.3,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (88%) + Wk RSI (77) + Wk ADX (40) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (83)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-17 13:54:55 WIB",
+    "generated_at": "2026-09-17 14:14:12 WIB",
     "date": "2026-09-17",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -370,8 +372,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6462,
-    "ihsg_change_pct": 0.39,
+    "ihsg_close": 6449,
+    "ihsg_change_pct": 0.19,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -379,7 +381,7 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 131,
+    "after_liquidity": 133,
     "after_accumulation": 2,
     "after_trend": 0,
     "after_smc": 0,
