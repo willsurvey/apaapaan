@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-17 11:17:45 WIB",
+  "generated_at": "2026-09-17 11:36:47 WIB",
   "date": "2026-09-17",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 2,
   "market_context": {
-    "ihsg_close": 6439,
-    "ihsg_change_pct": 0.04,
+    "ihsg_close": 6464,
+    "ihsg_change_pct": 0.43,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -19,9 +19,9 @@
     "universe": 979,
     "after_liquidity": 104,
     "after_accumulation": 13,
-    "after_trend": 4,
-    "after_smc": 2,
-    "after_entry": 2,
+    "after_trend": 5,
+    "after_smc": 3,
+    "after_entry": 3,
     "final": 2
   },
   "config": {
@@ -56,8 +56,8 @@
       "market_data": {
         "close": 3050,
         "change_pct": 1.67,
-        "value_today": 43817177000,
-        "frequency_today": 3753,
+        "value_today": 46782945000,
+        "frequency_today": 4108,
         "iep": 3010,
         "iep_change_pct": -1.31
       },
@@ -76,8 +76,8 @@
         }
       },
       "trend": {
-        "ma50": 2543.0,
-        "gap_from_ma50_pct": 19.53,
+        "ma50": 2544.0,
+        "gap_from_ma50_pct": 19.91,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -129,7 +129,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "11.16 WIB"
+      "updated_at": "11.33 WIB"
     },
     {
       "rank": 2,
@@ -143,7 +143,7 @@
       "market_data": {
         "close": 26325,
         "change_pct": 0,
-        "value_today": 5947670000.0,
+        "value_today": 6592312500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -163,8 +163,8 @@
         }
       },
       "trend": {
-        "ma50": 24998.0,
-        "gap_from_ma50_pct": 5.01,
+        "ma50": 24999.0,
+        "gap_from_ma50_pct": 5.3,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -216,7 +216,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "11.16 WIB"
+      "updated_at": "11.33 WIB"
     }
   ]
 }
