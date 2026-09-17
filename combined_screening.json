@@ -12,11 +12,11 @@
       ],
       "market_data": {
         "close": 3060,
-        "change_pct": 1.67,
-        "value_today": 11332572000,
-        "frequency_today": 1217,
+        "change_pct": 2,
+        "value_today": 17311328000,
+        "frequency_today": 1674,
         "iep": 3010,
-        "iep_change_pct": -1.31
+        "iep_change_pct": -1.63
       },
       "accumulation": {
         "broker_signal": "Big Acc",
@@ -34,7 +34,7 @@
       },
       "trend": {
         "ma50": 2544.0,
-        "gap_from_ma50_pct": 19.91,
+        "gap_from_ma50_pct": 20.29,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -86,44 +86,131 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "09.32 WIB"
+      "updated_at": "09.52 WIB"
+    },
+    {
+      "rank": 2,
+      "ticker": "ITMG",
+      "company": "Indo Tambangraya Megah Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "GURU_78",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 26275,
+        "change_pct": 0,
+        "value_today": 2910727500.0,
+        "frequency_today": 0,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 0,
+        "net_foreign_3d": 0,
+        "acc_score": 40,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 0,
+          "foreign_3d": 0,
+          "candle": 10,
+          "volume": -5,
+          "total": 40
+        }
+      },
+      "trend": {
+        "ma50": 24998.0,
+        "gap_from_ma50_pct": 5.11,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": "25850 - 26075",
+        "fvg_zone": "25650 - 25800",
+        "strong_low": 25850.0,
+        "weak_high": 26925.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 26250,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 26200,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 26175,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 26200,
+        "entry_zone": "26175 - 26250",
+        "sl": 26125,
+        "sl_pct_risk": 0.29,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 26300,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 26925,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 27725,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:20.3",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 50,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Harga di zona Order Block aktif",
+        "✅ Harga di zona FVG aktif",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [],
+      "updated_at": "09.52 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "PTBA",
-      "company": "Bukit Asam Tbk.",
+      "ticker": "DMAS",
+      "company": "Puradelta Lestari Tbk",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 50,
+      "score": 60,
       "market_data": {
-        "close": 3050.0,
-        "change_pct": 1.67,
-        "value_today": 11332572000,
-        "net_foreign": -923112000
+        "close": 193.0,
+        "change_pct": 3.19,
+        "value_today": 10061128200,
+        "net_foreign": 1084222600
       },
       "d1_features": {
-        "body_pct": 1.33,
-        "close_pos_pct": 57.1,
-        "vol_ratio": 0.07,
-        "change_pct": 1.67,
-        "range_pct": 2.3,
-        "upper_wick": 42.9,
+        "body_pct": 2.12,
+        "close_pos_pct": 66.7,
+        "vol_ratio": 0.09,
+        "change_pct": 2.66,
+        "range_pct": 3.11,
+        "upper_wick": 33.3,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": true,
-        "atr_pct": 4.0
+        "atr_pct": 5.37
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "2,990 – 3,110",
+        "entry_range": "188 – 197",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 2870,
-        "stop_note": "Cut loss jika turun di bawah 2,870 (1 ATR dari entry)",
-        "target_modest": 3110,
-        "target_moderate": 3170,
+        "stop_loss": 178,
+        "stop_note": "Cut loss jika turun di bawah 178 (1 ATR dari entry)",
+        "target_modest": 197,
+        "target_moderate": 200,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -136,23 +223,23 @@
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
         "in_mover_types": [
+          "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
-          "GURU_92_Big Accumula",
+          "MOVER_TYPE_NET_FOREIGN_BUY",
+          "GURU_77_Foreign Flow",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.3%), volume mati (0.07x MA20), close tengah (57%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+2.1%), volume mati (0.09x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Di atas MA200 — tren utama masih bullish",
-        "Range D-1 kecil (2.3%) — noise rendah besok"
+        "Asing beli bersih hari ini (Rp 1.1B)"
       ],
-      "signals_negative": [
-        "Upper wick besar (43%) — tekanan jual D-1"
-      ],
+      "signals_negative": [],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
         "win_rate": "49.8%",
@@ -173,42 +260,19 @@
       "ticker": "PTBA",
       "company": "Bukit Asam Tbk.",
       "score": 65,
-      "close": 3050.0,
-      "near_52w_pct": 95.3,
-      "wk_rsi": 72.2,
+      "close": 3060.0,
+      "near_52w_pct": 95.6,
+      "wk_rsi": 72.8,
       "wk_adx": 26.8,
-      "mo_rsi": 64.5,
+      "mo_rsi": 64.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (72) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
+        "Near 52W High (96%) + Wk RSI (73) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (65)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "SMMT",
-      "company": "Golden Eagle Energy Tbk.",
-      "score": 65,
-      "close": 3080.0,
-      "near_52w_pct": 95.4,
-      "wk_rsi": 79.5,
-      "wk_adx": 36.7,
-      "mo_rsi": 70.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (79) + Wk ADX (37) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -242,19 +306,19 @@
       "ticker": "MARK",
       "company": "Mark Dynamics Indonesia Tbk.",
       "score": 65,
-      "close": 1185.0,
-      "near_52w_pct": 98.8,
-      "wk_rsi": 76.7,
+      "close": 1175.0,
+      "near_52w_pct": 97.9,
+      "wk_rsi": 76.3,
       "wk_adx": 35.4,
-      "mo_rsi": 89.5,
+      "mo_rsi": 89.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (77) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (90)",
+        "Near 52W High (98%) + Wk RSI (76) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (89)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -265,17 +329,17 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1030.0,
-      "near_52w_pct": 97.2,
-      "wk_rsi": 79.3,
+      "close": 1025.0,
+      "near_52w_pct": 96.7,
+      "wk_rsi": 76.7,
       "wk_adx": 52.8,
-      "mo_rsi": 80.5,
+      "mo_rsi": 80.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (79) + Wk ADX (53) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (97%) + Wk RSI (77) + Wk ADX (53) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (80)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -283,18 +347,41 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "ICON",
+      "company": "Island Concepts Indonesia Tbk.",
+      "score": 60,
+      "close": 166.0,
+      "near_52w_pct": 93.8,
+      "wk_rsi": 77.1,
+      "wk_adx": 47.4,
+      "mo_rsi": 74.6,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (94%) + Wk RSI (77) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (75)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 0.4B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-17 09:33:19 WIB",
+    "generated_at": "2026-09-17 09:53:23 WIB",
     "date": "2026-09-17",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
     "session_warning": null,
     "mode_warning": null,
-    "intraday_count": 1,
+    "intraday_count": 2,
     "ara_count": 0,
     "bsjp_count": 0,
     "bpjs_count": 1,
@@ -315,8 +402,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6482,
-    "ihsg_change_pct": 0.7,
+    "ihsg_close": 6469,
+    "ihsg_change_pct": 0.51,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -324,12 +411,12 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 56,
-    "after_accumulation": 8,
-    "after_trend": 3,
-    "after_smc": 1,
-    "after_entry": 1,
-    "final": 1
+    "after_liquidity": 70,
+    "after_accumulation": 12,
+    "after_trend": 5,
+    "after_smc": 3,
+    "after_entry": 3,
+    "final": 2
   },
   "config_ara": {
     "vol_ma20_tier1": 3.0,
