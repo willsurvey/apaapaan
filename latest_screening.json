@@ -1,15 +1,15 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-09-18 23:54:48 WIB",
-  "date": "2026-09-18",
+  "generated_at": "2026-09-19 00:16:04 WIB",
+  "date": "2026-09-19",
   "mode": "FULL_STOCKBIT",
-  "session_label": "MARKET_DAY",
-  "session_warning": null,
+  "session_label": "PRE_MARKET_WEEKEND (Saturday)",
+  "session_warning": "⚠️ Screening dijalankan di akhir pekan — gunakan sebagai referensi persiapan, bukan sinyal eksekusi langsung.",
   "mode_warning": null,
   "total_saham": 0,
   "market_context": {
-    "ihsg_close": 6441,
-    "ihsg_change_pct": -0.33,
+    "ihsg_close": 6462,
+    "ihsg_change_pct": 0.4,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
     "market_safe": true,
@@ -18,10 +18,10 @@
   "screening_summary": {
     "universe": 979,
     "after_liquidity": 138,
-    "after_accumulation": 41,
-    "after_trend": 14,
-    "after_smc": 7,
-    "after_entry": 5,
+    "after_accumulation": 40,
+    "after_trend": 10,
+    "after_smc": 4,
+    "after_entry": 2,
     "final": 0
   },
   "config": {
