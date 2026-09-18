@@ -5,10 +5,127 @@
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
-  "position_trading": [],
+  "position_trading": [
+    {
+      "ticker": "PTBA",
+      "company": "Bukit Asam Tbk.",
+      "score": 70,
+      "close": 3090.0,
+      "near_52w_pct": 96.6,
+      "wk_rsi": 74.6,
+      "wk_adx": 26.8,
+      "mo_rsi": 65.1,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (75) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (65)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 1.4B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "TOTL",
+      "company": "Total Bangun Persada Tbk.",
+      "score": 65,
+      "close": 1540.0,
+      "near_52w_pct": 95.4,
+      "wk_rsi": 78.1,
+      "wk_adx": 54.4,
+      "mo_rsi": 87.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (78) + Wk ADX (54) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (88)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MARK",
+      "company": "Mark Dynamics Indonesia Tbk.",
+      "score": 65,
+      "close": 1230.0,
+      "near_52w_pct": 97.2,
+      "wk_rsi": 78.2,
+      "wk_adx": 35.9,
+      "mo_rsi": 90.1,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (78) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (90)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1030.0,
+      "near_52w_pct": 97.2,
+      "wk_rsi": 79.3,
+      "wk_adx": 52.8,
+      "mo_rsi": 80.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (79) + Wk ADX (53) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (80)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "GULA",
+      "company": "Aman Agrindo Tbk.",
+      "score": 65,
+      "close": 830.0,
+      "near_52w_pct": 95.4,
+      "wk_rsi": 75.2,
+      "wk_adx": 52.5,
+      "mo_rsi": 75.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (75) + Wk ADX (53) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (75)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    }
+  ],
   "meta": {
-    "status": "no_signal",
-    "generated_at": "2026-09-18 09:01:53 WIB",
+    "status": "success",
+    "generated_at": "2026-09-18 09:33:44 WIB",
     "date": "2026-09-18",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -21,7 +138,7 @@
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
-    "position_count": 0,
+    "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
     "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
@@ -36,14 +153,22 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6436,
-    "ihsg_change_pct": -0.38,
+    "ihsg_close": 6503,
+    "ihsg_change_pct": 1.03,
     "ihsg_trend": "BULLISH",
     "ihsg_above_ma50": true,
-    "market_safe": false,
-    "warning": "IHSG turun 3 hari berturut-turut. Tidak ada output hari ini."
+    "market_safe": true,
+    "warning": null
   },
-  "screening_summary": {},
+  "screening_summary": {
+    "universe": 979,
+    "after_liquidity": 66,
+    "after_accumulation": 1,
+    "after_trend": 1,
+    "after_smc": 0,
+    "after_entry": 0,
+    "final": 0
+  },
   "config_ara": {
     "vol_ma20_tier1": 3.0,
     "vol_ma20_tier2": 6.0,
