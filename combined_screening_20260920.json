@@ -85,7 +85,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "02.35 WIB"
+      "updated_at": "02.53 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -269,7 +269,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-20 02:36:21 WIB",
+    "generated_at": "2026-09-20 02:54:26 WIB",
     "date": "2026-09-20",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Sunday)",
@@ -306,7 +306,7 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 140,
+    "after_liquidity": 138,
     "after_accumulation": 40,
     "after_trend": 14,
     "after_smc": 6,
