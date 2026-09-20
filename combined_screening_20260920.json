@@ -181,7 +181,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-20 10:15:08 WIB",
+    "generated_at": "2026-09-20 10:35:21 WIB",
     "date": "2026-09-20",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Sunday)",
@@ -218,11 +218,11 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 136,
-    "after_accumulation": 38,
-    "after_trend": 12,
-    "after_smc": 4,
-    "after_entry": 1,
+    "after_liquidity": 140,
+    "after_accumulation": 39,
+    "after_trend": 13,
+    "after_smc": 5,
+    "after_entry": 2,
     "final": 0
   },
   "config_ara": {
