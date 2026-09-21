@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-21 17:14:53 WIB",
+  "generated_at": "2026-09-21 17:34:46 WIB",
   "date": "2026-09-21",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -17,10 +17,10 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 101,
-    "after_accumulation": 32,
-    "after_trend": 7,
-    "after_smc": 4,
+    "after_liquidity": 108,
+    "after_accumulation": 27,
+    "after_trend": 5,
+    "after_smc": 5,
     "after_entry": 3,
     "final": 1
   },
@@ -50,6 +50,7 @@
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
         "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
@@ -59,12 +60,12 @@
         "change_pct": 3.16,
         "value_today": 308341865000,
         "frequency_today": 15561,
-        "iep": 4900,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": -1964437000,
+        "net_foreign_today": 50023065000,
         "net_foreign_3d": 0,
         "acc_score": 60,
         "score_breakdown": {
@@ -125,13 +126,13 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy kemarin",
+        "✅ Net Foreign Buy hari ini: Rp50.0B",
         "✅ Internal BOS Bullish (1H)",
         "✅ Harga di zona FVG aktif",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.33 WIB"
     }
   ]
 }
