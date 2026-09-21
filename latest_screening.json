@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-21 17:54:31 WIB",
+  "generated_at": "2026-09-21 18:15:54 WIB",
   "date": "2026-09-21",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -17,7 +17,7 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 108,
+    "after_liquidity": 123,
     "after_accumulation": 27,
     "after_trend": 5,
     "after_smc": 5,
@@ -51,7 +51,6 @@
       "universe_sources": [
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
-        "SCREENER_VOLUME_EXPLOSION",
         "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
@@ -132,7 +131,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.52 WIB"
+      "updated_at": "18.15 WIB"
     }
   ]
 }
