@@ -38,11 +38,13 @@
           "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
           "MOVER_TYPE_TOP_GAINER",
-          "SCREENER_VOLUME_EXPLOSION"
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_92_Big Accumula",
+          "SCREENER_TOP_VALUE"
         ],
         "from_gainer": true,
         "from_screener": true,
-        "from_top_value": false
+        "from_top_value": true
       },
       "signals_positive": [
         "Volume spike kuat 6.3x MA20",
@@ -62,125 +64,7 @@
   ],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
-  "trend_following": [
-    {
-      "ticker": "KICI",
-      "company": "Kedaung Indah Can Tbk",
-      "score": 75,
-      "close": 352.0,
-      "adx": 66.9,
-      "rsi": 66.3,
-      "macd_hist": 4.2685,
-      "wk_adx": 46.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (67) + RSI sehat (66) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+25.7%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (46)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif",
-        "Asing beli bersih (Rp 0.1B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "MARK",
-      "company": "Mark Dynamics Indonesia Tbk.",
-      "score": 75,
-      "close": 1180.0,
-      "adx": 31.6,
-      "rsi": 69.0,
-      "macd_hist": 11.096,
-      "wk_adx": 35.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (32) + RSI sehat (69) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+6.8%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (36)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif",
-        "Asing beli bersih (Rp 0.2B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "SRSN",
-      "company": "Indo Acidatama Tbk",
-      "score": 70,
-      "close": 129.0,
-      "adx": 45.7,
-      "rsi": 70.5,
-      "macd_hist": 2.0067,
-      "wk_adx": 41.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (46) + RSI sehat (71) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+33.0%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (41)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "DOOH",
-      "company": "Era Media Sejahtera Tbk.",
-      "score": 70,
-      "close": 408.0,
-      "adx": 58.2,
-      "rsi": 67.5,
-      "macd_hist": 8.7242,
-      "wk_adx": 28.0,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (58) + RSI sehat (68) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+2.0%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (28)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "JARR",
-      "company": "Jhonlin Agro Raya Tbk.",
-      "score": 70,
-      "close": 3600.0,
-      "adx": 66.1,
-      "rsi": 59.1,
-      "macd_hist": 18.0543,
-      "wk_adx": 28.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (66) + RSI sehat (59) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (29)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif",
-        "Asing beli bersih (Rp 0.6B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    }
-  ],
+  "trend_following": [],
   "position_trading": [
     {
       "ticker": "PTBA",
@@ -255,6 +139,29 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1030.0,
+      "near_52w_pct": 97.2,
+      "wk_rsi": 79.3,
+      "wk_adx": 52.8,
+      "mo_rsi": 79.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (79) + Wk ADX (53) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (80)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "SQMI",
       "company": "Wilton Makmur Indonesia Tbk.",
       "score": 60,
@@ -276,34 +183,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BAJA",
-      "company": "Saranacentral Bajatama Tbk.",
-      "score": 60,
-      "close": 350.0,
-      "near_52w_pct": 93.1,
-      "wk_rsi": 73.5,
-      "wk_adx": 47.1,
-      "mo_rsi": 84.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (93%) + Wk RSI (73) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (85)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.4B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-22 00:06:43 WIB",
+    "generated_at": "2026-09-22 00:35:20 WIB",
     "date": "2026-09-22",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -315,7 +199,7 @@
     "bsjp_count": 1,
     "bpjs_count": 0,
     "swing_count": 0,
-    "trend_count": 5,
+    "trend_count": 0,
     "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
@@ -339,12 +223,12 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 354,
-    "after_liquidity": 0,
-    "after_accumulation": 0,
-    "after_trend": 0,
-    "after_smc": 0,
-    "after_entry": 0,
+    "universe": 979,
+    "after_liquidity": 139,
+    "after_accumulation": 24,
+    "after_trend": 4,
+    "after_smc": 2,
+    "after_entry": 1,
     "final": 0
   },
   "config_ara": {
