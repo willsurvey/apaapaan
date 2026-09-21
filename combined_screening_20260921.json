@@ -23,14 +23,14 @@
         "broker_signal": "Big Acc",
         "net_foreign_today": -1964437000,
         "net_foreign_3d": 0,
-        "acc_score": 45,
+        "acc_score": 60,
         "score_breakdown": {
           "broker": 35,
-          "foreign_1d": 0,
+          "foreign_1d": 15,
           "foreign_3d": 0,
           "candle": 10,
           "volume": 0,
-          "total": 45
+          "total": 60
         }
       },
       "trend": {
@@ -77,17 +77,18 @@
         "risk_note": "Max 2% dari total portofolio"
       },
       "scoring": {
-        "confidence_score": 60,
-        "tier": "MODERATE"
+        "confidence_score": 75,
+        "tier": "HIGH"
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy kemarin",
         "✅ Internal BOS Bullish (1H)",
         "✅ Harga di zona FVG aktif",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "16.53 WIB"
+      "updated_at": "17.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -334,7 +335,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-21 16:54:17 WIB",
+    "generated_at": "2026-09-21 17:14:53 WIB",
     "date": "2026-09-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -371,11 +372,11 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 96,
-    "after_accumulation": 27,
-    "after_trend": 6,
-    "after_smc": 2,
-    "after_entry": 1,
+    "after_liquidity": 101,
+    "after_accumulation": 32,
+    "after_trend": 7,
+    "after_smc": 4,
+    "after_entry": 3,
     "final": 1
   },
   "config_ara": {
