@@ -7,52 +7,6 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "NEST",
-      "company": "Esta Indonesia Tbk",
-      "score": 65,
-      "close": 740.0,
-      "near_52w_pct": 95.5,
-      "wk_rsi": 72.5,
-      "wk_adx": 58.1,
-      "mo_rsi": 79.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (72) + Wk ADX (58) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (79)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 65,
-      "close": 1030.0,
-      "near_52w_pct": 97.2,
-      "wk_rsi": 79.3,
-      "wk_adx": 52.8,
-      "mo_rsi": 80.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (79) + Wk ADX (53) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (80)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "TOTL",
       "company": "Total Bangun Persada Tbk.",
       "score": 65,
@@ -69,6 +23,29 @@
         "Near 52W High (96%) + Wk RSI (78) + Wk ADX (54) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (88)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
+      "score": 65,
+      "close": 740.0,
+      "near_52w_pct": 95.5,
+      "wk_rsi": 72.5,
+      "wk_adx": 58.1,
+      "mo_rsi": 79.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (72) + Wk ADX (58) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (79)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -99,20 +76,43 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "SQMI",
-      "company": "Wilton Makmur Indonesia Tbk.",
-      "score": 55,
-      "close": 99.0,
-      "near_52w_pct": 86.8,
-      "wk_rsi": 76.2,
-      "wk_adx": 33.9,
-      "mo_rsi": 70.8,
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1030.0,
+      "near_52w_pct": 97.2,
+      "wk_rsi": 79.3,
+      "wk_adx": 52.8,
+      "mo_rsi": 80.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (76) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (97%) + Wk RSI (79) + Wk ADX (53) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (80)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "AADI",
+      "company": "Adaro Andalan Indonesia Tbk.",
+      "score": 55,
+      "close": 11975.0,
+      "near_52w_pct": 92.6,
+      "wk_rsi": 79.6,
+      "wk_adx": 36.3,
+      "mo_rsi": 70.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (93%) + Wk RSI (80) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (71)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -123,7 +123,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-21 08:12:09 WIB",
+    "generated_at": "2026-09-21 08:32:41 WIB",
     "date": "2026-09-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -159,7 +159,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 972,
+    "universe": 979,
     "after_liquidity": 0,
     "after_accumulation": 0,
     "after_trend": 0,
