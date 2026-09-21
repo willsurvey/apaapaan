@@ -89,7 +89,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.33 WIB"
+      "updated_at": "17.52 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -180,7 +180,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "17:33 WIB"
+      "generated_at": "17:53 WIB"
     },
     {
       "ticker": "BAJA",
@@ -269,7 +269,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "17:33 WIB"
+      "generated_at": "17:53 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -519,7 +519,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-21 17:34:46 WIB",
+    "generated_at": "2026-09-21 17:54:31 WIB",
     "date": "2026-09-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
