@@ -1,126 +1,7 @@
 {
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
-  "bsjp_beli_sore_jual_pagi": [
-    {
-      "ticker": "BAJA",
-      "company": "Saranacentral Bajatama Tbk.",
-      "tier": "A",
-      "score": 104,
-      "market_data": {
-        "close": 436.0,
-        "change_pct": 24.57,
-        "value_today": 51191504200,
-        "net_foreign": 1393889600,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "bsjp_features": {
-        "vol_ratio20": 4.97,
-        "body_pct": 19.78,
-        "close_pos_pct": 100.0,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": true,
-        "atr_pct": 7.37
-      },
-      "entry_plan": {
-        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
-        "entry_range": "432 – 436",
-        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
-        "stop_loss": 360,
-        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
-        "target_pct": "+2% s/d +8% di pagi hari",
-        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
-      },
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
-          "MOVER_TYPE_TOP_VALUE",
-          "MOVER_TYPE_TOP_GAINER",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_92_Big Accumula",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": true,
-        "from_screener": true,
-        "from_top_value": true
-      },
-      "signals_positive": [
-        "Volume spike 5.0x MA20",
-        "Candle hijau sangat kuat (19.8%)",
-        "Tutup di puncak absolut — tidak ada upper wick",
-        "Uptrend penuh: di atas MA20, MA50, MA200",
-        "MA20 sedang naik — tren menguat",
-        "Asing beli bersih hari ini (Rp 1.4B)",
-        "Masuk screener volume explosion Stockbit",
-        "Saham naik signifikan hari ini (momentum)",
-        "Hari Selasa — win rate BSJP historis tertinggi"
-      ],
-      "signals_negative": [],
-      "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
-      "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
-      "rank": 1
-    },
-    {
-      "ticker": "JAWA",
-      "company": "Jaya Agra Wattie Tbk.",
-      "tier": "A",
-      "score": 89,
-      "market_data": {
-        "close": 196.0,
-        "change_pct": 25.64,
-        "value_today": 17193587900,
-        "net_foreign": -243445400,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "bsjp_features": {
-        "vol_ratio20": 4.05,
-        "body_pct": 25.64,
-        "close_pos_pct": 100.0,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": true,
-        "atr_pct": 9.58
-      },
-      "entry_plan": {
-        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
-        "entry_range": "194 – 196",
-        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
-        "stop_loss": 152,
-        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
-        "target_pct": "+2% s/d +8% di pagi hari",
-        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
-      },
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_92_Big Accumula",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": false,
-        "from_screener": true,
-        "from_top_value": true
-      },
-      "signals_positive": [
-        "Volume spike 4.0x MA20",
-        "Candle hijau sangat kuat (25.6%)",
-        "Tutup di puncak absolut — tidak ada upper wick",
-        "Uptrend penuh: di atas MA20, MA50, MA200",
-        "MA20 sedang naik — tren menguat",
-        "Masuk screener volume explosion Stockbit",
-        "Hari Selasa — win rate BSJP historis tertinggi"
-      ],
-      "signals_negative": [
-        "Asing jual bersih hari ini — hati-hati"
-      ],
-      "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
-      "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
-      "rank": 2
-    }
-  ],
+  "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
@@ -128,7 +9,7 @@
     {
       "ticker": "BAJA",
       "company": "Saranacentral Bajatama Tbk.",
-      "score": 70,
+      "score": 65,
       "close": 436.0,
       "near_52w_pct": 100.0,
       "wk_rsi": 79.1,
@@ -143,32 +24,7 @@
         "Sangat dekat ATH (100%) — breakout potential",
         "Monthly RSI kuat (85)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.4B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "PTBA",
-      "company": "Bukit Asam Tbk.",
-      "score": 70,
-      "close": 3080.0,
-      "near_52w_pct": 96.2,
-      "wk_rsi": 79.7,
-      "wk_adx": 28.6,
-      "mo_rsi": 64.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (80) + Wk ADX (29) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (65)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 4.3B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -176,7 +32,7 @@
     {
       "ticker": "BSML",
       "company": "Bintang Samudera Mandiri Lines Tbk.",
-      "score": 70,
+      "score": 65,
       "close": 550.0,
       "near_52w_pct": 95.7,
       "wk_rsi": 78.1,
@@ -191,32 +47,7 @@
         "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (97)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 4.1B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "TOTL",
-      "company": "Total Bangun Persada Tbk.",
-      "score": 70,
-      "close": 1600.0,
-      "near_52w_pct": 98.8,
-      "wk_rsi": 79.0,
-      "wk_adx": 56.1,
-      "mo_rsi": 88.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (79) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
-        "Monthly RSI kuat (88)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 2.6B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -224,7 +55,7 @@
     {
       "ticker": "NEST",
       "company": "Esta Indonesia Tbk",
-      "score": 70,
+      "score": 65,
       "close": 785.0,
       "near_52w_pct": 100.0,
       "wk_rsi": 74.4,
@@ -239,8 +70,53 @@
         "Sangat dekat ATH (100%) — breakout potential",
         "Monthly RSI kuat (80)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.9B)"
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "TOTL",
+      "company": "Total Bangun Persada Tbk.",
+      "score": 65,
+      "close": 1600.0,
+      "near_52w_pct": 98.8,
+      "wk_rsi": 79.0,
+      "wk_adx": 56.1,
+      "mo_rsi": 88.4,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (99%) + Wk RSI (79) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (88)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "PTBA",
+      "company": "Bukit Asam Tbk.",
+      "score": 65,
+      "close": 3080.0,
+      "near_52w_pct": 96.2,
+      "wk_rsi": 79.7,
+      "wk_adx": 28.6,
+      "mo_rsi": 64.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (80) + Wk ADX (29) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (65)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -248,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-22 07:55:06 WIB",
+    "generated_at": "2026-09-22 08:14:57 WIB",
     "date": "2026-09-22",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -257,7 +133,7 @@
     "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
-    "bsjp_count": 2,
+    "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
@@ -285,11 +161,11 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 139,
-    "after_accumulation": 25,
-    "after_trend": 4,
-    "after_smc": 2,
-    "after_entry": 1,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
+    "after_smc": 0,
+    "after_entry": 0,
     "final": 0
   },
   "config_ara": {
