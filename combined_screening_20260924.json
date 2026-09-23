@@ -2,50 +2,52 @@
   "logika_lama_intraday": [
     {
       "rank": 1,
-      "ticker": "TINS",
-      "company": "Timah Tbk.",
+      "ticker": "MDKA",
+      "company": "Merdeka Copper Gold Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
+        "MOVER_TYPE_TOP_VOLUME",
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
+        "MOVER_TYPE_TOP_GAINER",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 4800,
-        "change_pct": 4.12,
-        "value_today": 176677740000,
-        "frequency_today": 10792,
+        "close": 3080,
+        "change_pct": 8.83,
+        "value_today": 342044641000,
+        "frequency_today": 21454,
         "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": 53704074000,
+        "net_foreign_today": 106731012000,
         "net_foreign_3d": 0,
-        "acc_score": 55,
+        "acc_score": 70,
         "score_breakdown": {
           "broker": 35,
           "foreign_1d": 15,
           "foreign_3d": 0,
           "candle": 10,
-          "volume": -5,
-          "total": 55
+          "volume": 10,
+          "total": 70
         }
       },
       "trend": {
-        "ma50": 4002.0,
-        "gap_from_ma50_pct": 15.19,
+        "ma50": 2858.0,
+        "gap_from_ma50_pct": 7.78,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
-        "internal_structure": "BOS_BULLISH",
+        "internal_structure": "NONE",
         "swing_trend_bias": "BULLISH",
-        "ob_zone": null,
-        "fvg_zone": "4400 - 4540",
-        "strong_low": 4570.0,
-        "weak_high": 4910.0
+        "ob_zone": "2800 - 2890",
+        "fvg_zone": null,
+        "strong_low": 2800.0,
+        "weak_high": 3150.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -53,43 +55,42 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 4770,
+        "entry_1": 3040,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 4710,
+        "entry_2": 2960,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
-        "entry_3": 4650,
+        "entry_3": 2880,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 4700,
-        "entry_zone": "4650 - 4770",
-        "sl": 4630,
-        "sl_pct_risk": 1.49,
+        "average_entry": 2950,
+        "entry_zone": "2880 - 3040",
+        "sl": 2860,
+        "sl_pct_risk": 3.05,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 4830,
+        "tp1": 3130,
         "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 4910,
+        "tp2": 3150,
         "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 5050,
+        "tp3": 3240,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:5.0",
+        "rr_ratio": "1:3.2",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
       "scoring": {
-        "confidence_score": 70,
-        "tier": "HIGH"
+        "confidence_score": 65,
+        "tier": "MODERATE"
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp53.7B",
-        "✅ Internal BOS Bullish (1H)",
-        "✅ Harga di zona FVG aktif",
+        "✅ Net Foreign Buy hari ini: Rp106.7B",
+        "✅ Harga di zona Order Block aktif",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "01.34 WIB"
+      "updated_at": "01.53 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -99,11 +100,59 @@
   "trend_following": [],
   "position_trading": [
     {
+      "ticker": "SINI",
+      "company": "Singaraja Putra Tbk.",
+      "score": 70,
+      "close": 18300.0,
+      "near_52w_pct": 95.3,
+      "wk_rsi": 66.8,
+      "wk_adx": 23.3,
+      "mo_rsi": 66.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (67) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (67)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 42.2B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "GULA",
+      "company": "Aman Agrindo Tbk.",
+      "score": 70,
+      "close": 830.0,
+      "near_52w_pct": 95.4,
+      "wk_rsi": 73.6,
+      "wk_adx": 53.5,
+      "mo_rsi": 75.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (53) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (75)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 3.8B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "MMIX",
       "company": "Multi Medika Internasional Tbk.",
       "score": 70,
-      "close": 875.0,
-      "near_52w_pct": 95.1,
+      "close": 880.0,
+      "near_52w_pct": 95.7,
       "wk_rsi": 65.1,
       "wk_adx": 41.8,
       "mo_rsi": 91.4,
@@ -112,8 +161,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (65) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
+        "Near 52W High (96%) + Wk RSI (65) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (91)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -123,11 +172,34 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "PTBA",
+      "company": "Bukit Asam Tbk.",
+      "score": 65,
+      "close": 3050.0,
+      "near_52w_pct": 95.3,
+      "wk_rsi": 77.6,
+      "wk_adx": 28.2,
+      "mo_rsi": 64.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (78) + Wk ADX (28) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (65)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "TOTL",
       "company": "Total Bangun Persada Tbk.",
       "score": 65,
-      "close": 1635.0,
-      "near_52w_pct": 100.0,
+      "close": 1645.0,
+      "near_52w_pct": 97.9,
       "wk_rsi": 80.0,
       "wk_adx": 56.3,
       "mo_rsi": 88.8,
@@ -136,78 +208,9 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (80) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
+        "Near 52W High (98%) + Wk RSI (80) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (89)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MGLV",
-      "company": "NexAI Digital Infrastruktur Tbk.",
-      "score": 65,
-      "close": 16000.0,
-      "near_52w_pct": 97.0,
-      "wk_rsi": 78.8,
-      "wk_adx": 62.3,
-      "mo_rsi": 88.3,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (79) + Wk ADX (62) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (88)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 65,
-      "close": 1015.0,
-      "near_52w_pct": 95.8,
-      "wk_rsi": 75.0,
-      "wk_adx": 53.9,
-      "mo_rsi": 80.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (75) + Wk ADX (54) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (80)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "NEST",
-      "company": "Esta Indonesia Tbk",
-      "score": 65,
-      "close": 765.0,
-      "near_52w_pct": 97.5,
-      "wk_rsi": 72.5,
-      "wk_adx": 59.2,
-      "mo_rsi": 79.6,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (72) + Wk ADX (59) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (80)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -217,7 +220,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-24 01:35:52 WIB",
+    "generated_at": "2026-09-24 01:54:30 WIB",
     "date": "2026-09-24",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -254,11 +257,11 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 117,
-    "after_accumulation": 56,
-    "after_trend": 12,
-    "after_smc": 4,
-    "after_entry": 4,
+    "after_liquidity": 138,
+    "after_accumulation": 55,
+    "after_trend": 19,
+    "after_smc": 8,
+    "after_entry": 8,
     "final": 1
   },
   "config_ara": {
