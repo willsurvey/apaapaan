@@ -7,29 +7,6 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "TOTL",
-      "company": "Total Bangun Persada Tbk.",
-      "score": 65,
-      "close": 1635.0,
-      "near_52w_pct": 100.0,
-      "wk_rsi": 79.8,
-      "wk_adx": 56.1,
-      "mo_rsi": 88.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (80) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (89)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "MMIX",
       "company": "Multi Medika Internasional Tbk.",
       "score": 65,
@@ -81,9 +58,9 @@
       "score": 65,
       "close": 765.0,
       "near_52w_pct": 97.5,
-      "wk_rsi": 73.2,
+      "wk_rsi": 72.8,
       "wk_adx": 59.2,
-      "mo_rsi": 79.8,
+      "mo_rsi": 79.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -104,7 +81,7 @@
       "score": 65,
       "close": 550.0,
       "near_52w_pct": 95.7,
-      "wk_rsi": 78.1,
+      "wk_rsi": 75.8,
       "wk_adx": 48.8,
       "mo_rsi": 96.8,
       "wk_obv_above_ma": true,
@@ -112,9 +89,32 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (78) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (96%) + Wk RSI (76) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (97)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1020.0,
+      "near_52w_pct": 96.2,
+      "wk_rsi": 72.4,
+      "wk_adx": 53.9,
+      "mo_rsi": 79.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (72) + Wk ADX (54) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (80)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -124,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-23 08:52:29 WIB",
+    "generated_at": "2026-09-23 09:13:48 WIB",
     "date": "2026-09-23",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -161,9 +161,9 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 0,
-    "after_accumulation": 0,
-    "after_trend": 0,
+    "after_liquidity": 27,
+    "after_accumulation": 1,
+    "after_trend": 1,
     "after_smc": 0,
     "after_entry": 0,
     "final": 0
