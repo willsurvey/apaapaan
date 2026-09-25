@@ -1,27 +1,175 @@
 {
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
-  "bsjp_beli_sore_jual_pagi": [],
+  "bsjp_beli_sore_jual_pagi": [
+    {
+      "ticker": "MBTO",
+      "company": "Martina Berto Tbk.",
+      "tier": "S",
+      "score": 102,
+      "market_data": {
+        "close": 206.0,
+        "change_pct": 34.64,
+        "value_today": 23770304800,
+        "net_foreign": 75804200,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "bsjp_features": {
+        "vol_ratio20": 5.07,
+        "body_pct": 33.77,
+        "close_pos_pct": 100.0,
+        "above_ma20": true,
+        "above_ma50": true,
+        "above_ma200": true,
+        "atr_pct": 7.63
+      },
+      "entry_plan": {
+        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
+        "entry_range": "204 – 206",
+        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
+        "stop_loss": 137,
+        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
+        "target_pct": "+2% s/d +10% di pagi hari",
+        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
+      },
+      "universe_context": {
+        "in_mover_types": [
+          "MOVER_TYPE_TOP_VOLUME",
+          "SCREENER_VOLUME_EXPLOSION"
+        ],
+        "from_gainer": false,
+        "from_screener": true,
+        "from_top_value": false
+      },
+      "signals_positive": [
+        "Volume spike kuat 5.1x MA20",
+        "Candle hijau sangat kuat (33.8%)",
+        "Tutup di puncak absolut — tidak ada upper wick",
+        "Uptrend penuh: di atas MA20, MA50, MA200",
+        "MA20 sedang naik — tren menguat",
+        "Asing beli bersih hari ini (Rp 0.1B)",
+        "Masuk screener volume explosion Stockbit"
+      ],
+      "signals_negative": [],
+      "win_probability": "~70% berdasarkan backtest 1.796 kejadian historis",
+      "disclaimer": "Tier S BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
+      "rank": 1
+    }
+  ],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
-  "position_trading": [],
+  "position_trading": [
+    {
+      "ticker": "VISI",
+      "company": "Satu Visi Putra Tbk.",
+      "score": 70,
+      "close": 1390.0,
+      "near_52w_pct": 98.6,
+      "wk_rsi": 66.3,
+      "wk_adx": 41.4,
+      "mo_rsi": 90.7,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (99%) + Wk RSI (66) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (91)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 0.5B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "ADRO",
+      "company": "Alamtri Resources Indonesia Tbk.",
+      "score": 60,
+      "close": 2600.0,
+      "near_52w_pct": 90.9,
+      "wk_rsi": 73.7,
+      "wk_adx": 23.0,
+      "mo_rsi": 70.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (91%) + Wk RSI (74) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (70)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 7.5B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "SRSN",
+      "company": "Indo Acidatama Tbk",
+      "score": 55,
+      "close": 123.0,
+      "near_52w_pct": 86.0,
+      "wk_rsi": 76.0,
+      "wk_adx": 43.7,
+      "mo_rsi": 86.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (86%) + Wk RSI (76) + Wk ADX (44) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (86)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "DMAS",
+      "company": "Puradelta Lestari Tbk",
+      "score": 45,
+      "close": 185.0,
+      "near_52w_pct": 86.4,
+      "wk_rsi": 80.0,
+      "wk_adx": 47.6,
+      "mo_rsi": 71.0,
+      "wk_obv_above_ma": false,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (86%) + Wk RSI (80) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (71)",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [
+        "Weekly OBV di bawah MA20"
+      ],
+      "pipeline": "position_trading"
+    }
+  ],
   "meta": {
-    "status": "no_signal",
-    "generated_at": "2026-09-25 22:43:28 WIB",
+    "status": "success",
+    "generated_at": "2026-09-25 23:04:19 WIB",
     "date": "2026-09-25",
-    "mode": "YAHOO_ONLY",
+    "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
     "session_warning": null,
-    "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — ARA pipeline tidak berjalan",
+    "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
-    "bsjp_count": 0,
+    "bsjp_count": 1,
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
-    "position_count": 0,
+    "position_count": 4,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
     "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
@@ -36,9 +184,22 @@
     }
   },
   "market_context": {
-    "market_safe": false
+    "ihsg_close": 6241,
+    "ihsg_change_pct": -0.9,
+    "ihsg_trend": "BEARISH",
+    "ihsg_above_ma50": false,
+    "market_safe": true,
+    "warning": null
   },
-  "screening_summary": {},
+  "screening_summary": {
+    "universe": 148,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
+    "after_smc": 0,
+    "after_entry": 0,
+    "final": 0
+  },
   "config_ara": {
     "vol_ma20_tier1": 3.0,
     "vol_ma20_tier2": 6.0,
