@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-26 03:54:46 WIB",
+  "generated_at": "2026-09-26 04:16:44 WIB",
   "date": "2026-09-26",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -17,7 +17,7 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 136,
+    "after_liquidity": 134,
     "after_accumulation": 14,
     "after_trend": 6,
     "after_smc": 3,
@@ -130,7 +130,7 @@
         "✅ Pullback ke MA50 (1.0% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "03.53 WIB"
+      "updated_at": "04.14 WIB"
     }
   ]
 }
