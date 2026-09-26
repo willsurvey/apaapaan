@@ -182,7 +182,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-26 10:54:25 WIB",
+    "generated_at": "2026-09-26 11:15:25 WIB",
     "date": "2026-09-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -222,8 +222,8 @@
     "after_liquidity": 134,
     "after_accumulation": 14,
     "after_trend": 6,
-    "after_smc": 2,
-    "after_entry": 2,
+    "after_smc": 1,
+    "after_entry": 1,
     "final": 0
   },
   "config_ara": {
