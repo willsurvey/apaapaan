@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-09-29 04:35:30 WIB",
+  "generated_at": "2026-09-29 04:55:15 WIB",
   "date": "2026-09-29",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -18,7 +18,7 @@
   "screening_summary": {
     "universe": 979,
     "after_liquidity": 129,
-    "after_accumulation": 26,
+    "after_accumulation": 25,
     "after_trend": 5,
     "after_smc": 1,
     "after_entry": 1,
