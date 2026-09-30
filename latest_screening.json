@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-09-30 11:34:08 WIB",
+  "generated_at": "2026-09-30 11:55:12 WIB",
   "date": "2026-09-30",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6131,
-    "ihsg_change_pct": 0.15,
+    "ihsg_close": 6134,
+    "ihsg_change_pct": 0.21,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -17,9 +17,9 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 97,
-    "after_accumulation": 19,
-    "after_trend": 3,
+    "after_liquidity": 105,
+    "after_accumulation": 15,
+    "after_trend": 2,
     "after_smc": 2,
     "after_entry": 1,
     "final": 1
@@ -57,8 +57,8 @@
       "market_data": {
         "close": 5100,
         "change_pct": -5.99,
-        "value_today": 16588211500,
-        "frequency_today": 3321,
+        "value_today": 16846191500,
+        "frequency_today": 3392,
         "iep": 5025,
         "iep_change_pct": -1.47
       },
@@ -77,8 +77,8 @@
         }
       },
       "trend": {
-        "ma50": 4326.0,
-        "gap_from_ma50_pct": 17.89,
+        "ma50": 4325.0,
+        "gap_from_ma50_pct": 17.33,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -129,7 +129,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "11.33 WIB"
+      "updated_at": "11.53 WIB"
     }
   ]
 }
