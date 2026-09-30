@@ -1,86 +1,66 @@
 {
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
-  "bsjp_beli_sore_jual_pagi": [],
-  "bpjs_beli_pagi_jual_sore": [
+  "bsjp_beli_sore_jual_pagi": [
     {
-      "ticker": "TINS",
-      "company": "Timah Tbk.",
-      "type": "WATCHLIST_BPJS",
-      "formula": "QUIET_CONTINUATION",
-      "score": 60,
+      "ticker": "MEJA",
+      "company": "Harta Djaya Karya Tbk.",
+      "tier": "A",
+      "score": 94,
       "market_data": {
-        "close": 4710.0,
-        "change_pct": 1.95,
-        "value_today": 107278673000,
-        "net_foreign": 8083395000
+        "close": 146.0,
+        "change_pct": 2.82,
+        "value_today": 28367324500,
+        "net_foreign": 1001524000,
+        "iep": 0,
+        "iep_change_pct": 0
       },
-      "d1_features": {
-        "body_pct": 1.07,
-        "close_pos_pct": 46.2,
-        "vol_ratio": 0.48,
-        "change_pct": 1.95,
-        "range_pct": 2.76,
-        "upper_wick": 53.8,
+      "bsjp_features": {
+        "vol_ratio20": 4.16,
+        "body_pct": 14.06,
+        "close_pos_pct": 100.0,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": true,
-        "atr_pct": 4.82
+        "atr_pct": 7.0
       },
-      "trading_plan": {
-        "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "4,600 – 4,800",
-        "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 4370,
-        "stop_note": "Cut loss jika turun di bawah 4,370 (1 ATR dari entry)",
-        "target_modest": 4800,
-        "target_moderate": 4900,
-        "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
+      "entry_plan": {
+        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
+        "entry_range": "145 – 146",
+        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
+        "stop_loss": 127,
+        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
+        "target_pct": "+2% s/d +8% di pagi hari",
+        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
       },
-      "morning_confirmation_criteria": [
-        "⚠️ WAJIB: Utamakan jika terjadi Gap Down > 3% saat open untuk risk/reward terbaik",
-        "✅ Skenario Gap Down >3% memiliki Profit Factor 6.78x & Win Rate 44.5%",
-        "✅ Volume 15 menit pertama normal/stabil di atas rata-rata",
-        "❌ JANGAN BELI jika Gap Up > 3% (euforia rawan bull trap, PF hanya 0.3x)",
-        "❌ JANGAN BELI jika langsung longsor drastis tanpa rebound dari low"
-      ],
-      "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
         "in_mover_types": [
+          "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
-          "MOVER_TYPE_NET_FOREIGN_BUY",
           "SCREENER_VOLUME_EXPLOSION",
-          "GURU_72_IHSG Short-t",
+          "GURU_63_High Volume ",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
-        "from_screener": true
+        "from_screener": true,
+        "from_top_value": true
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.1%), volume mati (0.48x MA20), close tengah (46%). WR historis: 49.8% (n=1.371)",
-        "Di atas MA20 — support jangka pendek",
-        "Di atas MA50 — tren menengah masih ok",
-        "Di atas MA200 — tren utama masih bullish",
-        "Range D-1 kecil (2.8%) — noise rendah besok",
-        "Asing beli bersih hari ini (Rp 8.1B)",
-        "Masuk screener volume Stockbit — ada perhatian pasar"
+        "Volume spike 4.2x MA20",
+        "Candle hijau sangat kuat (14.1%)",
+        "Tutup di puncak absolut — tidak ada upper wick",
+        "Uptrend penuh: di atas MA20, MA50, MA200",
+        "MA20 sedang naik — tren menguat",
+        "Asing beli bersih hari ini (Rp 1.0B)",
+        "Masuk screener volume explosion Stockbit"
       ],
-      "signals_negative": [
-        "Upper wick besar (54%) — tekanan jual D-1"
-      ],
-      "backtest_stats": {
-        "formula": "QUIET_CONTINUATION",
-        "win_rate": "49.8%",
-        "sample_size": "n=1.371",
-        "profit_factor": "1.04x",
-        "total_backtest": "789.792 hari trading IHSG (956 saham)",
-        "gap_down_sweet_spot": "Gap Down >2%: WR 30.2%, upside +3.75%, DD -0.88%",
-        "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
-      },
-      "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
+      "signals_negative": [],
+      "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
+      "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
       "rank": 1
     }
   ],
+  "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
   "position_trading": [
@@ -157,18 +137,18 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1025.0,
-      "near_52w_pct": 96.7,
-      "wk_rsi": 70.4,
+      "close": 1015.0,
+      "near_52w_pct": 95.8,
+      "wk_rsi": 66.7,
       "wk_adx": 54.6,
-      "mo_rsi": 80.2,
+      "mo_rsi": 79.6,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (70) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
+        "Near 52W High (96%) + Wk RSI (67) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (80)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -180,18 +160,18 @@
       "ticker": "UVCR",
       "company": "Trimegah Karya Pratama Tbk. ",
       "score": 60,
-      "close": 256.0,
-      "near_52w_pct": 93.4,
-      "wk_rsi": 75.8,
+      "close": 260.0,
+      "near_52w_pct": 94.9,
+      "wk_rsi": 76.3,
       "wk_adx": 21.6,
-      "mo_rsi": 65.4,
+      "mo_rsi": 65.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (93%) + Wk RSI (76) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (65)",
+        "Near 52W High (95%) + Wk RSI (76) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (66)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 3.4B)"
@@ -202,7 +182,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-09-30 13:34:21 WIB",
+    "generated_at": "2026-09-30 13:53:21 WIB",
     "date": "2026-09-30",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -211,8 +191,8 @@
     "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
-    "bsjp_count": 0,
-    "bpjs_count": 1,
+    "bsjp_count": 1,
+    "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
     "position_count": 5,
@@ -230,8 +210,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6130,
-    "ihsg_change_pct": 0.15,
+    "ihsg_close": 6132,
+    "ihsg_change_pct": 0.18,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -239,8 +219,8 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 118,
-    "after_accumulation": 1,
+    "after_liquidity": 124,
+    "after_accumulation": 5,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
