@@ -1,260 +1,27 @@
 {
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
-  "bsjp_beli_sore_jual_pagi": [
-    {
-      "ticker": "MBSS",
-      "company": "Mitrabahtera Segara Sejati Tbk.",
-      "tier": "S",
-      "score": 113,
-      "market_data": {
-        "close": 3630.0,
-        "change_pct": 24.74,
-        "value_today": 63521887000,
-        "net_foreign": 855669000,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "bsjp_features": {
-        "vol_ratio20": 8.72,
-        "body_pct": 24.74,
-        "close_pos_pct": 100.0,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": true,
-        "atr_pct": 1.81
-      },
-      "entry_plan": {
-        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
-        "entry_range": "3,610 – 3,630",
-        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
-        "stop_loss": 2880,
-        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
-        "target_pct": "+2% s/d +10% di pagi hari",
-        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
-      },
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_VALUE",
-          "MOVER_TYPE_TOP_GAINER",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_63_High Volume ",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": true,
-        "from_screener": true,
-        "from_top_value": true
-      },
-      "signals_positive": [
-        "Volume ledakan ekstrem 8.7x MA20",
-        "Candle hijau sangat kuat (24.7%)",
-        "Tutup di puncak absolut — tidak ada upper wick",
-        "Uptrend penuh: di atas MA20, MA50, MA200",
-        "MA20 sedang naik — tren menguat",
-        "Asing beli bersih hari ini (Rp 0.9B)",
-        "Masuk screener volume explosion Stockbit",
-        "Saham naik signifikan hari ini (momentum)"
-      ],
-      "signals_negative": [],
-      "win_probability": "~70% berdasarkan backtest 1.796 kejadian historis",
-      "disclaimer": "Tier S BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
-      "rank": 1
-    },
-    {
-      "ticker": "SMAR",
-      "company": "Sinar Mas Agro Resources and Technology Tbk",
-      "tier": "A",
-      "score": 90,
-      "market_data": {
-        "close": 8500.0,
-        "change_pct": 17.65,
-        "value_today": 10851410000,
-        "net_foreign": -339160000,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "bsjp_features": {
-        "vol_ratio20": 5.42,
-        "body_pct": 18.47,
-        "close_pos_pct": 93.0,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": true,
-        "atr_pct": 6.72
-      },
-      "entry_plan": {
-        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
-        "entry_range": "8,425 – 8,500",
-        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
-        "stop_loss": 7100,
-        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
-        "target_pct": "+2% s/d +8% di pagi hari",
-        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
-      },
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_GAINER",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_63_High Volume ",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": true,
-        "from_screener": true,
-        "from_top_value": true
-      },
-      "signals_positive": [
-        "Volume spike kuat 5.4x MA20",
-        "Candle hijau sangat kuat (18.5%)",
-        "Tutup dekat puncak (93%)",
-        "Uptrend penuh: di atas MA20, MA50, MA200",
-        "MA20 sedang naik — tren menguat",
-        "Masuk screener volume explosion Stockbit",
-        "Saham naik signifikan hari ini (momentum)"
-      ],
-      "signals_negative": [
-        "Asing jual bersih hari ini — hati-hati"
-      ],
-      "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
-      "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
-      "rank": 2
-    }
-  ],
+  "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
-  "position_trading": [
-    {
-      "ticker": "UVCR",
-      "company": "Trimegah Karya Pratama Tbk. ",
-      "score": 70,
-      "close": 266.0,
-      "near_52w_pct": 97.1,
-      "wk_rsi": 77.0,
-      "wk_adx": 21.6,
-      "mo_rsi": 65.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (77) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (66)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 3.1B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MMIX",
-      "company": "Multi Medika Internasional Tbk.",
-      "score": 65,
-      "close": 920.0,
-      "near_52w_pct": 97.9,
-      "wk_rsi": 69.4,
-      "wk_adx": 41.7,
-      "mo_rsi": 91.6,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (69) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (92)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "NEST",
-      "company": "Esta Indonesia Tbk",
-      "score": 65,
-      "close": 765.0,
-      "near_52w_pct": 96.2,
-      "wk_rsi": 76.9,
-      "wk_adx": 60.3,
-      "mo_rsi": 84.6,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (77) + Wk ADX (60) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (85)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 65,
-      "close": 1015.0,
-      "near_52w_pct": 95.8,
-      "wk_rsi": 66.7,
-      "wk_adx": 54.6,
-      "mo_rsi": 78.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (67) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (79)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "SRSN",
-      "company": "Indo Acidatama Tbk",
-      "score": 55,
-      "close": 132.0,
-      "near_52w_pct": 92.3,
-      "wk_rsi": 79.4,
-      "wk_adx": 45.1,
-      "mo_rsi": 84.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (92%) + Wk RSI (79) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (84)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    }
-  ],
+  "position_trading": [],
   "meta": {
-    "status": "success",
-    "generated_at": "2026-10-02 23:14:56 WIB",
+    "status": "no_signal",
+    "generated_at": "2026-10-02 23:28:31 WIB",
     "date": "2026-10-02",
-    "mode": "FULL_STOCKBIT",
+    "mode": "YAHOO_ONLY",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
     "session_warning": null,
-    "mode_warning": null,
+    "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — ARA pipeline tidak berjalan",
     "intraday_count": 0,
     "ara_count": 0,
-    "bsjp_count": 2,
+    "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
-    "position_count": 5,
+    "position_count": 0,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
     "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
@@ -269,22 +36,9 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6036,
-    "ihsg_change_pct": 0.46,
-    "ihsg_trend": "BEARISH",
-    "ihsg_above_ma50": false,
-    "market_safe": true,
-    "warning": null
+    "market_safe": false
   },
-  "screening_summary": {
-    "universe": 979,
-    "after_liquidity": 128,
-    "after_accumulation": 33,
-    "after_trend": 4,
-    "after_smc": 2,
-    "after_entry": 2,
-    "final": 0
-  },
+  "screening_summary": {},
   "config_ara": {
     "vol_ma20_tier1": 3.0,
     "vol_ma20_tier2": 6.0,
