@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-02 14:54:46 WIB",
+  "generated_at": "2026-10-02 15:14:35 WIB",
   "date": "2026-10-02",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6017,
-    "ihsg_change_pct": 0.13,
+    "ihsg_close": 6049,
+    "ihsg_change_pct": 0.66,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -17,11 +17,11 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 104,
-    "after_accumulation": 15,
+    "after_liquidity": 107,
+    "after_accumulation": 16,
     "after_trend": 5,
     "after_smc": 4,
-    "after_entry": 2,
+    "after_entry": 3,
     "final": 1
   },
   "config": {
@@ -51,16 +51,17 @@
       "universe_sources": [
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
+        "SCREENER_VOLUME_EXPLOSION",
         "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
         "close": 595,
-        "change_pct": -0.84,
-        "value_today": 22090681000,
-        "frequency_today": 2331,
+        "change_pct": 0,
+        "value_today": 24325760500,
+        "frequency_today": 2620,
         "iep": 595,
-        "iep_change_pct": 0.85
+        "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
@@ -77,8 +78,8 @@
         }
       },
       "trend": {
-        "ma50": 517.0,
-        "gap_from_ma50_pct": 13.07,
+        "ma50": 518.0,
+        "gap_from_ma50_pct": 14.01,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -131,7 +132,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.53 WIB"
+      "updated_at": "15.13 WIB"
     }
   ]
 }
