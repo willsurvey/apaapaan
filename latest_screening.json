@@ -1,15 +1,15 @@
 {
-  "status": "no_signal",
-  "generated_at": "2026-10-02 10:14:17 WIB",
+  "status": "success",
+  "generated_at": "2026-10-02 10:34:16 WIB",
   "date": "2026-10-02",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
   "mode_warning": null,
-  "total_saham": 0,
+  "total_saham": 1,
   "market_context": {
-    "ihsg_close": 6024,
-    "ihsg_change_pct": 0.25,
+    "ihsg_close": 6010,
+    "ihsg_change_pct": 0.02,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -17,12 +17,12 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 74,
-    "after_accumulation": 10,
-    "after_trend": 2,
-    "after_smc": 0,
-    "after_entry": 0,
-    "final": 0
+    "after_liquidity": 79,
+    "after_accumulation": 11,
+    "after_trend": 4,
+    "after_smc": 2,
+    "after_entry": 2,
+    "final": 1
   },
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
@@ -42,5 +42,99 @@
     "max_output": 5,
     "min_rr": 2.0
   },
-  "data": []
+  "data": [
+    {
+      "rank": 1,
+      "ticker": "ERAA",
+      "company": "Erajaya Swasembada Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
+        "GURU_92_Big Accumula",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 590,
+        "change_pct": -2.52,
+        "value_today": 14137036500,
+        "frequency_today": 1232,
+        "iep": 595,
+        "iep_change_pct": 2.59
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 5280123500,
+        "net_foreign_3d": 0,
+        "acc_score": 30,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 0,
+          "foreign_3d": 0,
+          "candle": 0,
+          "volume": -5,
+          "total": 30
+        }
+      },
+      "trend": {
+        "ma50": 517.0,
+        "gap_from_ma50_pct": 13.07,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "BOS_BULLISH",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": "570 - 585",
+        "fvg_zone": null,
+        "strong_low": 570.0,
+        "weak_high": 620.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "GAP_UP",
+        "entry_direction_label": "⚡ Gap Up entry — entry di atas PDC jika gap terkonfirmasi (pantau volume)",
+        "entry_direction_reason": "IEP gap up 2.6%",
+        "entry_1": 595,
+        "entry_1_pct": 20,
+        "entry_1_note": "Gap up entry (IEP +2.6%)",
+        "entry_2": 590,
+        "entry_2_pct": 50,
+        "entry_2_note": "PDC / Bid Wall — antisipasi flat open",
+        "entry_3": 580,
+        "entry_3_pct": 30,
+        "entry_3_note": "Pullback fallback / OB zone",
+        "average_entry": 590,
+        "entry_zone": "580 - 595",
+        "sl": 570,
+        "sl_pct_risk": 3.39,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 600,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 620,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 640,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:2.5",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 50,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy hari ini: Rp5.3B",
+        "✅ Internal BOS Bullish (1H)",
+        "✅ Harga di zona Order Block aktif",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [
+        "⚠️ Potensi GAP UP 2.6% — entry_1 disesuaikan ke IEP",
+        "⚠️ Entry 1 DI ATAS close — prediksi gap up. Jika tidak gap, skip entry_1."
+      ],
+      "updated_at": "10.33 WIB"
+    }
+  ]
 }
