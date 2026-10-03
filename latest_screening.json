@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-10-04 04:54:35 WIB",
+  "generated_at": "2026-10-04 05:14:01 WIB",
   "date": "2026-10-04",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Sunday)",
@@ -17,8 +17,8 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 128,
-    "after_accumulation": 34,
+    "after_liquidity": 125,
+    "after_accumulation": 32,
     "after_trend": 4,
     "after_smc": 3,
     "after_entry": 3,
