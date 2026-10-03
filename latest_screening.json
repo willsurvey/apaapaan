@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-10-03 08:21:43 WIB",
+  "generated_at": "2026-10-03 08:54:50 WIB",
   "date": "2026-10-03",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -8,14 +8,22 @@
   "mode_warning": null,
   "total_saham": 0,
   "market_context": {
-    "ihsg_close": 6009,
-    "ihsg_change_pct": -1.02,
+    "ihsg_close": 6036,
+    "ihsg_change_pct": 0.46,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
-    "market_safe": false,
-    "warning": "IHSG turun 3 hari berturut-turut. Tidak ada output hari ini."
+    "market_safe": true,
+    "warning": null
   },
-  "screening_summary": {},
+  "screening_summary": {
+    "universe": 979,
+    "after_liquidity": 127,
+    "after_accumulation": 33,
+    "after_trend": 4,
+    "after_smc": 3,
+    "after_entry": 3,
+    "final": 0
+  },
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
     "data_sources": [
