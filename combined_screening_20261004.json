@@ -241,7 +241,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-04 18:54:45 WIB",
+    "generated_at": "2026-10-04 19:15:07 WIB",
     "date": "2026-10-04",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Sunday)",
@@ -278,8 +278,8 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 125,
-    "after_accumulation": 32,
+    "after_liquidity": 128,
+    "after_accumulation": 33,
     "after_trend": 4,
     "after_smc": 3,
     "after_entry": 3,
