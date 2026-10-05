@@ -10,31 +10,31 @@
       "formula": "QUIET_CONTINUATION",
       "score": 50,
       "market_data": {
-        "close": 11800.0,
-        "change_pct": 2.16,
-        "value_today": 56137095000,
+        "close": 11775.0,
+        "change_pct": 1.95,
+        "value_today": 56889817500,
         "net_foreign": -21949512500
       },
       "d1_features": {
-        "body_pct": 1.72,
-        "close_pos_pct": 70.0,
+        "body_pct": 1.51,
+        "close_pos_pct": 65.0,
         "vol_ratio": 0.46,
-        "change_pct": 2.16,
-        "range_pct": 4.24,
-        "upper_wick": 30.0,
+        "change_pct": 1.95,
+        "range_pct": 4.25,
+        "upper_wick": 35.0,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": true,
-        "atr_pct": 3.89
+        "atr_pct": 3.9
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "11,575 – 12,025",
+        "entry_range": "11,550 – 12,000",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 11125,
-        "stop_note": "Cut loss jika turun di bawah 11,125 (1 ATR dari entry)",
-        "target_modest": 12025,
-        "target_moderate": 12275,
+        "stop_loss": 11100,
+        "stop_note": "Cut loss jika turun di bawah 11,100 (1 ATR dari entry)",
+        "target_modest": 12000,
+        "target_moderate": 12250,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -55,7 +55,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.7%), volume mati (0.46x MA20), close tengah (70%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.5%), volume mati (0.46x MA20), close tengah (65%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Di atas MA200 — tren utama masih bullish"
@@ -82,31 +82,31 @@
       "formula": "QUIET_CONTINUATION",
       "score": 40,
       "market_data": {
-        "close": 16225.0,
-        "change_pct": 2.37,
-        "value_today": 114956285000,
+        "close": 16175.0,
+        "change_pct": 1.89,
+        "value_today": 116412767500,
         "net_foreign": -85441652500
       },
       "d1_features": {
-        "body_pct": 2.37,
-        "close_pos_pct": 34.7,
+        "body_pct": 2.05,
+        "close_pos_pct": 30.6,
         "vol_ratio": 0.43,
-        "change_pct": 2.37,
-        "range_pct": 7.55,
-        "upper_wick": 65.3,
+        "change_pct": 2.05,
+        "range_pct": 7.57,
+        "upper_wick": 69.4,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": true,
-        "atr_pct": 9.51
+        "atr_pct": 9.54
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "15,650 – 16,550",
+        "entry_range": "15,650 – 16,500",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
         "stop_loss": 14100,
         "stop_note": "Cut loss jika turun di bawah 14,100 (1 ATR dari entry)",
-        "target_modest": 16550,
-        "target_moderate": 16875,
+        "target_modest": 16500,
+        "target_moderate": 16825,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -127,13 +127,13 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+2.4%), volume mati (0.43x MA20), close tengah (35%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+2.1%), volume mati (0.43x MA20), close tengah (31%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Di atas MA200 — tren utama masih bullish"
       ],
       "signals_negative": [
-        "Upper wick besar (65%) — tekanan jual D-1",
+        "Upper wick besar (69%) — tekanan jual D-1",
         "Asing jual bersih besar — hati-hati gap down"
       ],
       "backtest_stats": {
@@ -179,18 +179,18 @@
       "ticker": "NEST",
       "company": "Esta Indonesia Tbk",
       "score": 65,
-      "close": 780.0,
-      "near_52w_pct": 98.1,
+      "close": 775.0,
+      "near_52w_pct": 97.5,
       "wk_rsi": 76.9,
       "wk_adx": 60.3,
-      "mo_rsi": 84.9,
+      "mo_rsi": 84.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (77) + Wk ADX (60) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
+        "Near 52W High (97%) + Wk RSI (77) + Wk ADX (60) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (85)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -222,6 +222,29 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "BSML",
+      "company": "Bintang Samudera Mandiri Lines Tbk.",
+      "score": 65,
+      "close": 550.0,
+      "near_52w_pct": 95.7,
+      "wk_rsi": 69.4,
+      "wk_adx": 48.9,
+      "mo_rsi": 97.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (69) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (97)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "MMIX",
       "company": "Multi Medika Internasional Tbk.",
       "score": 65,
@@ -243,34 +266,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AKRA",
-      "company": "AKR Corporindo Tbk.",
-      "score": 65,
-      "close": 1495.0,
-      "near_52w_pct": 95.8,
-      "wk_rsi": 73.7,
-      "wk_adx": 25.1,
-      "mo_rsi": 68.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (69)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-05 13:33:39 WIB",
+    "generated_at": "2026-10-05 13:54:11 WIB",
     "date": "2026-10-05",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -298,8 +298,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6038,
-    "ihsg_change_pct": 0.03,
+    "ihsg_close": 6039,
+    "ihsg_change_pct": 0.04,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -307,8 +307,8 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 106,
-    "after_accumulation": 4,
+    "after_liquidity": 107,
+    "after_accumulation": 1,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
