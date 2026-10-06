@@ -1,7 +1,67 @@
 {
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
-  "bsjp_beli_sore_jual_pagi": [],
+  "bsjp_beli_sore_jual_pagi": [
+    {
+      "ticker": "BDKR",
+      "company": "Berdikari Pondasi Perkasa Tbk.",
+      "tier": "A",
+      "score": 97,
+      "market_data": {
+        "close": 208.0,
+        "change_pct": 13.04,
+        "value_today": 18756392500,
+        "net_foreign": 273978200,
+        "iep": 184,
+        "iep_change_pct": -11.538461538461538
+      },
+      "bsjp_features": {
+        "vol_ratio20": 4.43,
+        "body_pct": 13.04,
+        "close_pos_pct": 93.3,
+        "above_ma20": true,
+        "above_ma50": true,
+        "above_ma200": true,
+        "atr_pct": 3.95
+      },
+      "entry_plan": {
+        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
+        "entry_range": "206 – 208",
+        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
+        "stop_loss": 178,
+        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
+        "target_pct": "+2% s/d +8% di pagi hari",
+        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
+      },
+      "universe_context": {
+        "in_mover_types": [
+          "MOVER_TYPE_TOP_VOLUME",
+          "MOVER_TYPE_TOP_GAINER",
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_63_High Volume ",
+          "SCREENER_TOP_VALUE"
+        ],
+        "from_gainer": true,
+        "from_screener": true,
+        "from_top_value": true
+      },
+      "signals_positive": [
+        "Volume spike 4.4x MA20",
+        "Candle hijau sangat kuat (13.0%)",
+        "Tutup dekat puncak (93%)",
+        "Uptrend penuh: di atas MA20, MA50, MA200",
+        "MA20 sedang naik — tren menguat",
+        "Asing beli bersih hari ini (Rp 0.3B)",
+        "Masuk screener volume explosion Stockbit",
+        "Saham naik signifikan hari ini (momentum)",
+        "Hari Selasa — win rate BSJP historis tertinggi"
+      ],
+      "signals_negative": [],
+      "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
+      "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
+      "rank": 1
+    }
+  ],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
@@ -34,9 +94,9 @@
       "ticker": "NEST",
       "company": "Esta Indonesia Tbk",
       "score": 70,
-      "close": 855.0,
-      "near_52w_pct": 100.0,
-      "wk_rsi": 80.0,
+      "close": 850.0,
+      "near_52w_pct": 99.4,
+      "wk_rsi": 79.8,
       "wk_adx": 61.6,
       "mo_rsi": 86.2,
       "wk_obv_above_ma": true,
@@ -44,8 +104,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (80) + Wk ADX (62) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
+        "Near 52W High (99%) + Wk RSI (80) + Wk ADX (62) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -58,18 +118,18 @@
       "ticker": "AKRA",
       "company": "AKR Corporindo Tbk.",
       "score": 65,
-      "close": 1505.0,
-      "near_52w_pct": 96.5,
-      "wk_rsi": 78.0,
+      "close": 1510.0,
+      "near_52w_pct": 96.8,
+      "wk_rsi": 78.2,
       "wk_adx": 25.7,
-      "mo_rsi": 69.1,
+      "mo_rsi": 69.3,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (78) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
+        "Near 52W High (97%) + Wk RSI (78) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (69)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -126,7 +186,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-06 15:14:31 WIB",
+    "generated_at": "2026-10-06 15:36:33 WIB",
     "date": "2026-10-06",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -135,7 +195,7 @@
     "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
-    "bsjp_count": 0,
+    "bsjp_count": 1,
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
@@ -154,8 +214,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6198,
-    "ihsg_change_pct": 1.3,
+    "ihsg_close": 6203,
+    "ihsg_change_pct": 1.39,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
