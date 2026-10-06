@@ -36,11 +36,13 @@
       "universe_context": {
         "in_mover_types": [
           "MOVER_TYPE_TOP_VALUE",
-          "SCREENER_VOLUME_EXPLOSION"
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_63_High Volume ",
+          "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": true,
-        "from_top_value": false
+        "from_top_value": true
       },
       "signals_positive": [
         "Volume spike kuat 5.5x MA20",
@@ -93,7 +95,7 @@
       "close": 1500.0,
       "near_52w_pct": 96.2,
       "wk_rsi": 78.6,
-      "wk_adx": 25.6,
+      "wk_adx": 25.7,
       "mo_rsi": 69.6,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -181,7 +183,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-07 00:27:04 WIB",
+    "generated_at": "2026-10-07 00:55:55 WIB",
     "date": "2026-10-07",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -217,12 +219,12 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 395,
-    "after_liquidity": 0,
-    "after_accumulation": 0,
-    "after_trend": 0,
-    "after_smc": 0,
-    "after_entry": 0,
+    "universe": 979,
+    "after_liquidity": 121,
+    "after_accumulation": 32,
+    "after_trend": 5,
+    "after_smc": 2,
+    "after_entry": 2,
     "final": 0
   },
   "config_ara": {
