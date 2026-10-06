@@ -30,6 +30,29 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "AKRA",
+      "company": "AKR Corporindo Tbk.",
+      "score": 65,
+      "close": 1500.0,
+      "near_52w_pct": 96.2,
+      "wk_rsi": 77.8,
+      "wk_adx": 25.3,
+      "mo_rsi": 69.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (78) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (69)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "BSML",
       "company": "Bintang Samudera Mandiri Lines Tbk.",
       "score": 65,
@@ -76,44 +99,21 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "AKRA",
-      "company": "AKR Corporindo Tbk.",
-      "score": 65,
-      "close": 1500.0,
-      "near_52w_pct": 96.2,
-      "wk_rsi": 77.8,
-      "wk_adx": 25.3,
-      "mo_rsi": 69.0,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (78) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (69)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BFIN",
-      "company": "BFI Finance Indonesia Tbk.",
+      "ticker": "SINI",
+      "company": "Singaraja Putra Tbk.",
       "score": 55,
-      "close": 930.0,
-      "near_52w_pct": 89.4,
-      "wk_rsi": 67.0,
-      "wk_adx": 31.5,
-      "mo_rsi": 66.3,
+      "close": 16625.0,
+      "near_52w_pct": 86.6,
+      "wk_rsi": 73.2,
+      "wk_adx": 25.3,
+      "mo_rsi": 64.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (89%) + Wk RSI (67) + Wk ADX (31) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (66)",
+        "Near 52W High (87%) + Wk RSI (73) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (64)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -123,7 +123,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-06 08:14:57 WIB",
+    "generated_at": "2026-10-06 08:32:39 WIB",
     "date": "2026-10-06",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
