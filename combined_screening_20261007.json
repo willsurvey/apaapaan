@@ -12,13 +12,13 @@
       "market_data": {
         "close": 142.0,
         "change_pct": 1.43,
-        "value_today": 16935597200,
+        "value_today": 17573650800,
         "net_foreign": -5579825000
       },
       "d1_features": {
         "body_pct": 1.43,
         "close_pos_pct": 62.5,
-        "vol_ratio": 0.27,
+        "vol_ratio": 0.28,
         "change_pct": 1.43,
         "range_pct": 5.63,
         "upper_wick": 37.5,
@@ -55,7 +55,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.4%), volume mati (0.27x MA20), close tengah (62%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.4%), volume mati (0.28x MA20), close tengah (62%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Di atas MA200 — tren utama masih bullish"
@@ -156,7 +156,7 @@
       "close": 1500.0,
       "near_52w_pct": 96.2,
       "wk_rsi": 77.8,
-      "wk_adx": 25.6,
+      "wk_adx": 25.7,
       "mo_rsi": 69.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -198,7 +198,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-07 11:35:19 WIB",
+    "generated_at": "2026-10-07 11:53:57 WIB",
     "date": "2026-10-07",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -226,8 +226,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6153,
-    "ihsg_change_pct": -0.63,
+    "ihsg_close": 6163,
+    "ihsg_change_pct": -0.48,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -235,8 +235,8 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 99,
-    "after_accumulation": 2,
+    "after_liquidity": 100,
+    "after_accumulation": 5,
     "after_trend": 1,
     "after_smc": 0,
     "after_entry": 0,
