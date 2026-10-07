@@ -3,60 +3,62 @@
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [
     {
-      "ticker": "BDKR",
-      "company": "Berdikari Pondasi Perkasa Tbk.",
-      "tier": "S",
-      "score": 102,
+      "ticker": "MPXL",
+      "company": "MPX Logistics International Tbk.",
+      "tier": "A",
+      "score": 86,
       "market_data": {
-        "close": 210.0,
-        "change_pct": 2.86,
-        "value_today": 20640579400,
-        "net_foreign": 2949099200,
+        "close": 316.0,
+        "change_pct": 20.61,
+        "value_today": 28972789200,
+        "net_foreign": -220309600,
         "iep": 0,
         "iep_change_pct": 0
       },
       "bsjp_features": {
-        "vol_ratio20": 5.08,
-        "body_pct": 14.13,
-        "close_pos_pct": 100.0,
+        "vol_ratio20": 4.95,
+        "body_pct": 22.48,
+        "close_pos_pct": 96.7,
         "above_ma20": true,
         "above_ma50": true,
         "above_ma200": true,
-        "atr_pct": 3.91
+        "atr_pct": 8.61
       },
       "entry_plan": {
         "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
-        "entry_range": "208 – 210",
+        "entry_range": "312 – 316",
         "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
-        "stop_loss": 178,
+        "stop_loss": 256,
         "stop_note": "Jika gap down besok, cut di bawah low hari ini",
-        "target_pct": "+2% s/d +10% di pagi hari",
+        "target_pct": "+2% s/d +8% di pagi hari",
         "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
       },
       "universe_context": {
         "in_mover_types": [
           "MOVER_TYPE_TOP_VOLUME",
-          "MOVER_TYPE_NET_FOREIGN_BUY",
+          "MOVER_TYPE_TOP_GAINER",
           "SCREENER_VOLUME_EXPLOSION",
           "GURU_63_High Volume ",
           "SCREENER_TOP_VALUE"
         ],
-        "from_gainer": false,
+        "from_gainer": true,
         "from_screener": true,
         "from_top_value": true
       },
       "signals_positive": [
-        "Volume spike kuat 5.1x MA20",
-        "Candle hijau sangat kuat (14.1%)",
-        "Tutup di puncak absolut — tidak ada upper wick",
+        "Volume spike 5.0x MA20",
+        "Candle hijau sangat kuat (22.5%)",
+        "Tutup sangat dekat puncak (97%)",
         "Uptrend penuh: di atas MA20, MA50, MA200",
         "MA20 sedang naik — tren menguat",
-        "Asing beli bersih hari ini (Rp 2.9B)",
-        "Masuk screener volume explosion Stockbit"
+        "Masuk screener volume explosion Stockbit",
+        "Saham naik signifikan hari ini (momentum)"
       ],
-      "signals_negative": [],
-      "win_probability": "~70% berdasarkan backtest 1.796 kejadian historis",
-      "disclaimer": "Tier S BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
+      "signals_negative": [
+        "Asing jual bersih hari ini — hati-hati"
+      ],
+      "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
+      "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
       "rank": 1
     }
   ],
@@ -65,11 +67,35 @@
   "trend_following": [],
   "position_trading": [
     {
+      "ticker": "VICI",
+      "company": "Victoria Care Indonesia Tbk",
+      "score": 70,
+      "close": 1230.0,
+      "near_52w_pct": 96.0,
+      "wk_rsi": 79.3,
+      "wk_adx": 44.6,
+      "mo_rsi": 77.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (79) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (77)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 0.8B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "BDMN",
       "company": "Bank Danamon Indonesia Tbk.",
       "score": 65,
-      "close": 4910.0,
-      "near_52w_pct": 98.2,
+      "close": 4950.0,
+      "near_52w_pct": 97.5,
       "wk_rsi": 74.6,
       "wk_adx": 36.0,
       "mo_rsi": 74.0,
@@ -111,44 +137,21 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MARK",
-      "company": "Mark Dynamics Indonesia Tbk.",
-      "score": 65,
-      "close": 1210.0,
-      "near_52w_pct": 95.7,
-      "wk_rsi": 69.0,
-      "wk_adx": 40.8,
-      "mo_rsi": 89.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (69) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (89)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "AKRA",
       "company": "AKR Corporindo Tbk.",
       "score": 65,
-      "close": 1520.0,
-      "near_52w_pct": 97.4,
+      "close": 1500.0,
+      "near_52w_pct": 96.2,
       "wk_rsi": 77.8,
-      "wk_adx": 25.7,
+      "wk_adx": 25.6,
       "mo_rsi": 69.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (78) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
+        "Near 52W High (96%) + Wk RSI (78) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (69)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -182,7 +185,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-08 01:36:40 WIB",
+    "generated_at": "2026-10-08 01:56:50 WIB",
     "date": "2026-10-08",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -219,7 +222,7 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 123,
+    "after_liquidity": 104,
     "after_accumulation": 17,
     "after_trend": 5,
     "after_smc": 1,
