@@ -37,11 +37,13 @@
         "in_mover_types": [
           "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_NET_FOREIGN_BUY",
-          "SCREENER_VOLUME_EXPLOSION"
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_63_High Volume ",
+          "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": true,
-        "from_top_value": false
+        "from_top_value": true
       },
       "signals_positive": [
         "Volume spike kuat 5.1x MA20",
@@ -86,67 +88,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "SINI",
-      "company": "Singaraja Putra Tbk.",
-      "score": 60,
-      "close": 16500.0,
-      "near_52w_pct": 85.9,
-      "wk_rsi": 73.4,
-      "wk_adx": 25.3,
-      "mo_rsi": 64.2,
+      "ticker": "BSML",
+      "company": "Bintang Samudera Mandiri Lines Tbk.",
+      "score": 65,
+      "close": 550.0,
+      "near_52w_pct": 95.7,
+      "wk_rsi": 66.7,
+      "wk_adx": 49.1,
+      "mo_rsi": 97.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (86%) + Wk RSI (73) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (64)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 5.3B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "GULA",
-      "company": "Aman Agrindo Tbk.",
-      "score": 60,
-      "close": 805.0,
-      "near_52w_pct": 92.5,
-      "wk_rsi": 68.5,
-      "wk_adx": 52.3,
-      "mo_rsi": 73.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (93%) + Wk RSI (69) + Wk ADX (52) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (74)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.0B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "ADRO",
-      "company": "Alamtri Resources Indonesia Tbk.",
-      "score": 55,
-      "close": 2600.0,
-      "near_52w_pct": 90.9,
-      "wk_rsi": 66.3,
-      "wk_adx": 20.2,
-      "mo_rsi": 69.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (91%) + Wk RSI (66) + Wk ADX (20) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (70)",
+        "Near 52W High (96%) + Wk RSI (67) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (97)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -154,33 +111,78 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "DMAS",
-      "company": "Puradelta Lestari Tbk",
-      "score": 50,
-      "close": 190.0,
-      "near_52w_pct": 88.8,
-      "wk_rsi": 77.2,
-      "wk_adx": 47.7,
-      "mo_rsi": 71.8,
-      "wk_obv_above_ma": false,
+      "ticker": "MARK",
+      "company": "Mark Dynamics Indonesia Tbk.",
+      "score": 65,
+      "close": 1210.0,
+      "near_52w_pct": 95.7,
+      "wk_rsi": 69.0,
+      "wk_adx": 40.8,
+      "mo_rsi": 89.4,
+      "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (89%) + Wk RSI (77) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (72)",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.2B)"
+        "Near 52W High (96%) + Wk RSI (69) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (89)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
       ],
-      "signals_negative": [
-        "Weekly OBV di bawah MA20"
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "AKRA",
+      "company": "AKR Corporindo Tbk.",
+      "score": 65,
+      "close": 1520.0,
+      "near_52w_pct": 97.4,
+      "wk_rsi": 77.8,
+      "wk_adx": 25.7,
+      "mo_rsi": 69.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (78) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (69)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
       ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1025.0,
+      "near_52w_pct": 96.7,
+      "wk_rsi": 74.1,
+      "wk_adx": 55.3,
+      "mo_rsi": 80.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (74) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (80)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
       "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-08 01:04:37 WIB",
+    "generated_at": "2026-10-08 01:36:40 WIB",
     "date": "2026-10-08",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -216,12 +218,12 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 176,
-    "after_liquidity": 0,
-    "after_accumulation": 0,
-    "after_trend": 0,
-    "after_smc": 0,
-    "after_entry": 0,
+    "universe": 979,
+    "after_liquidity": 123,
+    "after_accumulation": 17,
+    "after_trend": 5,
+    "after_smc": 1,
+    "after_entry": 1,
     "final": 0
   },
   "config_ara": {
