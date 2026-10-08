@@ -8,32 +8,32 @@
       "company": "Astra International Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 45,
+      "score": 60,
       "market_data": {
-        "close": 4850.0,
-        "change_pct": 1.67,
-        "value_today": 62319887000,
+        "close": 4860.0,
+        "change_pct": 1.46,
+        "value_today": 65231043000,
         "net_foreign": 3829659000
       },
       "d1_features": {
-        "body_pct": 1.25,
-        "close_pos_pct": 60.0,
-        "vol_ratio": 0.32,
-        "change_pct": 1.46,
+        "body_pct": 1.46,
+        "close_pos_pct": 70.0,
+        "vol_ratio": 0.34,
+        "change_pct": 1.67,
         "range_pct": 2.06,
-        "upper_wick": 40.0,
+        "upper_wick": 30.0,
         "above_ma20": true,
-        "above_ma50": false,
+        "above_ma50": true,
         "above_ma200": false,
         "atr_pct": 2.15
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "4,800 – 4,950",
+        "entry_range": "4,810 – 4,960",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 4700,
-        "stop_note": "Cut loss jika turun di bawah 4,700 (1 ATR dari entry)",
-        "target_modest": 4950,
+        "stop_loss": 4710,
+        "stop_note": "Cut loss jika turun di bawah 4,710 (1 ATR dari entry)",
+        "target_modest": 4960,
         "target_moderate": 5050,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
@@ -56,14 +56,13 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.2%), volume mati (0.32x MA20), close tengah (60%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.5%), volume mati (0.34x MA20), close tengah (70%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
+        "Di atas MA50 — tren menengah masih ok",
         "Range D-1 kecil (2.1%) — noise rendah besok",
         "Asing beli bersih hari ini (Rp 3.8B)"
       ],
-      "signals_negative": [
-        "Upper wick besar (40%) — tekanan jual D-1"
-      ],
+      "signals_negative": [],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
         "win_rate": "49.8%",
@@ -85,13 +84,13 @@
       "market_data": {
         "close": 2950.0,
         "change_pct": 1.03,
-        "value_today": 16994121000,
+        "value_today": 18033384000,
         "net_foreign": -4355893000
       },
       "d1_features": {
         "body_pct": 1.03,
         "close_pos_pct": 57.1,
-        "vol_ratio": 0.16,
+        "vol_ratio": 0.17,
         "change_pct": 1.03,
         "range_pct": 2.37,
         "upper_wick": 42.9,
@@ -128,7 +127,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.0%), volume mati (0.16x MA20), close tengah (57%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.0%), volume mati (0.17x MA20), close tengah (57%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Di atas MA200 — tren utama masih bullish",
@@ -158,9 +157,9 @@
       "ticker": "ALKA",
       "company": "Alakasa Industrindo Tbk.",
       "score": 65,
-      "close": 8350.0,
-      "near_52w_pct": 96.0,
-      "wk_rsi": 76.5,
+      "close": 8300.0,
+      "near_52w_pct": 95.4,
+      "wk_rsi": 76.4,
       "wk_adx": 58.4,
       "mo_rsi": 97.7,
       "wk_obv_above_ma": true,
@@ -168,9 +167,55 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (76) + Wk ADX (58) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
+        "Near 52W High (95%) + Wk RSI (76) + Wk ADX (58) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (98)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
+      "score": 65,
+      "close": 845.0,
+      "near_52w_pct": 96.6,
+      "wk_rsi": 79.5,
+      "wk_adx": 61.7,
+      "mo_rsi": 86.1,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (80) + Wk ADX (62) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (86)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "GULA",
+      "company": "Aman Agrindo Tbk.",
+      "score": 65,
+      "close": 830.0,
+      "near_52w_pct": 95.4,
+      "wk_rsi": 69.4,
+      "wk_adx": 52.4,
+      "mo_rsi": 74.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (69) + Wk ADX (52) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -181,17 +226,17 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1025.0,
-      "near_52w_pct": 96.7,
-      "wk_rsi": 74.1,
+      "close": 1030.0,
+      "near_52w_pct": 97.2,
+      "wk_rsi": 75.0,
       "wk_adx": 55.3,
-      "mo_rsi": 80.2,
+      "mo_rsi": 80.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (74) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (97%) + Wk RSI (75) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (80)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -222,56 +267,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BSML",
-      "company": "Bintang Samudera Mandiri Lines Tbk.",
-      "score": 65,
-      "close": 550.0,
-      "near_52w_pct": 95.7,
-      "wk_rsi": 66.7,
-      "wk_adx": 49.1,
-      "mo_rsi": 97.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (67) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (97)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BFIN",
-      "company": "BFI Finance Indonesia Tbk.",
-      "score": 55,
-      "close": 945.0,
-      "near_52w_pct": 90.9,
-      "wk_rsi": 67.9,
-      "wk_adx": 31.5,
-      "mo_rsi": 66.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (91%) + Wk RSI (68) + Wk ADX (31) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (67)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-08 11:14:43 WIB",
+    "generated_at": "2026-10-08 11:34:39 WIB",
     "date": "2026-10-08",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -299,8 +299,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6124,
-    "ihsg_change_pct": -0.36,
+    "ihsg_close": 6117,
+    "ihsg_change_pct": -0.48,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -308,8 +308,8 @@
   },
   "screening_summary": {
     "universe": 979,
-    "after_liquidity": 94,
-    "after_accumulation": 4,
+    "after_liquidity": 96,
+    "after_accumulation": 3,
     "after_trend": 1,
     "after_smc": 0,
     "after_entry": 0,
