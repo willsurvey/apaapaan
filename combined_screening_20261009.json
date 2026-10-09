@@ -11,8 +11,8 @@
       "score": 65,
       "market_data": {
         "close": 2920.0,
-        "change_pct": 1.04,
-        "value_today": 16678053000,
+        "change_pct": 1.73,
+        "value_today": 17285817000,
         "net_foreign": 9969446000
       },
       "d1_features": {
@@ -103,29 +103,6 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "BDMN",
-      "company": "Bank Danamon Indonesia Tbk.",
-      "score": 65,
-      "close": 4960.0,
-      "near_52w_pct": 97.7,
-      "wk_rsi": 74.7,
-      "wk_adx": 36.0,
-      "mo_rsi": 74.0,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (75) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (74)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
@@ -142,6 +119,29 @@
         "Near 52W High (96%) + Wk RSI (73) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (80)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "BDMN",
+      "company": "Bank Danamon Indonesia Tbk.",
+      "score": 65,
+      "close": 4960.0,
+      "near_52w_pct": 97.7,
+      "wk_rsi": 74.7,
+      "wk_adx": 36.0,
+      "mo_rsi": 74.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (98%) + Wk RSI (75) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -197,7 +197,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-09 13:55:50 WIB",
+    "generated_at": "2026-10-09 14:14:07 WIB",
     "date": "2026-10-09",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -234,11 +234,11 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 91,
+    "after_liquidity": 77,
     "after_accumulation": 1,
     "after_trend": 1,
-    "after_smc": 1,
-    "after_entry": 1,
+    "after_smc": 0,
+    "after_entry": 0,
     "final": 0
   },
   "config_ara": {
