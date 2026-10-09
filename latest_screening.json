@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-10-10 00:06:46 WIB",
+  "generated_at": "2026-10-10 00:21:34 WIB",
   "date": "2026-10-10",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -15,15 +15,7 @@
     "market_safe": true,
     "warning": "⚠️ IHSG turun -1.9% kemarin. Trading dengan sangat hati-hati."
   },
-  "screening_summary": {
-    "universe": 364,
-    "after_liquidity": 0,
-    "after_accumulation": 0,
-    "after_trend": 0,
-    "after_smc": 0,
-    "after_entry": 0,
-    "final": 0
-  },
+  "screening_summary": {},
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
     "data_sources": [
