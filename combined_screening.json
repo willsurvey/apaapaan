@@ -124,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-10 00:45:51 WIB",
+    "generated_at": "2026-10-10 01:07:09 WIB",
     "date": "2026-10-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -160,7 +160,7 @@
     "warning": "⚠️ IHSG turun -1.9% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
-    "universe": 330,
+    "universe": 360,
     "after_liquidity": 0,
     "after_accumulation": 0,
     "after_trend": 0,
