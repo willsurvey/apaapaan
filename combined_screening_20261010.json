@@ -130,7 +130,7 @@
       "close": 1485.0,
       "near_52w_pct": 95.2,
       "wk_rsi": 77.1,
-      "wk_adx": 25.6,
+      "wk_adx": 25.7,
       "mo_rsi": 68.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -241,7 +241,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-10 08:24:18 WIB",
+    "generated_at": "2026-10-10 08:44:14 WIB",
     "date": "2026-10-10",
     "mode": "YAHOO_ONLY",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -269,12 +269,12 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6031,
-    "ihsg_change_pct": -1.88,
+    "ihsg_close": 6093,
+    "ihsg_change_pct": 1.04,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -1.9% kemarin. Trading dengan sangat hati-hati."
+    "warning": null
   },
   "screening_summary": {
     "universe": 149,
