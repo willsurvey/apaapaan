@@ -1,11 +1,11 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-10-10 10:23:55 WIB",
+  "generated_at": "2026-10-10 10:55:49 WIB",
   "date": "2026-10-10",
-  "mode": "YAHOO_ONLY",
+  "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
   "session_warning": "⚠️ Screening dijalankan di akhir pekan — gunakan sebagai referensi persiapan, bukan sinyal eksekusi langsung.",
-  "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — Data terbatas (Yahoo Finance only)",
+  "mode_warning": null,
   "total_saham": 0,
   "market_context": {
     "ihsg_close": 6093,
@@ -16,12 +16,12 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 149,
-    "after_liquidity": 149,
-    "after_accumulation": 25,
-    "after_trend": 2,
-    "after_smc": 1,
-    "after_entry": 1,
+    "universe": 978,
+    "after_liquidity": 118,
+    "after_accumulation": 66,
+    "after_trend": 13,
+    "after_smc": 6,
+    "after_entry": 6,
     "final": 0
   },
   "config": {

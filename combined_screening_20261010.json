@@ -1,17 +1,109 @@
 {
   "logika_lama_intraday": [],
-  "logika_baru_calon_ara": [],
+  "logika_baru_calon_ara": [
+    {
+      "ticker": "PCAR",
+      "company": "Prima Cakrawala Abadi Tbk.",
+      "type": "CALON_ARA",
+      "score": 76,
+      "score_tier": "STRONG",
+      "pattern_type": "CONTINUATION",
+      "confluence_count": 10,
+      "entry_range": "89 – 121",
+      "entry_lower": 89,
+      "entry_upper": 121,
+      "entry_note": "Pasang Limit Order pukul 19:00 di 90–121 (PDC hingga harga ARA). Tipe Quiet Accumulation gap lebih kecil — peluang fill order lebih tinggi dibanding Tipe Continuation.",
+      "entry_range_pct": 35.6,
+      "ara_price_ref": 121,
+      "ara_limit_pct": 35.0,
+      "gap_risk_note": "Backtest: 64% saham ARA Gap Up >2% di pagi hari. Median gap: +3.70% dari harga ARA. Limit Order berisiko tidak fill.",
+      "estimated_target_pct": "+7% hingga +16% dari harga beli",
+      "target_morning_exit": 131,
+      "target_base": 142,
+      "target_optimistic": 147,
+      "target_morning_exit_pct": 7.0,
+      "target_base_pct": 16.0,
+      "target_optimistic_pct": 20.0,
+      "target_note": "Pagi: 131 (~+7%) | Moderat: 142 (~+16%) | Full: 147 (~+20%) | JUAL PAGI, bukan hold sampai close.",
+      "assumed_entry": 123,
+      "exit_timing_guide": "JUAL DI PAGI HARI (09:00-09:30 WIB). Backtest menunjukkan High D+1 median +16.77% dari harga ARA. Setelah 09:30, momentum sering berbalik. Jika masih ARA lagi (23.5% peluang), hold dengan trailing stop.",
+      "reason_beginner_friendly": "PCAR sudah naik 14% kemarin dengan volume 7x lebih besar dari biasanya. Ada pembeli besar yang masuk agresif. Jika momentum berlanjut, saham ini bisa naik lebih jauh besok. ✅ Broker signal: Big Acc. Skor kepercayaan: TINGGI.",
+      "risk_warning": "⚠️ FALSE SIGNAL RATE ~85-90%. Konfirmasi dengan broker flow, berita, dan analisis manual sebelum beli. | 📌 Batasi posisi: max 2% dari portofolio.",
+      "d1p_backtest_stats": {
+        "high_d1_median": "+16.77% dari harga ARA (n=2213)",
+        "profit_morning": "84.5% sempat naik >5% di D+1",
+        "close_d1_profit": "hanya 48.9% (hampir coin flip — JANGAN hold)",
+        "continued_ara_pct": "23.5% lanjut ARA hari berikutnya",
+        "sample_size": "n=2.213 kunci ARA pertama pada saham liquid"
+      },
+      "broker_signal": "Big Acc",
+      "d1_date": "2026-10-09",
+      "d1_close": 90.0,
+      "d1_open": 81.0,
+      "d1_high": 105.0,
+      "d1_low": 79.0,
+      "d1_change_pct": 13.92,
+      "d1_vol_ratio_ma20": 7.42,
+      "d1_vol_ratio_ma5": 4.05,
+      "d1_body_pct": 0.346,
+      "d1_upper_wick": 0.577,
+      "d1_lower_wick": 0.077,
+      "d1_close_pos": 0.423,
+      "d1_bullish": true,
+      "d1_range_expansion": 1.74,
+      "d1_value_rp": 3080963700000,
+      "d2_change_pct": -1.25,
+      "d2_body_pct": 0.111,
+      "d2_vol_ratio_ma20": 1.84,
+      "m1_last15_green": 13,
+      "m1_close_vs_vwap": -4.68,
+      "m1_close_pos_intra": 0.423,
+      "m1_high_timing": 0.801,
+      "m1_n_bars": 261,
+      "m1_data_available": true,
+      "above_ma20": true,
+      "above_ma50": true,
+      "ma20": 55.0,
+      "ma50": 47.0,
+      "up_streak_days": 0,
+      "trend_5d_pct": 52.54,
+      "signals_positive": [
+        "Volume D-1 ekstrem: 7.4x MA20 (tier-2 ≥6x)",
+        "Volume D-2 elevated: 1.8x MA20 (akumulasi dini)",
+        "Continuation D-1: +13.9% vol 7.4x MA20",
+        "Upper wick rejection: 0.58 (smart money absorption)",
+        "Body kecil D-1: 0.35 (candle akumulasi)",
+        "Close pos rendah: 0.42 (buyers absorbed selling)",
+        "Range expansion moderat: 1.7x avg-5d",
+        "Harga di atas MA20",
+        "High intraday di akhir sesi (80%)",
+        "Broker signal: Big Accumulation (+10 poin)"
+      ],
+      "signals_negative": [
+        "Closing flat bias: 12/14 bar flat — indikasi tidak aktif",
+        "Close di bawah VWAP: -4.7%",
+        "5d trend terlalu cepat: +52.5%"
+      ],
+      "universe_sources": [
+        "SCREENER_VOL_EXPLOSION",
+        "GURU_94",
+        "SCREENER_TOP_VALUE"
+      ],
+      "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
+      "generated_at": "10:54 WIB"
+    }
+  ],
   "bsjp_beli_sore_jual_pagi": [
     {
       "ticker": "BIKE",
-      "company": "BIKE",
+      "company": "Bhineka Inovasi Ketahanan Energi Tbk.",
       "tier": "A",
-      "score": 74,
+      "score": 99,
       "market_data": {
         "close": 2140.0,
-        "change_pct": 0,
-        "value_today": 15290728000.0,
-        "net_foreign": 0,
+        "change_pct": 24.78,
+        "value_today": 14482670000,
+        "net_foreign": 878699000,
         "iep": 0,
         "iep_change_pct": 0
       },
@@ -34,17 +126,25 @@
         "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
       },
       "universe_context": {
-        "in_mover_types": [],
-        "from_gainer": false,
-        "from_screener": false,
-        "from_top_value": false
+        "in_mover_types": [
+          "MOVER_TYPE_TOP_GAINER",
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_63_High Volume ",
+          "SCREENER_TOP_VALUE"
+        ],
+        "from_gainer": true,
+        "from_screener": true,
+        "from_top_value": true
       },
       "signals_positive": [
         "Volume spike 4.2x MA20",
         "Candle hijau sangat kuat (25.5%)",
         "Tutup di puncak absolut — tidak ada upper wick",
         "Uptrend penuh: di atas MA20, MA50, MA200",
-        "MA20 sedang naik — tren menguat"
+        "MA20 sedang naik — tren menguat",
+        "Asing beli bersih hari ini (Rp 0.9B)",
+        "Masuk screener volume explosion Stockbit",
+        "Saham naik signifikan hari ini (momentum)"
       ],
       "signals_negative": [],
       "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
@@ -55,15 +155,15 @@
   "bpjs_beli_pagi_jual_sore": [
     {
       "ticker": "SRSN",
-      "company": "SRSN",
+      "company": "Indo Acidatama Tbk",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 55,
+      "score": 60,
       "market_data": {
         "close": 136.0,
-        "change_pct": 0,
-        "value_today": 13680022400.0,
-        "net_foreign": 0
+        "change_pct": 1.49,
+        "value_today": 13571953300,
+        "net_foreign": 782575300
       },
       "d1_features": {
         "body_pct": 4.62,
@@ -96,7 +196,11 @@
       ],
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
-        "in_mover_types": [],
+        "in_mover_types": [
+          "MOVER_TYPE_TOP_VOLUME",
+          "GURU_78_Daily Net Fo",
+          "SCREENER_TOP_VALUE"
+        ],
         "from_gainer": false,
         "from_screener": false
       },
@@ -104,7 +208,8 @@
         "Formula: Quiet Continuation — D-1 hijau tipis (+4.6%), volume mati (0.22x MA20), close tengah (70%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
-        "Di atas MA200 — tren utama masih bullish"
+        "Di atas MA200 — tren utama masih bullish",
+        "Asing beli bersih hari ini (Rp 0.8B)"
       ],
       "signals_negative": [],
       "backtest_stats": {
@@ -124,45 +229,22 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "AKRA",
-      "company": "AKRA",
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
       "score": 65,
-      "close": 1485.0,
-      "near_52w_pct": 95.2,
-      "wk_rsi": 77.1,
-      "wk_adx": 25.7,
-      "mo_rsi": 68.5,
+      "close": 850.0,
+      "near_52w_pct": 97.1,
+      "wk_rsi": 79.8,
+      "wk_adx": 61.7,
+      "mo_rsi": 86.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (77) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (68)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BDMN",
-      "company": "BDMN",
-      "score": 65,
-      "close": 4980.0,
-      "near_52w_pct": 98.1,
-      "wk_rsi": 74.9,
-      "wk_adx": 36.0,
-      "mo_rsi": 74.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (75) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (74)",
+        "Near 52W High (97%) + Wk RSI (80) + Wk ADX (62) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -171,7 +253,7 @@
     },
     {
       "ticker": "BSML",
-      "company": "BSML",
+      "company": "Bintang Samudera Mandiri Lines Tbk.",
       "score": 65,
       "close": 575.0,
       "near_52w_pct": 100.0,
@@ -194,7 +276,7 @@
     },
     {
       "ticker": "GULA",
-      "company": "GULA",
+      "company": "Aman Agrindo Tbk.",
       "score": 65,
       "close": 835.0,
       "near_52w_pct": 96.0,
@@ -216,22 +298,45 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "NEST",
-      "company": "NEST",
+      "ticker": "AKRA",
+      "company": "AKR Corporindo Tbk.",
       "score": 65,
-      "close": 850.0,
-      "near_52w_pct": 97.1,
-      "wk_rsi": 79.8,
-      "wk_adx": 61.7,
-      "mo_rsi": 86.2,
+      "close": 1485.0,
+      "near_52w_pct": 95.2,
+      "wk_rsi": 77.1,
+      "wk_adx": 25.7,
+      "mo_rsi": 68.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (80) + Wk ADX (62) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (95%) + Wk RSI (77) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (68)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1030.0,
+      "near_52w_pct": 97.2,
+      "wk_rsi": 75.0,
+      "wk_adx": 55.3,
+      "mo_rsi": 80.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (75) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (86)",
+        "Monthly RSI kuat (80)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -241,15 +346,15 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-10 10:23:55 WIB",
+    "generated_at": "2026-10-10 10:55:49 WIB",
     "date": "2026-10-10",
-    "mode": "YAHOO_ONLY",
+    "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
     "pipeline_version": "v7.0",
     "session_warning": "⚠️ Screening akhir pekan — referensi persiapan saja, bukan sinyal eksekusi.",
-    "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — ARA pipeline tidak berjalan",
+    "mode_warning": null,
     "intraday_count": 0,
-    "ara_count": 0,
+    "ara_count": 1,
     "bsjp_count": 1,
     "bpjs_count": 1,
     "swing_count": 0,
@@ -277,12 +382,12 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 149,
-    "after_liquidity": 149,
-    "after_accumulation": 25,
-    "after_trend": 2,
-    "after_smc": 1,
-    "after_entry": 1,
+    "universe": 978,
+    "after_liquidity": 118,
+    "after_accumulation": 66,
+    "after_trend": 13,
+    "after_smc": 6,
+    "after_entry": 6,
     "final": 0
   },
   "config_ara": {
