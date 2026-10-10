@@ -56,10 +56,10 @@
       "d2_body_pct": 0.111,
       "d2_vol_ratio_ma20": 1.84,
       "m1_last15_green": 13,
-      "m1_close_vs_vwap": -4.68,
+      "m1_close_vs_vwap": -4.67,
       "m1_close_pos_intra": 0.423,
-      "m1_high_timing": 0.801,
-      "m1_n_bars": 261,
+      "m1_high_timing": 0.798,
+      "m1_n_bars": 262,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -90,7 +90,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "11:34 WIB"
+      "generated_at": "11:45 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -128,13 +128,11 @@
       "universe_context": {
         "in_mover_types": [
           "MOVER_TYPE_TOP_GAINER",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_63_High Volume ",
-          "SCREENER_TOP_VALUE"
+          "SCREENER_VOLUME_EXPLOSION"
         ],
         "from_gainer": true,
         "from_screener": true,
-        "from_top_value": true
+        "from_top_value": false
       },
       "signals_positive": [
         "Volume spike 4.2x MA20",
@@ -197,9 +195,7 @@
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
         "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
-          "GURU_78_Daily Net Fo",
-          "SCREENER_TOP_VALUE"
+          "MOVER_TYPE_TOP_VOLUME"
         ],
         "from_gainer": false,
         "from_screener": false
@@ -304,7 +300,7 @@
       "close": 1485.0,
       "near_52w_pct": 95.2,
       "wk_rsi": 77.1,
-      "wk_adx": 25.6,
+      "wk_adx": 25.7,
       "mo_rsi": 68.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -346,7 +342,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-10 11:35:26 WIB",
+    "generated_at": "2026-10-10 11:46:31 WIB",
     "date": "2026-10-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -382,12 +378,12 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 978,
-    "after_liquidity": 118,
-    "after_accumulation": 66,
-    "after_trend": 13,
-    "after_smc": 6,
-    "after_entry": 6,
+    "universe": 360,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
+    "after_smc": 0,
+    "after_entry": 0,
     "final": 0
   },
   "config_ara": {
