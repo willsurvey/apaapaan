@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-10 17:33:57 WIB",
+  "generated_at": "2026-10-10 17:54:15 WIB",
   "date": "2026-10-10",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -86,7 +86,7 @@
         "ob_zone": null,
         "fvg_zone": null,
         "strong_low": 510.0,
-        "weak_high": 430.0
+        "weak_high": 358.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -130,7 +130,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.33 WIB"
+      "updated_at": "17.53 WIB"
     },
     {
       "rank": 2,
@@ -220,7 +220,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.33 WIB"
+      "updated_at": "17.53 WIB"
     },
     {
       "rank": 3,
@@ -312,7 +312,7 @@
         "✅ Pullback ke MA50 (3.5% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "17.33 WIB"
+      "updated_at": "17.53 WIB"
     },
     {
       "rank": 4,
@@ -359,7 +359,7 @@
         "ob_zone": null,
         "fvg_zone": "448 - 458",
         "strong_low": 400.0,
-        "weak_high": 420.0
+        "weak_high": 418.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -400,7 +400,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.33 WIB"
+      "updated_at": "17.53 WIB"
     }
   ]
 }
