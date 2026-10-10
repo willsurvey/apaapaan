@@ -4,14 +4,14 @@
   "bsjp_beli_sore_jual_pagi": [
     {
       "ticker": "BIKE",
-      "company": "Bhineka Inovasi Ketahanan Energi Tbk.",
+      "company": "BIKE",
       "tier": "A",
-      "score": 99,
+      "score": 74,
       "market_data": {
         "close": 2140.0,
-        "change_pct": 24.78,
-        "value_today": 14482670000,
-        "net_foreign": 878699000,
+        "change_pct": 0,
+        "value_today": 15290728000.0,
+        "net_foreign": 0,
         "iep": 0,
         "iep_change_pct": 0
       },
@@ -34,12 +34,9 @@
         "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
       },
       "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_GAINER",
-          "SCREENER_VOLUME_EXPLOSION"
-        ],
-        "from_gainer": true,
-        "from_screener": true,
+        "in_mover_types": [],
+        "from_gainer": false,
+        "from_screener": false,
         "from_top_value": false
       },
       "signals_positive": [
@@ -47,10 +44,7 @@
         "Candle hijau sangat kuat (25.5%)",
         "Tutup di puncak absolut — tidak ada upper wick",
         "Uptrend penuh: di atas MA20, MA50, MA200",
-        "MA20 sedang naik — tren menguat",
-        "Asing beli bersih hari ini (Rp 0.9B)",
-        "Masuk screener volume explosion Stockbit",
-        "Saham naik signifikan hari ini (momentum)"
+        "MA20 sedang naik — tren menguat"
       ],
       "signals_negative": [],
       "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
@@ -61,15 +55,15 @@
   "bpjs_beli_pagi_jual_sore": [
     {
       "ticker": "SRSN",
-      "company": "Indo Acidatama Tbk",
+      "company": "SRSN",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 60,
+      "score": 55,
       "market_data": {
         "close": 136.0,
-        "change_pct": 1.49,
-        "value_today": 13571953300,
-        "net_foreign": 782575300
+        "change_pct": 0,
+        "value_today": 13680022400.0,
+        "net_foreign": 0
       },
       "d1_features": {
         "body_pct": 4.62,
@@ -102,9 +96,7 @@
       ],
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME"
-        ],
+        "in_mover_types": [],
         "from_gainer": false,
         "from_screener": false
       },
@@ -112,8 +104,7 @@
         "Formula: Quiet Continuation — D-1 hijau tipis (+4.6%), volume mati (0.22x MA20), close tengah (70%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
-        "Di atas MA200 — tren utama masih bullish",
-        "Asing beli bersih hari ini (Rp 0.8B)"
+        "Di atas MA200 — tren utama masih bullish"
       ],
       "signals_negative": [],
       "backtest_stats": {
@@ -133,22 +124,45 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "NEST",
-      "company": "Esta Indonesia Tbk",
+      "ticker": "AKRA",
+      "company": "AKRA",
       "score": 65,
-      "close": 850.0,
-      "near_52w_pct": 97.1,
-      "wk_rsi": 79.8,
-      "wk_adx": 61.7,
-      "mo_rsi": 86.2,
+      "close": 1485.0,
+      "near_52w_pct": 95.2,
+      "wk_rsi": 77.1,
+      "wk_adx": 25.7,
+      "mo_rsi": 68.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (80) + Wk ADX (62) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (86)",
+        "Near 52W High (95%) + Wk RSI (77) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (68)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "BDMN",
+      "company": "BDMN",
+      "score": 65,
+      "close": 4980.0,
+      "near_52w_pct": 98.1,
+      "wk_rsi": 74.9,
+      "wk_adx": 36.0,
+      "mo_rsi": 74.1,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (98%) + Wk RSI (75) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -157,7 +171,7 @@
     },
     {
       "ticker": "BSML",
-      "company": "Bintang Samudera Mandiri Lines Tbk.",
+      "company": "BSML",
       "score": 65,
       "close": 575.0,
       "near_52w_pct": 100.0,
@@ -180,7 +194,7 @@
     },
     {
       "ticker": "GULA",
-      "company": "Aman Agrindo Tbk.",
+      "company": "GULA",
       "score": 65,
       "close": 835.0,
       "near_52w_pct": 96.0,
@@ -202,45 +216,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "AKRA",
-      "company": "AKR Corporindo Tbk.",
+      "ticker": "NEST",
+      "company": "NEST",
       "score": 65,
-      "close": 1485.0,
-      "near_52w_pct": 95.2,
-      "wk_rsi": 77.1,
-      "wk_adx": 25.7,
-      "mo_rsi": 68.5,
+      "close": 850.0,
+      "near_52w_pct": 97.1,
+      "wk_rsi": 79.8,
+      "wk_adx": 61.7,
+      "mo_rsi": 86.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (77) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (68)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 65,
-      "close": 1030.0,
-      "near_52w_pct": 97.2,
-      "wk_rsi": 75.0,
-      "wk_adx": 55.3,
-      "mo_rsi": 80.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (75) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (97%) + Wk RSI (80) + Wk ADX (62) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (80)",
+        "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -250,13 +241,13 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-10 07:27:56 WIB",
+    "generated_at": "2026-10-10 07:44:45 WIB",
     "date": "2026-10-10",
-    "mode": "FULL_STOCKBIT",
+    "mode": "YAHOO_ONLY",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
     "pipeline_version": "v7.0",
     "session_warning": "⚠️ Screening akhir pekan — referensi persiapan saja, bukan sinyal eksekusi.",
-    "mode_warning": null,
+    "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — ARA pipeline tidak berjalan",
     "intraday_count": 0,
     "ara_count": 0,
     "bsjp_count": 1,
@@ -286,12 +277,12 @@
     "warning": "⚠️ IHSG turun -1.9% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
-    "universe": 360,
-    "after_liquidity": 0,
-    "after_accumulation": 0,
-    "after_trend": 0,
-    "after_smc": 0,
-    "after_entry": 0,
+    "universe": 149,
+    "after_liquidity": 149,
+    "after_accumulation": 25,
+    "after_trend": 2,
+    "after_smc": 1,
+    "after_entry": 1,
     "final": 0
   },
   "config_ara": {
