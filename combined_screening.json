@@ -90,7 +90,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "23:54 WIB"
+      "generated_at": "00:14 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -98,7 +98,7 @@
       "ticker": "BIKE",
       "company": "Bhineka Inovasi Ketahanan Energi Tbk.",
       "tier": "A",
-      "score": 99,
+      "score": 104,
       "market_data": {
         "close": 2140.0,
         "change_pct": 24.78,
@@ -144,7 +144,8 @@
         "MA20 sedang naik — tren menguat",
         "Asing beli bersih hari ini (Rp 0.9B)",
         "Masuk screener volume explosion Stockbit",
-        "Saham naik signifikan hari ini (momentum)"
+        "Saham naik signifikan hari ini (momentum)",
+        "Hari Senin — win rate BSJP historis tertinggi"
       ],
       "signals_negative": [],
       "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
@@ -304,7 +305,7 @@
       "close": 1485.0,
       "near_52w_pct": 95.2,
       "wk_rsi": 77.1,
-      "wk_adx": 25.6,
+      "wk_adx": 25.7,
       "mo_rsi": 68.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -346,12 +347,12 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-11 23:55:28 WIB",
-    "date": "2026-10-11",
+    "generated_at": "2026-10-12 00:15:38 WIB",
+    "date": "2026-10-12",
     "mode": "FULL_STOCKBIT",
-    "session_label": "PRE_MARKET_WEEKEND (Sunday)",
+    "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
-    "session_warning": "⚠️ Screening akhir pekan — referensi persiapan saja, bukan sinyal eksekusi.",
+    "session_warning": null,
     "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 1,
@@ -383,8 +384,8 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 116,
-    "after_accumulation": 65,
+    "after_liquidity": 118,
+    "after_accumulation": 66,
     "after_trend": 13,
     "after_smc": 6,
     "after_entry": 6,
