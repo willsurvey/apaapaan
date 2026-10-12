@@ -6,7 +6,9 @@
       "company": "Sarana Menara Nusantara Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
+        "MOVER_TYPE_TOP_VOLUME",
         "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
@@ -14,14 +16,14 @@
       "market_data": {
         "close": 458,
         "change_pct": 0,
-        "value_today": 87954333000,
-        "frequency_today": 11297,
-        "iep": 458,
+        "value_today": 69790349000,
+        "frequency_today": 7518,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": -8490669400,
+        "net_foreign_today": 5022689200,
         "net_foreign_3d": 0,
         "acc_score": 70,
         "score_breakdown": {
@@ -44,7 +46,7 @@
         "ob_zone": null,
         "fvg_zone": "448 - 458",
         "strong_low": 400.0,
-        "weak_high": 420.0
+        "weak_high": 418.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -82,11 +84,11 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy kemarin",
+        "✅ Net Foreign Buy hari ini: Rp5.0B",
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.16 WIB"
+      "updated_at": "17.33 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -145,7 +147,7 @@
       "d2_body_pct": 0.333,
       "d2_vol_ratio_ma20": 2.7,
       "m1_last15_green": 12,
-      "m1_close_vs_vwap": -2.07,
+      "m1_close_vs_vwap": -1.62,
       "m1_close_pos_intra": 0.308,
       "m1_high_timing": 0.404,
       "m1_n_bars": 272,
@@ -169,15 +171,14 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -2.1%"
+        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif"
       ],
       "universe_sources": [
         "SCREENER_VOL_EXPLOSION",
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "17:16 WIB"
+      "generated_at": "17:34 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -185,13 +186,13 @@
       "ticker": "BIKE",
       "company": "Bhineka Inovasi Ketahanan Energi Tbk.",
       "tier": "A",
-      "score": 104,
+      "score": 94,
       "market_data": {
         "close": 2670.0,
         "change_pct": 24.77,
-        "value_today": 36390613000,
-        "net_foreign": 878699000,
-        "iep": 2670,
+        "value_today": 18570575000,
+        "net_foreign": -698948000,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "bsjp_features": {
@@ -229,12 +230,13 @@
         "Tutup di puncak absolut — tidak ada upper wick",
         "Uptrend penuh: di atas MA20, MA50, MA200",
         "MA20 sedang naik — tren menguat",
-        "Asing beli bersih hari ini (Rp 0.9B)",
         "Masuk screener volume explosion Stockbit",
         "Saham naik signifikan hari ini (momentum)",
         "Hari Senin — win rate BSJP historis tertinggi"
       ],
-      "signals_negative": [],
+      "signals_negative": [
+        "Asing jual bersih hari ini — hati-hati"
+      ],
       "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
       "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
       "rank": 1
@@ -247,7 +249,7 @@
     {
       "ticker": "BDMN",
       "company": "Bank Danamon Indonesia Tbk.",
-      "score": 70,
+      "score": 65,
       "close": 4950.0,
       "near_52w_pct": 97.5,
       "wk_rsi": 74.9,
@@ -262,8 +264,7 @@
         "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 2.8B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -315,29 +316,6 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "AKKU",
-      "company": "Anugerah Kagum Karya Utama Tbk.",
-      "score": 60,
-      "close": 84.0,
-      "near_52w_pct": 86.6,
-      "wk_rsi": 67.8,
-      "wk_adx": 38.2,
-      "mo_rsi": 83.3,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (68) + Wk ADX (38) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (83)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.1B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "TINS",
       "company": "Timah Tbk.",
       "score": 60,
@@ -355,7 +333,30 @@
         "Monthly RSI kuat (72)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 6.1B)"
+        "Asing beli bersih (Rp 30.7B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "GULA",
+      "company": "Aman Agrindo Tbk.",
+      "score": 60,
+      "close": 825.0,
+      "near_52w_pct": 94.8,
+      "wk_rsi": 69.6,
+      "wk_adx": 52.4,
+      "mo_rsi": 74.1,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (70) + Wk ADX (52) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (74)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 2.5B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -363,7 +364,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-12 17:17:47 WIB",
+    "generated_at": "2026-10-12 17:35:29 WIB",
     "date": "2026-10-12",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -400,10 +401,10 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 109,
-    "after_accumulation": 30,
-    "after_trend": 7,
-    "after_smc": 2,
+    "after_liquidity": 100,
+    "after_accumulation": 32,
+    "after_trend": 6,
+    "after_smc": 1,
     "after_entry": 1,
     "final": 1
   },

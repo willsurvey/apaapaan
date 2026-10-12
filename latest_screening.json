@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-12 17:17:47 WIB",
+  "generated_at": "2026-10-12 17:35:29 WIB",
   "date": "2026-10-12",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -17,10 +17,10 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 109,
-    "after_accumulation": 30,
-    "after_trend": 7,
-    "after_smc": 2,
+    "after_liquidity": 100,
+    "after_accumulation": 32,
+    "after_trend": 6,
+    "after_smc": 1,
     "after_entry": 1,
     "final": 1
   },
@@ -49,7 +49,9 @@
       "company": "Sarana Menara Nusantara Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
+        "MOVER_TYPE_TOP_VOLUME",
         "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
@@ -57,14 +59,14 @@
       "market_data": {
         "close": 458,
         "change_pct": 0,
-        "value_today": 87954333000,
-        "frequency_today": 11297,
-        "iep": 458,
+        "value_today": 69790349000,
+        "frequency_today": 7518,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": -8490669400,
+        "net_foreign_today": 5022689200,
         "net_foreign_3d": 0,
         "acc_score": 70,
         "score_breakdown": {
@@ -87,7 +89,7 @@
         "ob_zone": null,
         "fvg_zone": "448 - 458",
         "strong_low": 400.0,
-        "weak_high": 420.0
+        "weak_high": 418.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -125,11 +127,11 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy kemarin",
+        "✅ Net Foreign Buy hari ini: Rp5.0B",
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.16 WIB"
+      "updated_at": "17.33 WIB"
     }
   ]
 }
