@@ -34,8 +34,8 @@
       "ticker": "BSML",
       "company": "Bintang Samudera Mandiri Lines Tbk.",
       "score": 65,
-      "close": 550.0,
-      "near_52w_pct": 95.7,
+      "close": 555.0,
+      "near_52w_pct": 96.5,
       "wk_rsi": 71.9,
       "wk_adx": 49.5,
       "mo_rsi": 97.5,
@@ -44,8 +44,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (72) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
+        "Near 52W High (97%) + Wk RSI (72) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (97)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -57,11 +57,11 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1015.0,
-      "near_52w_pct": 95.8,
+      "close": 1020.0,
+      "near_52w_pct": 96.2,
       "wk_rsi": 75.0,
       "wk_adx": 55.3,
-      "mo_rsi": 78.8,
+      "mo_rsi": 79.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -69,7 +69,7 @@
       "signals_positive": [
         "Near 52W High (96%) + Wk RSI (75) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (79)",
+        "Monthly RSI kuat (80)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -103,18 +103,18 @@
       "ticker": "AKKU",
       "company": "Anugerah Kagum Karya Utama Tbk.",
       "score": 60,
-      "close": 84.0,
-      "near_52w_pct": 86.6,
+      "close": 86.0,
+      "near_52w_pct": 88.7,
       "wk_rsi": 67.8,
       "wk_adx": 38.2,
-      "mo_rsi": 83.3,
+      "mo_rsi": 83.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (68) + Wk ADX (38) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (83)",
+        "Near 52W High (89%) + Wk RSI (68) + Wk ADX (38) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (84)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 0.1B)"
@@ -125,7 +125,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-12 14:16:44 WIB",
+    "generated_at": "2026-10-12 14:34:10 WIB",
     "date": "2026-10-12",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -153,12 +153,12 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5941,
-    "ihsg_change_pct": -2.5,
-    "ihsg_trend": "BEARISH",
-    "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -2.5% kemarin. Trading dengan sangat hati-hati."
+    "warning": null,
+    "ihsg_trend": "UNKNOWN",
+    "ihsg_close": 0,
+    "ihsg_change_pct": 0,
+    "ihsg_above_ma50": true
   },
   "screening_summary": {
     "universe": 978,
