@@ -2,7 +2,81 @@
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
-  "bpjs_beli_pagi_jual_sore": [],
+  "bpjs_beli_pagi_jual_sore": [
+    {
+      "ticker": "TEBE",
+      "company": "Dana Brata Luhur Tbk",
+      "type": "WATCHLIST_BPJS",
+      "formula": "QUIET_CONTINUATION",
+      "score": 50,
+      "market_data": {
+        "close": 3020.0,
+        "change_pct": 6.43,
+        "value_today": 36863059000,
+        "net_foreign": -5643082000
+      },
+      "d1_features": {
+        "body_pct": 6.34,
+        "close_pos_pct": 69.2,
+        "vol_ratio": 0.4,
+        "change_pct": 7.86,
+        "range_pct": 8.61,
+        "upper_wick": 30.8,
+        "above_ma20": true,
+        "above_ma50": true,
+        "above_ma200": true,
+        "atr_pct": 9.78
+      },
+      "trading_plan": {
+        "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
+        "entry_range": "2,870 – 3,080",
+        "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
+        "stop_loss": 2570,
+        "stop_note": "Cut loss jika turun di bawah 2,570 (1 ATR dari entry)",
+        "target_modest": 3080,
+        "target_moderate": 3140,
+        "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
+      },
+      "morning_confirmation_criteria": [
+        "⚠️ WAJIB: Utamakan jika terjadi Gap Down > 3% saat open untuk risk/reward terbaik",
+        "✅ Skenario Gap Down >3% memiliki Profit Factor 6.78x & Win Rate 44.5%",
+        "✅ Volume 15 menit pertama normal/stabil di atas rata-rata",
+        "❌ JANGAN BELI jika Gap Up > 3% (euforia rawan bull trap, PF hanya 0.3x)",
+        "❌ JANGAN BELI jika langsung longsor drastis tanpa rebound dari low"
+      ],
+      "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
+      "universe_context": {
+        "in_mover_types": [
+          "MOVER_TYPE_TOP_VALUE",
+          "MOVER_TYPE_TOP_GAINER",
+          "GURU_92_Big Accumula",
+          "SCREENER_TOP_VALUE"
+        ],
+        "from_gainer": true,
+        "from_screener": false
+      },
+      "signals_positive": [
+        "Formula: Quiet Continuation — D-1 hijau tipis (+6.3%), volume mati (0.40x MA20), close tengah (69%). WR historis: 49.8% (n=1.371)",
+        "Di atas MA20 — support jangka pendek",
+        "Di atas MA50 — tren menengah masih ok",
+        "Di atas MA200 — tren utama masih bullish"
+      ],
+      "signals_negative": [
+        "Asing jual bersih besar — hati-hati gap down"
+      ],
+      "backtest_stats": {
+        "formula": "QUIET_CONTINUATION",
+        "win_rate": "49.8%",
+        "sample_size": "n=1.371",
+        "profit_factor": "1.04x",
+        "total_backtest": "789.792 hari trading IHSG (956 saham)",
+        "gap_down_sweet_spot": "Gap Down >2%: WR 30.2%, upside +3.75%, DD -0.88%",
+        "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
+      },
+      "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
+      "rank": 1
+    }
+  ],
   "swing_trading": [],
   "trend_following": [],
   "position_trading": [
@@ -33,18 +107,18 @@
       "ticker": "BDMN",
       "company": "Bank Danamon Indonesia Tbk.",
       "score": 65,
-      "close": 4980.0,
-      "near_52w_pct": 98.1,
+      "close": 5025.0,
+      "near_52w_pct": 99.0,
       "wk_rsi": 74.9,
       "wk_adx": 36.0,
-      "mo_rsi": 74.1,
+      "mo_rsi": 74.3,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (75) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
+        "Near 52W High (99%) + Wk RSI (75) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -56,19 +130,19 @@
       "ticker": "AKRA",
       "company": "AKR Corporindo Tbk.",
       "score": 65,
-      "close": 1485.0,
-      "near_52w_pct": 95.2,
+      "close": 1495.0,
+      "near_52w_pct": 95.8,
       "wk_rsi": 77.1,
       "wk_adx": 25.6,
-      "mo_rsi": 68.5,
+      "mo_rsi": 68.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (77) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (68)",
+        "Near 52W High (96%) + Wk RSI (77) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (69)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -79,8 +153,8 @@
       "ticker": "BSML",
       "company": "Bintang Samudera Mandiri Lines Tbk.",
       "score": 65,
-      "close": 575.0,
-      "near_52w_pct": 100.0,
+      "close": 570.0,
+      "near_52w_pct": 99.1,
       "wk_rsi": 71.9,
       "wk_adx": 49.5,
       "mo_rsi": 97.6,
@@ -89,8 +163,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (72) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
+        "Near 52W High (99%) + Wk RSI (72) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (98)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -102,18 +176,18 @@
       "ticker": "GULA",
       "company": "Aman Agrindo Tbk.",
       "score": 65,
-      "close": 835.0,
-      "near_52w_pct": 96.0,
+      "close": 830.0,
+      "near_52w_pct": 95.4,
       "wk_rsi": 69.6,
       "wk_adx": 52.4,
-      "mo_rsi": 74.3,
+      "mo_rsi": 74.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (70) + Wk ADX (52) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
+        "Near 52W High (95%) + Wk RSI (70) + Wk ADX (52) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -124,7 +198,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-12 09:13:16 WIB",
+    "generated_at": "2026-10-12 09:33:38 WIB",
     "date": "2026-10-12",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -134,7 +208,7 @@
     "intraday_count": 0,
     "ara_count": 0,
     "bsjp_count": 0,
-    "bpjs_count": 0,
+    "bpjs_count": 1,
     "swing_count": 0,
     "trend_count": 0,
     "position_count": 5,
@@ -152,8 +226,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 6093,
-    "ihsg_change_pct": 1.04,
+    "ihsg_close": 6089,
+    "ihsg_change_pct": -0.08,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -161,8 +235,8 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 23,
-    "after_accumulation": 0,
+    "after_liquidity": 54,
+    "after_accumulation": 1,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
