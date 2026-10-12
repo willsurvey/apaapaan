@@ -79,123 +79,7 @@
     }
   ],
   "swing_trading": [],
-  "trend_following": [
-    {
-      "ticker": "VICI",
-      "company": "Victoria Care Indonesia Tbk",
-      "score": 70,
-      "close": 1185.0,
-      "adx": 40.0,
-      "rsi": 58.8,
-      "macd_hist": 14.6272,
-      "wk_adx": 44.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (40) + RSI sehat (59) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+15.6%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (45)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "MBSS",
-      "company": "Mitrabahtera Segara Sejati Tbk.",
-      "score": 70,
-      "close": 4080.0,
-      "adx": 53.4,
-      "rsi": 67.8,
-      "macd_hist": 126.0971,
-      "wk_adx": 35.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (53) + RSI sehat (68) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (36)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif",
-        "Asing beli bersih (Rp 4.1B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "HELI",
-      "company": "Jaya Trishindo Tbk.",
-      "score": 70,
-      "close": 272.0,
-      "adx": 62.3,
-      "rsi": 53.8,
-      "macd_hist": 2.5821,
-      "wk_adx": 35.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (62) + RSI sehat (54) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (35)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif",
-        "Asing beli bersih (Rp 0.1B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "ALKA",
-      "company": "Alakasa Industrindo Tbk.",
-      "score": 70,
-      "close": 6650.0,
-      "adx": 54.7,
-      "rsi": 61.3,
-      "macd_hist": 51.6729,
-      "wk_adx": 58.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (55) + RSI sehat (61) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+16.7%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (58)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "SMMT",
-      "company": "Golden Eagle Energy Tbk.",
-      "score": 70,
-      "close": 3780.0,
-      "adx": 56.3,
-      "rsi": 65.1,
-      "macd_hist": 30.4861,
-      "wk_adx": 43.0,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (56) + RSI sehat (65) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+11.2%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (43)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    }
-  ],
+  "trend_following": [],
   "position_trading": [
     {
       "ticker": "BDMN",
@@ -316,7 +200,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-12 12:34:56 WIB",
+    "generated_at": "2026-10-12 12:56:22 WIB",
     "date": "2026-10-12",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -328,7 +212,7 @@
     "bsjp_count": 0,
     "bpjs_count": 1,
     "swing_count": 0,
-    "trend_count": 5,
+    "trend_count": 0,
     "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
@@ -353,8 +237,8 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 108,
-    "after_accumulation": 3,
+    "after_liquidity": 110,
+    "after_accumulation": 0,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
