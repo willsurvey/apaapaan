@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-12 21:35:54 WIB",
+  "generated_at": "2026-10-12 21:55:07 WIB",
   "date": "2026-10-12",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -89,7 +89,7 @@
         "ob_zone": null,
         "fvg_zone": "448 - 458",
         "strong_low": 400.0,
-        "weak_high": 420.0
+        "weak_high": 418.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -131,7 +131,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "21.33 WIB"
+      "updated_at": "21.54 WIB"
     }
   ]
 }
