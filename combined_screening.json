@@ -1,139 +1,8 @@
 {
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
-  "bsjp_beli_sore_jual_pagi": [
-    {
-      "ticker": "BIKE",
-      "company": "Bhineka Inovasi Ketahanan Energi Tbk.",
-      "tier": "A",
-      "score": 104,
-      "market_data": {
-        "close": 2140.0,
-        "change_pct": 24.78,
-        "value_today": 14482670000,
-        "net_foreign": 878699000,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "bsjp_features": {
-        "vol_ratio20": 4.23,
-        "body_pct": 25.51,
-        "close_pos_pct": 100.0,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": true,
-        "atr_pct": 7.13
-      },
-      "entry_plan": {
-        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
-        "entry_range": "2,120 – 2,140",
-        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
-        "stop_loss": 1565,
-        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
-        "target_pct": "+2% s/d +8% di pagi hari",
-        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
-      },
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_GAINER",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_63_High Volume ",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": true,
-        "from_screener": true,
-        "from_top_value": true
-      },
-      "signals_positive": [
-        "Volume spike 4.2x MA20",
-        "Candle hijau sangat kuat (25.5%)",
-        "Tutup di puncak absolut — tidak ada upper wick",
-        "Uptrend penuh: di atas MA20, MA50, MA200",
-        "MA20 sedang naik — tren menguat",
-        "Asing beli bersih hari ini (Rp 0.9B)",
-        "Masuk screener volume explosion Stockbit",
-        "Saham naik signifikan hari ini (momentum)",
-        "Hari Senin — win rate BSJP historis tertinggi"
-      ],
-      "signals_negative": [],
-      "win_probability": "~64% berdasarkan backtest 3.330 kejadian historis",
-      "disclaimer": "Tier A BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
-      "rank": 1
-    }
-  ],
-  "bpjs_beli_pagi_jual_sore": [
-    {
-      "ticker": "SRSN",
-      "company": "Indo Acidatama Tbk",
-      "type": "WATCHLIST_BPJS",
-      "formula": "QUIET_CONTINUATION",
-      "score": 60,
-      "market_data": {
-        "close": 136.0,
-        "change_pct": 1.49,
-        "value_today": 13571953300,
-        "net_foreign": 782575300
-      },
-      "d1_features": {
-        "body_pct": 4.62,
-        "close_pos_pct": 70.0,
-        "vol_ratio": 0.22,
-        "change_pct": 1.49,
-        "range_pct": 7.35,
-        "upper_wick": 30.0,
-        "above_ma20": true,
-        "above_ma50": true,
-        "above_ma200": true,
-        "atr_pct": 9.4
-      },
-      "trading_plan": {
-        "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "130 – 139",
-        "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 117,
-        "stop_note": "Cut loss jika turun di bawah 117 (1 ATR dari entry)",
-        "target_modest": 139,
-        "target_moderate": 141,
-        "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
-      },
-      "morning_confirmation_criteria": [
-        "⚠️ WAJIB: Utamakan jika terjadi Gap Down > 3% saat open untuk risk/reward terbaik",
-        "✅ Skenario Gap Down >3% memiliki Profit Factor 6.78x & Win Rate 44.5%",
-        "✅ Volume 15 menit pertama normal/stabil di atas rata-rata",
-        "❌ JANGAN BELI jika Gap Up > 3% (euforia rawan bull trap, PF hanya 0.3x)",
-        "❌ JANGAN BELI jika langsung longsor drastis tanpa rebound dari low"
-      ],
-      "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
-          "GURU_78_Daily Net Fo",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": false,
-        "from_screener": false
-      },
-      "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+4.6%), volume mati (0.22x MA20), close tengah (70%). WR historis: 49.8% (n=1.371)",
-        "Di atas MA20 — support jangka pendek",
-        "Di atas MA50 — tren menengah masih ok",
-        "Di atas MA200 — tren utama masih bullish",
-        "Asing beli bersih hari ini (Rp 0.8B)"
-      ],
-      "signals_negative": [],
-      "backtest_stats": {
-        "formula": "QUIET_CONTINUATION",
-        "win_rate": "49.8%",
-        "sample_size": "n=1.371",
-        "profit_factor": "1.04x",
-        "total_backtest": "789.792 hari trading IHSG (956 saham)",
-        "gap_down_sweet_spot": "Gap Down >2%: WR 30.2%, upside +3.75%, DD -0.88%",
-        "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
-      },
-      "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
-      "rank": 1
-    }
-  ],
+  "bsjp_beli_sore_jual_pagi": [],
+  "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
   "position_trading": [
@@ -255,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-12 07:54:59 WIB",
+    "generated_at": "2026-10-12 08:14:20 WIB",
     "date": "2026-10-12",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -264,8 +133,8 @@
     "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
-    "bsjp_count": 1,
-    "bpjs_count": 1,
+    "bsjp_count": 0,
+    "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
     "position_count": 5,
@@ -292,11 +161,11 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 116,
-    "after_accumulation": 65,
-    "after_trend": 13,
-    "after_smc": 6,
-    "after_entry": 6,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
+    "after_smc": 0,
+    "after_entry": 0,
     "final": 0
   },
   "config_ara": {
