@@ -59,7 +59,7 @@
       "close": 1485.0,
       "near_52w_pct": 95.2,
       "wk_rsi": 77.1,
-      "wk_adx": 25.7,
+      "wk_adx": 25.6,
       "mo_rsi": 68.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -124,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-12 08:53:02 WIB",
+    "generated_at": "2026-10-12 09:13:16 WIB",
     "date": "2026-10-12",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -161,7 +161,7 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 0,
+    "after_liquidity": 23,
     "after_accumulation": 0,
     "after_trend": 0,
     "after_smc": 0,
