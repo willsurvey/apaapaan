@@ -56,7 +56,7 @@
       "d2_body_pct": 0.333,
       "d2_vol_ratio_ma20": 2.7,
       "m1_last15_green": 12,
-      "m1_close_vs_vwap": -1.62,
+      "m1_close_vs_vwap": -2.07,
       "m1_close_pos_intra": 0.308,
       "m1_high_timing": 0.404,
       "m1_n_bars": 272,
@@ -80,14 +80,15 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif"
+        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif",
+        "Close di bawah VWAP: -2.1%"
       ],
       "universe_sources": [
         "SCREENER_VOL_EXPLOSION",
         "GURU_92"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "22:56 WIB"
+      "generated_at": "23:14 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -273,7 +274,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-12 22:57:13 WIB",
+    "generated_at": "2026-10-12 23:15:27 WIB",
     "date": "2026-10-12",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -311,7 +312,7 @@
   "screening_summary": {
     "universe": 978,
     "after_liquidity": 119,
-    "after_accumulation": 31,
+    "after_accumulation": 30,
     "after_trend": 6,
     "after_smc": 1,
     "after_entry": 1,
