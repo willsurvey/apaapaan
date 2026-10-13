@@ -36,13 +36,11 @@
       "universe_context": {
         "in_mover_types": [
           "MOVER_TYPE_TOP_GAINER",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_63_High Volume ",
-          "SCREENER_TOP_VALUE"
+          "SCREENER_VOLUME_EXPLOSION"
         ],
         "from_gainer": true,
         "from_screener": true,
-        "from_top_value": true
+        "from_top_value": false
       },
       "signals_positive": [
         "Volume spike 4.2x MA20",
@@ -108,8 +106,7 @@
         "in_mover_types": [
           "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_GAINER",
-          "GURU_77_Foreign Flow",
-          "SCREENER_TOP_VALUE"
+          "GURU_77_Foreign Flow"
         ],
         "from_gainer": true,
         "from_screener": false
@@ -258,7 +255,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-14 00:55:29 WIB",
+    "generated_at": "2026-10-14 01:08:26 WIB",
     "date": "2026-10-14",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -294,12 +291,12 @@
     "warning": "⚠️ IHSG turun -2.6% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
-    "universe": 978,
-    "after_liquidity": 117,
-    "after_accumulation": 66,
-    "after_trend": 12,
-    "after_smc": 8,
-    "after_entry": 7,
+    "universe": 399,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
+    "after_smc": 0,
+    "after_entry": 0,
     "final": 0
   },
   "config_ara": {
