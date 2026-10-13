@@ -89,7 +89,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "20:55 WIB"
+      "generated_at": "21:16 WIB"
     },
     {
       "ticker": "CTTH",
@@ -178,7 +178,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "20:55 WIB"
+      "generated_at": "21:16 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -305,7 +305,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-13 20:56:37 WIB",
+    "generated_at": "2026-10-13 21:17:24 WIB",
     "date": "2026-10-13",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -342,8 +342,8 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 117,
-    "after_accumulation": 66,
+    "after_liquidity": 119,
+    "after_accumulation": 67,
     "after_trend": 10,
     "after_smc": 6,
     "after_entry": 6,
