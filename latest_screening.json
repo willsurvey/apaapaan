@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-10-13 18:36:15 WIB",
+  "generated_at": "2026-10-13 18:56:14 WIB",
   "date": "2026-10-13",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,18 +8,18 @@
   "mode_warning": null,
   "total_saham": 0,
   "market_context": {
-    "ihsg_close": 5936,
-    "ihsg_change_pct": -2.59,
+    "ihsg_close": 5925,
+    "ihsg_change_pct": -0.17,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -2.6% kemarin. Trading dengan sangat hati-hati."
+    "warning": null
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 109,
-    "after_accumulation": 64,
-    "after_trend": 10,
+    "after_liquidity": 116,
+    "after_accumulation": 66,
+    "after_trend": 11,
     "after_smc": 6,
     "after_entry": 6,
     "final": 0
