@@ -56,10 +56,10 @@
       "d2_body_pct": 0.062,
       "d2_vol_ratio_ma20": 2.01,
       "m1_last15_green": 14,
-      "m1_close_vs_vwap": 10.31,
+      "m1_close_vs_vwap": 11.23,
       "m1_close_pos_intra": 0.982,
-      "m1_high_timing": 0.945,
-      "m1_n_bars": 181,
+      "m1_high_timing": 0.944,
+      "m1_n_bars": 179,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -75,7 +75,7 @@
         "Harga di atas MA20",
         "5d trend sehat: +23.6%",
         "Close intraday kuat: 0.98 (mendekati high harian)",
-        "Close di atas VWAP: +10.3%",
+        "Close di atas VWAP: +11.2%",
         "High intraday di akhir sesi (94%)",
         "Broker signal: Big Accumulation (+10 poin)"
       ],
@@ -88,7 +88,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "22:37 WIB"
+      "generated_at": "22:58 WIB"
     },
     {
       "ticker": "LOPI",
@@ -145,10 +145,10 @@
       "d2_body_pct": 0.667,
       "d2_vol_ratio_ma20": 1.71,
       "m1_last15_green": 12,
-      "m1_close_vs_vwap": -4.31,
+      "m1_close_vs_vwap": -5.75,
       "m1_close_pos_intra": 0.364,
       "m1_high_timing": 0.0,
-      "m1_n_bars": 255,
+      "m1_n_bars": 254,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": false,
@@ -169,7 +169,7 @@
       ],
       "signals_negative": [
         "Closing flat bias: 10/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -4.3%",
+        "Close di bawah VWAP: -5.8%",
         "High intraday di awal sesi (0%) — profit taking sore"
       ],
       "universe_sources": [
@@ -178,7 +178,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "22:36 WIB"
+      "generated_at": "22:58 WIB"
     },
     {
       "ticker": "TCPI",
@@ -235,10 +235,10 @@
       "d2_body_pct": 0.867,
       "d2_vol_ratio_ma20": 1.63,
       "m1_last15_green": 10,
-      "m1_close_vs_vwap": 9.06,
+      "m1_close_vs_vwap": 7.98,
       "m1_close_pos_intra": 0.752,
       "m1_high_timing": 0.946,
-      "m1_n_bars": 316,
+      "m1_n_bars": 315,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": false,
@@ -255,7 +255,7 @@
         "Range expansion: 2.1x avg-5d",
         "Harga di atas MA20",
         "Close intraday kuat: 0.75 (mendekati high harian)",
-        "Close di atas VWAP: +9.1%",
+        "Close di atas VWAP: +8.0%",
         "High intraday di akhir sesi (95%)",
         "Broker signal: Big Accumulation (+10 poin)"
       ],
@@ -269,7 +269,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "22:37 WIB"
+      "generated_at": "22:58 WIB"
     },
     {
       "ticker": "CTTH",
@@ -325,11 +325,11 @@
       "d2_change_pct": -2.08,
       "d2_body_pct": 0.25,
       "d2_vol_ratio_ma20": 0.12,
-      "m1_last15_green": 10,
-      "m1_close_vs_vwap": -5.44,
+      "m1_last15_green": 11,
+      "m1_close_vs_vwap": -3.52,
       "m1_close_pos_intra": 0.437,
       "m1_high_timing": 0.764,
-      "m1_n_bars": 276,
+      "m1_n_bars": 275,
       "m1_data_available": true,
       "above_ma20": false,
       "above_ma50": false,
@@ -348,8 +348,8 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 8/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -5.4%"
+        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif",
+        "Close di bawah VWAP: -3.5%"
       ],
       "universe_sources": [
         "SCREENER_VOL_EXPLOSION",
@@ -358,7 +358,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "22:36 WIB"
+      "generated_at": "22:57 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -485,7 +485,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-13 22:38:05 WIB",
+    "generated_at": "2026-10-13 22:59:14 WIB",
     "date": "2026-10-13",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -513,17 +513,17 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5936,
-    "ihsg_change_pct": -2.59,
+    "ihsg_close": 5925,
+    "ihsg_change_pct": -0.17,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -2.6% kemarin. Trading dengan sangat hati-hati."
+    "warning": null
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 119,
-    "after_accumulation": 68,
+    "after_liquidity": 116,
+    "after_accumulation": 66,
     "after_trend": 10,
     "after_smc": 6,
     "after_entry": 6,
