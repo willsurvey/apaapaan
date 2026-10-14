@@ -6,6 +6,7 @@
       "company": "Astra Agro Lestari Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
+        "MOVER_TYPE_NET_FOREIGN_BUY",
         "MOVER_TYPE_TOP_GAINER",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_72_IHSG Short-t",
@@ -16,12 +17,12 @@
         "change_pct": 5.49,
         "value_today": 26411352500,
         "frequency_today": 2010,
-        "iep": 8650,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": -3127977500,
+        "net_foreign_today": 6971407500,
         "net_foreign_3d": 0,
         "acc_score": 60,
         "score_breakdown": {
@@ -82,12 +83,12 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy kemarin",
+        "✅ Net Foreign Buy hari ini: Rp7.0B",
         "✅ Harga di zona Order Block aktif",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.34 WIB"
     },
     {
       "rank": 2,
@@ -106,12 +107,12 @@
         "change_pct": 0.81,
         "value_today": 38775937500,
         "frequency_today": 3863,
-        "iep": 25000,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": 3962800000,
+        "net_foreign_today": 3140072500,
         "net_foreign_3d": 0,
         "acc_score": 55,
         "score_breakdown": {
@@ -172,13 +173,13 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp4.0B",
+        "✅ Net Foreign Buy hari ini: Rp3.1B",
         "✅ Harga di zona FVG aktif",
         "✅ Swing Structure: BULLISH",
         "✅ Pullback ke MA50 (2.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.34 WIB"
     },
     {
       "rank": 3,
@@ -268,7 +269,7 @@
         "✅ Pullback ke MA50 (0.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -296,7 +297,7 @@
         "Monthly RSI kuat (92)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 6.4B)"
+        "Asing beli bersih (Rp 3.4B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -320,7 +321,7 @@
         "Monthly RSI kuat (78)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.0B)"
+        "Asing beli bersih (Rp 1.3B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -397,7 +398,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-14 17:16:04 WIB",
+    "generated_at": "2026-10-14 17:35:37 WIB",
     "date": "2026-10-14",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
