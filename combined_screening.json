@@ -124,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-14 08:32:42 WIB",
+    "generated_at": "2026-10-14 08:54:17 WIB",
     "date": "2026-10-14",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -152,12 +152,12 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5936,
-    "ihsg_change_pct": -2.59,
+    "ihsg_close": 5925,
+    "ihsg_change_pct": -0.17,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -2.6% kemarin. Trading dengan sangat hati-hati."
+    "warning": null
   },
   "screening_summary": {
     "universe": 978,
