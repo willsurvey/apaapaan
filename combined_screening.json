@@ -33,8 +33,8 @@
         }
       },
       "trend": {
-        "ma50": 1121.0,
-        "gap_from_ma50_pct": 0.37,
+        "ma50": 1119.0,
+        "gap_from_ma50_pct": 0.5,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -85,10 +85,10 @@
         "✅ Internal BOS Bullish (1H)",
         "✅ Harga di zona FVG aktif",
         "✅ Swing Structure: BULLISH",
-        "✅ Pullback ke MA50 (0.4% di atas MA50)"
+        "✅ Pullback ke MA50 (0.5% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "23.54 WIB"
+      "updated_at": "00.17 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -101,8 +101,8 @@
       "ticker": "MMIX",
       "company": "Multi Medika Internasional Tbk.",
       "score": 70,
-      "close": 975.0,
-      "near_52w_pct": 98.5,
+      "close": 970.0,
+      "near_52w_pct": 98.0,
       "wk_rsi": 80.0,
       "wk_adx": 42.0,
       "mo_rsi": 92.1,
@@ -122,58 +122,11 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "HATM",
-      "company": "Habco Trans Maritima Tbk.",
-      "score": 70,
-      "close": 670.0,
-      "near_52w_pct": 97.8,
-      "wk_rsi": 74.5,
-      "wk_adx": 33.8,
-      "mo_rsi": 78.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (75) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (78)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.3B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "NEST",
-      "company": "Esta Indonesia Tbk",
-      "score": 65,
-      "close": 835.0,
-      "near_52w_pct": 95.4,
-      "wk_rsi": 74.1,
-      "wk_adx": 62.9,
-      "mo_rsi": 85.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (63) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (86)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "BDMN",
       "company": "Bank Danamon Indonesia Tbk.",
       "score": 65,
-      "close": 5025.0,
-      "near_52w_pct": 99.0,
+      "close": 4950.0,
+      "near_52w_pct": 97.5,
       "wk_rsi": 71.6,
       "wk_adx": 37.5,
       "mo_rsi": 74.3,
@@ -182,8 +135,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (72) + Wk ADX (38) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
+        "Near 52W High (98%) + Wk RSI (72) + Wk ADX (38) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -213,12 +166,58 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "BSML",
+      "company": "Bintang Samudera Mandiri Lines Tbk.",
+      "score": 65,
+      "close": 565.0,
+      "near_52w_pct": 96.6,
+      "wk_rsi": 59.4,
+      "wk_adx": 50.2,
+      "mo_rsi": 97.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (59) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (97)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "PCAR",
+      "company": "Prima Cakrawala Abadi Tbk.",
+      "score": 60,
+      "close": 92.0,
+      "near_52w_pct": 87.6,
+      "wk_rsi": 77.8,
+      "wk_adx": 35.7,
+      "mo_rsi": 73.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (88%) + Wk RSI (78) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (73)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 0.2B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-14 23:56:00 WIB",
-    "date": "2026-10-14",
+    "generated_at": "2026-10-15 00:18:30 WIB",
+    "date": "2026-10-15",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
@@ -245,8 +244,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5943,
-    "ihsg_change_pct": 0.29,
+    "ihsg_close": 5925,
+    "ihsg_change_pct": -0.17,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -256,9 +255,9 @@
     "universe": 978,
     "after_liquidity": 118,
     "after_accumulation": 32,
-    "after_trend": 7,
-    "after_smc": 4,
-    "after_entry": 3,
+    "after_trend": 9,
+    "after_smc": 5,
+    "after_entry": 4,
     "final": 1
   },
   "config_ara": {
