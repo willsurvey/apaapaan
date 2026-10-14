@@ -88,7 +88,7 @@
         "✅ Pullback ke MA50 (0.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "18.33 WIB"
+      "updated_at": "18.54 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -217,7 +217,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-14 18:35:02 WIB",
+    "generated_at": "2026-10-14 18:55:28 WIB",
     "date": "2026-10-14",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -254,7 +254,7 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 111,
+    "after_liquidity": 117,
     "after_accumulation": 32,
     "after_trend": 7,
     "after_smc": 4,
