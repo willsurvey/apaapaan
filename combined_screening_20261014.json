@@ -1,27 +1,236 @@
 {
-  "logika_lama_intraday": [],
+  "logika_lama_intraday": [
+    {
+      "rank": 1,
+      "ticker": "MARK",
+      "company": "Mark Dynamics Indonesia Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "SCREENER_VOLUME_EXPLOSION",
+        "GURU_78_Daily Net Fo",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 1125,
+        "change_pct": 0,
+        "value_today": 20069245500.0,
+        "frequency_today": 0,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Neutral",
+        "net_foreign_today": 0,
+        "net_foreign_3d": 10,
+        "acc_score": 40,
+        "score_breakdown": {
+          "broker": 5,
+          "foreign_1d": 15,
+          "foreign_3d": 10,
+          "candle": 10,
+          "volume": 0,
+          "total": 40
+        }
+      },
+      "trend": {
+        "ma50": 1121.0,
+        "gap_from_ma50_pct": 0.37,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "BOS_BULLISH",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": null,
+        "fvg_zone": "1105 - 1125",
+        "strong_low": 1150.0,
+        "weak_high": 1210.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 1120,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 1105,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 1095,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 1105,
+        "entry_zone": "1095 - 1120",
+        "sl": 1085,
+        "sl_pct_risk": 1.81,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 1130,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 1210,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 1245,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:7.0",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 55,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Net Foreign Buy kemarin",
+        "✅ Net Foreign Buy 3 hari berturut",
+        "✅ Internal BOS Bullish (1H)",
+        "✅ Harga di zona FVG aktif",
+        "✅ Swing Structure: BULLISH",
+        "✅ Pullback ke MA50 (0.4% di atas MA50)"
+      ],
+      "warnings": [],
+      "updated_at": "23.16 WIB"
+    }
+  ],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
-  "position_trading": [],
+  "position_trading": [
+    {
+      "ticker": "MMIX",
+      "company": "Multi Medika Internasional Tbk.",
+      "score": 70,
+      "close": 975.0,
+      "near_52w_pct": 98.5,
+      "wk_rsi": 80.0,
+      "wk_adx": 42.0,
+      "mo_rsi": 92.1,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (98%) + Wk RSI (80) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (92)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 3.4B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "HATM",
+      "company": "Habco Trans Maritima Tbk.",
+      "score": 70,
+      "close": 670.0,
+      "near_52w_pct": 97.8,
+      "wk_rsi": 74.5,
+      "wk_adx": 33.8,
+      "mo_rsi": 78.4,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (98%) + Wk RSI (75) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (78)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 1.3B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
+      "score": 65,
+      "close": 835.0,
+      "near_52w_pct": 95.4,
+      "wk_rsi": 74.1,
+      "wk_adx": 62.9,
+      "mo_rsi": 85.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (63) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (86)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "BDMN",
+      "company": "Bank Danamon Indonesia Tbk.",
+      "score": 65,
+      "close": 5025.0,
+      "near_52w_pct": 99.0,
+      "wk_rsi": 71.6,
+      "wk_adx": 37.5,
+      "mo_rsi": 74.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (99%) + Wk RSI (72) + Wk ADX (38) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (74)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1025.0,
+      "near_52w_pct": 96.7,
+      "wk_rsi": 66.7,
+      "wk_adx": 56.0,
+      "mo_rsi": 80.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (67) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (80)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    }
+  ],
   "meta": {
-    "status": "no_signal",
-    "generated_at": "2026-10-14 22:42:12 WIB",
+    "status": "success",
+    "generated_at": "2026-10-14 23:17:44 WIB",
     "date": "2026-10-14",
-    "mode": "YAHOO_ONLY",
+    "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
     "session_warning": null,
-    "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — ARA pipeline tidak berjalan",
-    "intraday_count": 0,
+    "mode_warning": null,
+    "intraday_count": 1,
     "ara_count": 0,
     "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
-    "position_count": 0,
+    "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
     "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
@@ -36,9 +245,22 @@
     }
   },
   "market_context": {
-    "market_safe": false
+    "ihsg_close": 5943,
+    "ihsg_change_pct": 0.29,
+    "ihsg_trend": "BEARISH",
+    "ihsg_above_ma50": false,
+    "market_safe": true,
+    "warning": null
   },
-  "screening_summary": {},
+  "screening_summary": {
+    "universe": 978,
+    "after_liquidity": 118,
+    "after_accumulation": 32,
+    "after_trend": 7,
+    "after_smc": 4,
+    "after_entry": 3,
+    "final": 1
+  },
   "config_ara": {
     "vol_ma20_tier1": 3.0,
     "vol_ma20_tier2": 6.0,
