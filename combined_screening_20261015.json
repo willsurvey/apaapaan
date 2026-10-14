@@ -88,7 +88,7 @@
         "✅ Pullback ke MA50 (0.5% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "01.15 WIB"
+      "updated_at": "01.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -168,29 +168,6 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "BSML",
-      "company": "Bintang Samudera Mandiri Lines Tbk.",
-      "score": 65,
-      "close": 565.0,
-      "near_52w_pct": 96.6,
-      "wk_rsi": 59.4,
-      "wk_adx": 50.2,
-      "mo_rsi": 97.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (59) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (97)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "PCAR",
       "company": "Prima Cakrawala Abadi Tbk.",
       "score": 60,
@@ -212,11 +189,34 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "TINS",
+      "company": "Timah Tbk.",
+      "score": 60,
+      "close": 4380.0,
+      "near_52w_pct": 87.6,
+      "wk_rsi": 71.0,
+      "wk_adx": 26.9,
+      "mo_rsi": 72.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (88%) + Wk RSI (71) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (72)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 16.9B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-15 01:16:30 WIB",
+    "generated_at": "2026-10-15 01:35:46 WIB",
     "date": "2026-10-15",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -253,8 +253,8 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 116,
-    "after_accumulation": 33,
+    "after_liquidity": 118,
+    "after_accumulation": 32,
     "after_trend": 9,
     "after_smc": 5,
     "after_entry": 4,
