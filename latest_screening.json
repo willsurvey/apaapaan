@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-14 17:35:37 WIB",
+  "generated_at": "2026-10-14 17:57:03 WIB",
   "date": "2026-10-14",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -131,7 +131,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.34 WIB"
+      "updated_at": "17.55 WIB"
     },
     {
       "rank": 2,
@@ -176,7 +176,7 @@
         "internal_structure": "NONE",
         "swing_trend_bias": "BULLISH",
         "ob_zone": null,
-        "fvg_zone": "24350 - 24775",
+        "fvg_zone": "24350 - 24750",
         "strong_low": 24150.0,
         "weak_high": 26175.0
       },
@@ -222,7 +222,7 @@
         "✅ Pullback ke MA50 (2.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "17.34 WIB"
+      "updated_at": "17.55 WIB"
     },
     {
       "rank": 3,
@@ -312,7 +312,7 @@
         "✅ Pullback ke MA50 (0.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "17.34 WIB"
+      "updated_at": "17.55 WIB"
     }
   ]
 }
