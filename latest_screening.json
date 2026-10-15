@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-15 06:55:50 WIB",
+  "generated_at": "2026-10-15 07:16:14 WIB",
   "date": "2026-10-15",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -17,11 +17,11 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 117,
+    "after_liquidity": 116,
     "after_accumulation": 33,
     "after_trend": 7,
-    "after_smc": 4,
-    "after_entry": 3,
+    "after_smc": 6,
+    "after_entry": 5,
     "final": 1
   },
   "config": {
@@ -84,7 +84,7 @@
         "internal_structure": "BOS_BULLISH",
         "swing_trend_bias": "BULLISH",
         "ob_zone": null,
-        "fvg_zone": "1105 - 1125",
+        "fvg_zone": null,
         "strong_low": 1150.0,
         "weak_high": 1210.0
       },
@@ -119,19 +119,18 @@
         "risk_note": "Max 2% dari total portofolio"
       },
       "scoring": {
-        "confidence_score": 55,
+        "confidence_score": 50,
         "tier": "MODERATE"
       },
       "signals": [
         "✅ Net Foreign Buy kemarin",
         "✅ Net Foreign Buy 3 hari berturut",
         "✅ Internal BOS Bullish (1H)",
-        "✅ Harga di zona FVG aktif",
         "✅ Swing Structure: BULLISH",
         "✅ Pullback ke MA50 (0.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "06.54 WIB"
+      "updated_at": "07.14 WIB"
     }
   ]
 }
