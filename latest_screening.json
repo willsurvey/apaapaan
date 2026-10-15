@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-15 14:35:00 WIB",
+  "generated_at": "2026-10-15 14:57:40 WIB",
   "date": "2026-10-15",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,20 +8,20 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 5826,
-    "ihsg_change_pct": -1.96,
+    "ihsg_close": 5841,
+    "ihsg_change_pct": -1.71,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -2.0% kemarin. Trading dengan sangat hati-hati."
+    "warning": "⚠️ IHSG turun -1.7% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
     "universe": 978,
     "after_liquidity": 118,
-    "after_accumulation": 4,
-    "after_trend": 1,
-    "after_smc": 1,
-    "after_entry": 1,
+    "after_accumulation": 6,
+    "after_trend": 2,
+    "after_smc": 2,
+    "after_entry": 2,
     "final": 1
   },
   "config": {
@@ -53,9 +53,9 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 5000,
+        "close": 5025,
         "change_pct": 0,
-        "value_today": 8834497000.0,
+        "value_today": 9473502000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -76,7 +76,7 @@
       },
       "trend": {
         "ma50": 4476.0,
-        "gap_from_ma50_pct": 11.71,
+        "gap_from_ma50_pct": 12.26,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -93,19 +93,19 @@
         "entry_direction": "MOMENTUM",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu konfirmasi pantulan di area OB, hindari entry langsung pagi hari karena volatilitas tinggi!",
         "entry_direction_reason": "Internal BOS/CHoCH bullish 1H + OB confirmed",
-        "entry_1": 5000,
+        "entry_1": 5025,
         "entry_1_pct": 20,
         "entry_1_note": "PDC entry — momentum kuat (Internal BOS/CHoCH bullish 1H + OB confirmed)",
-        "entry_2": 4970,
+        "entry_2": 4990,
         "entry_2_pct": 50,
         "entry_2_note": "Pullback ringan / OB zone",
-        "entry_3": 4940,
+        "entry_3": 4970,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 4970,
-        "entry_zone": "4940 - 5000",
+        "average_entry": 4990,
+        "entry_zone": "4970 - 5025",
         "sl": 4910,
-        "sl_pct_risk": 1.21,
+        "sl_pct_risk": 1.6,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
         "tp1": 5025,
         "tp1_note": "PDH / Target psikologis intraday",
@@ -113,7 +113,7 @@
         "tp2_note": "Weak High / Supply Zone 1H",
         "tp3": 5325,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:5.9",
+        "rr_ratio": "1:4.2",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
@@ -128,7 +128,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.33 WIB"
+      "updated_at": "14.55 WIB"
     }
   ]
 }
