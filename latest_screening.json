@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-15 17:15:33 WIB",
+  "generated_at": "2026-10-15 17:37:00 WIB",
   "date": "2026-10-15",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -17,11 +17,11 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 101,
+    "after_liquidity": 105,
     "after_accumulation": 38,
-    "after_trend": 8,
-    "after_smc": 8,
-    "after_entry": 7,
+    "after_trend": 7,
+    "after_smc": 7,
+    "after_entry": 6,
     "final": 2
   },
   "config": {
@@ -45,50 +45,49 @@
   "data": [
     {
       "rank": 1,
-      "ticker": "UNTR",
-      "company": "United Tractors Tbk.",
+      "ticker": "PWON",
+      "company": "Pakuwon Jati Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
-        "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula",
+        "GURU_77_Foreign Flow",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 25250,
-        "change_pct": 1,
-        "value_today": 96115852500,
-        "frequency_today": 5630,
-        "iep": 25250,
+        "close": 294,
+        "change_pct": 2.08,
+        "value_today": 34632500000,
+        "frequency_today": 6919,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": 3140072500,
+        "net_foreign_today": 18929729600,
         "net_foreign_3d": 10,
-        "acc_score": 70,
+        "acc_score": 80,
         "score_breakdown": {
           "broker": 35,
           "foreign_1d": 15,
           "foreign_3d": 10,
           "candle": 10,
-          "volume": 0,
-          "total": 70
+          "volume": 10,
+          "total": 80
         }
       },
       "trend": {
-        "ma50": 24447.0,
-        "gap_from_ma50_pct": 3.29,
+        "ma50": 268.0,
+        "gap_from_ma50_pct": 9.73,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
         "internal_structure": "NONE",
-        "swing_trend_bias": "BULLISH",
+        "swing_trend_bias": "BEARISH",
         "ob_zone": null,
-        "fvg_zone": "24350 - 24750",
-        "strong_low": 24150.0,
-        "weak_high": 26175.0
+        "fvg_zone": "278 - 284",
+        "strong_low": 258.0,
+        "weak_high": 264.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -96,27 +95,27 @@
         "entry_direction": "PULLBACK",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
         "entry_direction_reason": "",
-        "entry_1": 25175,
+        "entry_1": 292,
         "entry_1_pct": 20,
         "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 25025,
+        "entry_2": 290,
         "entry_2_pct": 50,
         "entry_2_note": "Area OB / FVG / Support",
-        "entry_3": 24950,
+        "entry_3": 286,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 25025,
-        "entry_zone": "24950 - 25175",
-        "sl": 24900,
-        "sl_pct_risk": 0.5,
+        "average_entry": 290,
+        "entry_zone": "286 - 292",
+        "sl": 282,
+        "sl_pct_risk": 2.76,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 25400,
+        "tp1": 294,
         "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 26175,
+        "tp2": 302,
         "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 26950,
+        "tp3": 312,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:15.4",
+        "rr_ratio": "1:2.8",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
@@ -126,14 +125,12 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp3.1B",
+        "✅ Net Foreign Buy hari ini: Rp18.9B",
         "✅ Net Foreign Buy 3 hari berturut",
-        "✅ Harga di zona FVG aktif",
-        "✅ Swing Structure: BULLISH",
-        "✅ Pullback ke MA50 (3.3% di atas MA50)"
+        "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.35 WIB"
     },
     {
       "rank": 2,
@@ -221,7 +218,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.35 WIB"
     }
   ]
 }
