@@ -87,7 +87,7 @@
         "✅ Pullback ke MA50 (0.4% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "07.33 WIB"
+      "updated_at": "07.54 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -216,7 +216,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-15 07:34:24 WIB",
+    "generated_at": "2026-10-15 07:55:27 WIB",
     "date": "2026-10-15",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -244,8 +244,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5925,
-    "ihsg_change_pct": -0.17,
+    "ihsg_close": 5943,
+    "ihsg_change_pct": 0.29,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -253,7 +253,7 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 117,
+    "after_liquidity": 118,
     "after_accumulation": 32,
     "after_trend": 7,
     "after_smc": 6,
