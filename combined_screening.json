@@ -9,9 +9,9 @@
     {
       "ticker": "BDMN",
       "company": "Bank Danamon Indonesia Tbk.",
-      "score": 55,
-      "close": 4420.0,
-      "near_52w_pct": 87.1,
+      "score": 65,
+      "close": 5025.0,
+      "near_52w_pct": 99.0,
       "wk_rsi": 55.5,
       "wk_adx": 35.9,
       "mo_rsi": 70.9,
@@ -20,8 +20,32 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (55) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (99%) + Wk RSI (55) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (71)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MMIX",
+      "company": "Multi Medika Internasional Tbk.",
+      "score": 65,
+      "close": 975.0,
+      "near_52w_pct": 98.5,
+      "wk_rsi": 58.0,
+      "wk_adx": 40.7,
+      "mo_rsi": 84.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (98%) + Wk RSI (58) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (84)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -31,9 +55,9 @@
     {
       "ticker": "NEST",
       "company": "Esta Indonesia Tbk",
-      "score": 55,
-      "close": 760.0,
-      "near_52w_pct": 86.9,
+      "score": 65,
+      "close": 835.0,
+      "near_52w_pct": 95.4,
       "wk_rsi": 62.5,
       "wk_adx": 61.3,
       "mo_rsi": 84.0,
@@ -42,7 +66,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (62) + Wk ADX (61) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (95%) + Wk RSI (62) + Wk ADX (61) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (84)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -53,9 +78,9 @@
     {
       "ticker": "AUTO",
       "company": "Astra Otoparts Tbk.",
-      "score": 55,
-      "close": 3110.0,
-      "near_52w_pct": 90.4,
+      "score": 65,
+      "close": 3340.0,
+      "near_52w_pct": 97.0,
       "wk_rsi": 75.2,
       "wk_adx": 36.4,
       "mo_rsi": 66.0,
@@ -64,7 +89,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (90%) + Wk RSI (75) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (97%) + Wk RSI (75) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (66)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -73,43 +99,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "GULA",
-      "company": "Aman Agrindo Tbk.",
-      "score": 55,
-      "close": 775.0,
-      "near_52w_pct": 89.1,
-      "wk_rsi": 61.7,
-      "wk_adx": 49.8,
-      "mo_rsi": 72.4,
+      "ticker": "RSCH",
+      "company": "Charlie Hospital Semarang Tbk.",
+      "score": 65,
+      "close": 620.0,
+      "near_52w_pct": 97.6,
+      "wk_rsi": 77.4,
+      "wk_adx": 29.1,
+      "mo_rsi": 67.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (89%) + Wk RSI (62) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (72)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "ASGR",
-      "company": "Astra Graphia Tbk.",
-      "score": 55,
-      "close": 2260.0,
-      "near_52w_pct": 90.4,
-      "wk_rsi": 73.4,
-      "wk_adx": 50.7,
-      "mo_rsi": 82.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (90%) + Wk RSI (73) + Wk ADX (51) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (83)",
+        "Near 52W High (98%) + Wk RSI (77) + Wk ADX (29) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (68)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -119,12 +124,12 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-16 23:55:47 WIB",
-    "date": "2026-10-16",
+    "generated_at": "2026-10-17 00:15:55 WIB",
+    "date": "2026-10-17",
     "mode": "FULL_STOCKBIT",
-    "session_label": "MARKET_DAY",
+    "session_label": "PRE_MARKET_WEEKEND (Saturday)",
     "pipeline_version": "v7.0",
-    "session_warning": null,
+    "session_warning": "⚠️ Screening akhir pekan — referensi persiapan saja, bukan sinyal eksekusi.",
     "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
@@ -147,20 +152,20 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5185,
-    "ihsg_change_pct": -11.57,
+    "ihsg_close": 5863,
+    "ihsg_change_pct": -1.33,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -11.6% kemarin. Trading dengan sangat hati-hati."
+    "warning": null
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 107,
-    "after_accumulation": 47,
-    "after_trend": 1,
-    "after_smc": 1,
-    "after_entry": 1,
+    "after_liquidity": 105,
+    "after_accumulation": 46,
+    "after_trend": 5,
+    "after_smc": 3,
+    "after_entry": 3,
     "final": 0
   },
   "config_ara": {
