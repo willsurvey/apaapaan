@@ -99,24 +99,24 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "RSCH",
-      "company": "Charlie Hospital Semarang Tbk.",
-      "score": 65,
-      "close": 620.0,
-      "near_52w_pct": 97.6,
-      "wk_rsi": 77.4,
-      "wk_adx": 29.1,
-      "mo_rsi": 67.5,
+      "ticker": "ERAA",
+      "company": "Erajaya Swasembada Tbk.",
+      "score": 60,
+      "close": 615.0,
+      "near_52w_pct": 93.9,
+      "wk_rsi": 71.7,
+      "wk_adx": 37.3,
+      "mo_rsi": 60.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (77) + Wk ADX (29) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (68)",
+        "Near 52W High (94%) + Wk RSI (72) + Wk ADX (37) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (60)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 45.3B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -124,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-17 01:16:33 WIB",
+    "generated_at": "2026-10-17 01:35:53 WIB",
     "date": "2026-10-17",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -161,7 +161,7 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 108,
+    "after_liquidity": 106,
     "after_accumulation": 47,
     "after_trend": 5,
     "after_smc": 3,
