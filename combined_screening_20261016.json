@@ -7,6 +7,28 @@
   "trend_following": [],
   "position_trading": [
     {
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
+      "score": 55,
+      "close": 755.0,
+      "near_52w_pct": 86.3,
+      "wk_rsi": 61.9,
+      "wk_adx": 61.3,
+      "mo_rsi": 83.4,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (86%) + Wk RSI (62) + Wk ADX (61) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (83)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "BDMN",
       "company": "Bank Danamon Indonesia Tbk.",
       "score": 55,
@@ -54,18 +76,18 @@
       "ticker": "BSSR",
       "company": "Baramulti Suksessarana Tbk.",
       "score": 55,
-      "close": 4850.0,
-      "near_52w_pct": 91.9,
-      "wk_rsi": 77.8,
+      "close": 4880.0,
+      "near_52w_pct": 92.5,
+      "wk_rsi": 79.1,
       "wk_adx": 61.9,
-      "mo_rsi": 85.5,
+      "mo_rsi": 86.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (92%) + Wk RSI (78) + Wk ADX (62) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (85)",
+        "Near 52W High (93%) + Wk RSI (79) + Wk ADX (62) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -93,32 +115,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AALI",
-      "company": "Astra Agro Lestari Tbk.",
-      "score": 50,
-      "close": 7800.0,
-      "near_52w_pct": 89.9,
-      "wk_rsi": 69.3,
-      "wk_adx": 22.3,
-      "mo_rsi": 58.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (90%) + Wk RSI (69) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-16 14:57:44 WIB",
+    "generated_at": "2026-10-16 15:16:06 WIB",
     "date": "2026-10-16",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -146,16 +147,16 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5209,
-    "ihsg_change_pct": -11.17,
+    "ihsg_close": 5200,
+    "ihsg_change_pct": -11.32,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -11.2% kemarin. Trading dengan sangat hati-hati."
+    "warning": "⚠️ IHSG turun -11.3% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 105,
+    "after_liquidity": 104,
     "after_accumulation": 9,
     "after_trend": 0,
     "after_smc": 0,
