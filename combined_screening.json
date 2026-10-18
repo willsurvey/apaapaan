@@ -51,6 +51,28 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "AUTO",
+      "company": "Astra Otoparts Tbk.",
+      "score": 55,
+      "close": 3110.0,
+      "near_52w_pct": 90.4,
+      "wk_rsi": 75.2,
+      "wk_adx": 36.4,
+      "mo_rsi": 66.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (90%) + Wk RSI (75) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (66)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "GULA",
       "company": "Aman Agrindo Tbk.",
       "score": 55,
@@ -93,37 +115,16 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AALI",
-      "company": "Astra Agro Lestari Tbk.",
-      "score": 50,
-      "close": 7825.0,
-      "near_52w_pct": 90.2,
-      "wk_rsi": 69.7,
-      "wk_adx": 22.3,
-      "mo_rsi": 58.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (90%) + Wk RSI (70) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-18 23:55:26 WIB",
-    "date": "2026-10-18",
+    "generated_at": "2026-10-19 00:15:52 WIB",
+    "date": "2026-10-19",
     "mode": "FULL_STOCKBIT",
-    "session_label": "PRE_MARKET_WEEKEND (Sunday)",
+    "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
-    "session_warning": "⚠️ Screening akhir pekan — referensi persiapan saja, bukan sinyal eksekusi.",
+    "session_warning": null,
     "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
@@ -156,7 +157,7 @@
   "screening_summary": {
     "universe": 978,
     "after_liquidity": 107,
-    "after_accumulation": 48,
+    "after_accumulation": 47,
     "after_trend": 1,
     "after_smc": 1,
     "after_entry": 1,

@@ -1,0 +1,218 @@
+{
+  "logika_lama_intraday": [],
+  "logika_baru_calon_ara": [],
+  "bsjp_beli_sore_jual_pagi": [],
+  "bpjs_beli_pagi_jual_sore": [],
+  "swing_trading": [],
+  "trend_following": [],
+  "position_trading": [
+    {
+      "ticker": "BDMN",
+      "company": "Bank Danamon Indonesia Tbk.",
+      "score": 55,
+      "close": 4420.0,
+      "near_52w_pct": 87.1,
+      "wk_rsi": 55.5,
+      "wk_adx": 35.9,
+      "mo_rsi": 70.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (87%) + Wk RSI (55) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (71)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "NEST",
+      "company": "Esta Indonesia Tbk",
+      "score": 55,
+      "close": 760.0,
+      "near_52w_pct": 86.9,
+      "wk_rsi": 62.5,
+      "wk_adx": 61.3,
+      "mo_rsi": 84.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (87%) + Wk RSI (62) + Wk ADX (61) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (84)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "AUTO",
+      "company": "Astra Otoparts Tbk.",
+      "score": 55,
+      "close": 3110.0,
+      "near_52w_pct": 90.4,
+      "wk_rsi": 75.2,
+      "wk_adx": 36.4,
+      "mo_rsi": 66.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (90%) + Wk RSI (75) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (66)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "GULA",
+      "company": "Aman Agrindo Tbk.",
+      "score": 55,
+      "close": 775.0,
+      "near_52w_pct": 89.1,
+      "wk_rsi": 61.7,
+      "wk_adx": 49.8,
+      "mo_rsi": 72.4,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (89%) + Wk RSI (62) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (72)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "ASGR",
+      "company": "Astra Graphia Tbk.",
+      "score": 55,
+      "close": 2260.0,
+      "near_52w_pct": 90.4,
+      "wk_rsi": 73.4,
+      "wk_adx": 50.7,
+      "mo_rsi": 82.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (90%) + Wk RSI (73) + Wk ADX (51) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (83)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    }
+  ],
+  "meta": {
+    "status": "success",
+    "generated_at": "2026-10-19 00:15:52 WIB",
+    "date": "2026-10-19",
+    "mode": "FULL_STOCKBIT",
+    "session_label": "MARKET_DAY",
+    "pipeline_version": "v7.0",
+    "session_warning": null,
+    "mode_warning": null,
+    "intraday_count": 0,
+    "ara_count": 0,
+    "bsjp_count": 0,
+    "bpjs_count": 0,
+    "swing_count": 0,
+    "trend_count": 0,
+    "position_count": 5,
+    "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
+    "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
+    "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
+    "swing_disclaimer": "Pipeline SWING v1: VCP setup pada Stage 2 Uptrend. PF=1.60x, EV=+2.14% per trade (n=2.077). Hold 10-15 hari. KILL SWITCH aktif jika IHSG < MA200 (bear market). Backtest 467.390 hari trading IHSG. SL -6% keras.",
+    "trend_disclaimer": "Pipeline TREND FOLLOWING v1: ADX kuat + RSI + MACD + Weekly Confirmation. WR: 54.7% (Max High>=10% dalam 20 hari). KILL SWITCH aktif jika IHSG < MA200.",
+    "position_disclaimer": "Pipeline POSITION TRADING v1: Near 52W High + Weekly/Monthly Confirm. WR: 38.7% (Max High>=20% dalam 60 hari).",
+    "scoring_breakdown": {
+      "daily_max": 70,
+      "minute_max": 20,
+      "stockbit_bonus": 10,
+      "total_max": 100
+    }
+  },
+  "market_context": {
+    "ihsg_close": 5185,
+    "ihsg_change_pct": -11.57,
+    "ihsg_trend": "BEARISH",
+    "ihsg_above_ma50": false,
+    "market_safe": true,
+    "warning": "⚠️ IHSG turun -11.6% kemarin. Trading dengan sangat hati-hati."
+  },
+  "screening_summary": {
+    "universe": 978,
+    "after_liquidity": 107,
+    "after_accumulation": 47,
+    "after_trend": 1,
+    "after_smc": 1,
+    "after_entry": 1,
+    "final": 0
+  },
+  "config_ara": {
+    "vol_ma20_tier1": 3.0,
+    "vol_ma20_tier2": 6.0,
+    "score_min": 55,
+    "score_strong": 70,
+    "max_output": 5
+  },
+  "config_bsjp": {
+    "min_value_today_rp": 10000000000,
+    "tier_s_vol": 5.0,
+    "tier_a_vol": 4.0,
+    "max_output": 5,
+    "backtest_sample_size": 252480
+  },
+  "config_bpjs": {
+    "min_value_today_rp": 10000000000,
+    "max_output": 5,
+    "backtest_sample_size": 789792
+  },
+  "config_swing": {
+    "min_value_20d_rp": 5000000000,
+    "dist_ma20_range": "0.02-0.1",
+    "squeeze_max": 0.35,
+    "vol_5d_max": 0.6,
+    "rsi_range": "45-65",
+    "target_pct": 0.1,
+    "stop_loss_pct": 0.06,
+    "max_hold_days": 20,
+    "max_output": 5,
+    "backtest_sample_size": 467390,
+    "golden_setup_pf": "1.60x",
+    "golden_setup_ev": "+2.14% per trade"
+  },
+  "config_trend": {
+    "min_value_20d_rp": 1000000000,
+    "adx_min": 30,
+    "rsi_range": "50-75",
+    "wk_adx_min": 25,
+    "target_pct": 0.1,
+    "stop_loss_pct": 0.07,
+    "max_hold_days": 20
+  },
+  "config_position": {
+    "min_value_20d_rp": 2000000000,
+    "near_52w_pct": 0.85,
+    "wk_rsi_range": "55-80",
+    "wk_adx_min": 20,
+    "mo_rsi_min": 50,
+    "target_pct": 0.2,
+    "stop_loss_pct": 0.1,
+    "max_hold_days": 60
+  }
+}

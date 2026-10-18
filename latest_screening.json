@@ -1,10 +1,10 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-10-18 23:55:26 WIB",
-  "date": "2026-10-18",
+  "generated_at": "2026-10-19 00:15:52 WIB",
+  "date": "2026-10-19",
   "mode": "FULL_STOCKBIT",
-  "session_label": "PRE_MARKET_WEEKEND (Sunday)",
-  "session_warning": "⚠️ Screening dijalankan di akhir pekan — gunakan sebagai referensi persiapan, bukan sinyal eksekusi langsung.",
+  "session_label": "MARKET_DAY",
+  "session_warning": null,
   "mode_warning": null,
   "total_saham": 0,
   "market_context": {
@@ -18,7 +18,7 @@
   "screening_summary": {
     "universe": 978,
     "after_liquidity": 107,
-    "after_accumulation": 48,
+    "after_accumulation": 47,
     "after_trend": 1,
     "after_smc": 1,
     "after_entry": 1,
