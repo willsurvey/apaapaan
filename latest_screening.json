@@ -1,16 +1,29 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-10-20 00:21:20 WIB",
+  "generated_at": "2026-10-20 00:55:01 WIB",
   "date": "2026-10-20",
-  "mode": "YAHOO_ONLY",
+  "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
   "session_warning": null,
-  "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — Data terbatas (Yahoo Finance only)",
+  "mode_warning": null,
   "total_saham": 0,
   "market_context": {
-    "market_safe": false
+    "ihsg_close": 5185,
+    "ihsg_change_pct": -11.57,
+    "ihsg_trend": "BEARISH",
+    "ihsg_above_ma50": false,
+    "market_safe": true,
+    "warning": "⚠️ IHSG turun -11.6% kemarin. Trading dengan sangat hati-hati."
   },
-  "screening_summary": {},
+  "screening_summary": {
+    "universe": 978,
+    "after_liquidity": 72,
+    "after_accumulation": 42,
+    "after_trend": 2,
+    "after_smc": 1,
+    "after_entry": 1,
+    "final": 0
+  },
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
     "data_sources": [
