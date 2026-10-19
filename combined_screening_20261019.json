@@ -4,120 +4,7 @@
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
-  "trend_following": [
-    {
-      "ticker": "PKPK",
-      "company": "Paragon Karya Perkasa Tbk",
-      "score": 70,
-      "close": 7100.0,
-      "adx": 49.5,
-      "rsi": 68.9,
-      "macd_hist": 64.2847,
-      "wk_adx": 49.6,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (50) + RSI sehat (69) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+0.4%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (50)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "DKHH",
-      "company": "Cipta Sarana Medika Tbk.",
-      "score": 70,
-      "close": 99.0,
-      "adx": 56.5,
-      "rsi": 69.1,
-      "macd_hist": 3.5672,
-      "wk_adx": 25.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (57) + RSI sehat (69) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Momentum 5 hari positif (+22.2%)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (25)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "ARII",
-      "company": "Atlas Resources Tbk.",
-      "score": 65,
-      "close": 400.0,
-      "adx": 51.6,
-      "rsi": 60.2,
-      "macd_hist": 7.7567,
-      "wk_adx": 41.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (52) + RSI sehat (60) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (41)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "ASGR",
-      "company": "Astra Graphia Tbk.",
-      "score": 65,
-      "close": 2260.0,
-      "adx": 49.1,
-      "rsi": 69.5,
-      "macd_hist": 8.775,
-      "wk_adx": 50.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (49) + RSI sehat (70) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (51)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    },
-    {
-      "ticker": "PCAR",
-      "company": "Prima Cakrawala Abadi Tbk.",
-      "score": 65,
-      "close": 76.0,
-      "adx": 62.2,
-      "rsi": 59.4,
-      "macd_hist": 0.8025,
-      "wk_adx": 35.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.1,
-      "stop_loss_pct": 0.07,
-      "max_hold_days": 20,
-      "signals_positive": [
-        "Stage 2 + ADX kuat (62) + RSI sehat (59) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
-        "Di atas MA200 — tren primer bullish",
-        "Weekly ADX kuat (36)",
-        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
-      ],
-      "signals_negative": [],
-      "pipeline": "trend_following"
-    }
-  ],
+  "trend_following": [],
   "position_trading": [
     {
       "ticker": "NEST",
@@ -135,28 +22,6 @@
       "signals_positive": [
         "Near 52W High (87%) + Wk RSI (62) + Wk ADX (61) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (84)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BDMN",
-      "company": "Bank Danamon Indonesia Tbk.",
-      "score": 55,
-      "close": 4420.0,
-      "near_52w_pct": 87.1,
-      "wk_rsi": 55.5,
-      "wk_adx": 35.9,
-      "mo_rsi": 70.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (55) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (71)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -186,28 +51,6 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "GULA",
-      "company": "Aman Agrindo Tbk.",
-      "score": 55,
-      "close": 775.0,
-      "near_52w_pct": 89.1,
-      "wk_rsi": 61.7,
-      "wk_adx": 49.8,
-      "mo_rsi": 72.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (89%) + Wk RSI (62) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (72)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "ASGR",
       "company": "Astra Graphia Tbk.",
       "score": 55,
@@ -228,11 +71,55 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "BDMN",
+      "company": "Bank Danamon Indonesia Tbk.",
+      "score": 55,
+      "close": 4420.0,
+      "near_52w_pct": 87.1,
+      "wk_rsi": 55.5,
+      "wk_adx": 35.9,
+      "mo_rsi": 70.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (87%) + Wk RSI (55) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (71)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "GULA",
+      "company": "Aman Agrindo Tbk.",
+      "score": 55,
+      "close": 775.0,
+      "near_52w_pct": 89.1,
+      "wk_rsi": 61.7,
+      "wk_adx": 49.8,
+      "mo_rsi": 72.4,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (89%) + Wk RSI (62) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (72)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-19 08:13:29 WIB",
+    "generated_at": "2026-10-19 08:33:42 WIB",
     "date": "2026-10-19",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -244,7 +131,7 @@
     "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
-    "trend_count": 5,
+    "trend_count": 0,
     "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
