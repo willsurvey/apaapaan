@@ -7,6 +7,29 @@
   "trend_following": [],
   "position_trading": [
     {
+      "ticker": "ASGR",
+      "company": "Astra Graphia Tbk.",
+      "score": 65,
+      "close": 2380.0,
+      "near_52w_pct": 95.2,
+      "wk_rsi": 73.5,
+      "wk_adx": 50.2,
+      "mo_rsi": 83.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (73) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (84)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "PTBA",
       "company": "Bukit Asam Tbk.",
       "score": 55,
@@ -29,20 +52,42 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MPIX",
-      "company": "Mitra Pedagang Indonesia Tbk.",
+      "ticker": "SGER",
+      "company": "Sumber Global Energy Tbk",
       "score": 55,
-      "close": 200.0,
-      "near_52w_pct": 86.2,
-      "wk_rsi": 79.0,
-      "wk_adx": 61.2,
-      "mo_rsi": 86.2,
+      "close": 715.0,
+      "near_52w_pct": 90.5,
+      "wk_rsi": 78.6,
+      "wk_adx": 25.5,
+      "mo_rsi": 67.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (86%) + Wk RSI (79) + Wk ADX (61) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (91%) + Wk RSI (79) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (67)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPIX",
+      "company": "Mitra Pedagang Indonesia Tbk.",
+      "score": 55,
+      "close": 202.0,
+      "near_52w_pct": 87.1,
+      "wk_rsi": 79.2,
+      "wk_adx": 61.2,
+      "mo_rsi": 86.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (87%) + Wk RSI (79) + Wk ADX (61) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -71,55 +116,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "SGER",
-      "company": "Sumber Global Energy Tbk",
-      "score": 55,
-      "close": 710.0,
-      "near_52w_pct": 89.9,
-      "wk_rsi": 77.8,
-      "wk_adx": 25.5,
-      "mo_rsi": 66.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (90%) + Wk RSI (78) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (67)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AUTO",
-      "company": "Astra Otoparts Tbk.",
-      "score": 55,
-      "close": 3240.0,
-      "near_52w_pct": 94.1,
-      "wk_rsi": 73.8,
-      "wk_adx": 34.5,
-      "mo_rsi": 69.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (94%) + Wk RSI (74) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (69)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-20 10:15:16 WIB",
+    "generated_at": "2026-10-20 10:35:17 WIB",
     "date": "2026-10-20",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -147,8 +148,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5112,
-    "ihsg_change_pct": 2.32,
+    "ihsg_close": 5175,
+    "ihsg_change_pct": 3.59,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -156,9 +157,9 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 90,
+    "after_liquidity": 89,
     "after_accumulation": 9,
-    "after_trend": 1,
+    "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
     "final": 0
