@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-20 18:33:20 WIB",
+  "generated_at": "2026-10-20 18:55:14 WIB",
   "date": "2026-10-20",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -51,7 +51,7 @@
       "universe_sources": [
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_72_IHSG Short-t",
+        "GURU_77_Foreign Flow",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -131,7 +131,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.32 WIB"
+      "updated_at": "18.53 WIB"
     }
   ]
 }

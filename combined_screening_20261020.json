@@ -8,7 +8,7 @@
       "universe_sources": [
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_72_IHSG Short-t",
+        "GURU_77_Foreign Flow",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -88,7 +88,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.32 WIB"
+      "updated_at": "18.53 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -198,14 +198,14 @@
       "close": 900.0,
       "near_52w_pct": 86.5,
       "wk_rsi": 65.5,
-      "wk_adx": 56.3,
+      "wk_adx": 56.6,
       "mo_rsi": 76.6,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (66) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (87%) + Wk RSI (66) + Wk ADX (57) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (77)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -217,7 +217,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-20 18:33:20 WIB",
+    "generated_at": "2026-10-20 18:55:14 WIB",
     "date": "2026-10-20",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
