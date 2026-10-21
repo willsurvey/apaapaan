@@ -1,7 +1,66 @@
 {
   "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
-  "bsjp_beli_sore_jual_pagi": [],
+  "bsjp_beli_sore_jual_pagi": [
+    {
+      "ticker": "BNGA",
+      "company": "Bank CIMB Niaga Tbk.",
+      "tier": "S",
+      "score": 94,
+      "market_data": {
+        "close": 1875.0,
+        "change_pct": 20.97,
+        "value_today": 38413154000,
+        "net_foreign": -1487486000,
+        "iep": 1550,
+        "iep_change_pct": -17.333333333333336
+      },
+      "bsjp_features": {
+        "vol_ratio20": 5.11,
+        "body_pct": 20.97,
+        "close_pos_pct": 98.6,
+        "above_ma20": true,
+        "above_ma50": true,
+        "above_ma200": true,
+        "atr_pct": 3.71
+      },
+      "entry_plan": {
+        "strategy": "Beli di sesi akhir (14:30-15:45 WIB)",
+        "entry_range": "1,855 – 1,875",
+        "entry_note": "Limit order di harga saat ini atau sedikit di bawahnya",
+        "stop_loss": 1515,
+        "stop_note": "Jika gap down besok, cut di bawah low hari ini",
+        "target_pct": "+2% s/d +10% di pagi hari",
+        "exit_strategy": "Jual di pre-opening (08:45-08:55) atau awal sesi pagi"
+      },
+      "universe_context": {
+        "in_mover_types": [
+          "MOVER_TYPE_TOP_VALUE",
+          "MOVER_TYPE_TOP_GAINER",
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_87_Reversal on ",
+          "SCREENER_TOP_VALUE"
+        ],
+        "from_gainer": true,
+        "from_screener": true,
+        "from_top_value": true
+      },
+      "signals_positive": [
+        "Volume spike kuat 5.1x MA20",
+        "Candle hijau sangat kuat (21.0%)",
+        "Tutup di puncak absolut — tidak ada upper wick",
+        "Uptrend penuh: di atas MA20, MA50, MA200",
+        "Masuk screener volume explosion Stockbit",
+        "Saham naik signifikan hari ini (momentum)"
+      ],
+      "signals_negative": [
+        "Asing jual bersih hari ini — hati-hati"
+      ],
+      "win_probability": "~70% berdasarkan backtest 1.796 kejadian historis",
+      "disclaimer": "Tier S BSJP. Strategi hold overnight — ada risiko gap down. Selalu gunakan stop loss. Pastikan Anda bisa monitor pre-opening besok.",
+      "rank": 1
+    }
+  ],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
@@ -10,11 +69,11 @@
       "ticker": "AUTO",
       "company": "Astra Otoparts Tbk.",
       "score": 70,
-      "close": 3300.0,
-      "near_52w_pct": 95.8,
-      "wk_rsi": 74.8,
+      "close": 3310.0,
+      "near_52w_pct": 96.1,
+      "wk_rsi": 75.0,
       "wk_adx": 34.5,
-      "mo_rsi": 70.1,
+      "mo_rsi": 70.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -31,21 +90,44 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "AALI",
-      "company": "Astra Agro Lestari Tbk.",
+      "ticker": "ASGR",
+      "company": "Astra Graphia Tbk.",
       "score": 65,
-      "close": 8450.0,
-      "near_52w_pct": 97.4,
-      "wk_rsi": 72.8,
-      "wk_adx": 20.9,
-      "mo_rsi": 62.0,
+      "close": 2390.0,
+      "near_52w_pct": 95.6,
+      "wk_rsi": 73.7,
+      "wk_adx": 50.2,
+      "mo_rsi": 83.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (73) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
+        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (84)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "AALI",
+      "company": "Astra Agro Lestari Tbk.",
+      "score": 65,
+      "close": 8500.0,
+      "near_52w_pct": 98.0,
+      "wk_rsi": 73.0,
+      "wk_adx": 20.9,
+      "mo_rsi": 62.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (98%) + Wk RSI (73) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (62)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -57,18 +139,18 @@
       "ticker": "SGER",
       "company": "Sumber Global Energy Tbk",
       "score": 60,
-      "close": 720.0,
-      "near_52w_pct": 91.1,
-      "wk_rsi": 78.9,
+      "close": 730.0,
+      "near_52w_pct": 92.4,
+      "wk_rsi": 79.3,
       "wk_adx": 25.5,
-      "mo_rsi": 67.4,
+      "mo_rsi": 68.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (91%) + Wk RSI (79) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (67)",
+        "Near 52W High (92%) + Wk RSI (79) + Wk ADX (25) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (68)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 5.9B)"
@@ -80,53 +162,29 @@
       "ticker": "POWR",
       "company": "Cikarang Listrindo Tbk.",
       "score": 60,
-      "close": 915.0,
-      "near_52w_pct": 88.0,
-      "wk_rsi": 66.4,
+      "close": 920.0,
+      "near_52w_pct": 88.5,
+      "wk_rsi": 66.7,
       "wk_adx": 56.3,
-      "mo_rsi": 79.0,
+      "mo_rsi": 79.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (88%) + Wk RSI (66) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (79)",
+        "Near 52W High (88%) + Wk RSI (67) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (80)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 2.8B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "DMAS",
-      "company": "Puradelta Lestari Tbk",
-      "score": 55,
-      "close": 206.0,
-      "near_52w_pct": 96.3,
-      "wk_rsi": 71.1,
-      "wk_adx": 45.1,
-      "mo_rsi": 74.9,
-      "wk_obv_above_ma": false,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (71) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (75)",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [
-        "Weekly OBV di bawah MA20"
-      ],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-21 13:54:59 WIB",
+    "generated_at": "2026-10-21 14:16:22 WIB",
     "date": "2026-10-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -135,7 +193,7 @@
     "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
-    "bsjp_count": 0,
+    "bsjp_count": 1,
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
@@ -154,8 +212,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5235,
-    "ihsg_change_pct": -0.82,
+    "ihsg_close": 5269,
+    "ihsg_change_pct": -0.18,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -164,7 +222,7 @@
   "screening_summary": {
     "universe": 978,
     "after_liquidity": 91,
-    "after_accumulation": 2,
+    "after_accumulation": 3,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
