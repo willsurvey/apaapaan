@@ -10,18 +10,18 @@
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "score": 65,
-      "close": 8450.0,
-      "near_52w_pct": 97.4,
-      "wk_rsi": 72.8,
+      "close": 8475.0,
+      "near_52w_pct": 97.7,
+      "wk_rsi": 72.9,
       "wk_adx": 20.9,
-      "mo_rsi": 62.0,
+      "mo_rsi": 62.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (73) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
+        "Near 52W High (98%) + Wk RSI (73) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (62)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -46,6 +46,29 @@
         "Near 52W High (95%) + Wk RSI (73) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (84)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "AUTO",
+      "company": "Astra Otoparts Tbk.",
+      "score": 65,
+      "close": 3290.0,
+      "near_52w_pct": 95.5,
+      "wk_rsi": 74.6,
+      "wk_adx": 34.5,
+      "mo_rsi": 70.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (75) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -98,33 +121,11 @@
         "Weekly OBV di bawah MA20"
       ],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AKKU",
-      "company": "Anugerah Kagum Karya Utama Tbk.",
-      "score": 55,
-      "close": 97.0,
-      "near_52w_pct": 85.1,
-      "wk_rsi": 78.6,
-      "wk_adx": 42.8,
-      "mo_rsi": 85.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (85%) + Wk RSI (79) + Wk ADX (43) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (85)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-21 11:34:18 WIB",
+    "generated_at": "2026-10-21 11:54:58 WIB",
     "date": "2026-10-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -152,8 +153,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5229,
-    "ihsg_change_pct": -0.94,
+    "ihsg_close": 5233,
+    "ihsg_change_pct": -0.87,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
