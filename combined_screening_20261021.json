@@ -85,7 +85,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.55 WIB"
+      "updated_at": "18.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -154,7 +154,7 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (75) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (97%) + Wk RSI (75) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -213,7 +213,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-21 17:56:18 WIB",
+    "generated_at": "2026-10-21 18:15:49 WIB",
     "date": "2026-10-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
