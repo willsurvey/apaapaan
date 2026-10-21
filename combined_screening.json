@@ -43,23 +43,23 @@
       "d1_high": 30.0,
       "d1_low": 25.0,
       "d1_change_pct": 8.33,
-      "d1_vol_ratio_ma20": 4.37,
-      "d1_vol_ratio_ma5": 2.83,
+      "d1_vol_ratio_ma20": 4.46,
+      "d1_vol_ratio_ma5": 2.88,
       "d1_body_pct": 0.0,
       "d1_upper_wick": 0.8,
       "d1_lower_wick": 0.2,
       "d1_close_pos": 0.2,
       "d1_bullish": false,
       "d1_range_expansion": 1.38,
-      "d1_value_rp": 526453200000,
+      "d1_value_rp": 536507400000,
       "d2_change_pct": 33.33,
       "d2_body_pct": 1.0,
       "d2_vol_ratio_ma20": 1.99,
       "m1_last15_green": 10,
-      "m1_close_vs_vwap": -5.15,
+      "m1_close_vs_vwap": -4.6,
       "m1_close_pos_intra": 0.2,
-      "m1_high_timing": 0.03,
-      "m1_n_bars": 203,
+      "m1_high_timing": 0.032,
+      "m1_n_bars": 222,
       "m1_data_available": true,
       "above_ma20": false,
       "above_ma50": false,
@@ -68,9 +68,9 @@
       "up_streak_days": 1,
       "trend_5d_pct": 4.0,
       "signals_positive": [
-        "Volume D-1 spike: 4.4x MA20 (tier-1 ≥3x)",
+        "Volume D-1 spike: 4.5x MA20 (tier-1 ≥3x)",
         "Volume D-2 elevated: 2.0x MA20 (akumulasi dini)",
-        "Continuation D-1: +8.3% vol 4.4x MA20",
+        "Continuation D-1: +8.3% vol 4.5x MA20",
         "Upper wick rejection: 0.80 (smart money absorption)",
         "Body kecil D-1: 0.00 (candle akumulasi)",
         "Close pos rendah: 0.20 (buyers absorbed selling)",
@@ -79,8 +79,8 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 7/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -5.2%",
+        "Closing flat bias: 6/14 bar flat — indikasi tidak aktif",
+        "Close di bawah VWAP: -4.6%",
         "High intraday di awal sesi (3%) — profit taking sore"
       ],
       "universe_sources": [
@@ -88,7 +88,7 @@
         "GURU_92"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "14:33 WIB"
+      "generated_at": "14:56 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -100,11 +100,11 @@
       "ticker": "AUTO",
       "company": "Astra Otoparts Tbk.",
       "score": 70,
-      "close": 3300.0,
-      "near_52w_pct": 95.8,
-      "wk_rsi": 74.8,
+      "close": 3320.0,
+      "near_52w_pct": 96.4,
+      "wk_rsi": 75.1,
       "wk_adx": 34.5,
-      "mo_rsi": 70.1,
+      "mo_rsi": 70.3,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -116,6 +116,29 @@
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 2.0B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "BDMN",
+      "company": "Bank Danamon Indonesia Tbk.",
+      "score": 65,
+      "close": 4830.0,
+      "near_52w_pct": 95.2,
+      "wk_rsi": 59.9,
+      "wk_adx": 35.6,
+      "mo_rsi": 73.4,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (60) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (73)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -137,29 +160,6 @@
         "Near 52W High (99%) + Wk RSI (73) + Wk ADX (21) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (63)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "ASGR",
-      "company": "Astra Graphia Tbk.",
-      "score": 65,
-      "close": 2380.0,
-      "near_52w_pct": 95.2,
-      "wk_rsi": 73.5,
-      "wk_adx": 50.2,
-      "mo_rsi": 83.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (73) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (84)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -196,14 +196,14 @@
       "close": 925.0,
       "near_52w_pct": 88.9,
       "wk_rsi": 66.9,
-      "wk_adx": 56.6,
+      "wk_adx": 56.3,
       "mo_rsi": 80.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (89%) + Wk RSI (67) + Wk ADX (57) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (89%) + Wk RSI (67) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (81)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -215,7 +215,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-21 14:34:20 WIB",
+    "generated_at": "2026-10-21 14:57:32 WIB",
     "date": "2026-10-21",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -243,8 +243,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5281,
-    "ihsg_change_pct": 0.04,
+    "ihsg_close": 5273,
+    "ihsg_change_pct": -0.1,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -253,7 +253,7 @@
   "screening_summary": {
     "universe": 978,
     "after_liquidity": 91,
-    "after_accumulation": 3,
+    "after_accumulation": 5,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
