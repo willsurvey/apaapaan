@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-22 17:15:18 WIB",
+  "generated_at": "2026-10-22 17:34:56 WIB",
   "date": "2026-10-22",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -17,9 +17,9 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 75,
-    "after_accumulation": 27,
-    "after_trend": 3,
+    "after_liquidity": 78,
+    "after_accumulation": 37,
+    "after_trend": 5,
     "after_smc": 1,
     "after_entry": 1,
     "final": 1
@@ -50,6 +50,7 @@
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
         "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
@@ -59,12 +60,12 @@
         "change_pct": 3.98,
         "value_today": 95604147500,
         "frequency_today": 4785,
-        "iep": 9150,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": -4251260000,
+        "net_foreign_today": 3984085000,
         "net_foreign_3d": 0,
         "acc_score": 70,
         "score_breakdown": {
@@ -125,12 +126,12 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy kemarin",
+        "✅ Net Foreign Buy hari ini: Rp4.0B",
         "✅ Harga di zona FVG aktif",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.34 WIB"
     }
   ]
 }

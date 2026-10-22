@@ -7,6 +7,7 @@
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
         "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
@@ -16,12 +17,12 @@
         "change_pct": 3.98,
         "value_today": 95604147500,
         "frequency_today": 4785,
-        "iep": 9150,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": -4251260000,
+        "net_foreign_today": 3984085000,
         "net_foreign_3d": 0,
         "acc_score": 70,
         "score_breakdown": {
@@ -82,12 +83,12 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy kemarin",
+        "✅ Net Foreign Buy hari ini: Rp4.0B",
         "✅ Harga di zona FVG aktif",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -99,7 +100,7 @@
     {
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
-      "score": 65,
+      "score": 70,
       "close": 9150.0,
       "near_52w_pct": 98.4,
       "wk_rsi": 76.2,
@@ -114,7 +115,8 @@
         "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (65)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 4.0B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -160,7 +162,7 @@
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (77)",
         "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 26.9B)"
+        "Asing beli bersih (Rp 52.5B)"
       ],
       "signals_negative": [
         "Weekly OBV di bawah MA20"
@@ -185,29 +187,30 @@
         "Monthly RSI kuat (82)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.9B)"
+        "Asing beli bersih (Rp 2.1B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
     },
     {
-      "ticker": "AADI",
-      "company": "Adaro Andalan Indonesia Tbk.",
-      "score": 55,
-      "close": 11300.0,
-      "near_52w_pct": 87.4,
-      "wk_rsi": 65.2,
-      "wk_adx": 33.5,
-      "mo_rsi": 69.3,
+      "ticker": "ERAA",
+      "company": "Erajaya Swasembada Tbk.",
+      "score": 60,
+      "close": 580.0,
+      "near_52w_pct": 88.5,
+      "wk_rsi": 73.3,
+      "wk_adx": 35.3,
+      "mo_rsi": 66.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (65) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (69)",
+        "Near 52W High (89%) + Wk RSI (73) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 6.8B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -215,7 +218,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-22 17:15:18 WIB",
+    "generated_at": "2026-10-22 17:34:56 WIB",
     "date": "2026-10-22",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -252,9 +255,9 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 75,
-    "after_accumulation": 27,
-    "after_trend": 3,
+    "after_liquidity": 78,
+    "after_accumulation": 37,
+    "after_trend": 5,
     "after_smc": 1,
     "after_entry": 1,
     "final": 1
