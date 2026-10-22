@@ -35,8 +35,8 @@
         }
       },
       "trend": {
-        "ma50": 8013.0,
-        "gap_from_ma50_pct": 14.19,
+        "ma50": 7970.0,
+        "gap_from_ma50_pct": 10.42,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -88,7 +88,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.54 WIB"
+      "updated_at": "00.15 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -101,8 +101,8 @@
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "score": 70,
-      "close": 9150.0,
-      "near_52w_pct": 98.4,
+      "close": 8800.0,
+      "near_52w_pct": 100.0,
       "wk_rsi": 76.2,
       "wk_adx": 21.9,
       "mo_rsi": 65.3,
@@ -111,8 +111,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (76) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
+        "Near 52W High (100%) + Wk RSI (76) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
         "Monthly RSI kuat (65)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -122,11 +122,34 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "ASGR",
+      "company": "Astra Graphia Tbk.",
+      "score": 65,
+      "close": 2390.0,
+      "near_52w_pct": 95.6,
+      "wk_rsi": 73.1,
+      "wk_adx": 50.2,
+      "mo_rsi": 83.7,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (73) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (84)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "AUTO",
       "company": "Astra Otoparts Tbk.",
       "score": 65,
-      "close": 3280.0,
-      "near_52w_pct": 95.2,
+      "close": 3330.0,
+      "near_52w_pct": 96.7,
       "wk_rsi": 74.4,
       "wk_adx": 34.5,
       "mo_rsi": 69.9,
@@ -135,8 +158,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
+        "Near 52W High (97%) + Wk RSI (74) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -148,8 +171,8 @@
       "ticker": "DMAS",
       "company": "Puradelta Lestari Tbk",
       "score": 60,
-      "close": 218.0,
-      "near_52w_pct": 99.1,
+      "close": 208.0,
+      "near_52w_pct": 97.2,
       "wk_rsi": 73.1,
       "wk_adx": 45.4,
       "mo_rsi": 76.6,
@@ -158,8 +181,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (73) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
+        "Near 52W High (97%) + Wk RSI (73) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (77)",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 52.5B)"
@@ -170,34 +193,11 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "SRSN",
-      "company": "Indo Acidatama Tbk",
-      "score": 60,
-      "close": 129.0,
-      "near_52w_pct": 86.0,
-      "wk_rsi": 69.8,
-      "wk_adx": 45.1,
-      "mo_rsi": 82.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (86%) + Wk RSI (70) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (82)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 2.1B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "ERAA",
       "company": "Erajaya Swasembada Tbk.",
       "score": 60,
-      "close": 580.0,
-      "near_52w_pct": 88.5,
+      "close": 570.0,
+      "near_52w_pct": 87.0,
       "wk_rsi": 73.3,
       "wk_adx": 35.3,
       "mo_rsi": 66.7,
@@ -206,7 +206,7 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (89%) + Wk RSI (73) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (87%) + Wk RSI (73) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -218,8 +218,8 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-22 23:55:31 WIB",
-    "date": "2026-10-22",
+    "generated_at": "2026-10-23 00:16:15 WIB",
+    "date": "2026-10-23",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
@@ -246,8 +246,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5387,
-    "ihsg_change_pct": 1.12,
+    "ihsg_close": 5328,
+    "ihsg_change_pct": 0.94,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -257,7 +257,7 @@
     "universe": 978,
     "after_liquidity": 78,
     "after_accumulation": 37,
-    "after_trend": 5,
+    "after_trend": 4,
     "after_smc": 1,
     "after_entry": 1,
     "final": 1
