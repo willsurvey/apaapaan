@@ -124,7 +124,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-22 08:32:49 WIB",
+    "generated_at": "2026-10-22 08:53:01 WIB",
     "date": "2026-10-22",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -152,8 +152,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5278,
-    "ihsg_change_pct": 5.65,
+    "ihsg_close": 5328,
+    "ihsg_change_pct": 0.94,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
