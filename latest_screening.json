@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-23 18:36:03 WIB",
+  "generated_at": "2026-10-23 18:56:38 WIB",
   "date": "2026-10-23",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -131,7 +131,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.34 WIB"
+      "updated_at": "18.55 WIB"
     },
     {
       "rank": 2,
@@ -140,7 +140,7 @@
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_72_IHSG Short-t",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -219,7 +219,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.34 WIB"
+      "updated_at": "18.55 WIB"
     }
   ]
 }
