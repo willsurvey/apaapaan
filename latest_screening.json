@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-23 17:15:33 WIB",
+  "generated_at": "2026-10-23 17:34:54 WIB",
   "date": "2026-10-23",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -18,7 +18,7 @@
   "screening_summary": {
     "universe": 978,
     "after_liquidity": 86,
-    "after_accumulation": 29,
+    "after_accumulation": 26,
     "after_trend": 4,
     "after_smc": 2,
     "after_entry": 2,
@@ -60,12 +60,12 @@
         "change_pct": 5.19,
         "value_today": 78525875000,
         "frequency_today": 4192,
-        "iep": 9625,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": 3984085000,
+        "net_foreign_today": 37642307500,
         "net_foreign_3d": 0,
         "acc_score": 70,
         "score_breakdown": {
@@ -126,12 +126,12 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp4.0B",
+        "✅ Net Foreign Buy hari ini: Rp37.6B",
         "✅ Internal BOS Bullish (1H)",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.33 WIB"
     },
     {
       "rank": 2,
@@ -219,7 +219,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.33 WIB"
     }
   ]
 }
