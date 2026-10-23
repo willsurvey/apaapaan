@@ -66,7 +66,7 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -98,21 +98,21 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "PTBA",
-      "company": "Bukit Asam Tbk.",
+      "ticker": "MOLI",
+      "company": "Madusari Murni Indah Tbk.",
       "score": 55,
-      "close": 3180.0,
-      "near_52w_pct": 91.1,
-      "wk_rsi": 69.3,
-      "wk_adx": 29.9,
-      "mo_rsi": 66.7,
+      "close": 390.0,
+      "near_52w_pct": 88.2,
+      "wk_rsi": 70.5,
+      "wk_adx": 34.7,
+      "mo_rsi": 68.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (91%) + Wk RSI (69) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (67)",
+        "Near 52W High (88%) + Wk RSI (70) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (69)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -122,7 +122,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-23 08:14:00 WIB",
+    "generated_at": "2026-10-23 08:33:47 WIB",
     "date": "2026-10-23",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
