@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-24 01:36:37 WIB",
+  "generated_at": "2026-10-24 01:57:11 WIB",
   "date": "2026-10-24",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -19,7 +19,7 @@
     "universe": 978,
     "after_liquidity": 86,
     "after_accumulation": 26,
-    "after_trend": 3,
+    "after_trend": 4,
     "after_smc": 2,
     "after_entry": 2,
     "final": 2
@@ -78,8 +78,8 @@
         }
       },
       "trend": {
-        "ma50": 8013.0,
-        "gap_from_ma50_pct": 14.19,
+        "ma50": 8066.0,
+        "gap_from_ma50_pct": 19.33,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -131,7 +131,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "01.34 WIB"
+      "updated_at": "01.56 WIB"
     },
     {
       "rank": 2,
@@ -166,8 +166,8 @@
         }
       },
       "trend": {
-        "ma50": 4500.0,
-        "gap_from_ma50_pct": 6.67,
+        "ma50": 4514.0,
+        "gap_from_ma50_pct": 11.31,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -219,7 +219,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "01.34 WIB"
+      "updated_at": "01.56 WIB"
     }
   ]
 }
