@@ -88,7 +88,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "00.15 WIB"
+      "updated_at": "00.35 WIB"
     },
     {
       "rank": 2,
@@ -176,13 +176,290 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "00.15 WIB"
+      "updated_at": "00.35 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
-  "swing_trading": [],
+  "swing_trading": [
+    {
+      "ticker": "TEBE",
+      "company": "Dana Brata Luhur Tbk",
+      "type": "WATCHLIST_SWING",
+      "score": 65,
+      "market_data": {
+        "close": 1920.0,
+        "value_today": 65825918500,
+        "net_foreign": -2866840000
+      },
+      "technical": {
+        "stage2": true,
+        "ma50_slope": "+15.5%/10d",
+        "dist_ma20": "+-13.5%",
+        "squeeze": "33%",
+        "vol_ratio": "55%",
+        "rsi": 39.7,
+        "atr_pct": "16.6%",
+        "dist_52w_high": "-52.9%",
+        "ma20": 2219.5,
+        "ma50": 1799.7,
+        "ma200": 1477.7
+      },
+      "trading_plan": {
+        "strategy": "Beli sekarang, hold max 20 hari",
+        "entry": 1920,
+        "target": 2110,
+        "target_pct": "+10%",
+        "stop_loss": 1805,
+        "stop_loss_pct": "-6%",
+        "max_hold_days": 20,
+        "exit_rule": "Jual jika sentuh 2,110 (+10%), ATAU cut loss di 1,805 (-6%), ATAU jual di hari ke-20.",
+        "trailing_stop": "Aktifkan trailing stop setelah profit +5%"
+      },
+      "signals_positive": [
+        "Stage 2 Uptrend: Harga > MA50 > MA200, MA50 slope +15.5%/10d",
+        "Ultra Tight Squeeze: 33%",
+        "Volume kering: 55% dari MA20",
+        "Di atas MA200 — tren primer bullish"
+      ],
+      "signals_negative": [
+        "Terlalu dekat MA20 (+-13.5%)",
+        "RSI terlalu rendah (40)"
+      ],
+      "backtest_stats": {
+        "golden_setup_pf": "1.60x",
+        "golden_setup_ev": "+2.14%",
+        "golden_setup_wr": "48.8%",
+        "golden_setup_dd": "-5.5%",
+        "total_backtest": "467.390 hari (956 saham IHSG)",
+        "bear_market_warning": "GAGAL di 2019, 2024, 2026"
+      },
+      "disclaimer": "⚠️ SWING WATCHLIST. PF=1.60x, EV=+2.14%. SL -6% KERAS. GAGAL di bear market — kill switch IHSG<MA200 aktif.",
+      "rank": 1
+    },
+    {
+      "ticker": "UVCR",
+      "company": "Trimegah Karya Pratama Tbk. ",
+      "type": "WATCHLIST_SWING",
+      "score": 60,
+      "market_data": {
+        "close": 214.0,
+        "value_today": 8503882000,
+        "net_foreign": 1473687200
+      },
+      "technical": {
+        "stage2": true,
+        "ma50_slope": "+9.5%/10d",
+        "dist_ma20": "+-13.5%",
+        "squeeze": "40%",
+        "vol_ratio": "46%",
+        "rsi": 37.3,
+        "atr_pct": "12.9%",
+        "dist_52w_high": "-30.5%",
+        "ma20": 247.35,
+        "ma50": 191.42,
+        "ma200": 171.52
+      },
+      "trading_plan": {
+        "strategy": "Beli sekarang, hold max 20 hari",
+        "entry": 214,
+        "target": 236,
+        "target_pct": "+10%",
+        "stop_loss": 202,
+        "stop_loss_pct": "-6%",
+        "max_hold_days": 20,
+        "exit_rule": "Jual jika sentuh 236 (+10%), ATAU cut loss di 202 (-6%), ATAU jual di hari ke-20.",
+        "trailing_stop": "Aktifkan trailing stop setelah profit +5%"
+      },
+      "signals_positive": [
+        "Stage 2 Uptrend: Harga > MA50 > MA200, MA50 slope +9.5%/10d",
+        "Squeeze moderat (40%)",
+        "Volume kering: 46% dari MA20",
+        "Di atas MA200 — tren primer bullish",
+        "Asing beli bersih (Rp 1.5B)"
+      ],
+      "signals_negative": [
+        "Terlalu dekat MA20 (+-13.5%)",
+        "RSI terlalu rendah (37)"
+      ],
+      "backtest_stats": {
+        "golden_setup_pf": "1.60x",
+        "golden_setup_ev": "+2.14%",
+        "golden_setup_wr": "48.8%",
+        "golden_setup_dd": "-5.5%",
+        "total_backtest": "467.390 hari (956 saham IHSG)",
+        "bear_market_warning": "GAGAL di 2019, 2024, 2026"
+      },
+      "disclaimer": "⚠️ SWING WATCHLIST. PF=1.60x, EV=+2.14%. SL -6% KERAS. GAGAL di bear market — kill switch IHSG<MA200 aktif.",
+      "rank": 2
+    },
+    {
+      "ticker": "SEMA",
+      "company": "Semacom Integrated Tbk.",
+      "type": "WATCHLIST_SWING",
+      "score": 60,
+      "market_data": {
+        "close": 300.0,
+        "value_today": 20401264800,
+        "net_foreign": 159584600
+      },
+      "technical": {
+        "stage2": true,
+        "ma50_slope": "+28.5%/10d",
+        "dist_ma20": "+-20.8%",
+        "squeeze": "41%",
+        "vol_ratio": "55%",
+        "rsi": 29.7,
+        "atr_pct": "18.8%",
+        "dist_52w_high": "-42.9%",
+        "ma20": 379.0,
+        "ma50": 223.44,
+        "ma200": 138.23
+      },
+      "trading_plan": {
+        "strategy": "Beli sekarang, hold max 20 hari",
+        "entry": 300,
+        "target": 330,
+        "target_pct": "+10%",
+        "stop_loss": 282,
+        "stop_loss_pct": "-6%",
+        "max_hold_days": 20,
+        "exit_rule": "Jual jika sentuh 330 (+10%), ATAU cut loss di 282 (-6%), ATAU jual di hari ke-20.",
+        "trailing_stop": "Aktifkan trailing stop setelah profit +5%"
+      },
+      "signals_positive": [
+        "Stage 2 Uptrend: Harga > MA50 > MA200, MA50 slope +28.5%/10d",
+        "Squeeze moderat (41%)",
+        "Volume kering: 55% dari MA20",
+        "Di atas MA200 — tren primer bullish",
+        "Asing beli bersih (Rp 0.2B)"
+      ],
+      "signals_negative": [
+        "Terlalu dekat MA20 (+-20.8%)",
+        "RSI terlalu rendah (30)"
+      ],
+      "backtest_stats": {
+        "golden_setup_pf": "1.60x",
+        "golden_setup_ev": "+2.14%",
+        "golden_setup_wr": "48.8%",
+        "golden_setup_dd": "-5.5%",
+        "total_backtest": "467.390 hari (956 saham IHSG)",
+        "bear_market_warning": "GAGAL di 2019, 2024, 2026"
+      },
+      "disclaimer": "⚠️ SWING WATCHLIST. PF=1.60x, EV=+2.14%. SL -6% KERAS. GAGAL di bear market — kill switch IHSG<MA200 aktif.",
+      "rank": 3
+    },
+    {
+      "ticker": "HATM",
+      "company": "Habco Trans Maritima Tbk.",
+      "type": "WATCHLIST_SWING",
+      "score": 60,
+      "market_data": {
+        "close": 580.0,
+        "value_today": 3643379500,
+        "net_foreign": -777480000
+      },
+      "technical": {
+        "stage2": true,
+        "ma50_slope": "+2.0%/10d",
+        "dist_ma20": "+1.6%",
+        "squeeze": "92%",
+        "vol_ratio": "33%",
+        "rsi": 55.1,
+        "atr_pct": "9.7%",
+        "dist_52w_high": "-15.3%",
+        "ma20": 570.75,
+        "ma50": 578.2,
+        "ma200": 415.83
+      },
+      "trading_plan": {
+        "strategy": "Beli sekarang, hold max 20 hari",
+        "entry": 580,
+        "target": 640,
+        "target_pct": "+10%",
+        "stop_loss": 545,
+        "stop_loss_pct": "-6%",
+        "max_hold_days": 20,
+        "exit_rule": "Jual jika sentuh 640 (+10%), ATAU cut loss di 545 (-6%), ATAU jual di hari ke-20.",
+        "trailing_stop": "Aktifkan trailing stop setelah profit +5%"
+      },
+      "signals_positive": [
+        "Stage 2 Uptrend: Harga > MA50 > MA200, MA50 slope +2.0%/10d",
+        "Volume kering: 33% dari MA20",
+        "RSI sweet spot (55) — momentum awal uptrend, WR 52.0%",
+        "Di atas MA200 — tren primer bullish"
+      ],
+      "signals_negative": [
+        "Terlalu dekat MA20 (+1.6%)",
+        "Belum squeeze (92%)"
+      ],
+      "backtest_stats": {
+        "golden_setup_pf": "1.60x",
+        "golden_setup_ev": "+2.14%",
+        "golden_setup_wr": "48.8%",
+        "golden_setup_dd": "-5.5%",
+        "total_backtest": "467.390 hari (956 saham IHSG)",
+        "bear_market_warning": "GAGAL di 2019, 2024, 2026"
+      },
+      "disclaimer": "⚠️ SWING WATCHLIST. PF=1.60x, EV=+2.14%. SL -6% KERAS. GAGAL di bear market — kill switch IHSG<MA200 aktif.",
+      "rank": 4
+    },
+    {
+      "ticker": "SRSN",
+      "company": "Indo Acidatama Tbk",
+      "type": "WATCHLIST_SWING",
+      "score": 55,
+      "market_data": {
+        "close": 129.0,
+        "value_today": 18524429100,
+        "net_foreign": -3811978900
+      },
+      "technical": {
+        "stage2": true,
+        "ma50_slope": "+10.4%/10d",
+        "dist_ma20": "+2.1%",
+        "squeeze": "65%",
+        "vol_ratio": "72%",
+        "rsi": 48.4,
+        "atr_pct": "9.6%",
+        "dist_52w_high": "-14.0%",
+        "ma20": 126.3,
+        "ma50": 107.58,
+        "ma200": 74.5
+      },
+      "trading_plan": {
+        "strategy": "Beli sekarang, hold max 20 hari",
+        "entry": 129,
+        "target": 142,
+        "target_pct": "+10%",
+        "stop_loss": 121,
+        "stop_loss_pct": "-6%",
+        "max_hold_days": 20,
+        "exit_rule": "Jual jika sentuh 142 (+10%), ATAU cut loss di 121 (-6%), ATAU jual di hari ke-20.",
+        "trailing_stop": "Aktifkan trailing stop setelah profit +5%"
+      },
+      "signals_positive": [
+        "Stage 2 Uptrend: Harga > MA50 > MA200, MA50 slope +10.4%/10d",
+        "Posisi ideal: +2.1% di atas MA20",
+        "RSI netral (48)",
+        "Di atas MA200 — tren primer bullish"
+      ],
+      "signals_negative": [
+        "Belum squeeze (65%)"
+      ],
+      "backtest_stats": {
+        "golden_setup_pf": "1.60x",
+        "golden_setup_ev": "+2.14%",
+        "golden_setup_wr": "48.8%",
+        "golden_setup_dd": "-5.5%",
+        "total_backtest": "467.390 hari (956 saham IHSG)",
+        "bear_market_warning": "GAGAL di 2019, 2024, 2026"
+      },
+      "disclaimer": "⚠️ SWING WATCHLIST. PF=1.60x, EV=+2.14%. SL -6% KERAS. GAGAL di bear market — kill switch IHSG<MA200 aktif.",
+      "rank": 5
+    }
+  ],
   "trend_following": [],
   "position_trading": [
     {
@@ -223,7 +500,7 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -304,7 +581,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-24 00:15:48 WIB",
+    "generated_at": "2026-10-24 00:37:05 WIB",
     "date": "2026-10-24",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -315,7 +592,7 @@
     "ara_count": 0,
     "bsjp_count": 0,
     "bpjs_count": 0,
-    "swing_count": 0,
+    "swing_count": 5,
     "trend_count": 0,
     "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
