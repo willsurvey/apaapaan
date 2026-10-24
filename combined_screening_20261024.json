@@ -89,7 +89,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "13.14 WIB"
+      "updated_at": "13.32 WIB"
     },
     {
       "rank": 2,
@@ -178,7 +178,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "13.14 WIB"
+      "updated_at": "13.32 WIB"
     },
     {
       "rank": 3,
@@ -269,7 +269,7 @@
         "✅ Pullback ke MA50 (3.2% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "13.14 WIB"
+      "updated_at": "13.32 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -385,7 +385,7 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -397,7 +397,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-24 13:15:04 WIB",
+    "generated_at": "2026-10-24 13:33:45 WIB",
     "date": "2026-10-24",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
