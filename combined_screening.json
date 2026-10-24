@@ -89,7 +89,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "08.35 WIB"
+      "updated_at": "08.54 WIB"
     },
     {
       "rank": 2,
@@ -178,7 +178,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "08.35 WIB"
+      "updated_at": "08.54 WIB"
     },
     {
       "rank": 3,
@@ -269,14 +269,129 @@
         "✅ Pullback ke MA50 (3.2% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "08.35 WIB"
+      "updated_at": "08.54 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
-  "trend_following": [],
+  "trend_following": [
+    {
+      "ticker": "AKKU",
+      "company": "Anugerah Kagum Karya Utama Tbk.",
+      "score": 70,
+      "close": 86.0,
+      "adx": 38.8,
+      "rsi": 72.1,
+      "macd_hist": 1.1985,
+      "wk_adx": 42.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (39) + RSI sehat (72) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (43)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif",
+        "Asing beli bersih (Rp 0.1B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "PRDA",
+      "company": "Prodia Widyahusada Tbk",
+      "score": 70,
+      "close": 3670.0,
+      "adx": 40.2,
+      "rsi": 72.8,
+      "macd_hist": 51.1624,
+      "wk_adx": 64.7,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (40) + RSI sehat (73) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+21.9%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (65)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "ARII",
+      "company": "Atlas Resources Tbk.",
+      "score": 70,
+      "close": 480.0,
+      "adx": 55.6,
+      "rsi": 67.2,
+      "macd_hist": 6.5634,
+      "wk_adx": 43.1,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (56) + RSI sehat (67) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+20.0%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (43)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "MPXL",
+      "company": "MPX Logistics International Tbk.",
+      "score": 70,
+      "close": 322.0,
+      "adx": 53.7,
+      "rsi": 61.0,
+      "macd_hist": 1.4754,
+      "wk_adx": 34.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (54) + RSI sehat (61) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Momentum 5 hari positif (+12.6%)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (34)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    },
+    {
+      "ticker": "AIMS",
+      "company": "Artha Mahiya Investama Tbk",
+      "score": 65,
+      "close": 700.0,
+      "adx": 51.7,
+      "rsi": 61.6,
+      "macd_hist": 7.4779,
+      "wk_adx": 46.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.1,
+      "stop_loss_pct": 0.07,
+      "max_hold_days": 20,
+      "signals_positive": [
+        "Stage 2 + ADX kuat (52) + RSI sehat (62) + MACD positif — WR historis 54.7% (hit +10% dalam 20 hari)",
+        "Di atas MA200 — tren primer bullish",
+        "Weekly ADX kuat (47)",
+        "Weekly OBV di atas MA20 — akumulasi mingguan positif"
+      ],
+      "signals_negative": [],
+      "pipeline": "trend_following"
+    }
+  ],
   "position_trading": [
     {
       "ticker": "AALI",
@@ -397,7 +512,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-24 08:36:00 WIB",
+    "generated_at": "2026-10-24 08:56:22 WIB",
     "date": "2026-10-24",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -409,7 +524,7 @@
     "bsjp_count": 0,
     "bpjs_count": 0,
     "swing_count": 0,
-    "trend_count": 0,
+    "trend_count": 5,
     "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
@@ -425,8 +540,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5387,
-    "ihsg_change_pct": 1.12,
+    "ihsg_close": 5439,
+    "ihsg_change_pct": 0.95,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
