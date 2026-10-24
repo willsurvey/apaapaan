@@ -1,9 +1,9 @@
 {
   "status": "success",
-  "generated_at": "2026-10-24 23:57:23 WIB",
-  "date": "2026-10-24",
+  "generated_at": "2026-10-25 00:15:33 WIB",
+  "date": "2026-10-25",
   "mode": "FULL_STOCKBIT",
-  "session_label": "PRE_MARKET_WEEKEND (Saturday)",
+  "session_label": "PRE_MARKET_WEEKEND (Sunday)",
   "session_warning": "⚠️ Screening dijalankan di akhir pekan — gunakan sebagai referensi persiapan, bukan sinyal eksekusi langsung.",
   "mode_warning": null,
   "total_saham": 3,
@@ -132,7 +132,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.55 WIB"
+      "updated_at": "00.14 WIB"
     },
     {
       "rank": 2,
@@ -221,7 +221,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.55 WIB"
+      "updated_at": "00.14 WIB"
     },
     {
       "rank": 3,
@@ -312,7 +312,7 @@
         "✅ Pullback ke MA50 (3.2% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "23.55 WIB"
+      "updated_at": "00.14 WIB"
     }
   ]
 }
