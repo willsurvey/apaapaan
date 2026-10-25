@@ -89,7 +89,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.54 WIB"
+      "updated_at": "00.15 WIB"
     },
     {
       "rank": 2,
@@ -178,7 +178,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "23.54 WIB"
+      "updated_at": "00.15 WIB"
     },
     {
       "rank": 3,
@@ -269,7 +269,7 @@
         "✅ Pullback ke MA50 (3.2% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "23.54 WIB"
+      "updated_at": "00.15 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -298,29 +298,6 @@
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 37.6B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "DMAS",
-      "company": "Puradelta Lestari Tbk",
-      "score": 65,
-      "close": 214.0,
-      "near_52w_pct": 97.3,
-      "wk_rsi": 72.5,
-      "wk_adx": 45.4,
-      "mo_rsi": 76.0,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (72) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (76)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -393,16 +370,39 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "POWR",
+      "company": "Cikarang Listrindo Tbk.",
+      "score": 60,
+      "close": 930.0,
+      "near_52w_pct": 89.4,
+      "wk_rsi": 67.2,
+      "wk_adx": 56.3,
+      "mo_rsi": 81.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (89%) + Wk RSI (67) + Wk ADX (56) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (82)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 2.2B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-25 23:55:49 WIB",
-    "date": "2026-10-25",
+    "generated_at": "2026-10-26 00:15:48 WIB",
+    "date": "2026-10-26",
     "mode": "FULL_STOCKBIT",
-    "session_label": "PRE_MARKET_WEEKEND (Sunday)",
+    "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
-    "session_warning": "⚠️ Screening akhir pekan — referensi persiapan saja, bukan sinyal eksekusi.",
+    "session_warning": null,
     "mode_warning": null,
     "intraday_count": 3,
     "ara_count": 0,
