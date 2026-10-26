@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-27 01:38:01 WIB",
+  "generated_at": "2026-10-27 01:57:36 WIB",
   "date": "2026-10-27",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -19,9 +19,9 @@
     "universe": 977,
     "after_liquidity": 86,
     "after_accumulation": 18,
-    "after_trend": 4,
-    "after_smc": 3,
-    "after_entry": 3,
+    "after_trend": 5,
+    "after_smc": 4,
+    "after_entry": 4,
     "final": 3
   },
   "config": {
@@ -76,8 +76,8 @@
         }
       },
       "trend": {
-        "ma50": 3224.0,
-        "gap_from_ma50_pct": 1.75,
+        "ma50": 3235.0,
+        "gap_from_ma50_pct": 2.63,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -127,10 +127,10 @@
         "✅ Net Foreign Buy hari ini: Rp2.5B",
         "✅ Harga di zona Order Block aktif",
         "✅ Swing Structure: BULLISH",
-        "✅ Pullback ke MA50 (1.8% di atas MA50)"
+        "✅ Pullback ke MA50 (2.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "01.37 WIB"
+      "updated_at": "01.56 WIB"
     },
     {
       "rank": 2,
@@ -165,8 +165,8 @@
         }
       },
       "trend": {
-        "ma50": 4514.0,
-        "gap_from_ma50_pct": 11.31,
+        "ma50": 4531.0,
+        "gap_from_ma50_pct": 10.35,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -218,7 +218,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "01.37 WIB"
+      "updated_at": "01.56 WIB"
     },
     {
       "rank": 3,
@@ -253,8 +253,8 @@
         }
       },
       "trend": {
-        "ma50": 2845.0,
-        "gap_from_ma50_pct": 28.98,
+        "ma50": 2872.0,
+        "gap_from_ma50_pct": 28.83,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -306,7 +306,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "01.37 WIB"
+      "updated_at": "01.56 WIB"
     }
   ]
 }
