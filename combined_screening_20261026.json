@@ -87,7 +87,7 @@
         "✅ Pullback ke MA50 (2.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "17.54 WIB"
+      "updated_at": "18.13 WIB"
     },
     {
       "rank": 2,
@@ -175,7 +175,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.54 WIB"
+      "updated_at": "18.13 WIB"
     },
     {
       "rank": 3,
@@ -263,7 +263,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.54 WIB"
+      "updated_at": "18.13 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -322,7 +322,7 @@
       "d2_body_pct": 0.133,
       "d2_vol_ratio_ma20": 2.69,
       "m1_last15_green": 13,
-      "m1_close_vs_vwap": -0.21,
+      "m1_close_vs_vwap": -0.44,
       "m1_close_pos_intra": 0.447,
       "m1_high_timing": 0.522,
       "m1_n_bars": 274,
@@ -352,7 +352,7 @@
         "SCREENER_VOL_EXPLOSION"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "17:54 WIB"
+      "generated_at": "18:14 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -374,7 +374,7 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -479,7 +479,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-26 17:55:46 WIB",
+    "generated_at": "2026-10-26 18:15:28 WIB",
     "date": "2026-10-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
