@@ -87,7 +87,7 @@
         "✅ Pullback ke MA50 (2.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "19.35 WIB"
+      "updated_at": "19.55 WIB"
     },
     {
       "rank": 2,
@@ -175,7 +175,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "19.35 WIB"
+      "updated_at": "19.55 WIB"
     },
     {
       "rank": 3,
@@ -263,7 +263,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "19.35 WIB"
+      "updated_at": "19.55 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -372,7 +372,7 @@
       "close": 2380.0,
       "near_52w_pct": 95.2,
       "wk_rsi": 73.7,
-      "wk_adx": 50.2,
+      "wk_adx": 50.1,
       "mo_rsi": 83.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -391,7 +391,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-26 19:36:29 WIB",
+    "generated_at": "2026-10-26 19:56:47 WIB",
     "date": "2026-10-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
