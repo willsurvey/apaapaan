@@ -1,307 +1,11 @@
 {
-  "logika_lama_intraday": [
-    {
-      "rank": 1,
-      "ticker": "AALI",
-      "company": "Astra Agro Lestari Tbk.",
-      "mode": "FULL_STOCKBIT",
-      "universe_sources": [
-        "MOVER_TYPE_TOP_VALUE",
-        "MOVER_TYPE_NET_FOREIGN_BUY",
-        "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula",
-        "SCREENER_TOP_VALUE"
-      ],
-      "market_data": {
-        "close": 9625,
-        "change_pct": 5.19,
-        "value_today": 78525875000,
-        "frequency_today": 4192,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "accumulation": {
-        "broker_signal": "Big Acc",
-        "net_foreign_today": 37642307500,
-        "net_foreign_3d": 0,
-        "acc_score": 70,
-        "score_breakdown": {
-          "broker": 35,
-          "foreign_1d": 15,
-          "foreign_3d": 0,
-          "candle": 10,
-          "volume": 10,
-          "total": 70
-        }
-      },
-      "trend": {
-        "ma50": 8066.0,
-        "gap_from_ma50_pct": 19.33,
-        "ma50_slope": "POSITIVE"
-      },
-      "smc": {
-        "internal_structure": "BOS_BULLISH",
-        "swing_trend_bias": "BULLISH",
-        "ob_zone": null,
-        "fvg_zone": "9150 - 9575",
-        "strong_low": 7375.0,
-        "weak_high": 8650.0
-      },
-      "entry_plan": {
-        "whipsaw_risk": "HIGH",
-        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction": "PULLBACK",
-        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction_reason": "",
-        "entry_1": 9525,
-        "entry_1_pct": 20,
-        "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 9325,
-        "entry_2_pct": 50,
-        "entry_2_note": "Area OB / FVG / Support",
-        "entry_3": 9175,
-        "entry_3_pct": 30,
-        "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 9325,
-        "entry_zone": "9175 - 9525",
-        "sl": 9125,
-        "sl_pct_risk": 2.14,
-        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 9800,
-        "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 10100,
-        "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 10400,
-        "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:5.4",
-        "risk_pct": 2,
-        "risk_note": "Max 2% dari total portofolio"
-      },
-      "scoring": {
-        "confidence_score": 75,
-        "tier": "HIGH"
-      },
-      "signals": [
-        "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp37.6B",
-        "✅ Internal BOS Bullish (1H)",
-        "✅ Harga di zona FVG aktif",
-        "✅ Swing Structure: BULLISH"
-      ],
-      "warnings": [],
-      "updated_at": "07.54 WIB"
-    },
-    {
-      "rank": 2,
-      "ticker": "BDMN",
-      "company": "Bank Danamon Indonesia Tbk.",
-      "mode": "FULL_STOCKBIT",
-      "universe_sources": [
-        "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula",
-        "SCREENER_TOP_VALUE"
-      ],
-      "market_data": {
-        "close": 5025,
-        "change_pct": 0,
-        "value_today": 22210874000.0,
-        "frequency_today": 0,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "accumulation": {
-        "broker_signal": "Big Acc",
-        "net_foreign_today": 0,
-        "net_foreign_3d": 0,
-        "acc_score": 55,
-        "score_breakdown": {
-          "broker": 35,
-          "foreign_1d": 15,
-          "foreign_3d": 0,
-          "candle": 10,
-          "volume": -5,
-          "total": 55
-        }
-      },
-      "trend": {
-        "ma50": 4514.0,
-        "gap_from_ma50_pct": 11.31,
-        "ma50_slope": "POSITIVE"
-      },
-      "smc": {
-        "internal_structure": "BOS_BULLISH",
-        "swing_trend_bias": "BULLISH",
-        "ob_zone": null,
-        "fvg_zone": "4960 - 5025",
-        "strong_low": 4240.0,
-        "weak_high": 5025.0
-      },
-      "entry_plan": {
-        "whipsaw_risk": "HIGH",
-        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction": "PULLBACK",
-        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction_reason": "",
-        "entry_1": 4990,
-        "entry_1_pct": 20,
-        "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 4960,
-        "entry_2_pct": 50,
-        "entry_2_note": "Area OB / FVG / Support",
-        "entry_3": 4810,
-        "entry_3_pct": 30,
-        "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 4920,
-        "entry_zone": "4810 - 4990",
-        "sl": 4790,
-        "sl_pct_risk": 2.64,
-        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 5025,
-        "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 5175,
-        "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 5325,
-        "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:3.1",
-        "risk_pct": 2,
-        "risk_note": "Max 2% dari total portofolio"
-      },
-      "scoring": {
-        "confidence_score": 70,
-        "tier": "HIGH"
-      },
-      "signals": [
-        "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy kemarin",
-        "✅ Internal BOS Bullish (1H)",
-        "✅ Harga di zona FVG aktif",
-        "✅ Swing Structure: BULLISH"
-      ],
-      "warnings": [],
-      "updated_at": "07.54 WIB"
-    },
-    {
-      "rank": 3,
-      "ticker": "UNTR",
-      "company": "United Tractors Tbk.",
-      "mode": "FULL_STOCKBIT",
-      "universe_sources": [
-        "MOVER_TYPE_TOP_VALUE",
-        "MOVER_TYPE_NET_FOREIGN_BUY",
-        "SCREENER_VOLUME_EXPLOSION",
-        "GURU_92_Big Accumula",
-        "SCREENER_TOP_VALUE"
-      ],
-      "market_data": {
-        "close": 25300,
-        "change_pct": 4.12,
-        "value_today": 65188407500,
-        "frequency_today": 6236,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "accumulation": {
-        "broker_signal": "Big Acc",
-        "net_foreign_today": 11516210000,
-        "net_foreign_3d": 0,
-        "acc_score": 55,
-        "score_breakdown": {
-          "broker": 35,
-          "foreign_1d": 15,
-          "foreign_3d": 0,
-          "candle": 10,
-          "volume": -5,
-          "total": 55
-        }
-      },
-      "trend": {
-        "ma50": 24511.0,
-        "gap_from_ma50_pct": 3.22,
-        "ma50_slope": "POSITIVE"
-      },
-      "smc": {
-        "internal_structure": "NONE",
-        "swing_trend_bias": "BULLISH",
-        "ob_zone": null,
-        "fvg_zone": "25000 - 25175",
-        "strong_low": 21450.0,
-        "weak_high": 25400.0
-      },
-      "entry_plan": {
-        "whipsaw_risk": "HIGH",
-        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction": "PULLBACK",
-        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction_reason": "",
-        "entry_1": 25100,
-        "entry_1_pct": 20,
-        "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 25000,
-        "entry_2_pct": 50,
-        "entry_2_note": "Area OB / FVG / Support",
-        "entry_3": 24125,
-        "entry_3_pct": 30,
-        "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 24750,
-        "entry_zone": "24125 - 25100",
-        "sl": 24075,
-        "sl_pct_risk": 2.73,
-        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 25375,
-        "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 25425,
-        "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 26200,
-        "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:2.1",
-        "risk_pct": 2,
-        "risk_note": "Max 2% dari total portofolio"
-      },
-      "scoring": {
-        "confidence_score": 60,
-        "tier": "MODERATE"
-      },
-      "signals": [
-        "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp11.5B",
-        "✅ Harga di zona FVG aktif",
-        "✅ Swing Structure: BULLISH",
-        "✅ Pullback ke MA50 (3.2% di atas MA50)"
-      ],
-      "warnings": [],
-      "updated_at": "07.54 WIB"
-    }
-  ],
+  "logika_lama_intraday": [],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
   "swing_trading": [],
   "trend_following": [],
   "position_trading": [
-    {
-      "ticker": "AALI",
-      "company": "Astra Agro Lestari Tbk.",
-      "score": 70,
-      "close": 9625.0,
-      "near_52w_pct": 98.2,
-      "wk_rsi": 78.1,
-      "wk_adx": 22.5,
-      "mo_rsi": 67.3,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (78) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (67)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 37.6B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
     {
       "ticker": "BDMN",
       "company": "Bank Danamon Indonesia Tbk.",
@@ -319,6 +23,29 @@
         "Near 52W High (99%) + Wk RSI (62) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (74)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "AALI",
+      "company": "Astra Agro Lestari Tbk.",
+      "score": 65,
+      "close": 9625.0,
+      "near_52w_pct": 98.2,
+      "wk_rsi": 78.1,
+      "wk_adx": 22.5,
+      "mo_rsi": 67.3,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (98%) + Wk RSI (78) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -362,7 +89,7 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -372,39 +99,40 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "POWR",
-      "company": "Cikarang Listrindo Tbk.",
-      "score": 60,
-      "close": 930.0,
-      "near_52w_pct": 89.4,
-      "wk_rsi": 67.2,
-      "wk_adx": 56.6,
-      "mo_rsi": 81.5,
-      "wk_obv_above_ma": true,
+      "ticker": "DMAS",
+      "company": "Puradelta Lestari Tbk",
+      "score": 55,
+      "close": 214.0,
+      "near_52w_pct": 97.3,
+      "wk_rsi": 72.5,
+      "wk_adx": 45.4,
+      "mo_rsi": 76.0,
+      "wk_obv_above_ma": false,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (89%) + Wk RSI (67) + Wk ADX (57) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (82)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 2.2B)"
+        "Near 52W High (97%) + Wk RSI (72) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (76)",
+        "Di atas MA200 Daily — tren primer bullish"
       ],
-      "signals_negative": [],
+      "signals_negative": [
+        "Weekly OBV di bawah MA20"
+      ],
       "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-26 07:55:14 WIB",
+    "generated_at": "2026-10-26 08:14:38 WIB",
     "date": "2026-10-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
     "session_warning": null,
     "mode_warning": null,
-    "intraday_count": 3,
+    "intraday_count": 0,
     "ara_count": 0,
     "bsjp_count": 0,
     "bpjs_count": 0,
@@ -434,12 +162,12 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 86,
-    "after_accumulation": 26,
-    "after_trend": 4,
-    "after_smc": 3,
-    "after_entry": 3,
-    "final": 3
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
+    "after_smc": 0,
+    "after_entry": 0,
+    "final": 0
   },
   "config_ara": {
     "vol_ma20_tier1": 3.0,
