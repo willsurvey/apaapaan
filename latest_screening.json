@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-26 15:35:23 WIB",
+  "generated_at": "2026-10-26 15:54:31 WIB",
   "date": "2026-10-26",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -8,20 +8,20 @@
   "mode_warning": null,
   "total_saham": 1,
   "market_context": {
-    "ihsg_close": 5357,
-    "ihsg_change_pct": -1.51,
+    "ihsg_close": 5360,
+    "ihsg_change_pct": -1.45,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -1.5% kemarin. Trading dengan sangat hati-hati."
+    "warning": null
   },
   "screening_summary": {
     "universe": 977,
-    "after_liquidity": 88,
-    "after_accumulation": 23,
+    "after_liquidity": 89,
+    "after_accumulation": 22,
     "after_trend": 2,
-    "after_smc": 2,
-    "after_entry": 2,
+    "after_smc": 1,
+    "after_entry": 1,
     "final": 1
   },
   "config": {
@@ -56,7 +56,7 @@
       "market_data": {
         "close": 5000,
         "change_pct": 0,
-        "value_today": 27379605000.0,
+        "value_today": 28035367500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -65,14 +65,14 @@
         "broker_signal": "Big Acc",
         "net_foreign_today": 0,
         "net_foreign_3d": 0,
-        "acc_score": 40,
+        "acc_score": 45,
         "score_breakdown": {
           "broker": 35,
           "foreign_1d": 0,
           "foreign_3d": 0,
           "candle": 10,
-          "volume": -5,
-          "total": 40
+          "volume": 0,
+          "total": 45
         }
       },
       "trend": {
@@ -119,7 +119,7 @@
         "risk_note": "Max 2% dari total portofolio"
       },
       "scoring": {
-        "confidence_score": 55,
+        "confidence_score": 60,
         "tier": "MODERATE"
       },
       "signals": [
@@ -129,7 +129,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.34 WIB"
+      "updated_at": "15.53 WIB"
     }
   ]
 }
