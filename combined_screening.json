@@ -13,7 +13,7 @@
       "market_data": {
         "close": 5000,
         "change_pct": 0,
-        "value_today": 16204642500.0,
+        "value_today": 16824165500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -86,7 +86,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "13.32 WIB"
+      "updated_at": "13.52 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -99,11 +99,11 @@
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "score": 70,
-      "close": 9425.0,
-      "near_52w_pct": 96.2,
+      "close": 9400.0,
+      "near_52w_pct": 95.9,
       "wk_rsi": 78.1,
       "wk_adx": 22.5,
-      "mo_rsi": 66.5,
+      "mo_rsi": 66.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -115,6 +115,30 @@
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 37.6B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "BLES",
+      "company": "Superior Prima Sukses Tbk",
+      "score": 70,
+      "close": 222.0,
+      "near_52w_pct": 96.5,
+      "wk_rsi": 63.2,
+      "wk_adx": 23.7,
+      "mo_rsi": 64.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (63) + Wk ADX (24) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (64)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 0.9B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -149,7 +173,7 @@
       "close": 2380.0,
       "near_52w_pct": 95.2,
       "wk_rsi": 73.7,
-      "wk_adx": 50.1,
+      "wk_adx": 50.2,
       "mo_rsi": 83.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -169,53 +193,29 @@
       "ticker": "AUTO",
       "company": "Astra Otoparts Tbk.",
       "score": 65,
-      "close": 3310.0,
-      "near_52w_pct": 96.1,
+      "close": 3290.0,
+      "near_52w_pct": 95.5,
       "wk_rsi": 74.4,
       "wk_adx": 34.5,
-      "mo_rsi": 70.2,
+      "mo_rsi": 70.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
+        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
         "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "DMAS",
-      "company": "Puradelta Lestari Tbk",
-      "score": 55,
-      "close": 212.0,
-      "near_52w_pct": 96.4,
-      "wk_rsi": 72.5,
-      "wk_adx": 45.4,
-      "mo_rsi": 75.7,
-      "wk_obv_above_ma": false,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (72) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (76)",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [
-        "Weekly OBV di bawah MA20"
-      ],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-26 13:33:43 WIB",
+    "generated_at": "2026-10-26 13:53:29 WIB",
     "date": "2026-10-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -243,20 +243,20 @@
     }
   },
   "market_context": {
+    "ihsg_close": 5374,
+    "ihsg_change_pct": -1.19,
+    "ihsg_trend": "BEARISH",
+    "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": null,
-    "ihsg_trend": "UNKNOWN",
-    "ihsg_close": 0,
-    "ihsg_change_pct": 0,
-    "ihsg_above_ma50": true
+    "warning": null
   },
   "screening_summary": {
     "universe": 977,
-    "after_liquidity": 83,
+    "after_liquidity": 84,
     "after_accumulation": 21,
-    "after_trend": 4,
-    "after_smc": 3,
-    "after_entry": 3,
+    "after_trend": 2,
+    "after_smc": 2,
+    "after_entry": 2,
     "final": 1
   },
   "config_ara": {
