@@ -13,8 +13,8 @@
       "market_data": {
         "close": 3280,
         "change_pct": 0.3,
-        "value_today": 11350432000,
-        "frequency_today": 1298,
+        "value_today": 16214030000,
+        "frequency_today": 1734,
         "iep": 3280,
         "iep_change_pct": -0.3
       },
@@ -33,8 +33,8 @@
         }
       },
       "trend": {
-        "ma50": 2967.0,
-        "gap_from_ma50_pct": 10.9,
+        "ma50": 2966.0,
+        "gap_from_ma50_pct": 10.57,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -85,7 +85,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "09.32 WIB"
+      "updated_at": "09.54 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -98,11 +98,11 @@
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "score": 65,
-      "close": 9650.0,
-      "near_52w_pct": 98.5,
+      "close": 9575.0,
+      "near_52w_pct": 97.7,
       "wk_rsi": 78.1,
       "wk_adx": 22.5,
-      "mo_rsi": 67.4,
+      "mo_rsi": 67.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -144,18 +144,18 @@
       "ticker": "AUTO",
       "company": "Astra Otoparts Tbk.",
       "score": 65,
-      "close": 3280.0,
-      "near_52w_pct": 95.2,
+      "close": 3320.0,
+      "near_52w_pct": 96.4,
       "wk_rsi": 74.4,
       "wk_adx": 34.5,
-      "mo_rsi": 69.9,
+      "mo_rsi": 70.3,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
+        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (70)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -190,19 +190,19 @@
       "ticker": "DMAS",
       "company": "Puradelta Lestari Tbk",
       "score": 55,
-      "close": 214.0,
-      "near_52w_pct": 97.3,
+      "close": 210.0,
+      "near_52w_pct": 95.5,
       "wk_rsi": 72.5,
       "wk_adx": 45.4,
-      "mo_rsi": 76.0,
+      "mo_rsi": 75.5,
       "wk_obv_above_ma": false,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (72) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (76)",
+        "Near 52W High (95%) + Wk RSI (72) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (75)",
         "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [
@@ -213,7 +213,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-26 09:33:26 WIB",
+    "generated_at": "2026-10-26 09:55:42 WIB",
     "date": "2026-10-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -241,8 +241,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5427,
-    "ihsg_change_pct": -0.21,
+    "ihsg_close": 5448,
+    "ihsg_change_pct": 0.18,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -250,11 +250,11 @@
   },
   "screening_summary": {
     "universe": 978,
-    "after_liquidity": 46,
-    "after_accumulation": 13,
+    "after_liquidity": 57,
+    "after_accumulation": 14,
     "after_trend": 2,
     "after_smc": 2,
-    "after_entry": 1,
+    "after_entry": 2,
     "final": 1
   },
   "config_ara": {
