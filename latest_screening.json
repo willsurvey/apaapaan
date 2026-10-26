@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-26 18:35:54 WIB",
+  "generated_at": "2026-10-26 18:54:59 WIB",
   "date": "2026-10-26",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -50,7 +50,7 @@
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
         "MOVER_TYPE_NET_FOREIGN_BUY",
-        "GURU_72_IHSG Short-t",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -130,7 +130,7 @@
         "✅ Pullback ke MA50 (2.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "18.35 WIB"
+      "updated_at": "18.54 WIB"
     },
     {
       "rank": 2,
@@ -218,7 +218,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.35 WIB"
+      "updated_at": "18.54 WIB"
     },
     {
       "rank": 3,
@@ -227,7 +227,7 @@
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_72_IHSG Short-t",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -306,7 +306,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "18.35 WIB"
+      "updated_at": "18.54 WIB"
     }
   ]
 }
