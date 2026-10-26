@@ -7,76 +7,6 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "AALI",
-      "company": "Astra Agro Lestari Tbk.",
-      "score": 70,
-      "close": 9475.0,
-      "near_52w_pct": 96.7,
-      "wk_rsi": 78.1,
-      "wk_adx": 22.5,
-      "mo_rsi": 66.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (78) + Wk ADX (22) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (67)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 37.6B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BDMN",
-      "company": "Bank Danamon Indonesia Tbk.",
-      "score": 65,
-      "close": 4980.0,
-      "near_52w_pct": 98.1,
-      "wk_rsi": 62.4,
-      "wk_adx": 35.6,
-      "mo_rsi": 74.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (62) + Wk ADX (36) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (74)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AUTO",
-      "company": "Astra Otoparts Tbk.",
-      "score": 65,
-      "close": 3310.0,
-      "near_52w_pct": 96.1,
-      "wk_rsi": 74.4,
-      "wk_adx": 34.5,
-      "mo_rsi": 70.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (70)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "DMAS",
       "company": "Puradelta Lestari Tbk",
       "score": 55,
@@ -99,33 +29,11 @@
         "Weekly OBV di bawah MA20"
       ],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AADI",
-      "company": "Adaro Andalan Indonesia Tbk.",
-      "score": 55,
-      "close": 11450.0,
-      "near_52w_pct": 88.6,
-      "wk_rsi": 65.5,
-      "wk_adx": 33.5,
-      "mo_rsi": 69.6,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (89%) + Wk RSI (65) + Wk ADX (34) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (70)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-26 11:55:00 WIB",
+    "generated_at": "2026-10-26 12:03:01 WIB",
     "date": "2026-10-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -138,7 +46,7 @@
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
-    "position_count": 5,
+    "position_count": 1,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
     "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
@@ -153,20 +61,20 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5375,
-    "ihsg_change_pct": -1.18,
+    "ihsg_close": 5387,
+    "ihsg_change_pct": -0.95,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
     "warning": null
   },
   "screening_summary": {
-    "universe": 977,
-    "after_liquidity": 81,
-    "after_accumulation": 21,
-    "after_trend": 1,
-    "after_smc": 1,
-    "after_entry": 1,
+    "universe": 43,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
+    "after_smc": 0,
+    "after_entry": 0,
     "final": 0
   },
   "config_ara": {
