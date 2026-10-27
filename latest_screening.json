@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-27 17:17:00 WIB",
+  "generated_at": "2026-10-27 17:35:37 WIB",
   "date": "2026-10-27",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -61,12 +61,12 @@
         "change_pct": 5.78,
         "value_today": 65749032500,
         "frequency_today": 1648,
-        "iep": 5950,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": 1565112500,
+        "net_foreign_today": 9322012500,
         "net_foreign_3d": 10,
         "acc_score": 80,
         "score_breakdown": {
@@ -127,12 +127,12 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp1.6B",
+        "✅ Net Foreign Buy hari ini: Rp9.3B",
         "✅ Net Foreign Buy 3 hari berturut",
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.16 WIB"
+      "updated_at": "17.34 WIB"
     },
     {
       "rank": 2,
@@ -220,7 +220,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.16 WIB"
+      "updated_at": "17.34 WIB"
     },
     {
       "rank": 3,
@@ -229,6 +229,7 @@
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
         "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
         "MOVER_TYPE_TOP_GAINER",
         "SCREENER_VOLUME_EXPLOSION",
         "GURU_72_IHSG Short-t",
@@ -239,12 +240,12 @@
         "change_pct": 6,
         "value_today": 138002462500,
         "frequency_today": 7721,
-        "iep": 26500,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": -9717057500,
+        "net_foreign_today": 19463690000,
         "net_foreign_3d": 0,
         "acc_score": 60,
         "score_breakdown": {
@@ -305,12 +306,12 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy kemarin",
+        "✅ Net Foreign Buy hari ini: Rp19.5B",
         "✅ Harga di zona FVG aktif",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.16 WIB"
+      "updated_at": "17.34 WIB"
     },
     {
       "rank": 4,
@@ -328,12 +329,12 @@
         "change_pct": 3.16,
         "value_today": 109727045000,
         "frequency_today": 4171,
-        "iep": 9800,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": -2427390000,
+        "net_foreign_today": -3340982500,
         "net_foreign_3d": 0,
         "acc_score": 45,
         "score_breakdown": {
@@ -399,7 +400,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.16 WIB"
+      "updated_at": "17.34 WIB"
     },
     {
       "rank": 5,
@@ -487,7 +488,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "17.16 WIB"
+      "updated_at": "17.34 WIB"
     }
   ]
 }
