@@ -89,7 +89,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "20.54 WIB"
+      "updated_at": "21.18 WIB"
     },
     {
       "rank": 2,
@@ -177,7 +177,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "20.54 WIB"
+      "updated_at": "21.18 WIB"
     },
     {
       "rank": 3,
@@ -268,7 +268,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "20.54 WIB"
+      "updated_at": "21.18 WIB"
     },
     {
       "rank": 4,
@@ -357,7 +357,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "20.54 WIB"
+      "updated_at": "21.18 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -416,10 +416,10 @@
       "d2_body_pct": 0.333,
       "d2_vol_ratio_ma20": 1.9,
       "m1_last15_green": 13,
-      "m1_close_vs_vwap": -6.8,
+      "m1_close_vs_vwap": -6.79,
       "m1_close_pos_intra": 0.273,
-      "m1_high_timing": 0.247,
-      "m1_n_bars": 239,
+      "m1_high_timing": 0.244,
+      "m1_n_bars": 238,
       "m1_data_available": true,
       "above_ma20": false,
       "above_ma50": false,
@@ -441,14 +441,14 @@
       "signals_negative": [
         "Closing flat bias: 11/14 bar flat — indikasi tidak aktif",
         "Close di bawah VWAP: -6.8%",
-        "High intraday di awal sesi (25%) — profit taking sore"
+        "High intraday di awal sesi (24%) — profit taking sore"
       ],
       "universe_sources": [
         "SCREENER_VOL_EXPLOSION",
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "20:54 WIB"
+      "generated_at": "21:15 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -576,7 +576,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-27 20:55:49 WIB",
+    "generated_at": "2026-10-27 21:18:55 WIB",
     "date": "2026-10-27",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
