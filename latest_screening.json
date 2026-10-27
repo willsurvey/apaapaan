@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-28 01:36:52 WIB",
+  "generated_at": "2026-10-28 01:56:33 WIB",
   "date": "2026-10-28",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -79,8 +79,8 @@
         }
       },
       "trend": {
-        "ma50": 5290.0,
-        "gap_from_ma50_pct": 6.34,
+        "ma50": 5302.0,
+        "gap_from_ma50_pct": 12.22,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -132,7 +132,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "01.35 WIB"
+      "updated_at": "01.55 WIB"
     },
     {
       "rank": 2,
@@ -167,8 +167,8 @@
         }
       },
       "trend": {
-        "ma50": 4531.0,
-        "gap_from_ma50_pct": 10.35,
+        "ma50": 4548.0,
+        "gap_from_ma50_pct": 9.94,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -220,7 +220,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "01.35 WIB"
+      "updated_at": "01.55 WIB"
     },
     {
       "rank": 3,
@@ -258,8 +258,8 @@
         }
       },
       "trend": {
-        "ma50": 24558.0,
-        "gap_from_ma50_pct": 1.8,
+        "ma50": 24630.0,
+        "gap_from_ma50_pct": 7.59,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -308,11 +308,10 @@
         "✅ Broker Signal: Big Acc",
         "✅ Net Foreign Buy hari ini: Rp19.5B",
         "✅ Harga di zona FVG aktif",
-        "✅ Swing Structure: BULLISH",
-        "✅ Pullback ke MA50 (1.8% di atas MA50)"
+        "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "01.35 WIB"
+      "updated_at": "01.55 WIB"
     },
     {
       "rank": 4,
@@ -348,8 +347,8 @@
         }
       },
       "trend": {
-        "ma50": 8116.0,
-        "gap_from_ma50_pct": 17.05,
+        "ma50": 8167.0,
+        "gap_from_ma50_pct": 20.0,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -401,7 +400,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "01.35 WIB"
+      "updated_at": "01.55 WIB"
     },
     {
       "rank": 5,
@@ -435,8 +434,8 @@
         }
       },
       "trend": {
-        "ma50": 4744.0,
-        "gap_from_ma50_pct": 9.6,
+        "ma50": 4768.0,
+        "gap_from_ma50_pct": 9.07,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -489,7 +488,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "01.35 WIB"
+      "updated_at": "01.55 WIB"
     }
   ]
 }
