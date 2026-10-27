@@ -12,7 +12,7 @@
       "market_data": {
         "close": 9600,
         "change_pct": 0,
-        "value_today": 4885667500.0,
+        "value_today": 6929607500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -32,8 +32,8 @@
         }
       },
       "trend": {
-        "ma50": 8164.0,
-        "gap_from_ma50_pct": 18.2,
+        "ma50": 8163.0,
+        "gap_from_ma50_pct": 17.6,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -85,7 +85,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "09.32 WIB"
+      "updated_at": "09.53 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -98,11 +98,11 @@
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "score": 65,
-      "close": 9650.0,
-      "near_52w_pct": 98.5,
-      "wk_rsi": 77.9,
+      "close": 9600.0,
+      "near_52w_pct": 98.0,
+      "wk_rsi": 77.5,
       "wk_adx": 22.6,
-      "mo_rsi": 67.4,
+      "mo_rsi": 67.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -121,18 +121,18 @@
       "ticker": "BLES",
       "company": "Superior Prima Sukses Tbk",
       "score": 65,
-      "close": 220.0,
-      "near_52w_pct": 95.7,
-      "wk_rsi": 62.3,
+      "close": 222.0,
+      "near_52w_pct": 96.5,
+      "wk_rsi": 62.7,
       "wk_adx": 23.2,
-      "mo_rsi": 63.9,
+      "mo_rsi": 64.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (62) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
+        "Near 52W High (97%) + Wk RSI (63) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (64)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -147,7 +147,7 @@
       "close": 3380.0,
       "near_52w_pct": 98.1,
       "wk_rsi": 79.7,
-      "wk_adx": 33.0,
+      "wk_adx": 33.1,
       "mo_rsi": 71.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -167,11 +167,11 @@
       "ticker": "ASGR",
       "company": "Astra Graphia Tbk.",
       "score": 65,
-      "close": 2400.0,
-      "near_52w_pct": 96.0,
-      "wk_rsi": 75.9,
+      "close": 2390.0,
+      "near_52w_pct": 95.6,
+      "wk_rsi": 75.7,
       "wk_adx": 49.7,
-      "mo_rsi": 84.0,
+      "mo_rsi": 83.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -190,9 +190,9 @@
       "ticker": "BDMN",
       "company": "Bank Danamon Indonesia Tbk.",
       "score": 65,
-      "close": 5000.0,
-      "near_52w_pct": 98.5,
-      "wk_rsi": 66.3,
+      "close": 4990.0,
+      "near_52w_pct": 98.3,
+      "wk_rsi": 66.0,
       "wk_adx": 35.2,
       "mo_rsi": 74.2,
       "wk_obv_above_ma": true,
@@ -200,8 +200,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (66) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
+        "Near 52W High (98%) + Wk RSI (66) + Wk ADX (35) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (74)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -212,7 +212,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-27 09:34:21 WIB",
+    "generated_at": "2026-10-27 09:55:04 WIB",
     "date": "2026-10-27",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -240,8 +240,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5397,
-    "ihsg_change_pct": 0.46,
+    "ihsg_close": 5389,
+    "ihsg_change_pct": 0.31,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -249,11 +249,11 @@
   },
   "screening_summary": {
     "universe": 977,
-    "after_liquidity": 35,
-    "after_accumulation": 9,
-    "after_trend": 3,
+    "after_liquidity": 54,
+    "after_accumulation": 14,
+    "after_trend": 4,
     "after_smc": 2,
-    "after_entry": 1,
+    "after_entry": 2,
     "final": 1
   },
   "config_ara": {
