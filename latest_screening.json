@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-30 12:54:47 WIB",
+  "generated_at": "2026-10-30 13:15:00 WIB",
   "date": "2026-10-30",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -85,7 +85,7 @@
         "ob_zone": "2040 - 2070",
         "fvg_zone": null,
         "strong_low": 2040.0,
-        "weak_high": 2130.0
+        "weak_high": 2110.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -109,11 +109,11 @@
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
         "tp1": 2120,
         "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 2140,
+        "tp2": 2180,
         "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 2200,
+        "tp3": 2250,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:2.5",
+        "rr_ratio": "1:3.8",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
@@ -128,7 +128,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "12.53 WIB"
+      "updated_at": "13.13 WIB"
     },
     {
       "rank": 2,
@@ -214,7 +214,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "12.53 WIB"
+      "updated_at": "13.13 WIB"
     }
   ]
 }
