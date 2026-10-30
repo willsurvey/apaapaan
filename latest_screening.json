@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-30 17:16:32 WIB",
+  "generated_at": "2026-10-30 17:34:30 WIB",
   "date": "2026-10-30",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -49,6 +49,7 @@
       "company": "Mark Dynamics Indonesia Tbk.",
       "mode": "FULL_STOCKBIT",
       "universe_sources": [
+        "MOVER_TYPE_NET_FOREIGN_BUY",
         "MOVER_TYPE_TOP_GAINER",
         "GURU_87_Reversal on ",
         "SCREENER_TOP_VALUE"
@@ -58,12 +59,12 @@
         "change_pct": 5.99,
         "value_today": 16603239000,
         "frequency_today": 1398,
-        "iep": 1150,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": -430071500,
+        "net_foreign_today": 3392212000,
         "net_foreign_3d": 0,
         "acc_score": 60,
         "score_breakdown": {
@@ -124,7 +125,7 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy kemarin",
+        "✅ Net Foreign Buy hari ini: Rp3.4B",
         "✅ Internal BOS Bullish (1H)",
         "✅ Harga di zona Order Block aktif",
         "✅ Swing Structure: BULLISH",
@@ -133,7 +134,7 @@
       "warnings": [
         "⚠️ Sumber: Top Gainer hari ini. Pastikan ada konfirmasi teknikal sebelum entry."
       ],
-      "updated_at": "17.15 WIB"
+      "updated_at": "17.33 WIB"
     }
   ]
 }
