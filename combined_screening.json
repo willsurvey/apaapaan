@@ -2,93 +2,6 @@
   "logika_lama_intraday": [
     {
       "rank": 1,
-      "ticker": "ULTJ",
-      "company": "Ultra Jaya Milk Industry & Trading Company Tbk.",
-      "mode": "FULL_STOCKBIT",
-      "universe_sources": [
-        "GURU_92",
-        "SCREENER_TOP_VALUE"
-      ],
-      "market_data": {
-        "close": 2120,
-        "change_pct": 0,
-        "value_today": 10402374000.0,
-        "frequency_today": 0,
-        "iep": 0,
-        "iep_change_pct": 0
-      },
-      "accumulation": {
-        "broker_signal": "Big Acc",
-        "net_foreign_today": 0,
-        "net_foreign_3d": 0,
-        "acc_score": 40,
-        "score_breakdown": {
-          "broker": 35,
-          "foreign_1d": 0,
-          "foreign_3d": 0,
-          "candle": 10,
-          "volume": -5,
-          "total": 40
-        }
-      },
-      "trend": {
-        "ma50": 1886.0,
-        "gap_from_ma50_pct": 11.88,
-        "ma50_slope": "POSITIVE"
-      },
-      "smc": {
-        "internal_structure": "BOS_BULLISH",
-        "swing_trend_bias": "BULLISH",
-        "ob_zone": "2040 - 2070",
-        "fvg_zone": null,
-        "strong_low": 2040.0,
-        "weak_high": 2130.0
-      },
-      "entry_plan": {
-        "whipsaw_risk": "HIGH",
-        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction": "MOMENTUM",
-        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu konfirmasi pantulan di area OB, hindari entry langsung pagi hari karena volatilitas tinggi!",
-        "entry_direction_reason": "Internal BOS/CHoCH bullish 1H + OB confirmed",
-        "entry_1": 2120,
-        "entry_1_pct": 20,
-        "entry_1_note": "PDC entry — momentum kuat (Internal BOS/CHoCH bullish 1H + OB confirmed)",
-        "entry_2": 2100,
-        "entry_2_pct": 50,
-        "entry_2_note": "Pullback ringan / OB zone",
-        "entry_3": 2090,
-        "entry_3_pct": 30,
-        "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 2100,
-        "entry_zone": "2090 - 2120",
-        "sl": 2060,
-        "sl_pct_risk": 1.9,
-        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 2120,
-        "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 2140,
-        "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 2200,
-        "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:2.5",
-        "risk_pct": 2,
-        "risk_note": "Max 2% dari total portofolio"
-      },
-      "scoring": {
-        "confidence_score": 55,
-        "tier": "MODERATE"
-      },
-      "signals": [
-        "✅ Broker Signal: Big Acc",
-        "✅ Internal BOS Bullish (1H)",
-        "✅ Harga di zona Order Block aktif",
-        "✅ Swing Structure: BULLISH"
-      ],
-      "warnings": [],
-      "updated_at": "14.14 WIB"
-    },
-    {
-      "rank": 2,
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "mode": "FULL_STOCKBIT",
@@ -99,7 +12,7 @@
       "market_data": {
         "close": 9550,
         "change_pct": 0,
-        "value_today": 12634902500.0,
+        "value_today": 13241205000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -171,13 +84,213 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.14 WIB"
+      "updated_at": "14.34 WIB"
+    },
+    {
+      "rank": 2,
+      "ticker": "ULTJ",
+      "company": "Ultra Jaya Milk Industry & Trading Company Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "GURU_92",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 2100,
+        "change_pct": 0,
+        "value_today": 11197356000.0,
+        "frequency_today": 0,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 0,
+        "net_foreign_3d": 0,
+        "acc_score": 30,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 0,
+          "foreign_3d": 0,
+          "candle": 0,
+          "volume": -5,
+          "total": 30
+        }
+      },
+      "trend": {
+        "ma50": 1886.0,
+        "gap_from_ma50_pct": 11.36,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "BOS_BULLISH",
+        "swing_trend_bias": "BULLISH",
+        "ob_zone": "2040 - 2070",
+        "fvg_zone": null,
+        "strong_low": 2040.0,
+        "weak_high": 2110.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "MOMENTUM",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu konfirmasi pantulan di area OB, hindari entry langsung pagi hari karena volatilitas tinggi!",
+        "entry_direction_reason": "Internal BOS/CHoCH bullish 1H + OB confirmed",
+        "entry_1": 2120,
+        "entry_1_pct": 20,
+        "entry_1_note": "PDC entry — momentum kuat (Internal BOS/CHoCH bullish 1H + OB confirmed)",
+        "entry_2": 2100,
+        "entry_2_pct": 50,
+        "entry_2_note": "Pullback ringan / OB zone",
+        "entry_3": 2080,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 2100,
+        "entry_zone": "2080 - 2120",
+        "sl": 2060,
+        "sl_pct_risk": 1.9,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 2120,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 2180,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 2250,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:3.8",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 50,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Internal BOS Bullish (1H)",
+        "✅ Harga di zona Order Block aktif",
+        "✅ Swing Structure: BULLISH"
+      ],
+      "warnings": [],
+      "updated_at": "14.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [],
-  "swing_trading": [],
+  "swing_trading": [
+    {
+      "ticker": "POWR",
+      "company": "Cikarang Listrindo Tbk.",
+      "type": "WATCHLIST_SWING",
+      "score": 70,
+      "market_data": {
+        "close": 965.0,
+        "value_today": 10182198000,
+        "net_foreign": 577229500
+      },
+      "technical": {
+        "stage2": true,
+        "ma50_slope": "+2.5%/10d",
+        "dist_ma20": "+3.6%",
+        "squeeze": "49%",
+        "vol_ratio": "98%",
+        "rsi": 52.3,
+        "atr_pct": "5.5%",
+        "dist_52w_high": "-7.2%",
+        "ma20": 931.5,
+        "ma50": 940.5,
+        "ma200": 756.55
+      },
+      "trading_plan": {
+        "strategy": "Beli sekarang, hold max 20 hari",
+        "entry": 965,
+        "target": 1060,
+        "target_pct": "+10%",
+        "stop_loss": 905,
+        "stop_loss_pct": "-6%",
+        "max_hold_days": 20,
+        "exit_rule": "Jual jika sentuh 1,060 (+10%), ATAU cut loss di 905 (-6%), ATAU jual di hari ke-20.",
+        "trailing_stop": "Aktifkan trailing stop setelah profit +5%"
+      },
+      "signals_positive": [
+        "Stage 2 Uptrend: Harga > MA50 > MA200, MA50 slope +2.5%/10d",
+        "Posisi ideal: +3.6% di atas MA20",
+        "Squeeze moderat (49%)",
+        "RSI netral (52)",
+        "Di atas MA200 — tren primer bullish",
+        "Dekat 52w high (-7.2%)",
+        "Asing beli bersih (Rp 0.6B)"
+      ],
+      "signals_negative": [
+        "Volume belum kering (98%)"
+      ],
+      "backtest_stats": {
+        "golden_setup_pf": "1.60x",
+        "golden_setup_ev": "+2.14%",
+        "golden_setup_wr": "48.8%",
+        "golden_setup_dd": "-5.5%",
+        "total_backtest": "467.390 hari (956 saham IHSG)",
+        "bear_market_warning": "GAGAL di 2019, 2024, 2026"
+      },
+      "disclaimer": "⚠️ SWING WATCHLIST. PF=1.60x, EV=+2.14%. SL -6% KERAS. GAGAL di bear market — kill switch IHSG<MA200 aktif.",
+      "rank": 1
+    },
+    {
+      "ticker": "MPXL",
+      "company": "MPX Logistics International Tbk.",
+      "type": "WATCHLIST_SWING",
+      "score": 60,
+      "market_data": {
+        "close": 284.0,
+        "value_today": 6403797400,
+        "net_foreign": 907183000
+      },
+      "technical": {
+        "stage2": true,
+        "ma50_slope": "+14.5%/10d",
+        "dist_ma20": "+-4.0%",
+        "squeeze": "40%",
+        "vol_ratio": "78%",
+        "rsi": 51.7,
+        "atr_pct": "10.0%",
+        "dist_52w_high": "-20.7%",
+        "ma20": 295.9,
+        "ma50": 227.6,
+        "ma200": 178.05
+      },
+      "trading_plan": {
+        "strategy": "Beli sekarang, hold max 20 hari",
+        "entry": 284,
+        "target": 312,
+        "target_pct": "+10%",
+        "stop_loss": 266,
+        "stop_loss_pct": "-6%",
+        "max_hold_days": 20,
+        "exit_rule": "Jual jika sentuh 312 (+10%), ATAU cut loss di 266 (-6%), ATAU jual di hari ke-20.",
+        "trailing_stop": "Aktifkan trailing stop setelah profit +5%"
+      },
+      "signals_positive": [
+        "Stage 2 Uptrend: Harga > MA50 > MA200, MA50 slope +14.5%/10d",
+        "Squeeze moderat (40%)",
+        "RSI netral (52)",
+        "Di atas MA200 — tren primer bullish",
+        "Asing beli bersih (Rp 0.9B)"
+      ],
+      "signals_negative": [
+        "Terlalu dekat MA20 (+-4.0%)"
+      ],
+      "backtest_stats": {
+        "golden_setup_pf": "1.60x",
+        "golden_setup_ev": "+2.14%",
+        "golden_setup_wr": "48.8%",
+        "golden_setup_dd": "-5.5%",
+        "total_backtest": "467.390 hari (956 saham IHSG)",
+        "bear_market_warning": "GAGAL di 2019, 2024, 2026"
+      },
+      "disclaimer": "⚠️ SWING WATCHLIST. PF=1.60x, EV=+2.14%. SL -6% KERAS. GAGAL di bear market — kill switch IHSG<MA200 aktif.",
+      "rank": 2
+    }
+  ],
   "trend_following": [],
   "position_trading": [
     {
@@ -276,17 +389,17 @@
       "ticker": "BSSR",
       "company": "Baramulti Suksessarana Tbk.",
       "score": 65,
-      "close": 5050.0,
-      "near_52w_pct": 95.7,
-      "wk_rsi": 76.6,
+      "close": 5075.0,
+      "near_52w_pct": 96.2,
+      "wk_rsi": 77.5,
       "wk_adx": 59.0,
-      "mo_rsi": 92.6,
+      "mo_rsi": 92.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (77) + Wk ADX (59) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (96%) + Wk RSI (78) + Wk ADX (59) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (93)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -298,7 +411,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-30 14:15:49 WIB",
+    "generated_at": "2026-10-30 14:35:22 WIB",
     "date": "2026-10-30",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -309,7 +422,7 @@
     "ara_count": 0,
     "bsjp_count": 0,
     "bpjs_count": 0,
-    "swing_count": 0,
+    "swing_count": 2,
     "trend_count": 0,
     "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
@@ -326,17 +439,17 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5032,
-    "ihsg_change_pct": -1.29,
+    "ihsg_close": 5061,
+    "ihsg_change_pct": -0.73,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
     "warning": null
   },
   "screening_summary": {
-    "universe": 976,
-    "after_liquidity": 51,
-    "after_accumulation": 11,
+    "universe": 967,
+    "after_liquidity": 76,
+    "after_accumulation": 15,
     "after_trend": 2,
     "after_smc": 2,
     "after_entry": 2,
