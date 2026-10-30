@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-30 17:34:30 WIB",
+  "generated_at": "2026-10-30 17:55:09 WIB",
   "date": "2026-10-30",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -16,7 +16,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 976,
+    "universe": 975,
     "after_liquidity": 90,
     "after_accumulation": 22,
     "after_trend": 5,
@@ -134,7 +134,7 @@
       "warnings": [
         "⚠️ Sumber: Top Gainer hari ini. Pastikan ada konfirmasi teknikal sebelum entry."
       ],
-      "updated_at": "17.33 WIB"
+      "updated_at": "17.53 WIB"
     }
   ]
 }
