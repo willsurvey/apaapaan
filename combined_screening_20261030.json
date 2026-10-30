@@ -8,7 +8,7 @@
       "universe_sources": [
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "MOVER_TYPE_TOP_GAINER",
-        "GURU_87_Reversal on ",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -91,7 +91,7 @@
       "warnings": [
         "⚠️ Sumber: Top Gainer hari ini. Pastikan ada konfirmasi teknikal sebelum entry."
       ],
-      "updated_at": "18.36 WIB"
+      "updated_at": "18.53 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -150,10 +150,10 @@
       "d2_body_pct": 0.333,
       "d2_vol_ratio_ma20": 4.48,
       "m1_last15_green": 11,
-      "m1_close_vs_vwap": -2.18,
+      "m1_close_vs_vwap": -1.66,
       "m1_close_pos_intra": 0.033,
-      "m1_high_timing": 0.937,
-      "m1_n_bars": 128,
+      "m1_high_timing": 0.947,
+      "m1_n_bars": 131,
       "m1_data_available": true,
       "above_ma20": false,
       "above_ma50": false,
@@ -168,12 +168,11 @@
         "Body kecil D-1: 0.07 (candle akumulasi)",
         "Close pos rendah: 0.03 (buyers absorbed selling)",
         "Range expansion: 3.3x avg-5d",
-        "High intraday di akhir sesi (94%)",
+        "High intraday di akhir sesi (95%)",
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -2.2%"
+        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif"
       ],
       "universe_sources": [
         "GURU_92",
@@ -181,7 +180,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "18:36 WIB"
+      "generated_at": "18:54 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -282,22 +281,22 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "AUTO",
-      "company": "Astra Otoparts Tbk.",
+      "ticker": "BOGA",
+      "company": "Apollo Global Interactive Tbk.",
       "score": 65,
-      "close": 3280.0,
-      "near_52w_pct": 95.2,
-      "wk_rsi": 78.2,
-      "wk_adx": 33.1,
-      "mo_rsi": 69.9,
+      "close": 1955.0,
+      "near_52w_pct": 96.3,
+      "wk_rsi": 69.4,
+      "wk_adx": 59.6,
+      "mo_rsi": 80.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (78) + Wk ADX (33) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (70)",
+        "Near 52W High (96%) + Wk RSI (69) + Wk ADX (60) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (80)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -307,7 +306,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-30 18:37:32 WIB",
+    "generated_at": "2026-10-30 18:55:24 WIB",
     "date": "2026-10-30",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",

@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-30 18:37:32 WIB",
+  "generated_at": "2026-10-30 18:55:24 WIB",
   "date": "2026-10-30",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -51,7 +51,7 @@
       "universe_sources": [
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "MOVER_TYPE_TOP_GAINER",
-        "GURU_87_Reversal on ",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -134,7 +134,7 @@
       "warnings": [
         "⚠️ Sumber: Top Gainer hari ini. Pastikan ada konfirmasi teknikal sebelum entry."
       ],
-      "updated_at": "18.36 WIB"
+      "updated_at": "18.53 WIB"
     }
   ]
 }
