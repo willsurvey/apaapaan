@@ -91,7 +91,7 @@
       "warnings": [
         "⚠️ Sumber: Top Gainer hari ini. Pastikan ada konfirmasi teknikal sebelum entry."
       ],
-      "updated_at": "19.55 WIB"
+      "updated_at": "20.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -150,10 +150,10 @@
       "d2_body_pct": 0.333,
       "d2_vol_ratio_ma20": 4.48,
       "m1_last15_green": 11,
-      "m1_close_vs_vwap": -1.66,
+      "m1_close_vs_vwap": -2.18,
       "m1_close_pos_intra": 0.033,
-      "m1_high_timing": 0.947,
-      "m1_n_bars": 131,
+      "m1_high_timing": 0.937,
+      "m1_n_bars": 128,
       "m1_data_available": true,
       "above_ma20": false,
       "above_ma50": false,
@@ -168,11 +168,12 @@
         "Body kecil D-1: 0.07 (candle akumulasi)",
         "Close pos rendah: 0.03 (buyers absorbed selling)",
         "Range expansion: 3.3x avg-5d",
-        "High intraday di akhir sesi (95%)",
+        "High intraday di akhir sesi (94%)",
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif"
+        "Closing flat bias: 9/14 bar flat — indikasi tidak aktif",
+        "Close di bawah VWAP: -2.2%"
       ],
       "universe_sources": [
         "GURU_92",
@@ -180,7 +181,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "19:56 WIB"
+      "generated_at": "20:15 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -306,7 +307,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-30 19:57:16 WIB",
+    "generated_at": "2026-10-30 20:15:42 WIB",
     "date": "2026-10-30",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
