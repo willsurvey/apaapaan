@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-10-31 08:35:06 WIB",
+  "generated_at": "2026-10-31 08:55:25 WIB",
   "date": "2026-10-31",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -8,12 +8,12 @@
   "mode_warning": null,
   "total_saham": 4,
   "market_context": {
-    "ihsg_close": 5098,
-    "ihsg_change_pct": -3.49,
+    "ihsg_close": 5057,
+    "ihsg_change_pct": -0.8,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
-    "warning": "⚠️ IHSG turun -3.5% kemarin. Trading dengan sangat hati-hati."
+    "warning": null
   },
   "screening_summary": {
     "universe": 976,
@@ -132,7 +132,7 @@
         "✅ Pullback ke MA50 (2.1% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.54 WIB"
     },
     {
       "rank": 2,
@@ -223,7 +223,7 @@
         "✅ Pullback ke MA50 (2.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.54 WIB"
     },
     {
       "rank": 3,
@@ -315,7 +315,7 @@
       "warnings": [
         "⚠️ Sumber: Top Gainer hari ini. Pastikan ada konfirmasi teknikal sebelum entry."
       ],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.54 WIB"
     },
     {
       "rank": 4,
@@ -403,7 +403,7 @@
         "✅ Pullback ke MA50 (3.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "08.34 WIB"
+      "updated_at": "08.54 WIB"
     }
   ]
 }
