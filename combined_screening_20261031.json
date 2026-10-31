@@ -89,7 +89,7 @@
         "✅ Pullback ke MA50 (2.1% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "08.54 WIB"
+      "updated_at": "09.14 WIB"
     },
     {
       "rank": 2,
@@ -180,7 +180,7 @@
         "✅ Pullback ke MA50 (2.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "08.54 WIB"
+      "updated_at": "09.14 WIB"
     },
     {
       "rank": 3,
@@ -272,7 +272,7 @@
       "warnings": [
         "⚠️ Sumber: Top Gainer hari ini. Pastikan ada konfirmasi teknikal sebelum entry."
       ],
-      "updated_at": "08.54 WIB"
+      "updated_at": "09.14 WIB"
     },
     {
       "rank": 4,
@@ -360,7 +360,7 @@
         "✅ Pullback ke MA50 (3.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "08.54 WIB"
+      "updated_at": "09.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -487,7 +487,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-10-31 08:55:25 WIB",
+    "generated_at": "2026-10-31 09:14:47 WIB",
     "date": "2026-10-31",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
