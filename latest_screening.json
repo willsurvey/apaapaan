@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-11-02 03:36:27 WIB",
+  "generated_at": "2026-11-02 03:56:42 WIB",
   "date": "2026-11-02",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -16,7 +16,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 967,
+    "universe": 976,
     "after_liquidity": 90,
     "after_accumulation": 22,
     "after_trend": 5,
@@ -132,7 +132,7 @@
         "✅ Pullback ke MA50 (2.1% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "03.35 WIB"
+      "updated_at": "03.55 WIB"
     },
     {
       "rank": 2,
@@ -223,7 +223,7 @@
         "✅ Pullback ke MA50 (2.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "03.35 WIB"
+      "updated_at": "03.55 WIB"
     },
     {
       "rank": 3,
@@ -315,7 +315,7 @@
       "warnings": [
         "⚠️ Sumber: Top Gainer hari ini. Pastikan ada konfirmasi teknikal sebelum entry."
       ],
-      "updated_at": "03.35 WIB"
+      "updated_at": "03.55 WIB"
     },
     {
       "rank": 4,
@@ -403,7 +403,7 @@
         "✅ Pullback ke MA50 (3.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "03.35 WIB"
+      "updated_at": "03.55 WIB"
     }
   ]
 }
