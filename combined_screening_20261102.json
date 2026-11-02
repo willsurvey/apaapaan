@@ -11,9 +11,9 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 3610,
+        "close": 3620,
         "change_pct": 0,
-        "value_today": 3933977000.0,
+        "value_today": 4302282000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -34,7 +34,7 @@
       },
       "trend": {
         "ma50": 2990.0,
-        "gap_from_ma50_pct": 20.42,
+        "gap_from_ma50_pct": 21.07,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -65,7 +65,7 @@
         "sl": 3390,
         "sl_pct_risk": 2.87,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
-        "tp1": 3620,
+        "tp1": 3630,
         "tp1_note": "PDH / Target psikologis intraday",
         "tp2": 3750,
         "tp2_note": "Weak High / Supply Zone 1H",
@@ -85,7 +85,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "15.34 WIB"
+      "updated_at": "15.53 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -98,18 +98,18 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1045.0,
-      "near_52w_pct": 98.6,
+      "close": 1040.0,
+      "near_52w_pct": 98.1,
       "wk_rsi": 59.5,
       "wk_adx": 48.1,
-      "mo_rsi": 84.9,
+      "mo_rsi": 84.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (99%) + Wk RSI (59) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (99%) — breakout potential",
+        "Near 52W High (98%) + Wk RSI (59) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (85)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -144,11 +144,11 @@
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "score": 65,
-      "close": 9525.0,
-      "near_52w_pct": 96.2,
+      "close": 9475.0,
+      "near_52w_pct": 95.7,
       "wk_rsi": 77.9,
       "wk_adx": 22.7,
-      "mo_rsi": 62.8,
+      "mo_rsi": 62.6,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -212,7 +212,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-02 15:34:57 WIB",
+    "generated_at": "2026-11-02 15:54:17 WIB",
     "date": "2026-11-02",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -240,15 +240,15 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5116,
-    "ihsg_change_pct": 1.18,
+    "ihsg_close": 5107,
+    "ihsg_change_pct": 1.0,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
     "warning": null
   },
   "screening_summary": {
-    "universe": 964,
+    "universe": 976,
     "after_liquidity": 87,
     "after_accumulation": 18,
     "after_trend": 5,
