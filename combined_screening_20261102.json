@@ -88,7 +88,7 @@
         "✅ Pullback ke MA50 (3.8% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "20.14 WIB"
+      "updated_at": "20.36 WIB"
     },
     {
       "rank": 2,
@@ -177,7 +177,7 @@
         "✅ Pullback ke MA50 (0.1% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "20.14 WIB"
+      "updated_at": "20.36 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -304,7 +304,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-02 20:14:50 WIB",
+    "generated_at": "2026-11-02 20:37:30 WIB",
     "date": "2026-11-02",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
