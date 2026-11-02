@@ -34,8 +34,8 @@
         }
       },
       "trend": {
-        "ma50": 4682.0,
-        "gap_from_ma50_pct": 3.8,
+        "ma50": 4679.0,
+        "gap_from_ma50_pct": 2.59,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -85,10 +85,10 @@
         "✅ Net Foreign Buy hari ini: Rp17.6B",
         "✅ Net Foreign Buy 3 hari berturut",
         "✅ Harga di zona FVG aktif",
-        "✅ Pullback ke MA50 (3.8% di atas MA50)"
+        "✅ Pullback ke MA50 (2.6% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "23.53 WIB"
+      "updated_at": "00.13 WIB"
     },
     {
       "rank": 2,
@@ -123,8 +123,8 @@
         }
       },
       "trend": {
-        "ma50": 1129.0,
-        "gap_from_ma50_pct": 0.08,
+        "ma50": 1128.0,
+        "gap_from_ma50_pct": 1.91,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -174,10 +174,10 @@
         "✅ Net Foreign Buy kemarin",
         "✅ Internal BOS Bullish (1H)",
         "✅ Swing Structure: BULLISH",
-        "✅ Pullback ke MA50 (0.1% di atas MA50)"
+        "✅ Pullback ke MA50 (1.9% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "23.53 WIB"
+      "updated_at": "00.13 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -190,8 +190,8 @@
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "score": 70,
-      "close": 9600.0,
-      "near_52w_pct": 97.0,
+      "close": 9625.0,
+      "near_52w_pct": 97.2,
       "wk_rsi": 77.9,
       "wk_adx": 22.7,
       "mo_rsi": 63.6,
@@ -214,8 +214,8 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1040.0,
-      "near_52w_pct": 98.1,
+      "close": 1020.0,
+      "near_52w_pct": 96.2,
       "wk_rsi": 59.5,
       "wk_adx": 48.1,
       "mo_rsi": 84.7,
@@ -224,8 +224,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (59) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
+        "Near 52W High (96%) + Wk RSI (59) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (85)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -257,11 +257,34 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "BOGA",
+      "company": "Apollo Global Interactive Tbk.",
+      "score": 65,
+      "close": 1955.0,
+      "near_52w_pct": 96.3,
+      "wk_rsi": 69.4,
+      "wk_adx": 59.6,
+      "mo_rsi": 83.7,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (69) + Wk ADX (60) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (84)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "BSSR",
       "company": "Baramulti Suksessarana Tbk.",
       "score": 65,
-      "close": 5100.0,
-      "near_52w_pct": 96.7,
+      "close": 5125.0,
+      "near_52w_pct": 97.2,
       "wk_rsi": 79.4,
       "wk_adx": 59.0,
       "mo_rsi": 93.9,
@@ -278,34 +301,12 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "PTBA",
-      "company": "Bukit Asam Tbk.",
-      "score": 55,
-      "close": 3110.0,
-      "near_52w_pct": 89.1,
-      "wk_rsi": 70.1,
-      "wk_adx": 28.7,
-      "mo_rsi": 65.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (89%) + Wk RSI (70) + Wk ADX (29) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (65)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-02 23:55:16 WIB",
-    "date": "2026-11-02",
+    "generated_at": "2026-11-03 00:14:43 WIB",
+    "date": "2026-11-03",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
@@ -332,8 +333,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5096,
-    "ihsg_change_pct": 0.79,
+    "ihsg_close": 5057,
+    "ihsg_change_pct": -0.8,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
