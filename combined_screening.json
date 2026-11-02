@@ -16,12 +16,12 @@
         "change_pct": 1.25,
         "value_today": 131269473000,
         "frequency_today": 7608,
-        "iep": 4860,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": 39362916000,
+        "net_foreign_today": 17616464000,
         "net_foreign_3d": 10,
         "acc_score": 65,
         "score_breakdown": {
@@ -42,7 +42,7 @@
         "internal_structure": "NONE",
         "swing_trend_bias": "BEARISH",
         "ob_zone": null,
-        "fvg_zone": "4690 - 4780",
+        "fvg_zone": "4690 - 4750",
         "strong_low": 4450.0,
         "weak_high": 4780.0
       },
@@ -82,13 +82,13 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp39.4B",
+        "✅ Net Foreign Buy hari ini: Rp17.6B",
         "✅ Net Foreign Buy 3 hari berturut",
         "✅ Harga di zona FVG aktif",
         "✅ Pullback ke MA50 (3.8% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.34 WIB"
     },
     {
       "rank": 2,
@@ -177,7 +177,7 @@
         "✅ Pullback ke MA50 (0.1% di atas MA50)"
       ],
       "warnings": [],
-      "updated_at": "17.14 WIB"
+      "updated_at": "17.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -186,6 +186,30 @@
   "swing_trading": [],
   "trend_following": [],
   "position_trading": [
+    {
+      "ticker": "AALI",
+      "company": "Astra Agro Lestari Tbk.",
+      "score": 70,
+      "close": 9600.0,
+      "near_52w_pct": 97.0,
+      "wk_rsi": 77.9,
+      "wk_adx": 22.7,
+      "mo_rsi": 63.6,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (78) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (64)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 2.1B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
     {
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
@@ -203,29 +227,6 @@
         "Near 52W High (98%) + Wk RSI (59) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (85)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AALI",
-      "company": "Astra Agro Lestari Tbk.",
-      "score": 65,
-      "close": 9600.0,
-      "near_52w_pct": 97.0,
-      "wk_rsi": 77.9,
-      "wk_adx": 22.7,
-      "mo_rsi": 63.6,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (78) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (64)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -303,7 +304,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-02 17:15:26 WIB",
+    "generated_at": "2026-11-02 17:35:52 WIB",
     "date": "2026-11-02",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -339,7 +340,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 966,
+    "universe": 965,
     "after_liquidity": 74,
     "after_accumulation": 24,
     "after_trend": 3,
