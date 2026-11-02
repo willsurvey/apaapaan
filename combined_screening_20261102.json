@@ -13,7 +13,7 @@
       "market_data": {
         "close": 3580,
         "change_pct": 0,
-        "value_today": 3085244000.0,
+        "value_today": 3365216000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -85,7 +85,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.53 WIB"
+      "updated_at": "15.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -144,11 +144,11 @@
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "score": 65,
-      "close": 9475.0,
-      "near_52w_pct": 95.7,
+      "close": 9500.0,
+      "near_52w_pct": 96.0,
       "wk_rsi": 77.9,
       "wk_adx": 22.7,
-      "mo_rsi": 62.6,
+      "mo_rsi": 62.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -190,11 +190,11 @@
       "ticker": "AUTO",
       "company": "Astra Otoparts Tbk.",
       "score": 65,
-      "close": 3310.0,
-      "near_52w_pct": 96.1,
+      "close": 3300.0,
+      "near_52w_pct": 95.8,
       "wk_rsi": 78.2,
       "wk_adx": 33.1,
-      "mo_rsi": 73.0,
+      "mo_rsi": 72.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -212,7 +212,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-02 14:54:27 WIB",
+    "generated_at": "2026-11-02 15:16:00 WIB",
     "date": "2026-11-02",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -240,8 +240,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5107,
-    "ihsg_change_pct": 1.0,
+    "ihsg_close": 5109,
+    "ihsg_change_pct": 1.04,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -249,11 +249,11 @@
   },
   "screening_summary": {
     "universe": 976,
-    "after_liquidity": 85,
+    "after_liquidity": 86,
     "after_accumulation": 17,
     "after_trend": 4,
     "after_smc": 4,
-    "after_entry": 3,
+    "after_entry": 4,
     "final": 1
   },
   "config_ara": {
