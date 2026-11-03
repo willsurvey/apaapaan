@@ -13,7 +13,7 @@
       "market_data": {
         "close": 3670,
         "change_pct": 0,
-        "value_today": 3842369000.0,
+        "value_today": 4056999000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -86,7 +86,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.54 WIB"
+      "updated_at": "15.13 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -145,18 +145,18 @@
       "ticker": "TMPO",
       "company": "Tempo Inti Media Tbk.",
       "score": 60,
-      "close": 232.0,
-      "near_52w_pct": 92.1,
-      "wk_rsi": 64.8,
+      "close": 230.0,
+      "near_52w_pct": 91.3,
+      "wk_rsi": 64.6,
       "wk_adx": 44.8,
-      "mo_rsi": 64.5,
+      "mo_rsi": 64.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (92%) + Wk RSI (65) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (65)",
+        "Near 52W High (91%) + Wk RSI (65) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (64)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 1.1B)"
@@ -168,17 +168,17 @@
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "score": 60,
-      "close": 9400.0,
-      "near_52w_pct": 94.9,
-      "wk_rsi": 73.5,
+      "close": 9375.0,
+      "near_52w_pct": 94.7,
+      "wk_rsi": 73.2,
       "wk_adx": 23.0,
-      "mo_rsi": 62.0,
+      "mo_rsi": 61.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (95%) + Wk RSI (73) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (62)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -212,7 +212,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-03 14:55:36 WIB",
+    "generated_at": "2026-11-03 15:15:31 WIB",
     "date": "2026-11-03",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -249,8 +249,8 @@
   },
   "screening_summary": {
     "universe": 976,
-    "after_liquidity": 76,
-    "after_accumulation": 21,
+    "after_liquidity": 77,
+    "after_accumulation": 22,
     "after_trend": 1,
     "after_smc": 1,
     "after_entry": 1,
