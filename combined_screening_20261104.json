@@ -7,33 +7,9 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "AALI",
-      "company": "Astra Agro Lestari Tbk.",
-      "score": 70,
-      "close": 9450.0,
-      "near_52w_pct": 95.5,
-      "wk_rsi": 74.2,
-      "wk_adx": 23.0,
-      "mo_rsi": 62.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (62)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 3.4B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 70,
+      "score": 65,
       "close": 1040.0,
       "near_52w_pct": 98.1,
       "wk_rsi": 58.3,
@@ -48,8 +24,30 @@
         "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (85)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 3.4B)"
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "AALI",
+      "company": "Astra Agro Lestari Tbk.",
+      "score": 65,
+      "close": 9450.0,
+      "near_52w_pct": 95.5,
+      "wk_rsi": 74.2,
+      "wk_adx": 23.0,
+      "mo_rsi": 62.4,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (62)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -57,7 +55,7 @@
     {
       "ticker": "TMPO",
       "company": "Tempo Inti Media Tbk.",
-      "score": 60,
+      "score": 55,
       "close": 234.0,
       "near_52w_pct": 92.9,
       "wk_rsi": 64.9,
@@ -71,8 +69,7 @@
         "Near 52W High (93%) + Wk RSI (65) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (65)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.3B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -80,7 +77,7 @@
     {
       "ticker": "PTBA",
       "company": "Bukit Asam Tbk.",
-      "score": 60,
+      "score": 55,
       "close": 3000.0,
       "near_52w_pct": 86.0,
       "wk_rsi": 64.9,
@@ -94,8 +91,7 @@
         "Near 52W High (86%) + Wk RSI (65) + Wk ADX (28) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (63)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 9.6B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -103,22 +99,21 @@
     {
       "ticker": "POWR",
       "company": "Cikarang Listrindo Tbk.",
-      "score": 60,
+      "score": 55,
       "close": 915.0,
       "near_52w_pct": 88.0,
       "wk_rsi": 64.2,
-      "wk_adx": 50.5,
+      "wk_adx": 50.8,
       "mo_rsi": 77.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (88%) + Wk RSI (64) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (88%) + Wk RSI (64) + Wk ADX (51) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (78)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 2.9B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -126,7 +121,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-04 07:55:45 WIB",
+    "generated_at": "2026-11-04 08:14:30 WIB",
     "date": "2026-11-04",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -163,9 +158,9 @@
   },
   "screening_summary": {
     "universe": 976,
-    "after_liquidity": 79,
-    "after_accumulation": 14,
-    "after_trend": 1,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
     "final": 0
