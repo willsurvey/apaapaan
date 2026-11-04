@@ -13,7 +13,7 @@
       "market_data": {
         "close": 3700,
         "change_pct": 0,
-        "value_today": 4018997000.0,
+        "value_today": 4125525000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -34,7 +34,7 @@
       },
       "trend": {
         "ma50": 3038.0,
-        "gap_from_ma50_pct": 22.11,
+        "gap_from_ma50_pct": 21.47,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -86,7 +86,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.52 WIB"
+      "updated_at": "15.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -170,11 +170,11 @@
       "ticker": "PTBA",
       "company": "Bukit Asam Tbk.",
       "score": 60,
-      "close": 2990.0,
-      "near_52w_pct": 85.7,
-      "wk_rsi": 64.6,
+      "close": 3000.0,
+      "near_52w_pct": 86.0,
+      "wk_rsi": 64.9,
       "wk_adx": 27.2,
-      "mo_rsi": 62.8,
+      "mo_rsi": 63.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -193,18 +193,18 @@
       "ticker": "AYAM",
       "company": "Janu Putra Sejahtera Tbk.",
       "score": 55,
-      "close": 478.0,
-      "near_52w_pct": 86.1,
-      "wk_rsi": 61.1,
+      "close": 480.0,
+      "near_52w_pct": 86.5,
+      "wk_rsi": 61.6,
       "wk_adx": 42.1,
-      "mo_rsi": 70.5,
+      "mo_rsi": 70.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (86%) + Wk RSI (61) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (70)",
+        "Near 52W High (86%) + Wk RSI (62) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (71)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -214,7 +214,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-04 14:53:20 WIB",
+    "generated_at": "2026-11-04 15:16:00 WIB",
     "date": "2026-11-04",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -242,8 +242,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 4879,
-    "ihsg_change_pct": -0.5,
+    "ihsg_close": 4887,
+    "ihsg_change_pct": -0.33,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
