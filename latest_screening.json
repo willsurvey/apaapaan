@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-11-05 08:14:06 WIB",
+  "generated_at": "2026-11-05 08:32:00 WIB",
   "date": "2026-11-05",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -16,7 +16,7 @@
     "warning": "⚠️ IHSG turun -3.8% kemarin. Trading dengan sangat hati-hati."
   },
   "screening_summary": {
-    "universe": 976,
+    "universe": 977,
     "after_liquidity": 0,
     "after_accumulation": 0,
     "after_trend": 0,
