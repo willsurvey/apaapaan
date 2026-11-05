@@ -31,29 +31,6 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "AALI",
-      "company": "Astra Agro Lestari Tbk.",
-      "score": 65,
-      "close": 9425.0,
-      "near_52w_pct": 95.2,
-      "wk_rsi": 73.8,
-      "wk_adx": 23.0,
-      "mo_rsi": 62.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (62)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "TMPO",
       "company": "Tempo Inti Media Tbk.",
       "score": 65,
@@ -72,29 +49,6 @@
         "Monthly RSI kuat (72)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "PTBA",
-      "company": "Bukit Asam Tbk.",
-      "score": 60,
-      "close": 2970.0,
-      "near_52w_pct": 85.1,
-      "wk_rsi": 64.1,
-      "wk_adx": 27.2,
-      "mo_rsi": 62.4,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (85%) + Wk RSI (64) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (62)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 6.9B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -120,11 +74,55 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "POWR",
+      "company": "Cikarang Listrindo Tbk.",
+      "score": 55,
+      "close": 960.0,
+      "near_52w_pct": 92.3,
+      "wk_rsi": 68.8,
+      "wk_adx": 50.5,
+      "mo_rsi": 85.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (92%) + Wk RSI (69) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (86)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "ASGR",
+      "company": "Astra Graphia Tbk.",
+      "score": 55,
+      "close": 2370.0,
+      "near_52w_pct": 94.4,
+      "wk_rsi": 79.6,
+      "wk_adx": 49.3,
+      "mo_rsi": 83.6,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (94%) + Wk RSI (80) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (84)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-05 14:17:39 WIB",
+    "generated_at": "2026-11-05 14:37:27 WIB",
     "date": "2026-11-05",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -152,8 +150,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5023,
-    "ihsg_change_pct": 2.11,
+    "ihsg_close": 5033,
+    "ihsg_change_pct": 2.31,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -161,7 +159,7 @@
   },
   "screening_summary": {
     "universe": 977,
-    "after_liquidity": 69,
+    "after_liquidity": 73,
     "after_accumulation": 12,
     "after_trend": 2,
     "after_smc": 1,
