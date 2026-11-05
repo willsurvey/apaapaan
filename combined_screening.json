@@ -31,6 +31,29 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "AALI",
+      "company": "Astra Agro Lestari Tbk.",
+      "score": 65,
+      "close": 9425.0,
+      "near_52w_pct": 95.2,
+      "wk_rsi": 73.8,
+      "wk_adx": 23.0,
+      "mo_rsi": 62.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (62)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "TMPO",
       "company": "Tempo Inti Media Tbk.",
       "score": 65,
@@ -57,17 +80,17 @@
       "ticker": "PTBA",
       "company": "Bukit Asam Tbk.",
       "score": 60,
-      "close": 2990.0,
-      "near_52w_pct": 85.7,
-      "wk_rsi": 64.6,
+      "close": 2980.0,
+      "near_52w_pct": 85.4,
+      "wk_rsi": 64.3,
       "wk_adx": 27.2,
-      "mo_rsi": 62.8,
+      "mo_rsi": 62.6,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (86%) + Wk RSI (65) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (85%) + Wk RSI (64) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (63)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -97,33 +120,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BSSR",
-      "company": "Baramulti Suksessarana Tbk.",
-      "score": 55,
-      "close": 5000.0,
-      "near_52w_pct": 94.8,
-      "wk_rsi": 74.4,
-      "wk_adx": 57.8,
-      "mo_rsi": 90.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (58) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (90)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-05 11:14:26 WIB",
+    "generated_at": "2026-11-05 11:35:15 WIB",
     "date": "2026-11-05",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -151,8 +152,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5035,
-    "ihsg_change_pct": 2.36,
+    "ihsg_close": 5038,
+    "ihsg_change_pct": 2.41,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -160,8 +161,8 @@
   },
   "screening_summary": {
     "universe": 977,
-    "after_liquidity": 56,
-    "after_accumulation": 8,
+    "after_liquidity": 61,
+    "after_accumulation": 10,
     "after_trend": 2,
     "after_smc": 1,
     "after_entry": 1,
