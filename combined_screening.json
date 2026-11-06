@@ -10,17 +10,17 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 70,
-      "close": 1080.0,
-      "near_52w_pct": 98.2,
-      "wk_rsi": 65.9,
+      "close": 1075.0,
+      "near_52w_pct": 97.7,
+      "wk_rsi": 65.1,
       "wk_adx": 47.8,
-      "mo_rsi": 86.2,
+      "mo_rsi": 86.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (66) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (98%) + Wk RSI (65) + Wk ADX (48) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -47,29 +47,6 @@
         "Near 52W High (100%) + Wk RSI (70) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (100%) — breakout potential",
         "Monthly RSI kuat (83)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AALI",
-      "company": "Astra Agro Lestari Tbk.",
-      "score": 65,
-      "close": 9425.0,
-      "near_52w_pct": 95.2,
-      "wk_rsi": 73.8,
-      "wk_adx": 22.9,
-      "mo_rsi": 62.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (62)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -121,11 +98,33 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "PTBA",
+      "company": "Bukit Asam Tbk.",
+      "score": 55,
+      "close": 2980.0,
+      "near_52w_pct": 85.4,
+      "wk_rsi": 64.3,
+      "wk_adx": 27.1,
+      "mo_rsi": 62.6,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (85%) + Wk RSI (64) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (63)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-06 15:15:47 WIB",
+    "generated_at": "2026-11-06 15:34:20 WIB",
     "date": "2026-11-06",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -153,8 +152,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5022,
-    "ihsg_change_pct": -0.16,
+    "ihsg_close": 5025,
+    "ihsg_change_pct": -0.1,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -162,7 +161,7 @@
   },
   "screening_summary": {
     "universe": 977,
-    "after_liquidity": 67,
+    "after_liquidity": 69,
     "after_accumulation": 21,
     "after_trend": 2,
     "after_smc": 0,
