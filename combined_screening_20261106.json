@@ -25,7 +25,7 @@
         "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 4.1B)"
+        "Asing beli bersih (Rp 1.9B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -100,24 +100,24 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "DEWI",
-      "company": "Dewi Shri Farmindo Tbk.",
+      "ticker": "PTBA",
+      "company": "Bukit Asam Tbk.",
       "score": 60,
-      "close": 234.0,
-      "near_52w_pct": 86.7,
-      "wk_rsi": 76.7,
-      "wk_adx": 38.7,
-      "mo_rsi": 72.7,
+      "close": 2980.0,
+      "near_52w_pct": 85.4,
+      "wk_rsi": 64.3,
+      "wk_adx": 27.1,
+      "mo_rsi": 62.6,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (77) + Wk ADX (39) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (73)",
+        "Near 52W High (85%) + Wk RSI (64) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (63)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.8B)"
+        "Asing beli bersih (Rp 12.3B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -125,7 +125,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-06 16:56:56 WIB",
+    "generated_at": "2026-11-06 17:14:44 WIB",
     "date": "2026-11-06",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -161,8 +161,8 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 977,
-    "after_liquidity": 72,
+    "universe": 961,
+    "after_liquidity": 79,
     "after_accumulation": 22,
     "after_trend": 2,
     "after_smc": 0,
