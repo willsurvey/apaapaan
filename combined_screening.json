@@ -125,7 +125,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-06 17:14:44 WIB",
+    "generated_at": "2026-11-06 17:35:45 WIB",
     "date": "2026-11-06",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -161,9 +161,9 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 961,
+    "universe": 977,
     "after_liquidity": 79,
-    "after_accumulation": 22,
+    "after_accumulation": 28,
     "after_trend": 2,
     "after_smc": 0,
     "after_entry": 0,
