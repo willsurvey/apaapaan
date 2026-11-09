@@ -36,8 +36,8 @@
         }
       },
       "trend": {
-        "ma50": 4707.0,
-        "gap_from_ma50_pct": 9.4,
+        "ma50": 4698.0,
+        "gap_from_ma50_pct": 6.42,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -89,7 +89,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "23.54 WIB"
+      "updated_at": "00.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -99,22 +99,46 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "AUTO",
-      "company": "Astra Otoparts Tbk.",
-      "score": 65,
-      "close": 3290.0,
-      "near_52w_pct": 95.5,
-      "wk_rsi": 71.3,
-      "wk_adx": 31.3,
-      "mo_rsi": 72.8,
+      "ticker": "AIMS",
+      "company": "Artha Mahiya Investama Tbk",
+      "score": 70,
+      "close": 1175.0,
+      "near_52w_pct": 100.0,
+      "wk_rsi": 70.3,
+      "wk_adx": 46.9,
+      "mo_rsi": 81.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (71) + Wk ADX (31) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (100%) + Wk RSI (70) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
+        "Monthly RSI kuat (82)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish",
+        "Asing beli bersih (Rp 0.0B)"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "AALI",
+      "company": "Astra Agro Lestari Tbk.",
+      "score": 65,
+      "close": 9450.0,
+      "near_52w_pct": 95.5,
+      "wk_rsi": 74.2,
+      "wk_adx": 22.9,
+      "mo_rsi": 61.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (74) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (95%) — breakout potential",
-        "Monthly RSI kuat (73)",
+        "Monthly RSI kuat (62)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -125,8 +149,8 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1075.0,
-      "near_52w_pct": 97.7,
+      "close": 1080.0,
+      "near_52w_pct": 98.2,
       "wk_rsi": 65.9,
       "wk_adx": 47.8,
       "mo_rsi": 86.0,
@@ -171,8 +195,8 @@
       "ticker": "PTBA",
       "company": "Bukit Asam Tbk.",
       "score": 60,
-      "close": 2970.0,
-      "near_52w_pct": 85.1,
+      "close": 2980.0,
+      "near_52w_pct": 85.4,
       "wk_rsi": 64.3,
       "wk_adx": 27.1,
       "mo_rsi": 62.4,
@@ -189,35 +213,12 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "DEWI",
-      "company": "Dewi Shri Farmindo Tbk.",
-      "score": 60,
-      "close": 242.0,
-      "near_52w_pct": 89.6,
-      "wk_rsi": 76.7,
-      "wk_adx": 38.7,
-      "mo_rsi": 73.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (90%) + Wk RSI (77) + Wk ADX (39) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (74)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.8B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-09 23:58:22 WIB",
-    "date": "2026-11-09",
+    "generated_at": "2026-11-10 00:15:35 WIB",
+    "date": "2026-11-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
@@ -244,15 +245,15 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5073,
-    "ihsg_change_pct": 0.46,
+    "ihsg_close": 5050,
+    "ihsg_change_pct": 0.4,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
     "warning": null
   },
   "screening_summary": {
-    "universe": 977,
+    "universe": 976,
     "after_liquidity": 67,
     "after_accumulation": 14,
     "after_trend": 2,
