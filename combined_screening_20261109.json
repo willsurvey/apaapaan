@@ -18,12 +18,12 @@
         "change_pct": 3,
         "value_today": 353251016500,
         "frequency_today": 19350,
-        "iep": 5150,
+        "iep": 0,
         "iep_change_pct": 0
       },
       "accumulation": {
         "broker_signal": "Big Acc",
-        "net_foreign_today": 83289210000,
+        "net_foreign_today": 200051886500,
         "net_foreign_3d": 0,
         "acc_score": 45,
         "score_breakdown": {
@@ -84,11 +84,11 @@
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
-        "✅ Net Foreign Buy hari ini: Rp83.3B",
+        "✅ Net Foreign Buy hari ini: Rp200.1B",
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "16.53 WIB"
+      "updated_at": "17.16 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -104,7 +104,7 @@
       "close": 3290.0,
       "near_52w_pct": 95.5,
       "wk_rsi": 71.3,
-      "wk_adx": 31.3,
+      "wk_adx": 31.2,
       "mo_rsi": 72.8,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -184,7 +184,7 @@
         "Monthly RSI kuat (62)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 12.3B)"
+        "Asing beli bersih (Rp 6.2B)"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -215,7 +215,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-09 16:55:10 WIB",
+    "generated_at": "2026-11-09 17:17:06 WIB",
     "date": "2026-11-09",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -251,10 +251,10 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 972,
-    "after_liquidity": 75,
-    "after_accumulation": 21,
-    "after_trend": 1,
+    "universe": 977,
+    "after_liquidity": 67,
+    "after_accumulation": 14,
+    "after_trend": 3,
     "after_smc": 1,
     "after_entry": 1,
     "final": 1
