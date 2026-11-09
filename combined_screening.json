@@ -14,7 +14,7 @@
       "near_52w_pct": 95.5,
       "wk_rsi": 74.2,
       "wk_adx": 22.9,
-      "mo_rsi": 62.4,
+      "mo_rsi": 62.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -60,7 +60,7 @@
       "near_52w_pct": 100.0,
       "wk_rsi": 70.3,
       "wk_adx": 46.9,
-      "mo_rsi": 83.1,
+      "mo_rsi": 86.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -68,7 +68,7 @@
       "signals_positive": [
         "Near 52W High (100%) + Wk RSI (70) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (83)",
+        "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -123,7 +123,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-09 08:52:18 WIB",
+    "generated_at": "2026-11-09 09:13:39 WIB",
     "date": "2026-11-09",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -160,10 +160,10 @@
   },
   "screening_summary": {
     "universe": 977,
-    "after_liquidity": 0,
-    "after_accumulation": 0,
-    "after_trend": 0,
-    "after_smc": 0,
+    "after_liquidity": 20,
+    "after_accumulation": 5,
+    "after_trend": 1,
+    "after_smc": 1,
     "after_entry": 0,
     "final": 0
   },
