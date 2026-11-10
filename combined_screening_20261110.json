@@ -4,37 +4,37 @@
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "PSAB",
-      "company": "J Resources Asia Pasifik Tbk.",
+      "ticker": "ANTM",
+      "company": "Aneka Tambang Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 40,
+      "score": 35,
       "market_data": {
-        "close": 436.0,
-        "change_pct": 2.83,
-        "value_today": 14123169200,
-        "net_foreign": 777159000
+        "close": 2780.0,
+        "change_pct": 2.21,
+        "value_today": 119253697000,
+        "net_foreign": -75384961000
       },
       "d1_features": {
-        "body_pct": 1.4,
-        "close_pos_pct": 44.4,
-        "vol_ratio": 0.42,
-        "change_pct": 2.83,
-        "range_pct": 4.13,
-        "upper_wick": 55.6,
+        "body_pct": 1.09,
+        "close_pos_pct": 50.0,
+        "vol_ratio": 0.37,
+        "change_pct": 2.58,
+        "range_pct": 2.16,
+        "upper_wick": 50.0,
         "above_ma20": true,
         "above_ma50": false,
         "above_ma200": false,
-        "atr_pct": 6.09
+        "atr_pct": 5.32
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "424 – 444",
+        "entry_range": "2,720 – 2,840",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 398,
-        "stop_note": "Cut loss jika turun di bawah 398 (1 ATR dari entry)",
-        "target_modest": 444,
-        "target_moderate": 454,
+        "stop_loss": 2570,
+        "stop_note": "Cut loss jika turun di bawah 2,570 (1 ATR dari entry)",
+        "target_modest": 2840,
+        "target_moderate": 2890,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -47,20 +47,22 @@
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
         "in_mover_types": [
-          "MOVER_TYPE_NET_FOREIGN_BUY",
-          "GURU_72_IHSG Short-t",
+          "MOVER_TYPE_TOP_VOLUME",
+          "MOVER_TYPE_TOP_VALUE",
+          "GURU_78_Daily Net Fo",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.4%), volume mati (0.42x MA20), close tengah (44%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.1%), volume mati (0.37x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
-        "Asing beli bersih hari ini (Rp 0.8B)"
+        "Range D-1 kecil (2.2%) — noise rendah besok"
       ],
       "signals_negative": [
-        "Upper wick besar (56%) — tekanan jual D-1"
+        "Upper wick besar (50%) — tekanan jual D-1",
+        "Asing jual bersih besar — hati-hati gap down"
       ],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
@@ -106,17 +108,17 @@
       "ticker": "AUTO",
       "company": "Astra Otoparts Tbk.",
       "score": 65,
-      "close": 3310.0,
-      "near_52w_pct": 96.1,
-      "wk_rsi": 72.4,
+      "close": 3320.0,
+      "near_52w_pct": 96.4,
+      "wk_rsi": 72.6,
       "wk_adx": 29.6,
-      "mo_rsi": 73.0,
+      "mo_rsi": 73.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (72) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (96%) + Wk RSI (73) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (73)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
@@ -197,7 +199,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-10 11:34:08 WIB",
+    "generated_at": "2026-11-10 11:53:31 WIB",
     "date": "2026-11-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -225,8 +227,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5142,
-    "ihsg_change_pct": 1.35,
+    "ihsg_close": 5144,
+    "ihsg_change_pct": 1.4,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -234,7 +236,7 @@
   },
   "screening_summary": {
     "universe": 959,
-    "after_liquidity": 55,
+    "after_liquidity": 58,
     "after_accumulation": 12,
     "after_trend": 1,
     "after_smc": 1,
