@@ -8,12 +8,12 @@
       "company": "Indofood CBP Sukses Makmur Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 40,
+      "score": 50,
       "market_data": {
         "close": 6300.0,
         "change_pct": 1.61,
         "value_today": 35971817500,
-        "net_foreign": -16738555000
+        "net_foreign": 267397500
       },
       "d1_features": {
         "body_pct": 1.61,
@@ -59,11 +59,11 @@
         "Formula: Quiet Continuation — D-1 hijau tipis (+1.6%), volume mati (0.49x MA20), close tengah (57%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Range D-1 kecil (2.8%) — noise rendah besok",
+        "Asing beli bersih hari ini (Rp 0.3B)",
         "Masuk screener volume Stockbit — ada perhatian pasar"
       ],
       "signals_negative": [
-        "Upper wick besar (43%) — tekanan jual D-1",
-        "Asing jual bersih besar — hati-hati gap down"
+        "Upper wick besar (43%) — tekanan jual D-1"
       ],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
@@ -200,7 +200,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-10 17:13:59 WIB",
+    "generated_at": "2026-11-10 17:36:43 WIB",
     "date": "2026-11-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -237,7 +237,7 @@
   },
   "screening_summary": {
     "universe": 959,
-    "after_liquidity": 68,
+    "after_liquidity": 75,
     "after_accumulation": 18,
     "after_trend": 1,
     "after_smc": 1,
