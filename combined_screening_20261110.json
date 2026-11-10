@@ -98,21 +98,21 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "DEWI",
-      "company": "Dewi Shri Farmindo Tbk.",
+      "ticker": "ULTJ",
+      "company": "Ultra Jaya Milk Industry & Trading Company Tbk.",
       "score": 55,
-      "close": 242.0,
-      "near_52w_pct": 89.6,
-      "wk_rsi": 76.9,
-      "wk_adx": 38.5,
+      "close": 2050.0,
+      "near_52w_pct": 93.6,
+      "wk_rsi": 79.9,
+      "wk_adx": 27.4,
       "mo_rsi": 73.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (90%) + Wk RSI (77) + Wk ADX (38) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (74)",
+        "Near 52W High (94%) + Wk RSI (80) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (73)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -122,7 +122,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-10 08:13:54 WIB",
+    "generated_at": "2026-11-10 08:33:52 WIB",
     "date": "2026-11-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -158,7 +158,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 977,
+    "universe": 973,
     "after_liquidity": 0,
     "after_accumulation": 0,
     "after_trend": 0,
