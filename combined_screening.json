@@ -4,37 +4,37 @@
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "ANTM",
-      "company": "Aneka Tambang Tbk.",
+      "ticker": "KLBF",
+      "company": "Kalbe Farma Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 35,
+      "score": 45,
       "market_data": {
-        "close": 2780.0,
-        "change_pct": 2.21,
-        "value_today": 119253697000,
-        "net_foreign": -75384961000
+        "close": 760.0,
+        "change_pct": 2.7,
+        "value_today": 19749819500,
+        "net_foreign": -2018529000
       },
       "d1_features": {
-        "body_pct": 1.09,
-        "close_pos_pct": 50.0,
-        "vol_ratio": 0.37,
-        "change_pct": 2.58,
-        "range_pct": 2.16,
-        "upper_wick": 50.0,
+        "body_pct": 2.7,
+        "close_pos_pct": 66.7,
+        "vol_ratio": 0.46,
+        "change_pct": 2.7,
+        "range_pct": 3.95,
+        "upper_wick": 33.3,
         "above_ma20": true,
-        "above_ma50": false,
+        "above_ma50": true,
         "above_ma200": false,
-        "atr_pct": 5.32
+        "atr_pct": 3.62
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "2,720 – 2,840",
+        "entry_range": "745 – 775",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 2570,
-        "stop_note": "Cut loss jika turun di bawah 2,570 (1 ATR dari entry)",
-        "target_modest": 2840,
-        "target_moderate": 2890,
+        "stop_loss": 715,
+        "stop_note": "Cut loss jika turun di bawah 715 (1 ATR dari entry)",
+        "target_modest": 775,
+        "target_moderate": 790,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -47,21 +47,17 @@
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
         "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
-          "MOVER_TYPE_TOP_VALUE",
-          "GURU_78_Daily Net Fo",
-          "SCREENER_TOP_VALUE"
+          "MOVER_TYPE_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.1%), volume mati (0.37x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+2.7%), volume mati (0.46x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
-        "Range D-1 kecil (2.2%) — noise rendah besok"
+        "Di atas MA50 — tren menengah masih ok"
       ],
       "signals_negative": [
-        "Upper wick besar (50%) — tekanan jual D-1",
         "Asing jual bersih besar — hati-hati gap down"
       ],
       "backtest_stats": {
@@ -79,127 +75,10 @@
   ],
   "swing_trading": [],
   "trend_following": [],
-  "position_trading": [
-    {
-      "ticker": "PTSP",
-      "company": "Pioneerindo Gourmet International Tbk.",
-      "score": 70,
-      "close": 2760.0,
-      "near_52w_pct": 98.2,
-      "wk_rsi": 72.1,
-      "wk_adx": 63.2,
-      "mo_rsi": 87.6,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (72) + Wk ADX (63) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (88)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.1B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AUTO",
-      "company": "Astra Otoparts Tbk.",
-      "score": 65,
-      "close": 3320.0,
-      "near_52w_pct": 96.4,
-      "wk_rsi": 72.6,
-      "wk_adx": 29.6,
-      "mo_rsi": 73.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (73) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (73)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BSSR",
-      "company": "Baramulti Suksessarana Tbk.",
-      "score": 65,
-      "close": 5050.0,
-      "near_52w_pct": 95.7,
-      "wk_rsi": 74.5,
-      "wk_adx": 55.4,
-      "mo_rsi": 92.0,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (74) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (92)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 65,
-      "close": 1065.0,
-      "near_52w_pct": 96.8,
-      "wk_rsi": 63.0,
-      "wk_adx": 47.5,
-      "mo_rsi": 85.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (63) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (86)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "TMPO",
-      "company": "Tempo Inti Media Tbk.",
-      "score": 65,
-      "close": 292.0,
-      "near_52w_pct": 100.0,
-      "wk_rsi": 69.3,
-      "wk_adx": 45.3,
-      "mo_rsi": 71.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (69) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (72)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    }
-  ],
+  "position_trading": [],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-10 11:53:31 WIB",
+    "generated_at": "2026-11-10 12:03:09 WIB",
     "date": "2026-11-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -212,7 +91,7 @@
     "bpjs_count": 1,
     "swing_count": 0,
     "trend_count": 0,
-    "position_count": 5,
+    "position_count": 0,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
     "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
@@ -227,19 +106,19 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5144,
-    "ihsg_change_pct": 1.4,
+    "ihsg_close": 5132,
+    "ihsg_change_pct": 1.15,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
     "warning": null
   },
   "screening_summary": {
-    "universe": 959,
-    "after_liquidity": 58,
-    "after_accumulation": 12,
-    "after_trend": 1,
-    "after_smc": 1,
+    "universe": 62,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
+    "after_smc": 0,
     "after_entry": 0,
     "final": 0
   },
