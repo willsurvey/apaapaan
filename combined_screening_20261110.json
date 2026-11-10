@@ -44,7 +44,7 @@
         "internal_structure": "NONE",
         "swing_trend_bias": "BEARISH",
         "ob_zone": null,
-        "fvg_zone": "4940 - 5000",
+        "fvg_zone": "5050 - 5100",
         "strong_low": 4590.0,
         "weak_high": 5000.0
       },
@@ -89,7 +89,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "06.52 WIB"
+      "updated_at": "07.13 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -216,7 +216,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-10 06:54:43 WIB",
+    "generated_at": "2026-11-10 07:14:30 WIB",
     "date": "2026-11-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -252,7 +252,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 977,
+    "universe": 968,
     "after_liquidity": 67,
     "after_accumulation": 14,
     "after_trend": 2,
