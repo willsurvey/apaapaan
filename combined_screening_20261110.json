@@ -4,37 +4,37 @@
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "KLBF",
-      "company": "Kalbe Farma Tbk.",
+      "ticker": "ANTM",
+      "company": "Aneka Tambang Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 45,
+      "score": 35,
       "market_data": {
-        "close": 760.0,
-        "change_pct": 2.7,
-        "value_today": 19749819500,
-        "net_foreign": -2018529000
+        "close": 2780.0,
+        "change_pct": 2.58,
+        "value_today": 130621283000,
+        "net_foreign": -75384961000
       },
       "d1_features": {
-        "body_pct": 2.7,
-        "close_pos_pct": 66.7,
-        "vol_ratio": 0.47,
-        "change_pct": 2.7,
-        "range_pct": 3.95,
-        "upper_wick": 33.3,
+        "body_pct": 1.09,
+        "close_pos_pct": 50.0,
+        "vol_ratio": 0.4,
+        "change_pct": 2.58,
+        "range_pct": 2.16,
+        "upper_wick": 50.0,
         "above_ma20": true,
-        "above_ma50": true,
+        "above_ma50": false,
         "above_ma200": false,
-        "atr_pct": 3.62
+        "atr_pct": 5.32
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "745 – 775",
+        "entry_range": "2,720 – 2,840",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 715,
-        "stop_note": "Cut loss jika turun di bawah 715 (1 ATR dari entry)",
-        "target_modest": 775,
-        "target_moderate": 790,
+        "stop_loss": 2570,
+        "stop_note": "Cut loss jika turun di bawah 2,570 (1 ATR dari entry)",
+        "target_modest": 2840,
+        "target_moderate": 2890,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -47,19 +47,21 @@
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
         "in_mover_types": [
+          "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
-          "GURU_72_IHSG Short-t",
+          "GURU_78_Daily Net Fo",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+2.7%), volume mati (0.47x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.1%), volume mati (0.40x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
-        "Di atas MA50 — tren menengah masih ok"
+        "Range D-1 kecil (2.2%) — noise rendah besok"
       ],
       "signals_negative": [
+        "Upper wick besar (50%) — tekanan jual D-1",
         "Asing jual bersih besar — hati-hati gap down"
       ],
       "backtest_stats": {
@@ -73,79 +75,6 @@
       },
       "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
       "rank": 1
-    },
-    {
-      "ticker": "PSAB",
-      "company": "J Resources Asia Pasifik Tbk.",
-      "type": "WATCHLIST_BPJS",
-      "formula": "QUIET_CONTINUATION",
-      "score": 45,
-      "market_data": {
-        "close": 436.0,
-        "change_pct": 2.83,
-        "value_today": 15847445600,
-        "net_foreign": 777159000
-      },
-      "d1_features": {
-        "body_pct": 1.4,
-        "close_pos_pct": 44.4,
-        "vol_ratio": 0.48,
-        "change_pct": 2.83,
-        "range_pct": 4.13,
-        "upper_wick": 55.6,
-        "above_ma20": true,
-        "above_ma50": false,
-        "above_ma200": false,
-        "atr_pct": 6.09
-      },
-      "trading_plan": {
-        "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "424 – 444",
-        "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 398,
-        "stop_note": "Cut loss jika turun di bawah 398 (1 ATR dari entry)",
-        "target_modest": 444,
-        "target_moderate": 454,
-        "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
-      },
-      "morning_confirmation_criteria": [
-        "⚠️ WAJIB: Utamakan jika terjadi Gap Down > 3% saat open untuk risk/reward terbaik",
-        "✅ Skenario Gap Down >3% memiliki Profit Factor 6.78x & Win Rate 44.5%",
-        "✅ Volume 15 menit pertama normal/stabil di atas rata-rata",
-        "❌ JANGAN BELI jika Gap Up > 3% (euforia rawan bull trap, PF hanya 0.3x)",
-        "❌ JANGAN BELI jika langsung longsor drastis tanpa rebound dari low"
-      ],
-      "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_NET_FOREIGN_BUY",
-          "SCREENER_VOLUME_EXPLOSION",
-          "GURU_72_IHSG Short-t",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": false,
-        "from_screener": true
-      },
-      "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.4%), volume mati (0.48x MA20), close tengah (44%). WR historis: 49.8% (n=1.371)",
-        "Di atas MA20 — support jangka pendek",
-        "Asing beli bersih hari ini (Rp 0.8B)",
-        "Masuk screener volume Stockbit — ada perhatian pasar"
-      ],
-      "signals_negative": [
-        "Upper wick besar (56%) — tekanan jual D-1"
-      ],
-      "backtest_stats": {
-        "formula": "QUIET_CONTINUATION",
-        "win_rate": "49.8%",
-        "sample_size": "n=1.371",
-        "profit_factor": "1.04x",
-        "total_backtest": "789.792 hari trading IHSG (956 saham)",
-        "gap_down_sweet_spot": "Gap Down >2%: WR 30.2%, upside +3.75%, DD -0.88%",
-        "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
-      },
-      "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
-      "rank": 2
     }
   ],
   "swing_trading": [],
@@ -179,18 +108,18 @@
       "ticker": "AUTO",
       "company": "Astra Otoparts Tbk.",
       "score": 65,
-      "close": 3320.0,
-      "near_52w_pct": 96.4,
-      "wk_rsi": 72.6,
+      "close": 3330.0,
+      "near_52w_pct": 96.7,
+      "wk_rsi": 72.9,
       "wk_adx": 29.6,
-      "mo_rsi": 73.1,
+      "mo_rsi": 73.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (73) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
+        "Near 52W High (97%) + Wk RSI (73) + Wk ADX (30) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (73)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -225,19 +154,19 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1065.0,
-      "near_52w_pct": 96.8,
-      "wk_rsi": 63.0,
+      "close": 1060.0,
+      "near_52w_pct": 96.4,
+      "wk_rsi": 61.7,
       "wk_adx": 47.5,
-      "mo_rsi": 85.7,
+      "mo_rsi": 85.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (63) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (86)",
+        "Near 52W High (96%) + Wk RSI (62) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (85)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -270,7 +199,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-10 13:33:51 WIB",
+    "generated_at": "2026-11-10 13:54:54 WIB",
     "date": "2026-11-10",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -280,7 +209,7 @@
     "intraday_count": 0,
     "ara_count": 0,
     "bsjp_count": 0,
-    "bpjs_count": 2,
+    "bpjs_count": 1,
     "swing_count": 0,
     "trend_count": 0,
     "position_count": 5,
@@ -298,8 +227,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5126,
-    "ihsg_change_pct": 1.04,
+    "ihsg_close": 5131,
+    "ihsg_change_pct": 1.14,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -307,8 +236,8 @@
   },
   "screening_summary": {
     "universe": 959,
-    "after_liquidity": 58,
-    "after_accumulation": 12,
+    "after_liquidity": 61,
+    "after_accumulation": 13,
     "after_trend": 1,
     "after_smc": 1,
     "after_entry": 0,
