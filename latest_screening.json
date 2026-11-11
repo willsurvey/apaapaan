@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-11-12 04:35:07 WIB",
+  "generated_at": "2026-11-12 04:54:49 WIB",
   "date": "2026-11-12",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -75,8 +75,8 @@
         }
       },
       "trend": {
-        "ma50": 8518.0,
-        "gap_from_ma50_pct": 10.35,
+        "ma50": 8545.0,
+        "gap_from_ma50_pct": 10.89,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -127,7 +127,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "04.33 WIB"
+      "updated_at": "04.53 WIB"
     }
   ]
 }
