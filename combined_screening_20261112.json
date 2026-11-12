@@ -10,9 +10,9 @@
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
-        "close": 9650,
+        "close": 9625,
         "change_pct": 0,
-        "value_today": 16951235000.0,
+        "value_today": 18883997500.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -50,19 +50,19 @@
         "entry_direction": "MOMENTUM",
         "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu konfirmasi pantulan di area OB, hindari entry langsung pagi hari karena volatilitas tinggi!",
         "entry_direction_reason": "Internal BOS/CHoCH bullish 1H + OB confirmed",
-        "entry_1": 9650,
+        "entry_1": 9625,
         "entry_1_pct": 20,
         "entry_1_note": "PDC entry — momentum kuat (Internal BOS/CHoCH bullish 1H + OB confirmed)",
-        "entry_2": 9600,
+        "entry_2": 9575,
         "entry_2_pct": 50,
         "entry_2_note": "Pullback ringan / OB zone",
-        "entry_3": 9550,
+        "entry_3": 9525,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 9600,
-        "entry_zone": "9550 - 9650",
+        "average_entry": 9575,
+        "entry_zone": "9525 - 9625",
         "sl": 9450,
-        "sl_pct_risk": 1.56,
+        "sl_pct_risk": 1.31,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
         "tp1": 9650,
         "tp1_note": "PDH / Target psikologis intraday",
@@ -70,7 +70,7 @@
         "tp2_note": "Weak High / Supply Zone 1H",
         "tp3": 10250,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:4.3",
+        "rr_ratio": "1:5.4",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
@@ -85,44 +85,44 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "11.33 WIB"
+      "updated_at": "11.53 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "ANTM",
-      "company": "Aneka Tambang Tbk.",
+      "ticker": "KLBF",
+      "company": "Kalbe Farma Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 40,
+      "score": 50,
       "market_data": {
-        "close": 2790.0,
-        "change_pct": 1.82,
-        "value_today": 76001769000,
-        "net_foreign": -23063173000
+        "close": 780.0,
+        "change_pct": 1.3,
+        "value_today": 21009382500,
+        "net_foreign": 12233209000
       },
       "d1_features": {
-        "body_pct": 1.45,
-        "close_pos_pct": 70.0,
-        "vol_ratio": 0.24,
-        "change_pct": 1.45,
-        "range_pct": 3.58,
-        "upper_wick": 30.0,
+        "body_pct": 1.3,
+        "close_pos_pct": 50.0,
+        "vol_ratio": 0.48,
+        "change_pct": 1.3,
+        "range_pct": 2.56,
+        "upper_wick": 50.0,
         "above_ma20": true,
-        "above_ma50": false,
+        "above_ma50": true,
         "above_ma200": false,
-        "atr_pct": 4.92
+        "atr_pct": 3.34
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "2,720 – 2,850",
+        "entry_range": "765 – 795",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 2580,
-        "stop_note": "Cut loss jika turun di bawah 2,580 (1 ATR dari entry)",
-        "target_modest": 2850,
-        "target_moderate": 2900,
+        "stop_loss": 740,
+        "stop_note": "Cut loss jika turun di bawah 740 (1 ATR dari entry)",
+        "target_modest": 795,
+        "target_moderate": 810,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -136,18 +136,22 @@
       "universe_context": {
         "in_mover_types": [
           "MOVER_TYPE_TOP_VALUE",
-          "GURU_78_Daily Net Fo",
+          "MOVER_TYPE_NET_FOREIGN_BUY",
+          "GURU_92_Big Accumula",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.5%), volume mati (0.24x MA20), close tengah (70%). WR historis: 49.8% (n=1.371)",
-        "Di atas MA20 — support jangka pendek"
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.3%), volume mati (0.48x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
+        "Di atas MA20 — support jangka pendek",
+        "Di atas MA50 — tren menengah masih ok",
+        "Range D-1 kecil (2.6%) — noise rendah besok",
+        "Asing beli bersih hari ini (Rp 12.2B)"
       ],
       "signals_negative": [
-        "Asing jual bersih besar — hati-hati gap down"
+        "Upper wick besar (50%) — tekanan jual D-1"
       ],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
@@ -189,29 +193,6 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "TMPO",
-      "company": "Tempo Inti Media Tbk.",
-      "score": 65,
-      "close": 292.0,
-      "near_52w_pct": 100.0,
-      "wk_rsi": 69.3,
-      "wk_adx": 45.3,
-      "mo_rsi": 71.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (69) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (72)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "BSSR",
       "company": "Baramulti Suksessarana Tbk.",
       "score": 65,
@@ -238,19 +219,42 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1070.0,
-      "near_52w_pct": 97.3,
-      "wk_rsi": 64.4,
+      "close": 1075.0,
+      "near_52w_pct": 97.7,
+      "wk_rsi": 65.9,
       "wk_adx": 47.5,
-      "mo_rsi": 85.9,
+      "mo_rsi": 86.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (64) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
+        "Near 52W High (98%) + Wk RSI (66) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (86)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "TMPO",
+      "company": "Tempo Inti Media Tbk.",
+      "score": 65,
+      "close": 292.0,
+      "near_52w_pct": 100.0,
+      "wk_rsi": 69.3,
+      "wk_adx": 45.3,
+      "mo_rsi": 71.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (100%) + Wk RSI (69) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
+        "Monthly RSI kuat (72)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -283,7 +287,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-12 11:34:26 WIB",
+    "generated_at": "2026-11-12 11:54:05 WIB",
     "date": "2026-11-12",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -311,8 +315,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5204,
-    "ihsg_change_pct": 1.75,
+    "ihsg_close": 5216,
+    "ihsg_change_pct": 1.99,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -320,7 +324,7 @@
   },
   "screening_summary": {
     "universe": 959,
-    "after_liquidity": 62,
+    "after_liquidity": 63,
     "after_accumulation": 20,
     "after_trend": 2,
     "after_smc": 1,
