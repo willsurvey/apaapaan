@@ -39,52 +39,53 @@
       "smc": {
         "internal_structure": "BOS_BULLISH",
         "swing_trend_bias": "BULLISH",
-        "ob_zone": null,
+        "ob_zone": "9300 - 9350",
         "fvg_zone": null,
-        "strong_low": 8425.0,
-        "weak_high": 9900.0
+        "strong_low": 9300.0,
+        "weak_high": 9600.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
         "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction": "PULLBACK",
-        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
-        "entry_direction_reason": "",
-        "entry_1": 9450,
+        "entry_direction": "MOMENTUM",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu konfirmasi pantulan di area OB, hindari entry langsung pagi hari karena volatilitas tinggi!",
+        "entry_direction_reason": "Internal BOS/CHoCH bullish 1H + OB confirmed",
+        "entry_1": 9475,
         "entry_1_pct": 20,
-        "entry_1_note": "Pullback ringan / Bid Wall area",
-        "entry_2": 9425,
+        "entry_1_note": "PDC entry — momentum kuat (Internal BOS/CHoCH bullish 1H + OB confirmed)",
+        "entry_2": 9450,
         "entry_2_pct": 50,
-        "entry_2_note": "Area OB / FVG / Support",
+        "entry_2_note": "Pullback ringan / OB zone",
         "entry_3": 9400,
         "entry_3_pct": 30,
         "entry_3_note": "Deep pullback / PDL area",
-        "average_entry": 9425,
-        "entry_zone": "9400 - 9450",
+        "average_entry": 9450,
+        "entry_zone": "9400 - 9475",
         "sl": 9350,
-        "sl_pct_risk": 0.8,
+        "sl_pct_risk": 1.06,
         "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
         "tp1": 9500,
         "tp1_note": "PDH / Target psikologis intraday",
-        "tp2": 9900,
+        "tp2": 9600,
         "tp2_note": "Weak High / Supply Zone 1H",
-        "tp3": 10200,
+        "tp3": 9900,
         "tp3_note": "RR minimum 1:2.0",
-        "rr_ratio": "1:10.3",
+        "rr_ratio": "1:4.5",
         "risk_pct": 2,
         "risk_note": "Max 2% dari total portofolio"
       },
       "scoring": {
-        "confidence_score": 50,
+        "confidence_score": 55,
         "tier": "MODERATE"
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
         "✅ Internal BOS Bullish (1H)",
+        "✅ Harga di zona Order Block aktif",
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "06.54 WIB"
+      "updated_at": "07.15 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -143,7 +144,7 @@
       "d2_body_pct": 0.933,
       "d2_vol_ratio_ma20": 4.13,
       "m1_last15_green": 14,
-      "m1_close_vs_vwap": -3.34,
+      "m1_close_vs_vwap": -4.27,
       "m1_close_pos_intra": 0.524,
       "m1_high_timing": 0.024,
       "m1_n_bars": 327,
@@ -168,7 +169,7 @@
       ],
       "signals_negative": [
         "Closing flat bias: 13/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -3.3%",
+        "Close di bawah VWAP: -4.3%",
         "High intraday di awal sesi (2%) — profit taking sore",
         "5d trend terlalu cepat: +42.9%"
       ],
@@ -179,7 +180,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "06:54 WIB"
+      "generated_at": "07:15 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -305,7 +306,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-12 06:55:21 WIB",
+    "generated_at": "2026-11-12 07:16:38 WIB",
     "date": "2026-11-12",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
