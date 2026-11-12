@@ -12,7 +12,7 @@
       "market_data": {
         "close": 9600,
         "change_pct": 0,
-        "value_today": 24475447500.0,
+        "value_today": 25407695000.0,
         "frequency_today": 0,
         "iep": 0,
         "iep_change_pct": 0
@@ -33,7 +33,7 @@
       },
       "trend": {
         "ma50": 8569.0,
-        "gap_from_ma50_pct": 11.74,
+        "gap_from_ma50_pct": 11.45,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -85,7 +85,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "14.53 WIB"
+      "updated_at": "15.13 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -98,18 +98,18 @@
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "score": 65,
-      "close": 9575.0,
-      "near_52w_pct": 96.7,
-      "wk_rsi": 72.7,
+      "close": 9550.0,
+      "near_52w_pct": 96.5,
+      "wk_rsi": 72.5,
       "wk_adx": 22.9,
-      "mo_rsi": 63.4,
+      "mo_rsi": 63.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (73) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
+        "Near 52W High (96%) + Wk RSI (73) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
         "Monthly RSI kuat (63)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -121,19 +121,19 @@
       "ticker": "BSSR",
       "company": "Baramulti Suksessarana Tbk.",
       "score": 65,
-      "close": 5125.0,
-      "near_52w_pct": 97.2,
-      "wk_rsi": 75.3,
+      "close": 5075.0,
+      "near_52w_pct": 96.2,
+      "wk_rsi": 74.8,
       "wk_adx": 55.4,
-      "mo_rsi": 94.9,
+      "mo_rsi": 92.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (75) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (95)",
+        "Near 52W High (96%) + Wk RSI (75) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (93)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -190,18 +190,18 @@
       "ticker": "PTBA",
       "company": "Bukit Asam Tbk.",
       "score": 60,
-      "close": 3130.0,
-      "near_52w_pct": 89.7,
-      "wk_rsi": 65.8,
+      "close": 3170.0,
+      "near_52w_pct": 90.8,
+      "wk_rsi": 66.4,
       "wk_adx": 25.6,
-      "mo_rsi": 66.0,
+      "mo_rsi": 66.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (90%) + Wk RSI (66) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (66)",
+        "Near 52W High (91%) + Wk RSI (66) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (67)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
         "Asing beli bersih (Rp 10.1B)"
@@ -212,7 +212,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-12 14:54:35 WIB",
+    "generated_at": "2026-11-12 15:14:37 WIB",
     "date": "2026-11-12",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -240,8 +240,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5212,
-    "ihsg_change_pct": 1.9,
+    "ihsg_close": 5211,
+    "ihsg_change_pct": 1.89,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -249,8 +249,8 @@
   },
   "screening_summary": {
     "universe": 959,
-    "after_liquidity": 70,
-    "after_accumulation": 20,
+    "after_liquidity": 71,
+    "after_accumulation": 21,
     "after_trend": 2,
     "after_smc": 1,
     "after_entry": 1,
