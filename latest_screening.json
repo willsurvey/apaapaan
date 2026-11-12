@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-11-12 07:35:46 WIB",
+  "generated_at": "2026-11-12 07:52:35 WIB",
   "date": "2026-11-12",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -16,7 +16,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 949,
+    "universe": 951,
     "after_liquidity": 69,
     "after_accumulation": 27,
     "after_trend": 1,
@@ -128,7 +128,7 @@
         "✅ Swing Structure: BULLISH"
       ],
       "warnings": [],
-      "updated_at": "07.34 WIB"
+      "updated_at": "07.51 WIB"
     }
   ]
 }
