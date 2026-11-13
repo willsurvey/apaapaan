@@ -11,8 +11,8 @@
       "score": 40,
       "market_data": {
         "close": 5550.0,
-        "change_pct": 1.37,
-        "value_today": 715143215000,
+        "change_pct": 1.83,
+        "value_today": 755801767500,
         "net_foreign": 246978432500
       },
       "d1_features": {
@@ -198,7 +198,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-13 13:53:55 WIB",
+    "generated_at": "2026-11-13 14:12:57 WIB",
     "date": "2026-11-13",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -235,10 +235,10 @@
   },
   "screening_summary": {
     "universe": 959,
-    "after_liquidity": 61,
-    "after_accumulation": 12,
-    "after_trend": 3,
-    "after_smc": 2,
+    "after_liquidity": 55,
+    "after_accumulation": 11,
+    "after_trend": 2,
+    "after_smc": 1,
     "after_entry": 1,
     "final": 0
   },
