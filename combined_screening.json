@@ -88,7 +88,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "18.54 WIB"
+      "updated_at": "19.13 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -121,29 +121,6 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 65,
-      "close": 1075.0,
-      "near_52w_pct": 97.7,
-      "wk_rsi": 65.9,
-      "wk_adx": 47.5,
-      "mo_rsi": 86.0,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (66) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (86)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "BSSR",
       "company": "Baramulti Suksessarana Tbk.",
       "score": 65,
@@ -160,6 +137,29 @@
         "Near 52W High (98%) + Wk RSI (76) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (95)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1075.0,
+      "near_52w_pct": 97.7,
+      "wk_rsi": 65.9,
+      "wk_adx": 47.5,
+      "mo_rsi": 86.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (98%) + Wk RSI (66) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -214,7 +214,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-13 18:55:09 WIB",
+    "generated_at": "2026-11-13 19:15:08 WIB",
     "date": "2026-11-13",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -250,7 +250,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 958,
+    "universe": 943,
     "after_liquidity": 69,
     "after_accumulation": 43,
     "after_trend": 1,
