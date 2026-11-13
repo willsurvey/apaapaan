@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-11-13 18:34:31 WIB",
+  "generated_at": "2026-11-13 18:55:09 WIB",
   "date": "2026-11-13",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -16,7 +16,7 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 959,
+    "universe": 958,
     "after_liquidity": 69,
     "after_accumulation": 43,
     "after_trend": 1,
@@ -131,7 +131,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "18.33 WIB"
+      "updated_at": "18.54 WIB"
     }
   ]
 }
