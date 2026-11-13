@@ -1,16 +1,29 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-11-14 01:21:10 WIB",
+  "generated_at": "2026-11-14 01:46:38 WIB",
   "date": "2026-11-14",
-  "mode": "YAHOO_ONLY",
-  "session_label": "MARKET_DAY",
-  "session_warning": null,
-  "mode_warning": "⚠️ TOKEN TIDAK TERSEDIA — Data terbatas (Yahoo Finance only)",
+  "mode": "FULL_STOCKBIT",
+  "session_label": "PRE_MARKET_WEEKEND (Saturday)",
+  "session_warning": "⚠️ Screening dijalankan di akhir pekan — gunakan sebagai referensi persiapan, bukan sinyal eksekusi langsung.",
+  "mode_warning": null,
   "total_saham": 0,
   "market_context": {
-    "market_safe": false
+    "ihsg_close": 5250,
+    "ihsg_change_pct": 2.66,
+    "ihsg_trend": "BEARISH",
+    "ihsg_above_ma50": false,
+    "market_safe": true,
+    "warning": null
   },
-  "screening_summary": {},
+  "screening_summary": {
+    "universe": 364,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
+    "after_smc": 0,
+    "after_entry": 0,
+    "final": 0
+  },
   "config": {
     "strategy": "Pre-Market Intraday — Limit Order",
     "data_sources": [
