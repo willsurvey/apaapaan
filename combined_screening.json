@@ -49,7 +49,9 @@
         "in_mover_types": [
           "MOVER_TYPE_TOP_VALUE",
           "MOVER_TYPE_TOP_LOSER",
-          "SCREENER_VOLUME_EXPLOSION"
+          "SCREENER_VOLUME_EXPLOSION",
+          "GURU_78_Daily Net Fo",
+          "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": true
@@ -103,6 +105,75 @@
       "pipeline": "position_trading"
     },
     {
+      "ticker": "BSSR",
+      "company": "Baramulti Suksessarana Tbk.",
+      "score": 65,
+      "close": 5150.0,
+      "near_52w_pct": 97.6,
+      "wk_rsi": 75.6,
+      "wk_adx": 55.4,
+      "mo_rsi": 93.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (98%) + Wk RSI (76) + Wk ADX (55) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (94)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1075.0,
+      "near_52w_pct": 97.7,
+      "wk_rsi": 65.9,
+      "wk_adx": 47.5,
+      "mo_rsi": 85.7,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (98%) + Wk RSI (66) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
+        "Monthly RSI kuat (86)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "TMPO",
+      "company": "Tempo Inti Media Tbk.",
+      "score": 65,
+      "close": 292.0,
+      "near_52w_pct": 100.0,
+      "wk_rsi": 69.3,
+      "wk_adx": 45.3,
+      "mo_rsi": 71.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (100%) + Wk RSI (69) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
+        "Monthly RSI kuat (72)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "PTBA",
       "company": "Bukit Asam Tbk.",
       "score": 60,
@@ -124,80 +195,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AYAM",
-      "company": "Janu Putra Sejahtera Tbk.",
-      "score": 60,
-      "close": 498.0,
-      "near_52w_pct": 89.7,
-      "wk_rsi": 58.8,
-      "wk_adx": 41.8,
-      "mo_rsi": 71.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (90%) + Wk RSI (59) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (72)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 4.3B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "PKPK",
-      "company": "Paragon Karya Perkasa Tbk",
-      "score": 55,
-      "close": 6775.0,
-      "near_52w_pct": 86.6,
-      "wk_rsi": 74.5,
-      "wk_adx": 50.6,
-      "mo_rsi": 90.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (87%) + Wk RSI (75) + Wk ADX (51) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (91)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AUTO",
-      "company": "Astra Otoparts Tbk.",
-      "score": 50,
-      "close": 3110.0,
-      "near_52w_pct": 90.3,
-      "wk_rsi": 64.5,
-      "wk_adx": 29.1,
-      "mo_rsi": 71.7,
-      "wk_obv_above_ma": false,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (90%) + Wk RSI (64) + Wk ADX (29) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (72)",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.9B)"
-      ],
-      "signals_negative": [
-        "Weekly OBV di bawah MA20"
-      ],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-17 04:06:48 WIB",
+    "generated_at": "2026-11-17 04:34:53 WIB",
     "date": "2026-11-17",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -233,10 +235,10 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 351,
-    "after_liquidity": 0,
-    "after_accumulation": 0,
-    "after_trend": 0,
+    "universe": 959,
+    "after_liquidity": 66,
+    "after_accumulation": 25,
+    "after_trend": 3,
     "after_smc": 0,
     "after_entry": 0,
     "final": 0
