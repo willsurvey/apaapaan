@@ -4,37 +4,37 @@
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "ICBP",
-      "company": "Indofood CBP Sukses Makmur Tbk.",
+      "ticker": "ASII",
+      "company": "Astra International Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 55,
+      "score": 60,
       "market_data": {
-        "close": 6825.0,
-        "change_pct": 1.87,
-        "value_today": 27200747500,
-        "net_foreign": 8419542500
+        "close": 5550.0,
+        "change_pct": 0.91,
+        "value_today": 100641717500,
+        "net_foreign": 78626835000
       },
       "d1_features": {
-        "body_pct": 1.87,
+        "body_pct": 1.37,
         "close_pos_pct": 66.7,
-        "vol_ratio": 0.35,
-        "change_pct": 1.87,
-        "range_pct": 4.4,
+        "vol_ratio": 0.31,
+        "change_pct": 0.91,
+        "range_pct": 4.05,
         "upper_wick": 33.3,
         "above_ma20": true,
         "above_ma50": true,
-        "above_ma200": false,
-        "atr_pct": 3.98
+        "above_ma200": true,
+        "atr_pct": 4.11
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "6,700 – 6,950",
+        "entry_range": "5,425 – 5,650",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 6425,
-        "stop_note": "Cut loss jika turun di bawah 6,425 (1 ATR dari entry)",
-        "target_modest": 6950,
-        "target_moderate": 7100,
+        "stop_loss": 5200,
+        "stop_note": "Cut loss jika turun di bawah 5,200 (1 ATR dari entry)",
+        "target_modest": 5650,
+        "target_moderate": 5775,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -56,10 +56,11 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.9%), volume mati (0.35x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.4%), volume mati (0.31x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
-        "Asing beli bersih hari ini (Rp 8.4B)"
+        "Di atas MA200 — tren utama masih bullish",
+        "Asing beli bersih hari ini (Rp 78.6B)"
       ],
       "signals_negative": [],
       "backtest_stats": {
@@ -82,11 +83,11 @@
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "score": 65,
-      "close": 9800.0,
-      "near_52w_pct": 97.8,
+      "close": 9775.0,
+      "near_52w_pct": 97.5,
       "wk_rsi": 74.2,
       "wk_adx": 23.3,
-      "mo_rsi": 64.6,
+      "mo_rsi": 64.5,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -95,6 +96,29 @@
         "Near 52W High (98%) + Wk RSI (74) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
         "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (65)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "ASGR",
+      "company": "Astra Graphia Tbk.",
+      "score": 65,
+      "close": 2450.0,
+      "near_52w_pct": 95.3,
+      "wk_rsi": 78.8,
+      "wk_adx": 48.8,
+      "mo_rsi": 84.5,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (79) + Wk ADX (49) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (95%) — breakout potential",
+        "Monthly RSI kuat (84)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -128,11 +152,11 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1065.0,
-      "near_52w_pct": 96.8,
+      "close": 1070.0,
+      "near_52w_pct": 97.3,
       "wk_rsi": 65.9,
       "wk_adx": 47.5,
-      "mo_rsi": 85.7,
+      "mo_rsi": 85.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -169,33 +193,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "PTBA",
-      "company": "Bukit Asam Tbk.",
-      "score": 55,
-      "close": 3100.0,
-      "near_52w_pct": 88.8,
-      "wk_rsi": 66.8,
-      "wk_adx": 25.6,
-      "mo_rsi": 65.2,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (89%) + Wk RSI (67) + Wk ADX (26) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (65)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-16 11:14:00 WIB",
+    "generated_at": "2026-11-16 11:34:07 WIB",
     "date": "2026-11-16",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -223,8 +225,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5282,
-    "ihsg_change_pct": -1.16,
+    "ihsg_close": 5275,
+    "ihsg_change_pct": -1.28,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -232,8 +234,8 @@
   },
   "screening_summary": {
     "universe": 959,
-    "after_liquidity": 67,
-    "after_accumulation": 18,
+    "after_liquidity": 68,
+    "after_accumulation": 19,
     "after_trend": 1,
     "after_smc": 0,
     "after_entry": 0,
