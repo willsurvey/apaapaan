@@ -1,6 +1,6 @@
 {
   "status": "no_signal",
-  "generated_at": "2026-11-17 06:54:18 WIB",
+  "generated_at": "2026-11-17 07:16:28 WIB",
   "date": "2026-11-17",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -20,7 +20,7 @@
     "after_liquidity": 66,
     "after_accumulation": 25,
     "after_trend": 3,
-    "after_smc": 0,
+    "after_smc": 1,
     "after_entry": 0,
     "final": 0
   },
