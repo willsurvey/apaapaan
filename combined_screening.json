@@ -9,7 +9,7 @@
     {
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
-      "score": 70,
+      "score": 65,
       "close": 9975.0,
       "near_52w_pct": 98.8,
       "wk_rsi": 73.9,
@@ -24,8 +24,7 @@
         "Sangat dekat ATH (99%) — breakout potential",
         "Monthly RSI kuat (65)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.4B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -102,7 +101,7 @@
     {
       "ticker": "PTBA",
       "company": "Bukit Asam Tbk.",
-      "score": 60,
+      "score": 55,
       "close": 3100.0,
       "near_52w_pct": 88.8,
       "wk_rsi": 64.5,
@@ -116,8 +115,7 @@
         "Near 52W High (89%) + Wk RSI (64) + Wk ADX (24) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (65)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 5.9B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -125,7 +123,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-17 17:34:21 WIB",
+    "generated_at": "2026-11-17 17:54:38 WIB",
     "date": "2026-11-17",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -161,9 +159,9 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 959,
-    "after_liquidity": 66,
-    "after_accumulation": 12,
+    "universe": 947,
+    "after_liquidity": 70,
+    "after_accumulation": 14,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
