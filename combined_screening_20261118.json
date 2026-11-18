@@ -4,37 +4,37 @@
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "VKTR",
-      "company": "VKTR Teknologi Mobilitas Tbk.",
+      "ticker": "AMRT",
+      "company": "Sumber Alfaria Trijaya Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 50,
+      "score": 40,
       "market_data": {
-        "close": 348.0,
-        "change_pct": 1.75,
-        "value_today": 43905486600,
-        "net_foreign": 1028700800
+        "close": 1085.0,
+        "change_pct": 3.83,
+        "value_today": 38760479500,
+        "net_foreign": -5846083000
       },
       "d1_features": {
-        "body_pct": 1.75,
-        "close_pos_pct": 66.7,
-        "vol_ratio": 0.45,
-        "change_pct": 1.75,
-        "range_pct": 5.17,
-        "upper_wick": 33.3,
+        "body_pct": 3.83,
+        "close_pos_pct": 61.5,
+        "vol_ratio": 0.5,
+        "change_pct": 3.83,
+        "range_pct": 5.99,
+        "upper_wick": 38.5,
         "above_ma20": true,
         "above_ma50": false,
         "above_ma200": false,
-        "atr_pct": 8.54
+        "atr_pct": 4.84
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "334 – 354",
+        "entry_range": "1,060 – 1,105",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 304,
-        "stop_note": "Cut loss jika turun di bawah 304 (1 ATR dari entry)",
-        "target_modest": 354,
-        "target_moderate": 362,
+        "stop_loss": 1005,
+        "stop_note": "Cut loss jika turun di bawah 1,005 (1 ATR dari entry)",
+        "target_modest": 1105,
+        "target_moderate": 1130,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -47,9 +47,7 @@
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
         "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
           "MOVER_TYPE_TOP_VALUE",
-          "MOVER_TYPE_NET_FOREIGN_BUY",
           "GURU_78_Daily Net Fo",
           "SCREENER_TOP_VALUE"
         ],
@@ -57,11 +55,12 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.8%), volume mati (0.45x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
-        "Di atas MA20 — support jangka pendek",
-        "Asing beli bersih hari ini (Rp 1.0B)"
+        "Formula: Quiet Continuation — D-1 hijau tipis (+3.8%), volume mati (0.50x MA20), close tengah (62%). WR historis: 49.8% (n=1.371)",
+        "Di atas MA20 — support jangka pendek"
       ],
-      "signals_negative": [],
+      "signals_negative": [
+        "Asing jual bersih besar — hati-hati gap down"
+      ],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
         "win_rate": "49.8%",
@@ -128,18 +127,18 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1070.0,
-      "near_52w_pct": 97.3,
-      "wk_rsi": 64.4,
+      "close": 1075.0,
+      "near_52w_pct": 97.7,
+      "wk_rsi": 65.9,
       "wk_adx": 47.2,
-      "mo_rsi": 85.9,
+      "mo_rsi": 86.0,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (64) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
+        "Near 52W High (98%) + Wk RSI (66) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -171,21 +170,21 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "PTBA",
-      "company": "Bukit Asam Tbk.",
+      "ticker": "POWR",
+      "company": "Cikarang Listrindo Tbk.",
       "score": 55,
-      "close": 3060.0,
-      "near_52w_pct": 87.7,
-      "wk_rsi": 63.5,
-      "wk_adx": 24.2,
-      "mo_rsi": 64.3,
+      "close": 955.0,
+      "near_52w_pct": 91.8,
+      "wk_rsi": 62.4,
+      "wk_adx": 46.3,
+      "mo_rsi": 84.6,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (88%) + Wk RSI (63) + Wk ADX (24) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (64)",
+        "Near 52W High (92%) + Wk RSI (62) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (85)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -195,7 +194,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-18 14:13:33 WIB",
+    "generated_at": "2026-11-18 14:40:57 WIB",
     "date": "2026-11-18",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -223,8 +222,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5342,
-    "ihsg_change_pct": 0.71,
+    "ihsg_close": 5355,
+    "ihsg_change_pct": 0.96,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
