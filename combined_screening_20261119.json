@@ -7,6 +7,98 @@
   "trend_following": [],
   "position_trading": [
     {
+      "ticker": "AALI",
+      "company": "Astra Agro Lestari Tbk.",
+      "score": 65,
+      "close": 9975.0,
+      "near_52w_pct": 98.8,
+      "wk_rsi": 73.7,
+      "wk_adx": 23.8,
+      "mo_rsi": 65.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (99%) + Wk RSI (74) + Wk ADX (24) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (99%) — breakout potential",
+        "Monthly RSI kuat (65)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "BSSR",
+      "company": "Baramulti Suksessarana Tbk.",
+      "score": 65,
+      "close": 5050.0,
+      "near_52w_pct": 95.7,
+      "wk_rsi": 72.0,
+      "wk_adx": 53.8,
+      "mo_rsi": 92.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (72) + Wk ADX (54) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (92)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1065.0,
+      "near_52w_pct": 96.8,
+      "wk_rsi": 63.0,
+      "wk_adx": 47.2,
+      "mo_rsi": 85.7,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (63) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (86)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "TMPO",
+      "company": "Tempo Inti Media Tbk.",
+      "score": 65,
+      "close": 292.0,
+      "near_52w_pct": 100.0,
+      "wk_rsi": 69.3,
+      "wk_adx": 45.3,
+      "mo_rsi": 71.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (100%) + Wk RSI (69) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (100%) — breakout potential",
+        "Monthly RSI kuat (72)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "PTBA",
       "company": "Bukit Asam Tbk.",
       "score": 60,
@@ -28,80 +120,11 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
-    },
-    {
-      "ticker": "POWR",
-      "company": "Cikarang Listrindo Tbk.",
-      "score": 60,
-      "close": 950.0,
-      "near_52w_pct": 91.3,
-      "wk_rsi": 61.9,
-      "wk_adx": 46.3,
-      "mo_rsi": 83.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (91%) + Wk RSI (62) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (84)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.6B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "AUTO",
-      "company": "Astra Otoparts Tbk.",
-      "score": 60,
-      "close": 3140.0,
-      "near_52w_pct": 91.1,
-      "wk_rsi": 63.1,
-      "wk_adx": 27.2,
-      "mo_rsi": 69.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (91%) + Wk RSI (63) + Wk ADX (27) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (70)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 0.6B)"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "DMAS",
-      "company": "Puradelta Lestari Tbk",
-      "score": 45,
-      "close": 167.0,
-      "near_52w_pct": 85.2,
-      "wk_rsi": 60.7,
-      "wk_adx": 41.4,
-      "mo_rsi": 67.5,
-      "wk_obv_above_ma": false,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (85%) + Wk RSI (61) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (68)",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [
-        "Weekly OBV di bawah MA20"
-      ],
-      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-19 02:44:38 WIB",
+    "generated_at": "2026-11-19 03:14:52 WIB",
     "date": "2026-11-19",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -114,7 +137,7 @@
     "bpjs_count": 0,
     "swing_count": 0,
     "trend_count": 0,
-    "position_count": 4,
+    "position_count": 5,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
     "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
@@ -137,9 +160,9 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 101,
-    "after_liquidity": 0,
-    "after_accumulation": 0,
+    "universe": 959,
+    "after_liquidity": 69,
+    "after_accumulation": 10,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
