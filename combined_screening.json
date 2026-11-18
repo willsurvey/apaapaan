@@ -11,14 +11,14 @@
       "score": 60,
       "market_data": {
         "close": 7025.0,
-        "change_pct": 1.44,
-        "value_today": 20106185000,
+        "change_pct": 1.81,
+        "value_today": 20825777500,
         "net_foreign": -729520000
       },
       "d1_features": {
         "body_pct": 1.08,
         "close_pos_pct": 66.7,
-        "vol_ratio": 0.33,
+        "vol_ratio": 0.34,
         "change_pct": 1.44,
         "range_pct": 2.14,
         "upper_wick": 33.3,
@@ -47,15 +47,13 @@
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
         "in_mover_types": [
-          "MOVER_TYPE_TOP_VALUE",
-          "GURU_92_Big Accumula",
-          "SCREENER_TOP_VALUE"
+          "MOVER_TYPE_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.1%), volume mati (0.33x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.1%), volume mati (0.34x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Di atas MA200 — tren utama masih bullish",
@@ -75,37 +73,37 @@
       "rank": 1
     },
     {
-      "ticker": "BBCA",
-      "company": "Bank Central Asia Tbk.",
+      "ticker": "ASII",
+      "company": "Astra International Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
-      "score": 30,
+      "score": 55,
       "market_data": {
-        "close": 5675.0,
-        "change_pct": 2.73,
-        "value_today": 686543512500,
-        "net_foreign": -249362102500
+        "close": 5700.0,
+        "change_pct": 0.88,
+        "value_today": 113577915000,
+        "net_foreign": 26438765000
       },
       "d1_features": {
-        "body_pct": 1.34,
-        "close_pos_pct": 57.1,
-        "vol_ratio": 0.48,
-        "change_pct": 3.18,
-        "range_pct": 3.08,
-        "upper_wick": 42.9,
+        "body_pct": 1.33,
+        "close_pos_pct": 50.0,
+        "vol_ratio": 0.37,
+        "change_pct": 0.88,
+        "range_pct": 2.63,
+        "upper_wick": 50.0,
         "above_ma20": true,
-        "above_ma50": false,
-        "above_ma200": false,
-        "atr_pct": 3.04
+        "above_ma50": true,
+        "above_ma200": true,
+        "atr_pct": 3.49
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "5,600 – 5,800",
+        "entry_range": "5,600 – 5,825",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 5425,
-        "stop_note": "Cut loss jika turun di bawah 5,425 (1 ATR dari entry)",
-        "target_modest": 5800,
-        "target_moderate": 5900,
+        "stop_loss": 5400,
+        "stop_note": "Cut loss jika turun di bawah 5,400 (1 ATR dari entry)",
+        "target_modest": 5825,
+        "target_moderate": 5925,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -118,21 +116,21 @@
       "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
       "universe_context": {
         "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
-          "MOVER_TYPE_TOP_VALUE",
-          "GURU_78_Daily Net Fo",
-          "SCREENER_TOP_VALUE"
+          "MOVER_TYPE_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.3%), volume mati (0.48x MA20), close tengah (57%). WR historis: 49.8% (n=1.371)",
-        "Di atas MA20 — support jangka pendek"
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.3%), volume mati (0.37x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
+        "Di atas MA20 — support jangka pendek",
+        "Di atas MA50 — tren menengah masih ok",
+        "Di atas MA200 — tren utama masih bullish",
+        "Range D-1 kecil (2.6%) — noise rendah besok",
+        "Asing beli bersih hari ini (Rp 26.4B)"
       ],
       "signals_negative": [
-        "Upper wick besar (43%) — tekanan jual D-1",
-        "Asing jual bersih besar — hati-hati gap down"
+        "Upper wick besar (50%) — tekanan jual D-1"
       ],
       "backtest_stats": {
         "formula": "QUIET_CONTINUATION",
@@ -149,125 +147,10 @@
   ],
   "swing_trading": [],
   "trend_following": [],
-  "position_trading": [
-    {
-      "ticker": "AALI",
-      "company": "Astra Agro Lestari Tbk.",
-      "score": 65,
-      "close": 10075.0,
-      "near_52w_pct": 99.8,
-      "wk_rsi": 74.3,
-      "wk_adx": 23.8,
-      "mo_rsi": 65.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (74) + Wk ADX (24) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (66)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BSSR",
-      "company": "Baramulti Suksessarana Tbk.",
-      "score": 65,
-      "close": 5075.0,
-      "near_52w_pct": 96.2,
-      "wk_rsi": 72.8,
-      "wk_adx": 53.8,
-      "mo_rsi": 92.9,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (73) + Wk ADX (54) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (93)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MPMX",
-      "company": "Mitra Pinasthika Mustika Tbk.",
-      "score": 65,
-      "close": 1075.0,
-      "near_52w_pct": 97.7,
-      "wk_rsi": 65.9,
-      "wk_adx": 47.2,
-      "mo_rsi": 86.0,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (66) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
-        "Monthly RSI kuat (86)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "TMPO",
-      "company": "Tempo Inti Media Tbk.",
-      "score": 65,
-      "close": 292.0,
-      "near_52w_pct": 100.0,
-      "wk_rsi": 69.3,
-      "wk_adx": 45.3,
-      "mo_rsi": 71.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (100%) + Wk RSI (69) + Wk ADX (45) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (100%) — breakout potential",
-        "Monthly RSI kuat (72)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "POWR",
-      "company": "Cikarang Listrindo Tbk.",
-      "score": 55,
-      "close": 960.0,
-      "near_52w_pct": 92.3,
-      "wk_rsi": 62.9,
-      "wk_adx": 46.2,
-      "mo_rsi": 85.5,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (92%) + Wk RSI (63) + Wk ADX (46) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (86)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    }
-  ],
+  "position_trading": [],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-18 11:55:08 WIB",
+    "generated_at": "2026-11-18 12:03:15 WIB",
     "date": "2026-11-18",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -280,7 +163,7 @@
     "bpjs_count": 2,
     "swing_count": 0,
     "trend_count": 0,
-    "position_count": 5,
+    "position_count": 0,
     "ara_disclaimer": "Pipeline ARA v2: deteksi Tipe 1 (Continuation) & Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% dari ARA nyata) tidak terdeteksi dari OHLCV. Precision: 8-15%. Backtest wajib sebelum live trading.",
     "bsjp_disclaimer": "Pipeline BSJP v1: hold overnight, jual pagi hari. Win rate historis: Tier S ~70%, Tier A ~64% (spike >2%). Backtest 252.480 hari perdagangan IHSG. Selalu pasang stop loss.",
     "bpjs_disclaimer": "Pipeline BPJS v1: WATCHLIST, bukan sinyal langsung. Win rate OHLCV D-1 saja: 38-50% (belum cukup). WAJIB dikonfirmasi real-time pagi hari. Backtest forward-looking 789.792 hari trading IHSG.",
@@ -295,17 +178,17 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5321,
-    "ihsg_change_pct": 0.32,
+    "ihsg_close": 5323,
+    "ihsg_change_pct": 0.36,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
     "warning": null
   },
   "screening_summary": {
-    "universe": 947,
-    "after_liquidity": 56,
-    "after_accumulation": 13,
+    "universe": 70,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
