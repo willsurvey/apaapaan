@@ -4,37 +4,37 @@
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
     {
-      "ticker": "SINI",
-      "company": "Singaraja Putra Tbk.",
+      "ticker": "AMRT",
+      "company": "Sumber Alfaria Trijaya Tbk.",
       "type": "WATCHLIST_BPJS",
       "formula": "QUIET_CONTINUATION",
       "score": 40,
       "market_data": {
-        "close": 9750.0,
-        "change_pct": 3.18,
-        "value_today": 23326025000,
-        "net_foreign": -3149090000
+        "close": 1090.0,
+        "change_pct": 2.35,
+        "value_today": 13764892000,
+        "net_foreign": -15581332500
       },
       "d1_features": {
-        "body_pct": 4.56,
-        "close_pos_pct": 60.7,
-        "vol_ratio": 0.18,
-        "change_pct": 3.45,
-        "range_pct": 7.18,
-        "upper_wick": 39.3,
+        "body_pct": 2.35,
+        "close_pos_pct": 69.2,
+        "vol_ratio": 0.2,
+        "change_pct": 2.35,
+        "range_pct": 5.96,
+        "upper_wick": 30.8,
         "above_ma20": true,
         "above_ma50": false,
         "above_ma200": false,
-        "atr_pct": 9.32
+        "atr_pct": 4.88
       },
       "trading_plan": {
         "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "9,300 – 9,950",
+        "entry_range": "1,065 – 1,110",
         "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 8400,
-        "stop_note": "Cut loss jika turun di bawah 8,400 (1 ATR dari entry)",
-        "target_modest": 9950,
-        "target_moderate": 10150,
+        "stop_loss": 1010,
+        "stop_note": "Cut loss jika turun di bawah 1,010 (1 ATR dari entry)",
+        "target_modest": 1110,
+        "target_moderate": 1135,
         "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
       },
       "morning_confirmation_criteria": [
@@ -48,14 +48,14 @@
       "universe_context": {
         "in_mover_types": [
           "MOVER_TYPE_TOP_VALUE",
-          "GURU_72_IHSG Short-t",
+          "GURU_78_Daily Net Fo",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+4.6%), volume mati (0.18x MA20), close tengah (61%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+2.4%), volume mati (0.20x MA20), close tengah (69%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek"
       ],
       "signals_negative": [
@@ -127,18 +127,18 @@
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1075.0,
-      "near_52w_pct": 97.7,
-      "wk_rsi": 65.9,
+      "close": 1065.0,
+      "near_52w_pct": 96.8,
+      "wk_rsi": 63.0,
       "wk_adx": 47.2,
-      "mo_rsi": 86.0,
+      "mo_rsi": 85.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (98%) + Wk RSI (66) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (98%) — breakout potential",
+        "Near 52W High (97%) + Wk RSI (63) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
         "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -150,11 +150,11 @@
       "ticker": "PTBA",
       "company": "Bukit Asam Tbk.",
       "score": 60,
-      "close": 3050.0,
-      "near_52w_pct": 87.4,
-      "wk_rsi": 63.2,
+      "close": 3030.0,
+      "near_52w_pct": 86.8,
+      "wk_rsi": 62.7,
       "wk_adx": 24.2,
-      "mo_rsi": 64.1,
+      "mo_rsi": 63.7,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
@@ -194,7 +194,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-19 10:14:15 WIB",
+    "generated_at": "2026-11-19 10:33:56 WIB",
     "date": "2026-11-19",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -222,8 +222,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5258,
-    "ihsg_change_pct": 0.21,
+    "ihsg_close": 5266,
+    "ihsg_change_pct": 0.36,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -231,7 +231,7 @@
   },
   "screening_summary": {
     "universe": 959,
-    "after_liquidity": 43,
+    "after_liquidity": 46,
     "after_accumulation": 6,
     "after_trend": 0,
     "after_smc": 0,
