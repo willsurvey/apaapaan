@@ -99,24 +99,23 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "PTBA",
-      "company": "Bukit Asam Tbk.",
-      "score": 60,
-      "close": 3010.0,
-      "near_52w_pct": 86.2,
-      "wk_rsi": 62.3,
-      "wk_adx": 24.2,
-      "mo_rsi": 63.2,
+      "ticker": "MPXL",
+      "company": "MPX Logistics International Tbk.",
+      "score": 55,
+      "close": 306.0,
+      "near_52w_pct": 85.5,
+      "wk_rsi": 72.3,
+      "wk_adx": 39.3,
+      "mo_rsi": 64.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (86%) + Wk RSI (62) + Wk ADX (24) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (63)",
+        "Near 52W High (85%) + Wk RSI (72) + Wk ADX (39) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (64)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 9.9B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -124,7 +123,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-19 07:55:01 WIB",
+    "generated_at": "2026-11-19 08:12:42 WIB",
     "date": "2026-11-19",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -161,8 +160,8 @@
   },
   "screening_summary": {
     "universe": 959,
-    "after_liquidity": 69,
-    "after_accumulation": 10,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
     "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
