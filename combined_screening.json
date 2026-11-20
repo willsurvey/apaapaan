@@ -8,12 +8,12 @@
   "position_trading": [],
   "meta": {
     "status": "no_signal",
-    "generated_at": "2026-11-20 23:41:53 WIB",
-    "date": "2026-11-20",
+    "generated_at": "2026-11-21 00:01:57 WIB",
+    "date": "2026-11-21",
     "mode": "FULL_STOCKBIT",
-    "session_label": "MARKET_DAY",
+    "session_label": "PRE_MARKET_WEEKEND (Saturday)",
     "pipeline_version": "v7.0",
-    "session_warning": null,
+    "session_warning": "⚠️ Screening akhir pekan — referensi persiapan saja, bukan sinyal eksekusi.",
     "mode_warning": null,
     "intraday_count": 0,
     "ara_count": 0,
@@ -36,8 +36,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5146,
-    "ihsg_change_pct": -0.92,
+    "ihsg_close": 5194,
+    "ihsg_change_pct": -1.02,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": false,
