@@ -7,11 +7,80 @@
   "trend_following": [],
   "position_trading": [
     {
+      "ticker": "MPXL",
+      "company": "MPX Logistics International Tbk.",
+      "score": 65,
+      "close": 348.0,
+      "near_52w_pct": 97.2,
+      "wk_rsi": 75.3,
+      "wk_adx": 40.8,
+      "mo_rsi": 67.6,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (75) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (68)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "BSSR",
+      "company": "Baramulti Suksessarana Tbk.",
+      "score": 65,
+      "close": 5050.0,
+      "near_52w_pct": 95.7,
+      "wk_rsi": 70.3,
+      "wk_adx": 52.3,
+      "mo_rsi": 92.0,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (96%) + Wk RSI (70) + Wk ADX (52) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (96%) — breakout potential",
+        "Monthly RSI kuat (92)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "MPMX",
+      "company": "Mitra Pinasthika Mustika Tbk.",
+      "score": 65,
+      "close": 1070.0,
+      "near_52w_pct": 97.3,
+      "wk_rsi": 62.8,
+      "wk_adx": 46.9,
+      "mo_rsi": 85.9,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (97%) + Wk RSI (63) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (97%) — breakout potential",
+        "Monthly RSI kuat (86)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "score": 60,
-      "close": 9575.0,
-      "near_52w_pct": 94.8,
+      "close": 9500.0,
+      "near_52w_pct": 94.1,
       "wk_rsi": 66.3,
       "wk_adx": 23.6,
       "mo_rsi": 62.8,
@@ -20,7 +89,7 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (95%) + Wk RSI (66) + Wk ADX (24) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (94%) + Wk RSI (66) + Wk ADX (24) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (63)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -30,55 +99,11 @@
       "pipeline": "position_trading"
     },
     {
-      "ticker": "PTBA",
-      "company": "Bukit Asam Tbk.",
-      "score": 55,
-      "close": 2970.0,
-      "near_52w_pct": 85.1,
-      "wk_rsi": 59.6,
-      "wk_adx": 22.7,
-      "mo_rsi": 61.3,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (85%) + Wk RSI (60) + Wk ADX (23) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (61)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "MPXL",
-      "company": "MPX Logistics International Tbk.",
-      "score": 55,
-      "close": 314.0,
-      "near_52w_pct": 87.7,
-      "wk_rsi": 75.3,
-      "wk_adx": 40.8,
-      "mo_rsi": 67.6,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (88%) + Wk RSI (75) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (68)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "AYAM",
       "company": "Janu Putra Sejahtera Tbk.",
       "score": 55,
-      "close": 520.0,
-      "near_52w_pct": 93.7,
+      "close": 515.0,
+      "near_52w_pct": 92.8,
       "wk_rsi": 56.0,
       "wk_adx": 41.9,
       "mo_rsi": 72.1,
@@ -87,30 +112,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (94%) + Wk RSI (56) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (93%) + Wk RSI (56) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (72)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "POWR",
-      "company": "Cikarang Listrindo Tbk.",
-      "score": 55,
-      "close": 915.0,
-      "near_52w_pct": 91.0,
-      "wk_rsi": 59.4,
-      "wk_adx": 43.3,
-      "mo_rsi": 83.1,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (91%) + Wk RSI (59) + Wk ADX (43) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (83)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -120,7 +123,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-25 04:26:10 WIB",
+    "generated_at": "2026-11-25 04:56:20 WIB",
     "date": "2026-11-25",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -156,12 +159,12 @@
     "warning": null
   },
   "screening_summary": {
-    "universe": 319,
-    "after_liquidity": 0,
-    "after_accumulation": 0,
-    "after_trend": 0,
-    "after_smc": 0,
-    "after_entry": 0,
+    "universe": 960,
+    "after_liquidity": 71,
+    "after_accumulation": 20,
+    "after_trend": 2,
+    "after_smc": 1,
+    "after_entry": 1,
     "final": 0
   },
   "config_ara": {
