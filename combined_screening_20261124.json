@@ -58,8 +58,8 @@
       "m1_last15_green": 10,
       "m1_close_vs_vwap": -4.32,
       "m1_close_pos_intra": 0.347,
-      "m1_high_timing": 0.235,
-      "m1_n_bars": 243,
+      "m1_high_timing": 0.236,
+      "m1_n_bars": 242,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -89,7 +89,7 @@
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "22:14 WIB"
+      "generated_at": "22:36 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [],
@@ -214,7 +214,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-24 22:15:02 WIB",
+    "generated_at": "2026-11-24 22:37:59 WIB",
     "date": "2026-11-24",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
