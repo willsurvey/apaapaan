@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-11-25 21:34:39 WIB",
+  "generated_at": "2026-11-25 21:56:17 WIB",
   "date": "2026-11-25",
   "mode": "FULL_STOCKBIT",
   "session_label": "MARKET_DAY",
@@ -84,9 +84,9 @@
       "smc": {
         "internal_structure": "NONE",
         "swing_trend_bias": "BEARISH",
-        "ob_zone": null,
+        "ob_zone": "5250 - 5350",
         "fvg_zone": "5400 - 5450",
-        "strong_low": 5325.0,
+        "strong_low": 5250.0,
         "weak_high": 5800.0
       },
       "entry_plan": {
@@ -120,16 +120,17 @@
         "risk_note": "Max 2% dari total portofolio"
       },
       "scoring": {
-        "confidence_score": 60,
+        "confidence_score": 65,
         "tier": "MODERATE"
       },
       "signals": [
         "✅ Broker Signal: Big Acc",
         "✅ Net Foreign Buy hari ini: Rp24.6B",
+        "✅ Harga di zona Order Block aktif",
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "21.33 WIB"
+      "updated_at": "21.55 WIB"
     }
   ]
 }
