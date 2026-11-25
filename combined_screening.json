@@ -34,8 +34,8 @@
         }
       },
       "trend": {
-        "ma50": 4847.0,
-        "gap_from_ma50_pct": 12.44,
+        "ma50": 4863.0,
+        "gap_from_ma50_pct": 14.13,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -87,7 +87,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "04.35 WIB"
+      "updated_at": "04.53 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -97,57 +97,11 @@
   "trend_following": [],
   "position_trading": [
     {
-      "ticker": "MPXL",
-      "company": "MPX Logistics International Tbk.",
-      "score": 65,
-      "close": 348.0,
-      "near_52w_pct": 97.2,
-      "wk_rsi": 73.5,
-      "wk_adx": 41.3,
-      "mo_rsi": 65.7,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (73) + Wk ADX (41) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
-        "Monthly RSI kuat (66)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
-      "ticker": "BSSR",
-      "company": "Baramulti Suksessarana Tbk.",
-      "score": 65,
-      "close": 5050.0,
-      "near_52w_pct": 95.7,
-      "wk_rsi": 68.9,
-      "wk_adx": 52.3,
-      "mo_rsi": 89.8,
-      "wk_obv_above_ma": true,
-      "target_pct": 0.2,
-      "stop_loss_pct": 0.1,
-      "max_hold_days": 60,
-      "signals_positive": [
-        "Near 52W High (96%) + Wk RSI (69) + Wk ADX (52) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (96%) — breakout potential",
-        "Monthly RSI kuat (90)",
-        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish"
-      ],
-      "signals_negative": [],
-      "pipeline": "position_trading"
-    },
-    {
       "ticker": "MPMX",
       "company": "Mitra Pinasthika Mustika Tbk.",
       "score": 65,
-      "close": 1070.0,
-      "near_52w_pct": 97.3,
+      "close": 1075.0,
+      "near_52w_pct": 97.7,
       "wk_rsi": 63.6,
       "wk_adx": 47.0,
       "mo_rsi": 86.0,
@@ -156,8 +110,8 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (97%) + Wk RSI (64) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
-        "Sangat dekat ATH (97%) — breakout potential",
+        "Near 52W High (98%) + Wk RSI (64) + Wk ADX (47) — WR 38.7% (hit +20%, 60 hari)",
+        "Sangat dekat ATH (98%) — breakout potential",
         "Monthly RSI kuat (86)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -169,8 +123,8 @@
       "ticker": "AYAM",
       "company": "Janu Putra Sejahtera Tbk.",
       "score": 60,
-      "close": 515.0,
-      "near_52w_pct": 92.8,
+      "close": 520.0,
+      "near_52w_pct": 93.7,
       "wk_rsi": 57.0,
       "wk_adx": 41.9,
       "mo_rsi": 72.3,
@@ -179,7 +133,7 @@
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (93%) + Wk RSI (57) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (94%) + Wk RSI (57) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (72)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish",
@@ -209,11 +163,55 @@
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
+    },
+    {
+      "ticker": "PKPK",
+      "company": "Paragon Karya Perkasa Tbk",
+      "score": 55,
+      "close": 7050.0,
+      "near_52w_pct": 90.1,
+      "wk_rsi": 77.6,
+      "wk_adx": 50.3,
+      "mo_rsi": 91.2,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (90%) + Wk RSI (78) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (91)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
+    },
+    {
+      "ticker": "BSSR",
+      "company": "Baramulti Suksessarana Tbk.",
+      "score": 55,
+      "close": 4990.0,
+      "near_52w_pct": 94.6,
+      "wk_rsi": 68.9,
+      "wk_adx": 52.3,
+      "mo_rsi": 89.8,
+      "wk_obv_above_ma": true,
+      "target_pct": 0.2,
+      "stop_loss_pct": 0.1,
+      "max_hold_days": 60,
+      "signals_positive": [
+        "Near 52W High (95%) + Wk RSI (69) + Wk ADX (52) — WR 38.7% (hit +20%, 60 hari)",
+        "Monthly RSI kuat (90)",
+        "Weekly OBV di atas MA20 — akumulasi jangka panjang",
+        "Di atas MA200 Daily — tren primer bullish"
+      ],
+      "signals_negative": [],
+      "pipeline": "position_trading"
     }
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-26 04:35:56 WIB",
+    "generated_at": "2026-11-26 04:54:47 WIB",
     "date": "2026-11-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
