@@ -1,8 +1,331 @@
 {
-  "logika_lama_intraday": [],
+  "logika_lama_intraday": [
+    {
+      "rank": 1,
+      "ticker": "MYOR",
+      "company": "Mayora Indah Tbk",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "MOVER_TYPE_NET_FOREIGN_BUY",
+        "SCREENER_VOLUME_EXPLOSION",
+        "GURU_72_IHSG Short-t",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 1540,
+        "change_pct": 1.99,
+        "value_today": 18773208000,
+        "frequency_today": 3198,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 3693912000,
+        "net_foreign_3d": 0,
+        "acc_score": 65,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 15,
+          "foreign_3d": 0,
+          "candle": 10,
+          "volume": 5,
+          "total": 65
+        }
+      },
+      "trend": {
+        "ma50": 1415.0,
+        "gap_from_ma50_pct": 8.82,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BEARISH",
+        "ob_zone": null,
+        "fvg_zone": "1485 - 1500",
+        "strong_low": 1420.0,
+        "weak_high": 1390.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 1530,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 1515,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 1500,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 1515,
+        "entry_zone": "1500 - 1530",
+        "sl": 1490,
+        "sl_pct_risk": 1.65,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 1555,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 1600,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 1650,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:5.4",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 65,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy hari ini: Rp3.7B",
+        "✅ Harga di zona FVG aktif"
+      ],
+      "warnings": [],
+      "updated_at": "17.34 WIB"
+    },
+    {
+      "rank": 2,
+      "ticker": "PGAS",
+      "company": "Perusahaan Gas Negara Tbk.",
+      "mode": "FULL_STOCKBIT",
+      "universe_sources": [
+        "MOVER_TYPE_TOP_VALUE",
+        "MOVER_TYPE_NET_FOREIGN_BUY",
+        "GURU_72_IHSG Short-t",
+        "SCREENER_TOP_VALUE"
+      ],
+      "market_data": {
+        "close": 1545,
+        "change_pct": 1.64,
+        "value_today": 33284412000,
+        "frequency_today": 3431,
+        "iep": 0,
+        "iep_change_pct": 0
+      },
+      "accumulation": {
+        "broker_signal": "Big Acc",
+        "net_foreign_today": 2775938500,
+        "net_foreign_3d": 0,
+        "acc_score": 45,
+        "score_breakdown": {
+          "broker": 35,
+          "foreign_1d": 15,
+          "foreign_3d": 0,
+          "candle": 0,
+          "volume": -5,
+          "total": 45
+        }
+      },
+      "trend": {
+        "ma50": 1419.0,
+        "gap_from_ma50_pct": 8.88,
+        "ma50_slope": "POSITIVE"
+      },
+      "smc": {
+        "internal_structure": "NONE",
+        "swing_trend_bias": "BEARISH",
+        "ob_zone": null,
+        "fvg_zone": "1485 - 1500",
+        "strong_low": 1525.0,
+        "weak_high": 1570.0
+      },
+      "entry_plan": {
+        "whipsaw_risk": "HIGH",
+        "execution_note": "⚠️ WATCHLIST ONLY: Abaikan limit order statis. Tunggu pantulan di area OB sebelum entry, jangan pasang antrian beli karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction": "PULLBACK",
+        "entry_direction_label": "⚠️ WATCHLIST ONLY: Tunggu pantulan di area OB, jangan pasang antrian beli buta (blind limit order) karena risiko whipsaw pagi sangat tinggi!",
+        "entry_direction_reason": "",
+        "entry_1": 1540,
+        "entry_1_pct": 20,
+        "entry_1_note": "Pullback ringan / Bid Wall area",
+        "entry_2": 1535,
+        "entry_2_pct": 50,
+        "entry_2_note": "Area OB / FVG / Support",
+        "entry_3": 1525,
+        "entry_3_pct": 30,
+        "entry_3_note": "Deep pullback / PDL area",
+        "average_entry": 1535,
+        "entry_zone": "1525 - 1540",
+        "sl": 1515,
+        "sl_pct_risk": 1.3,
+        "sl_note": "Cut loss disarankan menggunakan Closing Basis (akhir sesi/harian) untuk menghindari sapuan ekor candle (whipsaw) di pagi hari.",
+        "tp1": 1570,
+        "tp1_note": "PDH / Target psikologis intraday",
+        "tp2": 1615,
+        "tp2_note": "Weak High / Supply Zone 1H",
+        "tp3": 1665,
+        "tp3_note": "RR minimum 1:2.0",
+        "rr_ratio": "1:6.5",
+        "risk_pct": 2,
+        "risk_note": "Max 2% dari total portofolio"
+      },
+      "scoring": {
+        "confidence_score": 55,
+        "tier": "MODERATE"
+      },
+      "signals": [
+        "✅ Broker Signal: Big Acc",
+        "✅ Net Foreign Buy hari ini: Rp2.8B",
+        "✅ Harga di zona FVG aktif"
+      ],
+      "warnings": [],
+      "updated_at": "17.34 WIB"
+    }
+  ],
   "logika_baru_calon_ara": [],
   "bsjp_beli_sore_jual_pagi": [],
   "bpjs_beli_pagi_jual_sore": [
+    {
+      "ticker": "INDF",
+      "company": "Indofood Sukses Makmur Tbk.",
+      "type": "WATCHLIST_BPJS",
+      "formula": "QUIET_CONTINUATION",
+      "score": 65,
+      "market_data": {
+        "close": 7125.0,
+        "change_pct": 1.42,
+        "value_today": 23260322500,
+        "net_foreign": 9604340000
+      },
+      "d1_features": {
+        "body_pct": 1.42,
+        "close_pos_pct": 66.7,
+        "vol_ratio": 0.5,
+        "change_pct": 1.42,
+        "range_pct": 2.11,
+        "upper_wick": 33.3,
+        "above_ma20": true,
+        "above_ma50": true,
+        "above_ma200": true,
+        "atr_pct": 2.68
+      },
+      "trading_plan": {
+        "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
+        "entry_range": "7,025 – 7,275",
+        "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
+        "stop_loss": 6825,
+        "stop_note": "Cut loss jika turun di bawah 6,825 (1 ATR dari entry)",
+        "target_modest": 7275,
+        "target_moderate": 7400,
+        "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
+      },
+      "morning_confirmation_criteria": [
+        "⚠️ WAJIB: Utamakan jika terjadi Gap Down > 3% saat open untuk risk/reward terbaik",
+        "✅ Skenario Gap Down >3% memiliki Profit Factor 6.78x & Win Rate 44.5%",
+        "✅ Volume 15 menit pertama normal/stabil di atas rata-rata",
+        "❌ JANGAN BELI jika Gap Up > 3% (euforia rawan bull trap, PF hanya 0.3x)",
+        "❌ JANGAN BELI jika langsung longsor drastis tanpa rebound dari low"
+      ],
+      "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
+      "universe_context": {
+        "in_mover_types": [
+          "MOVER_TYPE_NET_FOREIGN_BUY",
+          "GURU_72_IHSG Short-t",
+          "SCREENER_TOP_VALUE"
+        ],
+        "from_gainer": false,
+        "from_screener": false
+      },
+      "signals_positive": [
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.4%), volume mati (0.50x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
+        "Di atas MA20 — support jangka pendek",
+        "Di atas MA50 — tren menengah masih ok",
+        "Di atas MA200 — tren utama masih bullish",
+        "Range D-1 kecil (2.1%) — noise rendah besok",
+        "Asing beli bersih hari ini (Rp 9.6B)"
+      ],
+      "signals_negative": [],
+      "backtest_stats": {
+        "formula": "QUIET_CONTINUATION",
+        "win_rate": "49.8%",
+        "sample_size": "n=1.371",
+        "profit_factor": "1.04x",
+        "total_backtest": "789.792 hari trading IHSG (956 saham)",
+        "gap_down_sweet_spot": "Gap Down >2%: WR 30.2%, upside +3.75%, DD -0.88%",
+        "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
+      },
+      "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
+      "rank": 1
+    },
+    {
+      "ticker": "PACK",
+      "company": "Abadi Nusantara Hijau Investama Tbk ",
+      "type": "WATCHLIST_BPJS",
+      "formula": "QUIET_CONTINUATION",
+      "score": 45,
+      "market_data": {
+        "close": 332.0,
+        "change_pct": 0.61,
+        "value_today": 36701359600,
+        "net_foreign": 1387027800
+      },
+      "d1_features": {
+        "body_pct": 3.11,
+        "close_pos_pct": 45.5,
+        "vol_ratio": 0.41,
+        "change_pct": 0.61,
+        "range_pct": 6.63,
+        "upper_wick": 54.5,
+        "above_ma20": true,
+        "above_ma50": false,
+        "above_ma200": true,
+        "atr_pct": 9.64
+      },
+      "trading_plan": {
+        "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
+        "entry_range": "318 – 338",
+        "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
+        "stop_loss": 286,
+        "stop_note": "Cut loss jika turun di bawah 286 (1 ATR dari entry)",
+        "target_modest": 338,
+        "target_moderate": 346,
+        "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
+      },
+      "morning_confirmation_criteria": [
+        "⚠️ WAJIB: Utamakan jika terjadi Gap Down > 3% saat open untuk risk/reward terbaik",
+        "✅ Skenario Gap Down >3% memiliki Profit Factor 6.78x & Win Rate 44.5%",
+        "✅ Volume 15 menit pertama normal/stabil di atas rata-rata",
+        "❌ JANGAN BELI jika Gap Up > 3% (euforia rawan bull trap, PF hanya 0.3x)",
+        "❌ JANGAN BELI jika langsung longsor drastis tanpa rebound dari low"
+      ],
+      "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
+      "universe_context": {
+        "in_mover_types": [
+          "MOVER_TYPE_TOP_VOLUME",
+          "MOVER_TYPE_TOP_VALUE",
+          "MOVER_TYPE_NET_FOREIGN_BUY",
+          "GURU_78_Daily Net Fo",
+          "SCREENER_TOP_VALUE"
+        ],
+        "from_gainer": false,
+        "from_screener": false
+      },
+      "signals_positive": [
+        "Formula: Quiet Continuation — D-1 hijau tipis (+3.1%), volume mati (0.41x MA20), close tengah (45%). WR historis: 49.8% (n=1.371)",
+        "Di atas MA20 — support jangka pendek",
+        "Di atas MA200 — tren utama masih bullish",
+        "Asing beli bersih hari ini (Rp 1.4B)"
+      ],
+      "signals_negative": [
+        "Upper wick besar (55%) — tekanan jual D-1"
+      ],
+      "backtest_stats": {
+        "formula": "QUIET_CONTINUATION",
+        "win_rate": "49.8%",
+        "sample_size": "n=1.371",
+        "profit_factor": "1.04x",
+        "total_backtest": "789.792 hari trading IHSG (956 saham)",
+        "gap_down_sweet_spot": "Gap Down >2%: WR 30.2%, upside +3.75%, DD -0.88%",
+        "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
+      },
+      "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
+      "rank": 2
+    },
     {
       "ticker": "PGAS",
       "company": "Perusahaan Gas Negara Tbk.",
@@ -13,7 +336,7 @@
         "close": 1545.0,
         "change_pct": 1.64,
         "value_today": 33284412000,
-        "net_foreign": 2131475000
+        "net_foreign": 2775938500
       },
       "d1_features": {
         "body_pct": 1.64,
@@ -59,7 +382,7 @@
         "Formula: Quiet Continuation — D-1 hijau tipis (+1.6%), volume mati (0.50x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
-        "Asing beli bersih hari ini (Rp 2.1B)"
+        "Asing beli bersih hari ini (Rp 2.8B)"
       ],
       "signals_negative": [
         "Upper wick besar (50%) — tekanan jual D-1"
@@ -74,80 +397,7 @@
         "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
       },
       "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
-      "rank": 1
-    },
-    {
-      "ticker": "PACK",
-      "company": "Abadi Nusantara Hijau Investama Tbk ",
-      "type": "WATCHLIST_BPJS",
-      "formula": "QUIET_CONTINUATION",
-      "score": 35,
-      "market_data": {
-        "close": 332.0,
-        "change_pct": 0.61,
-        "value_today": 36701359600,
-        "net_foreign": -4960596800
-      },
-      "d1_features": {
-        "body_pct": 3.11,
-        "close_pos_pct": 45.5,
-        "vol_ratio": 0.41,
-        "change_pct": 0.61,
-        "range_pct": 6.63,
-        "upper_wick": 54.5,
-        "above_ma20": true,
-        "above_ma50": false,
-        "above_ma200": true,
-        "atr_pct": 9.64
-      },
-      "trading_plan": {
-        "strategy": "Beli di pagi hari (09:00-09:30), jual sore (14:30-15:30)",
-        "entry_range": "318 – 338",
-        "entry_note": "JANGAN beli langsung. Konfirmasi dulu kriteria pagi hari.",
-        "stop_loss": 286,
-        "stop_note": "Cut loss jika turun di bawah 286 (1 ATR dari entry)",
-        "target_modest": 338,
-        "target_moderate": 346,
-        "exit_strategy": "Jual di sesi sore (14:30-15:30 WIB) tanpa menunggu close"
-      },
-      "morning_confirmation_criteria": [
-        "⚠️ WAJIB: Utamakan jika terjadi Gap Down > 3% saat open untuk risk/reward terbaik",
-        "✅ Skenario Gap Down >3% memiliki Profit Factor 6.78x & Win Rate 44.5%",
-        "✅ Volume 15 menit pertama normal/stabil di atas rata-rata",
-        "❌ JANGAN BELI jika Gap Up > 3% (euforia rawan bull trap, PF hanya 0.3x)",
-        "❌ JANGAN BELI jika langsung longsor drastis tanpa rebound dari low"
-      ],
-      "timing_guide": "Pantau 09:00-09:10. Beli jika terjadi gap down > 3% lalu ada rebound volume stabil. Target jual: sesi sore 14:30-15:30 WIB.",
-      "universe_context": {
-        "in_mover_types": [
-          "MOVER_TYPE_TOP_VOLUME",
-          "MOVER_TYPE_TOP_VALUE",
-          "GURU_78_Daily Net Fo",
-          "SCREENER_TOP_VALUE"
-        ],
-        "from_gainer": false,
-        "from_screener": false
-      },
-      "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+3.1%), volume mati (0.41x MA20), close tengah (45%). WR historis: 49.8% (n=1.371)",
-        "Di atas MA20 — support jangka pendek",
-        "Di atas MA200 — tren utama masih bullish"
-      ],
-      "signals_negative": [
-        "Upper wick besar (55%) — tekanan jual D-1",
-        "Asing jual bersih besar — hati-hati gap down"
-      ],
-      "backtest_stats": {
-        "formula": "QUIET_CONTINUATION",
-        "win_rate": "49.8%",
-        "sample_size": "n=1.371",
-        "profit_factor": "1.04x",
-        "total_backtest": "789.792 hari trading IHSG (956 saham)",
-        "gap_down_sweet_spot": "Gap Down >2%: WR 30.2%, upside +3.75%, DD -0.88%",
-        "gap_up_danger": "Gap Up >5%: WR 11.8%, DD -6.67% — HINDARI"
-      },
-      "disclaimer": "⚠️ INI WATCHLIST, BUKAN SINYAL BELI. Formula QUIET_CONTINUATION dari backtest forward-looking 789.792 hari trading IHSG. WAJIB konfirmasi real-time pagi hari (lihat morning_confirmation_criteria). Tanpa konfirmasi, JANGAN eksekusi.",
-      "rank": 2
+      "rank": 3
     }
   ],
   "swing_trading": [],
@@ -179,7 +429,7 @@
     {
       "ticker": "AYAM",
       "company": "Janu Putra Sejahtera Tbk.",
-      "score": 60,
+      "score": 55,
       "close": 520.0,
       "near_52w_pct": 93.7,
       "wk_rsi": 57.0,
@@ -193,8 +443,7 @@
         "Near 52W High (94%) + Wk RSI (57) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (72)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.2B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -268,17 +517,17 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-26 17:15:07 WIB",
+    "generated_at": "2026-11-26 17:35:12 WIB",
     "date": "2026-11-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
     "pipeline_version": "v7.0",
     "session_warning": null,
     "mode_warning": null,
-    "intraday_count": 0,
+    "intraday_count": 2,
     "ara_count": 0,
     "bsjp_count": 0,
-    "bpjs_count": 2,
+    "bpjs_count": 3,
     "swing_count": 0,
     "trend_count": 0,
     "position_count": 5,
@@ -305,12 +554,12 @@
   },
   "screening_summary": {
     "universe": 960,
-    "after_liquidity": 65,
-    "after_accumulation": 15,
-    "after_trend": 2,
-    "after_smc": 1,
-    "after_entry": 0,
-    "final": 0
+    "after_liquidity": 71,
+    "after_accumulation": 23,
+    "after_trend": 6,
+    "after_smc": 3,
+    "after_entry": 2,
+    "final": 2
   },
   "config_ara": {
     "vol_ma20_tier1": 3.0,
