@@ -12,13 +12,13 @@
       "market_data": {
         "close": 515.0,
         "change_pct": 1.98,
-        "value_today": 10897507000,
+        "value_today": 11414949000,
         "net_foreign": 3314410900
       },
       "d1_features": {
         "body_pct": 1.98,
         "close_pos_pct": 66.7,
-        "vol_ratio": 0.36,
+        "vol_ratio": 0.37,
         "change_pct": 1.98,
         "range_pct": 2.91,
         "upper_wick": 33.3,
@@ -55,7 +55,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+2.0%), volume mati (0.36x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+2.0%), volume mati (0.37x MA20), close tengah (67%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Range D-1 kecil (2.9%) — noise rendah besok",
         "Asing beli bersih hari ini (Rp 3.3B)"
@@ -82,13 +82,13 @@
       "market_data": {
         "close": 1545.0,
         "change_pct": 1.64,
-        "value_today": 27244798500,
+        "value_today": 28245760500,
         "net_foreign": 2131475000
       },
       "d1_features": {
         "body_pct": 1.64,
         "close_pos_pct": 50.0,
-        "vol_ratio": 0.4,
+        "vol_ratio": 0.42,
         "change_pct": 1.64,
         "range_pct": 3.24,
         "upper_wick": 50.0,
@@ -126,7 +126,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+1.6%), volume mati (0.40x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+1.6%), volume mati (0.42x MA20), close tengah (50%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA50 — tren menengah masih ok",
         "Asing beli bersih hari ini (Rp 2.1B)"
@@ -154,14 +154,14 @@
       "score": 35,
       "market_data": {
         "close": 332.0,
-        "change_pct": 1.21,
-        "value_today": 33509713600,
+        "change_pct": 0.61,
+        "value_today": 34496497400,
         "net_foreign": -4960596800
       },
       "d1_features": {
         "body_pct": 3.11,
         "close_pos_pct": 45.5,
-        "vol_ratio": 0.36,
+        "vol_ratio": 0.39,
         "change_pct": 0.61,
         "range_pct": 6.63,
         "upper_wick": 54.5,
@@ -199,7 +199,7 @@
         "from_screener": false
       },
       "signals_positive": [
-        "Formula: Quiet Continuation — D-1 hijau tipis (+3.1%), volume mati (0.36x MA20), close tengah (45%). WR historis: 49.8% (n=1.371)",
+        "Formula: Quiet Continuation — D-1 hijau tipis (+3.1%), volume mati (0.39x MA20), close tengah (45%). WR historis: 49.8% (n=1.371)",
         "Di atas MA20 — support jangka pendek",
         "Di atas MA200 — tren utama masih bullish"
       ],
@@ -272,17 +272,17 @@
       "ticker": "PKPK",
       "company": "Paragon Karya Perkasa Tbk",
       "score": 55,
-      "close": 6925.0,
-      "near_52w_pct": 88.5,
-      "wk_rsi": 77.1,
+      "close": 6975.0,
+      "near_52w_pct": 89.1,
+      "wk_rsi": 77.3,
       "wk_adx": 50.3,
-      "mo_rsi": 91.1,
+      "mo_rsi": 91.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (88%) + Wk RSI (77) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (89%) + Wk RSI (77) + Wk ADX (50) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (91)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -294,18 +294,18 @@
       "ticker": "AALI",
       "company": "Astra Agro Lestari Tbk.",
       "score": 55,
-      "close": 9500.0,
-      "near_52w_pct": 94.1,
-      "wk_rsi": 66.3,
+      "close": 9450.0,
+      "near_52w_pct": 93.6,
+      "wk_rsi": 65.7,
       "wk_adx": 23.5,
-      "mo_rsi": 62.8,
+      "mo_rsi": 62.4,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
         "Near 52W High (94%) + Wk RSI (66) + Wk ADX (24) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (63)",
+        "Monthly RSI kuat (62)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -316,18 +316,18 @@
       "ticker": "POWR",
       "company": "Cikarang Listrindo Tbk.",
       "score": 55,
-      "close": 915.0,
-      "near_52w_pct": 91.0,
-      "wk_rsi": 59.4,
+      "close": 910.0,
+      "near_52w_pct": 90.5,
+      "wk_rsi": 59.1,
       "wk_adx": 43.3,
-      "mo_rsi": 83.1,
+      "mo_rsi": 82.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
         "Near 52W High (91%) + Wk RSI (59) + Wk ADX (43) — WR 38.7% (hit +20%, 60 hari)",
-        "Monthly RSI kuat (83)",
+        "Monthly RSI kuat (82)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
       ],
@@ -337,7 +337,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-26 14:52:56 WIB",
+    "generated_at": "2026-11-26 15:15:29 WIB",
     "date": "2026-11-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -365,8 +365,8 @@
     }
   },
   "market_context": {
-    "ihsg_close": 5230,
-    "ihsg_change_pct": 0.63,
+    "ihsg_close": 5234,
+    "ihsg_change_pct": 0.71,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -374,7 +374,7 @@
   },
   "screening_summary": {
     "universe": 960,
-    "after_liquidity": 64,
+    "after_liquidity": 63,
     "after_accumulation": 15,
     "after_trend": 1,
     "after_smc": 0,
