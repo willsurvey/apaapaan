@@ -8,7 +8,7 @@
       "universe_sources": [
         "MOVER_TYPE_NET_FOREIGN_BUY",
         "SCREENER_VOLUME_EXPLOSION",
-        "GURU_72_IHSG Short-t",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -86,7 +86,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "19.13 WIB"
+      "updated_at": "19.34 WIB"
     },
     {
       "rank": 2,
@@ -96,7 +96,7 @@
       "universe_sources": [
         "MOVER_TYPE_TOP_VALUE",
         "MOVER_TYPE_NET_FOREIGN_BUY",
-        "GURU_72_IHSG Short-t",
+        "GURU_92_Big Accumula",
         "SCREENER_TOP_VALUE"
       ],
       "market_data": {
@@ -174,7 +174,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "19.13 WIB"
+      "updated_at": "19.34 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -372,7 +372,7 @@
         "in_mover_types": [
           "MOVER_TYPE_TOP_VALUE",
           "MOVER_TYPE_NET_FOREIGN_BUY",
-          "GURU_72_IHSG Short-t",
+          "GURU_92_Big Accumula",
           "SCREENER_TOP_VALUE"
         ],
         "from_gainer": false,
@@ -455,7 +455,7 @@
       "close": 2520.0,
       "near_52w_pct": 94.0,
       "wk_rsi": 79.3,
-      "wk_adx": 48.0,
+      "wk_adx": 47.9,
       "mo_rsi": 84.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -517,7 +517,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-26 19:14:21 WIB",
+    "generated_at": "2026-11-26 19:36:16 WIB",
     "date": "2026-11-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
