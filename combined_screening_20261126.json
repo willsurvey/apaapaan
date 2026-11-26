@@ -32,7 +32,7 @@
     {
       "ticker": "AYAM",
       "company": "Janu Putra Sejahtera Tbk.",
-      "score": 60,
+      "score": 55,
       "close": 520.0,
       "near_52w_pct": 93.7,
       "wk_rsi": 57.0,
@@ -46,8 +46,7 @@
         "Near 52W High (94%) + Wk RSI (57) + Wk ADX (42) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (72)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
-        "Di atas MA200 Daily — tren primer bullish",
-        "Asing beli bersih (Rp 1.2B)"
+        "Di atas MA200 Daily — tren primer bullish"
       ],
       "signals_negative": [],
       "pipeline": "position_trading"
@@ -59,14 +58,14 @@
       "close": 915.0,
       "near_52w_pct": 91.0,
       "wk_rsi": 59.4,
-      "wk_adx": 43.3,
+      "wk_adx": 43.6,
       "mo_rsi": 83.1,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (91%) + Wk RSI (59) + Wk ADX (43) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (91%) + Wk RSI (59) + Wk ADX (44) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (83)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -121,7 +120,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-26 07:54:51 WIB",
+    "generated_at": "2026-11-26 08:14:14 WIB",
     "date": "2026-11-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
@@ -158,9 +157,9 @@
   },
   "screening_summary": {
     "universe": 960,
-    "after_liquidity": 66,
-    "after_accumulation": 15,
-    "after_trend": 2,
+    "after_liquidity": 0,
+    "after_accumulation": 0,
+    "after_trend": 0,
     "after_smc": 0,
     "after_entry": 0,
     "final": 0
