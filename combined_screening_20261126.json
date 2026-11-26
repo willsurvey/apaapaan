@@ -86,7 +86,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.34 WIB"
+      "updated_at": "17.55 WIB"
     },
     {
       "rank": 2,
@@ -174,7 +174,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.34 WIB"
+      "updated_at": "17.55 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -455,7 +455,7 @@
       "close": 2520.0,
       "near_52w_pct": 94.0,
       "wk_rsi": 79.3,
-      "wk_adx": 48.0,
+      "wk_adx": 47.9,
       "mo_rsi": 84.9,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
@@ -517,7 +517,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-26 17:35:12 WIB",
+    "generated_at": "2026-11-26 17:56:24 WIB",
     "date": "2026-11-26",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
