@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-11-28 04:35:39 WIB",
+  "generated_at": "2026-11-28 04:56:14 WIB",
   "date": "2026-11-28",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -77,8 +77,8 @@
         }
       },
       "trend": {
-        "ma50": 273.0,
-        "gap_from_ma50_pct": 12.97,
+        "ma50": 274.0,
+        "gap_from_ma50_pct": 14.07,
         "ma50_slope": "POSITIVE"
       },
       "smc": {
@@ -130,7 +130,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "04.34 WIB"
+      "updated_at": "04.55 WIB"
     }
   ]
 }
