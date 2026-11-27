@@ -87,7 +87,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "17.55 WIB"
+      "updated_at": "18.13 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -148,8 +148,8 @@
       "m1_last15_green": 10,
       "m1_close_vs_vwap": -2.18,
       "m1_close_pos_intra": 0.538,
-      "m1_high_timing": 0.378,
-      "m1_n_bars": 74,
+      "m1_high_timing": 0.375,
+      "m1_n_bars": 72,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -175,7 +175,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "17:55 WIB"
+      "generated_at": "18:13 WIB"
     },
     {
       "ticker": "PSDN",
@@ -264,7 +264,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "17:55 WIB"
+      "generated_at": "18:13 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -588,7 +588,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-27 17:56:26 WIB",
+    "generated_at": "2026-11-27 18:14:27 WIB",
     "date": "2026-11-27",
     "mode": "FULL_STOCKBIT",
     "session_label": "MARKET_DAY",
