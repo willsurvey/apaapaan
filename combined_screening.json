@@ -44,7 +44,7 @@
         "ob_zone": null,
         "fvg_zone": "304 - 308",
         "strong_low": 272.0,
-        "weak_high": 264.0
+        "weak_high": 266.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -87,7 +87,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "01.53 WIB"
+      "updated_at": "02.14 WIB"
     }
   ],
   "logika_baru_calon_ara": [],
@@ -358,7 +358,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-28 01:54:27 WIB",
+    "generated_at": "2026-11-28 02:14:56 WIB",
     "date": "2026-11-28",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
