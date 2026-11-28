@@ -88,7 +88,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "16.52 WIB"
+      "updated_at": "17.12 WIB"
     },
     {
       "rank": 2,
@@ -134,7 +134,7 @@
         "ob_zone": null,
         "fvg_zone": "308 - 312",
         "strong_low": 296.0,
-        "weak_high": 264.0
+        "weak_high": 266.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -177,7 +177,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "16.52 WIB"
+      "updated_at": "17.12 WIB"
     }
   ],
   "logika_baru_calon_ara": [
@@ -236,10 +236,10 @@
       "d2_body_pct": 0.5,
       "d2_vol_ratio_ma20": 0.09,
       "m1_last15_green": 10,
-      "m1_close_vs_vwap": -2.18,
+      "m1_close_vs_vwap": -1.11,
       "m1_close_pos_intra": 0.538,
-      "m1_high_timing": 0.375,
-      "m1_n_bars": 72,
+      "m1_high_timing": 0.378,
+      "m1_n_bars": 74,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": true,
@@ -258,15 +258,13 @@
         "Closing momentum OK: 10/14 bar hijau",
         "Broker signal: Big Accumulation (+10 poin)"
       ],
-      "signals_negative": [
-        "Close di bawah VWAP: -2.2%"
-      ],
+      "signals_negative": [],
       "universe_sources": [
         "GURU_94",
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:53 WIB"
+      "generated_at": "17:13 WIB"
     },
     {
       "ticker": "PSDN",
@@ -323,7 +321,7 @@
       "d2_body_pct": 0.385,
       "d2_vol_ratio_ma20": 1.87,
       "m1_last15_green": 13,
-      "m1_close_vs_vwap": 11.08,
+      "m1_close_vs_vwap": 5.2,
       "m1_close_pos_intra": 1.0,
       "m1_high_timing": 0.953,
       "m1_n_bars": 255,
@@ -342,7 +340,7 @@
         "Range expansion: 2.4x avg-5d",
         "Harga di atas MA20",
         "Close intraday kuat: 1.00 (mendekati high harian)",
-        "Close di atas VWAP: +11.1%",
+        "Close di atas VWAP: +5.2%",
         "High intraday di akhir sesi (95%)",
         "Broker signal: Big Accumulation (+10 poin)"
       ],
@@ -355,7 +353,7 @@
         "SCREENER_TOP_VALUE"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:53 WIB"
+      "generated_at": "17:13 WIB"
     },
     {
       "ticker": "PICO",
@@ -412,10 +410,10 @@
       "d2_body_pct": 0.0,
       "d2_vol_ratio_ma20": 3.77,
       "m1_last15_green": 13,
-      "m1_close_vs_vwap": -3.99,
+      "m1_close_vs_vwap": -2.06,
       "m1_close_pos_intra": 0.292,
       "m1_high_timing": 0.045,
-      "m1_n_bars": 199,
+      "m1_n_bars": 200,
       "m1_data_available": true,
       "above_ma20": true,
       "above_ma50": false,
@@ -435,15 +433,15 @@
         "Broker signal: Big Accumulation (+10 poin)"
       ],
       "signals_negative": [
-        "Closing flat bias: 11/14 bar flat — indikasi tidak aktif",
-        "Close di bawah VWAP: -4.0%",
+        "Closing flat bias: 12/14 bar flat — indikasi tidak aktif",
+        "Close di bawah VWAP: -2.1%",
         "High intraday di awal sesi (4%) — profit taking sore"
       ],
       "universe_sources": [
         "GURU_94"
       ],
       "warning": "⚠️ FALSE SIGNAL RATE TINGGI (~85-90%). Pipeline ini mendeteksi Tipe 1 (Continuation) dan Tipe 2 (Silent Accumulation). Tipe 3 (Out of Nowhere, ~48% ARA nyata) TIDAK BISA dideteksi dari OHLCV. Gunakan sebagai WATCHLIST saja. Konfirmasi dengan broker flow, news, dan analisis manual sebelum eksekusi.",
-      "generated_at": "16:53 WIB"
+      "generated_at": "17:13 WIB"
     }
   ],
   "bsjp_beli_sore_jual_pagi": [
@@ -727,14 +725,14 @@
       "close": 910.0,
       "near_52w_pct": 90.5,
       "wk_rsi": 59.1,
-      "wk_adx": 43.3,
+      "wk_adx": 43.6,
       "mo_rsi": 82.2,
       "wk_obv_above_ma": true,
       "target_pct": 0.2,
       "stop_loss_pct": 0.1,
       "max_hold_days": 60,
       "signals_positive": [
-        "Near 52W High (91%) + Wk RSI (59) + Wk ADX (43) — WR 38.7% (hit +20%, 60 hari)",
+        "Near 52W High (91%) + Wk RSI (59) + Wk ADX (44) — WR 38.7% (hit +20%, 60 hari)",
         "Monthly RSI kuat (82)",
         "Weekly OBV di atas MA20 — akumulasi jangka panjang",
         "Di atas MA200 Daily — tren primer bullish"
@@ -767,7 +765,7 @@
   ],
   "meta": {
     "status": "success",
-    "generated_at": "2026-11-28 16:54:11 WIB",
+    "generated_at": "2026-11-28 17:14:12 WIB",
     "date": "2026-11-28",
     "mode": "FULL_STOCKBIT",
     "session_label": "PRE_MARKET_WEEKEND (Saturday)",
