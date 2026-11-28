@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "generated_at": "2026-11-28 09:33:50 WIB",
+  "generated_at": "2026-11-28 09:52:53 WIB",
   "date": "2026-11-28",
   "mode": "FULL_STOCKBIT",
   "session_label": "PRE_MARKET_WEEKEND (Saturday)",
@@ -8,8 +8,8 @@
   "mode_warning": null,
   "total_saham": 2,
   "market_context": {
-    "ihsg_close": 5242,
-    "ihsg_change_pct": 0.86,
+    "ihsg_close": 5338,
+    "ihsg_change_pct": 1.84,
     "ihsg_trend": "BEARISH",
     "ihsg_above_ma50": false,
     "market_safe": true,
@@ -131,7 +131,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "09.33 WIB"
+      "updated_at": "09.51 WIB"
     },
     {
       "rank": 2,
@@ -177,7 +177,7 @@
         "ob_zone": null,
         "fvg_zone": "308 - 312",
         "strong_low": 296.0,
-        "weak_high": 266.0
+        "weak_high": 264.0
       },
       "entry_plan": {
         "whipsaw_risk": "HIGH",
@@ -220,7 +220,7 @@
         "✅ Harga di zona FVG aktif"
       ],
       "warnings": [],
-      "updated_at": "09.33 WIB"
+      "updated_at": "09.51 WIB"
     }
   ]
 }
